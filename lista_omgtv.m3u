@@ -59,7 +59,9 @@ https://vavoo.to/vavoo-iptv/play/27199536882db77bf0ce4c
 https://vavoo.to/vavoo-iptv/play/3743894403dc7e6005c138
 #EXTINF:-1 tvg-id="classica.hd.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/CLA_HD_Logo-CENT-300ppi_CMYK.jpg" group-title="Altro",CLASSICA
 https://vavoo.to/vavoo-iptv/play/640609226bada55274ff
-#EXTINF:-1 tvg-id="comedy.central.it" tvg-logo="https://yt3.googleusercontent.com/FPzu1EWCI54fIh2j9JEp0NOzwoeugjL4sZTQCdoxoQY1U4QHyKx2L3wPSw27IueuZGchIxtKfv8=s900-c-k-c0x00ffffff-no-rj" group-title="Altro",COMEDY CENTRAL
+#EXTINF:-1 tvg-id="comedy.central.it" tvg-logo="https://yt3.googleusercontent.com/FPzu1EWCI54fIh2j9JEp0NOzwoeugjL4sZTQCdoxoQY1U4QHyKx2L3wPSw27IueuZGchIxtKfv8=s900-c-k-c0x00ffffff-no-rj" group-title="Altro",COMEDY CENTRAL (1)
+https://vavoo.to/vavoo-iptv/play/365827745096a993ffc066
+#EXTINF:-1 tvg-id="comedy.central.it" tvg-logo="https://yt3.googleusercontent.com/FPzu1EWCI54fIh2j9JEp0NOzwoeugjL4sZTQCdoxoQY1U4QHyKx2L3wPSw27IueuZGchIxtKfv8=s900-c-k-c0x00ffffff-no-rj" group-title="Altro",COMEDY CENTRAL (2)
 https://vavoo.to/vavoo-iptv/play/433893159bf516cde9a97
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.trendcomunicazione.com/wp-content/uploads/2018/11/20180416-logo-tv-bokka-300x155.png" group-title="Altro",COMPANY TV (1)
 https://vavoo.to/vavoo-iptv/play/1322483308506652cfc631
@@ -67,6 +69,8 @@ https://vavoo.to/vavoo-iptv/play/1322483308506652cfc631
 https://vavoo.to/vavoo-iptv/play/12254846645cb5a95a1f30
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.arvedi.it/fileadmin/user_upload/istituzionale/gruppo-arvedi-e-informazione-logo-Cremona1.png" group-title="Altro",CREMONA 1
 https://vavoo.to/vavoo-iptv/play/4137427510ef362e6435fc
+#EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/c2HegRLQmaQFJXROyFH-phglfaZzQ-vikbZ464ZVJGfW8kX9jQuLACb2TIlydv1apsg" group-title="Altro",CUSANO ITALIA TV
+https://vavoo.to/vavoo-iptv/play/315609263941db18c5ca85
 #EXTINF:-1 tvg-id="dmax.it" tvg-logo="https://cdn.cookielaw.org/logos/50417659-aa29-4f7f-b59d-f6e887deed53/a32be519-de41-40f4-abed-d2934ba6751b/9a44af24-5ca6-4098-aa95-594755bd7b2d/dmax_logo.png" group-title="Altro",DMAX (1)
 https://vavoo.to/vavoo-iptv/play/3008151733b9915486ff45
 #EXTINF:-1 tvg-id="dmax.it" tvg-logo="https://cdn.cookielaw.org/logos/50417659-aa29-4f7f-b59d-f6e887deed53/a32be519-de41-40f4-abed-d2934ba6751b/9a44af24-5ca6-4098-aa95-594755bd7b2d/dmax_logo.png" group-title="Altro",DMAX (2)
@@ -363,6 +367,8 @@ https://vavoo.to/vavoo-iptv/play/1249978054d9101729f51f
 https://vavoo.to/vavoo-iptv/play/24994885846c204e8b0b86
 #EXTINF:-1 tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kAZM1WRzE6qfQx90xPJ3v1Jz1gaJwn6BbrZcewu6eTcQ=s900-c-k-c0x00ffffff-no-rj" group-title="Altro",VIDEOTOLENTINO
 https://vavoo.to/vavoo-iptv/play/201531251001a1e9936f4c
+#EXTINF:-1 tvg-id="warner.tv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Warner_TV_Italy.svg/1200px-Warner_TV_Italy.svg.png" group-title="Altro",WARNER TV
+https://vavoo.to/vavoo-iptv/play/3171202588cf85ec4cba3f
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/8c/WWE_Network_logo.jpeg" group-title="Altro",WWE CHANNEL
 https://vavoo.to/vavoo-iptv/play/2989824407cb0184041b08
 
@@ -413,6 +419,10 @@ https://vavoo.to/vavoo-iptv/play/313448120145a6443975e1
 https://vavoo.to/vavoo-iptv/play/4774665319f73c392df0e
 #EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Mediaset",MEDIASET INFINITY+ 1
 https://vavoo.to/vavoo-iptv/play/3599959739ed5ed2f1f0cd
+#EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Mediaset",MEDIASET INFINITY+ 2
+https://vavoo.to/vavoo-iptv/play/2436070507988d651c6548
+#EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Mediaset",MEDIASET INFINITY+ 5
+https://vavoo.to/vavoo-iptv/play/588488827b855babc9df4
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.italiasera.it/wp-content/uploads/2019/06/Mediaset-640x366.png" group-title="Mediaset",MEDIASET ITALIA
 https://vavoo.to/vavoo-iptv/play/198956233782673579c94b
 #EXTINF:-1 tvg-id="mediasetitalia2hd.it" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/c/c5/Logo_Italia2.svg/520px-Logo_Italia2.svg.png" group-title="Mediaset",MEDIASET ITALIA 2
@@ -531,16 +541,12 @@ https://daddylive.sx/stream/stream-874.php
 https://daddylive.sx/stream/stream-875.php
 #EXTINF:-1 tvg-id="sky.sport..256.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Sky_Sport_-_Logo_2020.svg/2560px-Sky_Sport_-_Logo_2020.svg.png" group-title="Sport",SKY SPORT 256 (D)
 https://daddylive.sx/stream/stream-876.php
-#EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA (1)
+#EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA
 https://vavoo.to/vavoo-iptv/play/3007400791d5bc640207c3
-#EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA (2)
-https://vavoo.to/vavoo-iptv/play/25559607139e6fd9b93dd6
 #EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA (D)
 https://daddylive.sx/stream/stream-462.php
-#EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (1)
+#EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO
 https://vavoo.to/vavoo-iptv/play/1665920101d5db640ce7e6
-#EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (2)
-https://vavoo.to/vavoo-iptv/play/449990998077a7691828f
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (D)
 https://daddylive.sx/stream/stream-870.php
 #EXTINF:-1 tvg-id="sky.sport.f1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sport",SKY SPORT F1
@@ -639,6 +645,8 @@ https://vavoo.to/vavoo-iptv/play/3229664409bbe85d51bba2
 https://vavoo.to/vavoo-iptv/play/18068154966d18d1d58a9c
 #EXTINF:-1 tvg-id="sky.arte.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari",SKY ARTE (2)
 https://vavoo.to/vavoo-iptv/play/1902695925283bcfc576b0
+#EXTINF:-1 tvg-id="sky.documentaries.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-documentaries-it.png" group-title="Documentari",SKY DOCUMENTARIES
+https://vavoo.to/vavoo-iptv/play/46428198113d67e3a4e0e
 #EXTINF:-1 tvg-id="sky.nature.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-nature-it.png" group-title="Documentari",SKY NATURE
 https://vavoo.to/vavoo-iptv/play/3810188456875f4898bef2
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Documentari",TELEPACE TRENTO (HISTORY LAB)
@@ -723,9 +731,7 @@ https://daddylive.sx/stream/stream-861.php
 https://vavoo.to/vavoo-iptv/play/352583705711c4cbe44bbb
 #EXTINF:-1 tvg-id="sky.cinema.collection.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Film - Serie TV",SKY CINEMA COLLECTION (D)
 https://daddylive.sx/stream/stream-859.php
-#EXTINF:-1 tvg-id="sky.cinema.comedy.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Film - Serie TV",SKY CINEMA COMEDY (1)
-https://vavoo.to/vavoo-iptv/play/500203271d58941028e95
-#EXTINF:-1 tvg-id="sky.cinema.comedy.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Film - Serie TV",SKY CINEMA COMEDY (2)
+#EXTINF:-1 tvg-id="sky.cinema.comedy.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Film - Serie TV",SKY CINEMA COMEDY
 https://vavoo.to/vavoo-iptv/play/3131104474771735b548ce
 #EXTINF:-1 tvg-id="sky.cinema.drama.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Film - Serie TV",SKY CINEMA DRAMA
 https://vavoo.to/vavoo-iptv/play/123553017707540030adf9
@@ -915,113 +921,234 @@ https://vavoo.to/vavoo-iptv/play/1890950169c0c68782bbe1
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="worldcupqualifyingitalyvsestonia" tvg-name="Soccer | World Cup Qualifying : Italy vs Estonia (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Italy_vs_Estonia.png" group-title="Eventi Live",Soccer | World Cup Qualifying : Italy vs Estonia (20:45)
-https://daddylive.sx/stream/stream-850.php
+#EXTINF:-1 tvg-id="italyseriecalcionevslumezzane" tvg-name="Soccer | Italy - Serie C : Alcione vs Lumezzane (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Alcione_vs_Lumezzane.png" group-title="Eventi Live",Soccer | Italy - Serie C : Alcione vs Lumezzane (15:00)
+https://daddylive.sx/stream/stream-164.php
 
-#EXTINF:-1 tvg-id="worldcupqualifyingukrainevsfrance" tvg-name="Soccer | World Cup Qualifying : Ukraine vs France (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Ukraine_vs_France.png" group-title="Eventi Live",Soccer | World Cup Qualifying : Ukraine vs France (20:45)
+#EXTINF:-1 tvg-id="italyseriecalbinoleffevsrenate" tvg-name="Soccer | Italy - Serie C : AlbinoLeffe vs Renate (15:00)" tvg-logo="https://i.pinimg.com/originals/de/83/ca/de83ca30040d19f11121e741bd327399.png" group-title="Eventi Live",Soccer | Italy - Serie C : AlbinoLeffe vs Renate (15:00)
+https://daddylive.sx/stream/stream-165.php
+
+#EXTINF:-1 tvg-id="italyseriecgubbiovsperugia" tvg-name="Soccer | Italy - Serie C : Gubbio vs Perugia (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Gubbio_vs_Perugia.png" group-title="Eventi Live",Soccer | Italy - Serie C : Gubbio vs Perugia (15:00)
+https://daddylive.sx/stream/stream-166.php
+
+#EXTINF:-1 tvg-id="italyserieawomenscupromavsmilan" tvg-name="Soccer | Italy - Serie A Women’s Cup : Roma vs Milan (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Roma_vs_Milan.png" group-title="Eventi Live",Soccer | Italy - Serie A Women’s Cup : Roma vs Milan (15:00)
+https://daddylive.sx/stream/stream-870.php
+
+#EXTINF:-1 tvg-id="worldcupqualifyinglatviavsserbia" tvg-name="Soccer | World Cup Qualifying : Latvia vs Serbia (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Latvia_vs_Serbia.png" group-title="Eventi Live",Soccer | World Cup Qualifying : Latvia vs Serbia (15:00)
+https://daddylive.sx/stream/stream-462.php
+
+#EXTINF:-1 tvg-id="italyseriecarezzovsvispesaro" tvg-name="Soccer | Italy - Serie C : Arezzo vs Vis Pesaro (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Arezzo_vs_Vis Pesaro.png" group-title="Eventi Live",Soccer | Italy - Serie C : Arezzo vs Vis Pesaro (17:30)
+https://daddylive.sx/stream/stream-167.php
+
+#EXTINF:-1 tvg-id="italyseriecascolivsjuventusii" tvg-name="Soccer | Italy - Serie C : Ascoli vs Juventus II (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Ascoli_vs_Juventus II.png" group-title="Eventi Live",Soccer | Italy - Serie C : Ascoli vs Juventus II (17:30)
+https://daddylive.sx/stream/stream-166.php
+
+#EXTINF:-1 tvg-id="italyseriecsassaritorresvspianese" tvg-name="Soccer | Italy - Serie C : Sassari Torres vs Pianese (17:30)" group-title="Eventi Live",Soccer | Italy - Serie C : Sassari Torres vs Pianese (17:30)
+https://daddylive.sx/stream/stream-168.php
+
+#EXTINF:-1 tvg-id="italyseriecathleticcarpivscampobasso" tvg-name="Soccer | Italy - Serie C : Athletic Carpi vs Campobasso (17:30)" tvg-logo="https://cb1919.com/wp-content/uploads/2023/06/cropped-1D_2023-logo-Campobasso-FC-def-web.png" group-title="Eventi Live",Soccer | Italy - Serie C : Athletic Carpi vs Campobasso (17:30)
+https://daddylive.sx/stream/stream-169.php
+
+#EXTINF:-1 tvg-id="italyseriecsorrentovstrapani1905" tvg-name="Soccer | Italy - Serie C : Sorrento vs Trapani 1905 (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Sorrento_vs_Trapani 1905.png" group-title="Eventi Live",Soccer | Italy - Serie C : Sorrento vs Trapani 1905 (17:30)
+https://daddylive.sx/stream/stream-165.php
+
+#EXTINF:-1 tvg-id="italyseriecgiuglianovsfoggia" tvg-name="Soccer | Italy - Serie C : Giugliano vs Foggia (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Giugliano_vs_Foggia.png" group-title="Eventi Live",Soccer | Italy - Serie C : Giugliano vs Foggia (17:30)
+https://daddylive.sx/stream/stream-164.php
+
+#EXTINF:-1 tvg-id="italyseriecgiuglianovsfoggia" tvg-name="Soccer | Italy - Serie C : Giugliano vs Foggia (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Giugliano_vs_Foggia.png" group-title="Eventi Live",Soccer | Italy - Serie C : Giugliano vs Foggia (17:30)
 https://daddylive.sx/stream/stream-460.php
+
+#EXTINF:-1 tvg-id="italyseriecpergolettesevscittadella" tvg-name="Soccer | Italy - Serie C : Pergolettese vs Cittadella (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Pergolettese_vs_Cittadella.png" group-title="Eventi Live",Soccer | Italy - Serie C : Pergolettese vs Cittadella (20:30)
+https://daddylive.sx/stream/stream-169.php
+
+#EXTINF:-1 tvg-id="italyseriecunionbresciavsprovercelli" tvg-name="Soccer | Italy - Serie C : Union Brescia vs Pro Vercelli (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Union Brescia_vs_Pro Vercelli.png" group-title="Eventi Live",Soccer | Italy - Serie C : Union Brescia vs Pro Vercelli (20:30)
+https://daddylive.sx/stream/stream-164.php
+
+#EXTINF:-1 tvg-id="italyseriecvirtuscasaranovsbenevento" tvg-name="Soccer | Italy - Serie C : Virtus Casarano vs Benevento (20:30)" tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e2549f68807889.5b6a14e3d8914.png" group-title="Eventi Live",Soccer | Italy - Serie C : Virtus Casarano vs Benevento (20:30)
+https://daddylive.sx/stream/stream-165.php
+
+#EXTINF:-1 tvg-id="italyserieccasertanavspotenzacalcio" tvg-name="Soccer | Italy - Serie C : Casertana vs Potenza Calcio (20:30)" tvg-logo="https://www.fcsorrento.com/wp-content/uploads/2023/08/Logo-Potenza.png" group-title="Eventi Live",Soccer | Italy - Serie C : Casertana vs Potenza Calcio (20:30)
+https://daddylive.sx/stream/stream-167.php
+
+#EXTINF:-1 tvg-id="italyserieccataniavsmonopoli" tvg-name="Soccer | Italy - Serie C : Catania vs Monopoli (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Catania_vs_Monopoli.png" group-title="Eventi Live",Soccer | Italy - Serie C : Catania vs Monopoli (20:30)
+https://daddylive.sx/stream/stream-166.php
+
+#EXTINF:-1 tvg-id="usopenround1day14" tvg-name="Tennis | US Open Round 1 | Day 14 (16:00)" tvg-logo="https://cdn.mybookie.ag/wp-content/uploads/theOpen.png" group-title="Eventi Live",Tennis | US Open Round 1 | Day 14 (16:00)
+https://daddylive.sx/stream/stream-576.php
+
+#EXTINF:-1 tvg-id="usopenround1day14" tvg-name="Tennis | US Open Round 1 | Day 14 (16:00)" tvg-logo="https://cdn.mybookie.ag/wp-content/uploads/theOpen.png" group-title="Eventi Live",Tennis | US Open Round 1 | Day 14 (16:00)
+https://daddylive.sx/stream/stream-462.php
+
+#EXTINF:-1 tvg-id="usopenround1day14" tvg-name="Tennis | US Open Round 1 | Day 14 (16:00)" tvg-logo="https://cdn.mybookie.ag/wp-content/uploads/theOpen.png" group-title="Eventi Live",Tennis | US Open Round 1 | Day 14 (16:00)
+https://daddylive.sx/stream/stream-461.php
+
+#EXTINF:-1 tvg-id="usopenround1day14" tvg-name="Tennis | US Open Round 1 | Day 14 (16:00)" tvg-logo="https://cdn.mybookie.ag/wp-content/uploads/theOpen.png" group-title="Eventi Live",Tennis | US Open Round 1 | Day 14 (16:00)
+https://daddylive.sx/stream/stream-460.php
+
+#EXTINF:-1 tvg-id="usopenround1day14" tvg-name="Tennis | US Open Round 1 | Day 14 (16:00)" tvg-logo="https://cdn.mybookie.ag/wp-content/uploads/theOpen.png" group-title="Eventi Live",Tennis | US Open Round 1 | Day 14 (16:00)
+https://daddylive.sx/stream/stream-878.php
+
+#EXTINF:-1 tvg-id="usopenround1day14" tvg-name="Tennis | US Open Round 1 | Day 14 (16:00)" tvg-logo="https://cdn.mybookie.ag/wp-content/uploads/theOpen.png" group-title="Eventi Live",Tennis | US Open Round 1 | Day 14 (16:00)
+https://daddylive.sx/stream/stream-879.php
+
+#EXTINF:-1 tvg-id="moto3grandprixofcataloniafreepractice2" tvg-name="Motorsports | Moto 3 : Grand Prix of Catalonia Free Practice 2 (08:30)" tvg-logo="https://s3.sky.ch/img/images/competition/logo/508.png" group-title="Eventi Live",Motorsports | Moto 3 : Grand Prix of Catalonia Free Practice 2 (08:30)
+https://daddylive.sx/stream/stream-575.php
+
+#EXTINF:-1 tvg-id="formula3pirelliitaliangrandprixsprintrace" tvg-name="Motorsports | Formula 3 : Pirelli Italian Grand Prix - Sprint Race (08:15)" tvg-logo="https://images.seeklogo.com/logo-png/5/2/formula-3-euro-series-logo-png_seeklogo-56757.png" group-title="Eventi Live",Motorsports | Formula 3 : Pirelli Italian Grand Prix - Sprint Race (08:15)
+https://daddylive.sx/stream/stream-577.php
+
+#EXTINF:-1 tvg-id="moto2grandprixofcataloniafreepractice2" tvg-name="Motorsports | Moto 2 : Grand Prix of Catalonia Free Practice 2 (09:20)" tvg-logo="https://www.24helmets.de/media/image/dd/48/e1/MotoII_BLK_1.png" group-title="Eventi Live",Motorsports | Moto 2 : Grand Prix of Catalonia Free Practice 2 (09:20)
+https://daddylive.sx/stream/stream-575.php
+
+#EXTINF:-1 tvg-id="motogpgrandprixofcataloniaqualifying" tvg-name="Motorsports | MotoGP : Grand Prix of Catalonia Qualifying (10:00)" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/11/MotoGP-Logo-2024.png" group-title="Eventi Live",Motorsports | MotoGP : Grand Prix of Catalonia Qualifying (10:00)
+https://daddylive.sx/stream/stream-575.php
+
+#EXTINF:-1 tvg-id="formula1pirelliitaliangrandprixpractice3" tvg-name="Motorsports | Formula 1 : Pirelli Italian Grand Prix - Practice 3 (12:30)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live",Motorsports | Formula 1 : Pirelli Italian Grand Prix - Practice 3 (12:30)
+https://daddylive.sx/stream/stream-577.php
+
+#EXTINF:-1 tvg-id="moto3grandprixofcataloniaqualifying" tvg-name="Motorsports | Moto 3 : Grand Prix of Catalonia Qualifying (12:45)" tvg-logo="https://s3.sky.ch/img/images/competition/logo/508.png" group-title="Eventi Live",Motorsports | Moto 3 : Grand Prix of Catalonia Qualifying (12:45)
+https://daddylive.sx/stream/stream-575.php
+
+#EXTINF:-1 tvg-id="worldchampionshiptrkiyemxgprace1" tvg-name="Motorsports | World Championship T?rkiye | MXGP | Race 1 (13:00)" tvg-logo="https://mxgp.hondaracingcorporation.com/wp-content/uploads/sites/4/2017/10/65ba90f9084120.39009782.png" group-title="Eventi Live",Motorsports | World Championship T?rkiye | MXGP | Race 1 (13:00)
+https://daddylive.sx/stream/stream-879.php
+
+#EXTINF:-1 tvg-id="moto2grandprixofcataloniaqualifying" tvg-name="Motorsports | Moto 2 : Grand Prix of Catalonia Qualifying (13:40)" tvg-logo="https://www.agendatv-auto-moto.com/images/visuels/competition_moto_2_11112020172831.png" group-title="Eventi Live",Motorsports | Moto 2 : Grand Prix of Catalonia Qualifying (13:40)
+https://daddylive.sx/stream/stream-575.php
+
+#EXTINF:-1 tvg-id="formula2pirelliitaliangrandprixsprintrace" tvg-name="Motorsports | Formula 2 : Pirelli Italian Grand Prix - Sprint Race (14:15)" tvg-logo="https://assets.antenaplay.ro/2024/02/28/YW9VML2K4hpFUKMHme97.png" group-title="Eventi Live",Motorsports | Formula 2 : Pirelli Italian Grand Prix - Sprint Race (14:15)
+https://daddylive.sx/stream/stream-577.php
+
+#EXTINF:-1 tvg-id="motogpgrandprixofcataloniasprintrace" tvg-name="Motorsports | MotoGP : Grand Prix of Catalonia Sprint Race (14:45)" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/11/MotoGP-Logo-2024.png" group-title="Eventi Live",Motorsports | MotoGP : Grand Prix of Catalonia Sprint Race (14:45)
+https://daddylive.sx/stream/stream-575.php
+
+#EXTINF:-1 tvg-id="formula1pirelliitaliangrandprixqualifying" tvg-name="Motorsports | Formula 1 : Pirelli Italian Grand Prix - Qualifying (16:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live",Motorsports | Formula 1 : Pirelli Italian Grand Prix - Qualifying (16:00)
+https://daddylive.sx/stream/stream-577.php
+
+#EXTINF:-1 tvg-id="worldchampionshiptrkiyemxgprace2" tvg-name="Motorsports | World Championship T?rkiye | MXGP | Race 2 (16:15)" tvg-logo="https://dymaxion.com.ar/wp-content/uploads/2024/11/MXGP.png" group-title="Eventi Live",Motorsports | World Championship T?rkiye | MXGP | Race 2 (16:15)
+https://daddylive.sx/stream/stream-879.php
+
+#EXTINF:-1 tvg-id="ufcfightnight269maincardnassourdineimavovvscaioborralho" tvg-name="MMA | UFC Fight Night 269 Main Card : Nassourdine Imavov vs Caio Borralho (21:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Nassourdine Imavov_vs_Caio Borralho.png" group-title="Eventi Live",MMA | UFC Fight Night 269 Main Card : Nassourdine Imavov vs Caio Borralho (21:00)
+https://daddylive.sx/stream/stream-879.php
+
+#EXTINF:-1 tvg-id="worldcupcoppermensandwomensleadfinal" tvg-name="Climbing | World Cup | Copper Men's and Women's Lead | Final (20:00)" tvg-logo="https://png.pngtree.com/png-clipart/20221024/original/pngtree-icc-t20-world-cup-trophy-png-image_8717575.png" group-title="Eventi Live",Climbing | World Cup | Copper Men's and Women's Lead | Final (20:00)
+https://daddylive.sx/stream/stream-879.php
+
+#EXTINF:-1 tvg-id="lavueltaaespañastage14mountain135km3800m" tvg-name="Cycling | La Vuelta a España: Stage 14 Mountain | 135 km | 3800 m (13:15)" tvg-logo="https://www.sportpools.net/dist/images/logos/logo-vuelta.png" group-title="Eventi Live",Cycling | La Vuelta a España: Stage 14 Mountain | 135 km | 3800 m (13:15)
+https://daddylive.sx/stream/stream-878.php
+
+#EXTINF:-1 tvg-id="rugbychampionshipaustraliavsargentina" tvg-name="Rugby Union | Rugby Championship : Australia vs Argentina (06:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Australia_vs_Argentina.png" group-title="Eventi Live",Rugby Union | Rugby Championship : Australia vs Argentina (06:30)
+https://daddylive.sx/stream/stream-462.php
+
+#EXTINF:-1 tvg-id="worldchampionshipwomenjapanwvsturkeyw" tvg-name="Volleyball | World Championship Women : Japan W vs Turkey W (10:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Japan W_vs_Turkey W.png" group-title="Eventi Live",Volleyball | World Championship Women : Japan W vs Turkey W (10:30)
+https://daddylive.sx/stream/stream-882.php
+
+#EXTINF:-1 tvg-id="worldchampionshipwomenjapanwvsturkeyw" tvg-name="Volleyball | World Championship Women : Japan W vs Turkey W (10:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Japan W_vs_Turkey W.png" group-title="Eventi Live",Volleyball | World Championship Women : Japan W vs Turkey W (10:30)
+https://daddylive.sx/stream/stream-877.php
+
+#EXTINF:-1 tvg-id="worldchampionshipwomenitalywvsbrazilw" tvg-name="Volleyball | World Championship Women : Italy W vs Brazil W (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Italy W_vs_Brazil W.png" group-title="Eventi Live",Volleyball | World Championship Women : Italy W vs Brazil W (14:30)
+https://daddylive.sx/stream/stream-882.php
+
+#EXTINF:-1 tvg-id="worldchampionshipwomenitalywvsbrazilw" tvg-name="Volleyball | World Championship Women : Italy W vs Brazil W (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Italy W_vs_Brazil W.png" group-title="Eventi Live",Volleyball | World Championship Women : Italy W vs Brazil W (14:30)
+https://daddylive.sx/stream/stream-877.php
 
 
 #EXTINF:-1 tvg-id="babytv.it" tvg-name="Baby TV (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/111018013256baby.jpg" group-title="Bambini",Baby TV (TVT)
-http://stream.mardio.link:8081/live/it-babytv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTU6MjMgUE0maGFzaF92YWx1ZT1IZFFXUDA3OWF3ZlkvTDU2YldiTU9nPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1MjMzNTY=
+http://stream.mardio.link:8081/live/it-babytv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxMzoyMCBBTSZoYXNoX3ZhbHVlPUFncmNkRFh3NEJxWEtLOWxXcURscUE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTIwMDI1OQ==
 #EXTINF:-1 tvg-id="boomerang.it" tvg-name="Boomerang (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/111018013155boome.gif" group-title="Altro",Boomerang (TVT)
-http://stream.mardio.link:8081/live/it-boomerang.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTU6MjUgUE0maGFzaF92YWx1ZT1YUzBVMm56enZDRmRVWjJQZzBtUHV3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1MjUwMTI=
+http://stream.mardio.link:8081/live/it-boomerang.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxMzoyMSBBTSZoYXNoX3ZhbHVlPVBtYUZ4VUd5K1YvRWh1R2hWdnFmeUE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTIwMTk2Mg==
 #EXTINF:-1 tvg-id="canale.5.it" tvg-name="Canale 5 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/13121701250455.gif" group-title="Mediaset",Canale 5 (TVT)
-http://stream.mardio.link:8081/live/it-canale5.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTU6MjYgUE0maGFzaF92YWx1ZT0ycmg0MStyS3ZaclZ1YnJFOE1UQklRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1MjY2MzI=
+http://stream.mardio.link:8081/live/it-canale5.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxMzoyMyBBTSZoYXNoX3ZhbHVlPUsxbU9jaFFNQXBrSFd3UU40ZUhUZ1E9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTIwMzYyMA==
 #EXTINF:-1 tvg-id="classica.hd.it" tvg-name="Classica (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/111018012907classica.png" group-title="Altro",Classica (TVT)
-http://stream.mardio.link:8081/live/it-classica.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTU6MjkgUE0maGFzaF92YWx1ZT13NzhnbytWNjg0WDQ0WUdUVlZpVk1BPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1Mjk2NzY=
+http://stream.mardio.link:8081/live/it-classica.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxMzoyNiBBTSZoYXNoX3ZhbHVlPTlwWThMM0tIcG1nZEQ5bnlKVjFiNGc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTIwNjczMA==
 #EXTINF:-1 tvg-id="" tvg-name="Comedy Central- (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/130818012353comedy.png" group-title="Altro",Comedy Central- (TVT)
-http://stream.mardio.link:8081/live/it-comedycentral.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTU6MzEgUE0maGFzaF92YWx1ZT1YVE82ZmhHVWNaamNuSDdxYlc3VXVnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1MzEyODc=
+http://stream.mardio.link:8081/live/it-comedycentral.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxMzoyOCBBTSZoYXNoX3ZhbHVlPU9uaG1hTk0relZPK3FzMmdPbkcvWFE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTIwODM4NA==
 #EXTINF:-1 tvg-id="deakids.it" tvg-name="Dea Kids (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/121118053223db.php" group-title="Altro",Dea Kids (TVT)
-http://stream.mardio.link:8081/live/it-deakids.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTU6NDggUE0maGFzaF92YWx1ZT14RWp2cjh5MndIQXgvR3p4UWl5Q1ZBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NDgxNDM=
+http://stream.mardio.link:8081/live/it-deakids.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxMzo0NiBBTSZoYXNoX3ZhbHVlPTRaQmQ4ZzhuUC9UVkZ0L3pDd3Z0cXc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTIyNjI4OA==
 #EXTINF:-1 tvg-id="discovery.it" tvg-name="Discovery (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/020518010950dis.jpg" group-title="Documentari",Discovery (TVT)
-http://stream.mardio.link:8081/live/it-discovery.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTU6NDkgUE0maGFzaF92YWx1ZT0vQit2QmFQM0xkWUxyZEFpTjNmSEVRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NDk3MzI=
+http://stream.mardio.link:8081/live/it-discovery.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxMzo0NyBBTSZoYXNoX3ZhbHVlPTA0dWN4ZzdXQzd3dE9kU1A1Wk5Qa3c9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTIyNzkwMA==
 #EXTINF:-1 tvg-id="dmax.it" tvg-name="Dmax (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/220518013431dmax.jpg" group-title="Altro",Dmax (TVT)
-http://stream.mardio.link:8081/live/it-dmax.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTU6NTUgUE0maGFzaF92YWx1ZT1oYnNaSno1U285cFV1SkdJT2ZhVFp3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NTU0NDc=
+http://stream.mardio.link:8081/live/it-dmax.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxMzo1MyBBTSZoYXNoX3ZhbHVlPVFITTYyZmN2T2VwdDh0bHp5bTVFbGc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTIzMzg2MQ==
 #EXTINF:-1 tvg-id="eurosport.2.it" tvg-name="Euro Sport 2 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/140518053309euro2.png" group-title="Sport",Euro Sport 2 (TVT)
-http://stream.mardio.link:8081/live/it-eurosport2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTU6NTggUE0maGFzaF92YWx1ZT1rTUdyVmNrdXlVSFo2N3VqTDJ4a1VRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NTg0MjU=
+http://stream.mardio.link:8081/live/it-eurosport2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxMzo1NiBBTSZoYXNoX3ZhbHVlPWFIYWdkUnBVNm1vYWZBYkJiTFpRZnc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTIzNjkwNg==
 #EXTINF:-1 tvg-id="history.it" tvg-name="History (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/131217013205his.jpg" group-title="Documentari",History (TVT)
-http://stream.mardio.link:8081/live/it-history.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTU6NTkgUE0maGFzaF92YWx1ZT1SWnB6alVmdnNibkJGa3NyQkd2T3FRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NTk5NDM=
+http://stream.mardio.link:8081/live/it-history.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxMzo1OCBBTSZoYXNoX3ZhbHVlPXlXSld5WXZPLytyM3RhMTFueExyWmc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTIzODUyNA==
 #EXTINF:-1 tvg-id="inter.tv.it" tvg-name="Inter Tv (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/250518014057inter.jpg" group-title="Sport",Inter Tv (TVT)
-http://stream.mardio.link:8081/live/it-intertv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MDEgUE0maGFzaF92YWx1ZT1xejdMZU9zWGNJaVBLSk9pemdPbzV3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NjE0NzE=
+http://stream.mardio.link:8081/live/it-intertv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDowMCBBTSZoYXNoX3ZhbHVlPWQwOWsySjVza2dPYUlMWlAvTEJtYmc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI0MDEyNQ==
 #EXTINF:-1 tvg-id="italia.1.it" tvg-name="Italia 1 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/131217013326it1.png" group-title="Mediaset",Italia 1 (TVT)
-http://stream.mardio.link:8081/live/it-italia1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MDMgUE0maGFzaF92YWx1ZT1CK0V2clQwaGRRbnRlRHhVZm1YNzR3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NjMwMTk=
+http://stream.mardio.link:8081/live/it-italia1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDowMSBBTSZoYXNoX3ZhbHVlPVNWNjd5eVlFT0I3enQ0MFozVnovbFE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI0MTczMA==
 #EXTINF:-1 tvg-id="" tvg-name="Lazio Style (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/150918123638lazo.png" group-title="Sport",Lazio Style (TVT)
-http://stream.mardio.link:8081/live/it-lazio.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MDYgUE0maGFzaF92YWx1ZT1tMGNXWUdxME1CbTZDeU9pSmU3bEVRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NjYwMjI=
+http://stream.mardio.link:8081/live/it-lazio.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDowNCBBTSZoYXNoX3ZhbHVlPStTVVRuM2VxSkt0dllFSFpQWDAvZXc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI0NDgzNg==
 #EXTINF:-1 tvg-id="" tvg-name="Mediaset 2 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/140518054804mediaset.jpg" group-title="Mediaset",Mediaset 2 (TVT)
-http://stream.mardio.link:8081/live/it-mediaset2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MDcgUE0maGFzaF92YWx1ZT0relhEYU9vZ0xPaHNCb1ZXOTNZY29nPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1Njc1Mzk=
+http://stream.mardio.link:8081/live/it-mediaset2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDowNiBBTSZoYXNoX3ZhbHVlPTlvQ29Ia1BQcUFXeEVCSDJxUk5sWkE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI0NjQzOA==
 #EXTINF:-1 tvg-id="" tvg-name="MediaSet Focus (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/250918041549Focus_New.png" group-title="Mediaset",MediaSet Focus (TVT)
-http://stream.mardio.link:8081/live/it-focus.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MTAgUE0maGFzaF92YWx1ZT1wY2VFZmROOUNSdEMrb092MGp6T3RnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NzA0NTg=
+http://stream.mardio.link:8081/live/it-focus.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDowOSBBTSZoYXNoX3ZhbHVlPW9td0xLSlg4RlZwNkd1MGpRVXFHckE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI0OTQ4NQ==
 #EXTINF:-1 tvg-id="milan.tv.it" tvg-name="Milan tv (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/220518013021milan.png" group-title="Sport",Milan tv (TVT)
-http://stream.mardio.link:8081/live/it-milantv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MTIgUE0maGFzaF92YWx1ZT1qcEdqeGxpUTlHMGx4MzBCL3Z3eitnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NzIwNDg=
+http://stream.mardio.link:8081/live/it-milantv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDoxMSBBTSZoYXNoX3ZhbHVlPWNISVRpaVBRNTZ4TXpqN0d1Q0kwMVE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI1MTEwMQ==
 #EXTINF:-1 tvg-id="" tvg-name="Nicklodean (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/310818124938nicku.png" group-title="Bambini",Nicklodean (TVT)
-http://stream.mardio.link:8081/live/it-nicklodeon.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MTMgUE0maGFzaF92YWx1ZT1sTXRmZDBGYTFYQk51VmwyZlBPWlVBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NzM1OTk=
+http://stream.mardio.link:8081/live/it-nicklodeon.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDoxMiBBTSZoYXNoX3ZhbHVlPXlIVGpuZHBHcHBYUXhpVWxJSnhNY3c9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI1MjcxMQ==
 #EXTINF:-1 tvg-id="nove.it" tvg-name="Nove (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/250918041937nove.png" group-title="Altro",Nove (TVT)
-http://stream.mardio.link:8081/live/it-nove.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MTUgUE0maGFzaF92YWx1ZT03cUVCZCs2MHN6eXQ1OW0zb0kvN0dnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NzUxMTg=
+http://stream.mardio.link:8081/live/it-nove.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDoxNCBBTSZoYXNoX3ZhbHVlPS9TUFNVaktNRXlxVkRVL1BiSmdmQmc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI1NDMxMQ==
 #EXTINF:-1 tvg-id="rai1.it" tvg-name="Rai 1 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/071217024326rai1.png" group-title="Rai",Rai 1 (TVT)
-http://stream.mardio.link:8081/live/it-rai1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MTYgUE0maGFzaF92YWx1ZT1RN0ZIR1BxTHZmYS9HVS9nV1dQclZnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NzY2NDU=
+http://stream.mardio.link:8081/live/it-rai1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDoxNSBBTSZoYXNoX3ZhbHVlPURTZVBwM1FPcmh5M25TYnBpNWhNbmc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI1NTkxNg==
 #EXTINF:-1 tvg-id="rai2.it" tvg-name="Rai 2 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/071217024432rai2.png" group-title="Rai",Rai 2 (TVT)
-http://stream.mardio.link:8081/live/it-rai2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MTggUE0maGFzaF92YWx1ZT1VeFVMNXRZdy9tRldKNFVGdS9POXRnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1NzgxNzc=
+http://stream.mardio.link:8081/live/it-rai2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDoxNyBBTSZoYXNoX3ZhbHVlPXgzYXg2czRxZE9YWDJBRVlmUzAveHc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI1NzUzMw==
 #EXTINF:-1 tvg-id="rai3.it" tvg-name="Rai 3 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/071217024513rai3.png" group-title="Rai",Rai 3 (TVT)
-http://stream.mardio.link:8081/live/it-rai3.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MTkgUE0maGFzaF92YWx1ZT00bllwb3NndTdCR0ZZQmphRTBPcFhBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1Nzk3NjQ=
-#EXTINF:-1 tvg-id="rai4.it" tvg-name="Rai 4 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/071217024545rai4.png" group-title="Rai",Rai 4 (TVT)
-http://stream.mardio.link:8081/live/it-rai4.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MjEgUE0maGFzaF92YWx1ZT1oaFpyeDBrOFNKYm9abW44cDZuUThnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1ODEzMTU=
+http://stream.mardio.link:8081/live/it-rai3.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDoxOSBBTSZoYXNoX3ZhbHVlPVp0UEc1U1NTZ0l5OG5QSitZOFZ6NGc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI1OTE0Mw==
 #EXTINF:-1 tvg-id="rai5.it" tvg-name="Rai 5 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/071217024754rai5.png" group-title="Rai",Rai 5 (TVT)
-http://stream.mardio.link:8081/live/it-rai5.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MjIgUE0maGFzaF92YWx1ZT0vRXFCZ0dSWjQrOGNjaVZmd2xqcGZnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1ODI4MzI=
+http://stream.mardio.link:8081/live/it-rai5.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDoyMiBBTSZoYXNoX3ZhbHVlPXVZd0xJMWZBZDU4MkQ2R2o0eExWamc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI2MjE5Mg==
 #EXTINF:-1 tvg-id="raimovie.it" tvg-name="Rai Movie (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/250918041844raaaai.png" group-title="Rai",Rai Movie (TVT)
-http://stream.mardio.link:8081/live/it-raimovie.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MjQgUE0maGFzaF92YWx1ZT1iYXZuUng2bnlzR3oyUDZKMGlHSCtnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1ODQzNTk=
+http://stream.mardio.link:8081/live/it-raimovie.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDoyMyBBTSZoYXNoX3ZhbHVlPUd3RzMveFBVbjFtcUtyTGgvNXp0RGc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI2Mzc5OQ==
 #EXTINF:-1 tvg-id="rainews24.it" tvg-name="Rai news 24 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/250418043056ree.png" group-title="Rai",Rai news 24 (TVT)
-http://stream.mardio.link:8081/live/it-rainews.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MjUgUE0maGFzaF92YWx1ZT0yUm5Camc4M1AxSWI3UmdhWDY3YldBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1ODU4OTM=
+http://stream.mardio.link:8081/live/it-rainews.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDoyNSBBTSZoYXNoX3ZhbHVlPU8yYlJVUnJaTVk3KzdoeGFNQzhPbnc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI2NTQyMQ==
 #EXTINF:-1 tvg-id="sky.atlantic.it" tvg-name="Sky Atlantic (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/140518052900atl.png" group-title="Film - Serie TV",Sky Atlantic (TVT)
-http://stream.mardio.link:8081/live/it-skyatlantic.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MzAgUE0maGFzaF92YWx1ZT1HcDViMGRmeHFWTHVVV2ltMFcwbllRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1OTAyMzY=
+http://stream.mardio.link:8081/live/it-skyatlantic.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDoyOSBBTSZoYXNoX3ZhbHVlPWRYQUhEci9COWQwdHpJaytaMVQ0TXc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI2OTkwNg==
 #EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 1 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031412cal1.png" group-title="Sport",Sky Calcio 1 (TVT)
-http://stream.mardio.link:8081/live/it-sky-calcio1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MzEgUE0maGFzaF92YWx1ZT10ZG5OSmd6SUlvNCtDR0hvOW5xYjF3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1OTE3NjM=
+http://stream.mardio.link:8081/live/it-sky-calcio1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDozMSBBTSZoYXNoX3ZhbHVlPWcxZ3dpMXZjMDdJdmVtdVp6cVg4K1E9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI3MTUyNQ==
 #EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 2 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031528cal2.png" group-title="Sport",Sky Calcio 2 (TVT)
-http://stream.mardio.link:8081/live/it-sky-calcio2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MzMgUE0maGFzaF92YWx1ZT12WUZoejY0MmZkRzdwS25NZHEyUmF3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1OTMyOTU=
+http://stream.mardio.link:8081/live/it-sky-calcio2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDozMyBBTSZoYXNoX3ZhbHVlPU1Bc0tVOVYwelVoaG9wZHZxNUxPOXc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI3MzE0Mg==
 #EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 3 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031538cal3.png" group-title="Sport",Sky Calcio 3 (TVT)
-http://stream.mardio.link:8081/live/it-skycalcio3.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MzQgUE0maGFzaF92YWx1ZT1NT055V1JLQyswSjN6V0xVZEtFUFN3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1OTQ4ODM=
+http://stream.mardio.link:8081/live/it-skycalcio3.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDozNCBBTSZoYXNoX3ZhbHVlPUt0NHk5dEhvQVBZL0FMSnVsQTdIaEE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI3NDc1Mg==
 #EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 4 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031552cal4.png" group-title="Sport",Sky Calcio 4 (TVT)
-http://stream.mardio.link:8081/live/it-skycalcio4.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MzYgUE0maGFzaF92YWx1ZT1Sckk1a3VPMUZkMDN0aDNrcEhmWndnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1OTY0MjA=
+http://stream.mardio.link:8081/live/it-skycalcio4.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDozNiBBTSZoYXNoX3ZhbHVlPVZEMEloTUtpK0FJM1JoelgvVHVvUnc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI3NjM1MQ==
 #EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 5 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031609cal5.png" group-title="Sport",Sky Calcio 5 (TVT)
-http://stream.mardio.link:8081/live/it-skycalcio5.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MzcgUE0maGFzaF92YWx1ZT15RWtySG53T0E5aCthWU9CNUo5UmF3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1OTc5NTM=
+http://stream.mardio.link:8081/live/it-skycalcio5.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDozNyBBTSZoYXNoX3ZhbHVlPVFTaE5YeldhZFFZWUhqUkxZS0RCeUE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI3Nzk3Mw==
 #EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 6 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031621cal6.png" group-title="Sport",Sky Calcio 6 (TVT)
-http://stream.mardio.link:8081/live/it-skycalcio6.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6MzkgUE0maGFzaF92YWx1ZT05Sk5vWDBQdzd2ekhwM3dtdG1ES3B3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA1OTk0Nzg=
+http://stream.mardio.link:8081/live/it-skycalcio6.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDozOSBBTSZoYXNoX3ZhbHVlPWg1Y2Z1SERwVE90QU16V2NKSlJDaHc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI3OTU4OQ==
 #EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 7 (TVT)" tvg-logo="https://rocktalk.net/tv//images/channel_imgs/200223032135cal7.png" group-title="Sport",Sky Calcio 7 (TVT)
-http://stream.mardio.link:8081/live/it-sky-calcio7.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6NDEgUE0maGFzaF92YWx1ZT1ZaHpYbGhGaDF5MHJpUFJ2WGU3cDF3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MDEwMTA=
+http://stream.mardio.link:8081/live/it-sky-calcio7.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDo0MSBBTSZoYXNoX3ZhbHVlPTFtT2VINEdhemUvMVlmU2syci81b0E9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI4MTE5OQ==
 #EXTINF:-1 tvg-id="sky.cinema.collection.it" tvg-name="Sky Cinema Collection (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223010724Sky_Cinema_Collection_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema Collection (TVT)
-http://stream.mardio.link:8081/live/it-sky-cinema-collection.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6NDYgUE0maGFzaF92YWx1ZT04UUZCblZNS20yMVFtd2NWVHBhcFVRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MDY3MTg=
+http://stream.mardio.link:8081/live/it-sky-cinema-collection.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDo0NyBBTSZoYXNoX3ZhbHVlPUdZbzhTTXRDeERpM3ZCZ2IzVE44Q1E9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI4NzE0NQ==
 #EXTINF:-1 tvg-id="sky.cinema.comedy.it" tvg-name="Sky Cinema Comedy (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223010812Sky_Cinema_Comedy_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema Comedy (TVT)
-http://stream.mardio.link:8081/live/it-sky-cinema-comedy.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6NDggUE0maGFzaF92YWx1ZT1zSUs0bWZDcG1SYnQxU2l6YlAzV0pnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MDgyNTE=
+http://stream.mardio.link:8081/live/it-sky-cinema-comedy.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDo0OCBBTSZoYXNoX3ZhbHVlPU9TM0ZoZktlaFQ1aFNXVitoUVM4aWc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI4ODc1NQ==
 #EXTINF:-1 tvg-id="sky.cinema.due.it" tvg-name="Sky Cinema Due (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223011459Sky_Cinema_Due_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema Due (TVT)
-http://stream.mardio.link:8081/live/it-sky-cinema-due.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6NDkgUE0maGFzaF92YWx1ZT14RDhpVmhrUFVaclJRSmlLNEwwdkVRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MDk4NDE=
+http://stream.mardio.link:8081/live/it-sky-cinema-due.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDo1MCBBTSZoYXNoX3ZhbHVlPVVsZkl6NDM5cFlTbzM5YlVibkpKTVE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI5MDM1Ng==
 #EXTINF:-1 tvg-id="sky.cinema.family.it" tvg-name="Sky Cinema Family (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223011523Sky_Cinema_Family_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema Family (TVT)
-http://stream.mardio.link:8081/live/it-sky-cinema-family.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6NTEgUE0maGFzaF92YWx1ZT1DMXNOZXRiblBtNnhWSUEvVGtJMll3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MTEzOTM=
+http://stream.mardio.link:8081/live/it-sky-cinema-family.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDo1MSBBTSZoYXNoX3ZhbHVlPVo5TU56ZGh5Q0tkV3haWHhGU21Tc3c9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI5MTk1NA==
 #EXTINF:-1 tvg-id="sky.cinema.romance.it" tvg-name="Sky Cinema Romance (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223010955Sky_Cinema_Romance_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema Romance (TVT)
-http://stream.mardio.link:8081/live/it-sky-cinema-romance.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6NTIgUE0maGFzaF92YWx1ZT14Q3Npa1R6bEdDTFd5dVo2dFhkTjl3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MTI5MTA=
+http://stream.mardio.link:8081/live/it-sky-cinema-romance.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDo1MyBBTSZoYXNoX3ZhbHVlPVJXNnlUZHZQV2NCMFl3SzI3QjVFVUE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI5MzU1Nw==
 #EXTINF:-1 tvg-id="sky.cinema.uno.it" tvg-name="Sky Cinema UNO (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223011941Sky_Cinema_Uno_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema UNO (TVT)
-http://stream.mardio.link:8081/live/it-skycinema-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6NTQgUE0maGFzaF92YWx1ZT1JR3RrNVMrK1MvdktJTWw2ZDc1TGFRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MTQ0MjM=
+http://stream.mardio.link:8081/live/it-skycinema-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDo1NSBBTSZoYXNoX3ZhbHVlPUlTWFUyZU9PMEtYSC82N0FIZWZMUGc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI5NTE2Mg==
 #EXTINF:-1 tvg-id="sky.sport.24.it" tvg-name="Sky Sport 24 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223035132Sky_Sport_24_-_Logo_2020.svg.png" group-title="Sport",Sky Sport 24 (TVT)
-http://stream.mardio.link:8081/live/it-skysports24.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6NTUgUE0maGFzaF92YWx1ZT1JOFVTemJnZXMzbDRwZjZsc3k5dnNnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MTU5Njc=
+http://stream.mardio.link:8081/live/it-skysports24.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDo1NiBBTSZoYXNoX3ZhbHVlPWxObVE1QWFiL3RlY29FcGx1QTlhNUE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI5Njc2Nw==
 #EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-name="Sky Sport Arena (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190718073708arenaa.jpeg" group-title="Sport",Sky Sport Arena (TVT)
-http://stream.mardio.link:8081/live/it-skysport-arena.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6NTcgUE0maGFzaF92YWx1ZT1OZDZkdmFrem81a2JFVldrYzFJMkV3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MTc1NTU=
+http://stream.mardio.link:8081/live/it-skysport-arena.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDo1OCBBTSZoYXNoX3ZhbHVlPXdubTh6ZTBaRXhCZTNQWEdFS1FQa0E9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI5ODM2OA==
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-name="Sky Sport Calcio (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223125815Sky_Sport_Calcio.png" group-title="Sport",Sky Sport Calcio (TVT)
-http://stream.mardio.link:8081/live/it-skysportcalcio.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTY6NTkgUE0maGFzaF92YWx1ZT1Sd0JMWEZSRFhuWm9FYXV5OHYrSnV3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MTkwOTI=
+http://stream.mardio.link:8081/live/it-skysportcalcio.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNDo1OSBBTSZoYXNoX3ZhbHVlPVNzblpEV054ZjhQOWhpR2VqVUhHa3c9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTI5OTk3Mg==
 #EXTINF:-1 tvg-id="sky.sport.f1.it" tvg-name="Sky Sport F1 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223034533Sky_Sport_F1_2020.png" group-title="Sport",Sky Sport F1 (TVT)
-http://stream.mardio.link:8081/live/it-skysport-f1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTc6MDAgUE0maGFzaF92YWx1ZT1LZE9qclZ2b3EyMHpMV3F0T3lOdXBnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MjA2MjM=
+http://stream.mardio.link:8081/live/it-skysport-f1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNTowMSBBTSZoYXNoX3ZhbHVlPXVlV2FKZTJ0Z1VRbWhHdURjN1lZZkE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTMwMTU3Nw==
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport Football (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190718075156foot.jpeg" group-title="Sport",Sky Sport Football (TVT)
-http://stream.mardio.link:8081/live/it-skysport-football.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTc6MDIgUE0maGFzaF92YWx1ZT1hVXB1M21aTjMvejJUUGVmd0tLWTZ3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MjIxMzc=
+http://stream.mardio.link:8081/live/it-skysport-football.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNTowMyBBTSZoYXNoX3ZhbHVlPWZOOHNpR3VOWkRneHdNKzRRck82ZlE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTMwMzE3Ng==
 #EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-name="Sky Sport Motogp (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223035257Sky_Sport_MotoGP_2020.png" group-title="Sport",Sky Sport Motogp (TVT)
-http://stream.mardio.link:8081/live/it-skysport-motogp.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTc6MDMgUE0maGFzaF92YWx1ZT11N0o5SzluMVNSWFV1eHFUcEs1NFJBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MjM2ODE=
+http://stream.mardio.link:8081/live/it-skysport-motogp.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNTowNCBBTSZoYXNoX3ZhbHVlPUdGeUxNckt6dVNGcmo2amdHWHRZQ3c9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTMwNDc3OA==
 #EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-name="Sky Sport NBA (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/130818011304nba.png" group-title="Sport",Sky Sport NBA (TVT)
-http://stream.mardio.link:8081/live/it-skysport-nba.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTc6MDUgUE0maGFzaF92YWx1ZT1JWUh2dTNyU1BBbWtQNU9QcXBvWGV3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MjUyNjk=
+http://stream.mardio.link:8081/live/it-skysport-nba.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNTowNiBBTSZoYXNoX3ZhbHVlPU8wb2Q1dFVDTGU3b1d6amdkYThPYlE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTMwNjM4NA==
 #EXTINF:-1 tvg-id="sky.sport.uno.it" tvg-name="Sky Sport Uno (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190718073552uno.png" group-title="Sport",Sky Sport Uno (TVT)
-http://stream.mardio.link:8081/live/it-skysport-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTc6MDYgUE0maGFzaF92YWx1ZT1aL2V4MWxvUzlVSldzcG5Bb2ZkYkNBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MjY4MDU=
+http://stream.mardio.link:8081/live/it-skysport-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNTowNyBBTSZoYXNoX3ZhbHVlPUtDMjNwMlFUOE5ZYVdqL0FleE5jSVE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTMwNzk5NQ==
 #EXTINF:-1 tvg-id="sky.tg24.it" tvg-name="Sky TG24 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/080118035005tg.png" group-title="News",Sky TG24 (TVT)
-http://stream.mardio.link:8081/live/it-sky-tg24.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTc6MDggUE0maGFzaF92YWx1ZT11eVZudFdWdFpuNUZ2Y2NLbmhHVGJBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MjgzMzc=
+http://stream.mardio.link:8081/live/it-sky-tg24.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNTowOSBBTSZoYXNoX3ZhbHVlPTdTTDJOWWlxVUVhQ2V2SmQrRE5aQUE9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTMwOTU5Ng==
 #EXTINF:-1 tvg-id="sky.uno.it" tvg-name="Sky Uno (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/080118035124uno.png" group-title="Altro",Sky Uno (TVT)
-http://stream.mardio.link:8081/live/it-sky-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTc6MDkgUE0maGFzaF92YWx1ZT11YnpEbDYwbUgrZVZWUFVpOGduZ3JnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2Mjk4NTA=
+http://stream.mardio.link:8081/live/it-sky-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNToxMSBBTSZoYXNoX3ZhbHVlPWtOWDVCaFphalBRbWRMU203WVlwbmc9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTMxMTE5OA==
 #EXTINF:-1 tvg-id="tv2000.it" tvg-name="TV 2000 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/111018012756tv2000.png" group-title="Altro",TV 2000 (TVT)
-http://stream.mardio.link:8081/live/it-tv2000.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS81LzIwMjUgMTA6MTc6MTIgUE0maGFzaF92YWx1ZT0zNndmVUE4d3NxL1BpNlFkV0c1aElBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTcxMTA2MzI4MDk=
+http://stream.mardio.link:8081/live/it-tv2000.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS82LzIwMjUgMToxNToxNCBBTSZoYXNoX3ZhbHVlPXBOQzk2Y2x5TWh4MnExRlVYM2x4R0E9PSZ2YWxpZG1pbnV0ZXM9MjAmaWQ9MTc1NzEyMTMxNDI0Mg==
 
 #EXTINF:-1 tvg-id="rai1.it" tvg-name="Rai 1 (ZAPPR)" tvg-logo="https://channels.zappr.stream/logos/optimized/rai1.svg" group-title="Rai",Rai 1 (ZAPPR)
 https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8
@@ -2147,7 +2274,7 @@ https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=9ignhbE80rQtycnS0
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Campania (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Campania (AC)
 https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=nIiVBp5pV3f8yl0GvUEOwgeeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Lombardia (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Lombardia (AC)
-https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=tmYWFmeHtWSmkN1ssSlashbsBGZweeqqEEqualeeqqEEqual
+https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=EkRFTmfdgrNzzPBY86ycCAeeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Liguria (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Liguria (AC)
 https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=tmYWFmeHtWSmkN1ssSlashbsBGZweeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Sicilia (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Sicilia (AC)
