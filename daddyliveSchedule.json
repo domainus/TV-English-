@@ -9268,7 +9268,7 @@
                 ]
             },
             {
-                "time": "02:48",
+                "time": "03:00",
                 "event": "3:30 Argentina - Primera Nacional : Chaco For Ever vs Chacarita Juniors",
                 "channels": [
                     {
@@ -9512,6 +9512,22 @@
                     {
                         "channel_name": "ACC Network USA",
                         "channel_id": "664"
+                    }
+                ]
+            }
+        ],
+        "Tennis ATP - US OPEN</span>": [
+            {
+                "time": "18:00",
+                "event": "ATP - US OPEN : Sinner J. vs Alcaraz C.",
+                "channels": [
+                    {
+                        "channel_name": "Tennis Stream",
+                        "channel_id": "1501"
+                    },
+                    {
+                        "channel_name": "Tennis Stream",
+                        "channel_id": "1521"
                     }
                 ]
             }
