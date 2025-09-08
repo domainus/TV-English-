@@ -121,9 +121,7 @@ https://vavoo.to/vavoo-iptv/play/42489970292d2930202d0e
 https://vavoo.to/vavoo-iptv/play/24880174054972ad3227fa
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.gruppoicaro.it/wp-content/uploads/2020/05/icarotv.png" group-title="Altro",ICARO TV (2)
 https://vavoo.to/vavoo-iptv/play/2392139008947764078821
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/4/4e/Italia_3_2013.png/revision/latest?cb=20200119124403" group-title="Altro",ITALIA 3 (1)
-https://vavoo.to/vavoo-iptv/play/1565298794daace40d1b60
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/4/4e/Italia_3_2013.png/revision/latest?cb=20200119124403" group-title="Altro",ITALIA 3 (2)
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/4/4e/Italia_3_2013.png/revision/latest?cb=20200119124403" group-title="Altro",ITALIA 3
 https://vavoo.to/vavoo-iptv/play/1200985239ceccd12c8a54
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.upmagazinearezzo.it/atladv/wp-content/uploads/2017/07/atlantide-adv-logo-italian-fishing-tv.jpg" group-title="Altro",ITALIAN FISHING TV
 https://vavoo.to/vavoo-iptv/play/477083716dc642d622f68
@@ -267,6 +265,10 @@ https://vavoo.to/vavoo-iptv/play/87479718111853618b3cd
 https://vavoo.to/vavoo-iptv/play/15636496015811b8b8f7e4
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.milanopavia.tv/wp-content/uploads/2020/01/logoMilanoPaviaTV.png" group-title="Altro",TELE PAVIA
 https://vavoo.to/vavoo-iptv/play/6164833177424547eff1f
+#EXTINF:-1 tvg-id="" tvg-logo="https://teleromagna.it/images/teleromagna-logo.png" group-title="Altro",TELE ROMAGNA
+https://vavoo.to/vavoo-iptv/play/1294463772435c5239e44
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.telesirio.it/images/logo.png" group-title="Altro",TELE SIRIO
+https://vavoo.to/vavoo-iptv/play/21884692197ee0a9ba39f6
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.teletricolore.it/wp-content/uploads/2018/02/logo.png" group-title="Altro",TELE TRICOLORE
 https://vavoo.to/vavoo-iptv/play/2314613216d218b9f4abd4
 #EXTINF:-1 tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lp10Brud3JZex6CgE4M9c-XcKFY4MrRhcFe9PUn-N4SD4=s900-c-k-c0x00ffffff-no-rj" group-title="Altro",TELE TUSCIASABINA 2000
@@ -513,6 +515,8 @@ https://vavoo.to/vavoo-iptv/play/2774026655397d6ec52fe5
 https://vavoo.to/vavoo-iptv/play/36572179483992957fcd47
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/internationaltelevision/images/7/79/San_Marino_RTV_Sport_-_logo.png/revision/latest?cb=20221207153729" group-title="Sport",RTV SAN MARINO SPORT
 https://vavoo.to/vavoo-iptv/play/11138532639c972f8c712f
+#EXTINF:-1 tvg-id="" tvg-logo="https://logowik.com/content/uploads/images/san-marino-rtv-sport-20211731580347.logowik.com.webp" group-title="Sport",RTV SPORT
+https://vavoo.to/vavoo-iptv/play/134178901c516be5767e9
 #EXTINF:-1 tvg-id="skysport.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/sky-sport-it.png" group-title="Sport",SKY SPORT
 https://vavoo.to/vavoo-iptv/play/92466165981ba6f81de20
 #EXTINF:-1 tvg-id="sky.sport.24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Sport",SKY SPORT 24
@@ -549,6 +553,8 @@ https://daddylive.sx/stream/stream-870.php
 https://vavoo.to/vavoo-iptv/play/42467740561588897497f2
 #EXTINF:-1 tvg-id="sky.sport.f1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sport",SKY SPORT F1 (D)
 https://daddylive.sx/stream/stream-577.php
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",SKY SPORT FOOTBALL
+https://vavoo.to/vavoo-iptv/play/309353533094c3ad269514
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",SKY SPORT FOOTBALL (D)
 https://daddylive.sx/stream/stream-460.php
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY]
@@ -565,8 +571,10 @@ https://vavoo.to/vavoo-iptv/play/30363168866e9eeb997936
 https://vavoo.to/vavoo-iptv/play/2090703806f47d7eb551ce
 #EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sport",SKY SPORT MOTOGP (D)
 https://daddylive.sx/stream/stream-575.php
-#EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sport",SKY SPORT NBA
+#EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sport",SKY SPORT NBA (1)
 https://vavoo.to/vavoo-iptv/play/271195962000118dca31ce
+#EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sport",SKY SPORT NBA (2)
+https://vavoo.to/vavoo-iptv/play/3268253262aec282eb346
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png" group-title="Sport",SKY SPORT SERIE A
 https://vavoo.to/vavoo-iptv/play/2077387085cfe0f64122dc
 #EXTINF:-1 tvg-id="sky.sport.tennis.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sport",SKY SPORT TENNIS (1)
@@ -637,6 +645,10 @@ https://vavoo.to/vavoo-iptv/play/3229664409bbe85d51bba2
 https://vavoo.to/vavoo-iptv/play/18068154966d18d1d58a9c
 #EXTINF:-1 tvg-id="sky.arte.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari",SKY ARTE (2)
 https://vavoo.to/vavoo-iptv/play/1902695925283bcfc576b0
+#EXTINF:-1 tvg-id="sky.documentaries.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-documentaries-it.png" group-title="Documentari",SKY DOCUMENTARIES
+https://vavoo.to/vavoo-iptv/play/46428198113d67e3a4e0e
+#EXTINF:-1 tvg-id="sky.nature.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-nature-it.png" group-title="Documentari",SKY NATURE
+https://vavoo.to/vavoo-iptv/play/3810188456875f4898bef2
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Documentari",TELEPACE TRENTO (HISTORY LAB)
 https://vavoo.to/vavoo-iptv/play/1794299695413e7553c574
 
@@ -719,8 +731,10 @@ https://daddylive.sx/stream/stream-861.php
 https://vavoo.to/vavoo-iptv/play/352583705711c4cbe44bbb
 #EXTINF:-1 tvg-id="sky.cinema.collection.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Film - Serie TV",SKY CINEMA COLLECTION (D)
 https://daddylive.sx/stream/stream-859.php
-#EXTINF:-1 tvg-id="sky.cinema.comedy.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Film - Serie TV",SKY CINEMA COMEDY
+#EXTINF:-1 tvg-id="sky.cinema.comedy.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Film - Serie TV",SKY CINEMA COMEDY (1)
 https://vavoo.to/vavoo-iptv/play/500203271d58941028e95
+#EXTINF:-1 tvg-id="sky.cinema.comedy.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-comedy-it.png" group-title="Film - Serie TV",SKY CINEMA COMEDY (2)
+https://vavoo.to/vavoo-iptv/play/3131104474771735b548ce
 #EXTINF:-1 tvg-id="sky.cinema.drama.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Film - Serie TV",SKY CINEMA DRAMA
 https://vavoo.to/vavoo-iptv/play/123553017707540030adf9
 #EXTINF:-1 tvg-id="sky.cinema.drama.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Film - Serie TV",SKY CINEMA DRAMA (D)
@@ -749,8 +763,10 @@ https://daddylive.sx/stream/stream-864.php
 https://vavoo.to/vavoo-iptv/play/18209975559b8c5058ae7f
 #EXTINF:-1 tvg-id="sky.cinema.suspense.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Film - Serie TV",SKY CINEMA SUSPENSE (2)
 https://vavoo.to/vavoo-iptv/play/3060043751014db62f5b06
-#EXTINF:-1 tvg-id="sky.cinema.uno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Film - Serie TV",SKY CINEMA UNO
+#EXTINF:-1 tvg-id="sky.cinema.uno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Film - Serie TV",SKY CINEMA UNO (1)
 https://vavoo.to/vavoo-iptv/play/28721519114f66aff68e22
+#EXTINF:-1 tvg-id="sky.cinema.uno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Film - Serie TV",SKY CINEMA UNO (2)
+https://vavoo.to/vavoo-iptv/play/17596257388e83c18bb676
 #EXTINF:-1 tvg-id="sky.cinema.uno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Film - Serie TV",SKY CINEMA UNO (D)
 https://daddylive.sx/stream/stream-860.php
 #EXTINF:-1 tvg-id="sky.cinema.uno.+24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-plus24-it.png" group-title="Film - Serie TV",SKY CINEMA UNO +24
@@ -915,103 +931,91 @@ https://daddylive.sx/stream/stream-576.php
 
 
 #EXTINF:-1 tvg-id="babytv.it" tvg-name="Baby TV (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/111018013256baby.jpg" group-title="Bambini",Baby TV (TVT)
-http://stream.mardio.link:8081/live/it-babytv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTg6NTggQU0maGFzaF92YWx1ZT1BL1dBUFZ1T3BRTWVLNWQwWi9oajRnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3MzgxMjI=
+http://stream.mardio.link:8081/live/it-babytv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6MzY6NTQgUE0maGFzaF92YWx1ZT01TXZqQm5tQTdmWWttakcyZGxxbCt3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwMTQwNjQ=
 #EXTINF:-1 tvg-id="boomerang.it" tvg-name="Boomerang (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/111018013155boome.gif" group-title="Altro",Boomerang (TVT)
-http://stream.mardio.link:8081/live/it-boomerang.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTg6NTkgQU0maGFzaF92YWx1ZT1Ja2tEVGVEbnhLbGtHNmxLQURvVnlBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3Mzk0MjA=
-#EXTINF:-1 tvg-id="canale.5.it" tvg-name="Canale 5 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/13121701250455.gif" group-title="Mediaset",Canale 5 (TVT)
-http://stream.mardio.link:8081/live/it-canale5.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MDAgQU0maGFzaF92YWx1ZT1KYXdkOWdhdTI3TmpweUJObEh3WkRnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NDA2ODg=
-#EXTINF:-1 tvg-id="cartoon.network.it" tvg-name="Cartoon Network (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/131217012619cnn.png" group-title="Bambini",Cartoon Network (TVT)
-http://stream.mardio.link:8081/live/it-cartoonnetwork.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MDEgQU0maGFzaF92YWx1ZT16WDlEbHhiYy9hNjZSU0tYd0dGejN3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NDE5NTY=
+http://stream.mardio.link:8081/live/it-boomerang.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6MzY6NTUgUE0maGFzaF92YWx1ZT1DRWRVUVAzREVlZk9GSkpoWTR0NHR3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwMTU2MDc=
 #EXTINF:-1 tvg-id="classica.hd.it" tvg-name="Classica (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/111018012907classica.png" group-title="Altro",Classica (TVT)
-http://stream.mardio.link:8081/live/it-classica.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MDMgQU0maGFzaF92YWx1ZT1DdE00b0FYaXFBTzVVU0ZtU2hUZDBRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NDMyODM=
+http://stream.mardio.link:8081/live/it-classica.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6MzY6NTkgUE0maGFzaF92YWx1ZT1mNXltbEdKcHkyejRxV1FiUEZZcnRBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwMTk3Mjk=
 #EXTINF:-1 tvg-id="" tvg-name="Comedy Central- (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/130818012353comedy.png" group-title="Altro",Comedy Central- (TVT)
-http://stream.mardio.link:8081/live/it-comedycentral.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MDQgQU0maGFzaF92YWx1ZT02bmRKQlRLeWYzdzFPVWVpQTFVdDhRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NDQ2MDY=
+http://stream.mardio.link:8081/live/it-comedycentral.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MDEgUE0maGFzaF92YWx1ZT1rbWVRTW5mNGpGVE5wV0F6MVlndDR3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwMjExOTQ=
 #EXTINF:-1 tvg-id="deakids.it" tvg-name="Dea Kids (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/121118053223db.php" group-title="Altro",Dea Kids (TVT)
-http://stream.mardio.link:8081/live/it-deakids.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MTkgQU0maGFzaF92YWx1ZT1CYyt6eVpiUGRhOGxITkUzeHl0K2R3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NTkwOTg=
+http://stream.mardio.link:8081/live/it-deakids.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MTcgUE0maGFzaF92YWx1ZT1OQWwzY0RESzRtWU8zaGZsSjAva2pBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwMzcyMDc=
 #EXTINF:-1 tvg-id="discovery.it" tvg-name="Discovery (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/020518010950dis.jpg" group-title="Documentari",Discovery (TVT)
-http://stream.mardio.link:8081/live/it-discovery.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MjAgQU0maGFzaF92YWx1ZT1CYzAzOTFsSjNhNkdqb2F3V1QzZVZBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NjAzNjE=
+http://stream.mardio.link:8081/live/it-discovery.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MTggUE0maGFzaF92YWx1ZT1KVlJDdWE1MWN0WEh0VkcwczZEWEx3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwMzg3MDA=
 #EXTINF:-1 tvg-id="dmax.it" tvg-name="Dmax (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/220518013431dmax.jpg" group-title="Altro",Dmax (TVT)
-http://stream.mardio.link:8081/live/it-dmax.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MjUgQU0maGFzaF92YWx1ZT1rdnRZZUs4VlM0R2wzVWpLcWFrQUVnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NjU1ODc=
+http://stream.mardio.link:8081/live/it-dmax.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MjQgUE0maGFzaF92YWx1ZT05QjJoOGNFbFM4dTFSOEtVQlFacXF3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNDQwOTY=
 #EXTINF:-1 tvg-id="eurosport.2.it" tvg-name="Euro Sport 2 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/140518053309euro2.png" group-title="Sport",Euro Sport 2 (TVT)
-http://stream.mardio.link:8081/live/it-eurosport2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MjggQU0maGFzaF92YWx1ZT1UajFqbkJlNldXSTZOMWY2QnBrRU53PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NjgwMjQ=
+http://stream.mardio.link:8081/live/it-eurosport2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MjYgUE0maGFzaF92YWx1ZT1TUkhESWpKTHNodkpwL214Ylh3K3NnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNDY4NTc=
 #EXTINF:-1 tvg-id="history.it" tvg-name="History (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/131217013205his.jpg" group-title="Documentari",History (TVT)
-http://stream.mardio.link:8081/live/it-history.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MjkgQU0maGFzaF92YWx1ZT1NQmt2K1JFVG9tekxEbTM0d3pNQmZRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NjkyODE=
+http://stream.mardio.link:8081/live/it-history.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MjggUE0maGFzaF92YWx1ZT1WTDA3TEV2STlybEhNRUNERzlLY3NnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNDgyODg=
 #EXTINF:-1 tvg-id="inter.tv.it" tvg-name="Inter Tv (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/250518014057inter.jpg" group-title="Sport",Inter Tv (TVT)
-http://stream.mardio.link:8081/live/it-intertv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MzAgQU0maGFzaF92YWx1ZT1CRzd1R0c5cmY2dWkwSzJxbm5XWjhnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NzA1Mzk=
+http://stream.mardio.link:8081/live/it-intertv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MjkgUE0maGFzaF92YWx1ZT1nbTRqUjJnOW1OR09SZlcwVTFwZ01RPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNDk3NjY=
 #EXTINF:-1 tvg-id="italia.1.it" tvg-name="Italia 1 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/131217013326it1.png" group-title="Mediaset",Italia 1 (TVT)
-http://stream.mardio.link:8081/live/it-italia1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MzEgQU0maGFzaF92YWx1ZT1mNjZmRXBUWWVtV0txUnVjbDlIRHF3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NzE3ODc=
+http://stream.mardio.link:8081/live/it-italia1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MzEgUE0maGFzaF92YWx1ZT15UGRZZzNsYXZEUEZyRHBhQWpDcXVBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNTExNzY=
 #EXTINF:-1 tvg-id="" tvg-name="Lazio Style (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/150918123638lazo.png" group-title="Sport",Lazio Style (TVT)
-http://stream.mardio.link:8081/live/it-lazio.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MzQgQU0maGFzaF92YWx1ZT1qU1FzQWZLY0d6bWYwV29Tc2FVT29BPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NzQyMzU=
+http://stream.mardio.link:8081/live/it-lazio.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MzMgUE0maGFzaF92YWx1ZT1XanJLQjBJQlk1dWFZNlZXbUNBYzdnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNTM4NTE=
 #EXTINF:-1 tvg-id="" tvg-name="Mediaset 2 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/140518054804mediaset.jpg" group-title="Mediaset",Mediaset 2 (TVT)
-http://stream.mardio.link:8081/live/it-mediaset2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MzUgQU0maGFzaF92YWx1ZT1OaVN1MnFFWXpIcUNSUG9WaU41Yml3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NzU1MDk=
+http://stream.mardio.link:8081/live/it-mediaset2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MzUgUE0maGFzaF92YWx1ZT1hT1hxZ0dnQXFZNG9CM24zZjhVKzZBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNTUzMTY=
 #EXTINF:-1 tvg-id="" tvg-name="MediaSet Focus (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/250918041549Focus_New.png" group-title="Mediaset",MediaSet Focus (TVT)
-http://stream.mardio.link:8081/live/it-focus.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MzcgQU0maGFzaF92YWx1ZT1KQVp1M2xxNnk0NWtIYmgwZllEZXZ3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3Nzc5MTI=
+http://stream.mardio.link:8081/live/it-focus.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MzggUE0maGFzaF92YWx1ZT04MGp4cGIrWWhRQXFtUUJlL1dTY2pBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNTgwMTg=
 #EXTINF:-1 tvg-id="milan.tv.it" tvg-name="Milan tv (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/220518013021milan.png" group-title="Sport",Milan tv (TVT)
-http://stream.mardio.link:8081/live/it-milantv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6MzkgQU0maGFzaF92YWx1ZT1TOG5xVHY2RTFtTVdoUjZBWHV1NGF3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3NzkxNTk=
+http://stream.mardio.link:8081/live/it-milantv.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6MzkgUE0maGFzaF92YWx1ZT1qOWk3Y01zUWw3aUs1UHMyNktiSW1RPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNTk0Njc=
 #EXTINF:-1 tvg-id="rai1.it" tvg-name="Rai 1 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/071217024326rai1.png" group-title="Rai",Rai 1 (TVT)
-http://stream.mardio.link:8081/live/it-rai1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NDIgQU0maGFzaF92YWx1ZT1Qd0hac3hPV0dWVHh2UGQ0djVLd3JBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3ODI3MzE=
+http://stream.mardio.link:8081/live/it-rai1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6NDMgUE0maGFzaF92YWx1ZT0wUitUUTFsV3hnZUFyR0RNTE5Ta093PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNjM0MzY=
 #EXTINF:-1 tvg-id="rai2.it" tvg-name="Rai 2 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/071217024432rai2.png" group-title="Rai",Rai 2 (TVT)
-http://stream.mardio.link:8081/live/it-rai2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NDMgQU0maGFzaF92YWx1ZT1PV3RKNmxtU0draUlwYy9QNFJjTTV3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3ODM5OTI=
+http://stream.mardio.link:8081/live/it-rai2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6NDQgUE0maGFzaF92YWx1ZT1yS2lNMXptTUIvZFgvQjRwaHJWUzN3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNjQ4NzU=
 #EXTINF:-1 tvg-id="rai3.it" tvg-name="Rai 3 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/071217024513rai3.png" group-title="Rai",Rai 3 (TVT)
-http://stream.mardio.link:8081/live/it-rai3.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NDUgQU0maGFzaF92YWx1ZT0xS2VJSERQR2dZNXRKTHArVnczRkFBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3ODUyNDA=
+http://stream.mardio.link:8081/live/it-rai3.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6NDYgUE0maGFzaF92YWx1ZT1Kc3llQjJraFRWb2VmU0p3eFR6THpnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNjYzNTQ=
 #EXTINF:-1 tvg-id="rai4.it" tvg-name="Rai 4 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/071217024545rai4.png" group-title="Rai",Rai 4 (TVT)
-http://stream.mardio.link:8081/live/it-rai4.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NDYgQU0maGFzaF92YWx1ZT1GTXEyaXV2bVh4U1BwWVBxK1VDNjV3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3ODY0OTY=
+http://stream.mardio.link:8081/live/it-rai4.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6NDcgUE0maGFzaF92YWx1ZT00clg4OE4xL3d3eFB0OFpRT3lkZTZnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNjc3MzU=
 #EXTINF:-1 tvg-id="rai5.it" tvg-name="Rai 5 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/071217024754rai5.png" group-title="Rai",Rai 5 (TVT)
-http://stream.mardio.link:8081/live/it-rai5.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NDcgQU0maGFzaF92YWx1ZT1tMjFaZUEzb2pDVkZxMU1JTDAyTE1RPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3ODc3NDk=
+http://stream.mardio.link:8081/live/it-rai5.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6NDkgUE0maGFzaF92YWx1ZT1sZzVxNjFRWnlYdnMwV1dNU1ZYS2t3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNjkxNjI=
 #EXTINF:-1 tvg-id="raimovie.it" tvg-name="Rai Movie (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/250918041844raaaai.png" group-title="Rai",Rai Movie (TVT)
-http://stream.mardio.link:8081/live/it-raimovie.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NDkgQU0maGFzaF92YWx1ZT1ha1hGSmdPQXRZZzdMblFxYmJFWXN3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3ODkwMDg=
+http://stream.mardio.link:8081/live/it-raimovie.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6NTAgUE0maGFzaF92YWx1ZT1VNWF4MGVjcjdkUXN6VXpZUWlIY3Z3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNzA1ODM=
 #EXTINF:-1 tvg-id="rainews24.it" tvg-name="Rai news 24 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/250418043056ree.png" group-title="Rai",Rai news 24 (TVT)
-http://stream.mardio.link:8081/live/it-rainews.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NTAgQU0maGFzaF92YWx1ZT02RnJkL08wYzEySDdiQUZHMVNPTm1BPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3OTAyODA=
-#EXTINF:-1 tvg-id="sky.atlantic.it" tvg-name="Sky Atlantic (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/140518052900atl.png" group-title="Film - Serie TV",Sky Atlantic (TVT)
-http://stream.mardio.link:8081/live/it-skyatlantic.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NTMgQU0maGFzaF92YWx1ZT1rMmRqckhQaUpUNFRQcStCMUZabkh3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3OTM4NjI=
+http://stream.mardio.link:8081/live/it-rainews.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6NTEgUE0maGFzaF92YWx1ZT1iU1VCTmFienphNnRHck9LUWdEUXZnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNzE5OTI=
 #EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 1 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031412cal1.png" group-title="Sport",Sky Calcio 1 (TVT)
-http://stream.mardio.link:8081/live/it-sky-calcio1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NTUgQU0maGFzaF92YWx1ZT1PY2M3MHVrZlY0aHhCUVhKd0VSK3ZnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3OTUxMjA=
+http://stream.mardio.link:8081/live/it-sky-calcio1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6NTcgUE0maGFzaF92YWx1ZT12clNuNVFrTmVLdDZFSnUxOXBxbVd3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNzcyNzY=
 #EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 2 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031528cal2.png" group-title="Sport",Sky Calcio 2 (TVT)
-http://stream.mardio.link:8081/live/it-sky-calcio2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NTYgQU0maGFzaF92YWx1ZT1QY3l2c3ZJTEhwRDZSZjhnOENDQURnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3OTYzNjc=
-#EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 3 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031538cal3.png" group-title="Sport",Sky Calcio 3 (TVT)
-http://stream.mardio.link:8081/live/it-skycalcio3.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NTcgQU0maGFzaF92YWx1ZT1ONkVZREtnci83UHdIWGp3UnN0ZXdBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3OTc2MTQ=
+http://stream.mardio.link:8081/live/it-sky-calcio2.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzc6NTggUE0maGFzaF92YWx1ZT1xRmU2ak5oV1ljQXRSK1p0WEoyOWdnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwNzg3OTk=
 #EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 4 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031552cal4.png" group-title="Sport",Sky Calcio 4 (TVT)
-http://stream.mardio.link:8081/live/it-skycalcio4.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MTk6NTggQU0maGFzaF92YWx1ZT1NYlNOMlRXSC96TFQ1d3NwblBTeENBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY3OTg4NTU=
-#EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 5 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031609cal5.png" group-title="Sport",Sky Calcio 5 (TVT)
-http://stream.mardio.link:8081/live/it-skycalcio5.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MDAgQU0maGFzaF92YWx1ZT1vSnFZYUxhaDdvK3Zjd3FVRU1kcFFnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MDAxMDQ=
-#EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 6 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223031621cal6.png" group-title="Sport",Sky Calcio 6 (TVT)
-http://stream.mardio.link:8081/live/it-skycalcio6.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MDEgQU0maGFzaF92YWx1ZT16UmFVbjM4RThLaXdBV3V5WE9QOWlnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MDEzNTQ=
+http://stream.mardio.link:8081/live/it-skycalcio4.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MDEgUE0maGFzaF92YWx1ZT1Fb0FCNUdsQ3pHRnFXelN6SGI5aXV3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwODE0Nzk=
 #EXTINF:-1 tvg-id="" tvg-name="Sky Calcio 7 (TVT)" tvg-logo="https://rocktalk.net/tv//images/channel_imgs/200223032135cal7.png" group-title="Sport",Sky Calcio 7 (TVT)
-http://stream.mardio.link:8081/live/it-sky-calcio7.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MDIgQU0maGFzaF92YWx1ZT02TWRBS2FpVVhkdWhVNHJkUWZjUUhnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MDI2OTU=
+http://stream.mardio.link:8081/live/it-sky-calcio7.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MDUgUE0maGFzaF92YWx1ZT1OVjhGbytQUlF5SWhpVm85RmpqRFlnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwODU0NjA=
 #EXTINF:-1 tvg-id="sky.cinema.collection.it" tvg-name="Sky Cinema Collection (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223010724Sky_Cinema_Collection_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema Collection (TVT)
-http://stream.mardio.link:8081/live/it-sky-cinema-collection.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MDcgQU0maGFzaF92YWx1ZT1CT0RqcUs3NzFyRDMyQU55M3ZKM1BnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MDc0MjU=
+http://stream.mardio.link:8081/live/it-sky-cinema-collection.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MTAgUE0maGFzaF92YWx1ZT1hc1Y0Q2lvMnd3R3hrS0dYcnFXejBRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwOTA3MDI=
 #EXTINF:-1 tvg-id="sky.cinema.comedy.it" tvg-name="Sky Cinema Comedy (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223010812Sky_Cinema_Comedy_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema Comedy (TVT)
-http://stream.mardio.link:8081/live/it-sky-cinema-comedy.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MDggQU0maGFzaF92YWx1ZT1QY3ZNV0J4VDAyQUtLU0VnNmRqcVdBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MDg2Nzk=
+http://stream.mardio.link:8081/live/it-sky-cinema-comedy.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MTIgUE0maGFzaF92YWx1ZT1hY2VWOGFoUDloQmpnM3IwcWZmdFB3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwOTIxMTI=
 #EXTINF:-1 tvg-id="sky.cinema.due.it" tvg-name="Sky Cinema Due (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223011459Sky_Cinema_Due_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema Due (TVT)
-http://stream.mardio.link:8081/live/it-sky-cinema-due.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MDkgQU0maGFzaF92YWx1ZT1FNXBDUGhVRlVnV2FqTmp5WW5ST3B3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MDk5MjI=
+http://stream.mardio.link:8081/live/it-sky-cinema-due.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MTMgUE0maGFzaF92YWx1ZT14VGtmOFZEMUZ4NjR4MU1XcmZOU0N3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwOTM1MjY=
 #EXTINF:-1 tvg-id="sky.cinema.family.it" tvg-name="Sky Cinema Family (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223011523Sky_Cinema_Family_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema Family (TVT)
-http://stream.mardio.link:8081/live/it-sky-cinema-family.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MTEgQU0maGFzaF92YWx1ZT1ET0tKWWM1bk1vN1BBUEZzaTZsNzZ3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MTExNjk=
+http://stream.mardio.link:8081/live/it-sky-cinema-family.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MTQgUE0maGFzaF92YWx1ZT1JWGdmMWhqM2M0UTIvYUpTNEdkUTR3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwOTQ5NzA=
 #EXTINF:-1 tvg-id="sky.cinema.romance.it" tvg-name="Sky Cinema Romance (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223010955Sky_Cinema_Romance_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema Romance (TVT)
-http://stream.mardio.link:8081/live/it-sky-cinema-romance.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MTIgQU0maGFzaF92YWx1ZT1BaFdnVTlyUnh1dlRZaTB3UWJsV2pBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MTI0MTg=
+http://stream.mardio.link:8081/live/it-sky-cinema-romance.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MTYgUE0maGFzaF92YWx1ZT1yalJLallUbDJOSTlpMVlibGhkS0lBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwOTY0MjQ=
 #EXTINF:-1 tvg-id="sky.cinema.uno.it" tvg-name="Sky Cinema UNO (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223011941Sky_Cinema_Uno_-_Logo_2021.svg.png" group-title="Film - Serie TV",Sky Cinema UNO (TVT)
-http://stream.mardio.link:8081/live/it-skycinema-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MTMgQU0maGFzaF92YWx1ZT0zNWNHd2swYmVVSHZuZG9XWGw1enRBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MTM2Njg=
+http://stream.mardio.link:8081/live/it-skycinema-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MTcgUE0maGFzaF92YWx1ZT1jQmw2WGt3WWIxeCtrTTBuWkxuZG13PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwOTc4MzM=
 #EXTINF:-1 tvg-id="sky.sport.24.it" tvg-name="Sky Sport 24 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223035132Sky_Sport_24_-_Logo_2020.svg.png" group-title="Sport",Sky Sport 24 (TVT)
-http://stream.mardio.link:8081/live/it-skysports24.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MTQgQU0maGFzaF92YWx1ZT16VWdrb0p2RXVzeGNXbmZ2akRWWFhRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MTQ5MjI=
+http://stream.mardio.link:8081/live/it-skysports24.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MTkgUE0maGFzaF92YWx1ZT0xTjZmSW55REhnV0JlaHF4NmtmR0N3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUwOTkyNjE=
 #EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-name="Sky Sport Arena (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190718073708arenaa.jpeg" group-title="Sport",Sky Sport Arena (TVT)
-http://stream.mardio.link:8081/live/it-skysport-arena.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MTYgQU0maGFzaF92YWx1ZT1CeFNtMTdHVU9rK25rVmRhemtTYTZnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MTYxNzA=
+http://stream.mardio.link:8081/live/it-skysport-arena.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MjAgUE0maGFzaF92YWx1ZT1HUk1SeEEzdWVBSXYvMnEya0NPQ2x3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUxMDA2NzY=
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-name="Sky Sport Calcio (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190223125815Sky_Sport_Calcio.png" group-title="Sport",Sky Sport Calcio (TVT)
-http://stream.mardio.link:8081/live/it-skysportcalcio.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MTcgQU0maGFzaF92YWx1ZT1JSFh5UkJmRDIrZFhLMmoyZUh4NDdBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MTc0MjM=
+http://stream.mardio.link:8081/live/it-skysportcalcio.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MjIgUE0maGFzaF92YWx1ZT1RZjZYUVFCMWpiRU1hdlluSk1aWWJRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUxMDIwOTk=
 #EXTINF:-1 tvg-id="sky.sport.f1.it" tvg-name="Sky Sport F1 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223034533Sky_Sport_F1_2020.png" group-title="Sport",Sky Sport F1 (TVT)
-http://stream.mardio.link:8081/live/it-skysport-f1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MTggQU0maGFzaF92YWx1ZT1YbkJMbHYrMEYwV1I1OG5PUDNoWnJBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MTg2Njg=
+http://stream.mardio.link:8081/live/it-skysport-f1.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MjMgUE0maGFzaF92YWx1ZT0wSkE2VTIwcnoyYWl5Q1MyMVpqdFFRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUxMDM1NTI=
 #EXTINF:-1 tvg-id="" tvg-name="Sky Sport Football (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190718075156foot.jpeg" group-title="Sport",Sky Sport Football (TVT)
-http://stream.mardio.link:8081/live/it-skysport-football.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MTkgQU0maGFzaF92YWx1ZT1CK2l4MGlmZWY5c0FBZ3JMa280dkVBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MTk5MTQ=
+http://stream.mardio.link:8081/live/it-skysport-football.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MjQgUE0maGFzaF92YWx1ZT12Sit0TTUzNVpiZzFxNDNVdDhNb1dnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUxMDQ5NTU=
 #EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-name="Sky Sport Motogp (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/200223035257Sky_Sport_MotoGP_2020.png" group-title="Sport",Sky Sport Motogp (TVT)
-http://stream.mardio.link:8081/live/it-skysport-motogp.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MjEgQU0maGFzaF92YWx1ZT1Hcm1Da0NOSExVRG1BYlFBdjlLbWxnPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MjExNjY=
+http://stream.mardio.link:8081/live/it-skysport-motogp.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MjYgUE0maGFzaF92YWx1ZT0rMVNZeXhyMGZYeVRFMCtuUHF0RlJBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUxMDYzNjQ=
 #EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-name="Sky Sport NBA (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/130818011304nba.png" group-title="Sport",Sky Sport NBA (TVT)
-http://stream.mardio.link:8081/live/it-skysport-nba.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MjIgQU0maGFzaF92YWx1ZT1NR0ZPTVI5YTlSK3VsM0RNRm0yN2FBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MjI0MTg=
+http://stream.mardio.link:8081/live/it-skysport-nba.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MjcgUE0maGFzaF92YWx1ZT1yNytNZ2E5dHhVbEJpQ3dTN2JJS3NBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUxMDc3Nzc=
 #EXTINF:-1 tvg-id="sky.sport.uno.it" tvg-name="Sky Sport Uno (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/190718073552uno.png" group-title="Sport",Sky Sport Uno (TVT)
-http://stream.mardio.link:8081/live/it-skysport-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MjMgQU0maGFzaF92YWx1ZT0yakcyMG1DVUg3T0NBd2lBOTM0dmlBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MjM2Nzc=
+http://stream.mardio.link:8081/live/it-skysport-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MjkgUE0maGFzaF92YWx1ZT1OdGh6emMyM1JZenppNy92blVlZ0t3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUxMDkxOTc=
 #EXTINF:-1 tvg-id="sky.tg24.it" tvg-name="Sky TG24 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/080118035005tg.png" group-title="News",Sky TG24 (TVT)
-http://stream.mardio.link:8081/live/it-sky-tg24.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MjQgQU0maGFzaF92YWx1ZT1qd2N2T2c5T3EyZWtKbmhKNVBRdHl3PT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MjQ5MjY=
+http://stream.mardio.link:8081/live/it-sky-tg24.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MzAgUE0maGFzaF92YWx1ZT16K2ZCMENEVVlsMUxZMFRXR2hhYTFRPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUxMTA2NTA=
 #EXTINF:-1 tvg-id="sky.uno.it" tvg-name="Sky Uno (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/080118035124uno.png" group-title="Altro",Sky Uno (TVT)
-http://stream.mardio.link:8081/live/it-sky-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MjYgQU0maGFzaF92YWx1ZT0xZWRiTkRkRjNGbEgrZ1RXc3NsM2xBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4MjYxNzA=
+http://stream.mardio.link:8081/live/it-sky-uno.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MzIgUE0maGFzaF92YWx1ZT1kbXFaTDlKbUxVYVpGbmRyMmhQUytBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUxMTIwNTc=
 #EXTINF:-1 tvg-id="tv2000.it" tvg-name="TV 2000 (TVT)" tvg-logo="https://rocktalk.net/tv/images/channel_imgs/111018012756tv2000.png" group-title="Altro",TV 2000 (TVT)
-http://stream.mardio.link:8081/live/it-tv2000.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTA6MjA6MjggQU0maGFzaF92YWx1ZT11WFBKSFB6Nk03eENHRk1CS3hrREtBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMjY4Mjg1NjI=
+http://stream.mardio.link:8081/live/it-tv2000.stream/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS84LzIwMjUgMTI6Mzg6MzQgUE0maGFzaF92YWx1ZT13OXBwV1NONHQyYWswMTR5Ri85ZFhBPT0mdmFsaWRtaW51dGVzPTIwJmlkPTE3NTczMzUxMTQ3MTg=
 
 #EXTINF:-1 tvg-id="rai1.it" tvg-name="Rai 1 (ZAPPR)" tvg-logo="https://channels.zappr.stream/logos/optimized/rai1.svg" group-title="Rai",Rai 1 (ZAPPR)
 https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8
@@ -2679,11 +2683,11 @@ https://stream.rossinitv.it/memfs/3bca4ad7-adfc-4610-ac0e-e826743ddc57_output_0.
 #EXTINF:-1 tvg-id="" tvg-name="Rai BG Italia (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Rai",Rai BG Italia (AC)
 https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=9ignhbE80rQtycnS0sNAxQeeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Campania (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Campania (AC)
-https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=HaariCagdTEssSlashaVDIA2yK4AeeqqEEqualeeqqEEqual
+https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=w1cVvYpfssSlashgfoIu8QQullWQeeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Lombardia (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Lombardia (AC)
-https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=VpUfURIenpPpPlussssSlashXXZjIXjIHVAeeqqEEqualeeqqEEqual
+https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=tbYkpQvy3bGjuiJYtkVSSAeeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Liguria (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Liguria (AC)
-https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=VpUfURIenpPpPlussssSlashXXZjIXjIHVAeeqqEEqualeeqqEEqual
+https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=tbYkpQvy3bGjuiJYtkVSSAeeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Sicilia (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Sicilia (AC)
 https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=lnpPpPlussSoV1ufPxsAcpZZucpJQeeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Veneto (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Veneto (AC)
@@ -2695,9 +2699,9 @@ https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=uO0o8TdbtRC3NVEsb
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Lazio (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Lazio (AC)
 https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=y9edJEUyPjYsHXypZaOOmweeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Piemonte (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Piemonte (AC)
-https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=y60MFPQWRVLwfdaUhY94HweeqqEEqualeeqqEEqual
+https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=dlfVqCzILSN3KoWtd55bWAeeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Puglia (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Puglia (AC)
-https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=MCeukGjIY1MO47vqVt9ssSlashyweeqqEEqualeeqqEEqual
+https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=t1eopLy2Wov0KhXSqd0tkweeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Abruzzo (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Abruzzo (AC)
 https://mediapolisvod.rai.it/relinker/relinkerServlet.htm?cont=AFeSssSlashIoJNzWrir9kW7BiOAeeqqEEqualeeqqEEqual
 #EXTINF:-1 tvg-id="" tvg-name="Rai TGR Emilia Romagna (AC)" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/a/a6/TGR_logo.svg/520px-TGR_logo.svg.png" group-title="Altro",Rai TGR Emilia Romagna (AC)
