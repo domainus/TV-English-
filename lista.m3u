@@ -523,7 +523,9 @@ https://vavoo.to/vavoo-iptv/play/3810188456875f4898bef2
 https://vavoo.to/vavoo-iptv/play/1794299695413e7553c574
 
 # BAMBINI
-#EXTINF:-1 tvg-id="babytv.it" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="Bambini",BABY TV
+#EXTINF:-1 tvg-id="babytv.it" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="Bambini",BABY TV (1)
+https://vavoo.to/vavoo-iptv/play/39385011257cd02ab803dc
+#EXTINF:-1 tvg-id="babytv.it" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/spain/baby-tv-es.png?raw=true" group-title="Bambini",BABY TV (2)
 https://vavoo.to/vavoo-iptv/play/226572794257a18add58e4
 #EXTINF:-1 tvg-id="boing.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/boing-it.png" group-title="Bambini",BOING (1)
 https://vavoo.to/vavoo-iptv/play/33735102423e6e76be9ed3
@@ -563,8 +565,6 @@ https://daddylive.sx/stream/stream-862.php
 https://daddylive.sx/stream/stream-868.php
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Film - Serie TV",CRIME + INV
 https://vavoo.to/vavoo-iptv/play/196833914960066715a573
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Film - Serie TV",CRIME+ INVESTIGATION
-https://vavoo.to/vavoo-iptv/play/30052277008e849440ee94
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Disney%2B_logo.svg/2560px-Disney%2B_logo.svg.png" group-title="Film - Serie TV",DISNEY+ FILM
 https://vavoo.to/vavoo-iptv/play/1264775727d4145aa36927
 #EXTINF:-1 tvg-id="foxhd.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/fox-it.png" group-title="Film - Serie TV",FOX
@@ -755,10 +755,8 @@ https://vavoo.to/vavoo-iptv/play/3007400791d5bc640207c3
 https://vavoo.to/vavoo-iptv/play/25559607139e6fd9b93dd6
 #EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA (D)
 https://daddylive.sx/stream/stream-462.php
-#EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (1)
+#EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO
 https://vavoo.to/vavoo-iptv/play/1665920101d5db640ce7e6
-#EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (2)
-https://vavoo.to/vavoo-iptv/play/449990998077a7691828f
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (D)
 https://daddylive.sx/stream/stream-870.php
 #EXTINF:-1 tvg-id="sky.sport.f1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-f1-it.png" group-title="Sport",SKY SPORT F1
@@ -921,8 +919,23 @@ https://vavoo.to/vavoo-iptv/play/1890950169c0c68782bbe1
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="worldcupqualifyingisraelvsitaly" tvg-name="Soccer | World Cup Qualifying : Israel vs Italy (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Israel_vs_Italy.png" group-title="Eventi Live",Soccer | World Cup Qualifying : Israel vs Italy (20:45)
-https://daddylive.sx/stream/stream-850.php
+#EXTINF:-1 tvg-id="worldcupqualifyingazerbaijanvsukraine" tvg-name="Soccer | World Cup Qualifying : Azerbaijan vs Ukraine (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Azerbaijan_vs_Ukraine.png" group-title="Eventi Live",Soccer | World Cup Qualifying : Azerbaijan vs Ukraine (18:00)
+https://daddylive.sx/stream/stream-870.php
+
+#EXTINF:-1 tvg-id="worldcupqualifyingarmeniavsirelandrepublic" tvg-name="Soccer | World Cup Qualifying : Armenia vs Ireland Republic (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Armenia_vs_Ireland Republic.png" group-title="Eventi Live",Soccer | World Cup Qualifying : Armenia vs Ireland Republic (18:00)
+https://daddylive.sx/stream/stream-462.php
+
+#EXTINF:-1 tvg-id="europeeurou21qualifyingnorthmacedoniau21vsitalyu21" tvg-name="Soccer | Europe - Euro U-21 Qualifying : North Macedonia U21 vs Italy U21 (18:15)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/North Macedonia U21_vs_Italy U21.png" group-title="Eventi Live",Soccer | Europe - Euro U-21 Qualifying : North Macedonia U21 vs Italy U21 (18:15)
+https://daddylive.sx/stream/stream-851.php
+
+#EXTINF:-1 tvg-id="guadalajarawtasaopaulowtaearlyrounds" tvg-name="Tennis | Guadalajara-WTA & Sao Paulo-WTA Early Rounds (18:00)" tvg-logo="https://images.seeklogo.com/logo-png/15/3/wta-comunicacao-logo-png_seeklogo-154118.png" group-title="Eventi Live",Tennis | Guadalajara-WTA & Sao Paulo-WTA Early Rounds (18:00)
+https://daddylive.sx/stream/stream-576.php
+
+#EXTINF:-1 tvg-id="lavueltaaespañastage16hilly172km3470m" tvg-name="Cycling | La Vuelta a España: Stage 16 Hilly | 172 km | 3470 m (14:50)" tvg-logo="https://www.sportpools.net/dist/images/logos/logo-vuelta.png" group-title="Eventi Live",Cycling | La Vuelta a España: Stage 16 Hilly | 172 km | 3470 m (14:50)
+https://daddylive.sx/stream/stream-878.php
+
+#EXTINF:-1 tvg-id="ucicrosscountryshorttrackworldchampionshipswomenelite" tvg-name="Cycling | UCI Cross-country Short Track World Championships | Women Elite (17:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live",Cycling | UCI Cross-country Short Track World Championships | Women Elite (17:00)
+https://daddylive.sx/stream/stream-878.php
 
 
 #EXTINF:-1 tvg-chno="80" tvg-name="Pluto TV Christmas" tvg-logo="https://images.pluto.tv/channels/612e05b885183d0007958101/colorLogoPNG.png" tvg-id="612e05b885183d0007958101" group-title="Pluto TV Italia",Pluto TV Christmas
