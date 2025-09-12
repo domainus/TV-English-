@@ -497,6 +497,8 @@ https://vavoo.to/vavoo-iptv/play/291117845637cc65891f64
 https://vavoo.to/vavoo-iptv/play/1376440573d46b3d682e20
 #EXTINF:-1 tvg-id="dazn.1.it.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sport",DAZN 1 (D)
 https://daddylive.sx/stream/stream-877.php
+#EXTINF:-1 tvg-id="dazn.2.it.it" tvg-logo="" group-title="Sport",DAZN 2
+https://vavoo.to/vavoo-iptv/play/3635062218e0132c616db
 #EXTINF:-1 tvg-id="eurosport.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sport",EUROSPORT 1 (1)
 https://vavoo.to/vavoo-iptv/play/34813468571b25fb16646d
 #EXTINF:-1 tvg-id="eurosport.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sport",EUROSPORT 1 (2)
@@ -647,10 +649,6 @@ https://vavoo.to/vavoo-iptv/play/3229664409bbe85d51bba2
 https://vavoo.to/vavoo-iptv/play/18068154966d18d1d58a9c
 #EXTINF:-1 tvg-id="sky.arte.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-arte-it.png" group-title="Documentari",SKY ARTE (2)
 https://vavoo.to/vavoo-iptv/play/1902695925283bcfc576b0
-#EXTINF:-1 tvg-id="sky.documentaries.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-documentaries-it.png" group-title="Documentari",SKY DOCUMENTARIES
-https://vavoo.to/vavoo-iptv/play/46428198113d67e3a4e0e
-#EXTINF:-1 tvg-id="sky.nature.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-nature-it.png" group-title="Documentari",SKY NATURE
-https://vavoo.to/vavoo-iptv/play/3810188456875f4898bef2
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Documentari",TELEPACE TRENTO (HISTORY LAB)
 https://vavoo.to/vavoo-iptv/play/1794299695413e7553c574
 
@@ -783,8 +781,6 @@ https://vavoo.to/vavoo-iptv/play/1492183364e2c25c729efa
 https://vavoo.to/vavoo-iptv/play/4272937805ce3f4b8a4a12
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film - Serie TV",SKY PRIMAFILA 10 (2)
 https://vavoo.to/vavoo-iptv/play/2268489342059d1f4882c8
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film - Serie TV",SKY PRIMAFILA 12
-https://vavoo.to/vavoo-iptv/play/2221901869db7a5b77a267
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film - Serie TV",SKY PRIMAFILA 14
 https://vavoo.to/vavoo-iptv/play/18766170987dd5e4939c9
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film - Serie TV",SKY PRIMAFILA 15
@@ -934,7 +930,7 @@ https://daddylive.sx/stream/stream-187.php
 #EXTINF:-1 tvg-id="italyseriecunionarzignanochiampovsgianaerminio" tvg-name="Soccer | Italy - Serie C : Union ArzignanoChiampo vs Giana Erminio (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Union ArzignanoChiampo_vs_Giana Erminio.png" group-title="Eventi Live",Soccer | Italy - Serie C : Union ArzignanoChiampo vs Giana Erminio (20:30)
 https://daddylive.sx/stream/stream-188.php
 
-#EXTINF:-1 tvg-id="italyseriecmonopolivsaudacecerignola" tvg-name="Soccer | Italy - Serie C : Monopoli vs Audace Cerignola (20:30)" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/monopoly-logo-png-transparent.png" group-title="Eventi Live",Soccer | Italy - Serie C : Monopoli vs Audace Cerignola (20:30)
+#EXTINF:-1 tvg-id="italyseriecmonopolivsaudacecerignola" tvg-name="Soccer | Italy - Serie C : Monopoli vs Audace Cerignola (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Monopoli_vs_Audace Cerignola.png" group-title="Eventi Live",Soccer | Italy - Serie C : Monopoli vs Audace Cerignola (20:30)
 https://daddylive.sx/stream/stream-189.php
 
 #EXTINF:-1 tvg-id="italyseriecfoggiavslatina" tvg-name="Soccer | Italy - Serie C : Foggia vs Latina (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Foggia_vs_Latina.png" group-title="Eventi Live",Soccer | Italy - Serie C : Foggia vs Latina (20:30)
@@ -949,7 +945,7 @@ https://daddylive.sx/stream/stream-191.php
 #EXTINF:-1 tvg-id="bundesligabayerleverkusenvseintrachtfrankfurt" tvg-name="Soccer | Bundesliga : Bayer Leverkusen vs Eintracht Frankfurt (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Bayer Leverkusen_vs_Eintracht Frankfurt.png" group-title="Eventi Live",Soccer | Bundesliga : Bayer Leverkusen vs Eintracht Frankfurt (20:30)
 https://daddylive.sx/stream/stream-870.php
 
-#EXTINF:-1 tvg-id="guadalajarawtasaopaulowtaearlyrounds" tvg-name="Tennis | Guadalajara-WTA & Sao Paulo-WTA Early Rounds (18:00)" tvg-logo="https://static.flashscore.com/res/image/data/p6bORFXI-IeQL4K13.png" group-title="Eventi Live",Tennis | Guadalajara-WTA & Sao Paulo-WTA Early Rounds (18:00)
+#EXTINF:-1 tvg-id="guadalajarawtasaopaulowtaearlyrounds" tvg-name="Tennis | Guadalajara-WTA & Sao Paulo-WTA Early Rounds (18:00)" tvg-logo="https://aitennis.b-cdn.net/img/tennis/wta-leagues/PRRfymdU.png" group-title="Eventi Live",Tennis | Guadalajara-WTA & Sao Paulo-WTA Early Rounds (18:00)
 https://daddylive.sx/stream/stream-576.php
 
 #EXTINF:-1 tvg-id="moto3gpsanmarinofreepractice" tvg-name="Motorsport | Moto3 : GP San Marino Free Practice (08:55)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/ksxcfb1568976756.png" group-title="Eventi Live",Motorsport | Moto3 : GP San Marino Free Practice (08:55)
@@ -958,7 +954,7 @@ https://daddylive.sx/stream/stream-575.php
 #EXTINF:-1 tvg-id="motogpgpsanmarinofreepractice" tvg-name="Motorsport | MotoGP : GP San Marino Free Practice (09:00)" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/11/MotoGP-Logo-2024.png" group-title="Eventi Live",Motorsport | MotoGP : GP San Marino Free Practice (09:00)
 https://daddylive.sx/stream/stream-575.php
 
-#EXTINF:-1 tvg-id="moto2gpsanmarinofreepractice" tvg-name="Motorsport | Moto2 : GP San Marino Free Practice (09:40)" tvg-logo="https://1.bp.blogspot.com/--h_B_gQgA5M/X7dzqBuFa1I/AAAAAAAAKcA/_64dF25d7LQDis3x67-bnWXPQwPKkVAVACLcBGAsYHQ/w1200-h630-p-k-no-nu/Moto2.png" group-title="Eventi Live",Motorsport | Moto2 : GP San Marino Free Practice (09:40)
+#EXTINF:-1 tvg-id="moto2gpsanmarinofreepractice" tvg-name="Motorsport | Moto2 : GP San Marino Free Practice (09:40)" tvg-logo="https://1.bp.blogspot.com/-dt6mSIGyYDs/XPVByA3agjI/AAAAAAAAIJs/_6R4IvD5Gh43Bsk4SSoCKUveuK953FQkgCLcBGAs/s72-c/Moto2%2BLogo%2B%255Bwww.blogovector.com%255D.png" group-title="Eventi Live",Motorsport | Moto2 : GP San Marino Free Practice (09:40)
 https://daddylive.sx/stream/stream-575.php
 
 #EXTINF:-1 tvg-id="moto3gpsanmarinopractice" tvg-name="Motorsport | Moto3 : GP San Marino Practice (13:10)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/ksxcfb1568976756.png" group-title="Eventi Live",Motorsport | Moto3 : GP San Marino Practice (13:10)
@@ -967,7 +963,7 @@ https://daddylive.sx/stream/stream-575.php
 #EXTINF:-1 tvg-id="motogpgpsanmarinopractice1" tvg-name="Motorsport | MotoGP : GP San Marino Practice 1 (13:15)" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/11/MotoGP-Logo-2024.png" group-title="Eventi Live",Motorsport | MotoGP : GP San Marino Practice 1 (13:15)
 https://daddylive.sx/stream/stream-575.php
 
-#EXTINF:-1 tvg-id="moto2gpsanmarinopractice" tvg-name="Motorsport | Moto2 : GP San Marino Practice (13:55)" tvg-logo="https://1.bp.blogspot.com/--h_B_gQgA5M/X7dzqBuFa1I/AAAAAAAAKcA/_64dF25d7LQDis3x67-bnWXPQwPKkVAVACLcBGAsYHQ/w1200-h630-p-k-no-nu/Moto2.png" group-title="Eventi Live",Motorsport | Moto2 : GP San Marino Practice (13:55)
+#EXTINF:-1 tvg-id="moto2gpsanmarinopractice" tvg-name="Motorsport | Moto2 : GP San Marino Practice (13:55)" tvg-logo="https://1.bp.blogspot.com/-dt6mSIGyYDs/XPVByA3agjI/AAAAAAAAIJs/_6R4IvD5Gh43Bsk4SSoCKUveuK953FQkgCLcBGAs/s72-c/Moto2%2BLogo%2B%255Bwww.blogovector.com%255D.png" group-title="Eventi Live",Motorsport | Moto2 : GP San Marino Practice (13:55)
 https://daddylive.sx/stream/stream-575.php
 
 #EXTINF:-1 tvg-id="ebslsuperfinalitalyvsbelarus" tvg-name="Beach Soccer | EBSL Superfinal : Italy vs Belarus (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Italy_vs_Belarus.png" group-title="Eventi Live",Beach Soccer | EBSL Superfinal : Italy vs Belarus (18:00)
