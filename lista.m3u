@@ -373,6 +373,8 @@ https://vavoo.to/vavoo-iptv/play/3171202588cf85ec4cba3f
 https://vavoo.to/vavoo-iptv/play/2989824407cb0184041b08
 
 # MEDIASET
+#EXTINF:-1 tvg-id="20mediasethd.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png" group-title="Mediaset",20 MEDIASET
+https://vavoo.to/vavoo-iptv/play/12303381856673f2a33deb
 #EXTINF:-1 tvg-id="20mediasethd.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/20-it.png" group-title="Mediaset",20 MEDIASET (D)
 https://daddylive.sx/stream/stream-857.php
 #EXTINF:-1 tvg-id="27.twentyseven.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Twentyseven_logo.svg/260px-Twentyseven_logo.svg.png" group-title="Mediaset",27 TWENTYSEVEN (1)
@@ -967,7 +969,7 @@ https://daddylive.sx/stream/stream-575.php
 #EXTINF:-1 tvg-id="motogpgpsanmarinopractice1" tvg-name="Motorsport | MotoGP : GP San Marino Practice 1 (13:15)" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/11/MotoGP-Logo-2024.png" group-title="Eventi Live",Motorsport | MotoGP : GP San Marino Practice 1 (13:15)
 https://daddylive.sx/stream/stream-575.php
 
-#EXTINF:-1 tvg-id="moto2gpsanmarinopractice" tvg-name="Motorsport | Moto2 : GP San Marino Practice (13:55)" tvg-logo="https://1.bp.blogspot.com/-dt6mSIGyYDs/XPVByA3agjI/AAAAAAAAIJs/_6R4IvD5Gh43Bsk4SSoCKUveuK953FQkgCLcBGAs/s72-c/Moto2%2BLogo%2B%255Bwww.blogovector.com%255D.png" group-title="Eventi Live",Motorsport | Moto2 : GP San Marino Practice (13:55)
+#EXTINF:-1 tvg-id="moto2gpsanmarinopractice" tvg-name="Motorsport | Moto2 : GP San Marino Practice (13:55)" tvg-logo="https://1.bp.blogspot.com/--h_B_gQgA5M/X7dzqBuFa1I/AAAAAAAAKcA/_64dF25d7LQDis3x67-bnWXPQwPKkVAVACLcBGAsYHQ/w1200-h630-p-k-no-nu/Moto2.png" group-title="Eventi Live",Motorsport | Moto2 : GP San Marino Practice (13:55)
 https://daddylive.sx/stream/stream-575.php
 
 #EXTINF:-1 tvg-id="ebslsuperfinalitalyvsbelarus" tvg-name="Beach Soccer | EBSL Superfinal : Italy vs Belarus (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Italy_vs_Belarus.png" group-title="Eventi Live",Beach Soccer | EBSL Superfinal : Italy vs Belarus (18:00)
