@@ -241,12 +241,8 @@ https://vavoo.to/vavoo-iptv/play/32202484989ac14421915
 https://daddylive.sx/stream/stream-881.php
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/portugal/star-comedy-pt.png?raw=true" group-title="Altro",STAR COMEDY
 https://vavoo.to/vavoo-iptv/play/151207238423ec1d54e5b8
-#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/argentina/star-life-ar.png?raw=true" group-title="Altro",STAR LIFE
-https://vavoo.to/vavoo-iptv/play/3946128844a366ea9809f0
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.stereo5.it/2022/wp-content/uploads/2023/02/LOGO-NUOVO-2023-2.png" group-title="Altro",STEREO 5 TV
 https://vavoo.to/vavoo-iptv/play/88205050e85664590a6b
-#EXTINF:-1 tvg-id="" tvg-logo="https://e7.pngegg.com/pngimages/439/74/png-clipart-superman-superhero-drawing-super-man-font-superhero-heart.png" group-title="Altro",SUPER J
-https://vavoo.to/vavoo-iptv/play/1284194905df7c12749d48
 #EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFBXh88zZx4IvyQKyYd5Hu2yeytO42zNQ4zA&s" group-title="Altro",SUPER TV ARISTANIS
 https://vavoo.to/vavoo-iptv/play/11653719d8ef305a8c92
 #EXTINF:-1 tvg-id="" tvg-logo="https://bresciasat.it/assets/front/img/logo3.png" group-title="Altro",SUPER TV BRESCIA
@@ -417,8 +413,6 @@ https://vavoo.to/vavoo-iptv/play/14256673753de6371f2c50
 https://vavoo.to/vavoo-iptv/play/313448120145a6443975e1
 #EXTINF:-1 tvg-id="mediaset.extra.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/mediaset-extra-it.png" group-title="Mediaset",MEDIASET EXTRA
 https://vavoo.to/vavoo-iptv/play/4774665319f73c392df0e
-#EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Mediaset",MEDIASET INFINITY+ 1
-https://vavoo.to/vavoo-iptv/play/3599959739ed5ed2f1f0cd
 #EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Mediaset",MEDIASET INFINITY+ 2
 https://vavoo.to/vavoo-iptv/play/2436070507988d651c6548
 #EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/2-Cl0plYUCxk8bnbeavm4ZOJ_S4Xuwmql_N3_E4OJyf7XK_YUvdNOWgzn8KD-Bur8w0" group-title="Mediaset",MEDIASET INFINITY+ 5
@@ -579,8 +573,6 @@ https://daddylive.sx/stream/stream-575.php
 https://vavoo.to/vavoo-iptv/play/271195962000118dca31ce
 #EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sport",SKY SPORT NBA (2)
 https://vavoo.to/vavoo-iptv/play/3268253262aec282eb346
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-serie-a-it.png" group-title="Sport",SKY SPORT SERIE A
-https://vavoo.to/vavoo-iptv/play/2077387085cfe0f64122dc
 #EXTINF:-1 tvg-id="sky.sport.tennis.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sport",SKY SPORT TENNIS (1)
 https://vavoo.to/vavoo-iptv/play/210077178262e76f204fa6
 #EXTINF:-1 tvg-id="sky.sport.tennis.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sport",SKY SPORT TENNIS (2)
@@ -984,10 +976,10 @@ https://daddylive.sx/stream/stream-167.php
 #EXTINF:-1 tvg-id="italyserieccampobassovspineto" tvg-name="All Soccer Events | Italy - Serie C : Campobasso vs Pineto (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Campobasso_vs_Pineto.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Campobasso vs Pineto (17:30)
 https://daddylive.sx/stream/stream-171.php
 
-#EXTINF:-1 tvg-id="italyseriecsiracusavsbenevento" tvg-name="All Soccer Events | Italy - Serie C : Siracusa vs Benevento (17:30)" tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e2549f68807889.5b6a14e3d8914.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Siracusa vs Benevento (17:30)
+#EXTINF:-1 tvg-id="italyseriecsiracusavsbenevento" tvg-name="All Soccer Events | Italy - Serie C : Siracusa vs Benevento (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Siracusa_vs_Benevento.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Siracusa vs Benevento (17:30)
 https://daddylive.sx/stream/stream-166.php
 
-#EXTINF:-1 tvg-id="italyseriecsiracusavsbenevento" tvg-name="All Soccer Events | Italy - Serie C : Siracusa vs Benevento (17:30)" tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e2549f68807889.5b6a14e3d8914.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Siracusa vs Benevento (17:30)
+#EXTINF:-1 tvg-id="italyseriecsiracusavsbenevento" tvg-name="All Soccer Events | Italy - Serie C : Siracusa vs Benevento (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Siracusa_vs_Benevento.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Siracusa vs Benevento (17:30)
 https://daddylive.sx/stream/stream-462.php
 
 #EXTINF:-1 tvg-id="italyseriecpicernovsvirtuscasarano" tvg-name="All Soccer Events | Italy - Serie C : Picerno vs Virtus Casarano (17:30)" tvg-logo="https://images.seeklogo.com/logo-png/52/2/az-picerno-logo-png_seeklogo-524288.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Picerno vs Virtus Casarano (17:30)
@@ -1037,9 +1029,6 @@ https://daddylive.sx/stream/stream-575.php
 
 #EXTINF:-1 tvg-id="vueltaaespanastage20mountain156km4220m" tvg-name="Cycling | Vuelta a Espana Stage 20 Mountain | 156 km | 4220 m (12:45)" tvg-logo="http://recorrido2023.presentacionvuelta.es/wp-content/uploads/2022/12/recorrido_oficial_lavuelta2023.png" group-title="Eventi Live",Cycling | Vuelta a Espana Stage 20 Mountain | 156 km | 4220 m (12:45)
 https://daddylive.sx/stream/stream-878.php
-
-#EXTINF:-1 tvg-id="rugbychampionshipaustraliavsargentina" tvg-name="Rugby Union | Rugby Championship : Australia vs Argentina (06:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Australia_vs_Argentina.png" group-title="Eventi Live",Rugby Union | Rugby Championship : Australia vs Argentina (06:00)
-https://daddylive.sx/stream/stream-462.php
 
 #EXTINF:-1 tvg-id="rugbychampionshipnewzealandvssouthafrica" tvg-name="Rugby Union | Rugby Championship : New Zealand vs South Africa (09:05)" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/south-africa-logo-png-transparent.png" group-title="Eventi Live",Rugby Union | Rugby Championship : New Zealand vs South Africa (09:05)
 https://daddylive.sx/stream/stream-462.php
