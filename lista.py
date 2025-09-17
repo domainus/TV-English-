@@ -28,7 +28,6 @@ def merger_playlist():
     # Percorsi o URL delle playlist M3U8
     url1 = "channels_italy.m3u8"  # File locale
     url2 = "eventi.m3u8"
-    url3 = "tvtap.m3u8" 
     url6 = "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/main/PlutoItaly.m3u"
     
     # Funzione per scaricare o leggere una playlist
@@ -54,7 +53,6 @@ def merger_playlist():
     
     # Scarica/leggi le playlist
     playlist1 = download_playlist(url1) # channels_italy.m3u8
-    playlist3 = download_playlist(url3)
     
     canali_daddy_flag = os.getenv("CANALI_DADDY", "no").strip().lower()
     if canali_daddy_flag == "si":
@@ -66,7 +64,7 @@ def merger_playlist():
     playlist6 = download_playlist(url6)
     
     # Unisci le playlist
-    lista = playlist1 + "\n" + playlist2 + "\n" + playlist3 + "\n" + playlist6
+    lista = playlist1 + "\n" + playlist2 + "\n" + playlist6
     
     # Aggiungi intestazione EPG
     lista = f'#EXTM3U url-tvg="https://raw.githubusercontent.com/{NOMEGITHUB}/{NOMEREPO}/refs/heads/main/epg.xml"\n' + lista
@@ -98,7 +96,6 @@ def merger_playlistworld():
     # Percorsi o URL delle playlist M3U8
     url1 = "channels_italy.m3u8"  
     url2 = "eventi.m3u8"   
-    url3 = "tvtap.m3u8" 
     url5 = "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/main/PlutoItaly.m3u"      
     url6 = "world.m3u8"
     
@@ -125,7 +122,6 @@ def merger_playlistworld():
     
     # Scarica/leggi le playlist
     playlist1 = download_playlist(url1) # channels_italy.m3u8
-    playlist3 = download_playlist(url3)
     
     canali_daddy_flag = os.getenv("CANALI_DADDY", "no").strip().lower()
     if canali_daddy_flag == "si":
@@ -2998,540 +2994,13 @@ def world_channels_generator():
         print(f"Trovati {len(channels)} canali. Creo la playlist M3U con i link proxy...")
         save_as_m3u(channels) 
 
-def tvtap():
-    import requests
-    import json
-    import sys
-    import argparse
-    from base64 import b64decode, b64encode
-    from binascii import a2b_hex
-    import re
-    
-    # Flag per controllare l'output di debug.
-    # Può essere attivato con l'argomento --debug o --verbose
-    DEBUG_MODE = False
-    
-    def logga(messaggio):
-        """Funzione di logging per debug"""
-        if DEBUG_MODE:
-            print(f"[DEBUG] {messaggio}", file=sys.stderr)
-    
-    # Controllo delle dipendenze critiche all'avvio
-    try:
-        from Crypto.Cipher import PKCS1_v1_5 as Cipher_PKCS1_v1_5
-        from Crypto.PublicKey import RSA
-        from pyDes import des, PAD_PKCS5
-        PYCRYPTO_AVAILABLE = True
-    except ImportError:
-        PYCRYPTO_AVAILABLE = False
-    
-    # Inizializzazione del cifrario RSA una sola volta per efficienza
-    _pubkey = RSA.importKey(
-        a2b_hex(
-            "30819f300d06092a864886f70d010101050003818d003081890281"
-            "8100bfa5514aa0550688ffde568fd95ac9130fcdd8825bdecc46f1"
-            "8f6c6b440c3685cc52ca03111509e262dba482d80e977a938493ae"
-            "aa716818efe41b84e71a0d84cc64ad902e46dbea2ec61071958826"
-            "4093e20afc589685c08f2d2ae70310b92c04f9b4c27d79c8b5dbb9"
-            "bd8f2003ab6a251d25f40df08b1c1588a4380a1ce8030203010001"
-        )
-    )
-    _msg = a2b_hex(
-        "7b224d4435223a22695757786f45684237686167747948392b58563052513d3d5c6e222c22534"
-        "84131223a2242577761737941713841327678435c2f5450594a74434a4a544a66593d5c6e227d"
-     )
-    _rsa_cipher = Cipher_PKCS1_v1_5.new(_pubkey)
-    
-    def payload():
-        """Genera payload per le richieste TVTap - esatto come nel codice originale"""
-        return b64encode(_rsa_cipher.encrypt(_msg))
-    
-    def get_tvtap_channels():
-        """Ottiene la lista dei canali italiani da TVTap usando il metodo originale"""
-        # Controlla se pycryptodome è disponibile prima di procedere
-        try:
-            from Crypto.Cipher import PKCS1_v1_5 as Cipher_PKCS1_v1_5
-        except ImportError:
-            # Questo blocco non è più necessario grazie al controllo globale
-            pass
-        user_agent = 'USER-AGENT-tvtap-APP-V2'
-        
-        headers = {
-            'User-Agent': user_agent,
-            'app-token': '37a6259cc0c1dae299a7866489dff0bd',
-            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            'Host': 'taptube.net',
-        }
-        
-        try:
-            payload_data = payload()
-            r = requests.post('https://rocktalk.net/tv/index.php?case=get_all_channels', 
-                             headers=headers, 
-                             data={"payload": payload_data, "username": "603803577"}, 
-                             timeout=15)
-            
-            logga(f'Response status: {r.status_code}')
-            
-            if r.status_code != 200:
-                logga(f'HTTP error: {r.status_code}')
-                return [] # Non usare la lista statica in caso di errore
-                
-            response_json = r.json()
-            logga(f'Got response with keys: {list(response_json.keys()) if isinstance(response_json, dict) else "not a dict"}')
-            
-            # Controlla se c'è un errore nella risposta
-            if isinstance(response_json, dict) and "msg" in response_json:
-                msg = response_json["msg"]
-                if isinstance(msg, str) and ("error" in msg.lower() or "occured" in msg.lower()):
-                    logga(f'API returned error: {msg}')
-                    return [] # Non usare la lista statica in caso di errore
-            
-            # Filtra solo i canali italiani dalla risposta
-            italian_channels = []
-            
-            if isinstance(response_json, dict) and "msg" in response_json:
-                msg = response_json["msg"]
-                if isinstance(msg, dict) and "channels" in msg:
-                    base_logo_url = "https://rocktalk.net/tv/"
-                    channels = msg["channels"]
-                    logga(f'Found {len(channels)} total channels')
-                    
-                    for channel in channels:
-                        if isinstance(channel, dict) and channel.get("country") == "IT":
-                            relative_logo_path = channel.get("img")
-                            full_logo_url = base_logo_url + relative_logo_path if relative_logo_path else ""
-    
-                            italian_channels.append({
-                                "id": channel.get("pk_id"),
-                                "name": channel.get("channel_name"),
-                                "country": channel.get("country"),
-                                "thumbnail": full_logo_url
-                            })
-                    
-                    logga(f'Found {len(italian_channels)} Italian channels from API')
-                    return italian_channels # Restituisce solo i canali trovati, anche se la lista è vuota
-                else:
-                    logga(f'Unexpected msg structure: {type(msg)}, falling back to static list')
-                    return [] # Non usare la lista statica
-            else:
-                logga(f'Unexpected response structure: {type(response_json)}, falling back to static list')
-                return [] # Non usare la lista statica
-            
-        except ImportError as ie:
-            logga(f'Import error: {ie}')
-            print("ERROR: Missing required library", file=sys.stderr)
-            return []
-        except Exception as e:
-            logga(f'Error getting channels from API: {e}')
-            return [] # Non usare la lista statica in caso di errore
-    
-    def get_tvtap_stream(channel_id):
-        """Ottiene lo stream di un canale specifico usando il metodo originale"""
-        logga(f'Stream request for channel {channel_id}')
-        try:
-            payload_data = payload()
-            r = requests.post('https://rocktalk.net/tv/index.php?case=get_channel_link_with_token_latest', 
-                headers={"app-token": "37a6259cc0c1dae299a7866489dff0bd"},
-                data={"payload": payload_data, "channel_id": channel_id, "username": "603803577"},
-                timeout=15)
-    
-            logga(f'Stream request for channel {channel_id}: {r.status_code}')
-            
-            if r.status_code != 200:
-                logga(f'HTTP error: {r.status_code}')
-                return None
-                
-            response_json = r.json()
-            logga(f'Response keys: {list(response_json.keys()) if isinstance(response_json, dict) else "not a dict"}')
-            
-            if "msg" not in response_json:
-                logga('No msg in response')
-                return None
-                
-            msgRes = response_json["msg"]
-            logga(f'Message response type: {type(msgRes)}, content: {str(msgRes)[:50]}...')
-            
-            if isinstance(msgRes, str):
-                if "error" in msgRes.lower() or "occured" in msgRes.lower():
-                    logga(f'API returned error: {msgRes}')
-                    return None
-                else:
-                    logga(f'Got string response: {msgRes}')
-                    return None
-            
-            if not isinstance(msgRes, dict) or "channel" not in msgRes:
-                logga('No channel in response')
-                return None
-                
-            # Prova a decrittare usando pyDes (come nel codice originale)
-            try:
-                key = b"98221122"
-                jch = msgRes["channel"][0]
-                
-                for stream in jch.keys():
-                    if "stream" in stream or "chrome_cast" in stream:
-                        d = des(key)
-                        link = d.decrypt(b64decode(jch[stream]), padmode=PAD_PKCS5)
-                
-                        if link:
-                            link = link.decode("utf-8")
-                            if not link == "dummytext" and link:
-                                logga(f'Found stream link for channel {channel_id}')
-                                return link
-                
-            except Exception as e:
-                logga(f'Decryption error: {e}')
-                return None
-        except Exception as e:
-            logga(f'Error getting stream: {e}')
-            return None
-        
-        logga('Failed to get stream for TVTap ID')
-        return None
-    
-    def normalize_channel_name(name):
-        """Normalizza il nome del canale per matching flessibile"""
-        if not name:
-            return ""
-        
-        # Converte in maiuscolo e rimuove spazi extra
-        name = name.strip().upper()
-        
-        # Rimuove suffissi comuni
-        name = re.sub(r'\s+(HD|FHD|4K|\.A|\.B|\.C)$', '', name)
-        
-        # Rimuove caratteri speciali per matching più flessibile
-        name = re.sub(r'[^\w\s]', '', name)
-        
-        return name
-    
-    def find_channel_by_name(channel_name, channels):
-        """Trova un canale per nome con matching flessibile"""
-        if not channel_name or not channels:
-            return None
-        
-        normalized_search = normalize_channel_name(channel_name)
-        logga(f'Looking for normalized name: {normalized_search}')
-        
-        # Matching esatto
-        for channel in channels:
-            normalized_channel = normalize_channel_name(channel.get("name", ""))
-            if normalized_channel == normalized_search:
-                logga(f'Exact match found: {channel.get("name")}')
-                return channel
-        
-        # Matching parziale - cerca se il nome cercato è contenuto nel nome del canale
-        for channel in channels:
-            normalized_channel = normalize_channel_name(channel.get("name", ""))
-            if normalized_search in normalized_channel or normalized_channel in normalized_search:
-                logga(f'Partial match found: {channel.get("name")}')
-                return channel
-        
-        # Matching ancora più flessibile - rimuove spazi e caratteri speciali
-        search_simple = re.sub(r'[^A-Z0-9]', '', normalized_search)
-        for channel in channels:
-            channel_simple = re.sub(r'[^A-Z0-9]', '', normalize_channel_name(channel.get("name", "")))
-            if search_simple in channel_simple or channel_simple in search_simple:
-                logga(f'Flexible match found: {channel.get("name")}')
-                return channel
-        
-        logga(f'No match found for: {channel_name}')
-        return None
-    
-    def normalize_name_for_tvg_id(name):
-        """Normalizza il nome per la corrispondenza con l'EPG, come in Untitled."""
-        if not name:
-            return ""
-        # Converte in minuscolo, rimuove spazi e suffissi comuni
-        name = re.sub(r"\s+", "", name.strip().lower())
-        name = re.sub(r"\.it\b", "", name)
-        name = re.sub(r"hd|fullhd", "", name)
-        return name
-    
-    def create_tvg_id_map(epg_file="epg.xml"):
-        """
-        Crea una mappa di tvg-id dai nomi normalizzati dei canali in un file EPG.
-        """
-        import xml.etree.ElementTree as ET
-        import os
-    
-        tvg_id_map = {}
-        if not os.path.exists(epg_file):
-            logga(f"File EPG '{epg_file}' non trovato. I tvg-id non verranno generati.")
-            return tvg_id_map
-    
-        try:
-            tree = ET.parse(epg_file)
-            root = tree.getroot()
-            for channel in root.findall('channel'):
-                tvg_id = channel.get('id')
-                display_name_element = channel.find('display-name')
-                if tvg_id and display_name_element is not None and display_name_element.text:
-                    normalized_name = normalize_name_for_tvg_id(display_name_element.text)
-                    tvg_id_map[normalized_name] = tvg_id
-            logga(f"Mappa tvg-id creata con successo da '{epg_file}'. Trovati {len(tvg_id_map)} ID.")
-        except Exception as e:
-            logga(f"ERRORE durante la lettura di {epg_file}: {e}")
-        return tvg_id_map
-    
-    def validate_stream_url(url, timeout=15):
-        """
-        Verifica se un URL di streaming è valido, controllando anche il contenuto.
-        Restituisce True se l'URL è raggiungibile e sembra una playlist M3U valida.
-        """
-        if not url or not url.startswith('http'):
-            logga(f"URL non valido per la validazione: {url}")
-            return False
-        try:
-            # Usiamo gli header che mimano un player Android, come suggerito
-            # dal codice originale, per massima compatibilità. Molti server
-            # richiedono User-Agent e Referer specifici.
-            headers = {
-                'User-Agent': 'mediaPlayerhttp/1.8 (Linux;Android 7.1.2) ExoPlayerLib/2.5.3',
-                'Referer': 'https://rocktalk.net/'
-            }
-            with requests.get(url, headers=headers, timeout=timeout, stream=True, allow_redirects=True) as response:
-                if 200 <= response.status_code < 300:
-                    # Leggiamo solo i primi byte per verificare se è un M3U8 valido.
-                    # Questo evita di considerare valide pagine di errore HTML con status 200.
-                    try:
-                        first_chunk = next(response.iter_content(chunk_size=256))
-                        content_start = first_chunk.decode('utf-8', errors='ignore')
-                        if '#EXTM3U' in content_start:
-                            logga(f"Validazione URL -> Successo (Status: {response.status_code}, Contenuto M3U8 valido)")
-                            return True
-                        else:
-                            logga(f"Validazione URL -> Fallito (Status: {response.status_code}, Contenuto non M3U8 o non valido)")
-                            return False
-                    except StopIteration:
-                        logga(f"Validazione URL -> Fallito (Status: {response.status_code}, Risposta vuota)")
-                        return False
-                else:
-                    logga(f"Validazione URL -> Fallito (Status: {response.status_code})")
-                    return False
-        except requests.exceptions.Timeout:
-            logga(f"Validazione URL -> Fallito (Timeout dopo {timeout}s)")
-            return False
-        except requests.exceptions.RequestException as e:
-            # Gestisce altri errori di rete (es. DNS, connessione rifiutata)
-            logga(f"Validazione URL -> Fallito (Errore di rete: {type(e).__name__})")
-            return False
-    
-    CATEGORY_KEYWORDS = {
-        "Rai": ["rai"],
-        "Mediaset": ["twenty seven", "twentyseven", "mediaset", "italia 1", "italia 2", "canale 5"],
-        "Sport": ["inter", "milan", "lazio", "calcio", "tennis", "sport", "super tennis", "supertennis", "dazn", "eurosport", "sky sport", "rai sport"],
-        "Film - Serie TV": ["crime", "primafila", "cinema", "movie", "film", "serie", "hbo", "fox", "rakuten", "atlantic"],
-        "News": ["news", "tg", "rai news", "sky tg", "tgcom"],
-        "Bambini": ["frisbee", "super!", "fresbee", "k2", "cartoon", "boing", "nick", "disney", "baby", "rai yoyo"],
-        "Documentari": ["documentaries", "discovery", "geo", "history", "nat geo", "nature", "arte", "documentary"],
-        "Musica": ["deejay", "rds", "hits", "rtl", "mtv", "vh1", "radio", "music", "kiss", "kisskiss", "m2o", "fm"],
-        "Altro": ["focus", "real time"]
-    }
-    
-    def get_group_title(name):
-        """Assegna un gruppo al canale in base a parole chiave nel nome."""
-        name_lower = name.lower()
-        for group, keywords in CATEGORY_KEYWORDS.items():
-            for kw in keywords:
-                if kw in name_lower:
-                    return group
-        return "Altro"
-    
-    def create_m3u_playlist(filename):
-        """
-        Crea una playlist M3U con tutti i canali italiani e i loro stream.
-        """
-        import time
-        logga(f"Inizio creazione playlist M3U: {filename}")
-        
-        # 1. Crea la mappa dei tvg-id leggendo il file EPG
-        tvg_id_map = create_tvg_id_map()
-    
-        # 2. Ottieni la lista dei canali
-        channels = get_tvtap_channels()
-        if not channels:
-            logga("ERRORE: Impossibile recuperare la lista dei canali. Interruzione.")
-            print("ERRORE: Nessun canale recuperato. Impossibile creare la playlist.", file=sys.stderr)
-            return
-    
-        # 3. Ordina i canali per nome
-        sorted_channels = sorted(channels, key=lambda x: x.get('name', '').lower())
-        total_channels = len(sorted_channels)
-        logga(f"Trovati e ordinati {total_channels} canali italiani.")
-        working_channels_count = 0
-    
-        # 4. Apri il file e scrivi l'header
-        try:
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write("#EXTM3U\n")
-                
-                # 5. Itera sui canali e risolvi gli stream
-                for i, channel in enumerate(sorted_channels, 1):
-                    channel_id = channel.get("id")
-                    channel_name = channel.get("name", "Sconosciuto")
-                    channel_logo = channel.get("thumbnail", "")
-                    
-                    print(f"[{i}/{total_channels}] Elaborazione: {channel_name}...", end="", flush=True)
-                    
-                    if not channel_id:
-                        print(" -> ID mancante, saltato.")
-                        logga(f"Canale '{channel_name}' saltato perché non ha un ID.")
-                        continue
-                    
-                    stream_url = get_tvtap_stream(channel_id)
-                    
-                    # Aggiunta validazione dell'URL dello stream prima di scriverlo
-                    if stream_url and validate_stream_url(stream_url):
-                        # Aggiungi il suffisso (TVT) al nome del canale per la visualizzazione
-                        display_name = f"{channel_name} (TVT)"
-    
-                        # Normalizza il nome del canale ORIGINALE e cerca il tvg-id corrispondente
-                        normalized_name = normalize_name_for_tvg_id(channel_name)
-                        tvg_id = tvg_id_map.get(normalized_name, "") # Usa stringa vuota se non trovato
-    
-                        group_title = get_group_title(channel_name)
-                        extinf = f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-name="{display_name}" tvg-logo="{channel_logo}" group-title="{group_title}",{display_name}\n'
-                        f.write(extinf)
-                        f.write(stream_url + "\n")
-                        print(" -> Aggiunto (Verificato).")
-                        working_channels_count += 1
-                    elif stream_url:
-                        # Lo stream è stato trovato ma non è valido/raggiungibile
-                        print(" -> Saltato (Link non funzionante).")
-                        logga(f"Stream per '{channel_name}' (ID: {channel_id}) trovato ma la validazione è fallita.")
-                    else:
-                        # Lo stream non è stato proprio trovato dall'API
-                        print(" -> Saltato (Stream non trovato).")
-                        logga(f"Stream non trovato per '{channel_name}' (ID: {channel_id}).")
-                    
-                    # Aggiungi una piccola pausa per non sovraccaricare i server e ridurre i falsi negativi.
-                    time.sleep(0.5)
-            
-            print(f"\nPlaylist '{filename}' creata con successo. Contiene {working_channels_count} canali funzionanti su {total_channels} tentati.")
-            logga(f"Playlist M3U '{filename}' salvata correttamente.")
-        except Exception as e:
-            logga(f"ERRORE CRITICO durante la creazione del file M3U: {e}")
-            print(f"\nSi è verificato un errore durante la scrittura del file: {e}", file=sys.stderr)
-    
-    def build_tvtap_cache(channels):
-        """Costruisce una cache dei canali TVTap"""
-        cache = {}
-        for ch in channels:
-            name = ch.get("name", "").strip()
-            channel_id = ch.get("id", "")
-            if name and channel_id:
-                cache[name] = channel_id
-        return cache
-    
-    if "--build-cache" in sys.argv:
-        """Costruisce la cache dei canali TVTap"""
-        channels = get_tvtap_channels()
-        cache = build_tvtap_cache(channels)
-        with open("tvtap_cache.json", "w", encoding="utf-8") as f:
-            json.dump({"channels": cache}, f, ensure_ascii=False, indent=2)
-        print("Cache TVTap generata con successo!")
-        sys.exit(0)
-    
-    def main():
-        """Funzione principale per gestire gli argomenti e l'esecuzione."""
-        global DEBUG_MODE
-        parser = argparse.ArgumentParser(
-            description="Risolutore di stream TVTap e creatore di playlist M3U.",
-            epilog="Esempio: python tvtap.py --create-m3u tv.m3u"
-        )
-        parser.add_argument(
-            'channel_name', 
-            nargs='?', 
-            help="Nome del canale da risolvere (modalità predefinita)."
-        )
-        parser.add_argument(
-            '--create-m3u', 
-            metavar='FILENAME',
-            help="Crea una playlist M3U con tutti i canali italiani."
-        )
-        parser.add_argument(
-            '--dump-channels', 
-            action='store_true',
-            help="Stampa la lista completa dei canali italiani in formato JSON."
-        )
-        parser.add_argument(
-            '--resolve-stream', 
-            metavar='ID',
-            help="Ottiene l'URL dello stream per un ID di canale specifico."
-        )
-        parser.add_argument(
-            '--find-channel', 
-            metavar='NAME',
-            help="Trova e stampa i dati di un canale per nome in formato JSON."
-        )
-        parser.add_argument(
-            '--original-link', 
-            action='store_true',
-            help="Restituisce il link originale in formato tvtap:// (usato con channel_name)."
-        )
-        parser.add_argument(
-            '--debug', '--verbose', 
-            action='store_true',
-            help="Abilita l'output di debug."
-        )
-    
-        args = parser.parse_args()
-    
-        if args.debug:
-            DEBUG_MODE = True
-            logga("Modalità debug attivata.")
-    
-        if not PYCRYPTO_AVAILABLE:
-            logga("FATAL: Le librerie 'pycryptodome' e/o 'pyDes' non sono installate.")
-            print("ERRORE: Dipendenze mancanti. Esegui: pip install pycryptodome pyDes", file=sys.stderr)
-            sys.exit(1)
-    
-        if args.create_m3u:
-            create_m3u_playlist(args.create_m3u)
-        elif args.dump_channels:
-            channels = get_tvtap_channels()
-            print(json.dumps(channels, ensure_ascii=False, indent=2))
-        elif args.resolve_stream:
-            stream_url = get_tvtap_stream(args.resolve_stream)
-            if stream_url:
-                print(stream_url)
-            else:
-                logga(f"Stream non trovato per l'ID: {args.resolve_stream}")
-                print("STREAM_FAIL", file=sys.stderr)
-                sys.exit(5)
-        elif args.find_channel:
-            channels = get_tvtap_channels()
-            found_channel = find_channel_by_name(args.find_channel, channels)
-            if found_channel:
-                print(json.dumps(found_channel, ensure_ascii=False, indent=2))
-            else:
-                logga(f"Canale '{args.find_channel}' non trovato.")
-                print("NOT_FOUND", file=sys.stderr)
-                sys.exit(3)
-        elif args.channel_name:
-            resolve_single_channel(args.channel_name, args.original_link)
-        else:
-            parser.print_help()
-            sys.exit(1)
-    
-    def resolve_single_channel(channel_name, return_original_link=False):
-        """Logica per risolvere un singolo canale, estratta dal blocco main."""
-        # ... (la logica esistente da riga 800 in poi va qui)
-        # Questo rende il codice più pulito e riutilizzabile.
-        # Per brevità, non la duplico qui, ma andrebbe spostata.
-        pass # La logica originale per risolvere un singolo canale andrebbe qui
-    
-    if __name__ == "__main__":
-        main()
-
 def removerworld():
     import os
     
     canali_daddy_flag = os.getenv("CANALI_DADDY", "no").strip().lower()
     
     # Lista dei file da eliminare
-    files_to_delete = ["tvtap.m3u8", "world.m3u8", "channels_italy.m3u8"]
+    files_to_delete = ["world.m3u8", "channels_italy.m3u8"]
     
     # Condizionalmente aggiungi eventi.m3u8 e eventi.xml alla lista di eliminazione
     if canali_daddy_flag == "si":
@@ -3556,7 +3025,7 @@ def remover():
     canali_daddy_flag = os.getenv("CANALI_DADDY", "no").strip().lower()
 
     # Lista dei file da eliminare
-    files_to_delete = ["tvtap.m3u8", "channels_italy.m3u8"]
+    files_to_delete = ["channels_italy.m3u8"]
 
     # Condizionalmente aggiungi eventi.m3u8 alla lista di eliminazione
     if canali_daddy_flag == "si":
@@ -3629,12 +3098,6 @@ def main():
             italy_channels()
         except Exception as e:
             print(f"Errore durante l'esecuzione di italy_channels: {e}")
-            return
-
-        try:
-            tvtap()
-        except Exception as e:
-            print(f"Errore durante l'esecuzione di tvtap: {e}")
             return
 
         # Canali World e Merge finale
