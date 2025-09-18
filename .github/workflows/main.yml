@@ -20,12 +20,12 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pycryptodome pyDes requests beautifulsoup4 lxml playwright bs4 rapidfuzz fuzzywuzzy python-Levenshtein python-dateutil python-dotenv selenium webdriver-manager pillow
+          pip install requests beautifulsoup4 lxml playwright bs4 rapidfuzz fuzzywuzzy python-Levenshtein python-dateutil python-dotenv selenium webdriver-manager pillow
           playwright install 
 
       - name: Run Script
         run: |
-          python lista.py --create-m3u tvtap.m3u8
+          python lista.py
       
       - name: Configura Git
         run: |
