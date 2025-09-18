@@ -1,6 +1,6 @@
 {
     "Thursday 18th Sep 2025 - Schedule Time UK GMT": {
-        "TV Shows</span>": [
+        "TV Shows": [
             {
                 "time": "18:00",
                 "event": "Beyond the Gates Season 1, Episode 132",
@@ -285,7 +285,7 @@
                 "channels": []
             }
         ],
-        "Soccer</span>": [
+        "Soccer": [
             {
                 "time": "10:00",
                 "event": "Asia - AFC Champions League Two : Wofoo Tai Po vs Macarthur",
@@ -1775,7 +1775,7 @@
                 ]
             }
         ],
-        "Cricket</span>": [
+        "Cricket": [
             {
                 "time": "14:30",
                 "event": "Asia Cup : Afghanistan vs Sri Lanka",
@@ -1795,7 +1795,7 @@
                 ]
             }
         ],
-        "Badminton</span>": [
+        "Badminton": [
             {
                 "time": "02:00",
                 "event": "China Masters BWF World Tour",
@@ -1807,7 +1807,7 @@
                 ]
             }
         ],
-        "Tennis ATP - CHENGDU</span>": [
+        "Tennis ATP - CHENGDU": [
             {
                 "time": "05:00",
                 "event": "ATP - CHENGDU : Misolic F. vs Mpetshi Perricard G.",
@@ -1821,12 +1821,22 @@
             {
                 "time": "05:00",
                 "event": "ATP - CHENGDU : Sonego L. vs Cerundolo J. M.",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "SD-8628817",
+                        "channel_id": "8628817"
+                    }
+                ]
             },
             {
                 "time": "06:00",
                 "event": "ATP - CHENGDU : Thompson J. vs Tabilo A.",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "SD-8640709",
+                        "channel_id": "8640709"
+                    }
+                ]
             },
             {
                 "time": "06:30",
@@ -1841,17 +1851,32 @@
             {
                 "time": "06:30",
                 "event": "ATP - CHENGDU : Atmane T. vs Prizmic D.",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "SD-8628823",
+                        "channel_id": "8628823"
+                    }
+                ]
             },
             {
                 "time": "07:30",
                 "event": "ATP - CHENGDU : McDonald M. vs Van De Zandschulp B.",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "SD-8640712",
+                        "channel_id": "8640712"
+                    }
+                ]
             },
             {
                 "time": "08:00",
                 "event": "ATP - CHENGDU : Basilashvili N. vs Baez S.",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "SD-8640710",
+                        "channel_id": "8640710"
+                    }
+                ]
             },
             {
                 "time": "08:30",
@@ -1864,7 +1889,7 @@
                 ]
             }
         ],
-        "Tennis ATP - HANGZHOU</span>": [
+        "Tennis ATP - HANGZHOU": [
             {
                 "time": "05:30",
                 "event": "ATP - HANGZHOU : Dzumhur D. vs Etcheverry T. M.",
@@ -1878,12 +1903,22 @@
             {
                 "time": "05:30",
                 "event": "ATP - HANGZHOU : Cazaux A. vs Arnaldi M.",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "SD-8628802",
+                        "channel_id": "8628802"
+                    }
+                ]
             },
             {
                 "time": "05:30",
                 "event": "ATP - HANGZHOU : Hijikata R. vs Ugo Carabelli C.",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "SD-8640615",
+                        "channel_id": "8640615"
+                    }
+                ]
             },
             {
                 "time": "07:00",
@@ -1898,12 +1933,22 @@
             {
                 "time": "07:00",
                 "event": "ATP - HANGZHOU : Kovacevic A. vs Royer V.",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "SD-8640606",
+                        "channel_id": "8640606"
+                    }
+                ]
             },
             {
                 "time": "07:00",
                 "event": "ATP - HANGZHOU : Zeppieri G. vs Sun F.",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "SD-8640616",
+                        "channel_id": "8640616"
+                    }
+                ]
             },
             {
                 "time": "08:30",
@@ -1918,12 +1963,22 @@
             {
                 "time": "08:30",
                 "event": "ATP - HANGZHOU : Vukic A. vs Goffin D.",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "SD-8628801",
+                        "channel_id": "8628801"
+                    }
+                ]
             },
             {
                 "time": "08:30",
                 "event": "ATP - HANGZHOU : Walton A. vs Korda S.",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "SD-8628796",
+                        "channel_id": "8628796"
+                    }
+                ]
             },
             {
                 "time": "11:30",
@@ -1936,7 +1991,7 @@
                 ]
             }
         ],
-        "Tennis BJK CUP</span>": [
+        "Tennis BJK CUP": [
             {
                 "time": "02:00",
                 "event": "BJK CUP : Kazakhstan vs USA",
@@ -1962,7 +2017,7 @@
                 ]
             }
         ],
-        "Tennis WTA - SEOUL</span>": [
+        "Tennis WTA - SEOUL": [
             {
                 "time": "05:00",
                 "event": "WTA - SEOUL : Boisson L. vs Alexandrova E.",
@@ -2056,7 +2111,7 @@
                 ]
             }
         ],
-        "Tennis</span>": [
+        "Tennis": [
             {
                 "time": "04:30",
                 "event": "The Billie Jean King Cup: Kazakhstan vs. America",
@@ -2103,7 +2158,7 @@
             },
             {
                 "time": "10:00",
-                "event": "BJK Cup Finals Quarterfinals USA v. KAZ & JPN v. GBR; Seoul-WTA & Chengdu-ATP",
+                "event": "BJK Cup Finals Quarterfinals USA v. KAZ &amp; JPN v. GBR; Seoul-WTA &amp; Chengdu-ATP",
                 "channels": [
                     {
                         "channel_name": "Tennis Channel",
@@ -2160,7 +2215,7 @@
                 ]
             }
         ],
-        "Motorsport</span>": [
+        "Motorsport": [
             {
                 "time": "18:30",
                 "event": "British Premiership Play-Off | Semi-Final | Second Leg Sheffield Tigers - Leicester Lions",
@@ -2172,7 +2227,7 @@
                 ]
             }
         ],
-        "WWE</span>": [
+        "WWE": [
             {
                 "time": "00:00",
                 "event": "TNA iMPACT!",
@@ -2188,7 +2243,7 @@
                 ]
             }
         ],
-        "Golf</span>": [
+        "Golf": [
             {
                 "time": "11:30",
                 "event": "DP World Tour FedEx Open De France",
@@ -2292,7 +2347,7 @@
                 ]
             }
         ],
-        "Snooker</span>": [
+        "Snooker": [
             {
                 "time": "12:00",
                 "event": "World Snooker - Snooker English Open",
@@ -2362,7 +2417,7 @@
                 ]
             }
         ],
-        "Am. Football</span>": [
+        "Am. Football": [
             {
                 "time": "23:30",
                 "event": "NCAAFBS : Rice vs Charlotte",
@@ -2460,7 +2515,7 @@
                 ]
             }
         ],
-        "Athletics</span>": [
+        "Athletics": [
             {
                 "time": "10:00",
                 "event": "World Championships Tokyo | Day 6 | Session 1",
@@ -2526,7 +2581,7 @@
                 ]
             }
         ],
-        "Baseball</span>": [
+        "Baseball": [
             {
                 "time": "16:05",
                 "event": "Minor League Baseball : St. Paul vs Memphis Redbirds",
@@ -2784,7 +2839,7 @@
                 ]
             }
         ],
-        "Basketball</span>": [
+        "Basketball": [
             {
                 "time": "09:00",
                 "event": "Intercontinental Cup : G League United vs Flamengo",
@@ -2868,7 +2923,7 @@
                 ]
             }
         ],
-        "Cycling</span>": [
+        "Cycling": [
             {
                 "time": "11:00",
                 "event": "Tour of Slovakia | Stage 2 Men | Svidnik - Ko\u0161ice (170.6km)",
@@ -2918,7 +2973,7 @@
                 ]
             }
         ],
-        "Futsal</span>": [
+        "Futsal": [
             {
                 "time": "18:00",
                 "event": "International UEFA Futsal EURO Qualification Playoffs : Italy vs. Kazakhstan",
@@ -2954,7 +3009,7 @@
                 ]
             }
         ],
-        "Handball</span>": [
+        "Handball": [
             {
                 "time": "14:00",
                 "event": "Friendly : Romania Women vs France Women",
@@ -3124,7 +3179,7 @@
                 ]
             }
         ],
-        "Equestrian</span>": [
+        "Equestrian": [
             {
                 "time": "10:00",
                 "event": "V65 Direkt fr\u00e5n \u00c5rj\u00e4ng",
@@ -3136,7 +3191,7 @@
                 ]
             }
         ],
-        "Horse Racing</span>": [
+        "Horse Racing": [
             {
                 "time": "12:15",
                 "event": "Live racing from Ayr, Pontefract, Kempton, Chelmsford and Naas",
@@ -3172,7 +3227,7 @@
                 ]
             }
         ],
-        "Ice Hockey</span>": [
+        "Ice Hockey": [
             {
                 "time": "10:00",
                 "event": "Slovakia SHL : HK Levice vs Slovakia",
@@ -3308,7 +3363,7 @@
                 ]
             }
         ],
-        "Rugby Union</span>": [
+        "Rugby Union": [
             {
                 "time": "19:00",
                 "event": "Pro D2 : Grenoble FC vs Nevers",
@@ -3320,7 +3375,7 @@
                 ]
             }
         ],
-        "Shooting</span>": [
+        "Shooting": [
             {
                 "time": "14:00",
                 "event": "2025 Italian Clay Shooting Championship - Malpensa: Olympic Trap Finals",
@@ -3332,7 +3387,7 @@
                 ]
             }
         ],
-        "Squash</span>": [
+        "Squash": [
             {
                 "time": "16:00",
                 "event": "Egyptian Ope Squash Open d'Egypte 2025",
@@ -3348,7 +3403,7 @@
                 ]
             }
         ],
-        "Volleyball</span>": [
+        "Volleyball": [
             {
                 "time": "02:30",
                 "event": "FiVB World Championship : Finland vs. Republic of Korea",
