@@ -173,13 +173,17 @@ def epg_merger():
     # URL remoto di it.xml
     url_it = 'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/it.xml'
 
+    # Disabilita gli avvisi per le richieste non verificate
+    requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
+
     # File eventi locale
     path_eventi = 'eventi.xml'
 
     def download_and_parse_xml(url):
         """Scarica un file .xml o .gzip e restituisce l'ElementTree."""
         try:
-            response = requests.get(url, timeout=30)
+            # Aggiunto verify=False per ignorare gli errori SSL
+            response = requests.get(url, timeout=30, verify=False)
             response.raise_for_status()
 
             # Prova a decomprimere come GZIP
@@ -192,7 +196,7 @@ def epg_merger():
 
             return ET.ElementTree(ET.fromstring(xml_content))
         except requests.exceptions.RequestException as e:
-            print(f"Errore durante il download da {url}: {e}")
+            print(f"Errore durante il download da {url} (verifica SSL disabilitata): {e}")
         except ET.ParseError as e:
             print(f"Errore nel parsing del file XML da {url}: {e}")
         return None
@@ -276,7 +280,7 @@ def eventi_m3u8_generator_world():
     # Carica le variabili d'ambiente dal file .env
     load_dotenv()
 
-    LINK_DADDY = os.getenv("LINK_DADDY", "https://daddylive.dad").strip() 
+    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlhd.dad"
     JSON_FILE = "daddyliveSchedule.json" 
     OUTPUT_FILE = "eventi.m3u8" 
     HEADERS = { 
@@ -684,7 +688,7 @@ def eventi_m3u8_generator_world():
      
     def get_stream_from_channel_id(channel_id): 
         # Restituisce direttamente l'URL .php
-        embed_url = f"{LINK_DADDY}/stream/stream-{channel_id}.php" 
+        embed_url = f"{LINK_DADDY}/watch.php?id={channel_id}" 
         print(f"URL .php per il canale Daddylive {channel_id}.")
         return embed_url
      
@@ -869,7 +873,7 @@ def eventi_m3u8_generator():
 
     # Carica le variabili d'ambiente dal file .env
     load_dotenv()
-    LINK_DADDY = os.getenv("LINK_DADDY", "https://daddylive.dad").strip()
+    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlhd.dad"
     JSON_FILE = "daddyliveSchedule.json" 
     OUTPUT_FILE = "eventi.m3u8" 
      
@@ -1278,7 +1282,7 @@ def eventi_m3u8_generator():
      
     def get_stream_from_channel_id(channel_id): 
         # Restituisce direttamente l'URL .php
-        embed_url = f"{LINK_DADDY}/stream/stream-{channel_id}.php" 
+        embed_url = f"{LINK_DADDY}/watch.php?id={channel_id}" 
         print(f"URL .php per il canale Daddylive {channel_id}.")
         return embed_url
      
@@ -1424,66 +1428,281 @@ def schedule_extractor():
     # Carica le variabili d'ambiente dal file .env
     load_dotenv()
     
-    LINK_DADDY = os.getenv("LINK_DADDY", "https://daddylive.dad").strip()
+    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlhd.dad"
     
     def html_to_json(html_content):
+        """Converte il contenuto HTML della programmazione in formato JSON."""
         soup = BeautifulSoup(html_content, 'html.parser')
         result = {}
-        
-        date_rows = soup.find_all('tr', class_='date-row')
-        if not date_rows:
-            print("AVVISO: Nessuna riga di data trovata nel contenuto HTML!")
+    
+        schedule_div = soup.find('div', id='schedule')
+        if not schedule_div:
+            print("AVVISO: Contenitore 'schedule' non trovato nel contenuto HTML!")
             return {}
     
-        current_date = None
-        current_category = None
+        for day_div in schedule_div.find_all('div', class_='schedule__day'):
+            day_title_tag = day_div.find('div', class_='schedule__dayTitle')
+            if not day_title_tag:
+                continue
+            
+            current_date = day_title_tag.text.strip()
+            result[current_date] = {}
     
-        for row in soup.find_all('tr'):
-            if 'date-row' in row.get('class', []):
-                current_date = row.find('strong').text.strip()
-                result[current_date] = {}
-                current_category = None
-    
-            elif 'category-row' in row.get('class', []) and current_date:
-                current_category = row.find('strong').text.strip() + "</span>"
-                result[current_date][current_category] = []
-    
-            elif 'event-row' in row.get('class', []) and current_date and current_category:
-                time_div = row.find('div', class_='event-time')
-                info_div = row.find('div', class_='event-info')
-    
-                if not time_div or not info_div:
+            for category_div in day_div.find_all('div', class_='schedule__category'):
+                cat_header = category_div.find('div', class_='schedule__catHeader')
+                if not cat_header:
                     continue
+                
+                current_category = cat_header.text.strip()
+                result[current_date][current_category] = []
+                
+                category_body = category_div.find('div', class_='schedule__categoryBody')
+                if not category_body:
+                    continue
+
+                for event_div in category_body.find_all('div', class_='schedule__event'):
+                    event_header = event_div.find('div', class_='schedule__eventHeader')
+                    if not event_header:
+                        continue
+
+                    time_span = event_header.find('span', class_='schedule__time')
+                    event_title_span = event_header.find('span', class_='schedule__eventTitle')
+                    
+                    event_data = {
+                        "time": time_span.text.strip() if time_span else "",
+                        "event": event_title_span.text.strip() if event_title_span else "Evento Sconosciuto",
+                        "channels": []
+                    }
+
+                    channels_div = event_div.find('div', class_='schedule__channels')
+                    if channels_div:
+                        for link in channels_div.find_all('a', href=re.compile(r'/watch\.php\?id=\d+')):
+                            href = link.get('href', '')
+                            channel_id_match = re.search(r'id=(\d+)', href)
+                            if channel_id_match:
+                                channel_id = channel_id_match.group(1)
+                                channel_name = link.text.strip()
+                                channel_name = re.sub(r'\s*CH-\d+$', '', channel_name).strip()
+
+                                event_data["channels"].append({
+                                    "channel_name": channel_name,
+                                    "channel_id": channel_id
+                                })
+                    
+                    result[current_date][current_category].append(event_data)
     
-                time_strong = time_div.find('strong')
-                event_time = time_strong.text.strip() if time_strong else ""
-                event_info = info_div.text.strip()
+        return result
     
+    def html_to_json_extra_schedule(html_content, result):
+        """Aggiunge gli eventi dalla sezione 'Extra Schedule' al risultato JSON."""
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        extra_schedule_header = soup.find('h2', string=re.compile(r'Extra Schedule'))
+        if not extra_schedule_header:
+            print("AVVISO: Sezione 'Extra Schedule' non trovata.")
+            return result
+
+        schedule_div = extra_schedule_header.find_next_sibling('div', class_='schedule')
+        if not schedule_div:
+            print("AVVISO: Contenitore per 'Extra Schedule' non trovato.")
+            return result
+
+        for day_div in schedule_div.find_all('div', class_='schedule__day'):
+            day_title_tag = day_div.find('div', class_='schedule__dayTitle')
+            if not day_title_tag:
+                continue
+            
+            current_date = day_title_tag.text.strip()
+            if current_date not in result:
+                result[current_date] = {}
+
+            for event_div in day_div.find_all('div', class_='schedule__event'):
+                event_header = event_div.find('div', class_='schedule__eventHeader')
+                if not event_header:
+                    continue
+
+                time_span = event_header.find('span', class_='schedule__time')
+                event_title_span = event_header.find('span', class_='schedule__eventTitle')
+                
+                if not time_span or not event_title_span:
+                    continue
+
+                event_title_text = event_title_span.text.strip()
+                
+                # Estrai la categoria dal titolo dell'evento, se presente
+                category = "Eventi Extra" # Categoria di default
+                if ":" in event_title_text:
+                    parts = event_title_text.split(':', 1)
+                    potential_category = parts[0].strip()
+                    # Heuristica per decidere se è una categoria
+                    if len(potential_category.split()) < 4 and not any(char.isdigit() for char in potential_category):
+                         category = potential_category
+
+                if category not in result[current_date]:
+                    result[current_date][category] = []
+
                 event_data = {
-                    "time": event_time,
-                    "event": event_info,
+                    "time": time_span.text.strip(),
+                    "event": event_title_text,
                     "channels": []
                 }
-    
-                # Cerca la riga dei canali successiva
-                next_row = row.find_next_sibling('tr')
-                if next_row and 'channel-row' in next_row.get('class', []):
-                    channel_links = next_row.find_all('a', class_='channel-button-small')
-                    for link in channel_links:
+
+                channels_div = event_div.find('div', class_='schedule__channels')
+                if channels_div:
+                    for link in channels_div.find_all('a', href=re.compile(r'/watchs2watch\.php\?id=')):
                         href = link.get('href', '')
-                        channel_id_match = re.search(r'stream-(\d+)\.php', href)
-                        if channel_id_match:
-                            channel_id = channel_id_match.group(1)
+                        # L'ID del canale è codificato in modo diverso qui, lo gestiamo come testo
+                        channel_id = href.split('id=')[-1]
+                        channel_name = link.text.strip()
+                        channel_name = re.sub(r'\s*CH-\d+$', '', channel_name).strip()
+
+                        event_data["channels"].append({
+                            "channel_name": channel_name,
+                            "channel_id": channel_id # Manteniamo l'ID complesso
+                        })
+                
+                if event_data["channels"]:
+                    result[current_date][category].append(event_data)
+
+        return result
+
+    def html_to_json_extra_backup_schedule(html_content, result):
+        """Aggiunge gli eventi dalla sezione 'Extra Schedule Backup' al risultato JSON."""
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        extra_schedule_header = soup.find('h2', string=re.compile(r'Extra Schedule Backup'))
+        if not extra_schedule_header:
+            print("AVVISO: Sezione 'Extra Schedule Backup' non trovata.")
+            return result
+
+        schedule_div = extra_schedule_header.find_next_sibling('div', class_='schedule')
+        if not schedule_div:
+            print("AVVISO: Contenitore per 'Extra Schedule Backup' non trovato.")
+            return result
+
+        for day_div in schedule_div.find_all('div', class_='schedule__day'):
+            day_title_tag = day_div.find('div', class_='schedule__dayTitle')
+            if not day_title_tag:
+                continue
+            
+            current_date = day_title_tag.text.strip()
+            if current_date not in result:
+                result[current_date] = {}
+
+            for category_div in day_div.find_all('div', class_='schedule__category'):
+                cat_header = category_div.find('div', class_='schedule__catHeader')
+                if not cat_header:
+                    continue
+                
+                current_category = cat_header.text.strip()
+                if current_category not in result[current_date]:
+                    result[current_date][current_category] = []
+
+                category_body = category_div.find('div', class_='schedule__categoryBody')
+                if not category_body:
+                    continue
+
+                for event_div in category_body.find_all('div', class_='schedule__event'):
+                    event_header = event_div.find('div', class_='schedule__eventHeader')
+                    if not event_header:
+                        continue
+
+                    time_span = event_header.find('span', class_='schedule__time')
+                    event_title_span = event_header.find('span', class_='schedule__eventTitle')
+                    
+                    event_data = {
+                        "time": time_span.text.strip() if time_span else "",
+                        "event": event_title_span.text.strip() if event_title_span else "Evento Sconosciuto",
+                        "channels": []
+                    }
+
+                    channels_div = event_div.find('div', class_='schedule__channels')
+                    if channels_div:
+                        for link in channels_div.find_all('a', href=re.compile(r'/watchextra\.php\?id=')):
+                            href = link.get('href', '')
+                            channel_id_match = re.search(r'id=(\d+)', href)
+                            if channel_id_match:
+                                channel_id = channel_id_match.group(1)
+                                channel_name = link.text.strip()
+                                channel_name = re.sub(r'\s*CH-\d+$', '', channel_name).strip()
+
+                                event_data["channels"].append({
+                                    "channel_name": channel_name,
+                                    "channel_id": channel_id
+                                })
+                    
+                    if event_data["channels"]:
+                        result[current_date][current_category].append(event_data)
+
+        return result
+
+    def html_to_json_extra_sd_schedule(html_content, result):
+        """Aggiunge gli eventi dalla sezione 'Extra SD Stream Schedule' al risultato JSON."""
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        extra_schedule_header = soup.find('h2', string=re.compile(r'Extra SD Stream Schedule'))
+        if not extra_schedule_header:
+            print("AVVISO: Sezione 'Extra SD Stream Schedule' non trovata.")
+            return result
+
+        schedule_div = extra_schedule_header.find_next_sibling('div', class_='schedule')
+        if not schedule_div:
+            print("AVVISO: Contenitore per 'Extra SD Stream Schedule' non trovato.")
+            return result
+
+        for day_div in schedule_div.find_all('div', class_='schedule__day'):
+            day_title_tag = day_div.find('div', class_='schedule__dayTitle')
+            if not day_title_tag:
+                continue
+            
+            current_date = day_title_tag.text.strip()
+            if current_date not in result:
+                result[current_date] = {}
+
+            for category_div in day_div.find_all('div', class_='schedule__category'):
+                cat_header = category_div.find('div', class_='schedule__catHeader')
+                if not cat_header:
+                    continue
+                
+                current_category = cat_header.text.strip()
+                if current_category not in result[current_date]:
+                    result[current_date][current_category] = []
+
+                category_body = category_div.find('div', class_='schedule__categoryBody')
+                if not category_body:
+                    continue
+
+                for event_div in category_body.find_all('div', class_='schedule__event'):
+                    event_header = event_div.find('div', class_='schedule__eventHeader')
+                    if not event_header:
+                        continue
+
+                    time_span = event_header.find('span', class_='schedule__time')
+                    event_title_span = event_header.find('span', class_='schedule__eventTitle')
+                    
+                    event_data = {
+                        "time": time_span.text.strip() if time_span else "",
+                        "event": event_title_span.text.strip() if event_title_span else "Evento Sconosciuto",
+                        "channels": []
+                    }
+
+                    channels_div = event_div.find('div', class_='schedule__channels')
+                    if channels_div:
+                        for link in channels_div.find_all('a', href=re.compile(r'/watchsd\.php\?id=')):
+                            href = link.get('href', '')
+                            # L'ID del canale è una stringa, non un numero
+                            channel_id = href.split('id=')[-1]
                             channel_name = link.text.strip()
-                            channel_name = re.sub(r'\s*\(CH-\d+\)$', '', channel_name)
-    
+                            channel_name = re.sub(r'\s*CH-[\w-]+$', '', channel_name).strip()
+
                             event_data["channels"].append({
                                 "channel_name": channel_name,
                                 "channel_id": channel_id
                             })
-    
-                result[current_date][current_category].append(event_data)
-    
+                    
+                    if event_data["channels"]:
+                        result[current_date][current_category].append(event_data)
+
         return result
     
     def modify_json_file(json_file_path):
@@ -1492,14 +1711,16 @@ def schedule_extractor():
         
         current_month = datetime.now().strftime("%B")
     
-        for date in list(data.keys()):
-            match = re.match(r"(\w+\s\d+)(st|nd|rd|th)\s(\d{4})", date)
-            if match:
-                day_part = match.group(1)
-                suffix = match.group(2)
-                year_part = match.group(3)
-                new_date = f"{day_part}{suffix} {current_month} {year_part}"
-                data[new_date] = data.pop(date)
+        # Questa logica non è più necessaria con la nuova struttura HTML
+        # che fornisce già la data completa.
+        # for date in list(data.keys()):
+        #     match = re.match(r"(\w+\s\d+)(st|nd|rd|th)\s(\d{4})", date)
+        #     if match:
+        #         day_part = match.group(1)
+        #         suffix = match.group(2)
+        #         year_part = match.group(3)
+        #         new_date = f"{day_part}{suffix} {current_month} {year_part}"
+        #         data[new_date] = data.pop(date)
     
         with open(json_file_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=4)
@@ -1530,20 +1751,29 @@ def schedule_extractor():
                     page.wait_for_timeout(10000)  # 10 secondi
     
                     schedule_content = page.evaluate("""() => {
-                        const container = document.getElementById('main-schedule-container');
+                        const container = document.querySelector('body');
                         return container ? container.outerHTML : '';
                     }""")
     
                     if not schedule_content:
-                        print("AVVISO: main-schedule-container non trovato o vuoto!")
+                        print("AVVISO: Contenuto della pagina non trovato o vuoto!")
                         if attempt == max_attempts:
                             browser.close()
                             return False
                         else:
                             continue
     
-                    print("Conversione HTML in formato JSON...")
+                    print("Conversione HTML della programmazione principale in formato JSON...")
                     json_data = html_to_json(schedule_content)
+
+                    print("Aggiunta della programmazione da 'Extra Schedule'...")
+                    json_data = html_to_json_extra_schedule(schedule_content, json_data)
+
+                    print("Aggiunta della programmazione da 'Extra Schedule Backup'...")
+                    json_data = html_to_json_extra_backup_schedule(schedule_content, json_data)
+
+                    print("Aggiunta della programmazione da 'Extra SD Stream Schedule'...")
+                    json_data = html_to_json_extra_sd_schedule(schedule_content, json_data)
     
                     with open(json_output, "w", encoding="utf-8") as f:
                         json.dump(json_data, f, indent=4)
@@ -1579,7 +1809,7 @@ def epg_eventi_generator_world():
     import os
     import re
     import json
-    from datetime import datetime, timedelta
+    from datetime import datetime, timedelta, timezone
     
     # Funzione di utilitÃÂ  per pulire il testo (rimuovere tag HTML span)
     def clean_text(text):
@@ -1674,7 +1904,7 @@ def epg_eventi_generator_world():
         italian_offset = timedelta(hours=2)
         italian_offset_str = "+0200" 
     
-        current_datetime_utc = datetime.utcnow()
+        current_datetime_utc = datetime.now(timezone.utc)
         current_datetime_local = current_datetime_utc + italian_offset
     
         # Tiene traccia degli ID dei canali per cui ÃÂ¨ giÃÂ  stato scritto il tag <channel>
@@ -1688,7 +1918,7 @@ def epg_eventi_generator_world():
             try:
                 date_str_from_key = date_key.split(' - ')[0]
                 date_str_cleaned = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', date_str_from_key)
-                event_date_part = datetime.strptime(date_str_cleaned, "%A %d %B %Y").date()
+                event_date_part = datetime.strptime(date_str_cleaned, "%A %d %b %Y").date()
             except ValueError as e:
                 print(f"[!] Errore nel parsing della data EPG: '{date_str_from_key}'. Errore: {e}")
                 continue
@@ -1719,12 +1949,12 @@ def epg_eventi_generator_world():
                     # USA EVENT NAME COME CHANNEL ID - PULITO DA CARATTERI SPECIALI E SPAZI
                     channel_id = clean_channel_id(event_name)
     
-                    try:
+                    try: # Aggiunto .replace(tzinfo=timezone.utc) per rendere il datetime "aware"
                         event_time_utc_obj = datetime.strptime(time_str_utc, "%H:%M").time()
-                        event_datetime_utc = datetime.combine(event_date_part, event_time_utc_obj)
+                        event_datetime_utc = datetime.combine(event_date_part, event_time_utc_obj).replace(tzinfo=timezone.utc)
                         event_datetime_local = event_datetime_utc + italian_offset
                     except ValueError as e:
-                        print(f"[!] Errore parsing orario UTC '{time_str_utc}' per EPG evento '{event_name}'. Errore: {e}")
+                        print(f"[!] Errore parsing orario UTC '{time_str_utc}' per EPG evento '{event_name}'. Errore: {e}") 
                         continue
                     
                     if event_datetime_local < (current_datetime_local - timedelta(hours=2)):
@@ -1764,11 +1994,11 @@ def epg_eventi_generator_world():
                             else:
                                 # Sovrapposizione o stesso orario di inizio, problematico.
                                 # Fallback a 00:00 del giorno, o potresti saltare l'annuncio.
-                                print(f"[!] Attenzione: L'evento '{event_name}' inizia prima o contemporaneamente alla fine dell'evento precedente su questo canale. Fallback per l'inizio dell'annuncio.")
-                                announcement_start_local = datetime.combine(event_datetime_local.date(), datetime.min.time())
+                                print(f"[!] Attenzione: L'evento '{event_name}' inizia prima o contemporaneamente alla fine dell'evento precedente. Fallback per l'inizio dell'annuncio.")
+                                announcement_start_local = datetime.combine(event_datetime_local.date(), datetime.min.time(), tzinfo=event_datetime_local.tzinfo)
                         else:
                             # Primo evento per questo canale in questa data
-                            announcement_start_local = datetime.combine(event_datetime_local.date(), datetime.min.time()) # 00:00 ora italiana
+                            announcement_start_local = datetime.combine(event_datetime_local.date(), datetime.min.time(), tzinfo=event_datetime_local.tzinfo) # 00:00 ora italiana
     
                         # Assicura che l'inizio dell'annuncio sia prima della fine
                         if announcement_start_local < announcement_stop_local:
@@ -1857,7 +2087,7 @@ def epg_eventi_generator():
     import os
     import re
     import json
-    from datetime import datetime, timedelta
+    from datetime import datetime, timedelta, timezone
     
     # Funzione di utilitÃÂ  per pulire il testo (rimuovere tag HTML span)
     def clean_text(text):
@@ -1936,7 +2166,7 @@ def epg_eventi_generator():
         italian_offset = timedelta(hours=2)
         italian_offset_str = "+0200" 
     
-        current_datetime_utc = datetime.utcnow()
+        current_datetime_utc = datetime.now(timezone.utc)
         current_datetime_local = current_datetime_utc + italian_offset
     
         # Tiene traccia degli ID dei canali per cui ÃÂ¨ giÃÂ  stato scritto il tag <channel>
@@ -1950,7 +2180,7 @@ def epg_eventi_generator():
             try:
                 date_str_from_key = date_key.split(' - ')[0]
                 date_str_cleaned = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', date_str_from_key)
-                event_date_part = datetime.strptime(date_str_cleaned, "%A %d %B %Y").date()
+                event_date_part = datetime.strptime(date_str_cleaned, "%A %d %b %Y").date()
             except ValueError as e:
                 print(f"[!] Errore nel parsing della data EPG: '{date_str_from_key}'. Errore: {e}")
                 continue
@@ -1980,12 +2210,12 @@ def epg_eventi_generator():
                     # USA EVENT NAME COME CHANNEL ID - PULITO DA CARATTERI SPECIALI E SPAZI
                     channel_id = clean_channel_id(event_name)
     
-                    try:
+                    try: # Aggiunto .replace(tzinfo=timezone.utc) per rendere il datetime "aware"
                         event_time_utc_obj = datetime.strptime(time_str_utc, "%H:%M").time()
-                        event_datetime_utc = datetime.combine(event_date_part, event_time_utc_obj)
+                        event_datetime_utc = datetime.combine(event_date_part, event_time_utc_obj).replace(tzinfo=timezone.utc)
                         event_datetime_local = event_datetime_utc + italian_offset
                     except ValueError as e:
-                        print(f"[!] Errore parsing orario UTC '{time_str_utc}' per EPG evento '{event_name}'. Errore: {e}")
+                        print(f"[!] Errore parsing orario UTC '{time_str_utc}' per EPG evento '{event_name}'. Errore: {e}") 
                         continue
                     
                     if event_datetime_local < (current_datetime_local - timedelta(hours=2)):
@@ -2025,11 +2255,11 @@ def epg_eventi_generator():
                             else:
                                 # Sovrapposizione o stesso orario di inizio, problematico.
                                 # Fallback a 00:00 del giorno, o potresti saltare l'annuncio.
-                                print(f"[!] Attenzione: L'evento '{event_name}' inizia prima o contemporaneamente alla fine dell'evento precedente su questo canale. Fallback per l'inizio dell'annuncio.")
-                                announcement_start_local = datetime.combine(event_datetime_local.date(), datetime.min.time())
+                                print(f"[!] Attenzione: L'evento '{event_name}' inizia prima o contemporaneamente alla fine dell'evento precedente. Fallback per l'inizio dell'annuncio.")
+                                announcement_start_local = datetime.combine(event_datetime_local.date(), datetime.min.time(), tzinfo=event_datetime_local.tzinfo)
                         else:
                             # Primo evento per questo canale in questa data
-                            announcement_start_local = datetime.combine(event_datetime_local.date(), datetime.min.time()) # 00:00 ora italiana
+                            announcement_start_local = datetime.combine(event_datetime_local.date(), datetime.min.time(), tzinfo=event_datetime_local.tzinfo) # 00:00 ora italiana
     
                         # Assicura che l'inizio dell'annuncio sia prima della fine
                         if announcement_start_local < announcement_stop_local:
@@ -2121,7 +2351,7 @@ def italy_channels():
 
     # Variabile d'ambiente per controllare i canali Daddylive
     CANALI_DADDY = os.getenv("CANALI_DADDY", "no").strip().lower() == "si"
-    LINK_DADDY = os.getenv("LINK_DADDY", "https://daddylivehd.sx")
+    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlhd.dad"
 
     def getAuthSignature():
         headers = {
@@ -2775,7 +3005,7 @@ def italy_channels():
     def get_stream_from_channel_id(channel_id):
         """Risolve lo stream URL per un canale Daddylive dato il suo ID"""
         # Usa direttamente il metodo .php
-        raw_php_url = f"{LINK_DADDY.rstrip('/')}/stream/stream-{channel_id}.php"
+        raw_php_url = f"{LINK_DADDY.rstrip('/')}/watch.php?id={channel_id}"
         print(f"URL .php per il canale Daddylive {channel_id}: {raw_php_url}")
         return raw_php_url
 
@@ -2786,7 +3016,8 @@ def italy_channels():
         seen_daddy_channel_ids = set()
         
         try:
-            response = requests.get(page_url, timeout=10, headers={
+            print("[AVVISO] La verifica del certificato SSL è disabilitata per questa richiesta.")
+            response = requests.get(page_url, timeout=10, verify=False, headers={
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
             })
             response.raise_for_status()
@@ -2797,25 +3028,25 @@ def italy_channels():
                 " (de)", " (fr)", " (es)", " (uk)", " (us)", " (pt)", " (gr)", " (nl)", " (tr)", " (ru)",
                 " deutsch", " france", " español", " arabic", " greek", " turkish", " russian", " albania",
                 " portugal"
-            ]
+            ]            
 
-            grid_items = soup.find_all('div', class_='grid-item')
-            print(f"Trovati {len(grid_items)} elementi 'grid-item' nella pagina Daddylive.")
+            grid_items = soup.select('div.grid a.card')
+            print(f"Trovati {len(grid_items)} elementi 'a.card' nella pagina Daddylive.")
 
             for item in grid_items:
-                link_tag = item.find('a', href=re.compile(r'/stream/stream-\d+\.php'))
-                if not link_tag:
+                href = item.get('href')
+                if not href or not re.search(r'/watch\.php\?id=\d+', href):
                     continue
 
-                strong_tag = link_tag.find('strong')
-                if not strong_tag:
+                # Usa data-title per un nome più pulito, altrimenti il testo del titolo
+                channel_name_raw = item.get('data-title')
+                if not channel_name_raw:
+                    title_div = item.find('div', class_='card__title')
+                    channel_name_raw = title_div.text.strip() if title_div else ''
                     continue
-
-                channel_name_raw = strong_tag.text.strip()
-                href = link_tag.get('href')
                 
                 # Estrai l'ID del canale dall'href
-                channel_id_match = re.search(r'/stream/stream-(\d+)\.php', href)
+                channel_id_match = re.search(r'/watch.php\?id=(\d+)', href)
 
                 if channel_id_match and channel_name_raw:
                     channel_id = channel_id_match.group(1)
