@@ -365,8 +365,6 @@ https://vavoo.to/vavoo-iptv/play/27917814213e17be842a1b
 https://vavoo.to/vavoo-iptv/play/1249978054d9101729f51f
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.videostartv.eu/images/videostar.png" group-title="Altro",VIDEOSTAR TV
 https://vavoo.to/vavoo-iptv/play/24994885846c204e8b0b86
-#EXTINF:-1 tvg-id="" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kAZM1WRzE6qfQx90xPJ3v1Jz1gaJwn6BbrZcewu6eTcQ=s900-c-k-c0x00ffffff-no-rj" group-title="Altro",VIDEOTOLENTINO
-https://vavoo.to/vavoo-iptv/play/201531251001a1e9936f4c
 #EXTINF:-1 tvg-id="warner.tv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Warner_TV_Italy.svg/1200px-Warner_TV_Italy.svg.png" group-title="Altro",WARNER TV
 https://vavoo.to/vavoo-iptv/play/3171202588cf85ec4cba3f
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/8c/WWE_Network_logo.jpeg" group-title="Altro",WWE CHANNEL
@@ -473,6 +471,8 @@ https://vavoo.to/vavoo-iptv/play/681027341f93934e0bc5
 https://vavoo.to/vavoo-iptv/play/233974719353ecd6eb8de1
 #EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1e/Radio_Capital_-_Logo_2019.svg.png/revision/latest?cb=20190815181629" group-title="Musica",RADIO CAPITAL
 https://vavoo.to/vavoo-iptv/play/4214417458dc0729ae47d
+#EXTINF:-1 tvg-id="radiofreccia.hd.it" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/radio-freccia-it.png?raw=true" group-title="Musica",RADIO FRECCIA
+https://vavoo.to/vavoo-iptv/play/1711134994a4ab3e165de3
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/260px-RDS-Logo.png" group-title="Musica",RDS SOCIAL
 https://vavoo.to/vavoo-iptv/play/4031388312f5ebcfc7dc6d
 #EXTINF:-1 tvg-id="rdssocialtv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/260px-RDS-Logo.png" group-title="Musica",RDS SOCIAL TV
@@ -495,6 +495,8 @@ https://vavoo.to/vavoo-iptv/play/291117845637cc65891f64
 https://vavoo.to/vavoo-iptv/play/1376440573d46b3d682e20
 #EXTINF:-1 tvg-id="dazn.1.it.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sport",DAZN 1 (D)
 https://dlhd.dad/watch.php?id=877
+#EXTINF:-1 tvg-id="dazn.2.it.it" tvg-logo="" group-title="Sport",DAZN 2
+https://vavoo.to/vavoo-iptv/play/3635062218e0132c616db
 #EXTINF:-1 tvg-id="eurosport.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sport",EUROSPORT 1 (1)
 https://vavoo.to/vavoo-iptv/play/34813468571b25fb16646d
 #EXTINF:-1 tvg-id="eurosport.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sport",EUROSPORT 1 (2)
@@ -545,8 +547,6 @@ https://vavoo.to/vavoo-iptv/play/25559607139e6fd9b93dd6
 https://dlhd.dad/watch.php?id=462
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (1)
 https://vavoo.to/vavoo-iptv/play/1665920101d5db640ce7e6
-#EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (2)
-https://vavoo.to/vavoo-iptv/play/449990998077a7691828f
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (2)
 https://vavoo.to/vavoo-iptv/play/449990998077a7691828f
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (D)
@@ -879,10 +879,6 @@ https://vavoo.to/vavoo-iptv/play/31633805432b7c33717323
 https://vavoo.to/vavoo-iptv/play/190165274240d2e779ea96
 #EXTINF:-1 tvg-id="raigulp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-gulp-it.png" group-title="Rai",RAI GULP (2)
 https://vavoo.to/vavoo-iptv/play/1803677691b051ba6d360f
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png" group-title="Rai",RAI ITALIA (1)
-https://vavoo.to/vavoo-iptv/play/374675593c812bca5a0f0
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png" group-title="Rai",RAI ITALIA (2)
-https://vavoo.to/vavoo-iptv/play/2944572451ecdb3159250
 #EXTINF:-1 tvg-id="raimovie.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" group-title="Rai",RAI MOVIE (1)
 https://vavoo.to/vavoo-iptv/play/2835672487db54f8727bf9
 #EXTINF:-1 tvg-id="raimovie.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" group-title="Rai",RAI MOVIE (2)
@@ -951,11 +947,8 @@ https://dlhd.dad/watch.php?id=877
 #EXTINF:-1 tvg-id="italyseriebpalermovsbari1908" tvg-name="Soccer | Italy - Serie B : Palermo vs Bari 1908 (21:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Palermo_vs_Bari 1908.png" group-title="Eventi Live",Soccer | Italy - Serie B : Palermo vs Bari 1908 (21:00)
 https://dlhd.dad/watch.php?id=69
 
-#EXTINF:-1 tvg-id="bjkcupfinalsquarterfinalsusavkazampjpnvgbrseoulwtaampchengduatpearlyrounds" tvg-name="Tennis | BJK Cup Finals Quarterfinals USA v. KAZ &amp; JPN v. GBR; Seoul-WTA &amp; Chengdu-ATP Early Rounds (12:00)" tvg-logo="https://tennishead.net/wp-content/uploads/2020/01/Ball-Blue.png" group-title="Eventi Live",Tennis | BJK Cup Finals Quarterfinals USA v. KAZ &amp; JPN v. GBR; Seoul-WTA &amp; Chengdu-ATP Early Rounds (12:00)
+#EXTINF:-1 tvg-id="bjkcupfinalsquarterfinalsusavkazampjpnvgbrseoulwtaampchengduatpearlyrounds" tvg-name="Tennis | BJK Cup Finals Quarterfinals USA v. KAZ &amp; JPN v. GBR; Seoul-WTA &amp; Chengdu-ATP Early Rounds (12:00)" tvg-logo="https://images.seeklogo.com/logo-png/61/2/besiktas-jk-2025-new-logo-png_seeklogo-611736.png" group-title="Eventi Live",Tennis | BJK Cup Finals Quarterfinals USA v. KAZ &amp; JPN v. GBR; Seoul-WTA &amp; Chengdu-ATP Early Rounds (12:00)
 https://dlhd.dad/watch.php?id=576
-
-#EXTINF:-1 tvg-id="formula2qatarairwaysazerbaijangpfreepractice" tvg-name="Motorsport | Formula 2 : Qatar Airways Azerbaijan GP - Free Practice (07:30)" tvg-logo="https://assets.antenaplay.ro/2024/02/28/YW9VML2K4hpFUKMHme97.png" group-title="Eventi Live",Motorsport | Formula 2 : Qatar Airways Azerbaijan GP - Free Practice (07:30)
-https://dlhd.dad/watch.php?id=577
 
 #EXTINF:-1 tvg-id="formula1qatarairwaysazerbaijangppractice1" tvg-name="Motorsport | Formula 1 : Qatar Airways Azerbaijan GP - Practice 1 (10:30)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live",Motorsport | Formula 1 : Qatar Airways Azerbaijan GP - Practice 1 (10:30)
 https://dlhd.dad/watch.php?id=577
@@ -966,16 +959,16 @@ https://dlhd.dad/watch.php?id=577
 #EXTINF:-1 tvg-id="formula1qatarairwaysazerbaijangppractice2" tvg-name="Motorsport | Formula 1 : Qatar Airways Azerbaijan GP - Practice 2 (14:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live",Motorsport | Formula 1 : Qatar Airways Azerbaijan GP - Practice 2 (14:00)
 https://dlhd.dad/watch.php?id=577
 
-#EXTINF:-1 tvg-id="worldsnookersnookerenglishopen" tvg-name="Snooker | World Snooker - Snooker English Open (14:00)" tvg-logo="https://img.gc.wstservices.co.uk/fit-in/200x200/79b40cb0-9f35-11ee-8055-8b049108ba83.png" group-title="Eventi Live",Snooker | World Snooker - Snooker English Open (14:00)
+#EXTINF:-1 tvg-id="worldsnookersnookerenglishopen" tvg-name="Snooker | World Snooker - Snooker English Open (14:00)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/0gmkgj1555600537.png" group-title="Eventi Live",Snooker | World Snooker - Snooker English Open (14:00)
 https://dlhd.dad/watch.php?id=878
 
 #EXTINF:-1 tvg-id="worldsnookersnookerenglishopen" tvg-name="Snooker | World Snooker - Snooker English Open (20:00)" tvg-logo="https://img.gc.wstservices.co.uk/fit-in/200x200/79b40cb0-9f35-11ee-8055-8b049108ba83.png" group-title="Eventi Live",Snooker | World Snooker - Snooker English Open (20:00)
 https://dlhd.dad/watch.php?id=878
 
-#EXTINF:-1 tvg-id="worldchampionshipsjavelintokyoday7qualifying" tvg-name="Athletics | World Championships | Javelin Tokyo | Day 7 | Qualifying (14:00)" tvg-logo="https://archives.bulbagarden.net/media/upload/thumb/f/fc/2023_Pokémon_World_Championships_logo.png/1200px-2023_Pokémon_World_Championships_logo.png" group-title="Eventi Live",Athletics | World Championships | Javelin Tokyo | Day 7 | Qualifying (14:00)
+#EXTINF:-1 tvg-id="worldchampionshipsjavelintokyoday7qualifying" tvg-name="Athletics | World Championships | Javelin Tokyo | Day 7 | Qualifying (14:00)" tvg-logo="https://cdn11.bigcommerce.com/s-toj3m19d3w/images/stencil/590x590/products/7314/19454/2024_DCI_WORLD_CHAMPIONSHIPS_Patch__48810.1719327225.png?c=1" group-title="Eventi Live",Athletics | World Championships | Javelin Tokyo | Day 7 | Qualifying (14:00)
 https://dlhd.dad/watch.php?id=878
 
-#EXTINF:-1 tvg-id="tourofslovakiastage3menhilly191km" tvg-name="Cycling | Tour of Slovakia | Stage 3 Men | Hilly | 191 km (13:00)" tvg-logo="https://images.squarespace-cdn.com/content/v1/616473144991a9274abc4d61/e4f076d6-395a-4024-91be-4aeb65247c57/Hilly+2024+logo+smallt.png?format=1500w" group-title="Eventi Live",Cycling | Tour of Slovakia | Stage 3 Men | Hilly | 191 km (13:00)
+#EXTINF:-1 tvg-id="tourofslovakiastage3menhilly191km" tvg-name="Cycling | Tour of Slovakia | Stage 3 Men | Hilly | 191 km (13:00)" tvg-logo="https://cdn.uploads.webconnex.com/123544/hilly2024_logo (1).png" group-title="Eventi Live",Cycling | Tour of Slovakia | Stage 3 Men | Hilly | 191 km (13:00)
 https://dlhd.dad/watch.php?id=879
 
 #EXTINF:-1 tvg-id="tourofluxembourgstage3menmertertvianden1705km" tvg-name="Cycling | Tour of Luxembourg | Stage 3 Men | Mertert – Vianden (170.5km) (15:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live",Cycling | Tour of Luxembourg | Stage 3 Men | Mertert – Vianden (170.5km) (15:00)
@@ -987,7 +980,7 @@ https://dlhd.dad/watch.php?id=879
 #EXTINF:-1 tvg-id="futsalqualifiersforeuro2026" tvg-name="Futsal | Futsal Qualifiers for Euro 2026 (14:35)" tvg-logo="https://static.flashscore.com/res/image/data/rmVvxEYI-S2oR9mMG.png" group-title="Eventi Live",Futsal | Futsal Qualifiers for Euro 2026 (14:35)
 https://dlhd.dad/watch.php?id=882
 
-#EXTINF:-1 tvg-id="worldcupwomennewzealandwvscanadaw" tvg-name="Rugby Unoin | World Cup Women : New Zealand W vs Canada W (20:00)" tvg-logo="http://lowdownblog.files.wordpress.com/2009/08/team-canada-hockey-2010-logo.png" group-title="Eventi Live",Rugby Unoin | World Cup Women : New Zealand W vs Canada W (20:00)
+#EXTINF:-1 tvg-id="worldcupwomennewzealandwvscanadaw" tvg-name="Rugby Unoin | World Cup Women : New Zealand W vs Canada W (20:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/New Zealand W_vs_Canada W.png" group-title="Eventi Live",Rugby Unoin | World Cup Women : New Zealand W vs Canada W (20:00)
 https://dlhd.dad/watch.php?id=882
 
 #EXTINF:-1 tvg-id="2025italianclayshootingchampionshipmalpensaolympictrapfinals" tvg-name="Shooting | 2025 Italian Clay Shooting Championship - Malpensa: Olympic Trap Finals (16:30)" tvg-logo="https://tbgedu.org/wp-content/uploads/2025/04/TBG-Logo-ClayShoot-2025-1-01.png" group-title="Eventi Live",Shooting | 2025 Italian Clay Shooting Championship - Malpensa: Olympic Trap Finals (16:30)
