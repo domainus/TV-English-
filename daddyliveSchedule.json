@@ -324,7 +324,12 @@
             {
                 "time": "02:00",
                 "event": "Poker Night New",
-                "channels": []
+                "channels": [
+                    {
+                        "channel_name": "Altitude Sports",
+                        "channel_id": "923"
+                    }
+                ]
             }
         ],
         "Soccer": [
