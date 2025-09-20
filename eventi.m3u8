@@ -1,0 +1,133 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live",DADDYLIVE
+https://example.com.m3u8
+
+#EXTINF:-1 tvg-id="englandpremierleagueliverpoolvseverton" tvg-name="All Soccer Events | England - Premier League : Liverpool vs Everton (13:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Liverpool_vs_Everton.png" group-title="Eventi Live",All Soccer Events | England - Premier League : Liverpool vs Everton (13:30)
+https://dlhd.dad/watch.php?id=870
+
+#EXTINF:-1 tvg-id="italyserieabolognavsgenoa" tvg-name="All Soccer Events | Italy - Serie A : Bologna vs Genoa (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Bologna_vs_Genoa.png" group-title="Eventi Live",All Soccer Events | Italy - Serie A : Bologna vs Genoa (15:00)
+https://dlhd.dad/watch.php?id=877
+
+#EXTINF:-1 tvg-id="italyseriebveneziavscesena" tvg-name="All Soccer Events | Italy - Serie B : Venezia vs Cesena (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Venezia_vs_Cesena.png" group-title="Eventi Live",All Soccer Events | Italy - Serie B : Venezia vs Cesena (15:00)
+https://dlhd.dad/watch.php?id=55
+
+#EXTINF:-1 tvg-id="italyseriebreggianavscatanzaro" tvg-name="All Soccer Events | Italy - Serie B : Reggiana vs Catanzaro (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Reggiana_vs_Catanzaro.png" group-title="Eventi Live",All Soccer Events | Italy - Serie B : Reggiana vs Catanzaro (15:00)
+https://dlhd.dad/watch.php?id=59
+
+#EXTINF:-1 tvg-id="italyseriebspeziavsjuvestabia" tvg-name="All Soccer Events | Italy - Serie B : Spezia vs Juve Stabia (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Spezia_vs_Juve Stabia.png" group-title="Eventi Live",All Soccer Events | Italy - Serie B : Spezia vs Juve Stabia (15:00)
+https://dlhd.dad/watch.php?id=68
+
+#EXTINF:-1 tvg-id="italyseriecvispesarovspianese" tvg-name="All Soccer Events | Italy - Serie C : Vis Pesaro vs Pianese (15:00)" tvg-logo="https://www.vispesaro1898.it/vis/wp-content/uploads/2017/11/614871.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Vis Pesaro vs Pianese (15:00)
+https://dlhd.dad/watch.php?id=186
+
+#EXTINF:-1 tvg-id="italyseriecsassaritorresvsternana" tvg-name="All Soccer Events | Italy - Serie C : Sassari Torres vs Ternana (15:00)" tvg-logo="https://i.pinimg.com/originals/07/a7/ef/07a7ef3f6a8e15413ec8b6ef21ea563e.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Sassari Torres vs Ternana (15:00)
+https://dlhd.dad/watch.php?id=187
+
+#EXTINF:-1 tvg-id="italyserieclivornovsascoli" tvg-name="All Soccer Events | Italy - Serie C : Livorno vs Ascoli (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Livorno_vs_Ascoli.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Livorno vs Ascoli (15:00)
+https://dlhd.dad/watch.php?id=188
+
+#EXTINF:-1 tvg-id="italyseriecpinetovsjuventusii" tvg-name="All Soccer Events | Italy - Serie C : Pineto vs Juventus II (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Pineto_vs_Juventus II.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Pineto vs Juventus II (15:00)
+https://dlhd.dad/watch.php?id=110
+
+#EXTINF:-1 tvg-id="italyseriecsambenedettesevsathleticcarpi" tvg-name="All Soccer Events | Italy - Serie C : Sambenedettese vs Athletic Carpi (15:00)" tvg-logo="https://iconape.com/wp-content/png_logo_vector/u-s-sambenedettese-logo.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Sambenedettese vs Athletic Carpi (15:00)
+https://dlhd.dad/watch.php?id=190
+
+#EXTINF:-1 tvg-id="italyseriecgubbiovsbra" tvg-name="All Soccer Events | Italy - Serie C : Gubbio vs Bra (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Gubbio_vs_Bra.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Gubbio vs Bra (15:00)
+https://dlhd.dad/watch.php?id=191
+
+#EXTINF:-1 tvg-id="englandpremierleaguebrightonamphovealbionvstottenhamhotspur" tvg-name="All Soccer Events | England - Premier League : Brighton &amp; Hove Albion vs Tottenham Hotspur (16:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Brighton &amp; Hove Albion_vs_Tottenham Hotspur.png" group-title="Eventi Live",All Soccer Events | England - Premier League : Brighton &amp; Hove Albion vs Tottenham Hotspur (16:00)
+https://dlhd.dad/watch.php?id=461
+
+#EXTINF:-1 tvg-id="englandpremierleaguewesthamunitedvscrystalpalace" tvg-name="All Soccer Events | England - Premier League : West Ham United vs Crystal Palace (16:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/West Ham United_vs_Crystal Palace.png" group-title="Eventi Live",All Soccer Events | England - Premier League : West Ham United vs Crystal Palace (16:00)
+https://dlhd.dad/watch.php?id=870
+
+#EXTINF:-1 tvg-id="italyseriebmonzavssampdoria" tvg-name="All Soccer Events | Italy - Serie B : Monza vs Sampdoria (17:15)" tvg-logo="https://vectorseek.com/wp-content/uploads/2023/08/Monza-Logo-Vector.svg-.png" group-title="Eventi Live",All Soccer Events | Italy - Serie B : Monza vs Sampdoria (17:15)
+https://dlhd.dad/watch.php?id=109
+
+#EXTINF:-1 tvg-id="italyserieccasertanavscosenza" tvg-name="All Soccer Events | Italy - Serie C : Casertana vs Cosenza (17:30)" tvg-logo="https://i.pinimg.com/originals/66/a9/27/66a927ed14521893859d4f476292beb3.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Casertana vs Cosenza (17:30)
+https://dlhd.dad/watch.php?id=187
+
+#EXTINF:-1 tvg-id="italyserieccataniavssorrento" tvg-name="All Soccer Events | Italy - Serie C : Catania vs Sorrento (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Catania_vs_Sorrento.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Catania vs Sorrento (17:30)
+https://dlhd.dad/watch.php?id=110
+
+#EXTINF:-1 tvg-id="italyserieccataniavssorrento" tvg-name="All Soccer Events | Italy - Serie C : Catania vs Sorrento (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Catania_vs_Sorrento.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Catania vs Sorrento (17:30)
+https://dlhd.dad/watch.php?id=462
+
+#EXTINF:-1 tvg-id="italyserieccrotonevssiracusa" tvg-name="All Soccer Events | Italy - Serie C : Crotone vs Siracusa (17:30)" tvg-logo="https://1.bp.blogspot.com/-bemuVKIAbgg/YAYY_NwO3iI/AAAAAAABiVM/5eAOKUfGbeAk19NGFP0qCLWpFpPGEdcUgCLcBGAsYHQ/s512/FC%2BCrotone.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Crotone vs Siracusa (17:30)
+https://dlhd.dad/watch.php?id=190
+
+#EXTINF:-1 tvg-id="italyseriecaudacecerignolavsfoggia" tvg-name="All Soccer Events | Italy - Serie C : Audace Cerignola vs Foggia (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Audace Cerignola_vs_Foggia.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Audace Cerignola vs Foggia (17:30)
+https://dlhd.dad/watch.php?id=188
+
+#EXTINF:-1 tvg-id="italyserieclatinavsmonopoli" tvg-name="All Soccer Events | Italy - Serie C : Latina vs Monopoli (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Latina_vs_Monopoli.png" group-title="Eventi Live",All Soccer Events | Italy - Serie C : Latina vs Monopoli (17:30)
+https://dlhd.dad/watch.php?id=191
+
+#EXTINF:-1 tvg-id="italyserieahellasveronavsjuventus" tvg-name="All Soccer Events | Italy - Serie A : Hellas Verona vs Juventus (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Hellas Verona_vs_Juventus.png" group-title="Eventi Live",All Soccer Events | Italy - Serie A : Hellas Verona vs Juventus (18:00)
+https://dlhd.dad/watch.php?id=877
+
+#EXTINF:-1 tvg-id="englandpremierleaguemanchesterunitedvschelsea" tvg-name="All Soccer Events | England - Premier League : Manchester United vs Chelsea (18:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Manchester United_vs_Chelsea.png" group-title="Eventi Live",All Soccer Events | England - Premier League : Manchester United vs Chelsea (18:30)
+https://dlhd.dad/watch.php?id=461
+
+#EXTINF:-1 tvg-id="bundesligarbleipzigvsköln" tvg-name="All Soccer Events | Bundesliga : RB Leipzig vs Köln (18:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/RB Leipzig_vs_Köln.png" group-title="Eventi Live",All Soccer Events | Bundesliga : RB Leipzig vs Köln (18:30)
+https://dlhd.dad/watch.php?id=870
+
+#EXTINF:-1 tvg-id="franceligue1brestvsnice" tvg-name="All Soccer Events | France - Ligue 1 : Brest vs Nice (19:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Brest_vs_Nice.png" group-title="Eventi Live",All Soccer Events | France - Ligue 1 : Brest vs Nice (19:00)
+https://dlhd.dad/watch.php?id=460
+
+#EXTINF:-1 tvg-id="italyseriebmantovavsmodena" tvg-name="All Soccer Events | Italy - Serie B : Mantova vs Modena (19:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Mantova_vs_Modena.png" group-title="Eventi Live",All Soccer Events | Italy - Serie B : Mantova vs Modena (19:30)
+https://dlhd.dad/watch.php?id=69
+
+#EXTINF:-1 tvg-id="italyserieaudinesevsmilan" tvg-name="All Soccer Events | Italy - Serie A : Udinese vs Milan (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Udinese_vs_Milan.png" group-title="Eventi Live",All Soccer Events | Italy - Serie A : Udinese vs Milan (20:45)
+https://dlhd.dad/watch.php?id=110
+
+#EXTINF:-1 tvg-id="italyserieaudinesevsmilan" tvg-name="All Soccer Events | Italy - Serie A : Udinese vs Milan (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Udinese_vs_Milan.png" group-title="Eventi Live",All Soccer Events | Italy - Serie A : Udinese vs Milan (20:45)
+https://dlhd.dad/watch.php?id=870
+
+#EXTINF:-1 tvg-id="italyserieaudinesevsmilan" tvg-name="All Soccer Events | Italy - Serie A : Udinese vs Milan (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Udinese_vs_Milan.png" group-title="Eventi Live",All Soccer Events | Italy - Serie A : Udinese vs Milan (20:45)
+https://dlhd.dad/watch.php?id=461
+
+#EXTINF:-1 tvg-id="englandpremierleaguefulhamvsbrentford" tvg-name="All Soccer Events | England - Premier League : Fulham vs Brentford (21:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Fulham_vs_Brentford.png" group-title="Eventi Live",All Soccer Events | England - Premier League : Fulham vs Brentford (21:00)
+https://dlhd.dad/watch.php?id=462
+
+#EXTINF:-1 tvg-id="formula1qatarairwaysazerbaijangppractice3" tvg-name="Motorsport | Formula 1 : Qatar Airways Azerbaijan GP - Practice 3 (10:30)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live",Motorsport | Formula 1 : Qatar Airways Azerbaijan GP - Practice 3 (10:30)
+https://dlhd.dad/watch.php?id=577
+
+#EXTINF:-1 tvg-id="formula2qatarairwaysazerbaijangpsprintrace" tvg-name="Motorsport | Formula 2 : Qatar Airways Azerbaijan GP - Sprint Race (12:15)" tvg-logo="https://assets.antenaplay.ro/2024/02/28/YW9VML2K4hpFUKMHme97.png" group-title="Eventi Live",Motorsport | Formula 2 : Qatar Airways Azerbaijan GP - Sprint Race (12:15)
+https://dlhd.dad/watch.php?id=577
+
+#EXTINF:-1 tvg-id="formula1qatarairwaysazerbaijangpqualifying" tvg-name="Motorsport | Formula 1 : Qatar Airways Azerbaijan GP - Qualifying (14:00)" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/04/F1-Formula-One-Logo-300x300.png" group-title="Eventi Live",Motorsport | Formula 1 : Qatar Airways Azerbaijan GP - Qualifying (14:00)
+https://dlhd.dad/watch.php?id=577
+
+#EXTINF:-1 tvg-id="fimenduranceworldchampionshipboldorcareerpart1" tvg-name="Motorsport | FIM Endurance World Championship | Bol d'Or Career | Part 1 (16:15)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live",Motorsport | FIM Endurance World Championship | Bol d'Or Career | Part 1 (16:15)
+https://dlhd.dad/watch.php?id=879
+
+#EXTINF:-1 tvg-id="worldsnookersnookerenglishopen" tvg-name="Snooker | World Snooker - Snooker English Open (14:00)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/0gmkgj1555600537.png" group-title="Eventi Live",Snooker | World Snooker - Snooker English Open (14:00)
+https://dlhd.dad/watch.php?id=878
+
+#EXTINF:-1 tvg-id="worldsnookersnookerenglishopen" tvg-name="Snooker | World Snooker - Snooker English Open (20:00)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/0gmkgj1555600537.png" group-title="Eventi Live",Snooker | World Snooker - Snooker English Open (20:00)
+https://dlhd.dad/watch.php?id=878
+
+#EXTINF:-1 tvg-id="worldchampionshipstokyoday8session2" tvg-name="Athletics | World Championships Tokyo | Day 8 | Session 2 (12:00)" tvg-logo="https://archives.bulbagarden.net/media/upload/thumb/f/fc/2023_Pokémon_World_Championships_logo.png/1200px-2023_Pokémon_World_Championships_logo.png" group-title="Eventi Live",Athletics | World Championships Tokyo | Day 8 | Session 2 (12:00)
+https://dlhd.dad/watch.php?id=878
+
+#EXTINF:-1 tvg-id="theoceanraceeuropebokabaycoastalrace" tvg-name="Sailing / Boating | The Ocean Race Europe | Boka Bay Coastal Race (14:00)" tvg-logo="https://www.camisetasecologicas.es/wp-content/uploads/the-ocean-race-logo-1.png" group-title="Eventi Live",Sailing / Boating | The Ocean Race Europe | Boka Bay Coastal Race (14:00)
+https://dlhd.dad/watch.php?id=879
+
+#EXTINF:-1 tvg-id="sailgpracingevent10genevaraceday1" tvg-name="Sailing / Boating | SailGP Racing Event 10: Geneva, Race Day 1 (15:30)" tvg-logo="https://www.regattagear.com/sail-racing/images/z2111584-SAIL-GP-TEE-T.png" group-title="Eventi Live",Sailing / Boating | SailGP Racing Event 10: Geneva, Race Day 1 (15:30)
+https://dlhd.dad/watch.php?id=462
+
+#EXTINF:-1 tvg-id="matteottitrophy2025" tvg-name="Cycling | Matteotti Trophy 2025 (15:35)" tvg-logo="http://www.trofeomatteotti.it/wp-content/uploads/2016/08/logo-matteotti-.png" group-title="Eventi Live",Cycling | Matteotti Trophy 2025 (15:35)
+https://dlhd.dad/watch.php?id=882
+
+#EXTINF:-1 tvg-id="tourofluxembourgstage4menniederanvenniederanvenitt263km" tvg-name="Cycling | Tour of Luxembourg | Stage 4 Men | Niederanven – Niederanven (ITT, 26.3km) (17:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live",Cycling | Tour of Luxembourg | Stage 4 Men | Niederanven – Niederanven (ITT, 26.3km) (17:00)
+https://dlhd.dad/watch.php?id=878
+
+#EXTINF:-1 tvg-id="worldcupwomenfrancewvsenglandw" tvg-name="Rugby Union | World Cup Women : France W vs England W (16:30)" tvg-logo="https://matchpint-cdn.matchpint.cloud/shared/imagenes/teams/9969/logo_1679570002.png" group-title="Eventi Live",Rugby Union | World Cup Women : France W vs England W (16:30)
+https://dlhd.dad/watch.php?id=882
+
+#EXTINF:-1 tvg-id="t100triathlonworldtouroropesadelmarmenandwomen" tvg-name="Triathlon | T100 Triathlon World Tour | Oropesa Del Mar Men and Women (09:05)" tvg-logo="https://sport-direto.pt/images/t100-triathlon-world-tour-ligas-direto-guia-tv-3103.png" group-title="Eventi Live",Triathlon | T100 Triathlon World Tour | Oropesa Del Mar Men and Women (09:05)
+https://dlhd.dad/watch.php?id=879
+
+#EXTINF:-1 tvg-id="fivbworldchampionshipturkeyvsnetherlands" tvg-name="Volleyball | FIVB World Championship : Turkey vs Netherlands (09:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Turkey_vs_Netherlands.png" group-title="Eventi Live",Volleyball | FIVB World Championship : Turkey vs Netherlands (09:30)
+https://dlhd.dad/watch.php?id=877
+
