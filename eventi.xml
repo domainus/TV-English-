@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="ItalySerieANapolivsPisa">
+    <display-name>Italy - Serie A : Napoli vs Pisa</display-name>
+  </channel>
+  <programme start="20250922000000 +0200" stop="20250922204500 +0200" channel="ItalySerieANapolivsPisa">
+    <title lang="it">Inizia alle 20:45.</title>
+    <desc lang="it">Italy - Serie A : Napoli vs Pisa.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250922204500 +0200" stop="20250922224500 +0200" channel="ItalySerieANapolivsPisa">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie A : Napoli vs Pisa</desc>
+    <category lang="it">Soccer</category>
+  </programme>
+  <programme start="20250922000000 +0200" stop="20250922204500 +0200" channel="ItalySerieANapolivsPisa">
+    <title lang="it">Inizia alle 20:45.</title>
+    <desc lang="it">Italy - Serie A : Napoli vs Pisa.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250922204500 +0200" stop="20250922224500 +0200" channel="ItalySerieANapolivsPisa">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie A : Napoli vs Pisa</desc>
+    <category lang="it">Soccer</category>
+  </programme>
+  <programme start="20250922000000 +0200" stop="20250922204500 +0200" channel="ItalySerieANapolivsPisa">
+    <title lang="it">Inizia alle 20:45.</title>
+    <desc lang="it">Italy - Serie A : Napoli vs Pisa.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250922204500 +0200" stop="20250922224500 +0200" channel="ItalySerieANapolivsPisa">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie A : Napoli vs Pisa</desc>
+    <category lang="it">Soccer</category>
+  </programme>
+  <channel id="BJKCupFinalsQuarterfinalsUSAvKAZampJPNvGBRSeoulWTAampChengduATPEarlyRounds">
+    <display-name>BJK Cup Finals Quarterfinals USA v. KAZ &amp; JPN v. GBR; Seoul-WTA &amp; Chengdu-ATP Early Rounds</display-name>
+  </channel>
+  <programme start="20250922000000 +0200" stop="20250922120000 +0200" channel="BJKCupFinalsQuarterfinalsUSAvKAZampJPNvGBRSeoulWTAampChengduATPEarlyRounds">
+    <title lang="it">Inizia alle 12:00.</title>
+    <desc lang="it">BJK Cup Finals Quarterfinals USA v. KAZ &amp; JPN v. GBR; Seoul-WTA &amp; Chengdu-ATP Early Rounds.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250922120000 +0200" stop="20250922140000 +0200" channel="BJKCupFinalsQuarterfinalsUSAvKAZampJPNvGBRSeoulWTAampChengduATPEarlyRounds">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">BJK Cup Finals Quarterfinals USA v. KAZ &amp; JPN v. GBR; Seoul-WTA &amp; Chengdu-ATP Early Rounds</desc>
+    <category lang="it">Tennis</category>
+  </programme>
+  <channel id="UCIRoadChamps25WU23IndTT">
+    <display-name>UCI Road Champs '25: (W) U23 Ind. TT</display-name>
+  </channel>
+  <programme start="20250922000000 +0200" stop="20250922102500 +0200" channel="UCIRoadChamps25WU23IndTT">
+    <title lang="it">Inizia alle 10:25.</title>
+    <desc lang="it">UCI Road Champs '25: (W) U23 Ind. TT.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250922102500 +0200" stop="20250922122500 +0200" channel="UCIRoadChamps25WU23IndTT">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UCI Road Champs '25: (W) U23 Ind. TT</desc>
+    <category lang="it">Cycling</category>
+  </programme>
+  <channel id="CyclingWorldChampionshipsKigali2025individualtimetrial">
+    <display-name>Cycling: World Championships - Kigali 2025 individual time trial</display-name>
+  </channel>
+  <programme start="20250922000000 +0200" stop="20250922132500 +0200" channel="CyclingWorldChampionshipsKigali2025individualtimetrial">
+    <title lang="it">Inizia alle 13:25.</title>
+    <desc lang="it">Cycling: World Championships - Kigali 2025 individual time trial.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250922132500 +0200" stop="20250922152500 +0200" channel="CyclingWorldChampionshipsKigali2025individualtimetrial">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Cycling: World Championships - Kigali 2025 individual time trial</desc>
+    <category lang="it">Cycling</category>
+  </programme>
+  <channel id="FIVBWorldChampionshipBulgariavsPortugal">
+    <display-name>FIVB World Championship : Bulgaria vs Portugal</display-name>
+  </channel>
+  <programme start="20250922000000 +0200" stop="20250922093000 +0200" channel="FIVBWorldChampionshipBulgariavsPortugal">
+    <title lang="it">Inizia alle 09:30.</title>
+    <desc lang="it">FIVB World Championship : Bulgaria vs Portugal.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250922093000 +0200" stop="20250922113000 +0200" channel="FIVBWorldChampionshipBulgariavsPortugal">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">FIVB World Championship : Bulgaria vs Portugal</desc>
+    <category lang="it">Volleyball</category>
+  </programme>
+  <channel id="FIVBWorldChampionshipUSAvsSlovenia">
+    <display-name>FIVB World Championship : USA vs Slovenia</display-name>
+  </channel>
+  <programme start="20250922000000 +0200" stop="20250922140000 +0200" channel="FIVBWorldChampionshipUSAvsSlovenia">
+    <title lang="it">Inizia alle 14:00.</title>
+    <desc lang="it">FIVB World Championship : USA vs Slovenia.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250922140000 +0200" stop="20250922160000 +0200" channel="FIVBWorldChampionshipUSAvsSlovenia">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">FIVB World Championship : USA vs Slovenia</desc>
+    <category lang="it">Volleyball</category>
+  </programme>
+</tv>
