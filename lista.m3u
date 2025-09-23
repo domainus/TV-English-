@@ -213,7 +213,9 @@ https://vavoo.to/vavoo-iptv/play/2209352147379c000ac415
 https://vavoo.to/vavoo-iptv/play/24556102030a38fc13c387
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/1200px-RSI_La_1_2012.svg.png" group-title="Altro",RSI LA 1 (2)
 https://vavoo.to/vavoo-iptv/play/22903950460d6b257bf610
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1200px-RSI_La_2_2012.svg.png" group-title="Altro",RSI LA 2
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1200px-RSI_La_2_2012.svg.png" group-title="Altro",RSI LA 2 (1)
+https://vavoo.to/vavoo-iptv/play/3590183307ca309aa6be37
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1200px-RSI_La_2_2012.svg.png" group-title="Altro",RSI LA 2 (2)
 https://vavoo.to/vavoo-iptv/play/3475299702c52e31a7073f
 #EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/7PzluYVAEVOCNzGYGkewkKI3PA0PkCKAc9KUZGfYzAbZnQLnlPAE5iQBMZEUi7ZKwJc" group-title="Altro",RTC TELECALABRIA
 https://vavoo.to/vavoo-iptv/play/639406775e0288e6772cc
@@ -877,8 +879,10 @@ https://vavoo.to/vavoo-iptv/play/31633805432b7c33717323
 https://vavoo.to/vavoo-iptv/play/190165274240d2e779ea96
 #EXTINF:-1 tvg-id="raigulp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-gulp-it.png" group-title="Rai",RAI GULP (2)
 https://vavoo.to/vavoo-iptv/play/1803677691b051ba6d360f
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png" group-title="Rai",RAI ITALIA
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png" group-title="Rai",RAI ITALIA (1)
 https://vavoo.to/vavoo-iptv/play/374675593c812bca5a0f0
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png" group-title="Rai",RAI ITALIA (2)
+https://vavoo.to/vavoo-iptv/play/2944572451ecdb3159250
 #EXTINF:-1 tvg-id="raimovie.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" group-title="Rai",RAI MOVIE (1)
 https://vavoo.to/vavoo-iptv/play/2835672487db54f8727bf9
 #EXTINF:-1 tvg-id="raimovie.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" group-title="Rai",RAI MOVIE (2)
@@ -971,9 +975,6 @@ https://dlhd.dad/watch.php?id=8
 #EXTINF:-1 tvg-id="atp250chengduatp250hangzhou" tvg-name="Tennis | ATP 250 Chengdu, ATP 250 Hangzhou (13:00)" tvg-logo="https://media.geeksforgeeks.org/wp-content/uploads/20240102093745/Structure-of-ATP.png" group-title="Eventi Live",Tennis | ATP 250 Chengdu, ATP 250 Hangzhou (13:00)
 https://dlhd.dad/watch.php?id=576
 
-#EXTINF:-1 tvg-id="tokyoatpampbeijingwta1stround" tvg-name="Tennis | Tokyo-ATP &amp; Beijing-WTA 1st Round (04:00)" tvg-logo="https://www.phenomenalglobe.com/wp-content/uploads/2019/12/Tokyo-Tower-at-night.jpg" group-title="Eventi Live",Tennis | Tokyo-ATP &amp; Beijing-WTA 1st Round (04:00)
-https://dlhd.dad/watch.php?id=576
-
 #EXTINF:-1 tvg-id="juniorworldchampionshipstimetrialfkigalikigali18km" tvg-name="Cycling | Junior World Championships – Time Trial (F) Kigali – Kigali (18km) (10:40)" tvg-logo="https://kigaliairporttransfers.com/wp-content/uploads/2022/12/get-logo-whatsapp-png-pictures-1.png" group-title="Eventi Live",Cycling | Junior World Championships – Time Trial (F) Kigali – Kigali (18km) (10:40)
 https://dlhd.dad/watch.php?id=882
 
@@ -995,7 +996,7 @@ https://dlhd.dad/watch.php?id=877
 #EXTINF:-1 tvg-id="fivbworldchampionshipserbiavsiran" tvg-name="Volleyball | FIVB World Championship : Serbia vs Iran (14:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Serbia_vs_Iran.png" group-title="Eventi Live",Volleyball | FIVB World Championship : Serbia vs Iran (14:00)
 https://dlhd.dad/watch.php?id=877
 
-#EXTINF:-1 tvg-id="3mspringboardsynchromixfinal" tvg-name="Water Sports | 3m Springboard Synchro Mix Final (08:00)" tvg-logo="https://springboard.bestwayusa.com/images/logo.png" group-title="Eventi Live",Water Sports | 3m Springboard Synchro Mix Final (08:00)
+#EXTINF:-1 tvg-id="3mspringboardsynchromixfinal" tvg-name="Water Sports | 3m Springboard Synchro Mix Final (08:00)" tvg-logo="https://purepng.com/public/uploads/large/purepng.com-3m-logologobrand-logoiconslogos-251519940406sci7r.png" group-title="Eventi Live",Water Sports | 3m Springboard Synchro Mix Final (08:00)
 https://dlhd.dad/watch.php?id=462
 
 
