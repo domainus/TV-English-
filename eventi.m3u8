@@ -1,0 +1,55 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live",DADDYLIVE
+https://example.com.m3u8
+
+#EXTINF:-1 tvg-id="bundesliga2schalke04vsgreutherfürth" tvg-name="All Soccer Events | Bundesliga 2 : Schalke 04 vs Greuther Fürth (18:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Schalke 04_vs_Greuther Fürth.png" group-title="Eventi Live",All Soccer Events | Bundesliga 2 : Schalke 04 vs Greuther Fürth (18:30)
+https://dlhd.dad/watch.php?id=870
+
+#EXTINF:-1 tvg-id="italyseriebcatanzarovsjuvestabia" tvg-name="All Soccer Events | Italy - Serie B : Catanzaro vs Juve Stabia (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Catanzaro_vs_Juve Stabia.png" group-title="Eventi Live",All Soccer Events | Italy - Serie B : Catanzaro vs Juve Stabia (20:30)
+https://dlhd.dad/watch.php?id=55
+
+#EXTINF:-1 tvg-id="bundesligabayernmünchenvswerderbremen" tvg-name="All Soccer Events | Bundesliga : Bayern München vs Werder Bremen (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Bayern München_vs_Werder Bremen.png" group-title="Eventi Live",All Soccer Events | Bundesliga : Bayern München vs Werder Bremen (20:30)
+https://dlhd.dad/watch.php?id=461
+
+#EXTINF:-1 tvg-id="franceligue1strasbourgvsolympiquemarseille" tvg-name="All Soccer Events | France - Ligue 1 : Strasbourg vs Olympique Marseille (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Strasbourg_vs_Olympique Marseille.png" group-title="Eventi Live",All Soccer Events | France - Ligue 1 : Strasbourg vs Olympique Marseille (20:45)
+https://dlhd.dad/watch.php?id=870
+
+#EXTINF:-1 tvg-id="tokyoatpampbeijingwta1stround" tvg-name="Tennis | Tokyo-ATP &amp; Beijing-WTA 1st Round (13:00)" tvg-logo="https://logonoid.com/images/atp-logo.png" group-title="Eventi Live",Tennis | Tokyo-ATP &amp; Beijing-WTA 1st Round (13:00)
+https://dlhd.dad/watch.php?id=576
+
+#EXTINF:-1 tvg-id="tokyoatpampbeijingwta1stround" tvg-name="Tennis | Tokyo-ATP &amp; Beijing-WTA 1st Round (04:00)" tvg-logo="https://logonoid.com/images/atp-logo.png" group-title="Eventi Live",Tennis | Tokyo-ATP &amp; Beijing-WTA 1st Round (04:00)
+https://dlhd.dad/watch.php?id=576
+
+#EXTINF:-1 tvg-id="moto3grandprixofjapanpractice1" tvg-name="Motorsport | Moto 3 : Grand Prix of Japan Practice 1 (06:10)" tvg-logo="https://s3.sky.ch/img/images/competition/logo/508.png" group-title="Eventi Live",Motorsport | Moto 3 : Grand Prix of Japan Practice 1 (06:10)
+https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="motogpgrandprixofjapanpractice1" tvg-name="Motorsport | MotoGP : Grand Prix of Japan Practice 1 (06:15)" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/11/MotoGP-Logo-2024.png" group-title="Eventi Live",Motorsport | MotoGP : Grand Prix of Japan Practice 1 (06:15)
+https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="moto2grandprixofjapanpractice1" tvg-name="Motorsport | Moto 2 : Grand Prix of Japan Practice 1 (07:00)" tvg-logo="https://www.gresiniracing.com/wp-content/themes/gresini-racing-2025/images/moto2-gresini-2025.png" group-title="Eventi Live",Motorsport | Moto 2 : Grand Prix of Japan Practice 1 (07:00)
+https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="moto3grandprixofjapanfreepractice2" tvg-name="Motorsport | Moto 3 : Grand Prix of Japan Free Practice 2 (02:30)" tvg-logo="https://s3.sky.ch/img/images/competition/logo/508.png" group-title="Eventi Live",Motorsport | Moto 3 : Grand Prix of Japan Free Practice 2 (02:30)
+https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="moto2grandprixofjapanfreepractice2" tvg-name="Motorsport | Moto 2 : Grand Prix of Japan Free Practice 2 (02:30)" tvg-logo="https://www.gresiniracing.com/wp-content/themes/gresini-racing-2025/images/moto2-gresini-2025.png" group-title="Eventi Live",Motorsport | Moto 2 : Grand Prix of Japan Free Practice 2 (02:30)
+https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="motogpgrandprixofjapanfreepractice2" tvg-name="Motorsport | MotoGP : Grand Prix of Japan Free Practice 2 (03:00)" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/11/MotoGP-Logo-2024.png" group-title="Eventi Live",Motorsport | MotoGP : Grand Prix of Japan Free Practice 2 (03:00)
+https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="seriea2cividalevsverona" tvg-name="Basketball | Serie A2 : Cividale vs Verona (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Cividale_vs_Verona.png" group-title="Eventi Live",Basketball | Serie A2 : Cividale vs Verona (20:45)
+https://dlhd.dad/watch.php?id=882
+
+#EXTINF:-1 tvg-id="mensspeedfinalworldchampionshipsseoul" tvg-name="Climbing | Men's Speed | Final World Championships | Seoul (12:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live",Climbing | Men's Speed | Final World Championships | Seoul (12:00)
+https://dlhd.dad/watch.php?id=879
+
+#EXTINF:-1 tvg-id="worldchampionshipsseoulwomensbouldersemifinal" tvg-name="Climbing | World Championships | Seoul Women's Boulder | Semi-Final (03:00)" tvg-logo="https://allsportdb.com/Images/Logo/Large/Competitions/525.png" group-title="Eventi Live",Climbing | World Championships | Seoul Women's Boulder | Semi-Final (03:00)
+https://dlhd.dad/watch.php?id=879
+
+#EXTINF:-1 tvg-id="uciroadworldchampionshipsmensu23roadracekigali1646km" tvg-name="Cycling | UCI Road World Championships Men's U23 Road Race | Kigali (164.6km) (12:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live",Cycling | UCI Road World Championships Men's U23 Road Race | Kigali (164.6km) (12:00)
+https://dlhd.dad/watch.php?id=878
+
+#EXTINF:-1 tvg-id="premierpadelgermanyt2025mensquarterfinal3" tvg-name="Squash | Premier Padel. Germany (T2025): Men's Quarterfinal 3 (19:00)" tvg-logo="https://www.mrpadelpaddle.com/wp-content/uploads/2024/12/2025-Premier-Padel-calendar-1080-1350-2025-2201-960x1180.png" group-title="Eventi Live",Squash | Premier Padel. Germany (T2025): Men's Quarterfinal 3 (19:00)
+https://dlhd.dad/watch.php?id=462
+

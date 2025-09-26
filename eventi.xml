@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="Bundesliga2Schalke04vsGreutherFrth">
+    <display-name>Bundesliga 2 : Schalke 04 vs Greuther Fürth</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926183000 +0200" channel="Bundesliga2Schalke04vsGreutherFrth">
+    <title lang="it">Inizia alle 18:30.</title>
+    <desc lang="it">Bundesliga 2 : Schalke 04 vs Greuther Fürth.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926183000 +0200" stop="20250926203000 +0200" channel="Bundesliga2Schalke04vsGreutherFrth">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Bundesliga 2 : Schalke 04 vs Greuther Fürth</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="ItalySerieBCatanzarovsJuveStabia">
+    <display-name>Italy - Serie B : Catanzaro vs Juve Stabia</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926203000 +0200" channel="ItalySerieBCatanzarovsJuveStabia">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Italy - Serie B : Catanzaro vs Juve Stabia.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926203000 +0200" stop="20250926223000 +0200" channel="ItalySerieBCatanzarovsJuveStabia">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie B : Catanzaro vs Juve Stabia</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="BundesligaBayernMnchenvsWerderBremen">
+    <display-name>Bundesliga : Bayern München vs Werder Bremen</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926203000 +0200" channel="BundesligaBayernMnchenvsWerderBremen">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Bundesliga : Bayern München vs Werder Bremen.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926203000 +0200" stop="20250926223000 +0200" channel="BundesligaBayernMnchenvsWerderBremen">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Bundesliga : Bayern München vs Werder Bremen</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="FranceLigue1StrasbourgvsOlympiqueMarseille">
+    <display-name>France - Ligue 1 : Strasbourg vs Olympique Marseille</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926204500 +0200" channel="FranceLigue1StrasbourgvsOlympiqueMarseille">
+    <title lang="it">Inizia alle 20:45.</title>
+    <desc lang="it">France - Ligue 1 : Strasbourg vs Olympique Marseille.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926204500 +0200" stop="20250926224500 +0200" channel="FranceLigue1StrasbourgvsOlympiqueMarseille">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">France - Ligue 1 : Strasbourg vs Olympique Marseille</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="TokyoATPampBeijingWTA1stRound">
+    <display-name>Tokyo-ATP &amp; Beijing-WTA 1st Round</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926130000 +0200" channel="TokyoATPampBeijingWTA1stRound">
+    <title lang="it">Inizia alle 13:00.</title>
+    <desc lang="it">Tokyo-ATP &amp; Beijing-WTA 1st Round.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926130000 +0200" stop="20250926150000 +0200" channel="TokyoATPampBeijingWTA1stRound">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Tokyo-ATP &amp; Beijing-WTA 1st Round</desc>
+    <category lang="it">Tennis</category>
+  </programme>
+  <channel id="Moto3GrandPrixofJapanPractice1">
+    <display-name>Moto 3 : Grand Prix of Japan Practice 1</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926061000 +0200" channel="Moto3GrandPrixofJapanPractice1">
+    <title lang="it">Inizia alle 06:10.</title>
+    <desc lang="it">Moto 3 : Grand Prix of Japan Practice 1.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926061000 +0200" stop="20250926081000 +0200" channel="Moto3GrandPrixofJapanPractice1">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Moto 3 : Grand Prix of Japan Practice 1</desc>
+    <category lang="it">Motorsport</category>
+  </programme>
+  <channel id="MotoGPGrandPrixofJapanPractice1">
+    <display-name>MotoGP : Grand Prix of Japan Practice 1</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926061500 +0200" channel="MotoGPGrandPrixofJapanPractice1">
+    <title lang="it">Inizia alle 06:15.</title>
+    <desc lang="it">MotoGP : Grand Prix of Japan Practice 1.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926061500 +0200" stop="20250926081500 +0200" channel="MotoGPGrandPrixofJapanPractice1">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">MotoGP : Grand Prix of Japan Practice 1</desc>
+    <category lang="it">Motorsport</category>
+  </programme>
+  <channel id="Moto2GrandPrixofJapanPractice1">
+    <display-name>Moto 2 : Grand Prix of Japan Practice 1</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926070000 +0200" channel="Moto2GrandPrixofJapanPractice1">
+    <title lang="it">Inizia alle 07:00.</title>
+    <desc lang="it">Moto 2 : Grand Prix of Japan Practice 1.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926070000 +0200" stop="20250926090000 +0200" channel="Moto2GrandPrixofJapanPractice1">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Moto 2 : Grand Prix of Japan Practice 1</desc>
+    <category lang="it">Motorsport</category>
+  </programme>
+  <channel id="SerieA2CividalevsVerona">
+    <display-name>Serie A2 : Cividale vs Verona</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926204500 +0200" channel="SerieA2CividalevsVerona">
+    <title lang="it">Inizia alle 20:45.</title>
+    <desc lang="it">Serie A2 : Cividale vs Verona.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926204500 +0200" stop="20250926224500 +0200" channel="SerieA2CividalevsVerona">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Serie A2 : Cividale vs Verona</desc>
+    <category lang="it">Basketball</category>
+  </programme>
+  <channel id="MensSpeedFinalWorldChampionshipsSeoul">
+    <display-name>Men's Speed | Final World Championships | Seoul</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926120000 +0200" channel="MensSpeedFinalWorldChampionshipsSeoul">
+    <title lang="it">Inizia alle 12:00.</title>
+    <desc lang="it">Men's Speed | Final World Championships | Seoul.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926120000 +0200" stop="20250926140000 +0200" channel="MensSpeedFinalWorldChampionshipsSeoul">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Men's Speed | Final World Championships | Seoul</desc>
+    <category lang="it">Climbing</category>
+  </programme>
+  <channel id="UCIRoadWorldChampionshipsMensU23RoadRaceKigali1646km">
+    <display-name>UCI Road World Championships Men's U23 Road Race | Kigali (164.6km)</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926120000 +0200" channel="UCIRoadWorldChampionshipsMensU23RoadRaceKigali1646km">
+    <title lang="it">Inizia alle 12:00.</title>
+    <desc lang="it">UCI Road World Championships Men's U23 Road Race | Kigali (164.6km).</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926120000 +0200" stop="20250926140000 +0200" channel="UCIRoadWorldChampionshipsMensU23RoadRaceKigali1646km">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UCI Road World Championships Men's U23 Road Race | Kigali (164.6km)</desc>
+    <category lang="it">Cycling</category>
+  </programme>
+  <channel id="PremierPadelGermanyT2025MensQuarterfinal3">
+    <display-name>Premier Padel. Germany (T2025): Men's Quarterfinal 3</display-name>
+  </channel>
+  <programme start="20250926000000 +0200" stop="20250926190000 +0200" channel="PremierPadelGermanyT2025MensQuarterfinal3">
+    <title lang="it">Inizia alle 19:00.</title>
+    <desc lang="it">Premier Padel. Germany (T2025): Men's Quarterfinal 3.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250926190000 +0200" stop="20250926210000 +0200" channel="PremierPadelGermanyT2025MensQuarterfinal3">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Premier Padel. Germany (T2025): Men's Quarterfinal 3</desc>
+    <category lang="it">Squash</category>
+  </programme>
+</tv>
