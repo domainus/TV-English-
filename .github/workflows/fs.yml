@@ -3,8 +3,10 @@ name: Film & Series M3U Playlist Generator
 on:
   push:
     branches: [ main, master ]
+    paths:
+      - 'film.py'
+      - 'serie.py'
   schedule:
-    # Genera playlist automaticamente ogni giorno alle 6:00 UTC
     - cron: '0 6 * * *'
 
 env:
