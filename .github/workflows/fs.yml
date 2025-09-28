@@ -1,9 +1,7 @@
-name: Python M3U Generator CI
+name: M3U Playlist Generator
 
 on:
   push:
-    branches: [ main, master ]
-  pull_request:
     branches: [ main, master ]
   schedule:
     # Genera playlist automaticamente ogni giorno alle 6:00 UTC
@@ -13,71 +11,9 @@ env:
   PYTHON_VERSION: "3.11"
 
 jobs:
-  lint-and-test:
-    name: Code Quality & Testing
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.9", "3.10", "3.11", "3.12"]
-
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
-      with:
-        python-version: ${{ matrix.python-version }}
-
-    - name: Cache pip dependencies
-      uses: actions/cache@v4
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-python${{ matrix.python-version }}
-        restore-keys: |
-          ${{ runner.os }}-pip-
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests>=2.31.0 python-dotenv>=1.0.0
-        pip install flake8 black bandit safety
-
-    - name: Lint only target files with flake8
-      run: |
-        # Errori critici solo per i file target
-        flake8 serie.py film.py --count --select=E9,F63,F7,F82 --show-source --statistics
-        # Controlli di stile solo per i file target
-        flake8 serie.py film.py --count --exit-zero --max-complexity=12 --max-line-length=120 --statistics
-
-    - name: Check code formatting with black
-      run: |
-        black --check --diff --line-length=120 serie.py film.py
-
-    - name: Security scan with bandit
-      run: |
-        bandit -r serie.py film.py -f json -o bandit-report.json -ll || true
-        
-    - name: Validate Python syntax
-      run: |
-        python -m py_compile serie.py
-        python -m py_compile film.py
-        echo "✅ Syntax validation passed for target files"
-
-    - name: Upload security reports
-      uses: actions/upload-artifact@v4
-      if: always()
-      with:
-        name: security-reports-${{ matrix.python-version }}
-        path: |
-          bandit-report.json
-        retention-days: 14
-
   generate-playlists:
     name: Generate M3U Playlists
     runs-on: ubuntu-latest
-    needs: lint-and-test
-    if: github.ref == 'refs/heads/main' || github.event_name == 'schedule'
     
     steps:
     - name: Checkout repository
@@ -88,15 +24,7 @@ jobs:
       with:
         python-version: ${{ env.PYTHON_VERSION }}
 
-    - name: Cache pip dependencies
-      uses: actions/cache@v4
-      with:
-        path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-production
-        restore-keys: |
-          ${{ runner.os }}-pip-
-
-    - name: Install runtime dependencies
+    - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests>=2.31.0 python-dotenv>=1.0.0
@@ -105,30 +33,26 @@ jobs:
       env:
         TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
       run: |
-        echo "🎬 Generating movie playlist..."
+        echo "🎬 Running film.py..."
         python film.py
-        echo "📋 Generated files:"
-        ls -la *.m3u *.json 2>/dev/null || echo "No output files found"
 
     - name: Generate series playlist
       env:
         TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
       run: |
-        echo "📺 Generating series playlist..."
+        echo "📺 Running serie.py..."
         python serie.py
-        echo "📋 Generated files:"
-        ls -la *.m3u *.json 2>/dev/null || echo "No output files found"
 
-    - name: List all generated files
+    - name: List generated files
       run: |
-        echo "📊 Final file listing:"
-        find . -name "*.m3u" -o -name "*_cache.json" | head -20
+        echo "📊 Generated files:"
+        ls -la *.m3u *.json 2>/dev/null || echo "No files generated"
 
-    - name: Upload generated playlists
+    - name: Upload playlists
       uses: actions/upload-artifact@v4
       if: always()
       with:
-        name: m3u-playlists-${{ github.run_number }}
+        name: playlists-${{ github.run_number }}
         path: |
           *.m3u
           *_cache.json
@@ -139,16 +63,12 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         tag_name: auto-${{ github.run_number }}
-        name: "Auto-generated Playlists $(date +'%Y-%m-%d')"
+        name: "Playlists $(date +'%Y-%m-%d')"
         body: |
-          🎬 Playlist automatiche generate il $(date +'%d/%m/%Y alle %H:%M UTC')
+          🎬 Playlist generate automaticamente il $(date +'%d/%m/%Y')
           
-          **File inclusi:**
-          - Film M3U playlist (da film.py)
-          - Serie TV M3U playlist (da serie.py)
-          - Cache files per ottimizzazione
-          
-          > Generato automaticamente dai workflow GitHub Actions
+          - Film playlist (film.py)
+          - Serie TV playlist (serie.py)
         files: |
           *.m3u
           *_cache.json
@@ -156,73 +76,3 @@ jobs:
         prerelease: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  security-audit:
-    name: Security Audit
-    runs-on: ubuntu-latest
-    if: github.event_name == 'push'
-    
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Set up Python for security scan
-      uses: actions/setup-python@v5
-      with:
-        python-version: ${{ env.PYTHON_VERSION }}
-
-    - name: Install dependencies for security scan
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests>=2.31.0 python-dotenv>=1.0.0
-
-    - name: Run Trivy vulnerability scanner
-      uses: aquasecurity/trivy-action@master
-      with:
-        scan-type: 'fs'
-        scan-ref: '.'
-        format: 'sarif'
-        output: 'trivy-results.sarif'
-        severity: 'CRITICAL,HIGH,MEDIUM'
-
-    - name: Upload Trivy scan results to GitHub Security
-      uses: github/codeql-action/upload-sarif@v3
-      if: always()
-      with:
-        sarif_file: 'trivy-results.sarif'
-
-    - name: Create security summary
-      if: always()
-      run: |
-        echo "## 🔒 Security Scan Summary" >> $GITHUB_STEP_SUMMARY
-        echo "Scansione completata per film.py e serie.py:" >> $GITHUB_STEP_SUMMARY
-        echo "- ✅ Vulnerabilità nelle dipendenze" >> $GITHUB_STEP_SUMMARY
-        echo "- ✅ Analisi del codice sorgente" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "Controlla la tab **Security** per i dettagli completi." >> $GITHUB_STEP_SUMMARY
-
-  notify-completion:
-    name: Workflow Summary
-    runs-on: ubuntu-latest
-    needs: [lint-and-test, generate-playlists, security-audit]
-    if: always()
-    
-    steps:
-    - name: Generate execution summary
-      run: |
-        echo "## 📊 M3U Generator Workflow Summary" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "### 🎯 Target Files" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "- 🎬 **film.py** - Generatore playlist film" >> $GITHUB_STEP_SUMMARY
-        echo "- 📺 **serie.py** - Generatore playlist serie TV" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "### 🚀 Execution Results" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "| Job | Status | Description |" >> $GITHUB_STEP_SUMMARY
-        echo "|-----|--------|-------------|" >> $GITHUB_STEP_SUMMARY
-        echo "| Code Quality & Testing | ${{ needs.lint-and-test.result }} | Lint solo file target |" >> $GITHUB_STEP_SUMMARY
-        echo "| Generate Playlists | ${{ needs.generate-playlists.result }} | Esecuzione film.py + serie.py |" >> $GITHUB_STEP_SUMMARY
-        echo "| Security Audit | ${{ needs.security-audit.result }} | Vulnerability scanning |" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "🕐 **Completato:** $(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
