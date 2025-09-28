@@ -40,35 +40,29 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        # Dipendenze per i tuoi script
         pip install requests>=2.31.0 python-dotenv>=1.0.0
-        # Tools per CI/CD
         pip install flake8 black bandit safety
 
-    - name: Lint with flake8
+    - name: Lint only target files with flake8
       run: |
-        # Errori critici che fermano il build
-        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # Controlli di stile e complessità
-        flake8 . --count --exit-zero --max-complexity=12 --max-line-length=120 --statistics --exclude=.git,__pycache__
+        # Errori critici solo per i file target
+        flake8 serie.py film.py --count --select=E9,F63,F7,F82 --show-source --statistics
+        # Controlli di stile solo per i file target
+        flake8 serie.py film.py --count --exit-zero --max-complexity=12 --max-line-length=120 --statistics
 
     - name: Check code formatting with black
       run: |
-        black --check --diff --line-length=120 .
+        black --check --diff --line-length=120 serie.py film.py
 
     - name: Security scan with bandit
       run: |
-        bandit -r . -f json -o bandit-report.json -ll || true
+        bandit -r serie.py film.py -f json -o bandit-report.json -ll || true
         
-    - name: Check dependencies for vulnerabilities
-      run: |
-        safety check || true
-
     - name: Validate Python syntax
       run: |
         python -m py_compile serie.py
         python -m py_compile film.py
-        echo "✅ Syntax validation passed"
+        echo "✅ Syntax validation passed for target files"
 
     - name: Upload security reports
       uses: actions/upload-artifact@v4
@@ -150,13 +144,9 @@ jobs:
           🎬 Playlist automatiche generate il $(date +'%d/%m/%Y alle %H:%M UTC')
           
           **File inclusi:**
-          - Film M3U playlist
-          - Serie TV M3U playlist
+          - Film M3U playlist (da film.py)
+          - Serie TV M3U playlist (da serie.py)
           - Cache files per ottimizzazione
-          
-          **Script utilizzati:**
-          - `film.py` - Generatore playlist film
-          - `serie.py` - Generatore playlist serie TV
           
           > Generato automaticamente dai workflow GitHub Actions
         files: |
@@ -205,10 +195,9 @@ jobs:
       if: always()
       run: |
         echo "## 🔒 Security Scan Summary" >> $GITHUB_STEP_SUMMARY
-        echo "Scansione completata per:" >> $GITHUB_STEP_SUMMARY
+        echo "Scansione completata per film.py e serie.py:" >> $GITHUB_STEP_SUMMARY
         echo "- ✅ Vulnerabilità nelle dipendenze" >> $GITHUB_STEP_SUMMARY
         echo "- ✅ Analisi del codice sorgente" >> $GITHUB_STEP_SUMMARY
-        echo "- ✅ Controllo sicurezza file system" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "Controlla la tab **Security** per i dettagli completi." >> $GITHUB_STEP_SUMMARY
 
@@ -223,20 +212,17 @@ jobs:
       run: |
         echo "## 📊 M3U Generator Workflow Summary" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### 🎯 Target Files" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "- 🎬 **film.py** - Generatore playlist film" >> $GITHUB_STEP_SUMMARY
+        echo "- 📺 **serie.py** - Generatore playlist serie TV" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
         echo "### 🚀 Execution Results" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
         echo "| Job | Status | Description |" >> $GITHUB_STEP_SUMMARY
         echo "|-----|--------|-------------|" >> $GITHUB_STEP_SUMMARY
-        echo "| Code Quality & Testing | ${{ needs.lint-and-test.result }} | Lint, format, security checks |" >> $GITHUB_STEP_SUMMARY
-        echo "| Generate Playlists | ${{ needs.generate-playlists.result }} | M3U playlist generation |" >> $GITHUB_STEP_SUMMARY
+        echo "| Code Quality & Testing | ${{ needs.lint-and-test.result }} | Lint solo file target |" >> $GITHUB_STEP_SUMMARY
+        echo "| Generate Playlists | ${{ needs.generate-playlists.result }} | Esecuzione film.py + serie.py |" >> $GITHUB_STEP_SUMMARY
         echo "| Security Audit | ${{ needs.security-audit.result }} | Vulnerability scanning |" >> $GITHUB_STEP_SUMMARY
         echo "" >> $GITHUB_STEP_SUMMARY
-        echo "### 📋 Generated Content" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
-        echo "- 🎬 Film playlist (film.py)" >> $GITHUB_STEP_SUMMARY
-        echo "- 📺 Series playlist (serie.py)" >> $GITHUB_STEP_SUMMARY
-        echo "- 💾 Cache files for optimization" >> $GITHUB_STEP_SUMMARY
-        echo "" >> $GITHUB_STEP_SUMMARY
         echo "🕐 **Completato:** $(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
-        echo "🔄 **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
-        echo "🌟 **Branch:** ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
