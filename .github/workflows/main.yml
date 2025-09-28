@@ -1,5 +1,9 @@
 name: RUN SCRIPT LISTA
 on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'lista.py'
   schedule:
     - cron: '0 */2 * * *'  # Esegui ogni 2 ore
   workflow_dispatch:  # Consente l'esecuzione manuale
