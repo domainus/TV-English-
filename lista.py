@@ -3009,82 +3009,55 @@ def italy_channels():
         print(f"URL .php per il canale Daddylive {channel_id}: {raw_php_url}")
         return raw_php_url
 
-    def fetch_channels_from_daddylive_page(page_url, base_daddy_url):
-        """Estrae i canali dalla pagina HTML di Daddylive 24/7"""
-        print(f"Tentativo di fetch dei canali da: {page_url}")
+    def fetch_channels_from_daddy_json(json_url):
+        """Estrae i canali italiani dal file JSON ufficiale di Daddylive."""
+        print(f"Tentativo di fetch dei canali da: {json_url}")
         channels = []
         seen_daddy_channel_ids = set()
-        
+
         try:
             print("[AVVISO] La verifica del certificato SSL è disabilitata per questa richiesta.")
-            response = requests.get(page_url, timeout=10, verify=False, headers={
+            response = requests.get(json_url, timeout=10, verify=False, headers={
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
             })
             response.raise_for_status()
-            soup = BeautifulSoup(response.content, 'html.parser')
+            daddy_data = response.json()
+            print(f"Trovati {len(daddy_data)} canali nel JSON di Daddylive.")
 
-            # Marcatori che suggeriscono un canale NON italiano
-            non_italian_markers = [
-                " (de)", " (fr)", " (es)", " (uk)", " (us)", " (pt)", " (gr)", " (nl)", " (tr)", " (ru)",
-                " deutsch", " france", " español", " arabic", " greek", " turkish", " russian", " albania",
-                " portugal"
-            ]            
+            for item in daddy_data:
+                channel_name_raw = item.get("channel_name")
+                channel_id = item.get("channel_id")
 
-            grid_items = soup.select('div.grid a.card')
-            print(f"Trovati {len(grid_items)} elementi 'a.card' nella pagina Daddylive.")
-
-            for item in grid_items:
-                href = item.get('href')
-                if not href or not re.search(r'/watch\.php\?id=\d+', href):
+                if not channel_name_raw or not channel_id:
                     continue
 
-                # Usa data-title per un nome più pulito, altrimenti il testo del titolo
-                channel_name_raw = item.get('data-title')
-                if not channel_name_raw:
-                    title_div = item.find('div', class_='card__title')
-                    channel_name_raw = title_div.text.strip() if title_div else ''
+                if channel_id in seen_daddy_channel_ids:
+                    print(f"Skipping Daddylive channel '{channel_name_raw}' (ID: {channel_id}) perché l'ID è già stato processato.")
                     continue
-                
-                # Estrai l'ID del canale dall'href
-                channel_id_match = re.search(r'/watch.php\?id=(\d+)', href)
 
-                if channel_id_match and channel_name_raw:
-                    channel_id = channel_id_match.group(1)
-                    if channel_id == "853" and "rai 4" in channel_name_raw.lower():
-                        print(f"[CORREZIONE] Canale ID {channel_id} corretto da '{channel_name_raw}' a 'CANALE 5 Italy'")
-                        channel_name_raw = "CANALE 5 Italy"
-                    lower_channel_name = channel_name_raw.lower()
+                # Correzione manuale per l'ID 853
+                if channel_id == "853":
+                    print(f"[CORREZIONE] Canale ID {channel_id} corretto da '{channel_name_raw}' a 'Canale 5 Italy'")
+                    channel_name_raw = "Canale 5 Italy"
 
-                    if channel_id in seen_daddy_channel_ids:
-                        print(f"Skipping Daddylive channel '{channel_name_raw}' (ID: {channel_id}) perché l'ID è già stato processato.")
-                        continue
-
-                    # Filtro primario: deve contenere "italy"
-                    if "italy" in lower_channel_name:
-                        is_confirmed_non_italian_by_marker = False
-                        for marker in non_italian_markers:
-                            if marker in lower_channel_name:
-                                is_confirmed_non_italian_by_marker = True
-                                print(f"Skipping Daddylive channel '{channel_name_raw}' (ID: {channel_id}) perché, pur contenendo 'italy', ha anche un marcatore non italiano: '{marker}'")
-                                break
-                        
-                        if not is_confirmed_non_italian_by_marker:
-                            seen_daddy_channel_ids.add(channel_id)
-                            print(f"Trovato canale potenzialmente ITALIANO (Daddylive HTML): {channel_name_raw}, ID: {channel_id}. Tentativo di risoluzione stream...")
-                            stream_url = get_stream_from_channel_id(channel_id)
-                            if stream_url:
-                                channels.append((channel_name_raw, stream_url))
-                                print(f"Risolto e aggiunto stream per {channel_name_raw}: {stream_url}")
-                            else:
-                                print(f"Impossibile risolvere lo stream per {channel_name_raw} (ID: {channel_id})")
-
+                # Filtro: deve contenere "italy" (case-insensitive)
+                if "italy" in channel_name_raw.lower():
+                    seen_daddy_channel_ids.add(channel_id)
+                    print(f"Trovato canale ITALIANO (Daddylive JSON): {channel_name_raw}, ID: {channel_id}. Tentativo di risoluzione stream...")
+                    stream_url = get_stream_from_channel_id(channel_id)
+                    if stream_url:
+                        channels.append((channel_name_raw, stream_url))
+                        print(f"Risolto e aggiunto stream per {channel_name_raw}: {stream_url}")
+                    else:
+                        print(f"Impossibile risolvere lo stream per {channel_name_raw} (ID: {channel_id})")
+            
             if not channels:
-                print(f"Nessun canale estratto/risolto da {page_url}. Controlla la logica di parsing o la struttura della pagina.")
+                print(f"Nessun canale italiano estratto/risolto da {json_url}.")
 
         except requests.RequestException as e:
-            print(f"Errore durante il download da {page_url}: {e}")
+            print(f"Errore durante il download da {json_url}: {e}")
         except Exception as e:
-            print(f"Errore imprevisto durante il parsing di {page_url}: {e}")
+            print(f"Errore imprevisto durante il parsing di {json_url}: {e}")
         
         return channels
 
@@ -3098,8 +3071,8 @@ def italy_channels():
         daddylive_channels = None
         if CANALI_DADDY:
             print("\n--- Fetching canali da Daddylive (HTML) ---")
-            daddylive_247_page_url = f"{LINK_DADDY.rstrip('/')}/24-7-channels.php"
-            daddylive_channels = fetch_channels_from_daddylive_page(daddylive_247_page_url, LINK_DADDY)
+            daddy_json_url = f"{LINK_DADDY.rstrip('/')}/daddy.json"
+            daddylive_channels = fetch_channels_from_daddy_json(daddy_json_url)
             print(f"Trovati {len(daddylive_channels)} canali Daddylive.")
         else:
             print("\n--- Canali Daddylive disabilitati (CANALI_DADDY=no) ---")
