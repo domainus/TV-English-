@@ -1,4 +1,4 @@
-name: M3U Playlist Generator
+name: Film & Series M3U Playlist Generator
 
 on:
   push:
