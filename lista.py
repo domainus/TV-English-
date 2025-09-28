@@ -3050,7 +3050,7 @@ def italy_channels():
 
                 if channel_id_match and channel_name_raw:
                     channel_id = channel_id_match.group(1)
-                    if channel_id == "853" and "rai 3" in channel_name_raw.lower():
+                    if channel_id == "853" and "rai 4" in channel_name_raw.lower():
                         print(f"[CORREZIONE] Canale ID {channel_id} corretto da '{channel_name_raw}' a 'CANALE 5 Italy'")
                         channel_name_raw = "CANALE 5 Italy"
                     lower_channel_name = channel_name_raw.lower()
