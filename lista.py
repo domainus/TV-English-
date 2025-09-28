@@ -2861,13 +2861,22 @@ def italy_channels():
 
         # Processa i canali Daddylive se presenti
         if daddylive_channels:
-            for raw_name, stream_url in daddylive_channels:
+            for raw_name, stream_url_with_id in daddylive_channels:
                 # Pulizia e trasformazione del nome come nella logica originale
                 name_after_initial_clean = clean_channel_name(raw_name)
                 # Rimuovi "italy" e converti in maiuscolo
                 base_daddy_name = re.sub(r'italy', '', name_after_initial_clean, flags=re.IGNORECASE).strip()
                 base_daddy_name = re.sub(r'\s+', ' ', base_daddy_name).strip()
                 base_daddy_name = base_daddy_name.upper()
+
+                # Estrai l'ID del canale dall'URL per la correzione
+                stream_url = stream_url_with_id
+                channel_id_match = re.search(r'id=(\d+)', stream_url)
+                channel_id = channel_id_match.group(1) if channel_id_match else None
+
+                if channel_id == "853":
+                    print(f"[CORREZIONE FINALE] Canale ID {channel_id} ('{base_daddy_name}') forzato a 'CANALE 5'")
+                    base_daddy_name = "CANALE 5"
 
                 # Usa la mappa fornita per la rinomina dei canali Sky Calcio specifici di Daddylive
                 rename_map = {
@@ -3034,11 +3043,6 @@ def italy_channels():
                 if channel_id in seen_daddy_channel_ids:
                     print(f"Skipping Daddylive channel '{channel_name_raw}' (ID: {channel_id}) perché l'ID è già stato processato.")
                     continue
-
-                # Correzione manuale per l'ID 853
-                if channel_id == "853":
-                    print(f"[CORREZIONE] Canale ID {channel_id} corretto da '{channel_name_raw}' a 'Canale 5 Italy'")
-                    channel_name_raw = "Canale 5 Italy"
 
                 # Filtro: deve contenere "italy" (case-insensitive)
                 if "italy" in channel_name_raw.lower():
