@@ -43,35 +43,46 @@ jobs:
         echo "📺 Running serie.py..."
         python serie.py
 
-    - name: List generated files
+    - name: List only target files
       run: |
-        echo "📊 Generated files:"
-        ls -la *.m3u *.json 2>/dev/null || echo "No files generated"
+        echo "📊 Film & Series files generated:"
+        ls -la film.m3u serie.m3u film_cache.json serie_cache.json 2>/dev/null || echo "Some target files missing"
 
-    - name: Upload playlists
+    - name: Upload only film & series playlists
       uses: actions/upload-artifact@v4
       if: always()
       with:
-        name: playlists-${{ github.run_number }}
+        name: film-series-playlists-${{ github.run_number }}
         path: |
-          *.m3u
-          *_cache.json
+          film.m3u
+          serie.m3u
+          film_cache.json
+          serie_cache.json
         retention-days: 30
 
-    - name: Create release (on schedule)
+    - name: Create release with only film & series (on schedule)
       if: github.event_name == 'schedule'
       uses: softprops/action-gh-release@v1
       with:
         tag_name: auto-${{ github.run_number }}
-        name: "Playlists $(date +'%Y-%m-%d')"
+        name: "Film & Series Playlists $(date +'%Y-%m-%d')"
         body: |
-          🎬 Playlist generate automaticamente il $(date +'%d/%m/%Y')
+          🎬📺 Playlist Film e Serie TV generate il $(date +'%d/%m/%Y alle %H:%M UTC')
           
-          - Film playlist (film.py)
-          - Serie TV playlist (serie.py)
+          **File inclusi:**
+          - 🎬 `film.m3u` - Playlist film completa
+          - 📺 `serie.m3u` - Playlist serie TV completa  
+          - 💾 `film_cache.json` - Cache TMDB film
+          - 💾 `serie_cache.json` - Cache TMDB serie
+          
+          **Generato da:**
+          - `film.py` - Script generatore film
+          - `serie.py` - Script generatore serie
         files: |
-          *.m3u
-          *_cache.json
+          film.m3u
+          serie.m3u
+          film_cache.json
+          serie_cache.json
         draft: false
         prerelease: false
       env:
