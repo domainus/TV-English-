@@ -235,6 +235,8 @@ https://vavoo.to/vavoo-iptv/play/32202484989ac14421915
 https://dlhd.dad/watch.php?id=881
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/portugal/star-comedy-pt.png?raw=true" group-title="Altro",STAR COMEDY
 https://vavoo.to/vavoo-iptv/play/151207238423ec1d54e5b8
+#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/argentina/star-life-ar.png?raw=true" group-title="Altro",STAR LIFE
+https://vavoo.to/vavoo-iptv/play/3946128844a366ea9809f0
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.stereo5.it/2022/wp-content/uploads/2023/02/LOGO-NUOVO-2023-2.png" group-title="Altro",STEREO 5 TV
 https://vavoo.to/vavoo-iptv/play/88205050e85664590a6b
 #EXTINF:-1 tvg-id="" tvg-logo="https://e7.pngegg.com/pngimages/439/74/png-clipart-superman-superhero-drawing-super-man-font-superhero-heart.png" group-title="Altro",SUPER J
@@ -481,8 +483,10 @@ https://vavoo.to/vavoo-iptv/play/3990509931e84e66eaa232
 # SPORT
 #EXTINF:-1 tvg-id="aci.sport.tv.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/aci-sport-tv-it.png" group-title="Sport",ACI SPORT TV
 https://vavoo.to/vavoo-iptv/play/13516316035c18ca000fe1
-#EXTINF:-1 tvg-id="dazn.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sport",DAZN
+#EXTINF:-1 tvg-id="dazn.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sport",DAZN (1)
 https://vavoo.to/vavoo-iptv/play/2745635299ab0cc043a143
+#EXTINF:-1 tvg-id="dazn.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sport",DAZN (2)
+https://vavoo.to/vavoo-iptv/play/291117845637cc65891f64
 #EXTINF:-1 tvg-id="dazn.1.it.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sport",DAZN 1
 https://vavoo.to/vavoo-iptv/play/1376440573d46b3d682e20
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sport",DAZN ZONA (D)
@@ -549,8 +553,14 @@ https://vavoo.to/vavoo-iptv/play/3897711086f5655aa4d5fb
 https://vavoo.to/vavoo-iptv/play/206632691678b853b73adb
 #EXTINF:-1 tvg-id="sky.sport.max.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Sport",SKY SPORT MAX (D)
 https://dlhd.dad/watch.php?id=460
+#EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sport",SKY SPORT MOTOGP
+https://vavoo.to/vavoo-iptv/play/2090703806f47d7eb551ce
 #EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sport",SKY SPORT MOTOGP (D)
 https://dlhd.dad/watch.php?id=575
+#EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sport",SKY SPORT NBA (1)
+https://vavoo.to/vavoo-iptv/play/271195962000118dca31ce
+#EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sport",SKY SPORT NBA (2)
+https://vavoo.to/vavoo-iptv/play/3268253262aec282eb346
 #EXTINF:-1 tvg-id="sky.sport.tennis.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sport",SKY SPORT TENNIS (1)
 https://vavoo.to/vavoo-iptv/play/210077178262e76f204fa6
 #EXTINF:-1 tvg-id="sky.sport.tennis.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sport",SKY SPORT TENNIS (2)
@@ -898,7 +908,7 @@ https://dlhd.dad/watch.php?id=77
 #EXTINF:-1 tvg-id="italyseriearomavshellasverona" tvg-name="Soccer | Italy - Serie A : Roma vs Hellas Verona (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Roma_vs_Hellas Verona.png" group-title="Eventi Live",Soccer | Italy - Serie A : Roma vs Hellas Verona (15:00)
 https://dlhd.dad/watch.php?id=877
 
-#EXTINF:-1 tvg-id="italyseriectriestinavsrenate" tvg-name="Soccer | Italy - Serie C : Triestina vs Renate (15:00)" tvg-logo="https://uploads.minesite.org/sites/119/uploads/151/general/644c3d00-388c-d790-087e-827f60e55ee9/default/renatelogo2.png" group-title="Eventi Live",Soccer | Italy - Serie C : Triestina vs Renate (15:00)
+#EXTINF:-1 tvg-id="italyseriectriestinavsrenate" tvg-name="Soccer | Italy - Serie C : Triestina vs Renate (15:00)" tvg-logo="http://upload.wikimedia.org/wikipedia/commons/b/b9/Renate_Künast_20090915-DSCF1946.jpg" group-title="Eventi Live",Soccer | Italy - Serie C : Triestina vs Renate (15:00)
 https://dlhd.dad/watch.php?id=172
 
 #EXTINF:-1 tvg-id="italyseriecalbinoleffevsnovara" tvg-name="Soccer | Italy - Serie C : AlbinoLeffe vs Novara (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/AlbinoLeffe_vs_Novara.png" group-title="Eventi Live",Soccer | Italy - Serie C : AlbinoLeffe vs Novara (15:00)
@@ -952,13 +962,13 @@ https://dlhd.dad/watch.php?id=870
 #EXTINF:-1 tvg-id="bundesligaunionberlinvshamburgersv" tvg-name="Soccer | Bundesliga : Union Berlin vs Hamburger SV (19:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Union Berlin_vs_Hamburger SV.png" group-title="Eventi Live",Soccer | Bundesliga : Union Berlin vs Hamburger SV (19:30)
 https://dlhd.dad/watch.php?id=152
 
-#EXTINF:-1 tvg-id="italyseriecleccovsgianaerminio" tvg-name="Soccer | Italy - Serie C : Lecco vs Giana Erminio (20:30)" tvg-logo="https://www.ilovegiana.it/wp-content/uploads/2021/08/Sangiuliano-city-logo.png" group-title="Eventi Live",Soccer | Italy - Serie C : Lecco vs Giana Erminio (20:30)
+#EXTINF:-1 tvg-id="italyseriecleccovsgianaerminio" tvg-name="Soccer | Italy - Serie C : Lecco vs Giana Erminio (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Lecco_vs_Giana Erminio.png" group-title="Eventi Live",Soccer | Italy - Serie C : Lecco vs Giana Erminio (20:30)
 https://dlhd.dad/watch.php?id=153
 
 #EXTINF:-1 tvg-id="italyserieclumezzanevsinterii" tvg-name="Soccer | Italy - Serie C : Lumezzane vs Inter II (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Lumezzane_vs_Inter II.png" group-title="Eventi Live",Soccer | Italy - Serie C : Lumezzane vs Inter II (20:30)
 https://dlhd.dad/watch.php?id=171
 
-#EXTINF:-1 tvg-id="italyseriecmonopolivscavese" tvg-name="Soccer | Italy - Serie C : Monopoli vs Cavese (20:30)" tvg-logo="https://www.footballkitarchive.com/static/logos/LPmTGC4uMSEMQ6T/ss-monopoli-2014-2022-logo.png" group-title="Eventi Live",Soccer | Italy - Serie C : Monopoli vs Cavese (20:30)
+#EXTINF:-1 tvg-id="italyseriecmonopolivscavese" tvg-name="Soccer | Italy - Serie C : Monopoli vs Cavese (20:30)" tvg-logo="https://pugliamare.it/wp-content/uploads/2021/07/monopoli.png" group-title="Eventi Live",Soccer | Italy - Serie C : Monopoli vs Cavese (20:30)
 https://dlhd.dad/watch.php?id=154
 
 #EXTINF:-1 tvg-id="italyserieamilanvsnapoli" tvg-name="Soccer | Italy - Serie A : Milan vs Napoli (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Milan_vs_Napoli.png" group-title="Eventi Live",Soccer | Italy - Serie A : Milan vs Napoli (20:45)
@@ -967,7 +977,7 @@ https://dlhd.dad/watch.php?id=877
 #EXTINF:-1 tvg-id="fifau20worldcupitalyu20vsaustraliau20" tvg-name="Soccer | FIFA U-20 World Cup : Italy U20 vs Australia U20 (22:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Italy U20_vs_Australia U20.png" group-title="Eventi Live",Soccer | FIFA U-20 World Cup : Italy U20 vs Australia U20 (22:00)
 https://dlhd.dad/watch.php?id=882
 
-#EXTINF:-1 tvg-id="uciroadworldchampionshipswomeneliteroadracekigali1646km" tvg-name="Cycling | UCI Road World Championships Women Elite Road Race | Kigali (164.6km) (16:15)" tvg-logo="https://logos-world.net/wp-content/uploads/2023/06/Uci-Symbol.png" group-title="Eventi Live",Cycling | UCI Road World Championships Women Elite Road Race | Kigali (164.6km) (16:15)
+#EXTINF:-1 tvg-id="uciroadworldchampionshipswomeneliteroadracekigali1646km" tvg-name="Cycling | UCI Road World Championships Women Elite Road Race | Kigali (164.6km) (16:15)" tvg-logo="https://logos-world.net/wp-content/uploads/2023/06/Uci-Logo.png" group-title="Eventi Live",Cycling | UCI Road World Championships Women Elite Road Race | Kigali (164.6km) (16:15)
 https://dlhd.dad/watch.php?id=851
 
 #EXTINF:-1 tvg-id="globalchampionstourviennashowjumping" tvg-name="Equestrian | Global Champions Tour | Vienna show jumping (20:00)" tvg-logo="https://cdn.pixabay.com/photo/2013/03/30/00/10/world-97864_1280.png" group-title="Eventi Live",Equestrian | Global Champions Tour | Vienna show jumping (20:00)
