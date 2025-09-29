@@ -3636,11 +3636,16 @@ def streamed():
         # Usa un lock per assicurarsi che solo un thread alla volta crei un'istanza del driver,
         # prevenendo conflitti di file con undetected_chromedriver.
         with driver_creation_lock:
-            options = uc.ChromeOptions()
-            # options.add_argument("--headless") # Headless può essere rilevato, disabilitalo se ci sono problemi
-            options.add_argument("--log-level=3")
-            options.add_argument('--ignore-certificate-errors')
-            return uc.Chrome(options=options)
+            options = uc.ChromeOptions()        
+            # Abilita la modalità headless e aggiungi opzioni per la compatibilità con ambienti come GitHub Actions/Docker
+            options.add_argument('--headless')
+            options.add_argument('--no-sandbox')
+            options.add_argument('--disable-dev-shm-usage')
+            options.add_argument('--disable-gpu')
+            options.add_argument("--log-level=3") # Riduci il logging
+            options.add_argument('--ignore-certificate-errors') # Ignora errori SSL
+            
+            return uc.Chrome(options=options, use_subprocess=True)
     
     def process_event(event):
         """
