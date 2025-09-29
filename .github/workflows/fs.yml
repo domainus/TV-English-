@@ -61,31 +61,6 @@ jobs:
           film_cache.json
           serie_cache.json
         retention-days: 30
-
-    - name: Create release with only film & series (on schedule)
-      if: github.event_name == 'schedule'
-      uses: softprops/action-gh-release@v1
-      with:
-        tag_name: auto-${{ github.run_number }}
-        name: "Film & Series Playlists $(date +'%Y-%m-%d')"
-        body: |
-          🎬📺 Playlist Film e Serie TV generate il $(date +'%d/%m/%Y alle %H:%M UTC')
-          
-          **File inclusi:**
-          - 🎬 `film.m3u` - Playlist film completa
-          - 📺 `serie.m3u` - Playlist serie TV completa  
-          - 💾 `film_cache.json` - Cache TMDB film
-          - 💾 `serie_cache.json` - Cache TMDB serie
-          
-          **Generato da:**
-          - `film.py` - Script generatore film
-          - `serie.py` - Script generatore serie
-        files: |
-          film.m3u
-          serie.m3u
-          film_cache.json
-          serie_cache.json
-        draft: false
-        prerelease: false
+     
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
