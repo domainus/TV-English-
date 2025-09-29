@@ -799,7 +799,7 @@ def eventi_m3u8_generator_world():
             
             if has_events:
                 # Aggiungi il canale iniziale/informativo solo se ci sono eventi
-                f.write(f'#EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live",DADDYLIVE\n')
+                f.write(f'#EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE\n')
                 f.write("https://example.com.m3u8\n\n")
             else:
                 print("[ℹ️] Nessun evento trovato, canale DADDYLIVE non aggiunto.")
@@ -834,7 +834,7 @@ def eventi_m3u8_generator_world():
                             
                         if stream: 
                             cleaned_event_id = clean_tvg_id(event_title) # Usa event_title per tvg-id
-                            f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}" tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live",{category} | {tvg_name}\n')
+                            f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}" tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live DLHD",{category} | {tvg_name}\n')
                             # Aggiungi EXTHTTP headers per canali daddy (esclusi .php)
                             if ("newkso.ru" in stream or "premium" in stream) and not stream.endswith('.php'):
                                 daddy_headers = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1", "Referer": "https://forcedtoplay.xyz/", "Origin": "https://forcedtoplay.xyz"}
@@ -1369,7 +1369,7 @@ def eventi_m3u8_generator():
             
             if has_events:
                 # Aggiungi il canale iniziale/informativo solo se ci sono eventi
-                f.write(f'#EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live",DADDYLIVE\n')
+                f.write(f'#EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE\n')
                 f.write("https://example.com.m3u8\n\n")
             else:
                 print("[ℹ️] Nessun evento trovato, canale DADDYLIVE non aggiunto.")
@@ -1394,7 +1394,7 @@ def eventi_m3u8_generator():
                         stream = get_stream_from_channel_id(channel_id) 
                         if stream: 
                             cleaned_event_id = clean_tvg_id(event_title) # Usa event_title per tvg-id
-                            f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}" tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live",{category} | {tvg_name}\n')
+                            f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}" tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live DLHD",{category} | {tvg_name}\n')
                             # Aggiungi EXTHTTP headers per canali daddy (esclusi .php)
                             if ("newkso.ru" in stream or "premium" in stream) and not stream.endswith('.php'):
                                 daddy_headers = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1", "Referer": "https://forcedtoplay.xyz/", "Origin": "https://forcedtoplay.xyz"}
@@ -3202,6 +3202,573 @@ def world_channels_generator():
         print(f"Trovati {len(channels)} canali. Creo la playlist M3U con i link proxy...")
         save_as_m3u(channels) 
 
+def sportsonline():
+    import requests
+    import re
+    from bs4 import BeautifulSoup
+    import time
+    # Usiamo selenium-wire per ispezionare il traffico di rete
+    import datetime
+    from seleniumwire import webdriver
+    from selenium.common.exceptions import TimeoutException, NoSuchFrameException
+    from selenium.webdriver.chrome.service import Service
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    
+    # URL del file di programmazione
+    PROG_URL = "https://sportsonline.sn/prog.txt"
+    # Lingua che vogliamo cercare
+    TARGET_LANGUAGE = "ITALIAN"
+    
+    def get_italian_channels(lines):
+        """
+        Analizza le righe del file di programmazione per trovare i canali in italiano.
+        Restituisce una lista di identificativi dei canali (es. ['hd7']).
+        """
+        italian_channels = []
+        for line in lines:
+            # Cerca le righe che definiscono la lingua di un canale
+            if TARGET_LANGUAGE in line.upper():
+                # Estrae l'identificativo del canale (es. "HD7") e lo converte in minuscolo
+                channel_id = line.split()[0].lower()
+                italian_channels.append(channel_id)
+                print(f"[INFO] Trovato canale italiano: {channel_id.upper()}")
+        return italian_channels
+    
+    def get_m3u8_from_url(page_url, driver):
+        """
+        Visita l'URL di una pagina evento e cerca al suo interno il link dello streaming .m3u8.
+        Utilizza Selenium per gestire il contenuto caricato dinamicamente da JavaScript.
+        """
+        try:
+            print(f"  -> Visitando la pagina: {page_url}")
+            del driver.requests
+            driver.get(page_url)
+            
+            wait = WebDriverWait(driver, 15)
+            stream_info = None
+    
+            # --- STRATEGIA 1 (PRIORITARIA): Ispezione della rete ---
+            print("    [INFO] Attendo richiesta di rete per il link .m3u8...")
+            try:
+                # Attendi fino a 15 secondi che una richiesta contenente .m3u8 venga catturata
+                request = driver.wait_for_request(r'\.m3u8', timeout=15)
+                # Estraiamo sia l'URL che gli header della richiesta
+                stream_info = {'url': request.url, 'headers': request.headers}
+                print(f"    [OK] Trovato link M3U8 tramite ispezione di rete!")
+            except TimeoutException:
+                print("    [INFO] Nessuna richiesta .m3u8 intercettata, provo con i metodi fallback.")
+    
+            # --- STRATEGIA 2 (FALLBACK): Ricerca tramite ID nell'HTML ---
+            if not stream_info:
+                print("    [INFO] Tento ricerca tramite ID elemento 'm3u8Link'...")
+                try:
+                    # Potrebbe essere in un iframe, quindi dobbiamo entrare prima
+                    try:
+                        wait.until(EC.frame_to_be_available_and_switch_to_it((By.TAG_NAME, "iframe")))
+                        print("    [INFO] Trovato iframe, entro al suo interno...")
+                    except TimeoutException:
+                        pass # Nessun iframe, cerco nella pagina principale
+    
+                    link_element = wait.until(EC.presence_of_element_located((By.ID, "m3u8Link")))
+                    if link_element:
+                        m3u8_url = link_element.get_attribute('href')
+                        # Costruiamo un set di header di base
+                        stream_info = {
+                            'url': m3u8_url,
+                            'headers': {
+                                'User-Agent': driver.execute_script("return navigator.userAgent;"),
+                                'Referer': page_url
+                            }
+                        }
+                        print(f"    [OK] Trovato link M3U8 tramite ID elemento.")
+                except TimeoutException:
+                    print("    [INFO] Elemento 'm3u8Link' non trovato.")
+    
+            # --- STRATEGIA 3 (FALLBACK FINALE): Regex sul codice sorgente ---
+            if not stream_info:
+                print("    [INFO] Tento fallback finale con Regex sul codice sorgente...")
+                page_source = driver.page_source
+                match = re.search(r'https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*', page_source) # Regex migliorata
+                if match:
+                    # Anche qui, costruiamo header di base
+                    stream_info = {
+                        'url': match.group(0),
+                        'headers': {
+                            'User-Agent': driver.execute_script("return navigator.userAgent;"),
+                            'Referer': page_url
+                        }
+                    }
+                    print(f"    [OK] Trovato link M3U8 tramite Selenium e Regex.")
+    
+            if stream_info:
+                print(f"    [OK] Trovato link M3U8: {stream_info['url']}")
+                return stream_info
+            else:
+                print("    [ATTENZIONE] Nessun link .m3u8 trovato nella pagina.")
+                return None
+                
+        except Exception as e: # Cattura altre eccezioni impreviste
+            error_type = type(e).__name__
+            print(f"    [ERRORE] Problema durante l'analisi di {page_url} ({error_type}).")
+            return None
+    
+    def main():
+        """
+        Funzione principale che orchestra il processo.
+        """
+        # --- Controllo del giorno della settimana ---
+        today_weekday = datetime.date.today().weekday() # Lunedì=0, Martedì=1, ..., Domenica=6
+        weekdays_english = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
+        # Applichiamo sempre il filtro per il giorno corrente
+        day_to_filter = weekdays_english[today_weekday]
+        print(f"Oggi è {day_to_filter}, verranno cercati solo gli eventi di oggi.")
+    
+        # --- Inizializzazione di Selenium-Wire ---
+        print("Inizializzazione del browser con Selenium...")
+        # selenium-wire usa le stesse opzioni di selenium
+        options = webdriver.ChromeOptions() 
+        options.add_argument("--headless")  # Esegui Chrome in background, senza interfaccia grafica
+        options.add_argument("--log-level=3") # Riduci il logging di Selenium
+        options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+        
+        # Assicurati di avere chromedriver.exe nella stessa cartella o nel PATH di sistema
+        # Se hai chromedriver in un percorso specifico, usa: Service("percorso/a/chromedriver.exe")
+        try:
+            service = Service()
+            # Usiamo il driver di selenium-wire invece di quello standard di selenium
+            driver = webdriver.Chrome(service=service, options=options) 
+        except Exception as e:
+            print(f"[ERRORE FATALE] Impossibile avviare Selenium/Chrome. Assicurati che ChromeDriver sia installato e accessibile.")
+            print(f"Dettagli errore: {e}")
+            return
+        # ------------------------------------
+    
+        print(f"1. Scarico la programmazione da: {PROG_URL}")
+        try:
+            response = requests.get(PROG_URL, timeout=10)
+            response.raise_for_status()
+        except requests.exceptions.RequestException as e:
+            print(f"[ERRORE FATALE] Impossibile scaricare il file di programmazione: {e}")
+            return
+    
+        lines = response.text.splitlines()
+    
+        print("\n2. Cerco i canali in lingua italiana...")
+        italian_channels = get_italian_channels(lines)
+    
+        if not italian_channels:
+            print("[ATTENZIONE] Nessun canale italiano trovato nella programmazione. Termino.")
+            return
+    
+        print("\n3. Cerco gli eventi trasmessi sui canali italiani...")
+        playlist_entries = []
+    
+        # --- NUOVA LOGICA DI SCANSIONE PER GIORNO ---
+        processing_today_events = (day_to_filter is None) # Se è weekend, processa tutto
+    
+        for line in lines:
+            line_upper = line.upper().strip()
+    
+            # Controlliamo se la riga è un'intestazione di un giorno della settimana
+            if line_upper in weekdays_english:
+                if day_to_filter and line_upper == day_to_filter:
+                    # Abbiamo trovato la sezione del giorno corrente, iniziamo a processare
+                    processing_today_events = True
+                else:
+                    # Abbiamo trovato un altro giorno, smettiamo di processare
+                    processing_today_events = False
+                continue
+    
+            # Processiamo la riga solo se siamo nella sezione del giorno giusto (o se è weekend)
+            if not processing_today_events:
+                continue
+    
+            # Da qui in poi, la logica è la stessa, ma viene eseguita solo sulle righe corrette
+            if '|' not in line:
+                continue
+    
+            parts = line.split('|')
+            if len(parts) != 2:
+                continue
+    
+            event_info = parts[0].strip()
+            page_url = parts[1].strip()
+    
+            is_italian_event = any(f"/{channel}.php" in page_url for channel in italian_channels)
+    
+            if is_italian_event:
+                print(f"\n[EVENTO] Trovato evento italiano: '{event_info}'")
+                
+                # Riformattiamo il nome dell'evento per mettere l'orario alla fine
+                event_parts = event_info.split(maxsplit=1)
+                if len(event_parts) == 2:
+                    time_str, name_only = event_parts
+                    # Esempio: "Parma x Torino 17:30"
+                    event_name = f"{name_only.strip()} {time_str.strip()}"
+                else:
+                    event_name = event_info # Fallback se il formato non è quello previsto
+    
+                # Andiamo a prendere il link .m3u8 dalla pagina dell'evento
+                stream_info = get_m3u8_from_url(page_url, driver)
+    
+                if stream_info:
+                    # Se abbiamo trovato il link, lo aggiungiamo alla nostra lista per la playlist
+                    playlist_entries.append({
+                        "name": event_name,
+                        "stream_info": stream_info
+                    })
+                
+                # Torniamo al contesto principale della pagina prima di passare al prossimo link
+                # Questo è importante se eravamo entrati in un iframe
+                try:
+                    driver.switch_to.default_content()
+                except NoSuchFrameException:
+                    # Se non eravamo in un frame, Selenium lancia un errore. Lo ignoriamo.
+                    pass
+        # Chiudiamo il browser di Selenium una volta finito
+        print("\nChiusura del browser Selenium.")
+        driver.quit()
+    
+        if not playlist_entries:
+            print("\n[INFO] Nessun evento italiano con link streaming valido trovato oggi.")
+            return
+    
+        # 4. Creazione del file M3U
+        output_filename = "sportsonline.m3u"
+        print(f"\n4. Scrivo la playlist nel file: {output_filename}")
+        with open(output_filename, "w", encoding="utf-8") as f:
+            f.write("#EXTM3U\n")
+            for entry in playlist_entries:
+                info = entry['stream_info']
+                url = info['url']
+                headers = info['headers']
+                
+                f.write(f'#EXTINF:-1 group-title="Eventi Live sportsonline",{entry["name"]}\n')
+    
+                # Scriviamo gli header nel formato #EXTVLCOPT per VLC
+                if 'Origin' in headers:
+                    f.write(f"#EXTVLCOPT:http-origin={headers['Origin']}\n")
+                if 'Referer' in headers:
+                    f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+                if 'User-Agent' in headers:
+                    f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
+                
+                f.write(f"{url}\n")
+    
+        print(f"\n[COMPLETATO] Playlist creata con successo! Apri il file '{output_filename}' con un player come VLC.")
+    
+    if __name__ == "__main__":
+        main()
+
+def streamed():
+    import requests
+    from bs4 import BeautifulSoup
+    # Usiamo la versione di undetected_chromedriver fornita da selenium-wire
+    from seleniumwire import undetected_chromedriver as uc
+    from selenium.common.exceptions import TimeoutException
+    from selenium.webdriver.common.by import By
+    from selenium.webdriver.chrome.service import Service
+    from selenium.webdriver.support.ui import WebDriverWait
+    from selenium.webdriver.support import expected_conditions as EC
+    from urllib.parse import urljoin
+    import time
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    import threading
+    
+    # --- CONFIGURAZIONE ---
+    BASE_URL = "https://streamed.pk/"
+    
+    # Aggiungi o rimuovi categorie secondo le tue preferenze
+    CATEGORIES_TO_SCRAPE = [
+        "football",
+        "basketball",
+        "american-football",
+        "hockey",
+        "baseball",
+        "motor-sports",
+        "fight",
+        "tennis",
+        "rugby"
+    ]
+    
+    OUTPUT_FILENAME = "streamed.m3u"
+    # Numero di eventi da processare in parallelo. Aumentalo se hai un buon PC.
+    MAX_WORKERS = 4
+    
+    # Lock per sincronizzare la creazione del driver ed evitare race condition
+    driver_creation_lock = threading.Lock()
+    
+    def get_events_from_category(category_url, driver):
+        """
+        Estrae gli eventi di "TODAY" da una pagina di categoria.
+        """
+        print(f"\n[INFO] Scansione categoria: {category_url}")
+        driver.get(category_url)
+        time.sleep(3) # Attesa per il rendering della pagina
+    
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        
+        today_events = []
+        
+        # Trova l'intestazione "TODAY"
+        today_header = soup.find(lambda tag: tag.name == 'span' and 'TODAY' in tag.get_text())
+        if not today_header:
+            print("  [INFO] Nessuna sezione 'TODAY' trovata in questa categoria.")
+            return []
+    
+        # La sezione degli eventi è un parente prossimo dell'header
+        events_container = today_header.find_parent('div').find_next_sibling('div')
+        if not events_container:
+            print("  [ATTENZIONE] Trovato header 'TODAY' ma non il contenitore degli eventi.")
+            return []
+    
+        event_links = events_container.find_all('a', href=True)
+        print(f"  [INFO] Trovati {len(event_links)} eventi nella sezione 'TODAY'.")
+    
+        for link in event_links:
+            event_url = urljoin(BASE_URL, link['href'])
+            title_tag = link.find('h1')
+            title = title_tag['title'] if title_tag and title_tag.has_attr('title') else "Titolo non disponibile"
+            
+            # Cerca l'orario o la scritta "LIVE". La ricerca è più flessibile ora.
+            time_tag = link.find('span', class_=re.compile(r'bg-primary|bg-border'))
+            if not time_tag: # Fallback se la classe non corrisponde
+                time_tag = link.find('span', string=re.compile(r'\d{1,2}:\d{2}\s*(?:AM|PM)|LIVE', re.IGNORECASE))
+            event_time = time_tag.get_text(strip=True) if time_tag else ""
+            
+            logo_tag = link.find('img')
+            logo_url = urljoin(BASE_URL, logo_tag['src']) if logo_tag and logo_tag.has_attr('src') else ""
+    
+            today_events.append({
+                'title': title,
+                'time': event_time,
+                'url': event_url,
+                'logo': logo_url
+            })
+            
+        return today_events
+    
+    def get_stream_from_event(event_url, driver):
+        """
+        Visita la pagina di un evento, poi la pagina del player, e cattura il link .m3u8.
+        """
+        print(f"  -> Analizzando l'evento: {event_url}")
+        try:
+            # 1. Vai alla pagina dell'evento per trovare i link ai player
+            driver.get(event_url)
+            time.sleep(2)
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+    
+            # --- NUOVA LOGICA: Crea una lista di player da provare in ordine di priorità ---
+            all_player_links = soup.find_all('a', href=re.compile(r'/watch/.+/.+/\d+'))
+            
+            italian_players = []
+            other_players = []
+    
+            for link in all_player_links:
+                if re.search(r'italia|italian', link.get_text(), re.IGNORECASE):
+                    italian_players.append(link)
+                else:
+                    other_players.append(link)
+            
+            # Lista ordinata: prima i player italiani, poi gli altri
+            sorted_player_links = italian_players + other_players
+    
+            if not sorted_player_links:
+                print("    [ATTENZIONE] Nessun link a un player trovato in questa pagina.")
+                return None
+    
+            # --- Prova ogni player nella lista fino a trovarne uno funzionante ---
+            for i, player_link in enumerate(sorted_player_links):
+                player_page_url = urljoin(BASE_URL, player_link['href'])
+                print(f"\n    -> Tento player {i+1}/{len(sorted_player_links)}: {player_page_url}")
+    
+                try:
+                    # 2. Vai alla pagina del player per trovare l'iframe del player effettivo
+                    # Controlliamo se il player che stiamo provando è italiano
+                    is_italian_player = player_link in italian_players
+    
+                    driver.get(player_page_url)
+                    time.sleep(2)
+                    soup = BeautifulSoup(driver.page_source, 'html.parser')
+                    
+                    iframe = soup.find('iframe')
+                    if not iframe or not iframe.has_attr('src'):
+                        print("      [ATTENZIONE] Nessun iframe trovato in questo player. Provo il prossimo.")
+                        continue
+                        
+                    embed_url = iframe['src']
+                    print(f"      -> Trovato iframe player: {embed_url}")
+    
+                    # 3. Vai alla pagina dell'iframe e intercetta la richiesta di rete
+                    del driver.requests
+                    driver.get(embed_url)
+                    
+                    # 4. Ora attendi la richiesta di rete
+                    request = driver.wait_for_request(r'\.m3u8', timeout=15)
+                    stream_info = {
+                        'url': request.url,
+                        'headers': request.headers,
+                        'is_italian': is_italian_player
+                    }
+                    print(f"      [OK] Trovato link M3U8: {stream_info['url']}")
+                    return stream_info # Trovato! Esci dalla funzione con il risultato.
+    
+                except TimeoutException:
+                    print("      [ERRORE] Timeout per questo player. Provo il prossimo.")
+                    continue # Passa al prossimo player nel ciclo
+    
+        except TimeoutException:
+            print("    [ERRORE] Timeout: Nessuna richiesta .m3u8 intercettata.")
+            return None
+        except Exception as e:
+            print(f"    [ERRORE] Eccezione non gestita: {e}")
+            return None
+        
+        # Se il ciclo finisce senza aver trovato un link funzionante
+        print("    [FALLIMENTO] Nessun player funzionante trovato per questo evento.")
+        return None
+    
+    def create_driver():
+        """Crea e restituisce un'istanza del driver Chrome."""
+        # Usa un lock per assicurarsi che solo un thread alla volta crei un'istanza del driver,
+        # prevenendo conflitti di file con undetected_chromedriver.
+        with driver_creation_lock:
+            options = uc.ChromeOptions()
+            # options.add_argument("--headless") # Headless può essere rilevato, disabilitalo se ci sono problemi
+            options.add_argument("--log-level=3")
+            options.add_argument('--ignore-certificate-errors')
+            return uc.Chrome(options=options)
+    
+    def process_event(event):
+        """
+        Funzione eseguita da ogni thread. Crea un driver, ottiene lo stream e chiude il driver.
+        """
+        driver = None
+        try:
+            driver = create_driver()
+            stream_info = get_stream_from_event(event['url'], driver)
+            if stream_info:
+                return {
+                    "title": event['title'],
+                    "time": event['time'],
+                    "logo": event['logo'],
+                    "category": event.get('category'),
+                    "stream_info": stream_info
+                }
+        except Exception as e:
+            print(f"[ERRORE THREAD] Errore durante il processamento di {event['name']}: {e}")
+        finally:
+            if driver:
+                try:
+                    driver.quit()
+                except OSError:
+                    pass # Ignora l'errore "Handle non valido" su Windows durante la chiusura
+        return None
+    
+    def get_events_from_category_worker(category_url):
+        """
+        Funzione eseguita da un thread per raccogliere eventi da una singola categoria.
+        """
+        driver = None
+        try:
+            driver = create_driver()
+            category_name = category_url.split('/')[-1].replace('-', ' ').title()
+            events = get_events_from_category(category_url, driver)
+            # Aggiungiamo la categoria a ogni evento trovato
+            for event in events:
+                event['category'] = category_name
+            return events
+        except Exception as e:
+            print(f"[ERRORE THREAD] Errore durante la scansione della categoria {category_url}: {e}")
+            return []
+        finally:
+            if driver:
+                try:
+                    driver.quit()
+                except OSError:
+                    pass # Ignora l'errore "Handle non valido" su Windows durante la chiusura
+    
+    def main():
+        """
+        Funzione principale che orchestra il processo di scraping.
+        """
+        print("--- Inizio Estrazione da Streamed.pk ---")
+    
+        # --- 1. Raccolta di tutti gli eventi (in parallelo) ---
+        print(f"\n[FASE 1] Raccolta eventi dalle categorie con {MAX_WORKERS} workers...")
+        all_events = []
+        category_urls = [urljoin(BASE_URL, f"category/{category}") for category in CATEGORIES_TO_SCRAPE]
+    
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            future_to_category = {executor.submit(get_events_from_category_worker, url): url for url in category_urls}
+            for future in as_completed(future_to_category):
+                events_in_category = future.result()
+                if events_in_category:
+                    all_events.extend(events_in_category)
+    
+        if not all_events:
+            print("\n[INFO] Nessun evento trovato oggi. Termino.")
+            return
+    
+        print(f"\n[FASE 2] Trovati {len(all_events)} eventi totali. Inizio estrazione parallela con {MAX_WORKERS} workers...")
+        all_playlist_entries = []
+        
+        # --- 2. Processamento degli eventi (parallelo) ---
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            # Crea un futuro per ogni evento
+            future_to_event = {executor.submit(process_event, event): event for event in all_events}
+            
+            for future in as_completed(future_to_event):
+                result = future.result()
+                if result:
+                    all_playlist_entries.append(result)
+    
+        print("\n--- Estrazione Parallela Completata ---")
+    
+        if not all_playlist_entries:
+            print("\n[INFO] Nessuno streaming trovato oggi.")
+            return
+    
+        # --- 3. Creazione del file M3U ---
+        print(f"\n[FASE 3] Scrivo {len(all_playlist_entries)} eventi validi nel file: {OUTPUT_FILENAME}")
+        with open(OUTPUT_FILENAME, "w", encoding="utf-8") as f:
+            f.write("#EXTM3U\n")
+            for entry in all_playlist_entries:
+                info = entry['stream_info']
+                url = info['url']
+                headers = info['headers']
+                
+                # Formattazione del nome come: [Categoria] | [Nome Evento] [Orario]
+                category = entry.get('category', 'Sport') # Fallback a 'Sport'
+                title = entry.get('title', 'Evento')
+                time_str = entry.get('time', '')
+                
+                full_name = f"{category} | {title} | {time_str}"
+                if info.get('is_italian'):
+                    full_name += " | ITA"
+    
+                # Rimuovi spazi extra e pipe alla fine se l'orario è vuoto
+                full_name = ' | '.join(part.strip() for part in full_name.split('|') if part.strip())
+                f.write(f'#EXTINF:-1 tvg-logo="{entry["logo"]}" group-title="Eventi Live streamed",{full_name}\n')
+    
+                if 'Origin' in headers:
+                    f.write(f"#EXTVLCOPT:http-origin={headers['Origin']}\n")
+                if 'Referer' in headers:
+                    f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+                if 'User-Agent' in headers:
+                    f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
+                
+                f.write(f"{url}\n")
+    
+        print(f"\n[COMPLETATO] Playlist creata con successo! Apri il file '{OUTPUT_FILENAME}' con un player come VLC.")
+    
+    if __name__ == "__main__":
+        import re
+        main()
+
 def removerworld():
     import os
     
@@ -3307,7 +3874,19 @@ def main():
         except Exception as e:
             print(f"Errore durante l'esecuzione di italy_channels: {e}")
             return
+            
+        try:
+            sportsonline()
+        except Exception as e:
+            print(f"Errore durante l'esecuzione di sportsonline: {e}")
+            return
 
+        try:
+            streamed()
+        except Exception as e:
+            print(f"Errore durante l'esecuzione di streamed: {e}")
+            return
+        
         # Canali World e Merge finale
         try:
             if world_flag == "si":
