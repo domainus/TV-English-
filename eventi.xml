@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="ItalySerieBSampdoriavsCatanzaro">
+    <display-name>Italy - Serie B : Sampdoria vs Catanzaro</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930170000 +0200" channel="ItalySerieBSampdoriavsCatanzaro">
+    <title lang="it">Inizia alle 17:00.</title>
+    <desc lang="it">Italy - Serie B : Sampdoria vs Catanzaro.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930170000 +0200" stop="20250930190000 +0200" channel="ItalySerieBSampdoriavsCatanzaro">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie B : Sampdoria vs Catanzaro</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="UEFAChampionsLeagueKairatvsRealMadrid">
+    <display-name>UEFA Champions League : Kairat vs Real Madrid</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930184500 +0200" channel="UEFAChampionsLeagueKairatvsRealMadrid">
+    <title lang="it">Inizia alle 18:45.</title>
+    <desc lang="it">UEFA Champions League : Kairat vs Real Madrid.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930184500 +0200" stop="20250930204500 +0200" channel="UEFAChampionsLeagueKairatvsRealMadrid">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UEFA Champions League : Kairat vs Real Madrid</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <programme start="20250930000000 +0200" stop="20250930184500 +0200" channel="UEFAChampionsLeagueKairatvsRealMadrid">
+    <title lang="it">Inizia alle 18:45.</title>
+    <desc lang="it">UEFA Champions League : Kairat vs Real Madrid.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930184500 +0200" stop="20250930204500 +0200" channel="UEFAChampionsLeagueKairatvsRealMadrid">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UEFA Champions League : Kairat vs Real Madrid</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="UEFAChampionsLeagueAtalantavsClubBrugge">
+    <display-name>UEFA Champions League : Atalanta vs Club Brugge</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930184500 +0200" channel="UEFAChampionsLeagueAtalantavsClubBrugge">
+    <title lang="it">Inizia alle 18:45.</title>
+    <desc lang="it">UEFA Champions League : Atalanta vs Club Brugge.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930184500 +0200" stop="20250930204500 +0200" channel="UEFAChampionsLeagueAtalantavsClubBrugge">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UEFA Champions League : Atalanta vs Club Brugge</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="ItalySerieBFrosinonevsCesena">
+    <display-name>Italy - Serie B : Frosinone vs Cesena</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930203000 +0200" channel="ItalySerieBFrosinonevsCesena">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Italy - Serie B : Frosinone vs Cesena.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930203000 +0200" stop="20250930223000 +0200" channel="ItalySerieBFrosinonevsCesena">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie B : Frosinone vs Cesena</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="ItalySerieBVirtusEntellavsBari1908">
+    <display-name>Italy - Serie B : Virtus Entella vs Bari 1908</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930203000 +0200" channel="ItalySerieBVirtusEntellavsBari1908">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Italy - Serie B : Virtus Entella vs Bari 1908.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930203000 +0200" stop="20250930223000 +0200" channel="ItalySerieBVirtusEntellavsBari1908">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie B : Virtus Entella vs Bari 1908</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="ItalySerieBJuveStabiavsMantova">
+    <display-name>Italy - Serie B : Juve Stabia vs Mantova</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930203000 +0200" channel="ItalySerieBJuveStabiavsMantova">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Italy - Serie B : Juve Stabia vs Mantova.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930203000 +0200" stop="20250930223000 +0200" channel="ItalySerieBJuveStabiavsMantova">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie B : Juve Stabia vs Mantova</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="ItalySerieBPalermovsVenezia">
+    <display-name>Italy - Serie B : Palermo vs Venezia</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930203000 +0200" channel="ItalySerieBPalermovsVenezia">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Italy - Serie B : Palermo vs Venezia.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930203000 +0200" stop="20250930223000 +0200" channel="ItalySerieBPalermovsVenezia">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie B : Palermo vs Venezia</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="ItalySerieBReggianavsSpezia">
+    <display-name>Italy - Serie B : Reggiana vs Spezia</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930203000 +0200" channel="ItalySerieBReggianavsSpezia">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Italy - Serie B : Reggiana vs Spezia.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930203000 +0200" stop="20250930223000 +0200" channel="ItalySerieBReggianavsSpezia">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie B : Reggiana vs Spezia</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="ItalySerieBCalcioPadovavsAvellino">
+    <display-name>Italy - Serie B : Calcio Padova vs Avellino</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930203000 +0200" channel="ItalySerieBCalcioPadovavsAvellino">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Italy - Serie B : Calcio Padova vs Avellino.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930203000 +0200" stop="20250930223000 +0200" channel="ItalySerieBCalcioPadovavsAvellino">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie B : Calcio Padova vs Avellino</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="UEFAChampionsLeagueInternazionalevsSlaviaPraha">
+    <display-name>UEFA Champions League : Internazionale vs Slavia Praha</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930210000 +0200" channel="UEFAChampionsLeagueInternazionalevsSlaviaPraha">
+    <title lang="it">Inizia alle 21:00.</title>
+    <desc lang="it">UEFA Champions League : Internazionale vs Slavia Praha.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930210000 +0200" stop="20250930230000 +0200" channel="UEFAChampionsLeagueInternazionalevsSlaviaPraha">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UEFA Champions League : Internazionale vs Slavia Praha</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="UEFAChampionsLeagueGalatasarayvsLiverpool">
+    <display-name>UEFA Champions League : Galatasaray vs Liverpool</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930210000 +0200" channel="UEFAChampionsLeagueGalatasarayvsLiverpool">
+    <title lang="it">Inizia alle 21:00.</title>
+    <desc lang="it">UEFA Champions League : Galatasaray vs Liverpool.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930210000 +0200" stop="20250930230000 +0200" channel="UEFAChampionsLeagueGalatasarayvsLiverpool">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UEFA Champions League : Galatasaray vs Liverpool</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="UEFAChampionsLeagueBodGlimtvsTottenhamHotspur">
+    <display-name>UEFA Champions League : Bodø / Glimt vs Tottenham Hotspur</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930210000 +0200" channel="UEFAChampionsLeagueBodGlimtvsTottenhamHotspur">
+    <title lang="it">Inizia alle 21:00.</title>
+    <desc lang="it">UEFA Champions League : Bodø / Glimt vs Tottenham Hotspur.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930210000 +0200" stop="20250930230000 +0200" channel="UEFAChampionsLeagueBodGlimtvsTottenhamHotspur">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UEFA Champions League : Bodø / Glimt vs Tottenham Hotspur</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="UEFAChampionsLeagueChelseavsBenfica">
+    <display-name>UEFA Champions League : Chelsea vs Benfica</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930210000 +0200" channel="UEFAChampionsLeagueChelseavsBenfica">
+    <title lang="it">Inizia alle 21:00.</title>
+    <desc lang="it">UEFA Champions League : Chelsea vs Benfica.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930210000 +0200" stop="20250930230000 +0200" channel="UEFAChampionsLeagueChelseavsBenfica">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UEFA Champions League : Chelsea vs Benfica</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="UEFAChampionsLeagueOlympiqueMarseillevsAjax">
+    <display-name>UEFA Champions League : Olympique Marseille vs Ajax</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930210000 +0200" channel="UEFAChampionsLeagueOlympiqueMarseillevsAjax">
+    <title lang="it">Inizia alle 21:00.</title>
+    <desc lang="it">UEFA Champions League : Olympique Marseille vs Ajax.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930210000 +0200" stop="20250930230000 +0200" channel="UEFAChampionsLeagueOlympiqueMarseillevsAjax">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UEFA Champions League : Olympique Marseille vs Ajax</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="UEFAChampionsLeagueAtlticoMadridvsEintrachtFrankfurt">
+    <display-name>UEFA Champions League : Atlético Madrid vs Eintracht Frankfurt</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930210000 +0200" channel="UEFAChampionsLeagueAtlticoMadridvsEintrachtFrankfurt">
+    <title lang="it">Inizia alle 21:00.</title>
+    <desc lang="it">UEFA Champions League : Atlético Madrid vs Eintracht Frankfurt.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930210000 +0200" stop="20250930230000 +0200" channel="UEFAChampionsLeagueAtlticoMadridvsEintrachtFrankfurt">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UEFA Champions League : Atlético Madrid vs Eintracht Frankfurt</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="TokyoATPampBeijingWTA">
+    <display-name>Tokyo-ATP &amp; Beijing-WTA</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930130000 +0200" channel="TokyoATPampBeijingWTA">
+    <title lang="it">Inizia alle 13:00.</title>
+    <desc lang="it">Tokyo-ATP &amp; Beijing-WTA.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930130000 +0200" stop="20250930150000 +0200" channel="TokyoATPampBeijingWTA">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Tokyo-ATP &amp; Beijing-WTA</desc>
+    <category lang="it">Tennis</category>
+  </programme>
+  <channel id="WorldRallyChampionship2025Cile">
+    <display-name>World Rally Championship 2025-Cile</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930163500 +0200" channel="WorldRallyChampionship2025Cile">
+    <title lang="it">Inizia alle 16:35.</title>
+    <desc lang="it">World Rally Championship 2025-Cile.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930163500 +0200" stop="20250930183500 +0200" channel="WorldRallyChampionship2025Cile">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">World Rally Championship 2025-Cile</desc>
+    <category lang="it">Motorsport</category>
+  </programme>
+  <channel id="FIMSpeedwayofNationsSemiFinal1Torun">
+    <display-name>FIM Speedway of Nations Semi-Final 1 | Torun</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930184500 +0200" channel="FIMSpeedwayofNationsSemiFinal1Torun">
+    <title lang="it">Inizia alle 18:45.</title>
+    <desc lang="it">FIM Speedway of Nations Semi-Final 1 | Torun.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930184500 +0200" stop="20250930204500 +0200" channel="FIMSpeedwayofNationsSemiFinal1Torun">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">FIM Speedway of Nations Semi-Final 1 | Torun</desc>
+    <category lang="it">Motorsport</category>
+  </programme>
+  <channel id="TourofLangkawiStage3MenGerikPasirPuteh1982km">
+    <display-name>Tour of Langkawi | Stage 3 Men | Gerik – Pasir Puteh (198.2km)</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930084500 +0200" channel="TourofLangkawiStage3MenGerikPasirPuteh1982km">
+    <title lang="it">Inizia alle 08:45.</title>
+    <desc lang="it">Tour of Langkawi | Stage 3 Men | Gerik – Pasir Puteh (198.2km).</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930084500 +0200" stop="20250930104500 +0200" channel="TourofLangkawiStage3MenGerikPasirPuteh1982km">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Tour of Langkawi | Stage 3 Men | Gerik – Pasir Puteh (198.2km)</desc>
+    <category lang="it">Cycling</category>
+  </programme>
+  <channel id="CroRaceStage1MenSplitSinj1625km">
+    <display-name>Cro Race | Stage 1 Men | Split – Sinj (162.5km)</display-name>
+  </channel>
+  <programme start="20250930000000 +0200" stop="20250930140000 +0200" channel="CroRaceStage1MenSplitSinj1625km">
+    <title lang="it">Inizia alle 14:00.</title>
+    <desc lang="it">Cro Race | Stage 1 Men | Split – Sinj (162.5km).</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20250930140000 +0200" stop="20250930160000 +0200" channel="CroRaceStage1MenSplitSinj1625km">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Cro Race | Stage 1 Men | Split – Sinj (162.5km)</desc>
+    <category lang="it">Cycling</category>
+  </programme>
+</tv>
