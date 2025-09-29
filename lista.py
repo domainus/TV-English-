@@ -3495,7 +3495,7 @@ def streamed():
     
     OUTPUT_FILENAME = "streamed.m3u"
     # Numero di eventi da processare in parallelo. Aumentalo se hai un buon PC.
-    MAX_WORKERS = 4
+    MAX_WORKERS = 2
     
     # Lock per sincronizzare la creazione del driver ed evitare race condition
     driver_creation_lock = threading.Lock()
