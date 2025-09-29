@@ -3468,7 +3468,7 @@ def streamed():
     # Usiamo la versione di undetected_chromedriver fornita da selenium-wire
     from seleniumwire import undetected_chromedriver as uc
     from selenium.common.exceptions import TimeoutException
-    from selenium.webdriver.common.by import By
+    from selenium.common.exceptions import WebDriverException
     from selenium.webdriver.chrome.service import Service
     from selenium.webdriver.support.ui import WebDriverWait
     from selenium.webdriver.support import expected_conditions as EC
@@ -3607,7 +3607,7 @@ def streamed():
                     driver.get(embed_url)
                     
                     # 4. Ora attendi la richiesta di rete
-                    request = driver.wait_for_request(r'\.m3u8', timeout=15)
+                    request = driver.wait_for_request(r'\.m3u8', timeout=20) # Aumentato a 20 secondi
                     stream_info = {
                         'url': request.url,
                         'headers': request.headers,
@@ -3622,6 +3622,9 @@ def streamed():
     
         except TimeoutException:
             print("    [ERRORE] Timeout: Nessuna richiesta .m3u8 intercettata.")
+            return None
+        except WebDriverException as e:
+            print(f"    [ERRORE BROWSER] Errore del driver, probabilmente un crash: {e.msg}")
             return None
         except Exception as e:
             print(f"    [ERRORE] Eccezione non gestita: {e}")
@@ -3664,7 +3667,7 @@ def streamed():
                     "stream_info": stream_info
                 }
         except Exception as e:
-            print(f"[ERRORE THREAD] Errore durante il processamento di {event['name']}: {e}")
+            print(f"[ERRORE THREAD] Errore durante il processamento di {event['title']}: {e}")
         finally:
             if driver:
                 try:
@@ -3673,46 +3676,31 @@ def streamed():
                     pass # Ignora l'errore "Handle non valido" su Windows durante la chiusura
         return None
     
-    def get_events_from_category_worker(category_url):
-        """
-        Funzione eseguita da un thread per raccogliere eventi da una singola categoria.
-        """
-        driver = None
-        try:
-            driver = create_driver()
-            category_name = category_url.split('/')[-1].replace('-', ' ').title()
-            events = get_events_from_category(category_url, driver)
-            # Aggiungiamo la categoria a ogni evento trovato
-            for event in events:
-                event['category'] = category_name
-            return events
-        except Exception as e:
-            print(f"[ERRORE THREAD] Errore durante la scansione della categoria {category_url}: {e}")
-            return []
-        finally:
-            if driver:
-                try:
-                    driver.quit()
-                except OSError:
-                    pass # Ignora l'errore "Handle non valido" su Windows durante la chiusura
-    
     def main():
         """
         Funzione principale che orchestra il processo di scraping.
         """
         print("--- Inizio Estrazione da Streamed.pk ---")
     
-        # --- 1. Raccolta di tutti gli eventi (in parallelo) ---
-        print(f"\n[FASE 1] Raccolta eventi dalle categorie con {MAX_WORKERS} workers...")
+        # --- 1. Raccolta di tutti gli eventi (in sequenza per evitare blocchi) ---
+        print(f"\n[FASE 1] Raccolta eventi dalle categorie (in sequenza)...")
         all_events = []
         category_urls = [urljoin(BASE_URL, f"category/{category}") for category in CATEGORIES_TO_SCRAPE]
-    
-        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-            future_to_category = {executor.submit(get_events_from_category_worker, url): url for url in category_urls}
-            for future in as_completed(future_to_category):
-                events_in_category = future.result()
-                if events_in_category:
+        
+        driver = create_driver() # Creiamo un solo driver per questa fase
+        try:
+            for url in category_urls:
+                try:
+                    category_name = url.split('/')[-1].replace('-', ' ').title()
+                    events_in_category = get_events_from_category(url, driver)
+                    for event in events_in_category:
+                        event['category'] = category_name
                     all_events.extend(events_in_category)
+                except Exception as e:
+                    print(f"[ERRORE] Impossibile scansionare la categoria {url}: {e}")
+        finally:
+            if driver:
+                driver.quit()
     
         if not all_events:
             print("\n[INFO] Nessun evento trovato oggi. Termino.")
