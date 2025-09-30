@@ -28,6 +28,7 @@ def merger_playlist():
     # Percorsi o URL delle playlist M3U8
     url1 = "channels_italy.m3u8"  # File locale
     url2 = "eventi.m3u8"
+    url3 = "sportsonline.m3u"
     url6 = "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/main/PlutoItaly.m3u"
     
     # Funzione per scaricare o leggere una playlist
@@ -53,6 +54,7 @@ def merger_playlist():
     
     # Scarica/leggi le playlist
     playlist1 = download_playlist(url1) # channels_italy.m3u8
+    playlist3 = download_playlist(url3)
     
     canali_daddy_flag = os.getenv("CANALI_DADDY", "no").strip().lower()
     if canali_daddy_flag == "si":
@@ -64,7 +66,7 @@ def merger_playlist():
     playlist6 = download_playlist(url6)
     
     # Unisci le playlist
-    lista = playlist1 + "\n" + playlist2 + "\n" + playlist6
+    lista = playlist1 + "\n" + playlist2 + "\n" + playlist3 + "\n" + playlist6
     
     # Aggiungi intestazione EPG
     lista = f'#EXTM3U url-tvg="https://raw.githubusercontent.com/{NOMEGITHUB}/{NOMEREPO}/refs/heads/main/epg.xml"\n' + lista
@@ -95,7 +97,8 @@ def merger_playlistworld():
     
     # Percorsi o URL delle playlist M3U8
     url1 = "channels_italy.m3u8"  
-    url2 = "eventi.m3u8"   
+    url2 = "eventi.m3u8"
+    url2 = "sportsonline.m3u"
     url5 = "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/main/PlutoItaly.m3u"      
     url6 = "world.m3u8"
     
@@ -122,6 +125,7 @@ def merger_playlistworld():
     
     # Scarica/leggi le playlist
     playlist1 = download_playlist(url1) # channels_italy.m3u8
+    playlist1 = download_playlist(url3)
     
     canali_daddy_flag = os.getenv("CANALI_DADDY", "no").strip().lower()
     if canali_daddy_flag == "si":
@@ -133,7 +137,7 @@ def merger_playlistworld():
     playlist5 = download_playlist(url5)
     playlist6 = download_playlist(url6, exclude_group_title="Italy")
     # Unisci le playlist
-    lista = playlist1 + "\n" + playlist2 + "\n" + playlist5 + "\n" + playlist6
+    lista = playlist1 + "\n" + playlist2  + "\n" + playlist3 + "\n" + playlist5 + "\n" + playlist6
     
     # Aggiungi intestazione EPG
     lista = f'#EXTM3U url-tvg="https://raw.githubusercontent.com/{NOMEGITHUB}/{NOMEREPO}/refs/heads/main/epg.xml"\n' + lista
@@ -3468,7 +3472,7 @@ def removerworld():
     canali_daddy_flag = os.getenv("CANALI_DADDY", "no").strip().lower()
     
     # Lista dei file da eliminare
-    files_to_delete = ["world.m3u8", "channels_italy.m3u8"]
+    files_to_delete = ["world.m3u8", "channels_italy.m3u8", "sportsonline.m3u"]
     
     # Condizionalmente aggiungi eventi.m3u8 e eventi.xml alla lista di eliminazione
     if canali_daddy_flag == "si":
@@ -3493,7 +3497,7 @@ def remover():
     canali_daddy_flag = os.getenv("CANALI_DADDY", "no").strip().lower()
 
     # Lista dei file da eliminare
-    files_to_delete = ["channels_italy.m3u8"]
+    files_to_delete = ["channels_italy.m3u8", "sportsonline.m3u"]
 
     # Condizionalmente aggiungi eventi.m3u8 alla lista di eliminazione
     if canali_daddy_flag == "si":
