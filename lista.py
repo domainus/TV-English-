@@ -3404,9 +3404,18 @@ def sportsonline():
                 # Riformattiamo il nome dell'evento per mettere l'orario alla fine
                 event_parts = event_info.split(maxsplit=1)
                 if len(event_parts) == 2:
-                    time_str, name_only = event_parts
-                    # Esempio: "Parma x Torino 17:30"
-                    event_name = f"{name_only.strip()} {time_str.strip()}"
+                    time_str_original, name_only = event_parts
+                    
+                    # --- Aggiungi 1 ora all'orario ---
+                    try:
+                        # Converte la stringa dell'orario in un oggetto datetime
+                        original_time = datetime.datetime.strptime(time_str_original.strip(), '%H:%M')
+                        # Aggiunge un'ora
+                        new_time = original_time + datetime.timedelta(hours=1)
+                        time_str = new_time.strftime('%H:%M')
+                    except ValueError:
+                        time_str = time_str_original.strip() # Usa l'orario originale se il formato non è valido
+                    event_name = f"{name_only.strip()} {time_str}"
                 else:
                     event_name = event_info # Fallback se il formato non è quello previsto
     
