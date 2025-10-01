@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-TMDB M3U Playlist Generator 
+TMDB M3U Playlist Generator
 Fetches movies from TMDB API and creates an M3U playlist with vixsrc.to links
 """
 
@@ -12,10 +12,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 import json
 import hashlib
-import re
-from bs4 import BeautifulSoup, SoupStrainer
-from tqdm import tqdm
-
 
 # Load environment variables
 load_dotenv()
@@ -210,7 +206,7 @@ class TMDBM3UGenerator:
                 display_title = f"{title} ({year})"
                 
                 # Write M3U entry with all metadata
-                f.write(f'#EXTINF:-1 tvg-logo="{tvg_logo}" group-title="Film - {primary_genre}",{display_title}\n')
+                f.write(f'#EXTINF:-1 type="movie" tvg-logo="{tvg_logo}" group-title="Film - {primary_genre}",{display_title}\n')
                 f.write(f"{movie_url}\n")
         
         print(f"Playlist generated successfully: {output_file}")
@@ -252,19 +248,15 @@ class TMDBM3UGenerator:
         # Count total movies that will be added
         total_movies = len(movies_data)
         
-        # 1. Build all playlist parts in memory
-        playlist_parts = []
-        playlist_parts.append("#EXTM3U\n")
-        playlist_parts.append(f"#PLAYLIST:Film VixSrc ({total_movies} Film)\n")
-        
-        # 2. Organize movies and get all entry strings
-        movie_entries = self._organize_and_get_movie_entries(movies_data, genres)
-        playlist_parts.extend(movie_entries)
-        
-        # 3. Write the complete playlist to the file at once
         with open("film.m3u", 'w', encoding='utf-8') as f:
-            f.write("".join(playlist_parts))
+            # Write M3U header with movie count
+            f.write("#EXTM3U\n")
+            f.write(f"#PLAYLIST:Film VixSrc ({total_movies} Film)\n\n")
+            
+            # Organize movies by categories
+            self._organize_and_write_movies(f, movies_data, genres)
         
+        # Save cache after completion
         self._save_cache()
         print(f"\nComplete playlist generated successfully: film.m3u")
         print(f"Cache updated with {len(self.cache)} total movies")
@@ -307,9 +299,7 @@ class TMDBM3UGenerator:
                     if completed % 100 == 0:
                         print(f"   Completed {completed}/{len(to_fetch)} TMDB requests...")
                 except Exception as e:
-                    # Sanitize the error message to remove the API key
-                    error_message = str(e).replace(self.api_key, '***')
-                    print(f"   Error fetching movie {tmdb_id}: {error_message}")
+                    print(f"   Error fetching movie {tmdb_id}: {e}")
         
         print(f"Successfully loaded {len(movies_data)} movie details (cache+TMDB)")
         return movies_data
@@ -337,15 +327,11 @@ class TMDBM3UGenerator:
                 'genre_ids': [genre['id'] for genre in movie_data.get('genres', [])]
             }
         except Exception as e:
-            # Sanitize the error message to remove the API key
-            error_message = str(e).replace(self.api_key, '***')
-            print(f"      Error fetching movie {tmdb_id}: {error_message}")
+            print(f"      Error fetching movie {tmdb_id}: {e}")
             return None
     
-    def _organize_and_get_movie_entries(self, movies_data, genres):
-        """Organize movies by categories and return a list of M3U entry strings."""
-        all_entries = []
-
+    def _organize_and_write_movies(self, file, movies_data, genres):
+        """Organize movies by categories and write to file"""
         # Get real category data from TMDB
         print("Fetching real category data from TMDB...")
         
@@ -357,9 +343,7 @@ class TMDBM3UGenerator:
                 for movie in popular_data['results']:
                     popular_ids.add(str(movie['id']))
             except Exception as e:
-                # Sanitize the error message to remove the API key
-                error_message = str(e).replace(self.api_key, '***')
-                print(f"Error fetching popular movies page {page}: {error_message}")
+                print(f"Error fetching popular movies page {page}: {e}")
         
         # Get now playing movies (real data)
         cinema_ids = set()
@@ -369,9 +353,7 @@ class TMDBM3UGenerator:
                 for movie in cinema_data['results']:
                     cinema_ids.add(str(movie['id']))
             except Exception as e:
-                # Sanitize the error message to remove the API key
-                error_message = str(e).replace(self.api_key, '***')
-                print(f"Error fetching cinema movies page {page}: {error_message}")
+                print(f"Error fetching cinema movies page {page}: {e}")
         
         # Get top rated movies (real data)
         latest_ids = set()
@@ -381,9 +363,7 @@ class TMDBM3UGenerator:
                 for movie in latest_data['results']:
                     latest_ids.add(str(movie['id']))
             except Exception as e:
-                # Sanitize the error message to remove the API key
-                error_message = str(e).replace(self.api_key, '***')
-                print(f"Error fetching top rated movies page {page}: {error_message}")
+                print(f"Error fetching top rated movies page {page}: {e}")
         
         # Group movies by real categories
         cinema_movies = []
@@ -412,30 +392,48 @@ class TMDBM3UGenerator:
         # Write sections
         # 1. Film Al Cinema (limit 50)
         print("\n1. Adding 'Film Al Cinema' section...")
-        all_entries.extend(self._fetch_section_entries_parallel(cinema_movies[:50], genres, "Al Cinema"))
+        file.write("# Al Cinema\n")
+        added_count = 0
+        for movie in cinema_movies[:50]:
+            if self._write_movie_entry(file, movie, genres, "Al Cinema"):
+                added_count += 1
+        print(f"   Added {added_count} movies to Al Cinema")
         
         # 2. Popolari (limit 50)
         print("\n2. Adding 'Popolari' section...")
-        all_entries.extend(self._fetch_section_entries_parallel(popular_movies[:50], genres, "Popolari"))
+        file.write("\n# Popolari\n")
+        added_count = 0
+        for movie in popular_movies[:50]:
+            if self._write_movie_entry(file, movie, genres, "Popolari"):
+                added_count += 1
+        print(f"   Added {added_count} movies to Popolari")
         
         # 3. Più Votati (limit 50)
         print("\n3. Adding 'Più Votati' section...")
-        all_entries.extend(self._fetch_section_entries_parallel(latest_movies[:50], genres, "Più Votati"))
+        file.write("\n# Più Votati\n")
+        added_count = 0
+        for movie in latest_movies[:50]:
+            if self._write_movie_entry(file, movie, genres, "Più Votati"):
+                added_count += 1
+        print(f"   Added {added_count} movies to Più Votati")
         
         # 4. Genres
         print("\n4. Adding genre-specific sections...")
         for genre_name, movies in genre_movies.items():
             if movies:  # Only add genres that have movies
+                print(f"   Adding '{genre_name}' section ({len(movies)} movies)...")
+                file.write(f"\n# {genre_name}\n")
                 # Ordina i film dal più nuovo al più vecchio
                 movies_sorted = sorted(
                     movies,
                     key=lambda m: m.get('release_date', ''),
                     reverse=True
                 )
-                
-                all_entries.extend(self._fetch_section_entries_parallel(movies_sorted, genres, genre_name))
-        
-        return all_entries
+                added_count = 0
+                for movie in movies_sorted:
+                    if self._write_movie_entry(file, movie, genres, genre_name):
+                        added_count += 1
+                print(f"      Added {added_count} movies to {genre_name}")
     
     def _create_playlist_from_cache(self, file, genres):
         """Create playlist using only cached movies"""
@@ -478,7 +476,7 @@ class TMDBM3UGenerator:
         file.write("# Al Cinema\n")
         added_count = 0
         for movie in cinema_movies[:50]:
-            if self._get_movie_entry_string(movie, genres, "Al Cinema"):
+            if self._write_movie_entry(file, movie, genres, "Al Cinema"):
                 added_count += 1
         print(f"   Added {added_count} movies to Al Cinema")
         
@@ -487,7 +485,7 @@ class TMDBM3UGenerator:
         file.write("\n# Popolari\n")
         added_count = 0
         for movie in popular_movies[:50]:
-            if self._get_movie_entry_string(movie, genres, "Popolari"):
+            if self._write_movie_entry(file, movie, genres, "Popolari"):
                 added_count += 1
         print(f"   Added {added_count} movies to Popolari")
         
@@ -496,7 +494,7 @@ class TMDBM3UGenerator:
         file.write("\n# Più Votati\n")
         added_count = 0
         for movie in latest_movies[:50]:
-            if self._get_movie_entry_string(movie, genres, "Più Votati"):
+            if self._write_movie_entry(file, movie, genres, "Più Votati"):
                 added_count += 1
         print(f"   Added {added_count} movies to Più Votati")
         
@@ -514,7 +512,7 @@ class TMDBM3UGenerator:
                 )
                 added_count = 0
                 for movie in movies_sorted:
-                    if self._get_movie_entry_string(movie, genres, genre_name):
+                    if self._write_movie_entry(file, movie, genres, genre_name):
                         added_count += 1
                 print(f"      Added {added_count} movies to {genre_name}")
     
@@ -677,48 +675,13 @@ class TMDBM3UGenerator:
         
         return data['results']
     
-    def _get_vixsrc_m3u8_url(self, tmdb_id):
-        """Extract direct .m3u8 URL from vixsrc.to page."""
-        movie_page_url = f"{self.vixsrc_base}/{tmdb_id}/?lang=it"
-        try:
-            response = requests.get(movie_page_url, timeout=10)
-            response.raise_for_status()
-
-            # Using SoupStrainer for performance
-            soup = BeautifulSoup(response.text, "lxml", parse_only=SoupStrainer("body"))
-            script_tag = soup.find("body").find("script")
-            if not script_tag:
-                return None
-
-            script_content = script_tag.string
-            token_match = re.search(r"'token':\s*'(\w+)'", script_content)
-            expires_match = re.search(r"'expires':\s*'(\d+)'", script_content)
-            server_url_match = re.search(r"url:\s*'([^']+)'", script_content)
-
-            if not (token_match and expires_match and server_url_match):
-                return None
-
-            token = token_match.group(1)
-            expires = expires_match.group(1)
-            server_url = server_url_match.group(1)
-
-            if "?b=1" in server_url:
-                final_url = f'{server_url}&token={token}&expires={expires}'
-            else:
-                final_url = f"{server_url}?token={token}&expires={expires}"
-            
-            if "window.canPlayFHD = true" in script_content:
-                final_url += "&h=1"
-            
-            return final_url
-        except Exception as e:
-            # This error is noisy, we can suppress it or log it differently if needed.
-            # The function will return None, and the movie will be skipped.
-            return None
-
-    def _get_movie_entry_string(self, movie, genres, group_title, movie_url):
-        """Generates the M3U entry string for a single movie."""
-        # tmdb_id = movie['id']
+    def _write_movie_entry(self, file, movie, genres, group_title):
+        """Write a single movie entry to the M3U file"""
+        tmdb_id = movie['id']
+        
+        # Check if movie is available on vixsrc.to
+        if not self._is_movie_available_on_vixsrc(tmdb_id):
+            return False  # Skip this movie
         
         title = movie['title']
         year = movie.get('release_date', '')[:4] if movie.get('release_date') else ''
@@ -739,50 +702,16 @@ class TMDBM3UGenerator:
         poster_path = movie.get('poster_path', '')
         tvg_logo = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else ""
         
-        # If we couldn't get the m3u8 url, skip this movie
-        if not movie_url:
-            return None
+        # Create vixsrc.to link
+        movie_url = f"{self.vixsrc_base}/{tmdb_id}/?lang=it"
         
         # Create title with stars and genres
         display_title = f"{title} ({year})"
         
-        # Return M3U entry string
-        return f'#EXTINF:-1 type="movie" tvg-logo="{tvg_logo}" group-title="Film - {group_title}",{display_title}\n{movie_url}\n'
-
-    def _get_vixsrc_m3u8_url_with_movie(self, movie):
-        """Wrapper to fetch URL and return it with the movie data."""
-        tmdb_id = movie['id']
-        url = self._get_vixsrc_m3u8_url(tmdb_id)
-        return movie, url
-
-    def _fetch_section_entries_parallel(self, movies, genres, group_title):
-        """Fetches m3u8 URLs in parallel for a section and returns a list of M3U entry strings."""
-        if not movies:
-            return []
-
-        section_entries = []
-        section_entries.append(f"\n# {group_title}\n")
-        
-        movies_with_urls = []
-        with ThreadPoolExecutor(max_workers=50) as executor:
-            future_to_movie = {executor.submit(self._get_vixsrc_m3u8_url_with_movie, movie): movie for movie in movies}
-            
-            progress_bar = tqdm(as_completed(future_to_movie), total=len(movies), desc=f"   Fetching '{group_title}'", unit=" urls")
-            
-            for future in progress_bar:
-                movie, url = future.result()
-                if url:
-                    movies_with_urls.append((movie, url))
-
-        # Generate M3U strings sequentially
-        added_count = 0
-        for movie, url in movies_with_urls:
-            entry_string = self._get_movie_entry_string(movie, genres, group_title, url)
-            if entry_string:
-                section_entries.append(entry_string)
-                added_count += 1
-        print(f"   Added {added_count} movies to {group_title}")
-        return section_entries
+        # Write M3U entry
+        file.write(f'#EXTINF:-1 tvg-logo="{tvg_logo}" group-title="Film - {group_title}",{display_title}\n')
+        file.write(f"{movie_url}\n\n")
+        return True  # Movie was added
     
 
     
