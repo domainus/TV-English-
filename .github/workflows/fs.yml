@@ -8,7 +8,7 @@ on:
       - 'serie.py'
   schedule:
     - cron: '0 6 * * *'
-  workflow_dispatch:  # Consente l'esecuzione manuale
+  workflow_dispatch:
 
 env:
   PYTHON_VERSION: "3.11"
@@ -17,6 +17,9 @@ jobs:
   generate-playlists:
     name: Generate M3U Playlists
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Necessario per il commit
     
     steps:
     - name: Checkout repository
@@ -46,12 +49,15 @@ jobs:
         echo "📺 Running serie.py..."
         python serie.py
 
-    - name: List only target files
-      run: |
-        echo "📊 Film & Series files generated:"
-        ls -la film.m3u serie.m3u film_cache.json serie_cache.json 2>/dev/null || echo "Some target files missing"
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "🎬 Update playlists - ${{ github.run_number }}"
+        file_pattern: "film.m3u serie.m3u film_cache.json serie_cache.json"
+        commit_user_name: "github-actions[bot]"
+        commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
 
-    - name: Upload only film & series playlists
+    - name: Upload playlists as artifacts
       uses: actions/upload-artifact@v4
       if: always()
       with:
@@ -62,6 +68,3 @@ jobs:
           film_cache.json
           serie_cache.json
         retention-days: 30
-     
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
