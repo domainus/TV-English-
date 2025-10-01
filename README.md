@@ -34,7 +34,7 @@ Queste liste devono essere utilizzate con un proxy.
 
 ## 🔗 Link Film, Serie TV 
 
-Queste liste vanno senza un proxy.
+Queste liste devono essere utilizzate con un proxy.
 
 - **Lista Film**  
   [`https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/film.m3u`](https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/film.m3u)
