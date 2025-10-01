@@ -747,7 +747,7 @@ class TMDBM3UGenerator:
         display_title = f"{title} ({year})"
         
         # Return M3U entry string
-        return f'#EXTINF:-1 tvg-logo="{tvg_logo}" group-title="Film - {group_title}",{display_title}\n{movie_url}\n'
+        return f'#EXTINF:-1 type="movie" tvg-logo="{tvg_logo}" group-title="Film - {group_title}",{display_title}\n{movie_url}\n'
 
     def _get_vixsrc_m3u8_url_with_movie(self, movie):
         """Wrapper to fetch URL and return it with the movie data."""
