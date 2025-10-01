@@ -8,6 +8,7 @@ on:
       - 'serie.py'
   schedule:
     - cron: '0 6 * * *'
+  workflow_dispatch:  # Consente l'esecuzione manuale
 
 env:
   PYTHON_VERSION: "3.11"
