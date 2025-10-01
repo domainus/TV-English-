@@ -433,7 +433,7 @@ class TVM3UGenerator:
 
                 if episode_url:
                     display_title = f"{series_name} S{season_num:02d} E{episode_num:02d}"
-                    entry_string = f'#EXTINF:-1 tvg-logo="{tvg_logo}" group-title="SerieTV - {group_title}",{display_title}\n{episode_url}\n'
+                    entry_string = f'#EXTINF:-1 type="series" tvg-logo="{tvg_logo}" group-title="SerieTV - {group_title}",{display_title}\n{episode_url}\n'
                     series_entries.append((season_num, episode_num, entry_string))
 
         # Sort entries by season and episode number before returning
