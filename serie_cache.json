@@ -46752,5 +46752,43 @@
       10767
     ],
     "cached_at": "2025-10-01T11:32:29.801379"
+  },
+  "221934": {
+    "id": 221934,
+    "name": "금이야 옥이야",
+    "original_name": "금이야 옥이야",
+    "first_air_date": "2023-03-27",
+    "vote_average": 4.0,
+    "poster_path": "/zcrJnIIS1J7Ed6WpSFpZ9PvdKWU.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "cached_at": "2025-10-01T12:51:50.258392"
+  },
+  "223428": {
+    "id": 223428,
+    "name": "African Folktales Reimagined",
+    "original_name": "African Folktales Reimagined",
+    "first_air_date": "2023-03-29",
+    "vote_average": 7.4,
+    "poster_path": "/5vNGB4DhV8X3LM6WcH2tKizYVbR.jpg",
+    "genre_ids": [
+      18,
+      10765
+    ],
+    "cached_at": "2025-10-01T12:51:50.271267"
+  },
+  "221522": {
+    "id": 221522,
+    "name": "Emergency - Primi soccorritori a New York",
+    "original_name": "Emergency: NYC",
+    "first_air_date": "2023-03-29",
+    "vote_average": 6.7,
+    "poster_path": "/3pdVKXRnEEf2YUzm4net4MFEWV5.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-01T12:51:50.339063"
   }
 }
