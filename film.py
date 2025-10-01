@@ -33,7 +33,7 @@ class TMDBM3UGenerator:
 
         # aiohttp session and concurrency control
         self.session = None
-        self.semaphore = Semaphore(100)  # Limit max 100 concurrent requests
+        self.semaphore = Semaphore(100)
 
     def _load_vixsrc_movies(self):
         """Load available movies from vixsrc.to API (single sync call)"""
