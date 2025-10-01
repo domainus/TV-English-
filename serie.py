@@ -73,7 +73,7 @@ class TVM3UGenerator:
     def _organize_episodes_by_series(self):
         """Organize episodes data by series ID"""
         series_episodes = defaultdict(lambda: defaultdict(list))
-        for episode in self.episodes_
+        for episode in self.episodes_data:
             tmdb_id = episode['tmdb_id']
             season = episode['s']
             episode_num = episode['e']
@@ -118,7 +118,7 @@ class TVM3UGenerator:
         url = f"{self.base_url}/genre/tv/list"
         params = {'api_key': self.api_key, 'language': 'it-IT'}
         data = await self._get_json(url, params)
-        if not 
+        if not data:
             return {}
         return {genre['id']: genre['name'] for genre in data.get('genres', [])}
 
@@ -126,7 +126,7 @@ class TVM3UGenerator:
         url = f"{self.base_url}/tv/{tmdb_id}"
         params = {'api_key': self.api_key, 'language': 'it-IT'}
         data = await self._get_json(url, params)
-        if not 
+        if not data:
             return None
         # Cache partial
         cache_key = str(data['id'])
@@ -157,7 +157,6 @@ class TVM3UGenerator:
                     script_tag = soup.find("body").find("script")
                     if script_tag and script_tag.string:
                         return self._extract_m3u8_from_script(script_tag.string)
-                    # Fallback simpler attempt missed for brevity
                     return None
             except Exception:
                 return None
@@ -237,7 +236,6 @@ class TVM3UGenerator:
 
             print(f"Fetching all episode URLs for each series...")
             all_entries = []
-            # To avoid huge memory, fetch series one by one if needed, here all in parallel
             fetch_tasks = [
                 self._fetch_all_episodes_for_series(series, series_episodes, genres, "VixSrc")
                 for series in series_data
