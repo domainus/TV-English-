@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-TMDB M3U Playlist Generator
+TMDB M3U Playlist Generator 
 Fetches movies from TMDB API and creates an M3U playlist with vixsrc.to links
 """
 
