@@ -12,6 +12,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import time
 import json
 import hashlib
+import re
+from bs4 import BeautifulSoup, SoupStrainer
+from tqdm import tqdm
 from collections import defaultdict
 
 # Load environment variables
@@ -164,7 +167,9 @@ class TVM3UGenerator:
                 'genre_ids': [genre['id'] for genre in series_data.get('genres', [])]
             }
         except Exception as e:
-            print(f"      Error fetching series {tmdb_id}: {e}")
+            # Sanitize the error message to remove the API key
+            error_message = str(e).replace(self.api_key, '***')
+            print(f"      Error fetching series {tmdb_id}: {error_message}")
             return None
     
     def _organize_episodes_by_series(self):
@@ -220,15 +225,19 @@ class TVM3UGenerator:
         total_episodes = sum(len(episodes) for series in series_episodes.values() 
                            for episodes in series.values())
         
-        with open("serie.m3u", 'w', encoding='utf-8') as f:
-            # Write M3U header with episode count
-            f.write("#EXTM3U\n")
-            f.write(f"#PLAYLIST:Serie TV VixSrc ({total_episodes} Episodi)\n\n")
-            
-            # Organize and write series
-            self._organize_and_write_series(f, series_data, series_episodes, genres)
+        # 1. Build all playlist parts in memory
+        playlist_parts = []
+        playlist_parts.append("#EXTM3U\n")
+        playlist_parts.append(f"#PLAYLIST:Serie TV VixSrc ({total_episodes} Episodi)\n")
+
+        # 2. Organize series and get all entry strings
+        series_entries = self._organize_and_get_series_entries(series_data, series_episodes, genres)
+        playlist_parts.extend(series_entries)
         
-        # Save cache after completion
+        # 3. Write the complete playlist to the file at once
+        with open("serie.m3u", 'w', encoding='utf-8') as f:
+            f.write("".join(playlist_parts))
+        
         self._save_cache()
         print(f"\nComplete TV playlist generated successfully: serie.m3u")
         print(f"Cache updated with {len(self.cache)} total series")
@@ -271,13 +280,16 @@ class TVM3UGenerator:
                     if completed % 50 == 0:
                         print(f"   Completed {completed}/{len(to_fetch)} TMDB requests...")
                 except Exception as e:
-                    print(f"   Error fetching series {tmdb_id}: {e}")
+                    # Sanitize the error message to remove the API key
+                    error_message = str(e).replace(self.api_key, '***')
+                    print(f"   Error fetching series {tmdb_id}: {error_message}")
         
         print(f"Successfully loaded {len(series_data)} series details (cache+TMDB)")
         return series_data
     
-    def _organize_and_write_series(self, file, series_data, series_episodes, genres):
-        """Organize series by categories and write to file"""
+    def _organize_and_get_series_entries(self, series_data, series_episodes, genres):
+        """Organize series by categories and return a list of M3U entry strings."""
+        all_entries = []
         # Get real category data from TMDB
         print("Fetching real category data from TMDB...")
         
@@ -289,7 +301,9 @@ class TVM3UGenerator:
                 for series in popular_data['results']:
                     popular_ids.add(str(series['id']))
             except Exception as e:
-                print(f"Error fetching popular series page {page}: {e}")
+                # Sanitize the error message to remove the API key
+                error_message = str(e).replace(self.api_key, '***')
+                print(f"Error fetching popular series page {page}: {error_message}")
         
         # Get on air series (real data)
         on_air_ids = set()
@@ -299,7 +313,9 @@ class TVM3UGenerator:
                 for series in on_air_data['results']:
                     on_air_ids.add(str(series['id']))
             except Exception as e:
-                print(f"Error fetching on air series page {page}: {e}")
+                # Sanitize the error message to remove the API key
+                error_message = str(e).replace(self.api_key, '***')
+                print(f"Error fetching on air series page {page}: {error_message}")
         
         # Get top rated series (real data)
         top_rated_ids = set()
@@ -309,7 +325,9 @@ class TVM3UGenerator:
                 for series in top_rated_data['results']:
                     top_rated_ids.add(str(series['id']))
             except Exception as e:
-                print(f"Error fetching top rated series page {page}: {e}")
+                # Sanitize the error message to remove the API key
+                error_message = str(e).replace(self.api_key, '***')
+                print(f"Error fetching top rated series page {page}: {error_message}")
         
         # Group series by real categories
         on_air_series = []
@@ -338,59 +356,42 @@ class TVM3UGenerator:
                 if genre_name:
                     genre_series[genre_name].append(series)
         
-        # Write sections
-        # 1. Serie in Onda (limit 30) -- REMOVED
-        # print("\n1. Adding 'Serie in Onda' section...")
-        # file.write("# Serie in Onda\n")
-        # added_count = 0
-        # for series in on_air_series[:30]:
-        #     if self._write_series_episodes(file, series, series_episodes, genres, "Serie in Onda"):
-        #         added_count += 1
-        # print(f"   Added {added_count} series to Serie in Onda")
+        # 1. Serie in Onda (limit 30)
+        print("\n1. Adding 'Serie in Onda' section...")
+        all_entries.extend(self._fetch_section_entries_parallel(on_air_series[:30], series_episodes, genres, "Serie in Onda"))
         
         # 2. Popolari (limit 30)
         print("\n2. Adding 'Popolari' section...")
-        file.write("\n# Popolari\n")
-        added_count = 0
-        for series in popular_series[:30]:
-            if self._write_series_episodes(file, series, series_episodes, genres, "Popolari"):
-                added_count += 1
-        print(f"   Added {added_count} series to Popolari")
+        all_entries.extend(self._fetch_section_entries_parallel(popular_series[:30], series_episodes, genres, "Popolari"))
         
         # 3. Più Votate (limit 30)
         print("\n3. Adding 'Più Votate' section...")
-        file.write("\n# Più Votate\n")
-        added_count = 0
-        for series in top_rated_series[:30]:
-            if self._write_series_episodes(file, series, series_episodes, genres, "Più Votate"):
-                added_count += 1
-        print(f"   Added {added_count} series to Più Votate")
+        all_entries.extend(self._fetch_section_entries_parallel(top_rated_series[:30], series_episodes, genres, "Più Votate"))
         
         # 4. Genres
         print("\n4. Adding genre-specific sections...")
         for genre_name, series_list in genre_series.items():
             if series_list:  # Only add genres that have series
-                print(f"   Adding '{genre_name}' section ({len(series_list)} series)...")
-                file.write(f"\n# {genre_name}\n")
                 # Sort series by first air date (newest first)
                 series_sorted = sorted(
                     series_list,
                     key=lambda s: s.get('first_air_date', ''),
                     reverse=True
                 )
-                added_count = 0
-                for series in series_sorted:
-                    if self._write_series_episodes(file, series, series_episodes, genres, genre_name):
-                        added_count += 1
-                print(f"      Added {added_count} series to {genre_name}")
-    
-    def _write_series_episodes(self, file, series, series_episodes, genres, group_title):
-        """Write all episodes for a series to the M3U file"""
+                all_entries.extend(self._fetch_section_entries_parallel(series_sorted, series_episodes, genres, genre_name))
+        
+        return all_entries
+
+    def _get_series_episodes_entries(self, series, series_episodes, genres, group_title):
+        """
+        Fetches all episode URLs for a single series in parallel and 
+        returns a list of M3U entry strings for that series.
+        """
         tmdb_id = series['id']
         
         # Check if series has episodes
         if tmdb_id not in series_episodes:
-            return False  # Skip this series
+            return []
         
         series_name = series['name']
         year = series.get('first_air_date', '')[:4] if series.get('first_air_date') else ''
@@ -411,30 +412,108 @@ class TVM3UGenerator:
         poster_path = series.get('poster_path', '')
         tvg_logo = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else ""
         
-        # Get episodes for this series
-        episodes = series_episodes[tmdb_id]
+        # Prepare a list of all episodes to fetch for this series
+        episodes_to_fetch = []
+        for season_num in sorted(series_episodes[tmdb_id].keys()):
+            for episode_num in series_episodes[tmdb_id][season_num]:
+                episodes_to_fetch.append((season_num, episode_num))
+
+        series_entries = []
+        with ThreadPoolExecutor(max_workers=20) as executor:
+            future_to_episode = {
+                executor.submit(self._get_vixsrc_m3u8_url, tmdb_id, s, e): (s, e)
+                for s, e in episodes_to_fetch
+            }
+
+            progress_bar = tqdm(as_completed(future_to_episode), total=len(episodes_to_fetch), desc=f"   - {series_name}", leave=False, unit=" ep")
+
+            for future in progress_bar:
+                season_num, episode_num = future_to_episode[future]
+                episode_url = future.result()
+
+                if episode_url:
+                    display_title = f"{series_name} S{season_num:02d} E{episode_num:02d}"
+                    entry_string = f'#EXTINF:-1 tvg-logo="{tvg_logo}" group-title="SerieTV - {group_title}",{display_title}\n{episode_url}\n'
+                    series_entries.append((season_num, episode_num, entry_string))
+
+        # Sort entries by season and episode number before returning
+        series_entries.sort()
+        return [entry for _, _, entry in series_entries]
+
+    def _fetch_section_entries_parallel(self, series_list, series_episodes, genres, group_title):
+        """Fetches all M3U entries for a list of series and returns them."""
+        if not series_list:
+            return []
+
+        section_entries = []
+        section_entries.append(f"\n# {group_title}\n")
         
-        # Write each episode
-        for season_num in sorted(episodes.keys()):
-            for episode_num in episodes[season_num]:
-                # Create vixsrc.to link for episode
-                episode_url = f"{self.vixsrc_base}/{tmdb_id}/{season_num}/{episode_num}?lang=it/series/"
-                
-                # Create title with series info, season, episode, and stars
-                display_title = f"{series_name} S{season_num:02d} E{episode_num:02d}"
-                # Rimosso: if genre_names: display_title += f" [{' - '.join(genre_names)}]"
-                
-                # Add season and episode info to tvg-name for better app compatibility
-                tvg_name_with_episode = f"{series_name} S{season_num:02d} E{episode_num:02d}"
-                
-                # Use genre as group-title
-                group_title_genre = group_title
-                
-                # Write M3U entry
-                file.write(f'#EXTINF:-1 tvg-logo="{tvg_logo}" group-title="SerieTV - {group_title_genre}",{display_title}\n')
-                file.write(f"{episode_url}\n")
+        print(f"   Adding '{group_title}' section ({len(series_list)} series)...")
         
-        return True  # Series was added
+        added_count = 0
+        for series in series_list:
+            entries = self._get_series_episodes_entries(series, series_episodes, genres, group_title)
+            if entries:
+                section_entries.extend(entries)
+                added_count += 1
+        
+        print(f"      Added {added_count} series to {group_title}")
+        return section_entries
+
+    def _get_vixsrc_m3u8_url(self, tmdb_id, season, episode):
+        """Extract direct .m3u8 URL from a vixsrc.to episode page."""
+        episode_page_url = f"https://vixsrc.to/tv/{tmdb_id}/{season}/{episode}"
+        try:
+            # The URL for the actual player iframe is different
+            iframe_url = f"https://vixsrc.to/iframe/{tmdb_id}/{season}/{episode}"
+            
+            # Vixsrc requires a 'Referer' header pointing to the episode page
+            headers = {'Referer': episode_page_url}
+            
+            response = requests.get(iframe_url, headers=headers, timeout=10)
+            response.raise_for_status()
+
+            # The logic is similar to film.py: find the script tag in the body
+            soup = BeautifulSoup(response.text, "lxml", parse_only=SoupStrainer("body"))
+            script_tag = soup.find("body").find("script")
+            if not script_tag or not script_tag.string:
+                # Fallback for a different structure if the first fails
+                iframe_src_match = re.search(r'iframe\s+src="([^"]+)"', response.text)
+                if iframe_src_match:
+                    # Sometimes there's another layer of iframe
+                    nested_iframe_url = iframe_src_match.group(1)
+                    return self._extract_m3u8_from_final_page(nested_iframe_url, iframe_url)
+                return None
+
+            return self._extract_m3u8_from_script(script_tag.string)
+
+        except Exception:
+            # Errors are frequent, so we suppress the output to avoid noise.
+            # The function will return None, and the episode will be skipped.
+            return None
+
+    def _extract_m3u8_from_script(self, script_content):
+        """Helper to extract m3u8 from script content."""
+        token_match = re.search(r"'token':\s*'(\w+)'", script_content)
+        expires_match = re.search(r"'expires':\s*'(\d+)'", script_content)
+        server_url_match = re.search(r"url:\s*'([^']+)'", script_content)
+
+        if not (token_match and expires_match and server_url_match):
+            return None
+
+        token = token_match.group(1)
+        expires = expires_match.group(1)
+        server_url = server_url_match.group(1)
+
+        if "?b=1" in server_url:
+            final_url = f'{server_url}&token={token}&expires={expires}'
+        else:
+            final_url = f"{server_url}?token={token}&expires={expires}"
+        
+        if "window.canPlayFHD = true" in script_content:
+            final_url += "&h=1"
+        
+        return final_url
 
 def main():
     """Main function to run the TV generator"""
