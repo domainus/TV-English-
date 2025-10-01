@@ -162,10 +162,10 @@ class TMDBM3UGenerator:
                     html = await response.text()
                     
                     soup = BeautifulSoup(html, "lxml", parse_only=SoupStrainer("body"))
-                    script_tag = soup.find("body")
-                    if not script_tag:
+                    body_tag = soup.find("body")
+                    if not body_tag:
                         return None
-                    script_tag = script_tag.find("script")
+                    script_tag = body_tag.find("script")
                     if not script_tag or not script_tag.string:
                         return None
 
