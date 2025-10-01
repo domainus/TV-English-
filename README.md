@@ -17,7 +17,7 @@ Benvenuto nella tua **lista IPTV personalizzata** con **EPG** integrata e suppor
 
 ---
 
-## 🔗 Link Lista + EPG
+## 🔗 Link Lista e MPD + EPG
 
 Queste liste devono essere utilizzate con un proxy.
 
@@ -27,20 +27,20 @@ Queste liste devono essere utilizzate con un proxy.
 - **EPG XML**  
   [`https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/epg.xml`](https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/epg.xml)
 
+- **Lista MPD**  
+  [`https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/mpd.m3u`](https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/mpd.m3u)
+
 ---
 
-## 🔗 Link Film, Serie TV e MPD
+## 🔗 Link Film, Serie TV 
 
-Queste liste devono essere utilizzate con un proxy.
+Queste liste vanno senza un proxy.
 
 - **Lista Film**  
   [`https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/film.m3u`](https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/film.m3u)
 
 - **Lista Serie TV**  
   [`https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/serie.m3u`](https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/serie.m3u)
-
-- **Lista MPD**  
-  [`https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/mpd.m3u`](https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/mpd.m3u)
 
 ---
 
