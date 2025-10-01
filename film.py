@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 """
-TMDB M3U Playlist Generator - Fully Async aiohttp Version
+TMDB M3U Playlist Generator 
 Fetches movies from TMDB API and creates an M3U playlist with vixsrc.to links
 """
 
 import os
-import json
-import asyncio
-import re
+import requests
 from datetime import datetime
 from dotenv import load_dotenv
-from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
+import json
+import hashlib
+import re
 from bs4 import BeautifulSoup, SoupStrainer
-import aiohttp
-from asyncio import Semaphore
+from tqdm import tqdm
+
 
 # Load environment variables
 load_dotenv()
@@ -21,31 +23,26 @@ load_dotenv()
 class TMDBM3UGenerator:
     def __init__(self):
         self.api_key = os.getenv('TMDB_API_KEY')
-        if not self.api_key:
-            raise ValueError("TMDB_API_KEY environment variable is required")
-        
         self.base_url = "https://api.themoviedb.org/3"
         self.vixsrc_base = "https://vixsrc.to/movie"
         self.vixsrc_api = "https://vixsrc.to/api/list/movie/?lang=it"
         self.cache_file = "film_cache.json"
         self.cache = self._load_cache()
         self.vixsrc_movies = self._load_vixsrc_movies()
-
-        # aiohttp session and concurrency control
-        self.session = None
-        self.semaphore = Semaphore(100)
-
+        
+        if not self.api_key:
+            raise ValueError("TMDB_API_KEY environment variable is required")
+    
     def _load_vixsrc_movies(self):
-        """Load available movies from vixsrc.to API (single sync call)"""
+        """Load available movies from vixsrc.to API"""
         try:
             print("Loading vixsrc.to movie list...")
-            import requests
             response = requests.get(self.vixsrc_api, timeout=10)
             response.raise_for_status()
             data = response.json()
             
+            # Extract tmdb_ids from the response
             vixsrc_ids = set()
-            # FIX: aggiunto "for item in data:"
             for item in data:
                 if item.get('tmdb_id') and item['tmdb_id'] is not None:
                     vixsrc_ids.add(str(item['tmdb_id']))
@@ -54,8 +51,13 @@ class TMDBM3UGenerator:
             return vixsrc_ids
         except Exception as e:
             print(f"Warning: Could not load vixsrc.to movie list: {e}")
+            print("Continuing without vixsrc.to verification...")
             return set()
-
+    
+    def _is_movie_available_on_vixsrc(self, tmdb_id):
+        """Check if movie is available on vixsrc.to"""
+        return str(tmdb_id) in self.vixsrc_movies
+    
     def _load_cache(self):
         """Load existing cache from file"""
         if os.path.exists(self.cache_file):
@@ -67,7 +69,7 @@ class TMDBM3UGenerator:
             except Exception as e:
                 print(f"Error loading cache: {e}")
         return {}
-
+    
     def _save_cache(self):
         """Save cache to file"""
         try:
@@ -76,288 +78,755 @@ class TMDBM3UGenerator:
             print(f"Cache saved with {len(self.cache)} movies")
         except Exception as e:
             print(f"Error saving cache: {e}")
-
-    async def create_session(self):
-        """Create optimized aiohttp session"""
-        connector = aiohttp.TCPConnector(
-            limit=200,
-            limit_per_host=50,
-            ttl_dns_cache=300,
-            force_close=False,
-            enable_cleanup_closed=True
-        )
-        timeout = aiohttp.ClientTimeout(total=30, connect=10)
-        self.session = aiohttp.ClientSession(
-            connector=connector,
-            timeout=timeout,
-            trust_env=True
-        )
-
-    async def close_session(self):
-        if self.session:
-            await self.session.close()
-
-    async def _get_json(self, url, params=None):
-        """Helper for JSON GET requests with semaphore"""
-        async with self.semaphore:
-            try:
-                async with self.session.get(url, params=params) as response:
-                    if response.status != 200:
-                        return None
-                    return await response.json(content_type=None)
-            except Exception:
-                return None
-
-    async def get_movie_genres(self):
-        url = f"{self.base_url}/genre/movie/list"
-        params = {'api_key': self.api_key, 'language': 'it-IT'}
-        data = await self._get_json(url, params)
-        # FIX: aggiunto controllo "if not data:"
-        if not data:
-            return {}
-        return {genre['id']: genre['name'] for genre in data.get('genres', [])}
-
-    async def get_popular_movies(self, page=1):
+    
+    def _get_cache_key(self, movie):
+        """Generate cache key for a movie"""
+        return str(movie['id'])
+    
+    def _is_movie_cached(self, movie):
+        """Check if movie is already in cache"""
+        cache_key = self._get_cache_key(movie)
+        return cache_key in self.cache
+    
+    def _add_to_cache(self, movie):
+        """Add movie to cache"""
+        cache_key = self._get_cache_key(movie)
+        self.cache[cache_key] = {
+            'id': movie['id'],
+            'title': movie['title'],
+            'release_date': movie.get('release_date', ''),
+            'vote_average': movie.get('vote_average', 0),
+            'poster_path': movie.get('poster_path', ''),
+            'genre_ids': movie.get('genre_ids', []),
+            'cached_at': datetime.now().isoformat()
+        }
+    
+    def get_popular_movies(self, page=1, language='it-IT'):
+        """Fetch popular movies from TMDB"""
         url = f"{self.base_url}/movie/popular"
-        params = {'api_key': self.api_key, 'page': page, 'language': 'it-IT'}
-        return await self._get_json(url, params)
-
-    async def get_latest_movies(self, page=1):
-        url = f"{self.base_url}/movie/now_playing"
-        params = {'api_key': self.api_key, 'page': page, 'language': 'it-IT'}
-        return await self._get_json(url, params)
-
-    async def get_top_rated_movies(self, page=1):
-        url = f"{self.base_url}/movie/top_rated"
-        params = {'api_key': self.api_key, 'page': page, 'language': 'it-IT'}
-        return await self._get_json(url, params)
-
-    async def _fetch_movie_details_async(self, tmdb_id):
-        url = f"{self.base_url}/movie/{tmdb_id}"
-        params = {'api_key': self.api_key, 'language': 'it-IT'}
-        data = await self._get_json(url, params)
-        # FIX: aggiunto controllo "if not data:"
-        if not data:
-            return None
+        params = {
+            'api_key': self.api_key,
+            'page': page,
+            'language': language
+        }
         
-        # Cache the result
-        cache_key = str(data['id'])
-        if cache_key not in self.cache:
-            self.cache[cache_key] = {
-                'id': data['id'],
-                'title': data['title'],
-                'release_date': data.get('release_date', ''),
-                'vote_average': data.get('vote_average', 0),
-                'poster_path': data.get('poster_path', ''),
-                'genre_ids': [g['id'] for g in data.get('genres', [])],
-                'cached_at': datetime.now().isoformat()
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        return response.json()
+    
+    def get_top_rated_movies(self, page=1, language='it-IT'):
+        """Fetch top rated movies from TMDB"""
+        url = f"{self.base_url}/movie/top_rated"
+        params = {
+            'api_key': self.api_key,
+            'page': page,
+            'language': language
+        }
+        
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        return response.json()
+    
+    def get_all_movies(self, page=1, language='it-IT'):
+        """Fetch all movies from TMDB (discover endpoint)"""
+        url = f"{self.base_url}/discover/movie"
+        params = {
+            'api_key': self.api_key,
+            'page': page,
+            'language': language,
+            'sort_by': 'popularity.desc',
+            'include_adult': False,
+            'include_video': False
+        }
+        
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        return response.json()
+    
+    def get_movie_genres(self):
+        """Fetch movie genres from TMDB"""
+        url = f"{self.base_url}/genre/movie/list"
+        params = {
+            'api_key': self.api_key,
+            'language': 'it-IT'
+        }
+        
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        return {genre['id']: genre['name'] for genre in response.json()['genres']}
+    
+    def get_latest_movies(self, page=1, language='it-IT'):
+        """Fetch latest movies from TMDB"""
+        url = f"{self.base_url}/movie/now_playing"
+        params = {
+            'api_key': self.api_key,
+            'page': page,
+            'language': language
+        }
+        
+        response = requests.get(url, params=params)
+        response.raise_for_status()
+        return response.json()
+    
+    def generate_m3u_playlist(self, movies_data, output_file="tmdb_movies.m3u"):
+        """Generate M3U playlist from movies data"""
+        # Get genres mapping
+        genres = self.get_movie_genres()
+        
+        with open(output_file, 'w', encoding='utf-8') as f:
+            # Write M3U header
+            f.write("#EXTM3U\n")
+            f.write(f"# Generated by TMDB M3U Generator on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+            f.write(f"# Total movies: {len(movies_data)}\n\n")
+            
+            for movie in movies_data:
+                tmdb_id = movie['id']
+                title = movie['title']
+                year = movie.get('release_date', '')[:4] if movie.get('release_date') else ''
+                
+                # Get rating and create stars
+                rating = movie.get('vote_average', 0)
+                stars = "★" * int(rating / 2) + "☆" * (5 - int(rating / 2)) if rating > 0 else "☆☆☆☆☆"
+                
+                # Get all genres
+                genre_names = []
+                if movie.get('genre_ids') and movie['genre_ids']:
+                    for genre_id in movie['genre_ids']:
+                        genre_name = genres.get(genre_id, "")
+                        if genre_name:
+                            genre_names.append(genre_name)
+                
+                # Use first genre as primary, or "Film" if none
+                primary_genre = genre_names[0] if genre_names else "Film"
+                
+                # Get poster URL
+                poster_path = movie.get('poster_path', '')
+                tvg_logo = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else ""
+                
+                # Create vixsrc.to link
+                movie_url = f"{self.vixsrc_base}/{tmdb_id}/?lang=it"
+                
+                # Create title with stars and genres
+                display_title = f"{title} ({year})"
+                
+                # Write M3U entry with all metadata
+                f.write(f'#EXTINF:-1 tvg-logo="{tvg_logo}" group-title="Film - {primary_genre}",{display_title}\n')
+                f.write(f"{movie_url}\n")
+        
+        print(f"Playlist generated successfully: {output_file}")
+        print(f"Total movies: {len(movies_data)}")
+    
+    def create_popular_playlist(self, pages=5, output_file="tmdb_popular.m3u"):
+        """Create playlist with popular movies"""
+        all_movies = []
+        
+        for page in range(1, pages + 1):
+            print(f"Fetching popular movies page {page}...")
+            data = self.get_popular_movies(page=page)
+            all_movies.extend(data['results'])
+        
+        self.generate_m3u_playlist(all_movies, output_file)
+    
+    def create_top_rated_playlist(self, pages=5, output_file="tmdb_top_rated.m3u"):
+        """Create playlist with top rated movies"""
+        all_movies = []
+        
+        for page in range(1, pages + 1):
+            print(f"Fetching top rated movies page {page}...")
+            data = self.get_top_rated_movies(page=page)
+            all_movies.extend(data['results'])
+        
+        self.generate_m3u_playlist(all_movies, output_file)
+    
+    def create_complete_playlist(self):
+        """Create one complete M3U file with all categories and genres"""
+        print("Creating complete M3U playlist from vixsrc.to movies...")
+        
+        # Get genres mapping
+        genres = self.get_movie_genres()
+        
+        # Fetch only movies that exist on vixsrc.to
+        print(f"\nFetching movie details for {len(self.vixsrc_movies)} available movies...")
+        movies_data = self._get_movies_from_vixsrc_list()
+        
+        # Count total movies that will be added
+        total_movies = len(movies_data)
+        
+        # 1. Build all playlist parts in memory
+        playlist_parts = []
+        playlist_parts.append("#EXTM3U\n")
+        playlist_parts.append(f"#PLAYLIST:Film VixSrc ({total_movies} Film)\n")
+        
+        # 2. Organize movies and get all entry strings
+        movie_entries = self._organize_and_get_movie_entries(movies_data, genres)
+        playlist_parts.extend(movie_entries)
+        
+        # 3. Write the complete playlist to the file at once
+        with open("film.m3u", 'w', encoding='utf-8') as f:
+            f.write("".join(playlist_parts))
+        
+        self._save_cache()
+        print(f"\nComplete playlist generated successfully: film.m3u")
+        print(f"Cache updated with {len(self.cache)} total movies")
+    
+    def _get_movies_from_vixsrc_list(self):
+        """Fetch movie details for all movies available on vixsrc.to, using cache when possible"""
+        movies_data = []
+        total_movies = len(self.vixsrc_movies)
+        
+        print(f"Fetching details for {total_movies} movies from TMDB (using cache)...")
+        
+        # Prepare list of tmdb_ids to fetch (not in cache)
+        to_fetch = []
+        for tmdb_id in self.vixsrc_movies:
+            if str(tmdb_id) in self.cache:
+                # Use cached data
+                movies_data.append(self.cache[str(tmdb_id)])
+            else:
+                to_fetch.append(tmdb_id)
+        
+        print(f"{len(movies_data)} movies loaded from cache, {len(to_fetch)} to fetch from TMDB...")
+        
+        # Use ThreadPoolExecutor to fetch movie details in parallel
+        with ThreadPoolExecutor(max_workers=20) as executor:
+            future_to_tmdb_id = {
+                executor.submit(self._fetch_movie_details, tmdb_id): tmdb_id 
+                for tmdb_id in to_fetch
             }
-        return self.cache[cache_key]
+            completed = 0
+            for future in as_completed(future_to_tmdb_id):
+                tmdb_id = future_to_tmdb_id[future]
+                try:
+                    movie_data = future.result()
+                    if movie_data:
+                        movies_data.append(movie_data)
+                        # Add to cache
+                        if not self._is_movie_cached(movie_data):
+                            self._add_to_cache(movie_data)
+                    completed += 1
+                    if completed % 100 == 0:
+                        print(f"   Completed {completed}/{len(to_fetch)} TMDB requests...")
+                except Exception as e:
+                    # Sanitize the error message to remove the API key
+                    error_message = str(e).replace(self.api_key, '***')
+                    print(f"   Error fetching movie {tmdb_id}: {error_message}")
+        
+        print(f"Successfully loaded {len(movies_data)} movie details (cache+TMDB)")
+        return movies_data
+    
+    def _fetch_movie_details(self, tmdb_id):
+        """Fetch movie details from TMDB by ID"""
+        url = f"{self.base_url}/movie/{tmdb_id}"
+        params = {
+            'api_key': self.api_key,
+            'language': 'it-IT'
+        }
+        
+        try:
+            response = requests.get(url, params=params, timeout=5)
+            response.raise_for_status()
+            movie_data = response.json()
+            
+            # Convert to the format expected by the rest of the code
+            return {
+                'id': movie_data['id'],
+                'title': movie_data['title'],
+                'release_date': movie_data.get('release_date', ''),
+                'vote_average': movie_data.get('vote_average', 0),
+                'poster_path': movie_data.get('poster_path', ''),
+                'genre_ids': [genre['id'] for genre in movie_data.get('genres', [])]
+            }
+        except Exception as e:
+            # Sanitize the error message to remove the API key
+            error_message = str(e).replace(self.api_key, '***')
+            print(f"      Error fetching movie {tmdb_id}: {error_message}")
+            return None
+    
+    def _organize_and_get_movie_entries(self, movies_data, genres):
+        """Organize movies by categories and return a list of M3U entry strings."""
+        all_entries = []
 
-    async def _get_vixsrc_m3u8_url_async(self, tmdb_id):
+        # Get real category data from TMDB
+        print("Fetching real category data from TMDB...")
+        
+        # Get popular movies (real data)
+        popular_ids = set()
+        for page in range(1, 4):  # 3 pages for popular
+            try:
+                popular_data = self.get_popular_movies(page=page)
+                for movie in popular_data['results']:
+                    popular_ids.add(str(movie['id']))
+            except Exception as e:
+                # Sanitize the error message to remove the API key
+                error_message = str(e).replace(self.api_key, '***')
+                print(f"Error fetching popular movies page {page}: {error_message}")
+        
+        # Get now playing movies (real data)
+        cinema_ids = set()
+        for page in range(1, 3):  # 2 pages for now playing
+            try:
+                cinema_data = self.get_latest_movies(page=page)
+                for movie in cinema_data['results']:
+                    cinema_ids.add(str(movie['id']))
+            except Exception as e:
+                # Sanitize the error message to remove the API key
+                error_message = str(e).replace(self.api_key, '***')
+                print(f"Error fetching cinema movies page {page}: {error_message}")
+        
+        # Get top rated movies (real data)
+        latest_ids = set()
+        for page in range(1, 3):  # 2 pages for top rated
+            try:
+                latest_data = self.get_top_rated_movies(page=page)
+                for movie in latest_data['results']:
+                    latest_ids.add(str(movie['id']))
+            except Exception as e:
+                # Sanitize the error message to remove the API key
+                error_message = str(e).replace(self.api_key, '***')
+                print(f"Error fetching top rated movies page {page}: {error_message}")
+        
+        # Group movies by real categories
+        cinema_movies = []
+        popular_movies = []
+        latest_movies = []
+        genre_movies = {genre_name: [] for genre_name in genres.values()}
+        
+        # Process all movies
+        for movie in movies_data:
+            movie_id = str(movie['id'])
+            
+            # Add to appropriate categories based on real TMDB data
+            if movie_id in cinema_ids:
+                cinema_movies.append(movie)
+            if movie_id in popular_ids:
+                popular_movies.append(movie)
+            if movie_id in latest_ids:
+                latest_movies.append(movie)
+            
+            # Add to genre categories
+            for genre_id in movie['genre_ids']:
+                genre_name = genres.get(genre_id)
+                if genre_name:
+                    genre_movies[genre_name].append(movie)
+        
+        # Write sections
+        # 1. Film Al Cinema (limit 50)
+        print("\n1. Adding 'Film Al Cinema' section...")
+        all_entries.extend(self._fetch_section_entries_parallel(cinema_movies[:50], genres, "Al Cinema"))
+        
+        # 2. Popolari (limit 50)
+        print("\n2. Adding 'Popolari' section...")
+        all_entries.extend(self._fetch_section_entries_parallel(popular_movies[:50], genres, "Popolari"))
+        
+        # 3. Più Votati (limit 50)
+        print("\n3. Adding 'Più Votati' section...")
+        all_entries.extend(self._fetch_section_entries_parallel(latest_movies[:50], genres, "Più Votati"))
+        
+        # 4. Genres
+        print("\n4. Adding genre-specific sections...")
+        for genre_name, movies in genre_movies.items():
+            if movies:  # Only add genres that have movies
+                # Ordina i film dal più nuovo al più vecchio
+                movies_sorted = sorted(
+                    movies,
+                    key=lambda m: m.get('release_date', ''),
+                    reverse=True
+                )
+                
+                all_entries.extend(self._fetch_section_entries_parallel(movies_sorted, genres, genre_name))
+        
+        return all_entries
+    
+    def _create_playlist_from_cache(self, file, genres):
+        """Create playlist using only cached movies"""
+        print(f"Creating playlist from {len(self.cache)} cached movies...")
+        
+        # Group movies by categories
+        cinema_movies = []
+        popular_movies = []
+        latest_movies = []
+        genre_movies = {genre_name: [] for genre_name in genres.values()}
+        
+        # Process all cached movies
+        for movie_data in self.cache.values():
+            movie = {
+                'id': movie_data['id'],
+                'title': movie_data['title'],
+                'release_date': movie_data['release_date'],
+                'vote_average': movie_data['vote_average'],
+                'poster_path': movie_data['poster_path'],
+                'genre_ids': movie_data['genre_ids']
+            }
+            
+            # Add to appropriate categories based on genres and rating
+            if movie_data['vote_average'] >= 7.5:
+                latest_movies.append(movie)
+            elif movie_data['vote_average'] >= 6.5:
+                popular_movies.append(movie)
+            else:
+                cinema_movies.append(movie)
+            
+            # Add to genre categories
+            for genre_id in movie_data['genre_ids']:
+                genre_name = genres.get(genre_id)
+                if genre_name:
+                    genre_movies[genre_name].append(movie)
+        
+        # Write sections
+        # 1. Film Al Cinema (limit 50)
+        print("\n1. Adding 'Film Al Cinema' section...")
+        file.write("# Al Cinema\n")
+        added_count = 0
+        for movie in cinema_movies[:50]:
+            if self._get_movie_entry_string(movie, genres, "Al Cinema"):
+                added_count += 1
+        print(f"   Added {added_count} movies to Al Cinema")
+        
+        # 2. Popolari (limit 50)
+        print("\n2. Adding 'Popolari' section...")
+        file.write("\n# Popolari\n")
+        added_count = 0
+        for movie in popular_movies[:50]:
+            if self._get_movie_entry_string(movie, genres, "Popolari"):
+                added_count += 1
+        print(f"   Added {added_count} movies to Popolari")
+        
+        # 3. Più Votati (limit 50)
+        print("\n3. Adding 'Più Votati' section...")
+        file.write("\n# Più Votati\n")
+        added_count = 0
+        for movie in latest_movies[:50]:
+            if self._get_movie_entry_string(movie, genres, "Più Votati"):
+                added_count += 1
+        print(f"   Added {added_count} movies to Più Votati")
+        
+        # 4. Genres
+        print("\n4. Adding genre-specific sections...")
+        for genre_name, movies in genre_movies.items():
+            if movies:  # Only add genres that have movies
+                print(f"   Adding '{genre_name}' section ({len(movies)} movies)...")
+                file.write(f"\n# {genre_name}\n")
+                # Ordina i film dal più nuovo al più vecchio
+                movies_sorted = sorted(
+                    movies,
+                    key=lambda m: m.get('release_date', ''),
+                    reverse=True
+                )
+                added_count = 0
+                for movie in movies_sorted:
+                    if self._get_movie_entry_string(movie, genres, genre_name):
+                        added_count += 1
+                print(f"      Added {added_count} movies to {genre_name}")
+    
+    def _get_all_movies_by_endpoint(self, endpoint, max_pages=500, limit=None):
+        """Get all movies from a specific endpoint using multithreading and cache"""
+        print(f"   Fetching {endpoint} movies (max {max_pages} pages, limit: {limit})...")
+        
+        # First, get the total number of pages
+        first_response = requests.get(f"{self.base_url}/movie/{endpoint}", params={
+            'api_key': self.api_key,
+            'page': 1,
+            'language': 'it-IT'
+        })
+        first_response.raise_for_status()
+        first_data = first_response.json()
+        total_pages = min(first_data['total_pages'], max_pages)
+        
+        print(f"   Total pages to fetch: {total_pages}")
+        
+        # Use ThreadPoolExecutor to fetch pages in parallel
+        all_movies = []
+        new_movies_count = 0
+        cached_movies_count = 0
+        
+        with ThreadPoolExecutor(max_workers=50) as executor:
+            # Submit all page requests
+            future_to_page = {
+                executor.submit(self._fetch_page, endpoint, page): page 
+                for page in range(1, total_pages + 1)
+            }
+            
+            # Collect results as they complete
+            completed = 0
+            for future in as_completed(future_to_page):
+                page = future_to_page[future]
+                try:
+                    movies = future.result()
+                    
+                    # Check cache for each movie
+                    for movie in movies:
+                        if self._is_movie_cached(movie):
+                            cached_movies_count += 1
+                        else:
+                            self._add_to_cache(movie)
+                            new_movies_count += 1
+                    
+                    all_movies.extend(movies)
+                    completed += 1
+                    if completed % 10 == 0:
+                        print(f"   Completed {completed}/{total_pages} pages... (New: {new_movies_count}, Cached: {cached_movies_count})")
+                except Exception as e:
+                    print(f"   Error fetching page {page}: {e}")
+        
+        # Apply limit if specified
+        if limit and len(all_movies) > limit:
+            all_movies = all_movies[:limit]
+            print(f"   Limited to {limit} movies")
+        
+        print(f"   Total {endpoint} movies: {len(all_movies)} (New: {new_movies_count}, Cached: {cached_movies_count})")
+        return all_movies
+    
+    def _fetch_page(self, endpoint, page):
+        """Fetch a single page of movies with optimized settings"""
+        url = f"{self.base_url}/movie/{endpoint}"
+        params = {
+            'api_key': self.api_key,
+            'page': page,
+            'language': 'it-IT'
+        }
+        
+        # Optimized request settings
+        session = requests.Session()
+        session.headers.update({
+            'User-Agent': 'TMDB-M3U-Generator/1.0',
+            'Accept': 'application/json'
+        })
+        
+        response = session.get(url, params=params, timeout=5)
+        response.raise_for_status()
+        data = response.json()
+        
+        return data['results']
+    
+    def _get_all_movies_by_genre(self, genre_id, max_pages=500):
+        """Get all movies for a specific genre using multithreading and cache"""
+        # First, get the total number of pages
+        first_response = requests.get(f"{self.base_url}/discover/movie", params={
+            'api_key': self.api_key,
+            'page': 1,
+            'language': 'it-IT',
+            'sort_by': 'popularity.desc',
+            'include_adult': False,
+            'include_video': False,
+            'with_genres': genre_id
+        })
+        first_response.raise_for_status()
+        first_data = first_response.json()
+        total_pages = min(first_data['total_pages'], max_pages)
+        
+        # Use ThreadPoolExecutor to fetch pages in parallel
+        all_movies = []
+        new_movies_count = 0
+        cached_movies_count = 0
+        
+        with ThreadPoolExecutor(max_workers=50) as executor:
+            # Submit all page requests
+            future_to_page = {
+                executor.submit(self._fetch_genre_page, genre_id, page): page 
+                for page in range(1, total_pages + 1)
+            }
+            
+            # Collect results as they complete
+            completed = 0
+            for future in as_completed(future_to_page):
+                page = future_to_page[future]
+                try:
+                    movies = future.result()
+                    
+                    # Check cache for each movie
+                    for movie in movies:
+                        if self._is_movie_cached(movie):
+                            cached_movies_count += 1
+                        else:
+                            self._add_to_cache(movie)
+                            new_movies_count += 1
+                    
+                    all_movies.extend(movies)
+                    completed += 1
+                    if completed % 10 == 0:
+                        print(f"      Completed {completed}/{total_pages} pages... (New: {new_movies_count}, Cached: {cached_movies_count})")
+                except Exception as e:
+                    print(f"      Error fetching genre page {page}: {e}")
+        
+        print(f"      Total genre movies: {len(all_movies)} (New: {new_movies_count}, Cached: {cached_movies_count})")
+        return all_movies
+    
+    def _fetch_genre_page(self, genre_id, page):
+        """Fetch a single page of movies for a specific genre with optimized settings"""
+        url = f"{self.base_url}/discover/movie"
+        params = {
+            'api_key': self.api_key,
+            'page': page,
+            'language': 'it-IT',
+            'sort_by': 'popularity.desc',
+            'include_adult': False,
+            'include_video': False,
+            'with_genres': genre_id
+        }
+        
+        # Optimized request settings
+        session = requests.Session()
+        session.headers.update({
+            'User-Agent': 'TMDB-M3U-Generator/1.0',
+            'Accept': 'application/json'
+        })
+        
+        response = session.get(url, params=params, timeout=5)
+        response.raise_for_status()
+        data = response.json()
+        
+        return data['results']
+    
+    def _get_vixsrc_m3u8_url(self, tmdb_id):
         """Extract direct .m3u8 URL from vixsrc.to page."""
         movie_page_url = f"{self.vixsrc_base}/{tmdb_id}/?lang=it"
-        async with self.semaphore:
-            try:
-                async with self.session.get(movie_page_url) as response:
-                    if response.status != 200:
-                        return None
-                    html = await response.text()
-                    
-                    soup = BeautifulSoup(html, "lxml", parse_only=SoupStrainer("body"))
-                    body_tag = soup.find("body")
-                    if not body_tag:
-                        return None
-                    script_tag = body_tag.find("script")
-                    if not script_tag or not script_tag.string:
-                        return None
+        try:
+            response = requests.get(movie_page_url, timeout=10)
+            response.raise_for_status()
 
-                    script_content = script_tag.string
-                    token_match = re.search(r"'token':\s*'(\w+)'", script_content)
-                    expires_match = re.search(r"'expires':\s*'(\d+)'", script_content)
-                    server_url_match = re.search(r"url:\s*'([^']+)'", script_content)
-
-                    if not (token_match and expires_match and server_url_match):
-                        return None
-
-                    token = token_match.group(1)
-                    expires = expires_match.group(1)
-                    server_url = server_url_match.group(1)
-
-                    if "?b=1" in server_url:
-                        final_url = f'{server_url}&token={token}&expires={expires}'
-                    else:
-                        final_url = f"{server_url}?token={token}&expires={expires}"
-                    
-                    if "window.canPlayFHD = true" in script_content:
-                        final_url += "&h=1"
-                    
-                    return final_url
-            except Exception:
+            # Using SoupStrainer for performance
+            soup = BeautifulSoup(response.text, "lxml", parse_only=SoupStrainer("body"))
+            script_tag = soup.find("body").find("script")
+            if not script_tag:
                 return None
 
-    async def _fetch_movie_with_url(self, movie, genres, group_title):
-        """Fetch m3u8 URL for a movie and return the M3U entry string."""
-        tmdb_id = movie['id']
-        url = await self._get_vixsrc_m3u8_url_async(tmdb_id)
-        
-        if not url:
+            script_content = script_tag.string
+            token_match = re.search(r"'token':\s*'(\w+)'", script_content)
+            expires_match = re.search(r"'expires':\s*'(\d+)'", script_content)
+            server_url_match = re.search(r"url:\s*'([^']+)'", script_content)
+
+            if not (token_match and expires_match and server_url_match):
+                return None
+
+            token = token_match.group(1)
+            expires = expires_match.group(1)
+            server_url = server_url_match.group(1)
+
+            if "?b=1" in server_url:
+                final_url = f'{server_url}&token={token}&expires={expires}'
+            else:
+                final_url = f"{server_url}?token={token}&expires={expires}"
+            
+            if "window.canPlayFHD = true" in script_content:
+                final_url += "&h=1"
+            
+            return final_url
+        except Exception as e:
+            # This error is noisy, we can suppress it or log it differently if needed.
+            # The function will return None, and the movie will be skipped.
             return None
+
+    def _get_movie_entry_string(self, movie, genres, group_title, movie_url):
+        """Generates the M3U entry string for a single movie."""
+        # tmdb_id = movie['id']
         
         title = movie['title']
         year = movie.get('release_date', '')[:4] if movie.get('release_date') else ''
+        
+        # Get rating and create stars
         rating = movie.get('vote_average', 0)
         stars = "★" * int(rating / 2) + "☆" * (5 - int(rating / 2)) if rating > 0 else "☆☆☆☆☆"
         
+        # Get all genres
+        genre_names = []
+        if movie.get('genre_ids') and movie['genre_ids']:
+            for genre_id in movie['genre_ids']:
+                genre_name = genres.get(genre_id, "")
+                if genre_name:
+                    genre_names.append(genre_name)
+        
+        # Get poster URL
         poster_path = movie.get('poster_path', '')
         tvg_logo = f"https://image.tmdb.org/t/p/w500{poster_path}" if poster_path else ""
         
-        display_title = f"{title} ({year}) {stars}"
+        # If we couldn't get the m3u8 url, skip this movie
+        if not movie_url:
+            return None
         
-        return f'#EXTINF:-1 type="movie" tvg-logo="{tvg_logo}" group-title="Film - {group_title}",{display_title}\n{url}\n'
+        # Create title with stars and genres
+        display_title = f"{title} ({year})"
+        
+        # Return M3U entry string
+        return f'#EXTINF:-1 type="movie" tvg-logo="{tvg_logo}" group-title="Film - {group_title}",{display_title}\n{movie_url}\n'
 
-    async def _fetch_section_entries_async(self, movies, genres, group_title):
-        """Fetch all movie URLs for a section in parallel."""
+    def _get_vixsrc_m3u8_url_with_movie(self, movie):
+        """Wrapper to fetch URL and return it with the movie data."""
+        tmdb_id = movie['id']
+        url = self._get_vixsrc_m3u8_url(tmdb_id)
+        return movie, url
+
+    def _fetch_section_entries_parallel(self, movies, genres, group_title):
+        """Fetches m3u8 URLs in parallel for a section and returns a list of M3U entry strings."""
         if not movies:
             return []
-        
-        print(f"   Fetching '{group_title}' section ({len(movies)} movies)...")
-        
-        tasks = [
-            self._fetch_movie_with_url(movie, genres, group_title)
-            for movie in movies
-        ]
-        
-        results = await asyncio.gather(*tasks, return_exceptions=True)
-        
-        section_entries = [f"\n# {group_title}\n"]
-        added_count = 0
-        for result in results:
-            if result and not isinstance(result, Exception):
-                section_entries.append(result)
-                added_count += 1
-        
-        print(f"      Added {added_count} movies to {group_title}")
-        return section_entries
 
-    async def create_complete_playlist_async(self):
-        await self.create_session()
+        section_entries = []
+        section_entries.append(f"\n# {group_title}\n")
         
-        try:
-            print("Creating complete M3U playlist asynchronously...")
-            genres = await self.get_movie_genres()
+        movies_with_urls = []
+        with ThreadPoolExecutor(max_workers=50) as executor:
+            future_to_movie = {executor.submit(self._get_vixsrc_m3u8_url_with_movie, movie): movie for movie in movies}
             
-            print(f"\nFetching movie details for {len(self.vixsrc_movies)} available movies...")
+            progress_bar = tqdm(as_completed(future_to_movie), total=len(movies), desc=f"   Fetching '{group_title}'", unit=" urls")
             
-            # Fetch movie details in parallel
-            tasks = [self._fetch_movie_details_async(tmdb_id) for tmdb_id in self.vixsrc_movies]
-            movies_data = await asyncio.gather(*tasks)
-            movies_data = [m for m in movies_data if m is not None]
+            for future in progress_bar:
+                movie, url = future.result()
+                if url:
+                    movies_with_urls.append((movie, url))
+
+        # Generate M3U strings sequentially
+        added_count = 0
+        for movie, url in movies_with_urls:
+            entry_string = self._get_movie_entry_string(movie, genres, group_title, url)
+            if entry_string:
+                section_entries.append(entry_string)
+                added_count += 1
+        print(f"   Added {added_count} movies to {group_title}")
+        return section_entries
+    
+
+    
+    def create_all_movies_playlist(self, pages=50, output_file="tmdb_movies.m3u"):
+        """Create playlist with all available movies"""
+        all_movies = []
+        
+        for page in range(1, pages + 1):
+            print(f"Fetching all movies page {page}...")
+            data = self.get_all_movies(page=page)
+            all_movies.extend(data['results'])
             
-            print(f"Successfully loaded {len(movies_data)} movie details")
-            
-            # Fetch category data
-            print("Fetching real category data from TMDB...")
-            
-            # Fetch popular movies (3 pages)
-            popular_tasks = [self.get_popular_movies(page=p) for p in range(1, 4)]
-            popular_results = await asyncio.gather(*popular_tasks)
-            popular_ids = set()
-            for result in popular_results:
-                if result:
-                    for movie in result.get('results', []):
-                        popular_ids.add(str(movie['id']))
-            
-            # Fetch now playing movies (2 pages)
-            cinema_tasks = [self.get_latest_movies(page=p) for p in range(1, 3)]
-            cinema_results = await asyncio.gather(*cinema_tasks)
-            cinema_ids = set()
-            for result in cinema_results:
-                if result:
-                    for movie in result.get('results', []):
-                        cinema_ids.add(str(movie['id']))
-            
-            # Fetch top rated movies (2 pages)
-            top_rated_tasks = [self.get_top_rated_movies(page=p) for p in range(1, 3)]
-            top_rated_results = await asyncio.gather(*top_rated_tasks)
-            top_rated_ids = set()
-            for result in top_rated_results:
-                if result:
-                    for movie in result.get('results', []):
-                        top_rated_ids.add(str(movie['id']))
-            
-            # Group movies by categories
-            cinema_movies = []
-            popular_movies = []
-            top_rated_movies = []
-            genre_movies = defaultdict(list)
-            
-            # FIX: corretto da "movies_" → "movies_data"
-            for movie in movies_data:
-                movie_id = str(movie['id'])
-                
-                if movie_id in cinema_ids:
-                    cinema_movies.append(movie)
-                if movie_id in popular_ids:
-                    popular_movies.append(movie)
-                if movie_id in top_rated_ids:
-                    top_rated_movies.append(movie)
-                
-                for genre_id in movie['genre_ids']:
-                    genre_name = genres.get(genre_id)
-                    if genre_name:
-                        genre_movies[genre_name].append(movie)
-            
-            # Fetch all entries in parallel
-            print("\nFetching all movie URLs...")
-            
-            all_entries = []
-            
-            # 1. Cinema movies (limit 50)
-            print("\n1. Adding 'Film Al Cinema' section...")
-            entries = await self._fetch_section_entries_async(cinema_movies[:50], genres, "Al Cinema")
-            all_entries.extend(entries)
-            
-            # 2. Popular movies (limit 50)
-            print("\n2. Adding 'Popolari' section...")
-            entries = await self._fetch_section_entries_async(popular_movies[:50], genres, "Popolari")
-            all_entries.extend(entries)
-            
-            # 3. Top rated movies (limit 50)
-            print("\n3. Adding 'Più Votati' section...")
-            entries = await self._fetch_section_entries_async(top_rated_movies[:50], genres, "Più Votati")
-            all_entries.extend(entries)
-            
-            # 4. Genres
-            print("\n4. Adding genre-specific sections...")
-            for genre_name, movies in genre_movies.items():
-                if movies:
-                    movies_sorted = sorted(
-                        movies,
-                        key=lambda m: m.get('release_date', ''),
-                        reverse=True
-                    )
-                    entries = await self._fetch_section_entries_async(movies_sorted, genres, genre_name)
-                    all_entries.extend(entries)
-            
-            # Write playlist
-            with open("film.m3u", 'w', encoding='utf-8') as f:
-                f.write("#EXTM3U\n")
-                f.write(f"#PLAYLIST:Film VixSrc ({len(movies_data)} Film)\n")
-                f.writelines(all_entries)
-            
-            self._save_cache()
-            print(f"\nComplete playlist generated successfully: film.m3u")
-            print(f"Cache updated with {len(self.cache)} total movies")
-            
-        finally:
-            await self.close_session()
+            # Check if we've reached the end
+            if page >= data['total_pages']:
+                break
+        
+        self.generate_m3u_playlist(all_movies, output_file)
+    
+    def create_latest_playlist(self, pages=3, output_file="tmdb_latest.m3u"):
+        """Create playlist with latest movies"""
+        all_movies = []
+        
+        for page in range(1, pages + 1):
+            print(f"Fetching latest movies page {page}...")
+            data = self.get_latest_movies(page=page)
+            all_movies.extend(data['results'])
+        
+        self.generate_m3u_playlist(all_movies, output_file)
 
 def main():
+    """Main function to run the generator"""
     try:
         generator = TMDBM3UGenerator()
-        asyncio.run(generator.create_complete_playlist_async())
-        print("\nPlaylist generated successfully!")
+        
+        print("TMDB M3U Playlist Generator")
+        print("=" * 40)
+        
+        # Create complete playlist
+        generator.create_complete_playlist()
+        
+        print("\nAll playlists generated successfully!")
+        
+
+        
     except Exception as e:
         print(f"Error: {e}")
         print("\nMake sure to set your TMDB_API_KEY environment variable:")
@@ -365,4 +834,4 @@ def main():
         print("2. Create a .env file with: TMDB_API_KEY=your_api_key_here")
 
 if __name__ == "__main__":
-    main()
+    main() 
