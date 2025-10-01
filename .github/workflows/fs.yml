@@ -1,0 +1,66 @@
+name: Film & Series M3U Playlist Generator
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'film.py'
+      - 'serie.py'
+  schedule:
+    - cron: '0 6 * * *'
+
+env:
+  PYTHON_VERSION: "3.11"
+
+jobs:
+  generate-playlists:
+    name: Generate M3U Playlists
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests>=2.31.0 python-dotenv>=1.0.0 beautifulsoup4 lxml tqdm
+
+    - name: Generate movie playlist
+      env:
+        TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      run: |
+        echo "🎬 Running film.py..."
+        python film.py
+
+    - name: Generate series playlist
+      env:
+        TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+      run: |
+        echo "📺 Running serie.py..."
+        python serie.py
+
+    - name: List only target files
+      run: |
+        echo "📊 Film & Series files generated:"
+        ls -la film.m3u serie.m3u film_cache.json serie_cache.json 2>/dev/null || echo "Some target files missing"
+
+    - name: Upload only film & series playlists
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: film-series-playlists-${{ github.run_number }}
+        path: |
+          film.m3u
+          serie.m3u
+          film_cache.json
+          serie_cache.json
+        retention-days: 30
+     
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
