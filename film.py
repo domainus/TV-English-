@@ -45,7 +45,8 @@ class TMDBM3UGenerator:
             data = response.json()
             
             vixsrc_ids = set()
-            for item in 
+            # FIX: aggiunto "for item in data:"
+            for item in data:
                 if item.get('tmdb_id') and item['tmdb_id'] is not None:
                     vixsrc_ids.add(str(item['tmdb_id']))
             
@@ -111,7 +112,8 @@ class TMDBM3UGenerator:
         url = f"{self.base_url}/genre/movie/list"
         params = {'api_key': self.api_key, 'language': 'it-IT'}
         data = await self._get_json(url, params)
-        if not 
+        # FIX: aggiunto controllo "if not data:"
+        if not data:
             return {}
         return {genre['id']: genre['name'] for genre in data.get('genres', [])}
 
@@ -134,7 +136,8 @@ class TMDBM3UGenerator:
         url = f"{self.base_url}/movie/{tmdb_id}"
         params = {'api_key': self.api_key, 'language': 'it-IT'}
         data = await self._get_json(url, params)
-        if not 
+        # FIX: aggiunto controllo "if not data:"
+        if not data:
             return None
         
         # Cache the result
@@ -289,7 +292,8 @@ class TMDBM3UGenerator:
             top_rated_movies = []
             genre_movies = defaultdict(list)
             
-            for movie in movies_
+            # FIX: corretto da "movies_" → "movies_data"
+            for movie in movies_data:
                 movie_id = str(movie['id'])
                 
                 if movie_id in cinema_ids:
