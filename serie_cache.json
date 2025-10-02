@@ -46790,5 +46790,524 @@
       99
     ],
     "cached_at": "2025-10-01T12:51:50.339063"
+  },
+  "217658": {
+    "id": 217658,
+    "name": "L’isola delle forme",
+    "original_name": "Shape Island",
+    "first_air_date": "2023-01-19",
+    "vote_average": 6.8,
+    "poster_path": "/sdbJFqsN9LmzK4IAr4U6ambxCwz.jpg",
+    "genre_ids": [
+      10762,
+      10751,
+      16
+    ],
+    "cached_at": "2025-10-02T06:17:14.618105"
+  },
+  "219066": {
+    "id": 219066,
+    "name": "División Palermo",
+    "original_name": "División Palermo",
+    "first_air_date": "2023-02-17",
+    "vote_average": 7.912,
+    "poster_path": "/laaJiZLYJnuuFWV5IGQ51XX8ujJ.jpg",
+    "genre_ids": [
+      35,
+      80
+    ],
+    "cached_at": "2025-10-02T06:17:14.663308"
+  },
+  "128721": {
+    "id": 128721,
+    "name": "武林有侠气",
+    "original_name": "武林有侠气",
+    "first_air_date": "2023-01-29",
+    "vote_average": 5.5,
+    "poster_path": "/l9Qn1Ai4wsTkhzwhaRp9wIk1VO8.jpg",
+    "genre_ids": [
+      18,
+      35,
+      10765
+    ],
+    "cached_at": "2025-10-02T06:17:14.667306"
+  },
+  "200865": {
+    "id": 200865,
+    "name": "Drag Race Belgique",
+    "original_name": "Drag Race Belgique",
+    "first_air_date": "2023-02-16",
+    "vote_average": 5.5,
+    "poster_path": "/cfq1DNI9zKXBQjCsiwEUQYPWZye.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-02T06:17:14.670200"
+  },
+  "218529": {
+    "id": 218529,
+    "name": "LOL: Last One Laughing Nederland",
+    "original_name": "LOL: Last One Laughing Nederland",
+    "first_air_date": "2023-01-20",
+    "vote_average": 7.0,
+    "poster_path": "/wKcRTJbhk5iUiBmZypqZn3h9PsY.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-02T06:17:14.734344"
+  },
+  "218184": {
+    "id": 218184,
+    "name": "The Exchange",
+    "original_name": "الصفقة",
+    "first_air_date": "2023-02-08",
+    "vote_average": 7.9,
+    "poster_path": "/tj3o3nhuBZbZsrmcTFTtqlsvrjM.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-02T06:17:14.737170"
+  },
+  "196157": {
+    "id": 196157,
+    "name": "星落凝成糖",
+    "original_name": "星落凝成糖",
+    "first_air_date": "2023-02-16",
+    "vote_average": 7.1,
+    "poster_path": "/13rxdtq1RXHccFs4DbU3EfXfObY.jpg",
+    "genre_ids": [
+      18,
+      10765,
+      35
+    ],
+    "cached_at": "2025-10-02T06:17:14.739313"
+  },
+  "137430": {
+    "id": 137430,
+    "name": "Mila nel Multiverso",
+    "original_name": "Mila no Multiverso",
+    "first_air_date": "2023-01-25",
+    "vote_average": 7.0,
+    "poster_path": "/3ylBuPn9nzpf2PsdkuEoceULM0o.jpg",
+    "genre_ids": [
+      10765,
+      10759
+    ],
+    "cached_at": "2025-10-02T06:17:14.804218"
+  },
+  "206935": {
+    "id": 206935,
+    "name": "Work It Out Wombats!",
+    "original_name": "Work It Out Wombats!",
+    "first_air_date": "2023-02-06",
+    "vote_average": 4.5,
+    "poster_path": "/yMZsUkomWVexAXMwee5GLtJQJwY.jpg",
+    "genre_ids": [
+      16,
+      10762
+    ],
+    "cached_at": "2025-10-02T06:17:14.806815"
+  },
+  "139396": {
+    "id": 139396,
+    "name": "La notte che non passerà",
+    "original_name": "Todo Dia a Mesma Noite",
+    "first_air_date": "2023-01-25",
+    "vote_average": 7.7,
+    "poster_path": "/1WBU34GCkHd3LRHUMfUlY091y6j.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-02T06:17:14.809340"
+  },
+  "211642": {
+    "id": 211642,
+    "name": "Bling Empire: New York",
+    "original_name": "Bling Empire: New York",
+    "first_air_date": "2023-01-20",
+    "vote_average": 6.1,
+    "poster_path": "/7HXj6KA0XtQn6t7em6LXGIPUpvO.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-02T06:17:14.879347"
+  },
+  "219819": {
+    "id": 219819,
+    "name": "The Romantics",
+    "original_name": "The Romantics",
+    "first_air_date": "2023-02-14",
+    "vote_average": 6.4,
+    "poster_path": "/hOBiDTcHsZBqZYYTAuC9oSJUNKf.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-02T06:17:14.879359"
+  },
+  "210596": {
+    "id": 210596,
+    "name": "重紫",
+    "original_name": "重紫",
+    "first_air_date": "2023-02-15",
+    "vote_average": 7.0,
+    "poster_path": "/wKpdkrunZw9L7b7At1jMkLznQUr.jpg",
+    "genre_ids": [
+      18,
+      10765
+    ],
+    "cached_at": "2025-10-02T06:17:14.882343"
+  },
+  "128712": {
+    "id": 128712,
+    "name": "君子盟",
+    "original_name": "君子盟",
+    "first_air_date": "2023-01-30",
+    "vote_average": 7.5,
+    "poster_path": "/nEfBP8EjcQpZw5FdMe9c5jY4TjV.jpg",
+    "genre_ids": [
+      18,
+      9648,
+      10759
+    ],
+    "cached_at": "2025-10-02T06:17:14.949340"
+  },
+  "137800": {
+    "id": 137800,
+    "name": "九霄寒夜暖",
+    "original_name": "九霄寒夜暖",
+    "first_air_date": "2023-02-25",
+    "vote_average": 5.8,
+    "poster_path": "/l21PJMbDncH9hywinObqfJyCssW.jpg",
+    "genre_ids": [
+      18,
+      9648,
+      10765
+    ],
+    "cached_at": "2025-10-02T06:17:14.952013"
+  },
+  "219067": {
+    "id": 219067,
+    "name": "Sem Filtro",
+    "original_name": "Sem Filtro",
+    "first_air_date": "2023-02-15",
+    "vote_average": 6.8,
+    "poster_path": "/i9gpo9Y66SXSllFnoSpoeoalFL9.jpg",
+    "genre_ids": [
+      35,
+      18,
+      10767
+    ],
+    "cached_at": "2025-10-02T06:17:14.954930"
+  },
+  "220344": {
+    "id": 220344,
+    "name": "温德瑞拉日记",
+    "original_name": "温德瑞拉日记",
+    "first_air_date": "2023-02-13",
+    "vote_average": 7.2,
+    "poster_path": "/2CqOrhCSwbs7Opfk5AusqaxFoeZ.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "cached_at": "2025-10-02T06:17:15.021711"
+  },
+  "221048": {
+    "id": 221048,
+    "name": "Il mostro delle Ardenne: nella testa di Monique Olivier",
+    "original_name": "L'Affaire Fourniret : Dans la tête de Monique Olivier",
+    "first_air_date": "2023-03-02",
+    "vote_average": 7.3,
+    "poster_path": "/fhLwPsElgBf98R6gYFtJH1mWlHj.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-02T06:17:15.024575"
+  },
+  "139518": {
+    "id": 139518,
+    "name": "Il Santo",
+    "original_name": "Santo Maldito",
+    "first_air_date": "2023-02-08",
+    "vote_average": 6.8,
+    "poster_path": "/etjzGaHwiDRR2JCDlVVGvAyzWM4.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-02T06:17:15.028133"
+  },
+  "221490": {
+    "id": 221490,
+    "name": "Real Madrid - ¡Hasta el final!",
+    "original_name": "Real Madrid: Hasta el final",
+    "first_air_date": "2023-03-09",
+    "vote_average": 8.0,
+    "poster_path": "/vOh9FFP75eiyPTV67TYo5Y9QAS8.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-02T06:17:15.091927"
+  },
+  "220337": {
+    "id": 220337,
+    "name": "夏花",
+    "original_name": "夏花",
+    "first_air_date": "2023-02-13",
+    "vote_average": 6.0,
+    "poster_path": "/fySQ5Ekj5N9WqSAosUUkdwTHvlg.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-02T06:17:15.095812"
+  },
+  "215471": {
+    "id": 215471,
+    "name": "Chiamalo amore",
+    "original_name": "사랑이라 말해요",
+    "first_air_date": "2023-02-22",
+    "vote_average": 8.271,
+    "poster_path": "/tUuWmaQQvPTjTfWen9g9HQVbxBe.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-02T06:17:15.102732"
+  },
+  "200870": {
+    "id": 200870,
+    "name": "Drag Race Sverige",
+    "original_name": "Drag Race Sverige",
+    "first_air_date": "2023-03-05",
+    "vote_average": 5.6,
+    "poster_path": "/qehQWauvewn0dD1tOvS6Pv0pqfJ.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-02T06:17:15.163000"
+  },
+  "131435": {
+    "id": 131435,
+    "name": "7 Toughest Days",
+    "original_name": "7 Toughest Days",
+    "first_air_date": "2023-02-07",
+    "vote_average": 2.0,
+    "poster_path": "/qXSj2EKPK2X6vQNeIt6BDyNZTHg.jpg",
+    "genre_ids": [
+      10764,
+      99
+    ],
+    "cached_at": "2025-10-02T06:17:15.165782"
+  },
+  "220521": {
+    "id": 220521,
+    "name": "소년을 위로해줘",
+    "original_name": "소년을 위로해줘",
+    "first_air_date": "2023-03-14",
+    "vote_average": 7.1,
+    "poster_path": "/qnxBRoFR65xpJEgBySmpNO7NfOh.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-02T06:17:15.180321"
+  },
+  "220783": {
+    "id": 220783,
+    "name": "名アシスト有吉",
+    "original_name": "名アシスト有吉",
+    "first_air_date": "2023-03-14",
+    "vote_average": 7.8,
+    "poster_path": "/jBFQKSQ51WweZl4wg3W70oATrv0.jpg",
+    "genre_ids": [
+      35,
+      10764
+    ],
+    "cached_at": "2025-10-02T06:17:15.237550"
+  },
+  "202213": {
+    "id": 202213,
+    "name": "La pazza storia del mondo, Parte II",
+    "original_name": "History of the World: Part II",
+    "first_air_date": "2023-03-06",
+    "vote_average": 5.7,
+    "poster_path": "/hpA1rgsX4FA8x2985Pp2hr5VyZl.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-02T06:17:15.237566"
+  },
+  "218530": {
+    "id": 218530,
+    "name": "Murdaugh Murders - Scandalo nel profondo sud",
+    "original_name": "Murdaugh Murders: A Southern Scandal",
+    "first_air_date": "2023-02-22",
+    "vote_average": 6.7,
+    "poster_path": "/p1AO0j9hUoWEgyYQbeZizn9mh9c.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-02T06:17:15.239709"
+  },
+  "128300": {
+    "id": 128300,
+    "name": "Il grido delle farfalle",
+    "original_name": "El grito de las mariposas",
+    "first_air_date": "2023-03-08",
+    "vote_average": 7.167,
+    "poster_path": "/nxIRd9XjyETqw4uWSpCtupa29hv.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-02T06:17:15.306164"
+  },
+  "220650": {
+    "id": 220650,
+    "name": "Dance 100",
+    "original_name": "Dance 100",
+    "first_air_date": "2023-03-17",
+    "vote_average": 6.0,
+    "poster_path": "/hD3F4iXS2w8vfkcqSsuvcUJ1m1h.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-02T06:17:15.308562"
+  },
+  "220561": {
+    "id": 220561,
+    "name": "주류일절",
+    "original_name": "주류일절",
+    "first_air_date": "2023-03-02",
+    "vote_average": 6.7,
+    "poster_path": "/qRco8plBrzSsVr6BPrXQgmaf78D.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-02T06:17:15.310067"
+  },
+  "221517": {
+    "id": 221517,
+    "name": "Monster Factory",
+    "original_name": "Monster Factory",
+    "first_air_date": "2023-03-16",
+    "vote_average": 6.4,
+    "poster_path": "/scTVVGwaEQiWAzBqjnjyBaF1QBe.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-02T06:17:15.374960"
+  },
+  "220115": {
+    "id": 220115,
+    "name": "Outlast - Gioco di squadra",
+    "original_name": "Outlast",
+    "first_air_date": "2023-03-10",
+    "vote_average": 6.2,
+    "poster_path": "/xPvFth5XCdF7TfpPOFvMUXYOpsQ.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-02T06:17:15.376772"
+  },
+  "221166": {
+    "id": 221166,
+    "name": "La maledizione del sangue",
+    "original_name": "Teluh Darah",
+    "first_air_date": "2023-02-25",
+    "vote_average": 7.2,
+    "poster_path": "/crN3gHVJiMrsj2ckg3NCahuJHI2.jpg",
+    "genre_ids": [
+      9648
+    ],
+    "cached_at": "2025-10-02T06:17:15.378919"
+  },
+  "107593": {
+    "id": 107593,
+    "name": "My Kind of Country",
+    "original_name": "My Kind of Country",
+    "first_air_date": "2023-03-23",
+    "vote_average": 5.0,
+    "poster_path": "/kKbfqabw9WsxgG1zsE2PJuSMujx.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-02T06:17:15.446092"
+  },
+  "221449": {
+    "id": 221449,
+    "name": "花琉璃轶闻",
+    "original_name": "花琉璃轶闻",
+    "first_air_date": "2023-03-15",
+    "vote_average": 6.0,
+    "poster_path": "/pfwcEwNVBPyVTbzsUrtpXIfdH45.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "cached_at": "2025-10-02T06:17:15.448491"
+  },
+  "218476": {
+    "id": 218476,
+    "name": "나는 신이다: 신이 배신한 사람들",
+    "original_name": "나는 신이다: 신이 배신한 사람들",
+    "first_air_date": "2023-03-03",
+    "vote_average": 7.9,
+    "poster_path": "/WQ3CR3ETqTen0jrpid7fuBzbKS.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-02T06:17:15.450775"
+  },
+  "220595": {
+    "id": 220595,
+    "name": "Kiya e i supereroi di Kimoja",
+    "original_name": "Kiya & the Kimoja Heroes",
+    "first_air_date": "2023-03-22",
+    "vote_average": 6.7,
+    "poster_path": "/hc8Qz7v5g2PfmuLW3P518jz4w8I.jpg",
+    "genre_ids": [
+      16,
+      10762
+    ],
+    "cached_at": "2025-10-02T06:17:15.595077"
+  },
+  "110126": {
+    "id": 110126,
+    "name": "Agent Elvis",
+    "original_name": "Agent Elvis",
+    "first_air_date": "2023-03-17",
+    "vote_average": 6.7,
+    "poster_path": "/9iFMG4zyAkLnvfEwNqIiiEEQ342.jpg",
+    "genre_ids": [
+      16,
+      35,
+      10759
+    ],
+    "cached_at": "2025-10-02T06:17:15.597676"
+  },
+  "222927": {
+    "id": 222927,
+    "name": "春家小姐是讼师",
+    "original_name": "春家小姐是讼师",
+    "first_air_date": "2023-03-24",
+    "vote_average": 3.5,
+    "poster_path": "/3Qf7uwzVO3nt4XVYWq9lHKX9FkJ.jpg",
+    "genre_ids": [
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-02T06:17:15.665858"
+  },
+  "127447": {
+    "id": 127447,
+    "name": "Ringo. Ascesa e Caduta",
+    "original_name": "Ringo, gloria y muerte",
+    "first_air_date": "2023-03-24",
+    "vote_average": 7.5,
+    "poster_path": "/zAb40YBShI1Uc8bb99seJDoPzBX.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-02T06:17:15.735863"
   }
 }
