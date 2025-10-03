@@ -3471,6 +3471,207 @@ def sportsonline():
     if __name__ == "__main__":
         main()
 
+def streamed():
+    import requests
+    import re
+    import json
+    from datetime import datetime
+    import subprocess
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    import threading
+    
+    # URL delle API
+    API_MATCHES_URL = "https://streamed.pk/api/matches/all-today"
+    API_STREAM_BASE_URL = "https://streamed.pk/api/stream/{source}/{stream_id}"
+    
+    # Intestazioni per simulare un browser
+    HEADERS = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Referer": "https://streamed.pk/"
+    }
+    
+    def get_m3u8_with_playwright(embed_url):
+        """
+        Usa Playwright per estrarre l'URL m3u8 da siti con protezione anti-bot.
+        """
+        try:
+            result = subprocess.run(
+                ['node', 'extract-m3u8.js', embed_url],
+                capture_output=True,
+                text=True,
+                timeout=20
+            )
+            
+            if result.returncode == 0 and result.stdout.strip():
+                m3u8_url = result.stdout.strip()
+                if '.m3u8' in m3u8_url:
+                    print(f"  - Playwright ha trovato: {m3u8_url}")
+                    return m3u8_url
+                else:
+                    print(f"  - URL non valido (non m3u8): {m3u8_url}")
+            
+            print(f"  - Playwright non ha trovato m3u8")
+                
+        except subprocess.TimeoutExpired:
+            print("  - Timeout Playwright (20s)")
+        except Exception as e:
+            print(f"  - Errore Playwright: {e}")
+            
+        return None
+    
+    def get_m3u8_from_embed(embed_url, is_original=False):
+        """
+        Visita l'URL di embed e cerca un link .m3u8 nel contenuto HTML.
+        Se is_original=True, usa Playwright per siti anti-bot.
+        """
+        if is_original:
+            print(f"  - Stream Original rilevato, uso Playwright...")
+            return get_m3u8_with_playwright(embed_url)
+        
+        try:
+            response = requests.get(embed_url, headers=HEADERS, timeout=10)
+            response.raise_for_status()
+            
+            # Cerca un URL che finisce con .m3u8, anche se è dentro virgolette
+            match = re.search(r'["\'](https?://[^\'"]+\.m3u8[^"\']*)["\']', response.text)
+            
+            if match:
+                return match.group(1)
+                
+        except requests.exceptions.RequestException as e:
+            print(f"  - Errore nel recuperare l'embed URL {embed_url}: {e}")
+            
+        return None
+    
+    # Lock per scrittura file thread-safe
+    file_lock = threading.Lock()
+    
+    def process_match(match):
+        """
+        Processa una singola partita e restituisce i dati.
+        """
+        title = match.get('title', 'Titolo Sconosciuto')
+        category = match.get('category', 'Sport').capitalize()
+        sources = match.get('sources', [])
+        poster_path = match.get('poster', '')
+        logo_url = f"https://streamed.pk{poster_path}" if poster_path else ""
+    
+        time_str = ""
+        timestamp_ms = match.get('date')
+        if timestamp_ms:
+            try:
+                time_str = datetime.fromtimestamp(timestamp_ms / 1000).strftime('%H:%M')
+            except (ValueError, TypeError):
+                pass
+        
+        print(f"\nAnalizzo partita: {title} ({category})")
+        
+        for source_info in sources:
+            source = source_info.get('source')
+            stream_id = source_info.get('id')
+    
+            if not source or not stream_id:
+                continue
+    
+            print(f"  - Provo la fonte: {source}")
+            
+            stream_api_url = API_STREAM_BASE_URL.format(source=source, stream_id=stream_id)
+            
+            try:
+                stream_details_response = requests.get(stream_api_url, headers=HEADERS, timeout=10)
+                stream_details_response.raise_for_status()
+                streams = stream_details_response.json()
+    
+                if not streams:
+                    continue
+    
+                target_stream = None
+                
+                for stream in streams:
+                    if stream.get('language', '').lower() in ('italiano', 'italian'):
+                        target_stream = stream
+                        break
+                
+                if not target_stream:
+                    for stream in streams:
+                        if stream.get('language', '').lower() in ('english', 'en'):
+                            target_stream = stream
+                            break
+                
+                if not target_stream:
+                    target_stream = streams[0]
+                    
+                language = target_stream.get('language', 'N/A')
+                embed_url = target_stream.get('embedUrl')
+    
+                if not embed_url:
+                    continue
+                    
+                print(f"  - Trovato stream in '{language}'. Cerco il link m3u8 da: {embed_url}")
+    
+                m3u8_link = get_m3u8_with_playwright(embed_url)
+    
+                if m3u8_link:
+                    print(f"  - Link M3U8 trovato: {m3u8_link}")
+                    
+                    channel_name = f"{category} | {title} | {time_str}"
+                    m3u_entry = (
+                        f'#EXTINF:-1 tvg-id="" tvg-logo="{logo_url}" tvg-name="{channel_name} ({language})" group-title="{category}",{channel_name} ({language})\n'
+                        f'{m3u8_link}'
+                    )
+                    
+                    return (m3u_entry, m3u8_link)
+    
+            except Exception as e:
+                print(f"  - Errore: {e}")
+                continue
+        
+        return None
+    
+    def create_m3u_playlist():
+        """
+        Funzione principale per creare la playlist M3U.
+        """
+        m3u_content = ["#EXTM3U"]
+        
+        try:
+            # 1. Ottieni la lista delle partite
+            print("Recupero la lista delle partite di oggi...")
+            matches_response = requests.get(API_MATCHES_URL, headers=HEADERS, timeout=15)
+            matches_response.raise_for_status()
+            matches = matches_response.json()
+            print(f"Trovate {len(matches)} partite.")
+    
+            # 2. Processa le partite in parallelo (max 5 contemporaneamente)
+            with ThreadPoolExecutor(max_workers=3) as executor:
+                futures = {executor.submit(process_match, match): match for match in matches}
+                
+                for future in as_completed(futures):
+                    result = future.result()
+                    if result:
+                        m3u_entry, _ = result
+                        m3u_content.append(m3u_entry)
+            
+            # Codice vecchio rimosso
+            if False:
+                match = None
+                pass
+    
+        except requests.exceptions.RequestException as e:
+            print(f"Errore critico nel recuperare la lista delle partite: {e}")
+            return
+    
+        # 7. Scrivi il file M3U
+        with open("playlist.m3u", "w", encoding="utf-8") as f:
+            f.write("\n".join(m3u_content))
+        
+        print("\nFinito! La playlist è stata salvata nel file 'playlist.m3u'.")
+        print(f"Trovati e aggiunti {len(m3u_content) - 1} link alla playlist.")
+    
+    
+    if __name__ == "__main__":
+        create_m3u_playlist()
+
 def removerworld():
     import os
     
@@ -3581,6 +3782,12 @@ def main():
             sportsonline()
         except Exception as e:
             print(f"Errore durante l'esecuzione di sportsonline: {e}")
+            return
+
+        try:
+            streamed()
+        except Exception as e:
+            print(f"Errore durante l'esecuzione di streamed: {e}")
             return
         
         # Canali World e Merge finale
