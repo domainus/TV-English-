@@ -3510,7 +3510,10 @@ def streamed():
                 else:
                     print(f"  - URL non valido (non m3u8): {m3u8_url}")
             
-            print(f"  - Playwright non ha trovato m3u8")
+            if result.stderr:
+                print(f"  - Errore da Playwright: {result.stderr.strip()}")
+            else:
+                print(f"  - Playwright non ha trovato m3u8")
                 
         except subprocess.TimeoutExpired:
             print("  - Timeout Playwright (20s)")
