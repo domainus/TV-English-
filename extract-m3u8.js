@@ -7,8 +7,7 @@ const { chromium } = require('playwright');
   }
 
   const browser = await chromium.launch({
-    headless: false,
-    channel: 'chrome',
+    headless: true, // Obbligatorio per l'esecuzione su server
     args: [
       '--disable-blink-features=AutomationControlled',
       '--autoplay-policy=no-user-gesture-required'
@@ -16,7 +15,11 @@ const { chromium } = require('playwright');
   });
 
   const context = await browser.newContext({
-    viewport: { width: 1920, height: 1080 }
+    viewport: { width: 1920, height: 1080 },
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+    // Bypassa la geolocalizzazione e il fuso orario per sembrare un utente normale
+    locale: 'it-IT',
+    timezoneId: 'Europe/Rome',
   });
 
   const page = await context.newPage();
@@ -33,7 +36,18 @@ const { chromium } = require('playwright');
   });
 
   try {
-    await page.goto(targetUrl, { waitUntil: 'networkidle', timeout: 15000 });
+    await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 25000 });
+
+    // Tenta di chiudere i banner dei cookie/privacy
+    const cookieBanners = [
+      page.locator('button:has-text("Accept")'),
+      page.locator('button:has-text("Agree")'),
+      page.locator('button:has-text("Accetta")'),
+      page.locator('button:has-text("Consenti")')
+    ];
+    for (const banner of cookieBanners) {
+      await banner.click({ timeout: 1000 }).catch(() => {});
+    }
 
     const playerSelectors = ['#player', '.player', '[data-player]', 'video', 'iframe'];
     let playerElement = null;
@@ -44,7 +58,7 @@ const { chromium } = require('playwright');
         if (await playerElement.isVisible({ timeout: 2000 })) {
           break;
         }
-      } catch (e) {
+      } catch (error) {
         continue;
       }
     }
@@ -53,8 +67,8 @@ const { chromium } = require('playwright');
       try {
         const [response] = await Promise.all([
           page.waitForResponse(
-            res => res.url().includes('.m3u8'),
-            { timeout: 10000 }
+            res => res.ok() && res.url().includes('.m3u8'),
+            { timeout: 15000 }
           ),
           playerElement.click({ force: true })
         ]);
@@ -62,7 +76,9 @@ const { chromium } = require('playwright');
         console.log(response.url());
         await browser.close();
         process.exit(0);
-      } catch (e) {}
+      } catch (error) {
+        console.error("Errore durante il click sul player o attesa della risposta:", error.message);
+      }
     }
 
     if (responses.length > 0) {
@@ -73,7 +89,8 @@ const { chromium } = require('playwright');
       await browser.close();
       process.exit(1);
     }
-  } catch (e) {
+  } catch (error) {
+    console.error("Errore generale in Playwright:", error.message);
     await browser.close();
     process.exit(1);
   }
