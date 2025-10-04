@@ -258,6 +258,12 @@ def epg_merger():
     with open(output_xml, 'wb') as f_out:
         tree_finale.write(f_out, encoding='utf-8', xml_declaration=True)
     print(f"File XML salvato: {output_xml}")
+
+    # Salvare anche il file GZIP
+    output_gz = output_xml + '.gz'
+    with gzip.open(output_gz, 'wb') as f_gz:
+        tree_finale.write(f_gz, encoding='utf-8', xml_declaration=True)
+    print(f"File GZIP salvato: {output_gz}")
              
 # Funzione per il terzo script (eventi_m3u8_generator.py)
 def eventi_m3u8_generator_world():
