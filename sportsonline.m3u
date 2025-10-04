@@ -1,11 +1,6 @@
 #EXTM3U
-#EXTINF:-1 group-title="Eventi Live sportsonline",Atalanta x Como 20:45
-#EXTVLCOPT:http-origin=https://restlessouter.net
-#EXTVLCOPT:http-referrer=https://restlessouter.net/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
-https://bdrgqp.6670391863.store:8443/hls/71urpyq.m3u8?s=qw4G9VAHzbUrrSB7YpUahQ&e=1759630596
 #EXTINF:-1 group-title="Eventi Live sportsonline",Argentina U20 x Italy U20 01:00
 #EXTVLCOPT:http-origin=https://restlessouter.net
 #EXTVLCOPT:http-referrer=https://restlessouter.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
-https://bdrgqp.6670391863.store:8443/hls/71urpyq.m3u8?s=qw4G9VAHzbUrrSB7YpUahQ&e=1759630596
+https://bdrgqp.6670391863.store:8443/hls/qgdzborpo.m3u8?s=U7Fvvo4-zgXs5YbeMHzimA&e=1759635891
