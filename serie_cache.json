@@ -47991,5 +47991,756 @@
       99
     ],
     "cached_at": "2025-10-03T06:16:54.622142"
+  },
+  "158900": {
+    "id": 158900,
+    "name": "La Zona: Missione Sopravvivenza",
+    "original_name": "더 존: 버텨야 산다",
+    "first_air_date": "2022-09-08",
+    "vote_average": 7.1,
+    "poster_path": "/l4Weq403SSykaG5omJE21Coc3f8.jpg",
+    "genre_ids": [
+      10764,
+      35
+    ],
+    "cached_at": "2025-10-04T06:15:20.304339"
+  },
+  "208925": {
+    "id": 208925,
+    "name": "Il diario di un gigolò",
+    "original_name": "Diario de un Gigoló",
+    "first_air_date": "2022-09-07",
+    "vote_average": 7.8,
+    "poster_path": "/jLK84apEYisfN04pfGINzL5EcFu.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:20.322786"
+  },
+  "204070": {
+    "id": 204070,
+    "name": "Perche' dimentichiamo ogni cosa",
+    "original_name": "すべて忘れてしまうから",
+    "first_air_date": "2022-09-14",
+    "vote_average": 7.8,
+    "poster_path": "/81xIRcVwlZOPA3vAvmJry6q67uk.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:20.356804"
+  },
+  "209072": {
+    "id": 209072,
+    "name": "Follower in cerca d’amore",
+    "original_name": "¿A quién le gusta mi follower?",
+    "first_air_date": "2022-09-08",
+    "vote_average": 6.3,
+    "poster_path": "/nWsdtT8a0MqVOVUhCenVdTS2gLq.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:20.413451"
+  },
+  "155491": {
+    "id": 155491,
+    "name": "Le combattenti",
+    "original_name": "Les Combattantes",
+    "first_air_date": "2022-09-19",
+    "vote_average": 7.063,
+    "poster_path": "/3pjmXpvWwEU4e9GFioGMwIsHBkM.jpg",
+    "genre_ids": [
+      18,
+      10768
+    ],
+    "cached_at": "2025-10-04T06:15:20.413465"
+  },
+  "157210": {
+    "id": 157210,
+    "name": "Growing Up",
+    "original_name": "Growing Up",
+    "first_air_date": "2022-09-08",
+    "vote_average": 6.7,
+    "poster_path": "/cCulbsbystHiTziUscwCQ1SdfQM.jpg",
+    "genre_ids": [
+      99,
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:20.429051"
+  },
+  "210003": {
+    "id": 210003,
+    "name": "你安全吗？",
+    "original_name": "你安全吗？",
+    "first_air_date": "2022-09-11",
+    "vote_average": 7.4,
+    "poster_path": "/qLPfSF8AbJ1p8wACVD5YOLd4QwV.jpg",
+    "genre_ids": [
+      18,
+      10759
+    ],
+    "cached_at": "2025-10-04T06:15:20.462372"
+  },
+  "207941": {
+    "id": 207941,
+    "name": "Iron Chef: Mexico",
+    "original_name": "Iron Chef: Mexico",
+    "first_air_date": "2022-09-21",
+    "vote_average": 7.3,
+    "poster_path": "/ypjZXTThTQ9L0CYaw2n4GaqWx56.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:20.488153"
+  },
+  "208952": {
+    "id": 208952,
+    "name": "Aftershock: il terremoto in Nepal del 2015",
+    "original_name": "Aftershock: Everest and the Nepal Earthquake",
+    "first_air_date": "2022-09-14",
+    "vote_average": 7.3,
+    "poster_path": "/m43QRbdTXI2g17VFflih98V8myR.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:20.493811"
+  },
+  "135185": {
+    "id": 135185,
+    "name": "两个人的小森林",
+    "original_name": "两个人的小森林",
+    "first_air_date": "2022-09-15",
+    "vote_average": 7.091,
+    "poster_path": "/Apr0JHGiCeBbmwLCwAXZP3Fxw4h.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:20.534925"
+  },
+  "209663": {
+    "id": 209663,
+    "name": "Eat the Rich: la saga GameStop",
+    "original_name": "Eat the Rich: The GameStop Saga",
+    "first_air_date": "2022-09-28",
+    "vote_average": 5.9,
+    "poster_path": "/iRO7O3moovOAUQtN8eNW62NQ77v.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:20.547788"
+  },
+  "51704": {
+    "id": 51704,
+    "name": "Defiance",
+    "original_name": "Defiance",
+    "first_air_date": "2013-04-15",
+    "vote_average": 6.75,
+    "poster_path": "/4Xo2D2MX8v4FoHi70Y9jEghJGUI.jpg",
+    "genre_ids": [
+      18,
+      10765
+    ],
+    "cached_at": "2025-10-04T06:15:20.562340"
+  },
+  "203741": {
+    "id": 203741,
+    "name": "Atto d'infedelta'",
+    "original_name": "Dünyayla Benim Aramda",
+    "first_air_date": "2022-09-14",
+    "vote_average": 6.5,
+    "poster_path": "/jgWKqtXB4WXyE2FbzfMdQATONlL.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:20.602695"
+  },
+  "211228": {
+    "id": 211228,
+    "name": "炽道",
+    "original_name": "炽道",
+    "first_air_date": "2022-09-29",
+    "vote_average": 8.7,
+    "poster_path": "/ls9opzVgKdSz0rMS7uwDVVRkni.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "cached_at": "2025-10-04T06:15:20.620778"
+  },
+  "157215": {
+    "id": 157215,
+    "name": "Avventure Estreme con Bertie Gregory",
+    "original_name": "Epic Adventures with Bertie Gregory",
+    "first_air_date": "2022-09-08",
+    "vote_average": 7.6,
+    "poster_path": "/eLjoiU6hwaOJwgz4tt3v4BkiM94.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:20.629575"
+  },
+  "206088": {
+    "id": 206088,
+    "name": "Designing Miami - Ristrutturare è una sfida",
+    "original_name": "Designing Miami",
+    "first_air_date": "2022-09-21",
+    "vote_average": 5.7,
+    "poster_path": "/AbeOPtohITl7EWV2TqMsf1tdfCn.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:20.677484"
+  },
+  "211269": {
+    "id": 211269,
+    "name": "Human Playground: un mondo di sport",
+    "original_name": "Human Playground",
+    "first_air_date": "2022-09-30",
+    "vote_average": 6.857,
+    "poster_path": "/vrabCpb0NFQnLPVgvVyqODWCnIy.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:20.692616"
+  },
+  "197526": {
+    "id": 197526,
+    "name": "Soltanto per amore",
+    "original_name": "Só Se For Por Amor",
+    "first_air_date": "2022-09-21",
+    "vote_average": 5.8,
+    "poster_path": "/2MxYaviOwMZOOCP38vJx2C0y33V.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:20.716664"
+  },
+  "211664": {
+    "id": 211664,
+    "name": "Siempre Reinas",
+    "original_name": "Siempre Reinas",
+    "first_air_date": "2022-10-02",
+    "vote_average": 6.8,
+    "poster_path": "/ccgp7PosegTt5gssb8wBZTpC5ye.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:20.745913"
+  },
+  "208120": {
+    "id": 208120,
+    "name": "Jungle",
+    "original_name": "Jungle",
+    "first_air_date": "2022-09-30",
+    "vote_average": 5.2,
+    "poster_path": "/y7WnDpmV2UGRQOYeloGO5N91Eb0.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:20.763304"
+  },
+  "209477": {
+    "id": 209477,
+    "name": "다시 나를 찾아와",
+    "original_name": "다시 나를 찾아와",
+    "first_air_date": "2022-09-15",
+    "vote_average": 7.8,
+    "poster_path": "/lRc0m9Ixz3wbUNhksRV8Hu7SNED.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:20.772765"
+  },
+  "195593": {
+    "id": 195593,
+    "name": "About Sasha",
+    "original_name": "Chair tendre",
+    "first_air_date": "2022-09-23",
+    "vote_average": 6.8,
+    "poster_path": "/eFTuokFRaZQQ7dWTrFEajZcEPjh.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:20.821701"
+  },
+  "210071": {
+    "id": 210071,
+    "name": "Contigo Capitan: Paolo Guerrero in lotta per la giustizia",
+    "original_name": "Contigo Capitán",
+    "first_air_date": "2022-10-05",
+    "vote_average": 7.3,
+    "poster_path": "/mMSGNAlsKo2YQuIMontzoldqvjs.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:20.835113"
+  },
+  "201722": {
+    "id": 201722,
+    "name": "昆仑神宫",
+    "original_name": "昆仑神宫",
+    "first_air_date": "2022-09-20",
+    "vote_average": 6.9,
+    "poster_path": "/5l4hnShSYRTQVDFA63illK14A2T.jpg",
+    "genre_ids": [
+      10759,
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-04T06:15:20.845978"
+  },
+  "210229": {
+    "id": 210229,
+    "name": "핑크 라이",
+    "original_name": "핑크 라이",
+    "first_air_date": "2022-10-05",
+    "vote_average": 6.9,
+    "poster_path": "/7ybY0HAR1uQtONQ2xOLDAwXx17H.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:20.890911"
+  },
+  "210939": {
+    "id": 210939,
+    "name": "The Mole",
+    "original_name": "The Mole",
+    "first_air_date": "2022-10-07",
+    "vote_average": 6.933,
+    "poster_path": "/wVipX97HY7UYiWIR6BdmnQLKEXy.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:20.907824"
+  },
+  "210851": {
+    "id": 210851,
+    "name": "虚颜",
+    "original_name": "虚颜",
+    "first_air_date": "2022-09-23",
+    "vote_average": 7.9,
+    "poster_path": "/uoH83hAqdU7FfBHJZYqfjR2clZm.jpg",
+    "genre_ids": [
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-04T06:15:20.920560"
+  },
+  "124958": {
+    "id": 124958,
+    "name": "Cacciatori di relitti Australia",
+    "original_name": "Shipwreck Hunters Australia",
+    "first_air_date": "2022-10-05",
+    "vote_average": 7.3,
+    "poster_path": "/tz7f6aosOTNo9FZVuvwLurPUDa3.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:20.961951"
+  },
+  "286801": {
+    "id": 286801,
+    "name": "Monster: La storia di Ed Gein",
+    "original_name": "Monster: The Ed Gein Story",
+    "first_air_date": "2025-10-03",
+    "vote_average": 6.667,
+    "poster_path": "/iDHzRALtZCzHVmx7uyjTTKvMAPB.jpg",
+    "genre_ids": [
+      18,
+      80
+    ],
+    "cached_at": "2025-10-04T06:15:20.980420"
+  },
+  "211016": {
+    "id": 211016,
+    "name": "我的卡路里男孩",
+    "original_name": "我的卡路里男孩",
+    "first_air_date": "2022-09-26",
+    "vote_average": 7.286,
+    "poster_path": "/meSe5K1INwKzXBGWhha9wTEF7wC.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "cached_at": "2025-10-04T06:15:20.988074"
+  },
+  "286822": {
+    "id": 286822,
+    "name": "Winx Club: The Magic is Back",
+    "original_name": "Winx Club: The Magic is Back",
+    "first_air_date": "2025-09-08",
+    "vote_average": 10.0,
+    "poster_path": "/A9jCF5PripUrAu0CY7SEVfJInHm.jpg",
+    "genre_ids": [
+      16,
+      10762,
+      10759,
+      35,
+      10765
+    ],
+    "cached_at": "2025-10-04T06:15:21.034878"
+  },
+  "210267": {
+    "id": 210267,
+    "name": "테이크 원",
+    "original_name": "테이크 원",
+    "first_air_date": "2022-10-14",
+    "vote_average": 6.143,
+    "poster_path": "/bHQI1nRLmLVRIgIyy8mKYD5iNy1.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:21.052306"
+  },
+  "157202": {
+    "id": 157202,
+    "name": "Super/Natural",
+    "original_name": "Super/Natural",
+    "first_air_date": "2022-09-21",
+    "vote_average": 7.3,
+    "poster_path": "/m50q06XxSU8mjErAt3QMJnMkwqI.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:21.060806"
+  },
+  "211694": {
+    "id": 211694,
+    "name": "L'isola dei lupi",
+    "original_name": "Island of the Sea Wolves",
+    "first_air_date": "2022-10-11",
+    "vote_average": 8.5,
+    "poster_path": "/4eXIsTAlWpa879PPZDGbvzjEnPy.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:21.105125"
+  },
+  "215117": {
+    "id": 215117,
+    "name": "Non rispondere al telefono",
+    "original_name": "Pervert: Hunting the Strip Search Caller",
+    "first_air_date": "2022-10-25",
+    "vote_average": 6.7,
+    "poster_path": "/t0hkS7QNAUmhqPqgUu0tUsCL1c0.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:21.123339"
+  },
+  "197084": {
+    "id": 197084,
+    "name": "가우스전자",
+    "original_name": "가우스전자",
+    "first_air_date": "2022-09-30",
+    "vote_average": 7.4,
+    "poster_path": "/tw9mUlnTVyuNzJbv4gmWMHUR2p4.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "cached_at": "2025-10-04T06:15:21.143722"
+  },
+  "211084": {
+    "id": 211084,
+    "name": "Easy-Bake Battle: L'arte della semplicità in cucina",
+    "original_name": "Easy-Bake Battle: The Home Cooking Competition",
+    "first_air_date": "2022-10-12",
+    "vote_average": 5.8,
+    "poster_path": "/5gL3f66XCah2tjHN9P6KNLtPYOb.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:21.174848"
+  },
+  "210345": {
+    "id": 210345,
+    "name": "Il club di sumo!",
+    "original_name": "シコふんじゃった！",
+    "first_air_date": "2022-10-26",
+    "vote_average": 6.3,
+    "poster_path": "/1egQiI146vuXF0CkuZMiBH3RqFb.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:21.192105"
+  },
+  "116132": {
+    "id": 116132,
+    "name": "乌云遇皎月",
+    "original_name": "乌云遇皎月",
+    "first_air_date": "2022-10-01",
+    "vote_average": 5.8,
+    "poster_path": "/zJ0mqvXcZXsn3MICfOTEgQ8vqN4.jpg",
+    "genre_ids": [
+      18,
+      10765
+    ],
+    "cached_at": "2025-10-04T06:15:21.211002"
+  },
+  "210818": {
+    "id": 210818,
+    "name": "Sue Perkins: Perfectly Legal",
+    "original_name": "Sue Perkins: Perfectly Legal",
+    "first_air_date": "2022-10-13",
+    "vote_average": 3.5,
+    "poster_path": "/14uhQZJzUTvw79wX5DIgRKqNiMA.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:21.248932"
+  },
+  "156934": {
+    "id": 156934,
+    "name": "Daniel Spellbound",
+    "original_name": "Daniel Spellbound",
+    "first_air_date": "2022-10-27",
+    "vote_average": 7.9,
+    "poster_path": "/83jBawRjY6YF8RjoopVZ92UvFYM.jpg",
+    "genre_ids": [
+      16,
+      10759
+    ],
+    "cached_at": "2025-10-04T06:15:21.263514"
+  },
+  "243200": {
+    "id": 243200,
+    "name": "Animal",
+    "original_name": "Animal",
+    "first_air_date": "2025-10-03",
+    "vote_average": 6.0,
+    "poster_path": "/4XJ1FdpWBSJb6ylk88ZUli7bhWx.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-04T06:15:21.285475"
+  },
+  "211942": {
+    "id": 211942,
+    "name": "Earthstorm: disastri naturali",
+    "original_name": "Earthstorm",
+    "first_air_date": "2022-10-27",
+    "vote_average": 7.1,
+    "poster_path": "/6RXbhaa3LTsaMWkD7hXdtp0J1sd.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:21.336651"
+  },
+  "271128": {
+    "id": 271128,
+    "name": "The New Force",
+    "original_name": "Skiftet",
+    "first_air_date": "2025-10-03",
+    "vote_average": 5.5,
+    "poster_path": "/mQUcsT7rJZwJYjuYMXMrRq5OIm0.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:21.345982"
+  },
+  "212882": {
+    "id": 212882,
+    "name": "Bring Back My Girls",
+    "original_name": "Bring Back My Girls",
+    "first_air_date": "2022-10-18",
+    "vote_average": 5.0,
+    "poster_path": "/9RAlkcpZhhQS3cGtdcSKdM36rE3.jpg",
+    "genre_ids": [
+      10767
+    ],
+    "cached_at": "2025-10-04T06:15:21.360920"
+  },
+  "211123": {
+    "id": 211123,
+    "name": "Selling in the City",
+    "original_name": "Selling in the City",
+    "first_air_date": "2022-10-19",
+    "vote_average": 0.0,
+    "poster_path": "/gwP7LkywipXBtzYaqg8S03UJFRW.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:21.390862"
+  },
+  "213288": {
+    "id": 213288,
+    "name": "Il mio incontro con il male",
+    "original_name": "Mi encuentro con el mal",
+    "first_air_date": "2022-10-28",
+    "vote_average": 6.5,
+    "poster_path": "/wepmAKAfDuVlZGmkIqdLWORa7A3.jpg",
+    "genre_ids": [
+      99,
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:21.407668"
+  },
+  "228689": {
+    "id": 228689,
+    "name": "I desideri del genio",
+    "original_name": "다 이루어질지니",
+    "first_air_date": "2025-10-03",
+    "vote_average": 4.0,
+    "poster_path": "/zq84x5kmwomvmmJ03hzl389UGeb.jpg",
+    "genre_ids": [
+      10765,
+      35
+    ],
+    "cached_at": "2025-10-04T06:15:21.417544"
+  },
+  "212284": {
+    "id": 212284,
+    "name": "Mister Midnight: Attenzione ai mostri!",
+    "original_name": "Mr. Midnight: Bacha na příšery",
+    "first_air_date": "2022-10-24",
+    "vote_average": 6.2,
+    "poster_path": "/88Qguo88OKruv5REalqQAyf0jLS.jpg",
+    "genre_ids": [
+      10759,
+      9648,
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:21.460597"
+  },
+  "210674": {
+    "id": 210674,
+    "name": "풍덕빌라 304호의 사정",
+    "original_name": "풍덕빌라 304호의 사정",
+    "first_air_date": "2022-10-13",
+    "vote_average": 7.1,
+    "poster_path": "/30j5IWdw5u6XsVWmUUscOmpVUNu.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:21.490856"
+  },
+  "211104": {
+    "id": 211104,
+    "name": "Drink Masters",
+    "original_name": "Drink Masters",
+    "first_air_date": "2022-10-28",
+    "vote_average": 6.6,
+    "poster_path": "/9tk4nWiP39MWQisrt8IoxvbHhgt.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:21.533927"
+  },
+  "136135": {
+    "id": 136135,
+    "name": "Les Amateurs",
+    "original_name": "Les Amateurs",
+    "first_air_date": "2022-10-19",
+    "vote_average": 6.2,
+    "poster_path": "/9S57V3z6cwFLqfxlYZJg7o5Jgbp.jpg",
+    "genre_ids": [
+      35,
+      10759
+    ],
+    "cached_at": "2025-10-04T06:15:21.560200"
+  },
+  "213341": {
+    "id": 213341,
+    "name": "Quasi detective",
+    "original_name": "Die Beschatter",
+    "first_air_date": "2022-10-30",
+    "vote_average": 7.0,
+    "poster_path": "/9ycYDmuTfigNA5DqEzFEiDQECVi.jpg",
+    "genre_ids": [
+      80,
+      35
+    ],
+    "cached_at": "2025-10-04T06:15:21.611291"
+  },
+  "121171": {
+    "id": 121171,
+    "name": "Reign Supreme",
+    "original_name": "Le Monde de demain",
+    "first_air_date": "2022-10-20",
+    "vote_average": 6.9,
+    "poster_path": "/f1sONdnwAR9fJNW7rp5VmGjGYTl.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:21.632127"
+  },
+  "128306": {
+    "id": 128306,
+    "name": "Il Boss del condominio",
+    "original_name": "El encargado",
+    "first_air_date": "2022-10-26",
+    "vote_average": 8.065,
+    "poster_path": "/oO6moEWDRYtYwZMYOUl1eOnAnE3.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:21.709552"
+  },
+  "157161": {
+    "id": 157161,
+    "name": "Shadow Detective",
+    "original_name": "형사록",
+    "first_air_date": "2022-10-26",
+    "vote_average": 6.189,
+    "poster_path": "/zh0SUmhPLWCUHpY2N5gq8lspfKH.jpg",
+    "genre_ids": [
+      18,
+      80,
+      9648
+    ],
+    "cached_at": "2025-10-04T06:15:21.772527"
+  },
+  "213239": {
+    "id": 213239,
+    "name": "谁都知道我爱你",
+    "original_name": "谁都知道我爱你",
+    "first_air_date": "2022-10-26",
+    "vote_average": 6.0,
+    "poster_path": "/fhpuGT2IBGEaZSo8w50WATWbEbO.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:21.844238"
+  },
+  "197235": {
+    "id": 197235,
+    "name": "Schegge dal passato",
+    "original_name": "她和她的她",
+    "first_air_date": "2022-10-28",
+    "vote_average": 7.8,
+    "poster_path": "/iaQxXd1WRs0J0sIXIseV2JqudRU.jpg",
+    "genre_ids": [
+      9648,
+      18
+    ],
+    "cached_at": "2025-10-04T06:15:21.914096"
+  },
+  "202188": {
+    "id": 202188,
+    "name": "Natale con Donna Hay",
+    "original_name": "Donna Hay Christmas",
+    "first_air_date": "2022-11-02",
+    "vote_average": 2.0,
+    "poster_path": "/iOIBHhu2rI0NGKxeu4FDCHtSsYg.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-04T06:15:21.987810"
+  },
+  "213857": {
+    "id": 213857,
+    "name": "Hip Hop Homicides",
+    "original_name": "Hip Hop Homicides",
+    "first_air_date": "2022-11-03",
+    "vote_average": 6.0,
+    "poster_path": "/i9L4hjj0tqnQcdA2YzeKmLnkzT5.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-04T06:15:22.066996"
   }
 }
