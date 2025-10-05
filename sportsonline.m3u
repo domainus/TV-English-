@@ -1,21 +1,21 @@
 #EXTM3U
 #EXTINF:-1 group-title="Eventi Live sportsonline",F1: Chinese Grand Prix 14:00
 #EXTVLCOPT:http-origin=https://restlessouter.net
-#EXTVLCOPT:http-referrer=https://restlessouter.net/
+#EXTVLCOPT:http-referer=https://restlessouter.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 https://yjaacbk.234276133.fit:8443/hls/qgdzborpo.m3u8?s=shvjdULVjunIY1q0TU-M_w&e=1759689092
 #EXTINF:-1 group-title="Eventi Live sportsonline",Fiorentina x Roma 15:00
 #EXTVLCOPT:http-origin=https://restlessouter.net
-#EXTVLCOPT:http-referrer=https://restlessouter.net/
+#EXTVLCOPT:http-referer=https://restlessouter.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 https://yjaacbk.234276133.fit:8443/hls/71urpyq.m3u8?s=gYP5J08qMQD2FPq0u9B4PA&e=1759689097
 #EXTINF:-1 group-title="Eventi Live sportsonline",Napoli x Genoa 18:00
 #EXTVLCOPT:http-origin=https://restlessouter.net
-#EXTVLCOPT:http-referrer=https://restlessouter.net/
+#EXTVLCOPT:http-referer=https://restlessouter.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 https://yjaacbk.234276133.fit:8443/hls/qgdzborpo.m3u8?s=eohBZd7-HQSnSKXvEKFq3w&e=1759689101
 #EXTINF:-1 group-title="Eventi Live sportsonline",Juventus x Milan 20:45
 #EXTVLCOPT:http-origin=https://restlessouter.net
-#EXTVLCOPT:http-referrer=https://restlessouter.net/
+#EXTVLCOPT:http-referer=https://restlessouter.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 https://yjaacbk.234276133.fit:8443/hls/71urpyq.m3u8?s=x1AgSBjhPj6ACcZkcNs_QQ&e=1759689104
