@@ -3466,7 +3466,7 @@ def sportsonline():
                 if 'Origin' in headers:
                     f.write(f"#EXTVLCOPT:http-origin={headers['Origin']}\n")
                 if 'Referer' in headers:
-                    f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+                    f.write(f"#EXTVLCOPT:http-referer={headers['Referer']}\n")
                 if 'User-Agent' in headers:
                     f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
                 
