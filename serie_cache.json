@@ -48742,5 +48742,78 @@
       99
     ],
     "cached_at": "2025-10-04T06:15:22.066996"
+  },
+  "203012": {
+    "id": 203012,
+    "name": "The Great American Recipe",
+    "original_name": "The Great American Recipe",
+    "first_air_date": "2022-06-24",
+    "vote_average": 10.0,
+    "poster_path": "/3EJDXfvAUc8wwzEGNmcOptEF39f.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-05T06:15:19.960762"
+  },
+  "209055": {
+    "id": 209055,
+    "name": "飞狐外传",
+    "original_name": "飞狐外传",
+    "first_air_date": "2022-08-31",
+    "vote_average": 6.1,
+    "poster_path": "/1smhhojac4N2KFbPYtBx1K7iyjd.jpg",
+    "genre_ids": [
+      18,
+      10759
+    ],
+    "cached_at": "2025-10-05T06:15:19.989045"
+  },
+  "130099": {
+    "id": 130099,
+    "name": "再见爱人",
+    "original_name": "再见爱人",
+    "first_air_date": "2021-07-28",
+    "vote_average": 8.1,
+    "poster_path": "/a8Nlv1jjsk7iozJMwgeYwrioRiM.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-05T06:15:20.087108"
+  },
+  "202597": {
+    "id": 202597,
+    "name": "Confine dell'ignoto con Jimmy Chin",
+    "original_name": "Edge of the Unknown with Jimmy Chin",
+    "first_air_date": "2022-09-05",
+    "vote_average": 7.3,
+    "poster_path": "/qMyKicXEuwG5yuJmqjm6dz21Nvg.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-05T06:15:20.096567"
+  },
+  "209238": {
+    "id": 209238,
+    "name": "覆流年",
+    "original_name": "覆流年",
+    "first_air_date": "2022-08-31",
+    "vote_average": 8.2,
+    "poster_path": "/332reQCJHAnCqJdMWLO8piSTaRh.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-05T06:15:20.154018"
+  },
+  "202210": {
+    "id": 202210,
+    "name": "Impavide: Le donne del football",
+    "original_name": "Fearless: The Inside Story of the AFLW",
+    "first_air_date": "2022-08-24",
+    "vote_average": 6.3,
+    "poster_path": "/s4FVEKrZoiA4HK0noU6aq2aabBz.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-05T06:15:20.381589"
   }
 }
