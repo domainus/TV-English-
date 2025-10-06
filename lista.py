@@ -2993,11 +2993,11 @@ def italy_channels():
         seen_daddy_channel_ids = set()
         session = requests.Session() # Crea una sessione per riutilizzare le connessioni
 
-        try:
-            print("[AVVISO] La verifica del certificato SSL è disabilitata per questa richiesta.")
-            response = requests.get(json_url, timeout=10, verify=False, headers={
+        try:            
+            response = requests.get(json_url, timeout=15, headers={
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-            })
+            }, verify=False)
+            
             response.raise_for_status()
             daddy_data = response.json()
             print(f"Trovati {len(daddy_data)} canali nel JSON di Daddylive.")
@@ -3008,13 +3008,12 @@ def italy_channels():
 
                 if not channel_name_raw or not channel_id:
                     continue
-
-                if channel_id in seen_daddy_channel_ids:
-                    print(f"Skipping Daddylive channel '{channel_name_raw}' (ID: {channel_id}) perché l'ID è già stato processato.")
-                    continue
     
                 # Filtro: deve contenere "italy" (case-insensitive)
                 if "italy" in channel_name_raw.lower():
+                    if channel_id in seen_daddy_channel_ids:
+                        print(f"Skipping Daddylive channel '{channel_name_raw}' (ID: {channel_id}) perché l'ID è già stato processato.")
+                        continue
                     seen_daddy_channel_ids.add(channel_id)
                     print(f"Trovato canale ITALIANO (Daddylive JSON): {channel_name_raw}, ID: {channel_id}. Tentativo di risoluzione stream...")
                     # Cerca prima lo stream .m3u8
@@ -3431,7 +3430,7 @@ def sportsonline():
                 if 'Origin' in headers:
                     f.write(f"#EXTVLCOPT:http-origin={headers['Origin']}\n")
                 if 'Referer' in headers:
-                    f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+                    f.write(f"#EXTVLCOPT:http-referer={headers['Referer']}\n")
                 if 'User-Agent' in headers:
                     f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
                 
