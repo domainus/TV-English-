@@ -1,6 +1,7 @@
 import requests
 import os
 import re
+import concurrent.futures
 import json
 import xml.etree.ElementTree as ET
 from collections import defaultdict
@@ -2997,6 +2998,7 @@ def italy_channels():
         print(f"Tentativo di fetch dei canali da: {json_url}")
         channels = []
         seen_daddy_channel_ids = set()
+        session = requests.Session() # Crea una sessione per riutilizzare le connessioni
 
         try:
             print("[AVVISO] La verifica del certificato SSL è disabilitata per questa richiesta.")
@@ -3023,7 +3025,7 @@ def italy_channels():
                     seen_daddy_channel_ids.add(channel_id)
                     print(f"Trovato canale ITALIANO (Daddylive JSON): {channel_name_raw}, ID: {channel_id}. Tentativo di risoluzione stream...")
                     # Cerca prima lo stream .m3u8
-                    stream_url = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name_raw.lower())
+                    stream_url = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name_raw.lower(), session=session)
                     # Se non trovato, usa il fallback .php
                     if not stream_url:
                         stream_url = get_stream_from_channel_id(channel_id)
@@ -3445,7 +3447,7 @@ def sportsonline():
                 if 'Origin' in headers:
                     f.write(f"#EXTVLCOPT:http-origin={headers['Origin']}\n")
                 if 'Referer' in headers:
-                    f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+                    f.write(f"#EXTVLCOPT:http-referer={headers['Referer']}\n")
                 if 'User-Agent' in headers:
                     f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
                 
@@ -3464,14 +3466,19 @@ def headers_to_extvlcopt(headers):
         vlc_opts.append(f'#EXTVLCOPT:http-{key.lower()}={value}')
     return vlc_opts
 
-def search_m3u8_in_sites(channel_id, is_tennis=False):
+def search_m3u8_in_sites(channel_id, is_tennis=False, session=None):
     """
     Cerca i file .m3u8 nei siti specificati per i canali daddy e tennis
     """
+    # Se non viene passata una sessione, ne crea una temporanea
+    if session is None:
+        session = requests.Session()
+
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
         "X-Requested-With": "XMLHttpRequest",
         "X-Forwarded-For": "127.0.0.1",
+        # Il Referer viene impostato dinamicamente
         "Referer": "https://ava.karmakurama.com/"
     }
 
@@ -3481,10 +3488,11 @@ def search_m3u8_in_sites(channel_id, is_tennis=False):
         folder_name = f"wikiten{tennis_suffix}"
         base_url = "https://ava.karmakurama.com/wikihz/"
         test_url = f"{base_url}{folder_name}/mono.m3u8"
-        headers["Referer"] = base_url # Aggiorna il referer per i canali tennis
+        current_headers = headers.copy()
+        current_headers["Referer"] = base_url # Aggiorna il referer per i canali tennis
         
         try:
-            response = requests.head(test_url, timeout=5, headers=headers)
+            response = session.head(test_url, timeout=5, headers=current_headers)
             if response.status_code == 200:
                 print(f"[✓] Stream tennis trovato: {test_url}")
                 return test_url
@@ -3500,19 +3508,29 @@ def search_m3u8_in_sites(channel_id, is_tennis=False):
             "https://ava.karmakurama.com/nfs/",
             "https://ava.karmakurama.com/dokko1/"
         ]
-        
         folder_name = f"premium{channel_id}"
-        
-        for site in daddy_sites:
-            test_url = f"{site}{folder_name}/mono.m3u8"
-            headers["Referer"] = site # Aggiorna il referer per ogni sito daddy
+
+        def check_url(site):
+            url = f"{site}{folder_name}/mono.m3u8"
+            req_headers = headers.copy()
+            req_headers["Referer"] = site
             try:
-                response = requests.head(test_url, timeout=5, headers=headers)
+                response = session.head(url, timeout=5, headers=req_headers)
                 if response.status_code == 200:
-                    print(f"[✓] Stream daddy trovato: {test_url}")
-                    return test_url
-            except requests.exceptions.RequestException as e:
-                print(f"[!] Errore durante il test di {test_url}: {e}")
+                    return url
+            except requests.exceptions.RequestException:
+                # Gli errori di connessione sono normali, non li stampiamo per non affollare il log
+                pass
+            return None
+
+        # Esegue le richieste in parallelo e restituisce il primo risultato valido
+        with concurrent.futures.ThreadPoolExecutor(max_workers=len(daddy_sites)) as executor:
+            future_to_url = {executor.submit(check_url, site): site for site in daddy_sites}
+            for future in concurrent.futures.as_completed(future_to_url):
+                result = future.result()
+                if result:
+                    print(f"[✓] Stream daddy trovato: {result}")
+                    return result
     
     print(f"[!] Nessun stream .m3u8 trovato per channel_id {channel_id}")
     return None
