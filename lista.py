@@ -831,11 +831,7 @@ def eventi_m3u8_generator_world():
                     try: 
                         # Cerca lo stream .m3u8 nei siti specificati
                         stream = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name.lower())
-                        
-                        # Se non viene trovato, usa il metodo di fallback con il .php
-                        if not stream:
-                            stream = get_stream_from_channel_id(channel_id)
-                            
+                                                    
                         if stream: 
                             cleaned_event_id = clean_tvg_id(event_title) # Usa event_title per tvg-id
                             f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}" tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live DLHD",{category} | {tvg_name}\n')
@@ -1398,10 +1394,7 @@ def eventi_m3u8_generator():
                     try: 
                         # Cerca lo stream .m3u8 nei siti specificati
                         stream = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name.lower())
-                        
-                        # Se non viene trovato, usa il metodo di fallback con il .php
-                        if not stream:
-                            stream = get_stream_from_channel_id(channel_id)
+
                         if stream: 
                             cleaned_event_id = clean_tvg_id(event_title) # Usa event_title per tvg-id
                             f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}" tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live DLHD",{category} | {tvg_name}\n')
@@ -3025,18 +3018,9 @@ def italy_channels():
                     seen_daddy_channel_ids.add(channel_id)
                     print(f"Trovato canale ITALIANO (Daddylive JSON): {channel_name_raw}, ID: {channel_id}. Tentativo di risoluzione stream...")
                     # Cerca prima lo stream .m3u8
-                    stream_url = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name_raw.lower(), session=session)
-                    # Se non trovato, usa il fallback .php
-                    if not stream_url:
-                        stream_url = get_stream_from_channel_id(channel_id)
-
+                    stream_url = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name_raw.lower(), session=session)                    
                     if stream_url:
-                        # Aggiungi l'ID solo agli URL .php per la logica di rename successiva
-                        if stream_url.endswith('.php'):
-                            separator = '&' if '?' in stream_url else '?'
-                            url_with_id = f"{stream_url}{separator}id={channel_id}"
-                        else:
-                            url_with_id = stream_url
+                        url_with_id = stream_url
                         channels.append((channel_name_raw, url_with_id))
                         print(f"Risolto e aggiunto stream per {channel_name_raw}: {stream_url}")
                     else:
@@ -3447,7 +3431,7 @@ def sportsonline():
                 if 'Origin' in headers:
                     f.write(f"#EXTVLCOPT:http-origin={headers['Origin']}\n")
                 if 'Referer' in headers:
-                    f.write(f"#EXTVLCOPT:http-referer={headers['Referer']}\n")
+                    f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
                 if 'User-Agent' in headers:
                     f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
                 
