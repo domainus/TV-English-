@@ -3475,23 +3475,23 @@ def search_m3u8_in_sites(channel_id, is_tennis=False):
         "Referer": "https://ava.karmakurama.com/"
     }
 
-    if is_tennis:
-        # Per i canali tennis, cerca in wikihz
-        if len(str(channel_id)) == 4 and str(channel_id).startswith('15'):
-            tennis_suffix = str(channel_id)[2:]  # Prende le ultime due cifre
-            folder_name = f"wikiten{tennis_suffix}"
-            base_url = "https://ava.karmakurama.com/wikihz/"
-            test_url = f"{base_url}{folder_name}/mono.m3u8"
-            headers["Referer"] = base_url # Aggiorna il referer per i canali tennis
-            
-            try:
-                response = requests.head(test_url, timeout=5, headers=headers)
-                if response.status_code == 200:
-                    print(f"[✓] Stream tennis trovato: {test_url}")
-                    return test_url
-            except:
-                pass
-    else:
+    # Logica per canali TENNIS con ID specifico (es. 15xx)
+    if is_tennis and len(str(channel_id)) == 4 and str(channel_id).startswith('15'):
+        tennis_suffix = str(channel_id)[2:]  # Prende le ultime due cifre
+        folder_name = f"wikiten{tennis_suffix}"
+        base_url = "https://ava.karmakurama.com/wikihz/"
+        test_url = f"{base_url}{folder_name}/mono.m3u8"
+        headers["Referer"] = base_url # Aggiorna il referer per i canali tennis
+        
+        try:
+            response = requests.head(test_url, timeout=5, headers=headers)
+            if response.status_code == 200:
+                print(f"[✓] Stream tennis trovato: {test_url}")
+                return test_url
+        except requests.exceptions.RequestException as e:
+            print(f"[!] Errore durante il test di {test_url}: {e}")
+    # Logica per tutti gli altri canali DADDY (inclusi quelli "tennis" senza ID specifico)
+    else: 
         # Per i canali daddy, cerca nei siti specificati
         daddy_sites = [
             "https://ava.karmakurama.com/wind/",
@@ -3511,8 +3511,8 @@ def search_m3u8_in_sites(channel_id, is_tennis=False):
                 if response.status_code == 200:
                     print(f"[✓] Stream daddy trovato: {test_url}")
                     return test_url
-            except:
-                continue
+            except requests.exceptions.RequestException as e:
+                print(f"[!] Errore durante il test di {test_url}: {e}")
     
     print(f"[!] Nessun stream .m3u8 trovato per channel_id {channel_id}")
     return None
