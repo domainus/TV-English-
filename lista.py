@@ -3333,102 +3333,114 @@ def sportsonline():
         print("\n2. Cerco i canali in lingua italiana...")
         italian_channels = get_italian_channels(lines)
     
-        if not italian_channels:
-            print("[ATTENZIONE] Nessun canale italiano trovato nella programmazione. Termino.")
-            return
-    
-        print("\n3. Cerco gli eventi trasmessi sui canali italiani...")
         playlist_entries = []
     
-        # --- NUOVA LOGICA DI SCANSIONE PER GIORNO ---
-        processing_today_events = (day_to_filter is None) # Se è weekend, processa tutto
-    
-        for line in lines:
-            line_upper = line.upper().strip()
-    
-            # Controlliamo se la riga è un'intestazione di un giorno della settimana
-            if line_upper in weekdays_english:
-                if day_to_filter and line_upper == day_to_filter:
-                    # Abbiamo trovato la sezione del giorno corrente, iniziamo a processare
-                    processing_today_events = True
-                else:
-                    # Abbiamo trovato un altro giorno, smettiamo di processare
-                    processing_today_events = False
-                continue
-    
-            # Processiamo la riga solo se siamo nella sezione del giorno giusto (o se è weekend)
-            if not processing_today_events:
-                continue
-    
-            # Da qui in poi, la logica è la stessa, ma viene eseguita solo sulle righe corrette
-            if '|' not in line:
-                continue
-    
-            parts = line.split('|')
-            if len(parts) != 2:
-                continue
-    
-            event_info = parts[0].strip()
-            page_url = parts[1].strip()
-    
-            is_italian_event = any(f"/{channel}.php" in page_url for channel in italian_channels)
-    
-            if is_italian_event:
-                print(f"\n[EVENTO] Trovato evento italiano: '{event_info}'")
-                
-                # Riformattiamo il nome dell'evento per mettere l'orario alla fine
-                event_parts = event_info.split(maxsplit=1)
-                if len(event_parts) == 2:
-                    time_str_original, name_only = event_parts
-                    
-                    # --- Aggiungi 1 ora all'orario ---
-                    try:
-                        # Converte la stringa dell'orario in un oggetto datetime
-                        original_time = datetime.datetime.strptime(time_str_original.strip(), '%H:%M')
-                        # Aggiunge un'ora
-                        new_time = original_time + datetime.timedelta(hours=1)
-                        time_str = new_time.strftime('%H:%M')
-                    except ValueError:
-                        time_str = time_str_original.strip() # Usa l'orario originale se il formato non è valido
-                    event_name = f"{name_only.strip()} {time_str}"
-                else:
-                    event_name = event_info # Fallback se il formato non è quello previsto
-    
-                # Andiamo a prendere il link .m3u8 dalla pagina dell'evento
-                stream_info = get_m3u8_from_url(page_url, driver)
-    
-                if stream_info:
-                    # Se abbiamo trovato il link, lo aggiungiamo alla nostra lista per la playlist
-                    playlist_entries.append({
-                        "name": event_name,
-                        "stream_info": stream_info
-                    })
-                
-                # Torniamo al contesto principale della pagina prima di passare al prossimo link
-                # Questo è importante se eravamo entrati in un iframe
-                try:
-                    driver.switch_to.default_content()
-                except NoSuchFrameException:
-                    # Se non eravamo in un frame, Selenium lancia un errore. Lo ignoriamo.
-                    pass
-        # Chiudiamo il browser di Selenium una volta finito
-        print("\nChiusura del browser Selenium.")
-        driver.quit()
-    
-        # --- AGGIUNTA: Creazione canale fallback se non ci sono eventi ---
-        if not playlist_entries:
-            print("\n[INFO] Nessun evento italiano con link streaming valido trovato oggi.")
+        if not italian_channels:
+            print("[ATTENZIONE] Nessun canale italiano trovato nella programmazione.")
             print("[INFO] Creo un canale fallback 'NESSUN EVENTO'...")
             playlist_entries.append({
                 "name": "NESSUN EVENTO",
                 "stream_info": {
-                    'url': "https://example.com/placeholder.m3u8",
+                    'url': "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
                     'headers': {
                         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
                         'Referer': 'https://sportsonline.sn/'
                     }
                 }
             })
+        else:
+            print("\n3. Cerco gli eventi trasmessi sui canali italiani...")
+    
+            # --- NUOVA LOGICA DI SCANSIONE PER GIORNO ---
+            processing_today_events = (day_to_filter is None) # Se è weekend, processa tutto
+    
+            for line in lines:
+                line_upper = line.upper().strip()
+    
+                # Controlliamo se la riga è un'intestazione di un giorno della settimana
+                if line_upper in weekdays_english:
+                    if day_to_filter and line_upper == day_to_filter:
+                        # Abbiamo trovato la sezione del giorno corrente, iniziamo a processare
+                        processing_today_events = True
+                    else:
+                        # Abbiamo trovato un altro giorno, smettiamo di processare
+                        processing_today_events = False
+                    continue
+    
+                # Processiamo la riga solo se siamo nella sezione del giorno giusto (o se è weekend)
+                if not processing_today_events:
+                    continue
+    
+                # Da qui in poi, la logica è la stessa, ma viene eseguita solo sulle righe corrette
+                if '|' not in line:
+                    continue
+    
+                parts = line.split('|')
+                if len(parts) != 2:
+                    continue
+    
+                event_info = parts[0].strip()
+                page_url = parts[1].strip()
+    
+                is_italian_event = any(f"/{channel}.php" in page_url for channel in italian_channels)
+    
+                if is_italian_event:
+                    print(f"\n[EVENTO] Trovato evento italiano: '{event_info}'")
+                    
+                    # Riformattiamo il nome dell'evento per mettere l'orario alla fine
+                    event_parts = event_info.split(maxsplit=1)
+                    if len(event_parts) == 2:
+                        time_str_original, name_only = event_parts
+                        
+                        # --- Aggiungi 1 ora all'orario ---
+                        try:
+                            # Converte la stringa dell'orario in un oggetto datetime
+                            original_time = datetime.datetime.strptime(time_str_original.strip(), '%H:%M')
+                            # Aggiunge un'ora
+                            new_time = original_time + datetime.timedelta(hours=1)
+                            time_str = new_time.strftime('%H:%M')
+                        except ValueError:
+                            time_str = time_str_original.strip() # Usa l'orario originale se il formato non è valido
+                        event_name = f"{name_only.strip()} {time_str}"
+                    else:
+                        event_name = event_info # Fallback se il formato non è quello previsto
+    
+                    # Andiamo a prendere il link .m3u8 dalla pagina dell'evento
+                    stream_info = get_m3u8_from_url(page_url, driver)
+    
+                    if stream_info:
+                        # Se abbiamo trovato il link, lo aggiungiamo alla nostra lista per la playlist
+                        playlist_entries.append({
+                            "name": event_name,
+                            "stream_info": stream_info
+                        })
+                    
+                    # Torniamo al contesto principale della pagina prima di passare al prossimo link
+                    # Questo è importante se eravamo entrati in un iframe
+                    try:
+                        driver.switch_to.default_content()
+                    except NoSuchFrameException:
+                        # Se non eravamo in un frame, Selenium lancia un errore. Lo ignoriamo.
+                        pass
+            
+            # --- AGGIUNTA: Creazione canale fallback se non ci sono eventi ---
+            if not playlist_entries:
+                print("\n[INFO] Nessun evento italiano con link streaming valido trovato oggi.")
+                print("[INFO] Creo un canale fallback 'NESSUN EVENTO'...")
+                playlist_entries.append({
+                    "name": "NESSUN EVENTO",
+                    "stream_info": {
+                        'url': "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+                        'headers': {
+                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                            'Referer': 'https://sportsonline.sn/'
+                        }
+                    }
+                })
+        
+        # Chiudiamo il browser di Selenium una volta finito
+        print("\nChiusura del browser Selenium.")
+        driver.quit()
     
         # 4. Creazione del file M3U
         output_filename = "sportsonline.m3u"
