@@ -3415,9 +3415,20 @@ def sportsonline():
         print("\nChiusura del browser Selenium.")
         driver.quit()
     
+        # --- AGGIUNTA: Creazione canale fallback se non ci sono eventi ---
         if not playlist_entries:
             print("\n[INFO] Nessun evento italiano con link streaming valido trovato oggi.")
-            return
+            print("[INFO] Creo un canale fallback 'NESSUN EVENTO'...")
+            playlist_entries.append({
+                "name": "NESSUN EVENTO",
+                "stream_info": {
+                    'url': "https://example.com/placeholder.m3u8",
+                    'headers': {
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                        'Referer': 'https://sportsonline.sn/'
+                    }
+                }
+            })
     
         # 4. Creazione del file M3U
         output_filename = "sportsonline.m3u"
