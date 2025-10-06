@@ -3009,6 +3009,11 @@ def italy_channels():
                 if not channel_name_raw or not channel_id:
                     continue
     
+                # Correzione specifica per il canale ID 853
+                if channel_id == "853":
+                    print(f"[CORREZIONE] Trovato ID 853. Il nome '{channel_name_raw}' sarà forzato a 'Canale 5 Italy'.")
+                    channel_name_raw = "Canale 5 Italy"
+
                 # Filtro: deve contenere "italy" (case-insensitive)
                 if "italy" in channel_name_raw.lower():
                     if channel_id in seen_daddy_channel_ids:
