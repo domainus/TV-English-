@@ -293,8 +293,6 @@ https://vavoo.to/vavoo-iptv/play/21132730647ae733a10331
 https://vavoo.to/vavoo-iptv/play/29825504332b9997336c1e
 #EXTINF:-1 tvg-id="iris.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" group-title="Mediaset",IRIS
 https://vavoo.to/vavoo-iptv/play/23919988fc371eea2329
-#EXTINF:-1 tvg-id="italia.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1
-https://vavoo.to/vavoo-iptv/play/633342961994dc5083ad5
 #EXTINF:-1 tvg-id="italia.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1 (D)
 https://dlhd.dad/watch.php?id=854
 #EXTINF:-1 tvg-id="la.5.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/la5-it.png" group-title="Mediaset",LA 5
@@ -385,6 +383,10 @@ https://vavoo.to/vavoo-iptv/play/3131104474771735b548ce
 https://dlhd.dad/watch.php?id=862
 #EXTINF:-1 tvg-id="sky.cinema.drama.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-drama-it.png" group-title="Film - Serie TV",SKY CINEMA DRAMA (D)
 https://dlhd.dad/watch.php?id=867
+#EXTINF:-1 tvg-id="sky.cinema.due.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Film - Serie TV",SKY CINEMA DUE
+https://vavoo.to/vavoo-iptv/play/2330574729acc52d969174
+#EXTINF:-1 tvg-id="sky.cinema.due.+24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Film - Serie TV",SKY CINEMA DUE +24
+https://vavoo.to/vavoo-iptv/play/1078650168cbe5484d34ad
 #EXTINF:-1 tvg-id="sky.cinema.due.+24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Film - Serie TV",SKY CINEMA DUE +24 (D)
 https://dlhd.dad/watch.php?id=866
 #EXTINF:-1 tvg-id="sky.cinema.family.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Film - Serie TV",SKY CINEMA FAMILY
@@ -437,6 +439,8 @@ https://dlhd.dad/watch.php?id=877
 https://vavoo.to/vavoo-iptv/play/34480753177564a146da63
 #EXTINF:-1 tvg-id="eurosport.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-1-es.png" group-title="Sport",EUROSPORT 1 (D)
 https://dlhd.dad/watch.php?id=878
+#EXTINF:-1 tvg-id="eurosport.2.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Sport",EUROSPORT 2
+https://vavoo.to/vavoo-iptv/play/23176844530f9ee58ada3e
 #EXTINF:-1 tvg-id="eurosport.2.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/spain/eurosport-2-es.png" group-title="Sport",EUROSPORT 2 (D)
 https://dlhd.dad/watch.php?id=879
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/lazio-style-channel-it.png?raw=true" group-title="Sport",LAZIO TV
@@ -497,6 +501,10 @@ https://vavoo.to/vavoo-iptv/play/22890389722acc4573933d
 https://dlhd.dad/watch.php?id=574
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-tennis-it.png" group-title="Sport",SKY SUPER TENNIS
 https://vavoo.to/vavoo-iptv/play/55828211836e421b20575
+#EXTINF:-1 tvg-id="sportitalia.it" tvg-logo="https://play-lh.googleusercontent.com/0IcWROAOpuEcMf2qbOBNQYhrAPUuSmw-zv0f867kUxKSwSTD_chyCDuBP2PScIyWI9k" group-title="Sport",SPORT ITALIA
+https://vavoo.to/vavoo-iptv/play/288173992763b00e6fdc82
+#EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/0IcWROAOpuEcMf2qbOBNQYhrAPUuSmw-zv0f867kUxKSwSTD_chyCDuBP2PScIyWI9k" group-title="Sport",SPORT ITALIA (BACKUP)
+https://vavoo.to/vavoo-iptv/play/3165086929ad0bcbc4fc19
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SI_Solo_Calcio_logo_%282019%29.svg/1200px-SI_Solo_Calcio_logo_%282019%29.svg.png" group-title="Sport",SPORT ITALIA SOLO CALCIO [LIVE DURING EVENTS ONLY]
 https://vavoo.to/vavoo-iptv/play/83094948658201829f87a
 #EXTINF:-1 tvg-id="supertennis.hd.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/super-tennis-it.png" group-title="Sport",SUPER TENNIS
@@ -593,10 +601,10 @@ https://vavoo.to/vavoo-iptv/play/28023290645ecbd632b9ce
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="wtatour1000beijingatptour1000shanghai" tvg-name="Tennis | WTA Tour 1000 Beijing, ATP Tour 1000 Shanghai (06:30)" tvg-logo="https://images.seeklogo.com/logo-png/25/2/atp-world-tour-masters-1000-logo-png_seeklogo-251003.png" group-title="Eventi Live DLHD",Tennis | WTA Tour 1000 Beijing, ATP Tour 1000 Shanghai (06:30)
+#EXTINF:-1 tvg-id="wtatour1000beijingatptour1000shanghai" tvg-name="Tennis | WTA Tour 1000 Beijing, ATP Tour 1000 Shanghai (06:30)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/x16ihc1546113079.png" group-title="Eventi Live DLHD",Tennis | WTA Tour 1000 Beijing, ATP Tour 1000 Shanghai (06:30)
 https://dlhd.dad/watch.php?id=576
 
-#EXTINF:-1 tvg-id="binchechimaybinche197km1980m" tvg-name="Cycling | Binche - Chimay - Binche | 197 km | 1980 m (13:00)" tvg-logo="https://bierwinkelblondenstout.nl/wp-content/uploads/C3747802-C1EE-47FC-95B8-0C638B00861C.png" group-title="Eventi Live DLHD",Cycling | Binche - Chimay - Binche | 197 km | 1980 m (13:00)
+#EXTINF:-1 tvg-id="binchechimaybinche197km1980m" tvg-name="Cycling | Binche - Chimay - Binche | 197 km | 1980 m (13:00)" tvg-logo="https://www.dibeal.com/wp-content/uploads/2024/09/chimayazul.png" group-title="Eventi Live DLHD",Cycling | Binche - Chimay - Binche | 197 km | 1980 m (13:00)
 https://dlhd.dad/watch.php?id=878
 
 #EXTINF:-1 tvg-id="seriea1womenbustoarsiziowvsconeglianow" tvg-name="Volleyball | Serie A1 Women : Busto Arsizio W vs Conegliano W (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Busto Arsizio W_vs_Conegliano W.png" group-title="Eventi Live DLHD",Volleyball | Serie A1 Women : Busto Arsizio W vs Conegliano W (20:30)
