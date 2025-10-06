@@ -2,7 +2,7 @@ name: Download STREAMED Playlist
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # Esegue ogni 12 ore
+    - cron: '0 */2 * * *'  # Esegue ogni 12 ore
   workflow_dispatch:  # Permette esecuzione manuale
 
 jobs:
