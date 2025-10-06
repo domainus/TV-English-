@@ -828,22 +828,19 @@ def eventi_m3u8_generator_world():
                     logo_attribute = f' tvg-logo="{logo_url}"' if logo_url else ''
      
                     try: 
-                        # Controlla se è un canale tennis
-                        if "tennis channel" in channel_name.lower() or "tennis stream" in channel_name.lower():
-                            # Usa la nuova funzione per i canali tennis
-                            stream = search_m3u8_in_sites(channel_id, is_tennis=True)
-                            if not stream:
-                                # Fallback al metodo originale se non trovato
-                                stream = get_stream_from_channel_id(channel_id)
-                        else:
+                        # Cerca lo stream .m3u8 nei siti specificati
+                        stream = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name.lower())
+                        
+                        # Se non viene trovato, usa il metodo di fallback con il .php
+                        if not stream:
                             stream = get_stream_from_channel_id(channel_id)
                             
                         if stream: 
                             cleaned_event_id = clean_tvg_id(event_title) # Usa event_title per tvg-id
                             f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}" tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live DLHD",{category} | {tvg_name}\n')
                             # Aggiungi EXTHTTP headers per canali daddy (esclusi .php)
-                            if ("newkso.ru" in stream or "premium" in stream) and not stream.endswith('.php'):
-                                daddy_headers = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1", "Referer": "https://forcedtoplay.xyz/", "Origin": "https://forcedtoplay.xyz"}
+                            if "ava.karmakurama.com" in stream and not stream.endswith('.php'):
+                                daddy_headers = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1", "Referrer": "https://ava.karmakurama.com/", "Origin": "https://ava.karmakurama.com"}
                                 vlc_opt_lines = headers_to_extvlcopt(daddy_headers)
                                 for line in vlc_opt_lines:
                                     f.write(f'{line}\n')
@@ -1388,6 +1385,7 @@ def eventi_m3u8_generator():
                     tvg_name = ch["tvg_name"] 
                     channel_id = ch["channel_id"] 
                     event_title = ch["event_title"]  # Otteniamo il titolo dell'evento
+                    channel_name = ch["channel_name"]
                     
                     # Cerca un logo per questo evento
                     # Rimuovi l'orario dal titolo dell'evento prima di cercare il logo
@@ -1397,13 +1395,18 @@ def eventi_m3u8_generator():
                     logo_attribute = f' tvg-logo="{logo_url}"' if logo_url else ''
      
                     try: 
-                        stream = get_stream_from_channel_id(channel_id) 
+                        # Cerca lo stream .m3u8 nei siti specificati
+                        stream = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name.lower())
+                        
+                        # Se non viene trovato, usa il metodo di fallback con il .php
+                        if not stream:
+                            stream = get_stream_from_channel_id(channel_id)
                         if stream: 
                             cleaned_event_id = clean_tvg_id(event_title) # Usa event_title per tvg-id
                             f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}" tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live DLHD",{category} | {tvg_name}\n')
                             # Aggiungi EXTHTTP headers per canali daddy (esclusi .php)
-                            if ("newkso.ru" in stream or "premium" in stream) and not stream.endswith('.php'):
-                                daddy_headers = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1", "Referer": "https://forcedtoplay.xyz/", "Origin": "https://forcedtoplay.xyz"}
+                            if "ava.karmakurama.com" in stream and not stream.endswith('.php'):
+                                daddy_headers = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1", "Referrer": "https://ava.karmakurama.com/", "Origin": "https://ava.karmakurama.com"}
                                 vlc_opt_lines = headers_to_extvlcopt(daddy_headers)
                                 for line in vlc_opt_lines:
                                     f.write(f'{line}\n')
@@ -2963,7 +2966,16 @@ def italy_channels():
                     logo = ch.get("logo", "")
                     tvg_id = ch.get("tvg_id", "")
                     
-                    f.write(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n{url}\n')
+                    f.write(f'#EXTINF:-1 tvg-id="{tvg_id}" tvg-logo="{logo}" group-title="{category}",{name}\n')
+                    
+                    # Aggiungi EXTHTTP headers per canali daddy (esclusi .php)
+                    if "ava.karmakurama.com" in url and not url.endswith('.php'):
+                        daddy_headers = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1", "Referrer": "https://ava.karmakurama.com/", "Origin": "https://ava.karmakurama.com"}
+                        vlc_opt_lines = headers_to_extvlcopt(daddy_headers)
+                        for line in vlc_opt_lines:
+                            f.write(f'{line}\n')
+                    
+                    f.write(f'{url}\n')
 
         print(f"Playlist M3U salvata in: {filename}")
         print(f"Totale canali Vavoo: {len(channels)}")
@@ -2972,50 +2984,6 @@ def italy_channels():
         print(f"Totale canali per categoria:")
         for category, channel_list in channels_by_category.items():
             print(f" {category}: {len(channel_list)} canali")
-
-    def search_m3u8_in_sites(channel_id, is_tennis=False):
-        """
-        Cerca i file .m3u8 nei siti specificati per i canali daddy e tennis
-        """
-        if is_tennis:
-            # Per i canali tennis, cerca in wikihz
-            if len(str(channel_id)) == 4 and str(channel_id).startswith('15'):
-                tennis_suffix = str(channel_id)[2:]  # Prende le ultime due cifre
-                folder_name = f"wikiten{tennis_suffix}"
-                base_url = "https://new.newkso.ru/wikihz/"
-                test_url = f"{base_url}{folder_name}/mono.m3u8"
-                
-                try:
-                    response = requests.head(test_url, timeout=5)
-                    if response.status_code == 200:
-                        print(f"[✓] Stream tennis trovato: {test_url}")
-                        return test_url
-                except:
-                    pass
-        else:
-            # Per i canali daddy, cerca nei siti specificati
-            daddy_sites = [
-                "https://new.newkso.ru/wind/",
-                "https://new.newkso.ru/ddy6/", 
-                "https://new.newkso.ru/zeko/",
-                "https://new.newkso.ru/nfs/",
-                "https://new.newkso.ru/dokko1/"
-            ]
-            
-            folder_name = f"premium{channel_id}"
-            
-            for site in daddy_sites:
-                test_url = f"{site}{folder_name}/mono.m3u8"
-                try:
-                    response = requests.head(test_url, timeout=5)
-                    if response.status_code == 200:
-                        print(f"[✓] Stream daddy trovato: {test_url}")
-                        return test_url
-                except:
-                    continue
-        
-        print(f"[!] Nessun stream .m3u8 trovato per channel_id {channel_id}")
-        return None
 
     def get_stream_from_channel_id(channel_id):
         """Risolve lo stream URL per un canale Daddylive dato il suo ID"""
@@ -3049,14 +3017,25 @@ def italy_channels():
                 if channel_id in seen_daddy_channel_ids:
                     print(f"Skipping Daddylive channel '{channel_name_raw}' (ID: {channel_id}) perché l'ID è già stato processato.")
                     continue
-
+    
                 # Filtro: deve contenere "italy" (case-insensitive)
                 if "italy" in channel_name_raw.lower():
                     seen_daddy_channel_ids.add(channel_id)
                     print(f"Trovato canale ITALIANO (Daddylive JSON): {channel_name_raw}, ID: {channel_id}. Tentativo di risoluzione stream...")
-                    stream_url = get_stream_from_channel_id(channel_id)
+                    # Cerca prima lo stream .m3u8
+                    stream_url = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name_raw.lower())
+                    # Se non trovato, usa il fallback .php
+                    if not stream_url:
+                        stream_url = get_stream_from_channel_id(channel_id)
+
                     if stream_url:
-                        channels.append((channel_name_raw, stream_url))
+                        # Aggiungi l'ID all'URL se non è già presente, per la logica di rename
+                        if 'id=' not in stream_url:
+                            separator = '&' if '?' in stream_url else '?'
+                            url_with_id = f"{stream_url}{separator}id={channel_id}"
+                        else:
+                            url_with_id = stream_url
+                        channels.append((channel_name_raw, url_with_id))
                         print(f"Risolto e aggiunto stream per {channel_name_raw}: {stream_url}")
                     else:
                         print(f"Impossibile risolvere lo stream per {channel_name_raw} (ID: {channel_id})")
@@ -3466,7 +3445,7 @@ def sportsonline():
                 if 'Origin' in headers:
                     f.write(f"#EXTVLCOPT:http-origin={headers['Origin']}\n")
                 if 'Referer' in headers:
-                    f.write(f"#EXTVLCOPT:http-referer={headers['Referer']}\n")
+                    f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
                 if 'User-Agent' in headers:
                     f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
                 
@@ -3477,6 +3456,66 @@ def sportsonline():
     if __name__ == "__main__":
         main()
 
+def headers_to_extvlcopt(headers):
+    """Converte un dizionario di header in una lista di stringhe #EXTVLCOPT per VLC."""
+    vlc_opts = []
+    for key, value in headers.items():
+        # VLC usa nomi di header in minuscolo
+        vlc_opts.append(f'#EXTVLCOPT:http-{key.lower()}={value}')
+    return vlc_opts
+
+def search_m3u8_in_sites(channel_id, is_tennis=False):
+    """
+    Cerca i file .m3u8 nei siti specificati per i canali daddy e tennis
+    """
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
+        "X-Requested-With": "XMLHttpRequest",
+        "X-Forwarded-For": "127.0.0.1",
+        "Referer": "https://ava.karmakurama.com/"
+    }
+
+    if is_tennis:
+        # Per i canali tennis, cerca in wikihz
+        if len(str(channel_id)) == 4 and str(channel_id).startswith('15'):
+            tennis_suffix = str(channel_id)[2:]  # Prende le ultime due cifre
+            folder_name = f"wikiten{tennis_suffix}"
+            base_url = "https://ava.karmakurama.com/wikihz/"
+            test_url = f"{base_url}{folder_name}/mono.m3u8"
+            headers["Referer"] = base_url # Aggiorna il referer per i canali tennis
+            
+            try:
+                response = requests.head(test_url, timeout=5, headers=headers)
+                if response.status_code == 200:
+                    print(f"[✓] Stream tennis trovato: {test_url}")
+                    return test_url
+            except:
+                pass
+    else:
+        # Per i canali daddy, cerca nei siti specificati
+        daddy_sites = [
+            "https://ava.karmakurama.com/wind/",
+            "https://ava.karmakurama.com/ddy6/", 
+            "https://ava.karmakurama.com/zeko/",
+            "https://ava.karmakurama.com/nfs/",
+            "https://ava.karmakurama.com/dokko1/"
+        ]
+        
+        folder_name = f"premium{channel_id}"
+        
+        for site in daddy_sites:
+            test_url = f"{site}{folder_name}/mono.m3u8"
+            headers["Referer"] = site # Aggiorna il referer per ogni sito daddy
+            try:
+                response = requests.head(test_url, timeout=5, headers=headers)
+                if response.status_code == 200:
+                    print(f"[✓] Stream daddy trovato: {test_url}")
+                    return test_url
+            except:
+                continue
+    
+    print(f"[!] Nessun stream .m3u8 trovato per channel_id {channel_id}")
+    return None
 def removerworld():
     import os
     
