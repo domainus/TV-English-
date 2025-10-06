@@ -48815,5 +48815,18 @@
       99
     ],
     "cached_at": "2025-10-05T06:15:20.381589"
+  },
+  "246461": {
+    "id": 246461,
+    "name": "Sherlock & Figlia",
+    "original_name": "Sherlock & Daughter",
+    "first_air_date": "2025-04-16",
+    "vote_average": 6.9,
+    "poster_path": "/u5IVvAGaPoSkdoeNTd0hwdSnT0n.jpg",
+    "genre_ids": [
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-06T06:18:25.481436"
   }
 }
