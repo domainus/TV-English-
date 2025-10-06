@@ -3031,8 +3031,8 @@ def italy_channels():
                         stream_url = get_stream_from_channel_id(channel_id)
 
                     if stream_url:
-                        # Aggiungi l'ID all'URL se non è già presente, per la logica di rename
-                        if 'id=' not in stream_url:
+                        # Aggiungi l'ID solo agli URL .php per la logica di rename successiva
+                        if stream_url.endswith('.php'):
                             separator = '&' if '?' in stream_url else '?'
                             url_with_id = f"{stream_url}{separator}id={channel_id}"
                         else:
@@ -3447,7 +3447,7 @@ def sportsonline():
                 if 'Origin' in headers:
                     f.write(f"#EXTVLCOPT:http-origin={headers['Origin']}\n")
                 if 'Referer' in headers:
-                    f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
+                    f.write(f"#EXTVLCOPT:http-referer={headers['Referer']}\n")
                 if 'User-Agent' in headers:
                     f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
                 
