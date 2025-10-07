@@ -3452,7 +3452,7 @@ def sportsonline():
                 url = info['url']
                 headers = info['headers']
                 
-                f.write(f'#EXTINF:-1 group-title="Eventi Live sportsonline",{entry["name"]}\n')
+                f.write(f'#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",{entry["name"]}\n')
     
                 # Scriviamo gli header nel formato #EXTVLCOPT per VLC
                 if 'Origin' in headers:
