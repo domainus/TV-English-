@@ -48828,5 +48828,464 @@
       9648
     ],
     "cached_at": "2025-10-06T06:18:25.481436"
+  },
+  "204748": {
+    "id": 204748,
+    "name": "Per sempre estate: Hamptons",
+    "original_name": "Forever Summer: Hamptons",
+    "first_air_date": "2022-07-14",
+    "vote_average": 2.7,
+    "poster_path": "/wuMVCueW4CxY8qxgWXql2CDtkgd.jpg",
+    "genre_ids": [
+      10764,
+      99
+    ],
+    "cached_at": "2025-10-07T06:17:35.793454"
+  },
+  "205722": {
+    "id": 205722,
+    "name": "Country Queen",
+    "original_name": "Country Queen",
+    "first_air_date": "2022-07-15",
+    "vote_average": 7.2,
+    "poster_path": "/39rLohFji3qUKu6A5OXZW4NMJ8l.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-07T06:17:35.804820"
+  },
+  "206246": {
+    "id": 206246,
+    "name": "Trainwreck: Woodstock '99",
+    "original_name": "Trainwreck: Woodstock '99",
+    "first_air_date": "2022-08-03",
+    "vote_average": 7.326,
+    "poster_path": "/hFWNQTiJ2VXfZeKrsykem0o9nWc.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-07T06:17:35.826724"
+  },
+  "204590": {
+    "id": 204590,
+    "name": "나를 사랑하지 않는 X에게",
+    "original_name": "나를 사랑하지 않는 X에게",
+    "first_air_date": "2022-07-14",
+    "vote_average": 2.0,
+    "poster_path": "/nS67gxktRPR9Eqb1ngisTIQdS6w.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-07T06:17:35.861351"
+  },
+  "114138": {
+    "id": 114138,
+    "name": "Papà su misura",
+    "original_name": "Papás por Encargo",
+    "first_air_date": "2022-07-13",
+    "vote_average": 8.3,
+    "poster_path": "/cMlB0ZollAr2yFHIZwa41upQKUa.jpg",
+    "genre_ids": [
+      18,
+      35,
+      10751,
+      10762
+    ],
+    "cached_at": "2025-10-07T06:17:35.875860"
+  },
+  "206085": {
+    "id": 206085,
+    "name": "Selección Argentina, la serie - Camino a Qatar",
+    "original_name": "Selección Argentina, la serie - Camino a Qatar",
+    "first_air_date": "2022-07-22",
+    "vote_average": 7.8,
+    "poster_path": "/dLeqKotFP8dTHk5fadCHlcc5iiV.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-07T06:17:35.897717"
+  },
+  "135726": {
+    "id": 135726,
+    "name": "Mamma, non fare guai!",
+    "original_name": "媽，別鬧了！",
+    "first_air_date": "2022-07-15",
+    "vote_average": 8.2,
+    "poster_path": "/dOCKhsB0eckx5uv7rvazLJkxCcB.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-07T06:17:35.931618"
+  },
+  "206489": {
+    "id": 206489,
+    "name": "天才基本法",
+    "original_name": "天才基本法",
+    "first_air_date": "2022-07-22",
+    "vote_average": 6.9,
+    "poster_path": "/6bY8dOE1TC0FBSpJT3AhtZKXwnV.jpg",
+    "genre_ids": [
+      18,
+      10751,
+      10765
+    ],
+    "cached_at": "2025-10-07T06:17:35.947441"
+  },
+  "130147": {
+    "id": 130147,
+    "name": "沉香如屑·沉香重华",
+    "original_name": "沉香如屑·沉香重华",
+    "first_air_date": "2022-07-20",
+    "vote_average": 5.9,
+    "poster_path": "/7bevLtkERBhZH7PYHc0Z1uoIIjQ.jpg",
+    "genre_ids": [
+      18,
+      10765,
+      10759
+    ],
+    "cached_at": "2025-10-07T06:17:35.968092"
+  },
+  "206075": {
+    "id": 206075,
+    "name": "Instant Dream Home - Case da trasformare",
+    "original_name": "Instant Dream Home",
+    "first_air_date": "2022-08-10",
+    "vote_average": 6.4,
+    "poster_path": "/1rN5YmqUeJiHErsbPzGtoqdoy9o.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-07T06:17:36.002957"
+  },
+  "204694": {
+    "id": 204694,
+    "name": "Mimicus",
+    "original_name": "미미쿠스",
+    "first_air_date": "2022-07-22",
+    "vote_average": 4.615,
+    "poster_path": "/y6Zkwy9hawUm85TmB8N97gR4Etu.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-07T06:17:36.019455"
+  },
+  "205683": {
+    "id": 205683,
+    "name": "Chibiverse",
+    "original_name": "Chibiverse",
+    "first_air_date": "2022-07-30",
+    "vote_average": 7.0,
+    "poster_path": "/sfLdBGHL0qsIqP7IsuMxgTYA890.jpg",
+    "genre_ids": [
+      35,
+      16
+    ],
+    "cached_at": "2025-10-07T06:17:36.039593"
+  },
+  "206087": {
+    "id": 206087,
+    "name": "Chi scherza col fuoco",
+    "original_name": "Donde Hubo Fuego",
+    "first_air_date": "2022-08-17",
+    "vote_average": 7.7,
+    "poster_path": "/nDZNkLzQBhWUxBgI8ARCFmqnblm.jpg",
+    "genre_ids": [
+      10759,
+      18
+    ],
+    "cached_at": "2025-10-07T06:17:36.073982"
+  },
+  "197357": {
+    "id": 197357,
+    "name": "The Captain",
+    "original_name": "The Captain",
+    "first_air_date": "2022-07-18",
+    "vote_average": 7.8,
+    "poster_path": "/oa3mIWCFiPdd1rpRvtnuvKpsThI.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-07T06:17:36.091653"
+  },
+  "158694": {
+    "id": 158694,
+    "name": "La città di Alberogrande",
+    "original_name": "Big Tree City",
+    "first_air_date": "2022-08-01",
+    "vote_average": 7.9,
+    "poster_path": "/iCrTg0Ymc5rdFx648w2Aw4DcQVQ.jpg",
+    "genre_ids": [
+      10759,
+      35,
+      10762,
+      16
+    ],
+    "cached_at": "2025-10-07T06:17:36.110170"
+  },
+  "204701": {
+    "id": 204701,
+    "name": "Drag Race Philippines Untucked!",
+    "original_name": "Drag Race Philippines Untucked!",
+    "first_air_date": "2022-08-19",
+    "vote_average": 0.0,
+    "poster_path": "/wlyEESthHhqX4I09Yqie2ZPSTKq.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-07T06:17:36.144127"
+  },
+  "204577": {
+    "id": 204577,
+    "name": "Bear Grylls Celebrity Edition: la sfida",
+    "original_name": "Running Wild with Bear Grylls: The Challenge",
+    "first_air_date": "2022-07-25",
+    "vote_average": 6.7,
+    "poster_path": "/3nyD4Vp61FyHwZx3pvkW6Jg7jlV.jpg",
+    "genre_ids": [
+      10764,
+      10759
+    ],
+    "cached_at": "2025-10-07T06:17:36.164800"
+  },
+  "197463": {
+    "id": 197463,
+    "name": "Cosmic Love",
+    "original_name": "Cosmic Love",
+    "first_air_date": "2022-08-11",
+    "vote_average": 2.7,
+    "poster_path": "/sq9zjATNLtO9eLv14W2Y0iNJKvt.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-07T06:17:36.184171"
+  },
+  "205798": {
+    "id": 205798,
+    "name": "Chad and JT Go Deep",
+    "original_name": "Chad and JT Go Deep",
+    "first_air_date": "2022-08-23",
+    "vote_average": 7.6,
+    "poster_path": "/gCsIR9SEfoPYOxf6WSIUB4ltH4W.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-07T06:17:36.218309"
+  },
+  "205902": {
+    "id": 205902,
+    "name": "Tamara Falcó: Vita da marchesa",
+    "original_name": "Tamara Falcó: La marquesa",
+    "first_air_date": "2022-08-04",
+    "vote_average": 4.7,
+    "poster_path": "/xkwvx6SBKMRqpoFVzlVxUovTilO.jpg",
+    "genre_ids": [
+      99,
+      10764
+    ],
+    "cached_at": "2025-10-07T06:17:36.233255"
+  },
+  "158697": {
+    "id": 158697,
+    "name": "Deepa & Anoop",
+    "original_name": "Deepa & Anoop",
+    "first_air_date": "2022-08-15",
+    "vote_average": 6.9,
+    "poster_path": "/nLl1rMu0fWHqlVlzeFLWiTwTZjq.jpg",
+    "genre_ids": [
+      10762,
+      16
+    ],
+    "cached_at": "2025-10-07T06:17:36.253892"
+  },
+  "206910": {
+    "id": 206910,
+    "name": "Ludik",
+    "original_name": "Ludik",
+    "first_air_date": "2022-08-26",
+    "vote_average": 7.3,
+    "poster_path": "/pNdYJdE1sSACnjgWjnIJAm7lfiV.jpg",
+    "genre_ids": [
+      80,
+      18
+    ],
+    "cached_at": "2025-10-07T06:17:36.288606"
+  },
+  "205857": {
+    "id": 205857,
+    "name": "Street Food: USA",
+    "original_name": "Street Food: USA",
+    "first_air_date": "2022-07-26",
+    "vote_average": 6.8,
+    "poster_path": "/3JS63O9pojbk93V0p29i39iNywE.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-07T06:17:36.315197"
+  },
+  "156658": {
+    "id": 156658,
+    "name": "Queer Eye: Brasile",
+    "original_name": "Queer Eye: Brasil",
+    "first_air_date": "2022-08-24",
+    "vote_average": 5.8,
+    "poster_path": "/8kOyOvnXvKLgFAqbajIZplAEAQ0.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-07T06:17:36.326892"
+  },
+  "207512": {
+    "id": 207512,
+    "name": "Buy My House",
+    "original_name": "Buy My House",
+    "first_air_date": "2022-09-02",
+    "vote_average": 7.1,
+    "poster_path": "/kryuwD1GCRiuoZrIVkQlhLZRTGt.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-07T06:17:36.358730"
+  },
+  "204129": {
+    "id": 204129,
+    "name": "Hurts Like Hell: il mondo del muay thai",
+    "original_name": "เจ็บเจียนตาย",
+    "first_air_date": "2022-07-13",
+    "vote_average": 7.8,
+    "poster_path": "/mxK8Svp0ILBdDkUAov38Tc5rKzz.jpg",
+    "genre_ids": [
+      18,
+      99
+    ],
+    "cached_at": "2025-10-07T06:17:36.377450"
+  },
+  "115033": {
+    "id": 115033,
+    "name": "Non sei niente di speciale",
+    "original_name": "Tú no eres especial",
+    "first_air_date": "2022-09-02",
+    "vote_average": 5.8,
+    "poster_path": "/mol99NhNlwNMcQs5vExIIXzpe3Q.jpg",
+    "genre_ids": [
+      35,
+      10765,
+      18
+    ],
+    "cached_at": "2025-10-07T06:17:36.396680"
+  },
+  "155226": {
+    "id": 155226,
+    "name": "Big Mouth!",
+    "original_name": "빅마우스",
+    "first_air_date": "2022-07-29",
+    "vote_average": 8.2,
+    "poster_path": "/8HTCtxyJWyjVMnxF14tSWJ0GYj4.jpg",
+    "genre_ids": [
+      9648,
+      18,
+      80
+    ],
+    "cached_at": "2025-10-07T06:17:36.448236"
+  },
+  "158138": {
+    "id": 158138,
+    "name": "Robo-fratelli super giganti",
+    "original_name": "Super Giant Robot Brothers!",
+    "first_air_date": "2022-08-04",
+    "vote_average": 6.8,
+    "poster_path": "/2IZk0B9HOvAFlGPXlAWDu1og8Gh.jpg",
+    "genre_ids": [
+      16,
+      10759,
+      35
+    ],
+    "cached_at": "2025-10-07T06:17:36.520502"
+  },
+  "203502": {
+    "id": 203502,
+    "name": "School Tales: La serie",
+    "original_name": "โรงเรียนผีมีอยู่ว่า…",
+    "first_air_date": "2022-08-10",
+    "vote_average": 7.4,
+    "poster_path": "/nhuyS6e4hUhbncY4gwZb1pmp61i.jpg",
+    "genre_ids": [
+      9648
+    ],
+    "cached_at": "2025-10-07T06:17:36.590391"
+  },
+  "205793": {
+    "id": 205793,
+    "name": "Iron Chef Brasil",
+    "original_name": "Iron Chef Brasil",
+    "first_air_date": "2022-08-10",
+    "vote_average": 7.8,
+    "poster_path": "/xXwZruNz8qFkDDVtMTpzswWMRuq.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-07T06:17:36.663157"
+  },
+  "139203": {
+    "id": 139203,
+    "name": "Drag Race Philippines",
+    "original_name": "Drag Race Philippines",
+    "first_air_date": "2022-08-17",
+    "vote_average": 7.0,
+    "poster_path": "/poEleCOzOoaG60TXJbwpW0Jlmuz.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-07T06:17:36.733807"
+  },
+  "195530": {
+    "id": 195530,
+    "name": "Tekken: Bloodline",
+    "original_name": "Tekken: Bloodline",
+    "first_air_date": "2022-08-18",
+    "vote_average": 7.43,
+    "poster_path": "/bi3XOKS38K7FdH9nPtsZCcmeL1F.jpg",
+    "genre_ids": [
+      10759,
+      10765,
+      16
+    ],
+    "cached_at": "2025-10-07T06:17:36.803603"
+  },
+  "207242": {
+    "id": 207242,
+    "name": "Il caso Cassez-Vallarta: un romanzo messicano",
+    "original_name": "El caso Cassez-Vallarta: una novela criminal",
+    "first_air_date": "2022-08-25",
+    "vote_average": 7.2,
+    "poster_path": "/9LhnKF11ssXaOh4eq5oDlXmctGu.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-07T06:17:36.875486"
+  },
+  "207459": {
+    "id": 207459,
+    "name": "America's National Parks",
+    "original_name": "America's National Parks",
+    "first_air_date": "2022-08-29",
+    "vote_average": 7.5,
+    "poster_path": "/pOKV9dotLlvqliu9uV0Mu7W5z6r.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-07T06:17:36.945647"
+  },
+  "208422": {
+    "id": 208422,
+    "name": "América vs América",
+    "original_name": "América vs América",
+    "first_air_date": "2022-08-31",
+    "vote_average": 8.7,
+    "poster_path": "/cGQD7hrIv8b3KnYG5eudAzrIE69.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-07T06:17:37.027958"
   }
 }
