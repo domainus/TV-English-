@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="FIFAU20WCArgentinaU20vsNigeriaU20">
+    <display-name>FIFA U20 WC : Argentina U20 vs Nigeria U20</display-name>
+  </channel>
+  <programme start="20251008000000 +0200" stop="20251008213000 +0200" channel="FIFAU20WCArgentinaU20vsNigeriaU20">
+    <title lang="it">Inizia alle 21:30.</title>
+    <desc lang="it">FIFA U20 WC : Argentina U20 vs Nigeria U20.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251008213000 +0200" stop="20251008233000 +0200" channel="FIFAU20WCArgentinaU20vsNigeriaU20">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">FIFA U20 WC : Argentina U20 vs Nigeria U20</desc>
+    <category lang="it">Soccer</category>
+  </programme>
+  <channel id="FIFAU20WCJapanU20vsFranceU20">
+    <display-name>FIFA U20 WC : Japan U20 vs France U20</display-name>
+  </channel>
+  <programme start="20251009000000 +0200" stop="20251009010000 +0200" channel="FIFAU20WCJapanU20vsFranceU20">
+    <title lang="it">Inizia alle 01:00.</title>
+    <desc lang="it">FIFA U20 WC : Japan U20 vs France U20.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251009010000 +0200" stop="20251009030000 +0200" channel="FIFAU20WCJapanU20vsFranceU20">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">FIFA U20 WC : Japan U20 vs France U20</desc>
+    <category lang="it">Soccer</category>
+  </programme>
+</tv>
