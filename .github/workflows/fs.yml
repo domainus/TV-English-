@@ -4,8 +4,8 @@ on:
   push:
     branches: [ main, master ]
     paths:
-      - 'film.py'
-      - 'serie.py'
+      - 'scripts/film.py'
+      - 'scripts/serie.py'
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
@@ -39,15 +39,15 @@ jobs:
       env:
         TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
       run: |
-        echo "🎬 Running film.py..."
-        python film.py
+        echo "🎬 Running scripts/film.py..."
+        python scripts/film.py
 
     - name: Generate series playlist
       env:
         TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
       run: |
-        echo "📺 Running serie.py..."
-        python serie.py
+        echo "📺 Running scripts/serie.py..."
+        python scripts/serie.py
 
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v5

@@ -3,7 +3,7 @@ on:
   push:
     branches: [ main, master ]
     paths:
-      - 'lista.py'
+      - 'scripts/lista.py'
   schedule:
     - cron: '0 */2 * * *'  # Esegui ogni 2 ore
   workflow_dispatch:  # Consente l'esecuzione manuale
@@ -11,6 +11,8 @@ on:
 jobs:
   extract-data:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Necessario per il commit
     
     steps:
       - name: Checkout repository
@@ -29,28 +31,13 @@ jobs:
 
       - name: Run Script
         run: |
-          python lista.py
+          python scripts/lista.py
       
-      - name: Configura Git
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-
-      - name: Stash delle modifiche locali (se presenti)
-        run: |
-          git diff --quiet || git stash
-
-      - name: Scarica le ultime modifiche dal repository remoto
-        run: git pull --rebase origin main
-
-      - name: Ripristina le modifiche stashed (se presenti)
-        run: |
-          git stash list | grep -q "stash@{0}" && git stash pop || echo "Nessuna modifica da ripristinare"
-
-      - name: Aggiungi il file generato al commit
-        run: |
-          git add .
-          git commit -m "UPDATE" || echo "Nessuna modifica da commitare"
-
-      - name: Pusha il cambiamento
-        run: git push
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📊 Update list - ${{ github.run_number }}"
+          # Aggiungi qui i file generati da lista.py se non sono già tracciati
+          # file_pattern: "lista_output.txt" 
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
