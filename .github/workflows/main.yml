@@ -36,16 +36,15 @@ jobs:
         run: |
           python scripts/lista.py
       
-      - name: Synchronize with remote and rebase
-        run: |
-          git config pull.rebase true
-          git pull origin main
-      
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "📊 Update list - ${{ github.run_number }}"
-          # Aggiungi qui i file generati da lista.py se non sono già tracciati
-          # file_pattern: "lista_output.txt" 
           commit_user_name: "github-actions[bot]"
           commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Synchronize with remote and rebase
+        run: |
+          git config pull.rebase true
+          git pull origin main
+          git push
