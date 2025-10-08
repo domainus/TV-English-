@@ -17,6 +17,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Fetch all history for all tags and branches
+          fetch-depth: 0
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -32,6 +35,11 @@ jobs:
       - name: Run Script
         run: |
           python scripts/lista.py
+      
+      - name: Synchronize with remote and rebase
+        run: |
+          git config pull.rebase true
+          git pull origin main
       
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
