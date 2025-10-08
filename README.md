@@ -29,15 +29,6 @@ Queste liste devono essere utilizzate con un proxy. (Vavoo e SportsOnline)
   
 ---
 
-## 🔗 Link Lista SportsOnline
-
-Questa lista funziona solo senza proxy.
-
-- **Lista M3U**  
-  [`https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/sportsonline.m3u`](https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/sportsonline.m3u)
-  
----
-
 ## 🔗 Link Film, Serie TV 
 
 Queste liste devono essere utilizzate con un proxy.
