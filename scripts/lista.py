@@ -2162,15 +2162,15 @@ def epg_eventi_dlhd_generator_world():
             return False
     
     # Esempio di utilizzo
-    if __name__ == "__main__":
+    # This block is not executed when called as a function.
+    # The call is now handled in the main() function of the script.
+    # if __name__ == "__main__":
         # Percorso del file JSON di input
-        input_json_path = "daddyliveSchedule.json"  # Modifica con il tuo percorso
-        
+        # input_json_path = "daddyliveSchedule.json"
         # Usa il percorso passato come argomento
-        output_xml_path = output_file_path
-        
+        # output_xml_path = output_file_path
         # Esegui la generazione EPG
-        main_epg_generator(input_json_path, output_xml_path)
+        # main_epg_generator(input_json_path, output_xml_path)
 
 # Funzione per il quinto script (epg_eventi_dlhd_generator.py)
 def epg_eventi_dlhd_generator(output_file_path="eventi_dlhd.xml"):
@@ -2423,16 +2423,16 @@ def epg_eventi_dlhd_generator(output_file_path="eventi_dlhd.xml"):
             return False
     
     # Esempio di utilizzo
-    if __name__ == "__main__":
+    # This block is not executed when called as a function.
+    # The call is now handled in the main() function of the script.
+    # if __name__ == "__main__":
         # Percorso del file JSON di input
-        input_json_path = "daddyliveSchedule.json"  # Modifica con il tuo percorso
-        
+        # input_json_path = "daddyliveSchedule.json"
         # Percorso del file XML di output
-        output_xml_path = output_file_path
-        
+        # output_xml_path = output_file_path
         # Esegui la generazione EPG
-        main_epg_generator(input_json_path, output_xml_path)
-        
+        # main_epg_generator(input_json_path, output_xml_path)
+
 # Funzione per il sesto script (italy_channels.py)
 def italy_channels():
     print("Eseguendo il italy_channels.py...")
@@ -3673,11 +3673,12 @@ def main():
         # EPG eventi_dlhd
         # Genera eventi_dlhd.xml solo se CANALI_DADDY è "si"
         if canali_daddy_flag == "si": # Questa riga è corretta
+            json_input_path = os.path.join(script_dir, "daddyliveSchedule.json")
             try: # Questo blocco 'try' deve essere indentato sotto l'if
                 if eventi_dlhd_en == "si":
-                    epg_eventi_dlhd_generator_world()
+                    epg_eventi_dlhd_generator_world(json_file_path=json_input_path, output_file_path=os.path.join(output_dir, "eventi_dlhd.xml"))
                 else:
-                    epg_eventi_dlhd_generator(output_file_path=os.path.join(output_dir, "eventi_dlhd.xml"))
+                    epg_eventi_dlhd_generator(json_file_path=json_input_path, output_file_path=os.path.join(output_dir, "eventi_dlhd.xml"))
             except Exception as e:
                 print(f"Errore durante la generazione EPG eventi_dlhd: {e}")
                 return # Interrompi l'esecuzione se la generazione EPG fallisce
