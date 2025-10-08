@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="NESSUN EVENTO" group-title="Info",{NESSUN EVENTO}
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="NESSUN EVENTO" group-title="Eventi Live STREAMED",NESSUN EVENTO
 #EXTVLCOPT:http-origin=https://example.com
 #EXTVLCOPT:http-referrer=https://example.com/
 https://example.com/no_event.m3u8
