@@ -49517,5 +49517,449 @@
       18
     ],
     "cached_at": "2025-10-08T06:17:54.704031"
+  },
+  "196122": {
+    "id": 196122,
+    "name": "I crimini di Jimmy Savile",
+    "original_name": "Jimmy Savile: A British Horror Story",
+    "first_air_date": "2022-04-06",
+    "vote_average": 6.794,
+    "poster_path": "/fGtPIOadoHCqjm1UvyY7HfqL5mT.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-08T14:37:14.946352"
+  },
+  "199935": {
+    "id": 199935,
+    "name": "The Real Bling Ring: rapine a Hollywood",
+    "original_name": "Bling Ring: Hollywood Heist",
+    "first_air_date": "2022-04-25",
+    "vote_average": 5.2,
+    "poster_path": "/p16A3u3j6wwkrb54D2MhBd2O5j6.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-08T14:37:14.992831"
+  },
+  "197107": {
+    "id": 197107,
+    "name": "Un destino delizioso",
+    "original_name": "珍馐记",
+    "first_air_date": "2022-04-07",
+    "vote_average": 7.2,
+    "poster_path": "/4Rj4UPO00MzBL2u0Vh0q02hPAYq.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-08T14:37:15.022397"
+  },
+  "196583": {
+    "id": 196583,
+    "name": "The Long Game: Bigger Than Basketball",
+    "original_name": "The Long Game: Bigger Than Basketball",
+    "first_air_date": "2022-04-21",
+    "vote_average": 6.5,
+    "poster_path": "/q7NRCMs8fiUrjKuL6Zn3Dwa2TSR.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-08T14:37:15.039346"
+  },
+  "152291": {
+    "id": 152291,
+    "name": "Hiyama Kentaro è incinto",
+    "original_name": "ヒヤマケンタロウの妊娠",
+    "first_air_date": "2022-04-21",
+    "vote_average": 3.9,
+    "poster_path": "/gnmZ9T1CbdV6IFLlZBtOgVF75vY.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "cached_at": "2025-10-08T14:37:15.057987"
+  },
+  "195927": {
+    "id": 195927,
+    "name": "Bullsh*t: il quiz per chi la spara più grossa",
+    "original_name": "Bullsh*t The Gameshow",
+    "first_air_date": "2022-04-27",
+    "vote_average": 6.731,
+    "poster_path": "/t1Il2y9l08M4JK3yB9EQiHb73rJ.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-08T14:37:15.089668"
+  },
+  "195926": {
+    "id": 195926,
+    "name": "Samurai Rabbit - Le avventure di Usagi",
+    "original_name": "Samurai Rabbit: The Usagi Chronicles",
+    "first_air_date": "2022-04-28",
+    "vote_average": 6.2,
+    "poster_path": "/hjCSYQQKtZ6egBz0GLESdr27XtK.jpg",
+    "genre_ids": [
+      16,
+      10759,
+      35
+    ],
+    "cached_at": "2025-10-08T14:37:15.106377"
+  },
+  "199925": {
+    "id": 199925,
+    "name": "请叫我总监",
+    "original_name": "请叫我总监",
+    "first_air_date": "2022-04-29",
+    "vote_average": 6.0,
+    "poster_path": "/40qZnZJ7NxCL1sxKaGd71BkAQ7U.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-08T14:37:15.131044"
+  },
+  "199175": {
+    "id": 199175,
+    "name": "Barbie: siamo in due",
+    "original_name": "Barbie: It Takes Two",
+    "first_air_date": "2022-04-08",
+    "vote_average": 8.0,
+    "poster_path": "/sqMlHKJGLSu3YgtVZO9Pi6mGQfc.jpg",
+    "genre_ids": [
+      10751,
+      10762,
+      16,
+      35
+    ],
+    "cached_at": "2025-10-08T14:37:15.161911"
+  },
+  "156407": {
+    "id": 156407,
+    "name": "Hard Cell",
+    "original_name": "Hard Cell",
+    "first_air_date": "2022-04-12",
+    "vote_average": 5.1,
+    "poster_path": "/22cjCaUikOW14dr1htuhCVaUbzk.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-08T14:37:15.175594"
+  },
+  "157002": {
+    "id": 157002,
+    "name": "They Call Me Magic",
+    "original_name": "They Call Me Magic",
+    "first_air_date": "2022-04-21",
+    "vote_average": 7.2,
+    "poster_path": "/aJKpiQYPiCfmsiwVKAMBcF65puR.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-08T14:37:15.202473"
+  },
+  "158296": {
+    "id": 158296,
+    "name": "Una suocera tra i piedi",
+    "original_name": "A Sogra Que Te Pariu",
+    "first_air_date": "2022-04-13",
+    "vote_average": 5.8,
+    "poster_path": "/p5gdZUmXHEhapJBuSn7Dov650kl.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-08T14:37:15.235589"
+  },
+  "199951": {
+    "id": 199951,
+    "name": "Matt Wright's Wild Territory",
+    "original_name": "Matt Wright's Wild Territory",
+    "first_air_date": "2022-04-26",
+    "vote_average": 7.0,
+    "poster_path": "/lXkTiriv4XEGHw685ziIQLcPsOf.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-08T14:37:15.251077"
+  },
+  "197901": {
+    "id": 197901,
+    "name": "蓝焰突击",
+    "original_name": "蓝焰突击",
+    "first_air_date": "2022-04-16",
+    "vote_average": 5.0,
+    "poster_path": "/8oWIoMw7dCAnTVd5yydhqgL4adf.jpg",
+    "genre_ids": [
+      18,
+      10759
+    ],
+    "cached_at": "2025-10-08T14:37:15.273175"
+  },
+  "197190": {
+    "id": 197190,
+    "name": "42 giorni nell'oscurità",
+    "original_name": "42 días en la oscuridad",
+    "first_air_date": "2022-05-11",
+    "vote_average": 6.4,
+    "poster_path": "/cLEF0d66x6UC9tJ5KYI8OlEU4DR.jpg",
+    "genre_ids": [
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-08T14:37:15.304648"
+  },
+  "195407": {
+    "id": 195407,
+    "name": "Kit & Sam - Misteri del regno animale",
+    "original_name": "The Creature Cases",
+    "first_air_date": "2022-04-12",
+    "vote_average": 7.8,
+    "poster_path": "/tFi3nx53Dfwa5YOd4J2VnIXpqBk.jpg",
+    "genre_ids": [
+      10762,
+      16
+    ],
+    "cached_at": "2025-10-08T14:37:15.319568"
+  },
+  "118536": {
+    "id": 118536,
+    "name": "Make or Break",
+    "original_name": "Make or Break",
+    "first_air_date": "2022-04-29",
+    "vote_average": 6.0,
+    "poster_path": "/29CcliECM17550zUatbNx1UmfTD.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-08T14:37:15.344452"
+  },
+  "119060": {
+    "id": 119060,
+    "name": "Oussekine",
+    "original_name": "Oussekine",
+    "first_air_date": "2022-05-11",
+    "vote_average": 7.0,
+    "poster_path": "/18RywkELYEICIZb0flhqxYS0myd.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-08T14:37:15.376471"
+  },
+  "131431": {
+    "id": 131431,
+    "name": "Madre perfetta",
+    "original_name": "Une mère parfaite",
+    "first_air_date": "2022-04-28",
+    "vote_average": 5.9,
+    "poster_path": "/xruIbLFY3wyM2hW54zrPWHPwUFH.jpg",
+    "genre_ids": [
+      80,
+      18
+    ],
+    "cached_at": "2025-10-08T14:37:15.393131"
+  },
+  "197064": {
+    "id": 197064,
+    "name": "Vietato arrendersi",
+    "original_name": "구필수는 없다",
+    "first_air_date": "2022-05-04",
+    "vote_average": 4.4,
+    "poster_path": "/eZYghYpJ4rDahk7tGtoqzz9jYoe.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-08T14:37:15.415900"
+  },
+  "249551": {
+    "id": 249551,
+    "name": "Néro",
+    "original_name": "Néro",
+    "first_air_date": "2025-10-08",
+    "vote_average": 0.0,
+    "poster_path": "/twNHmxeFkDEdGzYMeGTp9stoGUC.jpg",
+    "genre_ids": [
+      18,
+      10759
+    ],
+    "cached_at": "2025-10-08T14:37:15.446491"
+  },
+  "201006": {
+    "id": 201006,
+    "name": "Cuccioli nella natura",
+    "original_name": "Wild Babies",
+    "first_air_date": "2022-05-05",
+    "vote_average": 7.6,
+    "poster_path": "/ui3SWr6Vgpw5bdev3zdz4xXWn8G.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-08T14:37:15.466313"
+  },
+  "200961": {
+    "id": 200961,
+    "name": "良辰好景知几何",
+    "original_name": "良辰好景知几何",
+    "first_air_date": "2022-04-30",
+    "vote_average": 6.3,
+    "poster_path": "/nlFEqCbMBujUwYdwGBN9mrULo7X.jpg",
+    "genre_ids": [
+      18,
+      10768
+    ],
+    "cached_at": "2025-10-08T14:37:15.487881"
+  },
+  "202638": {
+    "id": 202638,
+    "name": "Sea of Love",
+    "original_name": "Sea of Love",
+    "first_air_date": "2022-05-23",
+    "vote_average": 4.7,
+    "poster_path": "/nRIB3yq39Z5zbvTYl24nUI5L1Ye.jpg",
+    "genre_ids": [
+      35,
+      10762,
+      16
+    ],
+    "cached_at": "2025-10-08T14:37:15.521903"
+  },
+  "158333": {
+    "id": 158333,
+    "name": "The Big Conn",
+    "original_name": "The Big Conn",
+    "first_air_date": "2022-05-05",
+    "vote_average": 6.3,
+    "poster_path": "/kscD2rbZ3bfriGSylsclRHayDXF.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-08T14:37:15.538789"
+  },
+  "198109": {
+    "id": 198109,
+    "name": "Disney Gallery / Star Wars: The Book of Boba Fett",
+    "original_name": "Disney Gallery / Star Wars: The Book of Boba Fett",
+    "first_air_date": "2022-05-04",
+    "vote_average": 6.088,
+    "poster_path": "/pfoGiDAStk1T8Dhj3lO3LbBoDTO.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-08T14:37:15.556400"
+  },
+  "203014": {
+    "id": 203014,
+    "name": "花间新娘",
+    "original_name": "花间新娘",
+    "first_air_date": "2022-05-25",
+    "vote_average": 6.0,
+    "poster_path": "/oYMhQzDSH211Xvady2T487rK5w8.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-08T14:37:15.589634"
+  },
+  "196749": {
+    "id": 196749,
+    "name": "The Quest - L'impresa dei paladini",
+    "original_name": "The Quest",
+    "first_air_date": "2022-05-11",
+    "vote_average": 6.7,
+    "poster_path": "/rBWIWbYXli2Q4VoTKmCpP16KCJt.jpg",
+    "genre_ids": [
+      10765,
+      10759
+    ],
+    "cached_at": "2025-10-08T14:37:15.607205"
+  },
+  "201346": {
+    "id": 201346,
+    "name": "反转人生",
+    "original_name": "反转人生",
+    "first_air_date": "2022-05-05",
+    "vote_average": 4.0,
+    "poster_path": "/sPYKYEW0b7EDmhF3nppZC3f6TlX.jpg",
+    "genre_ids": [
+      10751,
+      18
+    ],
+    "cached_at": "2025-10-08T14:37:15.638522"
+  },
+  "158691": {
+    "id": 158691,
+    "name": "My Little Pony - Ritrova la tua magia",
+    "original_name": "My Little Pony: Make Your Mark",
+    "first_air_date": "2022-09-26",
+    "vote_average": 8.2,
+    "poster_path": "/g2LYnF1DijpTh6VfFCFuU6o38ou.jpg",
+    "genre_ids": [
+      16,
+      35,
+      10762
+    ],
+    "cached_at": "2025-10-08T14:37:15.661449"
+  },
+  "197679": {
+    "id": 197679,
+    "name": "Il produttore",
+    "original_name": "Erşan Kuneri",
+    "first_air_date": "2022-05-13",
+    "vote_average": 6.8,
+    "poster_path": "/8T40UoCYztenuMOGLSTdch903k4.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-08T14:37:15.675483"
+  },
+  "155973": {
+    "id": 155973,
+    "name": "Le vite nascoste dei nostri animali",
+    "original_name": "The Secret Life of Our Pets",
+    "first_air_date": "2022-01-11",
+    "vote_average": 7.5,
+    "poster_path": "/9mjy3XxZwcQVBtCrh7whVUb4kiU.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-08T14:37:15.700290"
+  },
+  "202972": {
+    "id": 202972,
+    "name": "Life Below Zero: First Alaskans",
+    "original_name": "Life Below Zero: First Alaskans",
+    "first_air_date": "2022-05-30",
+    "vote_average": 6.2,
+    "poster_path": "/7TZMGGYmtoXhBgGGCLLlEiUdxBX.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-08T14:37:15.733903"
+  },
+  "197378": {
+    "id": 197378,
+    "name": "Innamorarsi al liceo",
+    "original_name": "Lovestruck High",
+    "first_air_date": "2022-05-17",
+    "vote_average": 3.8,
+    "poster_path": "/htyw6VXncUuB3wECdMAmEod8pDT.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-08T14:37:15.749074"
+  },
+  "196193": {
+    "id": 196193,
+    "name": "你好呀，我的橘子恋人",
+    "original_name": "你好呀，我的橘子恋人",
+    "first_air_date": "2022-05-20",
+    "vote_average": 5.2,
+    "poster_path": "/dT0FOdUQQQ1bnFOEpSMMPOq7Xsd.jpg",
+    "genre_ids": [
+      18,
+      35,
+      10765
+    ],
+    "cached_at": "2025-10-08T14:37:15.845708"
   }
 }
