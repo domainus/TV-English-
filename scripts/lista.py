@@ -1895,7 +1895,7 @@ def schedule_extractor():
         if not success:
             exit(1)
 
-def epg_eventi_dlhd_generator_world():
+def epg_eventi_dlhd_generator_world(json_file_path, output_file_path="eventi_dlhd.xml"):
     # Codice del quinto script qui
     # Aggiungi il codice del tuo script "epg_eventi_dlhd_generator.py" in questa funzione.
     print("Eseguendo l'epg_eventi_dlhd_generator_world.py...")
@@ -2161,19 +2161,11 @@ def epg_eventi_dlhd_generator_world():
             print(f"[!] Errore durante la generazione EPG XML.")
             return False
     
-    # Esempio di utilizzo
-    # This block is not executed when called as a function.
-    # The call is now handled in the main() function of the script.
-    # if __name__ == "__main__":
-        # Percorso del file JSON di input
-        # input_json_path = "daddyliveSchedule.json"
-        # Usa il percorso passato come argomento
-        # output_xml_path = output_file_path
-        # Esegui la generazione EPG
-        # main_epg_generator(input_json_path, output_xml_path)
+    # Esegui la generazione EPG con i percorsi forniti
+    main_epg_generator(json_file_path, output_file_path)
 
 # Funzione per il quinto script (epg_eventi_dlhd_generator.py)
-def epg_eventi_dlhd_generator(output_file_path="eventi_dlhd.xml"):
+def epg_eventi_dlhd_generator(json_file_path, output_file_path="eventi_dlhd.xml"):
     # Codice del quinto script qui
     # Aggiungi il codice del tuo script "epg_eventi_dlhd_generator.py" in questa funzione.
     print("Eseguendo l'epg_eventi_dlhd_generator.py...")
@@ -2422,16 +2414,8 @@ def epg_eventi_dlhd_generator(output_file_path="eventi_dlhd.xml"):
             print(f"[!] Errore durante la generazione EPG XML.")
             return False
     
-    # Esempio di utilizzo
-    # This block is not executed when called as a function.
-    # The call is now handled in the main() function of the script.
-    # if __name__ == "__main__":
-        # Percorso del file JSON di input
-        # input_json_path = "daddyliveSchedule.json"
-        # Percorso del file XML di output
-        # output_xml_path = output_file_path
-        # Esegui la generazione EPG
-        # main_epg_generator(input_json_path, output_xml_path)
+    # Esegui la generazione EPG con i percorsi forniti
+    main_epg_generator(json_file_path, output_file_path)
 
 # Funzione per il sesto script (italy_channels.py)
 def italy_channels():
