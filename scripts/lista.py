@@ -67,8 +67,8 @@ def merger_playlist():
     NOMEGITHUB = os.getenv("NOMEGITHUB", "").strip()
     
     # Percorsi o URL delle playlist M3U8
-    url_vavoo = os.path.join(output_dir, "italy_vavoo.m3u")
-    url_dlhd = os.path.join(output_dir, "italy_dlhd.m3u")
+    url_vavoo = os.path.join(output_dir, "vavoo.m3u")
+    url_dlhd = os.path.join(output_dir, "dlhd.m3u")
     url_mpd = os.path.join(output_dir, "mpd.m3u")
     url_eventi = os.path.join(output_dir, "eventi_dlhd.m3u")
     url6 = "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/main/PlutoItaly.m3u"
@@ -174,8 +174,8 @@ def merger_playlistworld():
     NOMEGITHUB = os.getenv("NOMEGITHUB", "").strip()
     
     # Percorsi o URL delle playlist M3U8
-    url_vavoo = os.path.join(output_dir, "italy_vavoo.m3u")
-    url_dlhd = os.path.join(output_dir, "italy_dlhd.m3u")
+    url_vavoo = os.path.join(output_dir, "vavoo.m3u")
+    url_dlhd = os.path.join(output_dir, "dlhd.m3u")
     url_mpd = os.path.join(output_dir, "mpd.m3u")
     url_eventi = os.path.join(output_dir, "eventi_dlhd.m3u")
     url5 = "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/main/PlutoItaly.m3u"
@@ -3155,11 +3155,11 @@ def italy_channels():
         # 3. Crea la playlist M3U
         print("\n--- Creazione playlist M3U ---")
         # Salva i canali Vavoo
-        save_as_m3u(channels, filename="italy_vavoo.m3u")
+        save_as_m3u(channels, filename="vavoo.m3u")
         
         # Salva i canali Daddylive se presenti
         if daddylive_channels:
-            save_as_m3u([], daddylive_channels=daddylive_channels, filename="italy_dlhd.m3u")
+            save_as_m3u([], daddylive_channels=daddylive_channels, filename="dlhd.m3u")
     
 # Funzione per il settimo script (world_channels_generator.py)
 def world_channels_generator():
