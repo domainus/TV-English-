@@ -65,6 +65,6 @@ jobs:
         path: |
           film.m3u
           serie.m3u
-          film_cache.json
-          serie_cache.json
+          scripts/film_cache.json
+          scripts/serie_cache.json
         retention-days: 30
