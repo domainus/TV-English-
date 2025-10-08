@@ -1,4 +1,4 @@
-# 📺 Lista IPTV + EPG con Proxy
+# 📺 Lista IPTV + EPG ITALIANA
 
 Benvenuto nella tua **lista IPTV personalizzata** con **EPG** integrata e supporto proxy, perfetta per goderti i tuoi contenuti preferiti ovunque ti trovi!
 
