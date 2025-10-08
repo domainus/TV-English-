@@ -71,6 +71,7 @@ def merger_playlist():
     url_dlhd = os.path.join(output_dir, "dlhd.m3u")
     url_mpd = os.path.join(output_dir, "mpd.m3u")
     url_eventi = os.path.join(output_dir, "eventi_dlhd.m3u")
+    url_sportsonline = os.path.join(output_dir, "sportsonline.m3u")
     url6 = "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/main/PlutoItaly.m3u"
     
     # Funzione per scaricare o leggere una playlist
@@ -114,10 +115,11 @@ def merger_playlist():
         print("[INFO] Skipping eventi_dlhd.m3u8 in merger_playlist as CANALI_DADDY is not 'si'.")
         playlist_eventi = ""
 
+    playlist_sportsonline = download_playlist(url_sportsonline)
     playlist_pluto = download_playlist(url6)
     
     # 3. Unisci tutte le playlist (con i canali italiani ordinati all'inizio)
-    lista = sorted_italian_playlist + "\n" + playlist_eventi + "\n" + playlist_pluto
+    lista = sorted_italian_playlist + "\n" + playlist_eventi + "\n" + playlist_sportsonline + "\n" + playlist_pluto
     
     # Aggiungi intestazione EPG
     lista = f'#EXTM3U url-tvg="https://raw.githubusercontent.com/{NOMEGITHUB}/{NOMEREPO}/refs/heads/main/epg.xml"\n' + lista
@@ -178,6 +180,7 @@ def merger_playlistworld():
     url_dlhd = os.path.join(output_dir, "dlhd.m3u")
     url_mpd = os.path.join(output_dir, "mpd.m3u")
     url_eventi = os.path.join(output_dir, "eventi_dlhd.m3u")
+    url_sportsonline = os.path.join(output_dir, "sportsonline.m3u")
     url5 = "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/main/PlutoItaly.m3u"
     url_world = os.path.join(output_dir, "world.m3u")
     
@@ -222,10 +225,11 @@ def merger_playlistworld():
         print("[INFO] Skipping eventi_dlhd.m3u8 in merger_playlistworld as CANALI_DADDY is not 'si'.")
         playlist_eventi = ""
 
+    playlist_sportsonline = download_playlist(url_sportsonline)
     playlist_pluto = download_playlist(url5)
     playlist_world = download_playlist(url_world, exclude_group_title="Italy")
     # 3. Unisci tutte le playlist
-    lista = sorted_italian_playlist + "\n" + playlist_eventi + "\n" + playlist_pluto + "\n" + playlist_world
+    lista = sorted_italian_playlist + "\n" + playlist_eventi + "\n" + playlist_sportsonline + "\n" + playlist_pluto + "\n" + playlist_world
     
     # Aggiungi intestazione EPG
     lista = f'#EXTM3U url-tvg="https://raw.githubusercontent.com/{NOMEGITHUB}/{NOMEREPO}/refs/heads/main/epg.xml"\n' + lista
@@ -3266,15 +3270,7 @@ def sportsonline():
     import requests
     import re
     from bs4 import BeautifulSoup
-    import time
-    # Usiamo selenium-wire per ispezionare il traffico di rete
     import datetime
-    from seleniumwire import webdriver
-    from selenium.common.exceptions import TimeoutException, NoSuchFrameException
-    from selenium.webdriver.chrome.service import Service
-    from selenium.webdriver.common.by import By
-    from selenium.webdriver.support.ui import WebDriverWait
-    from selenium.webdriver.support import expected_conditions as EC
     
     # URL del file di programmazione
     PROG_URL = "https://sportsonline.sn/prog.txt"
@@ -3296,84 +3292,6 @@ def sportsonline():
                 print(f"[INFO] Trovato canale italiano: {channel_id.upper()}")
         return italian_channels
     
-    def get_m3u8_from_url(page_url, driver):
-        """
-        Visita l'URL di una pagina evento e cerca al suo interno il link dello streaming .m3u8.
-        Utilizza Selenium per gestire il contenuto caricato dinamicamente da JavaScript.
-        """
-        try:
-            print(f"  -> Visitando la pagina: {page_url}")
-            del driver.requests
-            driver.get(page_url)
-            
-            wait = WebDriverWait(driver, 15)
-            stream_info = None
-    
-            # --- STRATEGIA 1 (PRIORITARIA): Ispezione della rete ---
-            print("    [INFO] Attendo richiesta di rete per il link .m3u8...")
-            try:
-                # Attendi fino a 15 secondi che una richiesta contenente .m3u8 venga catturata
-                request = driver.wait_for_request(r'\.m3u8', timeout=15)
-                # Estraiamo sia l'URL che gli header della richiesta
-                stream_info = {'url': request.url, 'headers': request.headers}
-                print(f"    [OK] Trovato link M3U8 tramite ispezione di rete!")
-            except TimeoutException:
-                print("    [INFO] Nessuna richiesta .m3u8 intercettata, provo con i metodi fallback.")
-    
-            # --- STRATEGIA 2 (FALLBACK): Ricerca tramite ID nell'HTML ---
-            if not stream_info:
-                print("    [INFO] Tento ricerca tramite ID elemento 'm3u8Link'...")
-                try:
-                    # Potrebbe essere in un iframe, quindi dobbiamo entrare prima
-                    try:
-                        wait.until(EC.frame_to_be_available_and_switch_to_it((By.TAG_NAME, "iframe")))
-                        print("    [INFO] Trovato iframe, entro al suo interno...")
-                    except TimeoutException:
-                        pass # Nessun iframe, cerco nella pagina principale
-    
-                    link_element = wait.until(EC.presence_of_element_located((By.ID, "m3u8Link")))
-                    if link_element:
-                        m3u8_url = link_element.get_attribute('href')
-                        # Costruiamo un set di header di base
-                        stream_info = {
-                            'url': m3u8_url,
-                            'headers': {
-                                'User-Agent': driver.execute_script("return navigator.userAgent;"),
-                                'Referer': page_url
-                            }
-                        }
-                        print(f"    [OK] Trovato link M3U8 tramite ID elemento.")
-                except TimeoutException:
-                    print("    [INFO] Elemento 'm3u8Link' non trovato.")
-    
-            # --- STRATEGIA 3 (FALLBACK FINALE): Regex sul codice sorgente ---
-            if not stream_info:
-                print("    [INFO] Tento fallback finale con Regex sul codice sorgente...")
-                page_source = driver.page_source
-                match = re.search(r'https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*', page_source) # Regex migliorata
-                if match:
-                    # Anche qui, costruiamo header di base
-                    stream_info = {
-                        'url': match.group(0),
-                        'headers': {
-                            'User-Agent': driver.execute_script("return navigator.userAgent;"),
-                            'Referer': page_url
-                        }
-                    }
-                    print(f"    [OK] Trovato link M3U8 tramite Selenium e Regex.")
-    
-            if stream_info:
-                print(f"    [OK] Trovato link M3U8: {stream_info['url']}")
-                return stream_info
-            else:
-                print("    [ATTENZIONE] Nessun link .m3u8 trovato nella pagina.")
-                return None
-                
-        except Exception as e: # Cattura altre eccezioni impreviste
-            error_type = type(e).__name__
-            print(f"    [ERRORE] Problema durante l'analisi di {page_url} ({error_type}).")
-            return None
-    
     def main():
         """
         Funzione principale che orchestra il processo.
@@ -3384,26 +3302,6 @@ def sportsonline():
         # Applichiamo sempre il filtro per il giorno corrente
         day_to_filter = weekdays_english[today_weekday]
         print(f"Oggi è {day_to_filter}, verranno cercati solo gli eventi_dlhd di oggi.")
-    
-        # --- Inizializzazione di Selenium-Wire ---
-        print("Inizializzazione del browser con Selenium...")
-        # selenium-wire usa le stesse opzioni di selenium
-        options = webdriver.ChromeOptions() 
-        options.add_argument("--headless")  # Esegui Chrome in background, senza interfaccia grafica
-        options.add_argument("--log-level=3") # Riduci il logging di Selenium
-        options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
-        
-        # Assicurati di avere chromedriver.exe nella stessa cartella o nel PATH di sistema
-        # Se hai chromedriver in un percorso specifico, usa: Service("percorso/a/chromedriver.exe")
-        try:
-            service = Service()
-            # Usiamo il driver di selenium-wire invece di quello standard di selenium
-            driver = webdriver.Chrome(service=service, options=options) 
-        except Exception as e:
-            print(f"[ERRORE FATALE] Impossibile avviare Selenium/Chrome. Assicurati che ChromeDriver sia installato e accessibile.")
-            print(f"Dettagli errore: {e}")
-            return
-        # ------------------------------------
     
         print(f"1. Scarico la programmazione da: {PROG_URL}")
         try:
@@ -3424,14 +3322,10 @@ def sportsonline():
             print("[ATTENZIONE] Nessun canale italiano trovato nella programmazione.")
             print("[INFO] Creo un canale fallback 'NESSUN EVENTO'...")
             playlist_entries.append({
-                "name": "NESSUN EVENTO",
-                "stream_info": {
-                    'url': "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
-                    'headers': {
-                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-                        'Referer': 'https://sportsonline.sn/'
-                    }
-                }
+                "name": "NESSUN EVENTO", 
+                "url": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+                "referrer": "https://sportsonline.sn/",
+                "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
             })
         else:
             print("\n3. Cerco gli Eventi trasmessi sui canali italiani...")
@@ -3490,42 +3384,24 @@ def sportsonline():
                     else:
                         event_name = event_info # Fallback se il formato non è quello previsto
     
-                    # Andiamo a prendere il link .m3u8 dalla pagina dell'evento
-                    stream_info = get_m3u8_from_url(page_url, driver)
-    
-                    if stream_info:
-                        # Se abbiamo trovato il link, lo aggiungiamo alla nostra lista per la playlist
-                        playlist_entries.append({
-                            "name": event_name,
-                            "stream_info": stream_info
-                        })
-                    
-                    # Torniamo al contesto principale della pagina prima di passare al prossimo link
-                    # Questo è importante se eravamo entrati in un iframe
-                    try:
-                        driver.switch_to.default_content()
-                    except NoSuchFrameException:
-                        # Se non eravamo in un frame, Selenium lancia un errore. Lo ignoriamo.
-                        pass
+                    # Aggiungiamo direttamente l'URL .php alla lista
+                    playlist_entries.append({
+                        "name": event_name,
+                        "url": page_url,
+                        "referrer": "https://sportsonline.sn/",
+                        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+                    })
             
             # --- AGGIUNTA: Creazione canale fallback se non ci sono eventi_dlhd ---
             if not playlist_entries:
                 print("\n[INFO] Nessun evento italiano con link streaming valido trovato oggi.")
                 print("[INFO] Creo un canale fallback 'NESSUN EVENTO'...")
                 playlist_entries.append({
-                    "name": "NESSUN EVENTO",
-                    "stream_info": {
-                        'url': "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
-                        'headers': {
-                            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-                            'Referer': 'https://sportsonline.sn/'
-                        }
-                    }
+                    "name": "NESSUN EVENTO", 
+                    "url": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+                    "referrer": "https://sportsonline.sn/",
+                    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
                 })
-        
-        # Chiudiamo il browser di Selenium una volta finito
-        print("\nChiusura del browser Selenium.")
-        driver.quit()
     
         # 4. Creazione del file M3U
         output_filename = os.path.join(output_dir, "sportsonline.m3u")
@@ -3533,21 +3409,8 @@ def sportsonline():
         with open(output_filename, "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
             for entry in playlist_entries:
-                info = entry['stream_info']
-                url = info['url']
-                headers = info['headers']
-                
                 f.write(f'#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",{entry["name"]}\n')
-    
-                # Scriviamo gli header nel formato #EXTVLCOPT per VLC
-                if 'Origin' in headers:
-                    f.write(f"#EXTVLCOPT:http-origin={headers['Origin']}\n")
-                if 'Referer' in headers:
-                    f.write(f"#EXTVLCOPT:http-referrer={headers['Referer']}\n")
-                if 'User-Agent' in headers:
-                    f.write(f"#EXTVLCOPT:http-user-agent={headers['User-Agent']}\n")
-                
-                f.write(f"{url}\n")
+                f.write(f'{entry["url"]}\n')
     
         print(f"\n[COMPLETATO] Playlist creata con successo! Apri il file '{output_filename}' con un player come VLC.")
     
