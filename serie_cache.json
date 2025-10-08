@@ -49287,5 +49287,235 @@
       99
     ],
     "cached_at": "2025-10-07T06:17:37.027958"
+  },
+  "202810": {
+    "id": 202810,
+    "name": "Dietro le quinte con Katherine Ryan",
+    "original_name": "Backstage with Katherine Ryan",
+    "first_air_date": "2022-06-09",
+    "vote_average": 5.5,
+    "poster_path": "/z2tKxwq0FdKwFEfXjIybEctIyy.jpg",
+    "genre_ids": [
+      35,
+      10764
+    ],
+    "cached_at": "2025-10-08T06:17:54.142170"
+  },
+  "114466": {
+    "id": 114466,
+    "name": "Baymax!",
+    "original_name": "Baymax!",
+    "first_air_date": "2022-06-29",
+    "vote_average": 7.6,
+    "poster_path": "/8Bn9oSoP9wi6TA07iS4Z7OEUqqy.jpg",
+    "genre_ids": [
+      16,
+      35,
+      10751
+    ],
+    "cached_at": "2025-10-08T06:17:54.192105"
+  },
+  "204255": {
+    "id": 204255,
+    "name": "Mezarlık",
+    "original_name": "Mezarlık",
+    "first_air_date": "2022-06-17",
+    "vote_average": 6.8,
+    "poster_path": "/kNlD6tZH0g3rIJ8qh9mHVaLvcwx.jpg",
+    "genre_ids": [
+      80,
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-08T06:17:54.204883"
+  },
+  "203688": {
+    "id": 203688,
+    "name": "Verso il futuro",
+    "original_name": "The Future Of",
+    "first_air_date": "2022-06-21",
+    "vote_average": 5.2,
+    "poster_path": "/6jZ4Vo4kXAoO6zL4MwCK3FEN3W2.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-08T06:17:54.210286"
+  },
+  "152261": {
+    "id": 152261,
+    "name": "Drag Race France",
+    "original_name": "Drag Race France",
+    "first_air_date": "2022-06-25",
+    "vote_average": 8.4,
+    "poster_path": "/4uFgRpian0f7K4F7hIXbE5BpAuJ.jpg",
+    "genre_ids": [
+      10764,
+      35
+    ],
+    "cached_at": "2025-10-08T06:17:54.257425"
+  },
+  "116377": {
+    "id": 116377,
+    "name": "Dear.M",
+    "original_name": "디어엠",
+    "first_air_date": "2022-06-29",
+    "vote_average": 6.1,
+    "poster_path": "/rAJINeyfTsFisczGfmbsz1Wpzfj.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-08T06:17:54.270583"
+  },
+  "155224": {
+    "id": 155224,
+    "name": "징크스의 연인",
+    "original_name": "징크스의 연인",
+    "first_air_date": "2022-06-15",
+    "vote_average": 4.5,
+    "poster_path": "/1Wmux0FIOokrcAJ9pkdtFzVu9sw.jpg",
+    "genre_ids": [
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-08T06:17:54.285678"
+  },
+  "137870": {
+    "id": 137870,
+    "name": "Love Like the Galaxy",
+    "original_name": "星汉灿烂",
+    "first_air_date": "2022-07-05",
+    "vote_average": 7.5,
+    "poster_path": "/fDdKotvFUjctrQmY6DxIiPjhisp.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-08T06:17:54.328901"
+  },
+  "156608": {
+    "id": 156608,
+    "name": "Eureka!",
+    "original_name": "Eureka!",
+    "first_air_date": "2022-06-22",
+    "vote_average": 5.9,
+    "poster_path": "/hZdhIzWnwJ8QsBRxBigj6J57SPf.jpg",
+    "genre_ids": [
+      16,
+      10762,
+      35
+    ],
+    "cached_at": "2025-10-08T06:17:54.339389"
+  },
+  "127943": {
+    "id": 127943,
+    "name": "Latin Lover",
+    "original_name": "El galán. La TV cambió, él no.",
+    "first_air_date": "2022-06-08",
+    "vote_average": 6.7,
+    "poster_path": "/XyijEBS4cMjXhknUo4ju9EabXg.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-08T06:17:54.346276"
+  },
+  "203756": {
+    "id": 203756,
+    "name": "L'occasione persa",
+    "original_name": "The One That Got Away",
+    "first_air_date": "2022-06-23",
+    "vote_average": 2.0,
+    "poster_path": "/6lyLOMIgMbL9jDwTu08zQwfLsS4.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-08T06:17:54.409242"
+  },
+  "203646": {
+    "id": 203646,
+    "name": "终于轮到我恋爱了",
+    "original_name": "终于轮到我恋爱了",
+    "first_air_date": "2022-06-09",
+    "vote_average": 8.3,
+    "poster_path": "/gEow907sjghXAyrIIrVRgiuj4Px.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-08T06:17:54.418838"
+  },
+  "271823": {
+    "id": 271823,
+    "name": "Playing Gracie Darling",
+    "original_name": "Playing Gracie Darling",
+    "first_air_date": "2025-08-14",
+    "vote_average": 5.143,
+    "poster_path": "/7UWdkbSUd1d1GB28IyIKDbftzhM.jpg",
+    "genre_ids": [
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-08T06:17:54.469030"
+  },
+  "132399": {
+    "id": 132399,
+    "name": "超时空罗曼史",
+    "original_name": "超时空罗曼史",
+    "first_air_date": "2022-09-05",
+    "vote_average": 6.6,
+    "poster_path": "/9HaTEciILAVug1kCBNjHhE3RuMC.jpg",
+    "genre_ids": [
+      18,
+      9648,
+      10765
+    ],
+    "cached_at": "2025-10-08T06:17:54.492054"
+  },
+  "204254": {
+    "id": 204254,
+    "name": "爱情应该有的样子",
+    "original_name": "爱情应该有的样子",
+    "first_air_date": "2022-06-17",
+    "vote_average": 4.5,
+    "poster_path": "/y6nfZFz7wfhwdreR8OwUo3MaPdT.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-08T06:17:54.493867"
+  },
+  "204417": {
+    "id": 204417,
+    "name": "Primeira Classe",
+    "original_name": "Primeira Classe",
+    "first_air_date": "2022-06-23",
+    "vote_average": 1.5,
+    "poster_path": "/lv4ziPLu8Qec75a9OrTq9yB2JjU.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-08T06:17:54.548795"
+  },
+  "205277": {
+    "id": 205277,
+    "name": "Street Outlaws: End Game",
+    "original_name": "Street Outlaws: End Game",
+    "first_air_date": "2022-07-04",
+    "vote_average": 5.3,
+    "poster_path": "/oGlrg7Ny8E7LWxNHQbmWUk1MvaT.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-08T06:17:54.645043"
+  },
+  "204006": {
+    "id": 204006,
+    "name": "Vanjie: 24 Hours of Love",
+    "original_name": "Vanjie: 24 Hours of Love",
+    "first_air_date": "2022-06-09",
+    "vote_average": 10.0,
+    "poster_path": "/wROteB5Zs0NeqaBZqe6PisyWjMN.jpg",
+    "genre_ids": [
+      10764,
+      35,
+      18
+    ],
+    "cached_at": "2025-10-08T06:17:54.704031"
   }
 }
