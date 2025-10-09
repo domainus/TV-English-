@@ -2961,6 +2961,10 @@ def italy_channels():
                 channel_id_match = re.search(r'id=(\d+)', stream_url)
                 channel_id = channel_id_match.group(1) if channel_id_match else None
 
+                if channel_id == "877":
+                    print(f"[CORREZIONE FINALE] Canale ID {channel_id} ('{base_daddy_name}') forzato a 'DAZN'")
+                    base_daddy_name = "DAZN"
+                    
                 if channel_id == "853":
                     print(f"[CORREZIONE FINALE] Canale ID {channel_id} ('{base_daddy_name}') forzato a 'CANALE 5'")
                     base_daddy_name = "CANALE 5"
@@ -3136,6 +3140,15 @@ def italy_channels():
             print("\n--- Fetching canali da Daddylive (HTML) ---")
             daddy_json_url = f"{LINK_DADDY.rstrip('/')}/daddy.json"
             daddylive_channels = fetch_channels_from_daddy_json(daddy_json_url)
+
+            # Aggiungi manualmente il canale DAZN (ID 877) se non è già presente
+            if not any(item[1] and 'id=877' in item[1] for item in daddylive_channels):
+                print("[INFO] Aggiunta manuale del canale DAZN (ID: 877)...")
+                stream_url_877 = search_m3u8_in_sites("877", is_tennis=False, session=requests.Session())
+                if stream_url_877:
+                    daddylive_channels.append(("DAZN Italy", stream_url_877))
+                    print("[✓] Canale DAZN (ID: 877) aggiunto con successo.")
+
             print(f"Trovati {len(daddylive_channels)} canali Daddylive.")
         else:
             print("\n--- Canali Daddylive disabilitati (CANALI_DADDY=no) ---")
