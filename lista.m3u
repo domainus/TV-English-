@@ -430,6 +430,8 @@ https://vavoo.to/vavoo-iptv/play/30648111922089ed4a29cc
 https://vavoo.to/vavoo-iptv/play/11093727783b90d83934c6
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN DRAMA
 https://vavoo.to/vavoo-iptv/play/209862439074120bb15132
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN FAMILY
+https://vavoo.to/vavoo-iptv/play/3902650955a82543dc27a4
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN TOP FREE
 https://vavoo.to/vavoo-iptv/play/1572866962efea4ca22353
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN TV SHOWS
@@ -614,8 +616,6 @@ https://ava.karmakurama.com/wind/premium873/mono.m3u8
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/wind/premium874/mono.m3u8
-#EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA
-https://vavoo.to/vavoo-iptv/play/25559607139e6fd9b93dd6
 #EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
@@ -626,8 +626,6 @@ https://ava.karmakurama.com/ddy6/premium462/mono.m3u8
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/wind/premium875/mono.m3u8
-#EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO
-https://vavoo.to/vavoo-iptv/play/449990998077a7691828f
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
@@ -853,7 +851,7 @@ https://vavoo.to/vavoo-iptv/play/2989824407cb0184041b08
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="worldcupqualifyingfinlandvslithuania" tvg-name="Soccer | World Cup Qualifying : Finland vs Lithuania (18:00)" tvg-logo="https://png.pngtree.com/png-clipart/20230810/original/pngtree-vector-illustration-of-the-finnish-flag-against-a-white-backdrop-vector-picture-image_10229632.png" group-title="Eventi Live DLHD",Soccer | World Cup Qualifying : Finland vs Lithuania (18:00)
+#EXTINF:-1 tvg-id="worldcupqualifyingfinlandvslithuania" tvg-name="Soccer | World Cup Qualifying : Finland vs Lithuania (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Finland_vs_Lithuania.png" group-title="Eventi Live DLHD",Soccer | World Cup Qualifying : Finland vs Lithuania (18:00)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
@@ -864,24 +862,6 @@ https://ava.karmakurama.com/wind/premium870/mono.m3u8
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium462/mono.m3u8
-
-#EXTINF:-1 tvg-id="shanghaiatpquarterfinal2wuhanwta3rdround" tvg-name="Tennis | Shanghai-ATP Quarterfinal 2; Wuhan-WTA 3rd Round (12:30)" tvg-logo="https://assets.stickpng.com/thumbs/6266993f2c88722059d58711.png" group-title="Eventi Live DLHD",Tennis | Shanghai-ATP Quarterfinal 2; Wuhan-WTA 3rd Round (12:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/ddy6/premium576/mono.m3u8
-
-#EXTINF:-1 tvg-id="xiangrandprixround3" tvg-name="Snooker | Xi'an Grand Prix | Round 3 (13:30)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/9e/Grand_Prix_Stern_Logo.png/revision/latest/scale-to-width-down/1200?cb=20251004222526" group-title="Eventi Live DLHD",Snooker | Xi'an Grand Prix | Round 3 (13:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/wind/premium878/mono.m3u8
-
-#EXTINF:-1 tvg-id="granpiemontemendoglianiacquiterme179km" tvg-name="Cycling | Gran Piemonte Men | Dogliani - Acqui Terme (179km) (14:15)" tvg-logo="https://turismo.comuneacqui.it/wp-content/uploads/2021/12/logo_comune_acqui_terme1.png" group-title="Eventi Live DLHD",Cycling | Gran Piemonte Men | Dogliani - Acqui Terme (179km) (14:15)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/wind/premium878/mono.m3u8
 
 
 #EXTINF:-1 group-title="Eventi Live SPORTSONLINE",NESSUN EVENTO
