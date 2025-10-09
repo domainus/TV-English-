@@ -1,5 +1,26 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="NESSUN EVENTO" group-title="Eventi Live STREAMED",NESSUN EVENTO
-#EXTVLCOPT:http-origin=https://example.com
-#EXTVLCOPT:http-referrer=https://example.com/
-https://example.com/no_event.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Other | Gran Piemonte Men 2025 | 14:50 (Italiano)" group-title="Eventi Live STREAMED",Other | Gran Piemonte Men 2025 | 14:50 (Italiano)
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+https://lb9.strmd.top/secure/JFIdEibLzwddgmrqZsQcEETMAeEWldFi/alpha/stream/gran-piemonte-men-2025/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)" group-title="Eventi Live STREAMED",Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+https://lb3.strmd.top/secure/PnnzrJDVKkMJGvGLRTDTanGlWxkQbvlO/alpha/stream/ufc-events-ufc-mma-ufc-ppv/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)" group-title="Eventi Live STREAMED",Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+https://lb9.strmd.top/secure/eIluXixEivForjuzunQXNGaOcfFLWrUw/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pkhttps://ppv.to/assets/thumb/c7f03a767390c5d237b4af80e80c390d-thumbnail.jpg" tvg-name="Football | Finland vs Lithuania | 18:00 (Italiano)" group-title="Eventi Live STREAMED",Football | Finland vs Lithuania | 18:00 (Italiano)
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+https://lb3.strmd.top/secure/YebJVAuqlDLnCHglpWFeVRjCQncShFkU/alpha/stream/finland-vs-lithuania/5/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pkhttps://ppv.to/assets/thumb/7d13359d849ce48586e15e10ba6d28eb-thumbnail.jpg" tvg-name="Football | Czechia vs. Croatia | 20:45 (Italiano)" group-title="Eventi Live STREAMED",Football | Czechia vs. Croatia | 20:45 (Italiano)
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+https://lb6.strmd.top/secure/KxfLZqvmkBSZLzXUXsxCECaXXnsccwjL/alpha/stream/czechia-vs-croatia/6/playlist.m3u8
