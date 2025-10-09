@@ -42,17 +42,7 @@
   <channel id="XianGrandPrixRound3">
     <display-name>Xi'an Grand Prix | Round 3</display-name>
   </channel>
-  <programme start="20251009000000 +0200" stop="20251009080000 +0200" channel="XianGrandPrixRound3">
-    <title lang="it">Inizia alle 08:00.</title>
-    <desc lang="it">Xi'an Grand Prix | Round 3.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251009080000 +0200" stop="20251009100000 +0200" channel="XianGrandPrixRound3">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Xi'an Grand Prix | Round 3</desc>
-    <category lang="it">Snooker</category>
-  </programme>
-  <programme start="20251009100000 +0200" stop="20251009133000 +0200" channel="XianGrandPrixRound3">
+  <programme start="20251009000000 +0200" stop="20251009133000 +0200" channel="XianGrandPrixRound3">
     <title lang="it">Inizia alle 13:30.</title>
     <desc lang="it">Xi'an Grand Prix | Round 3.</desc>
     <category lang="it">Annuncio</category>
