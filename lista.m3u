@@ -25,8 +25,6 @@ https://vavoo.to/vavoo-iptv/play/68845853044f9c95e43e
 https://vavoo.to/vavoo-iptv/play/190887752614ef25f5e1fd
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.omceo.bg.it/images/loghi/antenna-2.png" group-title="Altro",ANTENNA 2
 https://vavoo.to/vavoo-iptv/play/30140012609b4bf5e8d3b7
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",ANTENNA SICILIA
-https://vavoo.to/vavoo-iptv/play/3309975829c0cd274e96f4
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.antennasud.com/media/2022/08/cropped-LOGO_ANTENNA_SUD_ROSSO_FORATO.png" group-title="Altro",ANTENNA SUD
 https://vavoo.to/vavoo-iptv/play/4084059868fd82d62442e9
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/img/arte_logo.png" group-title="Documentari",ARTE NETWORK
@@ -194,8 +192,6 @@ https://vavoo.to/vavoo-iptv/play/2134724757fd92e3286ea6
 https://vavoo.to/vavoo-iptv/play/2392139008947764078821
 #EXTINF:-1 tvg-id="iris.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" group-title="Mediaset",IRIS
 https://vavoo.to/vavoo-iptv/play/23919988fc371eea2329
-#EXTINF:-1 tvg-id="italia.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1
-https://vavoo.to/vavoo-iptv/play/633342961994dc5083ad5
 #EXTINF:-1 tvg-id="italia.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1 (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
@@ -434,8 +430,6 @@ https://vavoo.to/vavoo-iptv/play/209862439074120bb15132
 https://vavoo.to/vavoo-iptv/play/3902650955a82543dc27a4
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN TOP FREE
 https://vavoo.to/vavoo-iptv/play/1572866962efea4ca22353
-#EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN TV SHOWS
-https://vavoo.to/vavoo-iptv/play/860912269147f85ae7a8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/260px-RDS-Logo.png" group-title="Musica",RDS SOCIAL
 https://vavoo.to/vavoo-iptv/play/4031388312f5ebcfc7dc6d
 #EXTINF:-1 tvg-id="rdssocialtv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/260px-RDS-Logo.png" group-title="Musica",RDS SOCIAL TV
@@ -723,8 +717,6 @@ https://vavoo.to/vavoo-iptv/play/35518823447060ba68f520
 https://vavoo.to/vavoo-iptv/play/87479718111853618b3cd
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.milanopavia.tv/wp-content/uploads/2020/01/logoMilanoPaviaTV.png" group-title="Altro",TELE PAVIA
 https://vavoo.to/vavoo-iptv/play/6164833177424547eff1f
-#EXTINF:-1 tvg-id="" tvg-logo="https://teleromagna.it/images/teleromagna-logo.png" group-title="Altro",TELE ROMAGNA
-https://vavoo.to/vavoo-iptv/play/1294463772435c5239e44
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.telesirio.it/images/logo.png" group-title="Altro",TELE SIRIO
 https://vavoo.to/vavoo-iptv/play/21884692197ee0a9ba39f6
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.teletricolore.it/wp-content/uploads/2018/02/logo.png" group-title="Altro",TELE TRICOLORE
@@ -867,6 +859,26 @@ https://ava.karmakurama.com/ddy6/premium462/mono.m3u8
 #EXTINF:-1 group-title="Eventi Live SPORTSONLINE",NESSUN EVENTO
 https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Other | Gran Piemonte Men 2025 | 14:50 (Italiano)" group-title="Eventi Live STREAMED",Other | Gran Piemonte Men 2025 | 14:50 (Italiano)
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+https://lb3.strmd.top/secure/khzlVGuNSMnDWWRmSQuCubBFWZDtvGls/alpha/stream/gran-piemonte-men-2025/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)" group-title="Eventi Live STREAMED",Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+https://lb3.strmd.top/secure/lHbobgAgSBjqPFPLKXyAoTbexIFxbawJ/alpha/stream/ufc-events-ufc-mma-ufc-ppv/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pkhttps://ppv.to/assets/thumb/7d13359d849ce48586e15e10ba6d28eb-thumbnail.jpg" tvg-name="Football | Czechia vs. Croatia | 20:45 (Italiano)" group-title="Eventi Live STREAMED",Football | Czechia vs. Croatia | 20:45 (Italiano)
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+https://lb6.strmd.top/secure/WweqLNDGmPKqmcFeRPGYZglbUFqgtnBu/alpha/stream/czechia-vs-croatia/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pkhttps://ppv.to/assets/thumb/c7f03a767390c5d237b4af80e80c390d-thumbnail.jpg" tvg-name="Football | Finland vs Lithuania | 18:00 (Italiano)" group-title="Eventi Live STREAMED",Football | Finland vs Lithuania | 18:00 (Italiano)
+#EXTVLCOPT:http-origin=https://embedsports.top
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+https://lb9.strmd.top/secure/HJIIVdjXDwdOCyMLENLlJelwfvJrCXBQ/alpha/stream/finland-vs-lithuania/5/playlist.m3u8
 #EXTINF:-1 tvg-chno="80" tvg-name="Pluto TV Christmas" tvg-logo="https://images.pluto.tv/channels/612e05b885183d0007958101/colorLogoPNG.png" tvg-id="612e05b885183d0007958101" group-title="Pluto TV Italia",Pluto TV Christmas
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/612e05b885183d0007958101/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 tvg-chno="85" tvg-name="Pluto TV Fireplace" tvg-logo="https://images.pluto.tv/channels/612ce23f51cce000078eeed5/colorLogoPNG.png" tvg-id="612ce23f51cce000078eeed5" group-title="Pluto TV Italia",Pluto TV Fireplace
