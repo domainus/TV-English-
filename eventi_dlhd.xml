@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
-  <channel id="WorldCupQualifyingFinlandvsLithuania">
-    <display-name>World Cup Qualifying : Finland vs Lithuania</display-name>
-  </channel>
-  <programme start="20251009000000 +0200" stop="20251009180000 +0200" channel="WorldCupQualifyingFinlandvsLithuania">
-    <title lang="it">Inizia alle 18:00.</title>
-    <desc lang="it">World Cup Qualifying : Finland vs Lithuania.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251009180000 +0200" stop="20251009200000 +0200" channel="WorldCupQualifyingFinlandvsLithuania">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">World Cup Qualifying : Finland vs Lithuania</desc>
-    <category lang="it">Soccer</category>
-  </programme>
   <channel id="FriendlyEnglandvsWales">
     <display-name>Friendly : England vs Wales</display-name>
   </channel>
