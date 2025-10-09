@@ -49961,5 +49961,268 @@
       10765
     ],
     "cached_at": "2025-10-08T14:37:15.845708"
+  },
+  "95044": {
+    "id": 95044,
+    "name": "余生，请多指教",
+    "original_name": "余生，请多指教",
+    "first_air_date": "2022-03-15",
+    "vote_average": 6.826,
+    "poster_path": "/nUhdvkGfT9Vl7kLwj2M9XtINdg1.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-09T06:18:06.589652"
+  },
+  "157514": {
+    "id": 157514,
+    "name": "La vita dopo la morte con Tyler Henry",
+    "original_name": "Life After Death with Tyler Henry",
+    "first_air_date": "2022-03-11",
+    "vote_average": 5.6,
+    "poster_path": "/6BSuTI1Xe2HmbIxS6c1uKQHsQmU.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-09T06:18:06.598355"
+  },
+  "158715": {
+    "id": 158715,
+    "name": "소년비행",
+    "original_name": "소년비행",
+    "first_air_date": "2022-03-25",
+    "vote_average": 4.4,
+    "poster_path": "/uzRPdXMxpTGMc8qCG6im5N1yiTp.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-09T06:18:06.664980"
+  },
+  "194771": {
+    "id": 194771,
+    "name": "才不要和老板谈恋爱",
+    "original_name": "才不要和老板谈恋爱",
+    "first_air_date": "2022-03-10",
+    "vote_average": 6.8,
+    "poster_path": "/5AdPkvN6uqYQulfeZeJvwLBIzh5.jpg",
+    "genre_ids": [
+      18,
+      9648,
+      35
+    ],
+    "cached_at": "2025-10-09T06:18:06.683195"
+  },
+  "133953": {
+    "id": 133953,
+    "name": "影帝的公主",
+    "original_name": "影帝的公主",
+    "first_air_date": "2022-03-16",
+    "vote_average": 6.5,
+    "poster_path": "/bU7IZGyO9AoN7mmbCsDrlvs3yXQ.jpg",
+    "genre_ids": [
+      18,
+      10765
+    ],
+    "cached_at": "2025-10-09T06:18:06.701543"
+  },
+  "155493": {
+    "id": 155493,
+    "name": "Gli ultimi giorni di Tolomeo Grey",
+    "original_name": "The Last Days of Ptolemy Grey",
+    "first_air_date": "2022-03-10",
+    "vote_average": 7.5,
+    "poster_path": "/mS66vnYaggEoiiPRVNM6quqDhLA.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-09T06:18:06.723344"
+  },
+  "158648": {
+    "id": 158648,
+    "name": "Team Zenko Go",
+    "original_name": "Team Zenko Go",
+    "first_air_date": "2022-03-15",
+    "vote_average": 7.9,
+    "poster_path": "/jMBXG9yMIzbrJosvMJKjr9CRF1L.jpg",
+    "genre_ids": [
+      16,
+      10759,
+      10762
+    ],
+    "cached_at": "2025-10-09T06:18:06.750903"
+  },
+  "194838": {
+    "id": 194838,
+    "name": "Johnny Hallyday: una leggenda del rock",
+    "original_name": "Johnny par Johnny",
+    "first_air_date": "2022-03-29",
+    "vote_average": 6.0,
+    "poster_path": "/k3XehLr2l0ypiqNS0hXxXYJBJ73.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-09T06:18:06.773467"
+  },
+  "157709": {
+    "id": 157709,
+    "name": "Bad Vegan: fama, frode e fuggitivi",
+    "original_name": "Bad Vegan: Fame. Fraud. Fugitives.",
+    "first_air_date": "2022-03-16",
+    "vote_average": 6.064,
+    "poster_path": "/pwNSUMe9bGKC2A252NJjo8Bb9sE.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-09T06:18:06.794627"
+  },
+  "158646": {
+    "id": 158646,
+    "name": "Is it Cake? - Dolci impossibili",
+    "original_name": "Is It Cake?",
+    "first_air_date": "2022-03-18",
+    "vote_average": 6.9,
+    "poster_path": "/nDohKinqCX0EudNNstxYWI730jI.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-09T06:18:06.819845"
+  },
+  "157726": {
+    "id": 157726,
+    "name": "Drôle - Comici a Parigi",
+    "original_name": "Drôle",
+    "first_air_date": "2022-03-18",
+    "vote_average": 6.833,
+    "poster_path": "/7xkwOn8wj2Mckln8h1Voli0lnYj.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-09T06:18:06.845680"
+  },
+  "196114": {
+    "id": 196114,
+    "name": "Frock Destroyers: Frockumentary",
+    "original_name": "Frock Destroyers: Frockumentary",
+    "first_air_date": "2022-03-15",
+    "vote_average": 1.0,
+    "poster_path": "/l9KTx0ckFklNvQENM8MX2xsiQUt.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-09T06:18:06.866491"
+  },
+  "196539": {
+    "id": 196539,
+    "name": "原来是老师啊！",
+    "original_name": "原来是老师啊！",
+    "first_air_date": "2022-03-31",
+    "vote_average": 4.0,
+    "poster_path": "/jzSrugWVQIZ2rDvdRtfX1m00Cf7.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-09T06:18:06.891757"
+  },
+  "195780": {
+    "id": 195780,
+    "name": "Accordo Matrimoniale",
+    "original_name": "Wedding Agreement: The Series",
+    "first_air_date": "2022-03-25",
+    "vote_average": 6.8,
+    "poster_path": "/ysjb8waeARnpawSCjq6jjbg4DwS.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-09T06:18:06.917091"
+  },
+  "157932": {
+    "id": 157932,
+    "name": "Eternally Confused and Eager for Love",
+    "original_name": "Eternally Confused and Eager for Love",
+    "first_air_date": "2022-03-18",
+    "vote_average": 6.8,
+    "poster_path": "/ae73rDfVc8gKLXybi68roaZK9Hz.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-09T06:18:06.937520"
+  },
+  "118303": {
+    "id": 118303,
+    "name": "Minx",
+    "original_name": "Minx",
+    "first_air_date": "2022-03-17",
+    "vote_average": 6.863,
+    "poster_path": "/8m4ExDRn3oqZJI33mxKaZBjbf1v.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-09T06:18:06.962950"
+  },
+  "157717": {
+    "id": 157717,
+    "name": "Young, Famous & African",
+    "original_name": "Young, Famous & African",
+    "first_air_date": "2022-03-18",
+    "vote_average": 7.2,
+    "poster_path": "/10ByS22axqyK9NatfBgTsDA7JAv.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-09T06:18:07.008338"
+  },
+  "194682": {
+    "id": 194682,
+    "name": "Super PupZ",
+    "original_name": "Super PupZ",
+    "first_air_date": "2022-03-31",
+    "vote_average": 8.5,
+    "poster_path": "/c8BGHRMBA7zBGI6LnbfG9DX3BG7.jpg",
+    "genre_ids": [
+      35,
+      10751,
+      10762
+    ],
+    "cached_at": "2025-10-09T06:18:07.036525"
+  },
+  "136973": {
+    "id": 136973,
+    "name": "与君初相识",
+    "original_name": "与君初相识",
+    "first_air_date": "2022-03-17",
+    "vote_average": 7.2,
+    "poster_path": "/cdNb6qDZCEc8tFQPcRrb7fWdeLI.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-09T06:18:07.079302"
+  },
+  "125574": {
+    "id": 125574,
+    "name": "Transformers: BotBots",
+    "original_name": "Transformers: BotBots",
+    "first_air_date": "2022-03-25",
+    "vote_average": 5.1,
+    "poster_path": "/hKtDA3GG3puz5DGnieFCNRGPpjK.jpg",
+    "genre_ids": [
+      10762,
+      16
+    ],
+    "cached_at": "2025-10-09T06:18:07.101039"
+  },
+  "196613": {
+    "id": 196613,
+    "name": "玉面桃花总相逢",
+    "original_name": "玉面桃花总相逢",
+    "first_air_date": "2022-04-01",
+    "vote_average": 4.7,
+    "poster_path": "/o9G4jusWkMvTNoecDfziQFDXMtZ.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-09T06:18:07.178375"
   }
 }
