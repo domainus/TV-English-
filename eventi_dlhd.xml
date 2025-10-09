@@ -26,30 +26,4 @@
     <desc lang="it">Friendly : England vs Wales</desc>
     <category lang="it">Soccer</category>
   </programme>
-  <channel id="XianGrandPrixRound3">
-    <display-name>Xi'an Grand Prix | Round 3</display-name>
-  </channel>
-  <programme start="20251009000000 +0200" stop="20251009133000 +0200" channel="XianGrandPrixRound3">
-    <title lang="it">Inizia alle 13:30.</title>
-    <desc lang="it">Xi'an Grand Prix | Round 3.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251009133000 +0200" stop="20251009153000 +0200" channel="XianGrandPrixRound3">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Xi'an Grand Prix | Round 3</desc>
-    <category lang="it">Snooker</category>
-  </programme>
-  <channel id="GranPiemonteMenDoglianiAcquiTerme179km">
-    <display-name>Gran Piemonte Men | Dogliani - Acqui Terme (179km)</display-name>
-  </channel>
-  <programme start="20251009000000 +0200" stop="20251009141500 +0200" channel="GranPiemonteMenDoglianiAcquiTerme179km">
-    <title lang="it">Inizia alle 14:15.</title>
-    <desc lang="it">Gran Piemonte Men | Dogliani - Acqui Terme (179km).</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251009141500 +0200" stop="20251009161500 +0200" channel="GranPiemonteMenDoglianiAcquiTerme179km">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Gran Piemonte Men | Dogliani - Acqui Terme (179km)</desc>
-    <category lang="it">Cycling</category>
-  </programme>
 </tv>
