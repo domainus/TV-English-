@@ -50224,5 +50224,485 @@
       18
     ],
     "cached_at": "2025-10-09T06:18:07.178375"
+  },
+  "21561": {
+    "id": 21561,
+    "name": "Oltre i limiti",
+    "original_name": "The Outer Limits",
+    "first_air_date": "1995-03-26",
+    "vote_average": 7.7,
+    "poster_path": "/1mf3GKgYeEIBhsp61uTGmI58NIB.jpg",
+    "genre_ids": [
+      18,
+      10765
+    ],
+    "cached_at": "2025-10-10T06:18:01.210769"
+  },
+  "15956": {
+    "id": 15956,
+    "name": "The Last Frontier",
+    "original_name": "The Last Frontier",
+    "first_air_date": "1996-06-03",
+    "vote_average": 0.0,
+    "poster_path": null,
+    "genre_ids": [],
+    "cached_at": "2025-10-10T06:18:01.230332"
+  },
+  "155472": {
+    "id": 155472,
+    "name": "流光之城",
+    "original_name": "流光之城",
+    "first_air_date": "2022-01-20",
+    "vote_average": 5.8,
+    "poster_path": "/bl6DWgw6qqihD1F4OA9rotIQkTB.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-10T06:18:01.250841"
+  },
+  "217309": {
+    "id": 217309,
+    "name": "Love Never Lies: Polska",
+    "original_name": "Love Never Lies: Polska",
+    "first_air_date": "2023-01-25",
+    "vote_average": 6.2,
+    "poster_path": "/pEW4RqkF3qHnklrwjB9u5FoYE9N.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-10T06:18:01.305553"
+  },
+  "155924": {
+    "id": 155924,
+    "name": "Warped!",
+    "original_name": "Warped!",
+    "first_air_date": "2022-01-20",
+    "vote_average": 6.8,
+    "poster_path": "/2qWIFnPmTSi7RmaSv5zhiw7518z.jpg",
+    "genre_ids": [
+      10762,
+      35,
+      10751
+    ],
+    "cached_at": "2025-10-10T06:18:01.339323"
+  },
+  "225647": {
+    "id": 225647,
+    "name": "Boots",
+    "original_name": "Boots",
+    "first_air_date": "2025-10-09",
+    "vote_average": 8.667,
+    "poster_path": "/eEwe68oPFFDU4ehZ3sXiETE44Rt.jpg",
+    "genre_ids": [
+      35,
+      18,
+      10768
+    ],
+    "cached_at": "2025-10-10T06:18:01.349498"
+  },
+  "138436": {
+    "id": 138436,
+    "name": "L'amore è cieco: Giappone",
+    "original_name": "ラブ・イズ・ブラインド JAPAN",
+    "first_air_date": "2022-02-08",
+    "vote_average": 6.1,
+    "poster_path": "/AqJIQMdC60UtuYzNKYEQbVnlpXQ.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-10T06:18:01.420039"
+  },
+  "139397": {
+    "id": 139397,
+    "name": "As We See It - Te lo racconto io",
+    "original_name": "As We See It",
+    "first_air_date": "2022-01-20",
+    "vote_average": 7.7,
+    "poster_path": "/bh7OXB05LgElZDMOoxFNSJL9o4h.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-10T06:18:01.420056"
+  },
+  "262281": {
+    "id": 262281,
+    "name": "Victoria Beckham",
+    "original_name": "Victoria Beckham",
+    "first_air_date": "2025-10-09",
+    "vote_average": 5.0,
+    "poster_path": "/dJjWMwWk86zMGPQlMvAsptVEDYm.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-10T06:18:01.444534"
+  },
+  "158762": {
+    "id": 158762,
+    "name": "3 Tonelada$: la grande rapina alla Banca Centrale del Brasile",
+    "original_name": "3 Tonelada$: Assalto ao Banco Central",
+    "first_air_date": "2022-03-16",
+    "vote_average": 6.316,
+    "poster_path": "/cIdApoTqnfUhK5rUjR55pJhwk0O.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-10T06:18:01.469310"
+  },
+  "157313": {
+    "id": 157313,
+    "name": "첫사랑 만 세번째",
+    "original_name": "첫사랑 만 세번째",
+    "first_air_date": "2022-02-11",
+    "vote_average": 7.1,
+    "poster_path": "/xT3zN034aU4YtPdwMrIflcZwYUi.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-10T06:18:01.487295"
+  },
+  "302590": {
+    "id": 302590,
+    "name": "R.I.P. - Roast-in-Peace",
+    "original_name": "R.I.P. - Roast-in-Peace",
+    "first_air_date": "2025-10-09",
+    "vote_average": 0.0,
+    "poster_path": "/ci2TWjr5hE6kamB8NrKzfN7gSSz.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-10T06:18:01.516964"
+  },
+  "155099": {
+    "id": 155099,
+    "name": "La divina gula",
+    "original_name": "La divina gula",
+    "first_air_date": "2022-01-19",
+    "vote_average": 6.5,
+    "poster_path": "/wROX6TYSbOWp2IRFvzyvQ4VudzH.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-10T06:18:01.543166"
+  },
+  "155594": {
+    "id": 155594,
+    "name": "Murderville",
+    "original_name": "Murderville",
+    "first_air_date": "2022-02-03",
+    "vote_average": 6.417,
+    "poster_path": "/q55FVqMOG5C091tGENGixgRggcx.jpg",
+    "genre_ids": [
+      35,
+      80
+    ],
+    "cached_at": "2025-10-10T06:18:01.556572"
+  },
+  "157926": {
+    "id": 157926,
+    "name": "Ne rimarrà solo 1: gara di improvvisazione tragicomica",
+    "original_name": "トークサバイバー！",
+    "first_air_date": "2022-03-08",
+    "vote_average": 7.4,
+    "poster_path": "/kM6CTrrlpQNKZJoIsJb9XEoloWX.jpg",
+    "genre_ids": [
+      35,
+      9648,
+      18
+    ],
+    "cached_at": "2025-10-10T06:18:01.605055"
+  },
+  "153671": {
+    "id": 153671,
+    "name": "Getting Curious with Jonathan Van Ness",
+    "original_name": "Getting Curious with Jonathan Van Ness",
+    "first_air_date": "2022-01-28",
+    "vote_average": 6.7,
+    "poster_path": "/dNmbo0QWsA8rLPllfo6sgY2jjEw.jpg",
+    "genre_ids": [
+      10767,
+      35
+    ],
+    "cached_at": "2025-10-10T06:18:01.614949"
+  },
+  "100414": {
+    "id": 100414,
+    "name": "Suspicion",
+    "original_name": "Suspicion",
+    "first_air_date": "2022-02-04",
+    "vote_average": 6.768,
+    "poster_path": "/vY02Rbk8ZUgiQgziGMuYKNT9IBO.jpg",
+    "genre_ids": [
+      18,
+      80
+    ],
+    "cached_at": "2025-10-10T06:18:01.629786"
+  },
+  "158634": {
+    "id": 158634,
+    "name": "Byron Baes - Il paradiso degli influencer",
+    "original_name": "Byron Baes",
+    "first_air_date": "2022-03-09",
+    "vote_average": 4.2,
+    "poster_path": "/bQNDwIupE4XtqegpJhkB3nHgxGL.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-10T06:18:01.681250"
+  },
+  "154810": {
+    "id": 154810,
+    "name": "Finding Ola",
+    "original_name": "البحث عن علا",
+    "first_air_date": "2022-02-03",
+    "vote_average": 7.3,
+    "poster_path": "/xczb1lMP6xvtJLHzGhHQiYSBRwU.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-10T06:18:01.686340"
+  },
+  "157673": {
+    "id": 157673,
+    "name": "陪你一起好好吃饭",
+    "original_name": "陪你一起好好吃饭",
+    "first_air_date": "2022-02-14",
+    "vote_average": 7.1,
+    "poster_path": "/2iJqcPX2nZnAgJVPvbFIjSMp54m.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-10T06:18:01.703840"
+  },
+  "155431": {
+    "id": 155431,
+    "name": "RuPaul's Drag Race UK vs The World",
+    "original_name": "RuPaul's Drag Race UK vs The World",
+    "first_air_date": "2022-02-01",
+    "vote_average": 6.1,
+    "poster_path": "/xJQ1sD2ZCsKsETdMuTCGYxX3Rep.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-10T06:18:01.756710"
+  },
+  "155545": {
+    "id": 155545,
+    "name": "Cielo grande",
+    "original_name": "Cielo grande",
+    "first_air_date": "2022-02-16",
+    "vote_average": 7.4,
+    "poster_path": "/gjtP5Sz9bZ5OaReuMKAJohuVT4R.jpg",
+    "genre_ids": [
+      18,
+      10751
+    ],
+    "cached_at": "2025-10-10T06:18:01.777872"
+  },
+  "156837": {
+    "id": 156837,
+    "name": "Anita: Director’s Cut",
+    "original_name": "梅艷芳：導演版",
+    "first_air_date": "2022-02-02",
+    "vote_average": 7.1,
+    "poster_path": "/cqOgEeTlkfs2vRh8BiOmpCwYbwI.jpg",
+    "genre_ids": [
+      18,
+      10751
+    ],
+    "cached_at": "2025-10-10T06:18:01.841406"
+  },
+  "157082": {
+    "id": 157082,
+    "name": "LOL: Chi ride è fuori Canada",
+    "original_name": "LOL: Last One Laughing Canada",
+    "first_air_date": "2022-02-18",
+    "vote_average": 5.2,
+    "poster_path": "/62Jz1O9vbBnVQtkafSzEOzlMPd8.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-10T06:18:01.843779"
+  },
+  "155496": {
+    "id": 155496,
+    "name": "Idee da vendere",
+    "original_name": "Ideias à Venda",
+    "first_air_date": "2022-02-09",
+    "vote_average": 6.0,
+    "poster_path": "/o7NJ2yXJNOEYBwJ5BjjDzl6aV1x.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-10T06:18:01.901373"
+  },
+  "156439": {
+    "id": 156439,
+    "name": "I Was There",
+    "original_name": "I Was There",
+    "first_air_date": "2022-02-20",
+    "vote_average": 10.0,
+    "poster_path": "/B7bvTD2SqNUhoO3jhZZh5bUloK.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-10T06:18:01.914574"
+  },
+  "154647": {
+    "id": 154647,
+    "name": "Angry Birds: Summer Madness",
+    "original_name": "Angry Birds: Summer Madness",
+    "first_air_date": "2022-01-28",
+    "vote_average": 7.2,
+    "poster_path": "/6ko4jfA5BrcRADDaAfMagZ4ZGpG.jpg",
+    "genre_ids": [
+      16,
+      10759,
+      10765,
+      35
+    ],
+    "cached_at": "2025-10-10T06:18:01.970196"
+  },
+  "125438": {
+    "id": 125438,
+    "name": "La famiglia Proud - Più forte e orgogliosa",
+    "original_name": "The Proud Family: Louder and Prouder",
+    "first_air_date": "2022-02-23",
+    "vote_average": 5.646,
+    "poster_path": "/gdEgod2RNMpyBFV3S3CEDd3HJpz.jpg",
+    "genre_ids": [
+      10751,
+      16,
+      35
+    ],
+    "cached_at": "2025-10-10T06:18:01.992843"
+  },
+  "252135": {
+    "id": 252135,
+    "name": "回魂計",
+    "original_name": "回魂計",
+    "first_air_date": "2025-10-09",
+    "vote_average": 8.0,
+    "poster_path": "/sCbj5ztQ2yDxXADqq7eLPxQTBnp.jpg",
+    "genre_ids": [
+      80,
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-10T06:18:02.041840"
+  },
+  "158170": {
+    "id": 158170,
+    "name": "我们的婚姻",
+    "original_name": "我们的婚姻",
+    "first_air_date": "2022-02-24",
+    "vote_average": 5.4,
+    "poster_path": "/5uDX1scSPay6D4LeoqaY0SnuQax.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-10T06:18:02.057143"
+  },
+  "154861": {
+    "id": 154861,
+    "name": "Fishbowl Wives",
+    "original_name": "金魚妻",
+    "first_air_date": "2022-02-14",
+    "vote_average": 6.2,
+    "poster_path": "/vPufA7rzlODx1a6lRReTJRbZdRB.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-10T06:18:02.112964"
+  },
+  "158233": {
+    "id": 158233,
+    "name": "I diari di Andy Warhol",
+    "original_name": "The Andy Warhol Diaries",
+    "first_air_date": "2022-03-09",
+    "vote_average": 6.8,
+    "poster_path": "/ls3Ek39IKSiAYJES1CZHPj90TEZ.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-10T06:18:02.128448"
+  },
+  "299236": {
+    "id": 299236,
+    "name": "Le sorelle Grimm",
+    "original_name": "The Sisters Grimm",
+    "first_air_date": "2025-10-02",
+    "vote_average": 8.8,
+    "poster_path": "/wNncCvkfZ1cQfgHQRGofSeV20qC.jpg",
+    "genre_ids": [
+      10759,
+      10765,
+      16
+    ],
+    "cached_at": "2025-10-10T06:18:02.186092"
+  },
+  "157208": {
+    "id": 157208,
+    "name": "시맨틱 에러",
+    "original_name": "시맨틱 에러",
+    "first_air_date": "2022-02-16",
+    "vote_average": 8.533,
+    "poster_path": "/334epDKJwNyNfuC5KeZh5epsBz5.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-10T06:18:02.255893"
+  },
+  "158511": {
+    "id": 158511,
+    "name": "Il mondo di Karma: Video musicali",
+    "original_name": "Karma's World Music Videos",
+    "first_air_date": "2022-02-24",
+    "vote_average": 2.5,
+    "poster_path": "/fdHJ3B1mOj5djEw883rSpX5pZ4W.jpg",
+    "genre_ids": [
+      16,
+      10762
+    ],
+    "cached_at": "2025-10-10T06:18:02.327624"
+  },
+  "157429": {
+    "id": 157429,
+    "name": "Making Fun",
+    "original_name": "Making Fun",
+    "first_air_date": "2022-03-04",
+    "vote_average": 6.2,
+    "poster_path": "/pY8p4kFwnTyBq71MsvvV2ZFfrDA.jpg",
+    "genre_ids": [
+      10764,
+      10751
+    ],
+    "cached_at": "2025-10-10T06:18:02.399399"
+  },
+  "156572": {
+    "id": 156572,
+    "name": "Queer Eye: Germania",
+    "original_name": "Queer Eye Germany",
+    "first_air_date": "2022-03-09",
+    "vote_average": 5.0,
+    "poster_path": "/o70wsY15ijyX46SO2eqkcpOaTzQ.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-10T06:18:02.469577"
+  },
+  "158763": {
+    "id": 158763,
+    "name": "L’amore, la vita e tutto il resto",
+    "original_name": "في الحب... والحياة",
+    "first_air_date": "2022-03-10",
+    "vote_average": 3.2,
+    "poster_path": "/f6Ee832SCyupCSZ4gp9iTAT0rI3.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "cached_at": "2025-10-10T06:18:02.543043"
   }
 }
