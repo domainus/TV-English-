@@ -81,17 +81,7 @@
   <channel id="XianGrandPrixRound4">
     <display-name>Xi'an Grand Prix | Round 4</display-name>
   </channel>
-  <programme start="20251010000000 +0200" stop="20251010080000 +0200" channel="XianGrandPrixRound4">
-    <title lang="it">Inizia alle 08:00.</title>
-    <desc lang="it">Xi'an Grand Prix | Round 4.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251010080000 +0200" stop="20251010100000 +0200" channel="XianGrandPrixRound4">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Xi'an Grand Prix | Round 4</desc>
-    <category lang="it">Snooker</category>
-  </programme>
-  <programme start="20251010100000 +0200" stop="20251010133000 +0200" channel="XianGrandPrixRound4">
+  <programme start="20251010000000 +0200" stop="20251010133000 +0200" channel="XianGrandPrixRound4">
     <title lang="it">Inizia alle 13:30.</title>
     <desc lang="it">Xi'an Grand Prix | Round 4.</desc>
     <category lang="it">Annuncio</category>
