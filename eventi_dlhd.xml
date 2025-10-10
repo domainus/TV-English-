@@ -104,17 +104,4 @@
     <desc lang="it">UCI Cross-country Short Track World Cup | Women Elite | Mont-Sainte-Anne</desc>
     <category lang="it">Cycling</category>
   </programme>
-  <channel id="PremierPadelMilanT2025WomensQuarterfinal1">
-    <display-name>Premier Padel. Milan (T2025): Women's Quarterfinal 1</display-name>
-  </channel>
-  <programme start="20251010000000 +0200" stop="20251010090000 +0200" channel="PremierPadelMilanT2025WomensQuarterfinal1">
-    <title lang="it">Inizia alle 09:00.</title>
-    <desc lang="it">Premier Padel. Milan (T2025): Women's Quarterfinal 1.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251010090000 +0200" stop="20251010110000 +0200" channel="PremierPadelMilanT2025WomensQuarterfinal1">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Premier Padel. Milan (T2025): Women's Quarterfinal 1</desc>
-    <category lang="it">Squash</category>
-  </programme>
 </tv>
