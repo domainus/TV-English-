@@ -21,7 +21,7 @@ Benvenuto nella tua **lista IPTV personalizzata** con **EPG** integrata e suppor
 
 Queste liste devono essere utilizzate con un proxy. (Vavoo e SportsOnline)
 
-- **Lista M3U** (contiene canali Vavoo, DLHD, MPD, SportsOnline e Streamed)  
+- **Lista M3U** (contiene canali Vavoo, DLHD, MPD, SportsOnline)  
   [`https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/lista.m3u`](https://raw.githubusercontent.com/nzo66/TV/refs/heads/main/lista.m3u)
 
 - **EPG XML**  
