@@ -65,32 +65,6 @@
     <desc lang="it">World Cup Qualifying : Germany vs Luxembourg</desc>
     <category lang="it">All Soccer Events</category>
   </programme>
-  <channel id="2025DongfengVoyahWuhanOpenTennisWTA">
-    <display-name>2025 Dongfeng Voyah Wuhan Open Tennis WTA</display-name>
-  </channel>
-  <programme start="20251010000000 +0200" stop="20251010130000 +0200" channel="2025DongfengVoyahWuhanOpenTennisWTA">
-    <title lang="it">Inizia alle 13:00.</title>
-    <desc lang="it">2025 Dongfeng Voyah Wuhan Open Tennis WTA.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251010130000 +0200" stop="20251010150000 +0200" channel="2025DongfengVoyahWuhanOpenTennisWTA">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">2025 Dongfeng Voyah Wuhan Open Tennis WTA</desc>
-    <category lang="it">Tennis</category>
-  </programme>
-  <channel id="XianGrandPrixRound4">
-    <display-name>Xi'an Grand Prix | Round 4</display-name>
-  </channel>
-  <programme start="20251010000000 +0200" stop="20251010133000 +0200" channel="XianGrandPrixRound4">
-    <title lang="it">Inizia alle 13:30.</title>
-    <desc lang="it">Xi'an Grand Prix | Round 4.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251010133000 +0200" stop="20251010153000 +0200" channel="XianGrandPrixRound4">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Xi'an Grand Prix | Round 4</desc>
-    <category lang="it">Snooker</category>
-  </programme>
   <channel id="UCICrosscountryShortTrackWorldCupWomenEliteMontSainteAnne">
     <display-name>UCI Cross-country Short Track World Cup | Women Elite | Mont-Sainte-Anne</display-name>
   </channel>
