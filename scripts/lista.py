@@ -121,7 +121,7 @@ def merger_playlist():
     playlist_pluto = download_playlist(url6)
     
     # 3. Unisci tutte le playlist (con i canali italiani ordinati all'inizio)
-    lista = sorted_italian_playlist + "\n" + playlist_eventi + "\n" + playlist_sportsonline + "\n" + playlist_streamed + "\n" + playlist_pluto
+    lista = sorted_italian_playlist + "\n" + playlist_eventi + "\n" + playlist_sportsonline + "\n" + playlist_pluto
     
     # Aggiungi intestazione EPG
     lista = f'#EXTM3U url-tvg="https://raw.githubusercontent.com/{NOMEGITHUB}/{NOMEREPO}/refs/heads/main/epg.xml"\n' + lista
@@ -233,7 +233,7 @@ def merger_playlistworld():
     playlist_pluto = download_playlist(url5)
     playlist_world = download_playlist(url_world, exclude_group_title="Italy")
     # 3. Unisci tutte le playlist
-    lista = sorted_italian_playlist + "\n" + playlist_eventi + "\n" + playlist_sportsonline + "\n" + playlist_streamed + "\n" + playlist_pluto + "\n" + playlist_world
+    lista = sorted_italian_playlist + "\n" + playlist_eventi + "\n" + playlist_sportsonline + "\n" + playlist_pluto + "\n" + playlist_world
     
     # Aggiungi intestazione EPG
     lista = f'#EXTM3U url-tvg="https://raw.githubusercontent.com/{NOMEGITHUB}/{NOMEREPO}/refs/heads/main/epg.xml"\n' + lista
