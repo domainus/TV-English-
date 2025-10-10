@@ -25,6 +25,8 @@ https://vavoo.to/vavoo-iptv/play/68845853044f9c95e43e
 https://vavoo.to/vavoo-iptv/play/190887752614ef25f5e1fd
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.omceo.bg.it/images/loghi/antenna-2.png" group-title="Altro",ANTENNA 2
 https://vavoo.to/vavoo-iptv/play/30140012609b4bf5e8d3b7
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",ANTENNA SICILIA
+https://vavoo.to/vavoo-iptv/play/3309975829c0cd274e96f4
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.antennasud.com/media/2022/08/cropped-LOGO_ANTENNA_SUD_ROSSO_FORATO.png" group-title="Altro",ANTENNA SUD
 https://vavoo.to/vavoo-iptv/play/4084059868fd82d62442e9
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/img/arte_logo.png" group-title="Documentari",ARTE NETWORK
@@ -422,24 +424,18 @@ https://vavoo.to/vavoo-iptv/play/1890950169c0c68782bbe1
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN ACTION MOVIES
-https://vavoo.to/vavoo-iptv/play/30648111922089ed4a29cc
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN COMEDY MOVIES
 https://vavoo.to/vavoo-iptv/play/11093727783b90d83934c6
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN DRAMA
 https://vavoo.to/vavoo-iptv/play/209862439074120bb15132
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN FAMILY
 https://vavoo.to/vavoo-iptv/play/3902650955a82543dc27a4
-#EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN TOP FREE
-https://vavoo.to/vavoo-iptv/play/1572866962efea4ca22353
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN TV SHOWS
 https://vavoo.to/vavoo-iptv/play/860912269147f85ae7a8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/260px-RDS-Logo.png" group-title="Musica",RDS SOCIAL
 https://vavoo.to/vavoo-iptv/play/4031388312f5ebcfc7dc6d
 #EXTINF:-1 tvg-id="rdssocialtv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/260px-RDS-Logo.png" group-title="Musica",RDS SOCIAL TV
 https://vavoo.to/vavoo-iptv/play/36560804080912cdf76cbf
-#EXTINF:-1 tvg-id="real.time.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" group-title="Altro",REAL TIME
-https://vavoo.to/vavoo-iptv/play/2251241999722578d55332
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Reggio_TV_logo.png/640px-Reggio_TV_logo.png" group-title="Altro",REGGIO TV
 https://vavoo.to/vavoo-iptv/play/216554978929adb39fe170
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/rei-tv-it.png?raw=true" group-title="Altro",REI TV
@@ -614,6 +610,8 @@ https://ava.karmakurama.com/wind/premium873/mono.m3u8
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/wind/premium874/mono.m3u8
+#EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA
+https://vavoo.to/vavoo-iptv/play/25559607139e6fd9b93dd6
 #EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
@@ -636,6 +634,8 @@ https://ava.karmakurama.com/wind/premium870/mono.m3u8
 https://ava.karmakurama.com/nfs/premium577/mono.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY]
 https://vavoo.to/vavoo-iptv/play/198930923100c09085a1ae
+#EXTINF:-1 tvg-id="sky.sport.golf.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sport",SKY SPORT GOLF
+https://vavoo.to/vavoo-iptv/play/3897711086f5655aa4d5fb
 #EXTINF:-1 tvg-id="sky.sport.max.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Sport",SKY SPORT MAX (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
@@ -847,11 +847,65 @@ https://vavoo.to/vavoo-iptv/play/2989824407cb0184041b08
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="friendlyenglandvswales" tvg-name="Soccer | Friendly : England vs Wales (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/England_vs_Wales.png" group-title="Eventi Live DLHD",Soccer | Friendly : England vs Wales (20:45)
+#EXTINF:-1 tvg-id="worldcupqualifyingkazakhstanvsliechtenstein" tvg-name="All Soccer Events | World Cup Qualifying : Kazakhstan vs Liechtenstein (16:00)" tvg-logo="https://www.marefa.org/w/images/thumb/0/08/Kazakhstan_Football_Federation_logo.svg/1200px-Kazakhstan_Football_Federation_logo.svg.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Kazakhstan vs Liechtenstein (16:00)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/ddy6/premium462/mono.m3u8
+https://ava.karmakurama.com/wind/premium870/mono.m3u8
+
+#EXTINF:-1 tvg-id="europeeurou21qualifyingitalyu21vsswedenu21" tvg-name="All Soccer Events | Europe - Euro U-21 Qualifying : Italy U21 vs Sweden U21 (18:15)" tvg-logo="https://www.futbol24.com/upload/team/UEFA/Italy-U21.png" group-title="Eventi Live DLHD",All Soccer Events | Europe - Euro U-21 Qualifying : Italy U21 vs Sweden U21 (18:15)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium851/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecarezzovsgubbio" tvg-name="All Soccer Events | Italy - Serie C : Arezzo vs Gubbio (20:30)" tvg-logo="https://www.modenarugby1965.it/wp-content/uploads/2023/08/logo-RG.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Arezzo vs Gubbio (20:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium105/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecbravsathleticcarpi" tvg-name="All Soccer Events | Italy - Serie C : Bra vs Athletic Carpi (20:30)" tvg-logo="https://www.tradestockltd.co.uk/wp-content/uploads/2025/01/BRA-LOGO.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Bra vs Athletic Carpi (20:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium106/mono.m3u8
+
+#EXTINF:-1 tvg-id="worldcupqualifyinggermanyvsluxembourg" tvg-name="All Soccer Events | World Cup Qualifying : Germany vs Luxembourg (20:45)" tvg-logo="https://static.vecteezy.com/system/resources/previews/022/102/485/original/germany-flag-round-shape-free-png.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Germany vs Luxembourg (20:45)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium461/mono.m3u8
+
+#EXTINF:-1 tvg-id="2025dongfengvoyahwuhanopentenniswta" tvg-name="Tennis | 2025 Dongfeng Voyah Wuhan Open Tennis WTA (13:00)" tvg-logo="https://tv-sports.fr/photos/sport/competitions/680.png" group-title="Eventi Live DLHD",Tennis | 2025 Dongfeng Voyah Wuhan Open Tennis WTA (13:00)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="xiangrandprixround4" tvg-name="Snooker | Xi'an Grand Prix | Round 4 (08:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live DLHD",Snooker | Xi'an Grand Prix | Round 4 (08:00)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/wind/premium878/mono.m3u8
+
+#EXTINF:-1 tvg-id="xiangrandprixround4" tvg-name="Snooker | Xi'an Grand Prix | Round 4 (13:30)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live DLHD",Snooker | Xi'an Grand Prix | Round 4 (13:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/wind/premium878/mono.m3u8
+
+#EXTINF:-1 tvg-id="ucicrosscountryshorttrackworldcupwomenelitemontsainteanne" tvg-name="Cycling | UCI Cross-country Short Track World Cup | Women Elite | Mont-Sainte-Anne (22:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live DLHD",Cycling | UCI Cross-country Short Track World Cup | Women Elite | Mont-Sainte-Anne (22:00)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/wind/premium878/mono.m3u8
+
+#EXTINF:-1 tvg-id="premierpadelmilant2025womensquarterfinal1" tvg-name="Squash | Premier Padel. Milan (T2025): Women's Quarterfinal 1 (09:00)" tvg-logo="https://www.mrpadelpaddle.com/wp-content/uploads/2024/12/2025-Premier-Padel-calendar-1080-1350-2025-2201-960x1180.png" group-title="Eventi Live DLHD",Squash | Premier Padel. Milan (T2025): Women's Quarterfinal 1 (09:00)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/dokko1/premium460/mono.m3u8
 
 
 #EXTINF:-1 group-title="Eventi Live SPORTSONLINE",NESSUN EVENTO

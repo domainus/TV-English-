@@ -1,3 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
+  <channel id="WorldCupQualifyingKazakhstanvsLiechtenstein">
+    <display-name>World Cup Qualifying : Kazakhstan vs Liechtenstein</display-name>
+  </channel>
+  <programme start="20251010000000 +0200" stop="20251010160000 +0200" channel="WorldCupQualifyingKazakhstanvsLiechtenstein">
+    <title lang="it">Inizia alle 16:00.</title>
+    <desc lang="it">World Cup Qualifying : Kazakhstan vs Liechtenstein.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251010160000 +0200" stop="20251010180000 +0200" channel="WorldCupQualifyingKazakhstanvsLiechtenstein">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">World Cup Qualifying : Kazakhstan vs Liechtenstein</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="EuropeEuroU21QualifyingItalyU21vsSwedenU21">
+    <display-name>Europe - Euro U-21 Qualifying : Italy U21 vs Sweden U21</display-name>
+  </channel>
+  <programme start="20251010000000 +0200" stop="20251010181500 +0200" channel="EuropeEuroU21QualifyingItalyU21vsSwedenU21">
+    <title lang="it">Inizia alle 18:15.</title>
+    <desc lang="it">Europe - Euro U-21 Qualifying : Italy U21 vs Sweden U21.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251010181500 +0200" stop="20251010201500 +0200" channel="EuropeEuroU21QualifyingItalyU21vsSwedenU21">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Europe - Euro U-21 Qualifying : Italy U21 vs Sweden U21</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="ItalySerieCArezzovsGubbio">
+    <display-name>Italy - Serie C : Arezzo vs Gubbio</display-name>
+  </channel>
+  <programme start="20251010000000 +0200" stop="20251010203000 +0200" channel="ItalySerieCArezzovsGubbio">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Italy - Serie C : Arezzo vs Gubbio.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251010203000 +0200" stop="20251010223000 +0200" channel="ItalySerieCArezzovsGubbio">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie C : Arezzo vs Gubbio</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="ItalySerieCBravsAthleticCarpi">
+    <display-name>Italy - Serie C : Bra vs Athletic Carpi</display-name>
+  </channel>
+  <programme start="20251010000000 +0200" stop="20251010203000 +0200" channel="ItalySerieCBravsAthleticCarpi">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Italy - Serie C : Bra vs Athletic Carpi.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251010203000 +0200" stop="20251010223000 +0200" channel="ItalySerieCBravsAthleticCarpi">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Italy - Serie C : Bra vs Athletic Carpi</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="WorldCupQualifyingGermanyvsLuxembourg">
+    <display-name>World Cup Qualifying : Germany vs Luxembourg</display-name>
+  </channel>
+  <programme start="20251010000000 +0200" stop="20251010204500 +0200" channel="WorldCupQualifyingGermanyvsLuxembourg">
+    <title lang="it">Inizia alle 20:45.</title>
+    <desc lang="it">World Cup Qualifying : Germany vs Luxembourg.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251010204500 +0200" stop="20251010224500 +0200" channel="WorldCupQualifyingGermanyvsLuxembourg">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">World Cup Qualifying : Germany vs Luxembourg</desc>
+    <category lang="it">All Soccer Events</category>
+  </programme>
+  <channel id="2025DongfengVoyahWuhanOpenTennisWTA">
+    <display-name>2025 Dongfeng Voyah Wuhan Open Tennis WTA</display-name>
+  </channel>
+  <programme start="20251010000000 +0200" stop="20251010130000 +0200" channel="2025DongfengVoyahWuhanOpenTennisWTA">
+    <title lang="it">Inizia alle 13:00.</title>
+    <desc lang="it">2025 Dongfeng Voyah Wuhan Open Tennis WTA.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251010130000 +0200" stop="20251010150000 +0200" channel="2025DongfengVoyahWuhanOpenTennisWTA">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">2025 Dongfeng Voyah Wuhan Open Tennis WTA</desc>
+    <category lang="it">Tennis</category>
+  </programme>
+  <channel id="XianGrandPrixRound4">
+    <display-name>Xi'an Grand Prix | Round 4</display-name>
+  </channel>
+  <programme start="20251010000000 +0200" stop="20251010080000 +0200" channel="XianGrandPrixRound4">
+    <title lang="it">Inizia alle 08:00.</title>
+    <desc lang="it">Xi'an Grand Prix | Round 4.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251010080000 +0200" stop="20251010100000 +0200" channel="XianGrandPrixRound4">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Xi'an Grand Prix | Round 4</desc>
+    <category lang="it">Snooker</category>
+  </programme>
+  <programme start="20251010100000 +0200" stop="20251010133000 +0200" channel="XianGrandPrixRound4">
+    <title lang="it">Inizia alle 13:30.</title>
+    <desc lang="it">Xi'an Grand Prix | Round 4.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251010133000 +0200" stop="20251010153000 +0200" channel="XianGrandPrixRound4">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Xi'an Grand Prix | Round 4</desc>
+    <category lang="it">Snooker</category>
+  </programme>
+  <channel id="UCICrosscountryShortTrackWorldCupWomenEliteMontSainteAnne">
+    <display-name>UCI Cross-country Short Track World Cup | Women Elite | Mont-Sainte-Anne</display-name>
+  </channel>
+  <programme start="20251010000000 +0200" stop="20251010220000 +0200" channel="UCICrosscountryShortTrackWorldCupWomenEliteMontSainteAnne">
+    <title lang="it">Inizia alle 22:00.</title>
+    <desc lang="it">UCI Cross-country Short Track World Cup | Women Elite | Mont-Sainte-Anne.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251010220000 +0200" stop="20251011000000 +0200" channel="UCICrosscountryShortTrackWorldCupWomenEliteMontSainteAnne">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">UCI Cross-country Short Track World Cup | Women Elite | Mont-Sainte-Anne</desc>
+    <category lang="it">Cycling</category>
+  </programme>
+  <channel id="PremierPadelMilanT2025WomensQuarterfinal1">
+    <display-name>Premier Padel. Milan (T2025): Women's Quarterfinal 1</display-name>
+  </channel>
+  <programme start="20251010000000 +0200" stop="20251010090000 +0200" channel="PremierPadelMilanT2025WomensQuarterfinal1">
+    <title lang="it">Inizia alle 09:00.</title>
+    <desc lang="it">Premier Padel. Milan (T2025): Women's Quarterfinal 1.</desc>
+    <category lang="it">Annuncio</category>
+  </programme>
+  <programme start="20251010090000 +0200" stop="20251010110000 +0200" channel="PremierPadelMilanT2025WomensQuarterfinal1">
+    <title lang="it">Trasmesso in diretta.</title>
+    <desc lang="it">Premier Padel. Milan (T2025): Women's Quarterfinal 1</desc>
+    <category lang="it">Squash</category>
+  </programme>
 </tv>
