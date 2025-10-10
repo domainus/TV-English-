@@ -2,19 +2,13 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="worldcupqualifyingkazakhstanvsliechtenstein" tvg-name="All Soccer Events | World Cup Qualifying : Kazakhstan vs Liechtenstein (16:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Kazakhstan_vs_Liechtenstein.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Kazakhstan vs Liechtenstein (16:00)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/wind/premium870/mono.m3u8
-
 #EXTINF:-1 tvg-id="europeeurou21qualifyingitalyu21vsswedenu21" tvg-name="All Soccer Events | Europe - Euro U-21 Qualifying : Italy U21 vs Sweden U21 (18:15)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Italy U21_vs_Sweden U21.png" group-title="Eventi Live DLHD",All Soccer Events | Europe - Euro U-21 Qualifying : Italy U21 vs Sweden U21 (18:15)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium851/mono.m3u8
 
-#EXTINF:-1 tvg-id="italyseriecarezzovsgubbio" tvg-name="All Soccer Events | Italy - Serie C : Arezzo vs Gubbio (20:30)" tvg-logo="https://cesenafc.com/Media/900028dc-92db-46f9-aa44-8f246318d1ea/gubbio (1).png?col=6" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Arezzo vs Gubbio (20:30)
+#EXTINF:-1 tvg-id="italyseriecarezzovsgubbio" tvg-name="All Soccer Events | Italy - Serie C : Arezzo vs Gubbio (20:30)" tvg-logo="https://www.modenarugby1965.it/wp-content/uploads/2023/08/logo-RG.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Arezzo vs Gubbio (20:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
@@ -32,7 +26,7 @@ https://ava.karmakurama.com/ddy6/premium106/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium461/mono.m3u8
 
-#EXTINF:-1 tvg-id="ucicrosscountryshorttrackworldcupwomenelitemontsainteanne" tvg-name="Cycling | UCI Cross-country Short Track World Cup | Women Elite | Mont-Sainte-Anne (22:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live DLHD",Cycling | UCI Cross-country Short Track World Cup | Women Elite | Mont-Sainte-Anne (22:00)
+#EXTINF:-1 tvg-id="ucicrosscountryshorttrackworldcupwomenelitemontsainteanne" tvg-name="Cycling | UCI Cross-country Short Track World Cup | Women Elite | Mont-Sainte-Anne (22:00)" tvg-logo="https://d2779tscntxxsw.cloudfront.net/68d80dd6e6840.png" group-title="Eventi Live DLHD",Cycling | UCI Cross-country Short Track World Cup | Women Elite | Mont-Sainte-Anne (22:00)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com

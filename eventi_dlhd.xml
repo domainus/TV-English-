@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
-  <channel id="EuropeEuroU21QualifyingItalyU21vsSwedenU21">
-    <display-name>Europe - Euro U-21 Qualifying : Italy U21 vs Sweden U21</display-name>
-  </channel>
-  <programme start="20251010000000 +0200" stop="20251010181500 +0200" channel="EuropeEuroU21QualifyingItalyU21vsSwedenU21">
-    <title lang="it">Inizia alle 18:15.</title>
-    <desc lang="it">Europe - Euro U-21 Qualifying : Italy U21 vs Sweden U21.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251010181500 +0200" stop="20251010201500 +0200" channel="EuropeEuroU21QualifyingItalyU21vsSwedenU21">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Europe - Euro U-21 Qualifying : Italy U21 vs Sweden U21</desc>
-    <category lang="it">All Soccer Events</category>
-  </programme>
   <channel id="ItalySerieCArezzovsGubbio">
     <display-name>Italy - Serie C : Arezzo vs Gubbio</display-name>
   </channel>
