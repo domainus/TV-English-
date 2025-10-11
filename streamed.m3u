@@ -1,17 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKmJyCkIaiAgheILCBIgUp3SGvWjzfMCQUsIuYxRhVKHp-KNqct4O9GCe4mIQQA.webp" tvg-name="Football | Fiorentina Women vs Inter Milano Women | 17:30 (Italiano)" group-title="Eventi Live STREAMED",Football | Fiorentina Women vs Inter Milano Women | 17:30 (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/GcTIvFsSMRiOsGtDXelgQYONwrHEjNmY/alpha/stream/fiorentina-w-vs-inter-w/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)" group-title="Eventi Live STREAMED",Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/StgnLdpehzWjZZFbzyMZgXzkDpUDklkV/alpha/stream/ufc-events-ufc-mma-ufc-ppv/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)" group-title="Eventi Live STREAMED",Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/DKvujSaGjOoAbFKbPTjFefCNnbDyqfdh/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pkhttps://ppv.to/assets/thumb/3a9c94dd8a3aa5007fb7951715d6aed2-thumbnail.jpg" tvg-name="Football | Estonia vs Italy | 20:45 (Italiano)" group-title="Eventi Live STREAMED",Football | Estonia vs Italy | 20:45 (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/XzStmQhnneivPINBWOmFWpNjWVpjwPAs/alpha/stream/estonia-vs-italy/5/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="NESSUN EVENTO" group-title="Eventi Live STREAMED",NESSUN EVENTO
+#EXTVLCOPT:http-origin=https://example.com
+#EXTVLCOPT:http-referrer=https://example.com/
+https://example.com/no_event.m3u8
