@@ -274,19 +274,6 @@
     <desc lang="it">UFC Fight Night Main Card : Charles Oliveira vs Mateusz Gamrot</desc>
     <category lang="it">UFC Fight Night - Oliveira vs Gamrot</category>
   </programme>
-  <channel id="XiAnGrandPrixQuarterFinal">
-    <display-name>Xi'An Grand Prix | Quarter-Final</display-name>
-  </channel>
-  <programme start="20251011000000 +0200" stop="20251011130000 +0200" channel="XiAnGrandPrixQuarterFinal">
-    <title lang="it">Inizia alle 13:00.</title>
-    <desc lang="it">Xi'An Grand Prix | Quarter-Final.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251011130000 +0200" stop="20251011150000 +0200" channel="XiAnGrandPrixQuarterFinal">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Xi'An Grand Prix | Quarter-Final</desc>
-    <category lang="it">Snooker</category>
-  </programme>
   <channel id="TourofLombardyComoBergamo238kmUCIWorldTour">
     <display-name>Tour of Lombardy. Como - Bergamo (238 km). UCI World Tour</display-name>
   </channel>
