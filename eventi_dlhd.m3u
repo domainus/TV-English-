@@ -2,66 +2,6 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="italyserieawomenfiorentinavsintermilano" tvg-name="All Soccer Events | Italy - Serie A (women) : Fiorentina vs Inter Milano (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Fiorentina_vs_Inter Milano.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A (women) : Fiorentina vs Inter Milano (17:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/ddy6/premium55/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyserieawomenfiorentinavsintermilano" tvg-name="All Soccer Events | Italy - Serie A (women) : Fiorentina vs Inter Milano (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Fiorentina_vs_Inter Milano.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A (women) : Fiorentina vs Inter Milano (17:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/ddy6/premium882/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecvicenzavsvirtusverona" tvg-name="All Soccer Events | Italy - Serie C : Vicenza vs Virtus Verona (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Vicenza_vs_Virtus Verona.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Vicenza vs Virtus Verona (17:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/dokko1/premium460/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecpergolettesevsalcione" tvg-name="All Soccer Events | Italy - Serie C : Pergolettese vs Alcione (17:30)" tvg-logo="https://www.studiolegalechiacchio.com/assets/images/pergolettese-piccolo.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Pergolettese vs Alcione (17:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/ddy6/premium170/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecforlìvsternana" tvg-name="All Soccer Events | Italy - Serie C : Forlì vs Ternana (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Forlì_vs_Ternana.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Forlì vs Ternana (17:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/nfs/premium3/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecnuovamonterosivspianese" tvg-name="All Soccer Events | Italy - Serie C : Nuova Monterosi vs Pianese (17:30)" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Nuova Monterosi vs Pianese (17:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/wind/premium171/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecpinetovslivorno" tvg-name="All Soccer Events | Italy - Serie C : Pineto vs Livorno (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Pineto_vs_Livorno.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Pineto vs Livorno (17:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/nfs/premium2/mono.m3u8
-
-#EXTINF:-1 tvg-id="worldcupqualifyingnorwayvsisrael" tvg-name="All Soccer Events | World Cup Qualifying : Norway vs Israel (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Norway_vs_Israel.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Norway vs Israel (18:00)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/wind/premium870/mono.m3u8
-
-#EXTINF:-1 tvg-id="worldcupqualifyinghungaryvsarmenia" tvg-name="All Soccer Events | World Cup Qualifying : Hungary vs Armenia (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Hungary_vs_Armenia.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Hungary vs Armenia (18:00)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/nfs/premium14/mono.m3u8
-
-#EXTINF:-1 tvg-id="worldcupqualifyinghungaryvsarmenia" tvg-name="All Soccer Events | World Cup Qualifying : Hungary vs Armenia (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Hungary_vs_Armenia.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Hungary vs Armenia (18:00)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/ddy6/premium462/mono.m3u8
-
 #EXTINF:-1 tvg-id="worldcupqualifyingspainvsgeorgia" tvg-name="All Soccer Events | World Cup Qualifying : Spain vs Georgia (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Spain_vs_Georgia.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Spain vs Georgia (20:45)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
