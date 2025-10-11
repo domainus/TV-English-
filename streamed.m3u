@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="NESSUN EVENTO" group-title="Eventi Live STREAMED",NESSUN EVENTO
-#EXTVLCOPT:http-origin=https://example.com
-#EXTVLCOPT:http-referrer=https://example.com/
-https://example.com/no_event.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Basketball | Gran Canaria vs Unicaja | 20:00 (Italiano)" group-title="Eventi Live STREAMED",Basketball | Gran Canaria vs Unicaja | 20:00 (Italiano)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb9.strmd.top/secure/rSWlcyXzzOfedxNMkNCQCJdXaxJmAonm/alpha/stream/gran-canaria-vs-unicaja/2/playlist.m3u8
