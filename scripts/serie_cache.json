@@ -50704,5 +50704,109 @@
       35
     ],
     "cached_at": "2025-10-10T06:18:02.543043"
+  },
+  "10779": {
+    "id": 10779,
+    "name": "Action Pack - Squadra in azione",
+    "original_name": "Action Pack",
+    "first_air_date": "2022-01-04",
+    "vote_average": 7.6,
+    "poster_path": "/uuDysbuWHcg2Xt5a0JsqAxeGH1X.jpg",
+    "genre_ids": [
+      16,
+      10751,
+      10762,
+      10759
+    ],
+    "cached_at": "2025-10-11T06:15:32.620304"
+  },
+  "153574": {
+    "id": 153574,
+    "name": "The Puppet Master: Caccia all'impostore",
+    "original_name": "The Puppet Master: Hunting the Ultimate Conman",
+    "first_air_date": "2022-01-18",
+    "vote_average": 6.635,
+    "poster_path": "/aK6s9YZbZ5UI2zqqRN2DrYp4B1z.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-11T06:15:32.672695"
+  },
+  "137967": {
+    "id": 137967,
+    "name": "The Journalist",
+    "original_name": "新聞記者",
+    "first_air_date": "2022-01-13",
+    "vote_average": 7.5,
+    "poster_path": "/lLfnlogTMlKJe5ktF4psg2jaeVi.jpg",
+    "genre_ids": [
+      18,
+      80
+    ],
+    "cached_at": "2025-10-11T06:15:32.690893"
+  },
+  "153866": {
+    "id": 153866,
+    "name": "Paris Paris",
+    "original_name": "Paris Paris",
+    "first_air_date": "2022-01-04",
+    "vote_average": 6.0,
+    "poster_path": "/fBpmjSHi2MPb8W33v71osQ71Adc.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-11T06:15:32.719606"
+  },
+  "153571": {
+    "id": 153571,
+    "name": "SuperSorda!",
+    "original_name": "El Deafo",
+    "first_air_date": "2022-01-06",
+    "vote_average": 5.7,
+    "poster_path": "/oCvjHNHcC5PWgemUkauQfFPyAN7.jpg",
+    "genre_ids": [
+      16,
+      10762
+    ],
+    "cached_at": "2025-10-11T06:15:32.762260"
+  },
+  "221079": {
+    "id": 221079,
+    "name": "The Last Frontier",
+    "original_name": "The Last Frontier",
+    "first_air_date": "2025-10-09",
+    "vote_average": 8.0,
+    "poster_path": "/lKoFSShaQI2shTx3vvw7kVLZC6D.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-11T06:15:32.790117"
+  },
+  "153950": {
+    "id": 153950,
+    "name": "Yeh Kaali Kaali Ankhein - I suoi occhi scuri",
+    "original_name": "ये काली काली आंखें",
+    "first_air_date": "2022-01-14",
+    "vote_average": 6.6,
+    "poster_path": "/axIiqO82cGKtvtPlld4Z6yEuqEU.jpg",
+    "genre_ids": [
+      80,
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-11T06:15:32.813042"
+  },
+  "278009": {
+    "id": 278009,
+    "name": "Old Money - Mondi opposti",
+    "original_name": "Enfes Bir Akşam",
+    "first_air_date": "2025-10-10",
+    "vote_average": 0.0,
+    "poster_path": "/kBO1JZAqgeazLV8nbPz0MSiVBU1.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-11T06:15:32.835360"
   }
 }
