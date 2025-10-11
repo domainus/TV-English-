@@ -11,7 +11,7 @@
   <programme start="20251011123000 +0200" stop="20251011143000 +0200" channel="ItalySerieAwomenLaziovsGenoa">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie A (women) : Lazio vs Genoa</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieCGianaErminiovsNovara">
     <display-name>Italy - Serie C : Giana Erminio vs Novara</display-name>
@@ -24,7 +24,7 @@
   <programme start="20251011143000 +0200" stop="20251011163000 +0200" channel="ItalySerieCGianaErminiovsNovara">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Giana Erminio vs Novara</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieCPerugiavsRimini">
     <display-name>Italy - Serie C : Perugia vs Rimini</display-name>
@@ -37,7 +37,7 @@
   <programme start="20251011143000 +0200" stop="20251011163000 +0200" channel="ItalySerieCPerugiavsRimini">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Perugia vs Rimini</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieCFoggiavsCrotone">
     <display-name>Italy - Serie C : Foggia vs Crotone</display-name>
@@ -50,7 +50,7 @@
   <programme start="20251011143000 +0200" stop="20251011163000 +0200" channel="ItalySerieCFoggiavsCrotone">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Foggia vs Crotone</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieCGiuglianovsCatania">
     <display-name>Italy - Serie C : Giugliano vs Catania</display-name>
@@ -63,7 +63,7 @@
   <programme start="20251011143000 +0200" stop="20251011163000 +0200" channel="ItalySerieCGiuglianovsCatania">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Giugliano vs Catania</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <programme start="20251011000000 +0200" stop="20251011143000 +0200" channel="ItalySerieCGiuglianovsCatania">
     <title lang="it">Inizia alle 14:30.</title>
@@ -73,7 +73,7 @@
   <programme start="20251011143000 +0200" stop="20251011163000 +0200" channel="ItalySerieCGiuglianovsCatania">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Giugliano vs Catania</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieCPicernovsCasertana">
     <display-name>Italy - Serie C : Picerno vs Casertana</display-name>
@@ -86,7 +86,7 @@
   <programme start="20251011143000 +0200" stop="20251011163000 +0200" channel="ItalySerieCPicernovsCasertana">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Picerno vs Casertana</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="WorldCupQualifyingLatviavsAndorra">
     <display-name>World Cup Qualifying : Latvia vs Andorra</display-name>
@@ -99,7 +99,7 @@
   <programme start="20251011150000 +0200" stop="20251011170000 +0200" channel="WorldCupQualifyingLatviavsAndorra">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">World Cup Qualifying : Latvia vs Andorra</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieAwomenJuventusvsComo">
     <display-name>Italy - Serie A (women) : Juventus vs Como</display-name>
@@ -112,7 +112,7 @@
   <programme start="20251011150000 +0200" stop="20251011170000 +0200" channel="ItalySerieAwomenJuventusvsComo">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie A (women) : Juventus vs Como</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieAwomenFiorentinavsInterMilano">
     <display-name>Italy - Serie A (women) : Fiorentina vs Inter Milano</display-name>
@@ -125,7 +125,7 @@
   <programme start="20251011173000 +0200" stop="20251011193000 +0200" channel="ItalySerieAwomenFiorentinavsInterMilano">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie A (women) : Fiorentina vs Inter Milano</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <programme start="20251011000000 +0200" stop="20251011173000 +0200" channel="ItalySerieAwomenFiorentinavsInterMilano">
     <title lang="it">Inizia alle 17:30.</title>
@@ -135,7 +135,7 @@
   <programme start="20251011173000 +0200" stop="20251011193000 +0200" channel="ItalySerieAwomenFiorentinavsInterMilano">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie A (women) : Fiorentina vs Inter Milano</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieCVicenzavsVirtusVerona">
     <display-name>Italy - Serie C : Vicenza vs Virtus Verona</display-name>
@@ -148,7 +148,7 @@
   <programme start="20251011173000 +0200" stop="20251011193000 +0200" channel="ItalySerieCVicenzavsVirtusVerona">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Vicenza vs Virtus Verona</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <programme start="20251011000000 +0200" stop="20251011173000 +0200" channel="ItalySerieCVicenzavsVirtusVerona">
     <title lang="it">Inizia alle 17:30.</title>
@@ -158,7 +158,7 @@
   <programme start="20251011173000 +0200" stop="20251011193000 +0200" channel="ItalySerieCVicenzavsVirtusVerona">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Vicenza vs Virtus Verona</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieCPergolettesevsAlcione">
     <display-name>Italy - Serie C : Pergolettese vs Alcione</display-name>
@@ -171,7 +171,7 @@
   <programme start="20251011173000 +0200" stop="20251011193000 +0200" channel="ItalySerieCPergolettesevsAlcione">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Pergolettese vs Alcione</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieCForlvsTernana">
     <display-name>Italy - Serie C : Forlì vs Ternana</display-name>
@@ -184,7 +184,7 @@
   <programme start="20251011173000 +0200" stop="20251011193000 +0200" channel="ItalySerieCForlvsTernana">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Forlì vs Ternana</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieCNuovaMonterosivsPianese">
     <display-name>Italy - Serie C : Nuova Monterosi vs Pianese</display-name>
@@ -197,7 +197,7 @@
   <programme start="20251011173000 +0200" stop="20251011193000 +0200" channel="ItalySerieCNuovaMonterosivsPianese">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Nuova Monterosi vs Pianese</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieCPinetovsLivorno">
     <display-name>Italy - Serie C : Pineto vs Livorno</display-name>
@@ -210,7 +210,7 @@
   <programme start="20251011173000 +0200" stop="20251011193000 +0200" channel="ItalySerieCPinetovsLivorno">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Pineto vs Livorno</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="WorldCupQualifyingNorwayvsIsrael">
     <display-name>World Cup Qualifying : Norway vs Israel</display-name>
@@ -223,7 +223,7 @@
   <programme start="20251011180000 +0200" stop="20251011200000 +0200" channel="WorldCupQualifyingNorwayvsIsrael">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">World Cup Qualifying : Norway vs Israel</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="WorldCupQualifyingHungaryvsArmenia">
     <display-name>World Cup Qualifying : Hungary vs Armenia</display-name>
@@ -236,7 +236,7 @@
   <programme start="20251011180000 +0200" stop="20251011200000 +0200" channel="WorldCupQualifyingHungaryvsArmenia">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">World Cup Qualifying : Hungary vs Armenia</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <programme start="20251011000000 +0200" stop="20251011180000 +0200" channel="WorldCupQualifyingHungaryvsArmenia">
     <title lang="it">Inizia alle 18:00.</title>
@@ -246,7 +246,7 @@
   <programme start="20251011180000 +0200" stop="20251011200000 +0200" channel="WorldCupQualifyingHungaryvsArmenia">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">World Cup Qualifying : Hungary vs Armenia</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="WorldCupQualifyingSpainvsGeorgia">
     <display-name>World Cup Qualifying : Spain vs Georgia</display-name>
@@ -259,7 +259,7 @@
   <programme start="20251011204500 +0200" stop="20251011224500 +0200" channel="WorldCupQualifyingSpainvsGeorgia">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">World Cup Qualifying : Spain vs Georgia</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="WorldCupQualifyingEstoniavsItaly">
     <display-name>World Cup Qualifying : Estonia vs Italy</display-name>
@@ -272,7 +272,7 @@
   <programme start="20251011204500 +0200" stop="20251011224500 +0200" channel="WorldCupQualifyingEstoniavsItaly">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">World Cup Qualifying : Estonia vs Italy</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="2025DongfengVoyahWuhanOpenTennis">
     <display-name>2025 Dongfeng Voyah Wuhan Open Tennis</display-name>
@@ -298,7 +298,7 @@
   <programme start="20251012010000 +0200" stop="20251012030000 +0200" channel="UFCFightNightMainCardCharlesOliveiravsMateuszGamrot">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">UFC Fight Night Main Card : Charles Oliveira vs Mateusz Gamrot</desc>
-    <category lang="it">MMA</category>
+    <category lang="it">UFC Fight Night - Oliveira vs Gamrot</category>
   </programme>
   <channel id="XiAnGrandPrixQuarterFinal">
     <display-name>Xi'An Grand Prix | Quarter-Final</display-name>
