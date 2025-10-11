@@ -303,17 +303,7 @@
   <channel id="XiAnGrandPrixQuarterFinal">
     <display-name>Xi'An Grand Prix | Quarter-Final</display-name>
   </channel>
-  <programme start="20251011000000 +0200" stop="20251011080000 +0200" channel="XiAnGrandPrixQuarterFinal">
-    <title lang="it">Inizia alle 08:00.</title>
-    <desc lang="it">Xi'An Grand Prix | Quarter-Final.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251011080000 +0200" stop="20251011100000 +0200" channel="XiAnGrandPrixQuarterFinal">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Xi'An Grand Prix | Quarter-Final</desc>
-    <category lang="it">Snooker</category>
-  </programme>
-  <programme start="20251011100000 +0200" stop="20251011130000 +0200" channel="XiAnGrandPrixQuarterFinal">
+  <programme start="20251011000000 +0200" stop="20251011130000 +0200" channel="XiAnGrandPrixQuarterFinal">
     <title lang="it">Inizia alle 13:00.</title>
     <desc lang="it">Xi'An Grand Prix | Quarter-Final.</desc>
     <category lang="it">Annuncio</category>
