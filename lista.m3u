@@ -88,8 +88,6 @@ https://vavoo.to/vavoo-iptv/play/433893159bf516cde9a97
 https://vavoo.to/vavoo-iptv/play/12254846645cb5a95a1f30
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.arvedi.it/fileadmin/user_upload/istituzionale/gruppo-arvedi-e-informazione-logo-Cremona1.png" group-title="Altro",CREMONA 1
 https://vavoo.to/vavoo-iptv/play/4137427510ef362e6435fc
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Film - Serie TV",CRIME + INV
-https://vavoo.to/vavoo-iptv/play/196833914960066715a573
 #EXTINF:-1 tvg-id="dazn.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d6/Dazn-logo.png" group-title="Sport",DAZN
 https://vavoo.to/vavoo-iptv/play/2745635299ab0cc043a143
 #EXTINF:-1 tvg-id="deejay.tv.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/deejay-tv-it.png" group-title="Musica",DEEJAY TV
@@ -162,15 +160,15 @@ https://vavoo.to/vavoo-iptv/play/2134724757fd92e3286ea6
 https://vavoo.to/vavoo-iptv/play/2392139008947764078821
 #EXTINF:-1 tvg-id="iris.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" group-title="Mediaset",IRIS
 https://vavoo.to/vavoo-iptv/play/23919988fc371eea2329
-#EXTINF:-1 tvg-id="italia.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1
-https://vavoo.to/vavoo-iptv/play/633342961994dc5083ad5
 #EXTINF:-1 tvg-id="italia.1.it" tvg-name="ITALIA 1" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1 (MPD)
 https://live02-seg.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/index.m3u8
 
 #EXTINF:-1 tvg-id="italia.2.it" tvg-name="ITALIA 2" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/c/c5/Logo_Italia2.svg/520px-Logo_Italia2.svg.png" group-title="Mediaset",ITALIA 2 (MPD)
 https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/4/4e/Italia_3_2013.png/revision/latest?cb=20200119124403" group-title="Altro",ITALIA 3
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/4/4e/Italia_3_2013.png/revision/latest?cb=20200119124403" group-title="Altro",ITALIA 3 (1)
+https://vavoo.to/vavoo-iptv/play/1565298794daace40d1b60
+#EXTINF:-1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/4/4e/Italia_3_2013.png/revision/latest?cb=20200119124403" group-title="Altro",ITALIA 3 (2)
 https://vavoo.to/vavoo-iptv/play/1200985239ceccd12c8a54
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.upmagazinearezzo.it/atladv/wp-content/uploads/2017/07/atlantide-adv-logo-italian-fishing-tv.jpg" group-title="Altro",ITALIAN FISHING TV
 https://vavoo.to/vavoo-iptv/play/477083716dc642d622f68
@@ -296,8 +294,6 @@ https://vavoo.to/vavoo-iptv/play/1803677691b051ba6d360f
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png" group-title="Rai",RAI ITALIA
-https://vavoo.to/vavoo-iptv/play/2944572451ecdb3159250
 #EXTINF:-1 tvg-id="raimovie.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" group-title="Rai",RAI MOVIE
 https://vavoo.to/vavoo-iptv/play/1925964148b9cb23cc2bce
 #EXTINF:-1 tvg-id="raimovie.it" tvg-name="RAI MOVIE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" group-title="Rai",RAI MOVIE (MPD)
@@ -362,8 +358,6 @@ https://vavoo.to/vavoo-iptv/play/860912269147f85ae7a8
 https://vavoo.to/vavoo-iptv/play/4031388312f5ebcfc7dc6d
 #EXTINF:-1 tvg-id="rdssocialtv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/260px-RDS-Logo.png" group-title="Musica",RDS SOCIAL TV
 https://vavoo.to/vavoo-iptv/play/36560804080912cdf76cbf
-#EXTINF:-1 tvg-id="real.time.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" group-title="Altro",REAL TIME
-https://vavoo.to/vavoo-iptv/play/2251241999722578d55332
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Reggio_TV_logo.png/640px-Reggio_TV_logo.png" group-title="Altro",REGGIO TV
 https://vavoo.to/vavoo-iptv/play/216554978929adb39fe170
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/rei-tv-it.png?raw=true" group-title="Altro",REI TV
@@ -394,7 +388,7 @@ https://vavoo.to/vavoo-iptv/play/639406775e0288e6772cc
 #EXTINF:-1 tvg-id="rtl.102.5.hd.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/rtl-1025-it.png" group-title="Musica",RTL 102.5
 https://vavoo.to/vavoo-iptv/play/1729811452a70dafd8f6ba
 
-# RAI
+# FILM - SERIE TV
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",RTP (RETE TELEVISIVA)
 https://vavoo.to/vavoo-iptv/play/4136045815a19e851236a3
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.tvdream.net/img/rtr99-cover.jpg" group-title="Altro",RTR 99 TV
@@ -425,8 +419,8 @@ https://vavoo.to/vavoo-iptv/play/352583705711c4cbe44bbb
 https://vavoo.to/vavoo-iptv/play/3131104474771735b548ce
 #EXTINF:-1 tvg-id="sky.cinema.due.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-it.png" group-title="Film - Serie TV",SKY CINEMA DUE
 https://vavoo.to/vavoo-iptv/play/2330574729acc52d969174
-#EXTINF:-1 tvg-id="sky.cinema.due.+24.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-due-plus24-it.png" group-title="Film - Serie TV",SKY CINEMA DUE +24
-https://vavoo.to/vavoo-iptv/play/1078650168cbe5484d34ad
+#EXTINF:-1 tvg-id="sky.cinema.family.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Film - Serie TV",SKY CINEMA FAMILY
+https://vavoo.to/vavoo-iptv/play/32165161175e13c1d3f56a
 #EXTINF:-1 tvg-id="sky.cinema.suspense.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Film - Serie TV",SKY CINEMA SUSPENSE
 https://vavoo.to/vavoo-iptv/play/3060043751014db62f5b06
 #EXTINF:-1 tvg-id="sky.cinema.uno.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-uno-it.png" group-title="Film - Serie TV",SKY CINEMA UNO
@@ -454,15 +448,19 @@ https://vavoo.to/vavoo-iptv/play/14407790614bc8041c450d
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-primafila-it.png" group-title="Film - Serie TV",SKY PRIMAFILA 9
 https://vavoo.to/vavoo-iptv/play/17532606771304e2497369
 
-# SPORT
+# RAI
 #EXTINF:-1 tvg-id="skysport.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/sky-sport-it.png" group-title="Sport",SKY SPORT
 https://vavoo.to/vavoo-iptv/play/92466165981ba6f81de20
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-24-it.png" group-title="Sport",SKY SPORT 24 [LIVE DURING EVENTS ONLY]
 https://vavoo.to/vavoo-iptv/play/344556251909fe0b312736
+#EXTINF:-1 tvg-id="sky.sport.arena.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-arena-it.png" group-title="Sport",SKY SPORT ARENA
+https://vavoo.to/vavoo-iptv/play/25559607139e6fd9b93dd6
 #EXTINF:-1 tvg-id="sky.sport.calcio.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-calcio-it.png" group-title="Sport",SKY SPORT CALCIO
 https://vavoo.to/vavoo-iptv/play/449990998077a7691828f
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY]
 https://vavoo.to/vavoo-iptv/play/198930923100c09085a1ae
+#EXTINF:-1 tvg-id="sky.sport.golf.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sport",SKY SPORT GOLF
+https://vavoo.to/vavoo-iptv/play/3897711086f5655aa4d5fb
 #EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sport",SKY SPORT MOTOGP
 https://vavoo.to/vavoo-iptv/play/2090703806f47d7eb551ce
 #EXTINF:-1 tvg-id="sky.sport.nba.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-nba-it.png" group-title="Sport",SKY SPORT NBA
@@ -497,7 +495,7 @@ https://vavoo.to/vavoo-iptv/play/2061826034c5ac3b5d7306
 #EXTINF:-1 tvg-id="super!.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Super%21_logo_2021.svg/1024px-Super%21_logo_2021.svg.png" group-title="Bambini",SUPER!
 https://vavoo.to/vavoo-iptv/play/2900362153b8a056cb86c0
 
-# FILM - SERIE TV
+# SPORT
 #EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ebhZMV4eYibx6UpVDOt1KOlmhOPYBh0gKw&s" group-title="Altro",SUPERSIX LOMBARDIA
 https://vavoo.to/vavoo-iptv/play/8491244640295fc9ea282
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.abruzzi.tv/logo-abruzzi.png" group-title="Altro",TELE ABRUZZO
@@ -640,54 +638,6 @@ https://vavoo.to/vavoo-iptv/play/2989824407cb0184041b08
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="italyseriecgianaerminiovsnovara" tvg-name="All Soccer Events | Italy - Serie C : Giana Erminio vs Novara (14:30)" tvg-logo="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fsoccer%2F500%2F3954.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Giana Erminio vs Novara (14:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/ddy6/premium170/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecperugiavsrimini" tvg-name="All Soccer Events | Italy - Serie C : Perugia vs Rimini (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Perugia_vs_Rimini.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Perugia vs Rimini (14:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/nfs/premium2/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecfoggiavscrotone" tvg-name="All Soccer Events | Italy - Serie C : Foggia vs Crotone (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Foggia_vs_Crotone.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Foggia vs Crotone (14:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/nfs/premium3/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecgiuglianovscatania" tvg-name="All Soccer Events | Italy - Serie C : Giugliano vs Catania (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Giugliano_vs_Catania.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Giugliano vs Catania (14:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/nfs/premium4/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecgiuglianovscatania" tvg-name="All Soccer Events | Italy - Serie C : Giugliano vs Catania (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Giugliano_vs_Catania.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Giugliano vs Catania (14:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/wind/premium870/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecpicernovscasertana" tvg-name="All Soccer Events | Italy - Serie C : Picerno vs Casertana (14:30)" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Picerno vs Casertana (14:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/wind/premium171/mono.m3u8
-
-#EXTINF:-1 tvg-id="worldcupqualifyinglatviavsandorra" tvg-name="All Soccer Events | World Cup Qualifying : Latvia vs Andorra (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Latvia_vs_Andorra.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Latvia vs Andorra (15:00)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/nfs/premium14/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyserieawomenjuventusvscomo" tvg-name="All Soccer Events | Italy - Serie A (women) : Juventus vs Como (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Juventus_vs_Como.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A (women) : Juventus vs Como (15:00)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/nfs/premium877/mono.m3u8
-
 #EXTINF:-1 tvg-id="italyserieawomenfiorentinavsintermilano" tvg-name="All Soccer Events | Italy - Serie A (women) : Fiorentina vs Inter Milano (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Fiorentina_vs_Inter Milano.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A (women) : Fiorentina vs Inter Milano (17:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
@@ -699,12 +649,6 @@ https://ava.karmakurama.com/ddy6/premium55/mono.m3u8
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium882/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecvicenzavsvirtusverona" tvg-name="All Soccer Events | Italy - Serie C : Vicenza vs Virtus Verona (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Vicenza_vs_Virtus Verona.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Vicenza vs Virtus Verona (17:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/nfs/premium4/mono.m3u8
 
 #EXTINF:-1 tvg-id="italyseriecvicenzavsvirtusverona" tvg-name="All Soccer Events | Italy - Serie C : Vicenza vs Virtus Verona (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Vicenza_vs_Virtus Verona.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Vicenza vs Virtus Verona (17:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
@@ -766,24 +710,6 @@ https://ava.karmakurama.com/ddy6/premium461/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium850/mono.m3u8
 
-#EXTINF:-1 tvg-id="touroflombardycomobergamo238kmuciworldtour" tvg-name="Cycling | Tour of Lombardy. Como - Bergamo (238 km). UCI World Tour (14:45)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/igahc11535183469.png/preview" group-title="Eventi Live DLHD",Cycling | Tour of Lombardy. Como - Bergamo (238 km). UCI World Tour (14:45)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/ddy6/premium851/mono.m3u8
-
-#EXTINF:-1 tvg-id="touroflombardycomobergamo238kmuciworldtour" tvg-name="Cycling | Tour of Lombardy. Como - Bergamo (238 km). UCI World Tour (14:45)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/igahc11535183469.png/preview" group-title="Eventi Live DLHD",Cycling | Tour of Lombardy. Como - Bergamo (238 km). UCI World Tour (14:45)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/wind/premium878/mono.m3u8
-
-#EXTINF:-1 tvg-id="serieaeliteviadanavsmogliano" tvg-name="Rugby Union | Serie A Elite : Viadana vs Mogliano (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Viadana_vs_Mogliano.png" group-title="Eventi Live DLHD",Rugby Union | Serie A Elite : Viadana vs Mogliano (14:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/ddy6/premium882/mono.m3u8
-
 #EXTINF:-1 tvg-id="italyseriea1womenpallavoloscandiccivsperugiavolley" tvg-name="Volleyball | Italy Serie A1 Women : Pallavolo Scandicci vs. Perugia Volley (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Pallavolo Scandicci_vs_Perugia Volley.png" group-title="Eventi Live DLHD",Volleyball | Italy Serie A1 Women : Pallavolo Scandicci vs. Perugia Volley (20:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
@@ -794,38 +720,22 @@ https://ava.karmakurama.com/ddy6/premium882/mono.m3u8
 #EXTINF:-1 group-title="Eventi Live SPORTSONLINE",Estonia x Italy 20:45
 https://sportzonline.st/channels/hd/hd7.php
 
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Other | VinFast IRONMAN World Championship Kona | 16:30 (Italiano)" group-title="Eventi Live STREAMED",Other | VinFast IRONMAN World Championship Kona | 16:30 (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/EOCKaQOHwRdPgPiUzTaXNZtOTXQavbuc/alpha/stream/vinfast-ironman-world-championship-kona/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Motor-sports | Porsche Carrera Cup Italia: Misano - Race 1 | 16:00 (Italiano)" group-title="Eventi Live STREAMED",Motor-sports | Porsche Carrera Cup Italia: Misano - Race 1 | 16:00 (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/zmwnlcFOCwAFOECYEbAiMCSKpwwpqJdv/alpha/stream/porsche-carrera-cup-italia-misano-race-1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKmRghpYFCDGJeILPpB6SIaiGvWjk-MCQUsIuYxRhVKHp-KNqct4O9GCe4mIQQA.webp" tvg-name="Football | Juventus Women vs Como Women | 15:00 (Italiano)" group-title="Eventi Live STREAMED",Football | Juventus Women vs Como Women | 15:00 (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/VGglPdOgaDmLUMqmmhoHToKXMbDDMNjw/alpha/stream/juventus-w-vs-como-w/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)" group-title="Eventi Live STREAMED",Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/deUJAfbmPkWfzCaumtiiqXUfPMMSQluw/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)" group-title="Eventi Live STREAMED",Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/LZIwYyKFQlmFvOEbrlYOdHXfQLtDheGZ/alpha/stream/ufc-events-ufc-mma-ufc-ppv/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Motor-sports | Misano Race 3 | 17:00 (Italiano)" group-title="Eventi Live STREAMED",Motor-sports | Misano Race 3 | 17:00 (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/RgCroETuyfLMXPFPJuJBMfCjaONrXXQt/alpha/stream/misano-race-3/3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKmJyCkIaiAgheILCBIgUp3SGvWjzfMCQUsIuYxRhVKHp-KNqct4O9GCe4mIQQA.webp" tvg-name="Football | Fiorentina Women vs Inter Milano Women | 17:30 (Italiano)" group-title="Eventi Live STREAMED",Football | Fiorentina Women vs Inter Milano Women | 17:30 (Italiano)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/qqhlDVcaPHvvDQzgSAfjuBZdXoUskEnZ/alpha/stream/fiorentina-w-vs-inter-w/3/playlist.m3u8
+https://lb3.strmd.top/secure/GcTIvFsSMRiOsGtDXelgQYONwrHEjNmY/alpha/stream/fiorentina-w-vs-inter-w/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)" group-title="Eventi Live STREAMED",Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb6.strmd.top/secure/StgnLdpehzWjZZFbzyMZgXzkDpUDklkV/alpha/stream/ufc-events-ufc-mma-ufc-ppv/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)" group-title="Eventi Live STREAMED",Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb6.strmd.top/secure/DKvujSaGjOoAbFKbPTjFefCNnbDyqfdh/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pkhttps://ppv.to/assets/thumb/3a9c94dd8a3aa5007fb7951715d6aed2-thumbnail.jpg" tvg-name="Football | Estonia vs Italy | 20:45 (Italiano)" group-title="Eventi Live STREAMED",Football | Estonia vs Italy | 20:45 (Italiano)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/nqaebAvHhFSwRtfguNBpQZamQFErPexG/alpha/stream/estonia-vs-italy/5/playlist.m3u8
+https://lb10.strmd.top/secure/XzStmQhnneivPINBWOmFWpNjWVpjwPAs/alpha/stream/estonia-vs-italy/5/playlist.m3u8
 #EXTINF:-1 tvg-chno="80" tvg-name="Pluto TV Christmas" tvg-logo="https://images.pluto.tv/channels/612e05b885183d0007958101/colorLogoPNG.png" tvg-id="612e05b885183d0007958101" group-title="Pluto TV Italia",Pluto TV Christmas
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/612e05b885183d0007958101/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 tvg-chno="85" tvg-name="Pluto TV Fireplace" tvg-logo="https://images.pluto.tv/channels/612ce23f51cce000078eeed5/colorLogoPNG.png" tvg-id="612ce23f51cce000078eeed5" group-title="Pluto TV Italia",Pluto TV Fireplace
