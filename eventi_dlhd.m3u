@@ -2,13 +2,7 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="italyserieawomenlaziovsgenoa" tvg-name="All Soccer Events | Italy - Serie A (women) : Lazio vs Genoa (12:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Lazio_vs_Genoa.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A (women) : Lazio vs Genoa (12:30)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/nfs/premium877/mono.m3u8
-
-#EXTINF:-1 tvg-id="italyseriecgianaerminiovsnovara" tvg-name="All Soccer Events | Italy - Serie C : Giana Erminio vs Novara (14:30)" tvg-logo="https://www.novarafootballclub.it/wp-content/uploads/2021/09/cropped-logo-novara-favicon.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Giana Erminio vs Novara (14:30)
+#EXTINF:-1 tvg-id="italyseriecgianaerminiovsnovara" tvg-name="All Soccer Events | Italy - Serie C : Giana Erminio vs Novara (14:30)" tvg-logo="https://a3.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fsoccer%2F500%2F3954.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Giana Erminio vs Novara (14:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
@@ -44,7 +38,7 @@ https://ava.karmakurama.com/wind/premium870/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/wind/premium171/mono.m3u8
 
-#EXTINF:-1 tvg-id="worldcupqualifyinglatviavsandorra" tvg-name="All Soccer Events | World Cup Qualifying : Latvia vs Andorra (15:00)" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/latvia-logo-png-transparent.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Latvia vs Andorra (15:00)
+#EXTINF:-1 tvg-id="worldcupqualifyinglatviavsandorra" tvg-name="All Soccer Events | World Cup Qualifying : Latvia vs Andorra (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Latvia_vs_Andorra.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Latvia vs Andorra (15:00)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
@@ -134,12 +128,6 @@ https://ava.karmakurama.com/ddy6/premium461/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium850/mono.m3u8
 
-#EXTINF:-1 tvg-id="xiangrandprixquarterfinal" tvg-name="Snooker | Xi'An Grand Prix | Quarter-Final (13:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live DLHD",Snooker | Xi'An Grand Prix | Quarter-Final (13:00)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
-#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
-#EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/wind/premium878/mono.m3u8
-
 #EXTINF:-1 tvg-id="touroflombardycomobergamo238kmuciworldtour" tvg-name="Cycling | Tour of Lombardy. Como - Bergamo (238 km). UCI World Tour (14:45)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/igahc11535183469.png/preview" group-title="Eventi Live DLHD",Cycling | Tour of Lombardy. Como - Bergamo (238 km). UCI World Tour (14:45)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
@@ -152,7 +140,7 @@ https://ava.karmakurama.com/ddy6/premium851/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/wind/premium878/mono.m3u8
 
-#EXTINF:-1 tvg-id="serieaeliteviadanavsmogliano" tvg-name="Rugby Union | Serie A Elite : Viadana vs Mogliano (14:30)" tvg-logo="https://iconape.com/wp-content/files/mg/307882/png/307882.png" group-title="Eventi Live DLHD",Rugby Union | Serie A Elite : Viadana vs Mogliano (14:30)
+#EXTINF:-1 tvg-id="serieaeliteviadanavsmogliano" tvg-name="Rugby Union | Serie A Elite : Viadana vs Mogliano (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Viadana_vs_Mogliano.png" group-title="Eventi Live DLHD",Rugby Union | Serie A Elite : Viadana vs Mogliano (14:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
