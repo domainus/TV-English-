@@ -1,13 +1,21 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCBSVgspExAkQvEFgOaz1EFavHF+YEgpYRcxijCqtHD+UbU5Wvb0YB7iYhBAA.webp" tvg-name="Football | Ternana Women vs Napoli Women | 15:00 (Italiano)" group-title="Eventi Live STREAMED",Football | Ternana Women vs Napoli Women | 15:00 (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/zPYQWJaZDWPoRVelLiZNccvAOFXNxNfY/alpha/stream/ternana-w-vs-napoli-w/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Football | Portogruaro vs Conegliano | 15:00 (Italiano)" group-title="Eventi Live STREAMED",Football | Portogruaro vs Conegliano | 15:00 (Italiano)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/HVEmcdpdEgTghgFklNjQacFcwvxUWWLs/alpha/stream/conegliano-vs-cuneo/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Other | Igor Gorgonzola Novara Women vs UYBA Volley Busto Arsizio Women | 17:00 (Italiano)" group-title="Eventi Live STREAMED",Other | Igor Gorgonzola Novara Women vs UYBA Volley Busto Arsizio Women | 17:00 (Italiano)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/XbWtnUTWOnbXooHWtQdlVSrkeREdiSHr/alpha/stream/novara-vs-uyba-busto-arsizio/1/playlist.m3u8
+https://lb10.strmd.top/secure/WGmipsUuQveFsuxeoCBQUDkZazbUukKf/alpha/stream/novara-vs-uyba-busto-arsizio/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Football | Portogruaro vs Conegliano | 15:00 (Italiano)" group-title="Eventi Live STREAMED",Football | Portogruaro vs Conegliano | 15:00 (Italiano)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/iiGakpcjCWmAHGjKkEJerSjgWRaDKUBJ/alpha/stream/conegliano-vs-cuneo/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)" group-title="Eventi Live STREAMED",Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/XsTXflLNfRRUdQeHfPEUlRKpUuPiHHNs/alpha/stream/ufc-events-ufc-mma-ufc-ppv/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)" group-title="Eventi Live STREAMED",Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/mXjcehIaHRENsYagMZhfwPEIKlAOtapC/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKtRAwQvEINAkdekIZQmQmkFaMkWSClhFzGKMKpQ835RtTkf8rMBgbuJiEEA.webp" tvg-name="Football | Parma Women vs Sassuolo Women | 18:00 (Italiano)" group-title="Eventi Live STREAMED",Football | Parma Women vs Sassuolo Women | 18:00 (Italiano)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/lqKIrJsITDCPCJpAWonzVuvJPqYbcWYP/alpha/stream/parma-w-vs-sassuolo-w/2/playlist.m3u8
