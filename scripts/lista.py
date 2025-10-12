@@ -477,7 +477,7 @@ def eventi_dlhd_m3u8_generator_world():
                                     return github_raw_url
                                 else:
                                     # Altrimenti restituisci il percorso locale
-                                    return output_filename
+                                    return absolute_output_filename
                         
                         # Scarica i loghi
                         img1, img2 = None, None
@@ -525,7 +525,7 @@ def eventi_dlhd_m3u8_generator_world():
                                 logo2_url = None
                         
                         # Carica l'immagine VS (assicurati che esista nella directory corrente)
-                        vs_path = os.path.join(script_dir, "vs.png")"
+                        vs_path = os.path.join(script_dir, "vs.png")
                         if exists(vs_path):
                             img_vs = Image.open(vs_path)
                             # Converti l'immagine VS in modalitÃÂ  RGBA se non lo ÃÂ¨ giÃÂ 
@@ -583,7 +583,7 @@ def eventi_dlhd_m3u8_generator_world():
                         # Salva l'immagine combinata
                         combined.save(absolute_output_filename)
                         
-                        print(f"[✓] Immagine combinata creata: {output_filename}")
+                        print(f"[✓] Immagine combinata creata: {absolute_output_filename}")
                         
                         # Carica le variabili d'ambiente per GitHub
                         NOMEREPO = os.getenv("NOMEREPO", "").strip()
@@ -596,7 +596,7 @@ def eventi_dlhd_m3u8_generator_world():
                             return github_raw_url
                         else:
                             # Altrimenti restituisci il percorso assoluto
-                            return output_filename
+                            return absolute_output_filename
                         
                     except Exception as e:
                         print(f"[!] Errore nella creazione dell'immagine combinata: {e}")
@@ -929,7 +929,7 @@ def eventi_dlhd_m3u8_generator_world():
      
                     try: 
                         # Cerca lo stream .m3u8 nei siti specificati
-                        stream = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name.lower())
+                        stream = get_stream_from_channel_id(channel_id)
                                                     
                         if stream: 
                             cleaned_event_id = clean_tvg_id(event_title) # Usa event_title per tvg-id
@@ -1064,7 +1064,7 @@ def eventi_dlhd_m3u8_generator():
                                     return github_raw_url
                                 else:
                                     # Altrimenti restituisci il percorso locale
-                                    return output_filename
+                                    return absolute_output_filename
                         
                         # Scarica i loghi
                         img1, img2 = None, None
@@ -1170,7 +1170,7 @@ def eventi_dlhd_m3u8_generator():
                         # Salva l'immagine combinata
                         combined.save(absolute_output_filename)
                         
-                        print(f"[✓] Immagine combinata creata: {output_filename}")
+                        print(f"[✓] Immagine combinata creata: {absolute_output_filename}")
                         
                         # Carica le variabili d'ambiente per GitHub
                         NOMEREPO = os.getenv("NOMEREPO", "").strip()
@@ -1183,7 +1183,7 @@ def eventi_dlhd_m3u8_generator():
                             return github_raw_url
                         else:
                             # Altrimenti restituisci il percorso assoluto
-                            return output_filename
+                            return absolute_output_filename
                         
                     except Exception as e:
                         print(f"[!] Errore nella creazione dell'immagine combinata: {e}")
@@ -1492,7 +1492,7 @@ def eventi_dlhd_m3u8_generator():
      
                     try: 
                         # Cerca lo stream .m3u8 nei siti specificati
-                        stream = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name.lower())
+                        stream = get_stream_from_channel_id(channel_id)
 
                         if stream: 
                             cleaned_event_id = clean_tvg_id(event_title) # Usa event_title per tvg-id
@@ -3134,12 +3134,12 @@ def italy_channels():
                     seen_daddy_channel_ids.add(channel_id)
                     print(f"Trovato canale ITALIANO (Daddylive HTML): {channel_name_raw}, ID: {channel_id}. Tentativo di risoluzione stream...")
                     
-                    # Cerca prima lo stream .m3u8
-                    stream_url = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name_raw.lower(), session=session)                    
+                    # Usa il link .php come richiesto
+                    stream_url = get_stream_from_channel_id(channel_id)
                     if stream_url:
                         url_with_id = stream_url
                         channels.append((channel_name_raw, url_with_id))
-                        print(f"Risolto e aggiunto stream per {channel_name_raw}: {stream_url}")
+                        print(f"Aggiunto stream .php per {channel_name_raw}: {stream_url}")
                     else:
                         print(f"Impossibile risolvere lo stream per {channel_name_raw} (ID: {channel_id})")
             
@@ -3169,9 +3169,10 @@ def italy_channels():
             # Aggiungi manualmente il canale DAZN (ID 877) se non è già presente
             if not any(item[1] and 'id=877' in item[1] for item in daddylive_channels):
                 print("[INFO] Aggiunta manuale del canale DAZN (ID: 877)...")
-                stream_url_877 = search_m3u8_in_sites("877", is_tennis=False, session=requests.Session())
+                # Usa il link .php come richiesto
+                stream_url_877 = get_stream_from_channel_id("877")
                 if stream_url_877:
-                    daddylive_channels.append(("DAZN Italy", stream_url_877))
+                    daddylive_channels.append(("DAZN Italy (D)", stream_url_877))
                     print("[✓] Canale DAZN (ID: 877) aggiunto con successo.")
 
             print(f"Trovati {len(daddylive_channels)} canali Daddylive.")
@@ -3459,70 +3460,12 @@ def search_m3u8_in_sites(channel_id, is_tennis=False, session=None):
     """
     Cerca i file .m3u8 nei siti specificati per i canali daddy e tennis
     """
-    # Se non viene passata una sessione, ne crea una temporanea
-    if session is None:
-        session = requests.Session()
-
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3",
-        "X-Requested-With": "XMLHttpRequest",
-        "X-Forwarded-For": "127.0.0.1",
-        # Il Referer viene impostato dinamicamente
-        "Referer": "https://ava.karmakurama.com/"
-    }
-
-    # Logica per canali TENNIS con ID specifico (es. 15xx)
-    if is_tennis and len(str(channel_id)) == 4 and str(channel_id).startswith('15'):
-        tennis_suffix = str(channel_id)[2:]  # Prende le ultime due cifre
-        folder_name = f"wikiten{tennis_suffix}"
-        base_url = "https://ava.karmakurama.com/wikihz/"
-        test_url = f"{base_url}{folder_name}/mono.m3u8"
-        current_headers = headers.copy()
-        current_headers["Referer"] = base_url # Aggiorna il referer per i canali tennis
-        
-        try:
-            response = session.head(test_url, timeout=5, headers=current_headers)
-            if response.status_code == 200:
-                print(f"[✓] Stream tennis trovato: {test_url}")
-                return test_url
-        except requests.exceptions.RequestException as e:
-            print(f"[!] Errore durante il test di {test_url}: {e}")
-    # Logica per tutti gli altri canali DADDY (inclusi quelli "tennis" senza ID specifico)
-    else: 
-        # Per i canali daddy, cerca nei siti specificati
-        daddy_sites = [
-            "https://ava.karmakurama.com/wind/",
-            "https://ava.karmakurama.com/ddy6/", 
-            "https://ava.karmakurama.com/zeko/",
-            "https://ava.karmakurama.com/nfs/",
-            "https://ava.karmakurama.com/dokko1/"
-        ]
-        folder_name = f"premium{channel_id}"
-
-        def check_url(site):
-            url = f"{site}{folder_name}/mono.m3u8"
-            req_headers = headers.copy()
-            req_headers["Referer"] = site
-            try:
-                response = session.head(url, timeout=5, headers=req_headers)
-                if response.status_code == 200:
-                    return url
-            except requests.exceptions.RequestException:
-                # Gli errori di connessione sono normali, non li stampiamo per non affollare il log
-                pass
-            return None
-
-        # Esegue le richieste in parallelo e restituisce il primo risultato valido
-        with concurrent.futures.ThreadPoolExecutor(max_workers=len(daddy_sites)) as executor:
-            future_to_url = {executor.submit(check_url, site): site for site in daddy_sites}
-            for future in concurrent.futures.as_completed(future_to_url):
-                result = future.result()
-                if result:
-                    print(f"[✓] Stream daddy trovato: {result}")
-                    return result
-    
-    print(f"[!] Nessun stream .m3u8 trovato per channel_id {channel_id}")
-    return None
+    # Carica la variabile d'ambiente LINK_DADDY
+    LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlhd.dad"
+    # Restituisce direttamente l'URL .php come richiesto
+    embed_url = f"{LINK_DADDY}/watch.php?id={channel_id}"
+    print(f"URL .php per il canale Daddylive {channel_id}: {embed_url}")
+    return embed_url
 
 def remover_cache():
     """Rimuove i file di cache e temporanei dalla cartella scripts."""
