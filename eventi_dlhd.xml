@@ -1,83 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
-  <channel id="ItalySerieCAlbinoLeffevsLecco">
-    <display-name>Italy - Serie C : AlbinoLeffe vs Lecco</display-name>
-  </channel>
-  <programme start="20251012000000 +0200" stop="20251012173000 +0200" channel="ItalySerieCAlbinoLeffevsLecco">
-    <title lang="it">Inizia alle 17:30.</title>
-    <desc lang="it">Italy - Serie C : AlbinoLeffe vs Lecco.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251012173000 +0200" stop="20251012193000 +0200" channel="ItalySerieCAlbinoLeffevsLecco">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Italy - Serie C : AlbinoLeffe vs Lecco</desc>
-    <category lang="it">Soccer</category>
-  </programme>
-  <channel id="ItalySerieCOspitalettovsUnionArzignanoChiampo">
-    <display-name>Italy - Serie C : Ospitaletto vs Union ArzignanoChiampo</display-name>
-  </channel>
-  <programme start="20251012000000 +0200" stop="20251012173000 +0200" channel="ItalySerieCOspitalettovsUnionArzignanoChiampo">
-    <title lang="it">Inizia alle 17:30.</title>
-    <desc lang="it">Italy - Serie C : Ospitaletto vs Union ArzignanoChiampo.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251012173000 +0200" stop="20251012193000 +0200" channel="ItalySerieCOspitalettovsUnionArzignanoChiampo">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Italy - Serie C : Ospitaletto vs Union ArzignanoChiampo</desc>
-    <category lang="it">Soccer</category>
-  </programme>
-  <channel id="ItalySerieCAscolivsPontedera">
-    <display-name>Italy - Serie C : Ascoli vs Pontedera</display-name>
-  </channel>
-  <programme start="20251012000000 +0200" stop="20251012173000 +0200" channel="ItalySerieCAscolivsPontedera">
-    <title lang="it">Inizia alle 17:30.</title>
-    <desc lang="it">Italy - Serie C : Ascoli vs Pontedera.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251012173000 +0200" stop="20251012193000 +0200" channel="ItalySerieCAscolivsPontedera">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Italy - Serie C : Ascoli vs Pontedera</desc>
-    <category lang="it">Soccer</category>
-  </programme>
-  <channel id="ItalySerieCBeneventovsTeamAltamura">
-    <display-name>Italy - Serie C : Benevento vs Team Altamura</display-name>
-  </channel>
-  <programme start="20251012000000 +0200" stop="20251012173000 +0200" channel="ItalySerieCBeneventovsTeamAltamura">
-    <title lang="it">Inizia alle 17:30.</title>
-    <desc lang="it">Italy - Serie C : Benevento vs Team Altamura.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251012173000 +0200" stop="20251012193000 +0200" channel="ItalySerieCBeneventovsTeamAltamura">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Italy - Serie C : Benevento vs Team Altamura</desc>
-    <category lang="it">Soccer</category>
-  </programme>
-  <channel id="WorldCupQualifyingNetherlandsvsFinland">
-    <display-name>World Cup Qualifying : Netherlands vs Finland</display-name>
-  </channel>
-  <programme start="20251012000000 +0200" stop="20251012180000 +0200" channel="WorldCupQualifyingNetherlandsvsFinland">
-    <title lang="it">Inizia alle 18:00.</title>
-    <desc lang="it">World Cup Qualifying : Netherlands vs Finland.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251012180000 +0200" stop="20251012200000 +0200" channel="WorldCupQualifyingNetherlandsvsFinland">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">World Cup Qualifying : Netherlands vs Finland</desc>
-    <category lang="it">Soccer</category>
-  </programme>
-  <channel id="ItalySerieAwomenParmavsSassuolo">
-    <display-name>Italy - Serie A (women) : Parma vs Sassuolo</display-name>
-  </channel>
-  <programme start="20251012000000 +0200" stop="20251012180000 +0200" channel="ItalySerieAwomenParmavsSassuolo">
-    <title lang="it">Inizia alle 18:00.</title>
-    <desc lang="it">Italy - Serie A (women) : Parma vs Sassuolo.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251012180000 +0200" stop="20251012200000 +0200" channel="ItalySerieAwomenParmavsSassuolo">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Italy - Serie A (women) : Parma vs Sassuolo</desc>
-    <category lang="it">Soccer</category>
-  </programme>
   <channel id="ItalySerieCSambenedettesevsRavenna">
     <display-name>Italy - Serie C : Sambenedettese vs Ravenna</display-name>
   </channel>
@@ -165,19 +87,6 @@
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">UCI Cross-country Olympic World Cup | Men Elite | Mont-Sainte-Anne</desc>
     <category lang="it">Cycling</category>
-  </programme>
-  <channel id="CapannelleTrottingDerbyRome2025">
-    <display-name>Capannelle Trotting Derby Rome 2025</display-name>
-  </channel>
-  <programme start="20251012000000 +0200" stop="20251012173000 +0200" channel="CapannelleTrottingDerbyRome2025">
-    <title lang="it">Inizia alle 17:30.</title>
-    <desc lang="it">Capannelle Trotting Derby Rome 2025.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251012173000 +0200" stop="20251012193000 +0200" channel="CapannelleTrottingDerbyRome2025">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Capannelle Trotting Derby Rome 2025</desc>
-    <category lang="it">Horse Racing</category>
   </programme>
   <channel id="Top14StadeToulousainvsBordeauxBegles">
     <display-name>Top 14 : Stade Toulousain vs Bordeaux Begles</display-name>
