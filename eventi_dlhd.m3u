@@ -56,7 +56,7 @@ https://ava.karmakurama.com/wind/premium870/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/nfs/premium14/mono.m3u8
 
-#EXTINF:-1 tvg-id="italyseriecvirtuscasaranovsaudacecerignola" tvg-name="Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)
+#EXTINF:-1 tvg-id="italyseriecvirtuscasaranovsaudacecerignola" tvg-name="Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)" tvg-logo="https://res.cloudinary.com/inbet/image/upload/teams/italy-virtus-francavilla.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
@@ -122,7 +122,7 @@ https://ava.karmakurama.com/wind/premium59/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/nfs/premium7/mono.m3u8
 
-#EXTINF:-1 tvg-id="italyseriecpropatriavsunionbrescia" tvg-name="Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)
+#EXTINF:-1 tvg-id="italyseriecpropatriavsunionbrescia" tvg-name="Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)" tvg-logo="https://www.tifobrescia.it/wp-content/uploads/2025/07/Logo-Union-Brescia.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
@@ -146,13 +146,13 @@ https://ava.karmakurama.com/wind/premium870/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium461/mono.m3u8
 
-#EXTINF:-1 tvg-id="fifau20wcquarterfinal3unitedstatesu20vsmoroccou20" tvg-name="Soccer | FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20 (22:00)" tvg-logo="https://media.api-sports.io/football/teams/10306.png" group-title="Eventi Live DLHD",Soccer | FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20 (22:00)
+#EXTINF:-1 tvg-id="fifau20wcquarterfinal3unitedstatesu20vsmoroccou20" tvg-name="Soccer | FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20 (22:00)" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/usa-hockey-5-logo-png-transparent.png" group-title="Eventi Live DLHD",Soccer | FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20 (22:00)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium882/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025shanghaiatpampwuhanwtafinals" tvg-name="Tennis | 2025 Shanghai-ATP &amp; Wuhan-WTA Finals (13:00)" tvg-logo="https://www.atptour.com/-/media/images/atp-tournaments/logos-white/shanghai.png" group-title="Eventi Live DLHD",Tennis | 2025 Shanghai-ATP &amp; Wuhan-WTA Finals (13:00)
+#EXTINF:-1 tvg-id="2025shanghaiatpampwuhanwtafinals" tvg-name="Tennis | 2025 Shanghai-ATP &amp; Wuhan-WTA Finals (13:00)" tvg-logo="https://www.tennis.com/assets/logos/wta_championships.png" group-title="Eventi Live DLHD",Tennis | 2025 Shanghai-ATP &amp; Wuhan-WTA Finals (13:00)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
@@ -182,7 +182,7 @@ https://ava.karmakurama.com/wind/premium878/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium882/mono.m3u8
 
-#EXTINF:-1 tvg-id="ucigravelworldchampionshipsmenelitesouthlimburg180km" tvg-name="Cycling | UCI Gravel World Championships Men Elite | South Limburg (180km) (14:15)" tvg-logo="https://images.squarespace-cdn.com/content/v1/5dc469f34412757d7ba57385/10ecb059-583c-432d-aafe-5b75c44b4336/Safari+Grave+Race+logo+Greens+(1).png?format=1500w" group-title="Eventi Live DLHD",Cycling | UCI Gravel World Championships Men Elite | South Limburg (180km) (14:15)
+#EXTINF:-1 tvg-id="ucigravelworldchampionshipsmenelitesouthlimburg180km" tvg-name="Cycling | UCI Gravel World Championships Men Elite | South Limburg (180km) (14:15)" tvg-logo="https://cdn.raceroster.com/event-logo/qzrqpy9at2pff35x._original.png" group-title="Eventi Live DLHD",Cycling | UCI Gravel World Championships Men Elite | South Limburg (180km) (14:15)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com

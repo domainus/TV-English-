@@ -194,8 +194,6 @@ https://vavoo.to/vavoo-iptv/play/2134724757fd92e3286ea6
 https://vavoo.to/vavoo-iptv/play/2392139008947764078821
 #EXTINF:-1 tvg-id="iris.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" group-title="Mediaset",IRIS
 https://vavoo.to/vavoo-iptv/play/23919988fc371eea2329
-#EXTINF:-1 tvg-id="italia.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1
-https://vavoo.to/vavoo-iptv/play/633342961994dc5083ad5
 #EXTINF:-1 tvg-id="italia.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1 (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
@@ -254,6 +252,8 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="iris.it" tvg-name="MEDIASET IRIS" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" group-title="Mediaset",MEDIASET IRIS (MPD)
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8
 
+#EXTINF:-1 tvg-id="mediasetitalia2hd.it" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/c/c5/Logo_Italia2.svg/520px-Logo_Italia2.svg.png" group-title="Mediaset",MEDIASET ITALIA 2
+https://vavoo.to/vavoo-iptv/play/3538009430947511be2991
 #EXTINF:-1 tvg-id="motor.trend.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Motor_Trend_logo.svg/2560px-Motor_Trend_logo.svg.png" group-title="Altro",MOTORTREND (1)
 https://vavoo.to/vavoo-iptv/play/375872832303fd120c6f38
 #EXTINF:-1 tvg-id="motor.trend.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Motor_Trend_logo.svg/2560px-Motor_Trend_logo.svg.png" group-title="Altro",MOTORTREND (2)
@@ -264,8 +264,6 @@ https://vavoo.to/vavoo-iptv/play/3212860676dcc8c28a2be1
 https://vavoo.to/vavoo-iptv/play/3446813098b031eef6dc22
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-it.png" group-title="Documentari",NAT GEO
 https://vavoo.to/vavoo-iptv/play/179844839442a5ed454fe
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/national-geographic-wild-it.png" group-title="Documentari",NAT GEO WILD
-https://vavoo.to/vavoo-iptv/play/3229664409bbe85d51bba2
 #EXTINF:-1 tvg-id="" tvg-logo="https://pbs.twimg.com/profile_images/570326948497195008/Wf6DPfFP_400x400.jpeg" group-title="Musica",OL3 RADIO
 https://vavoo.to/vavoo-iptv/play/681027341f93934e0bc5
 #EXTINF:-1 tvg-id="" tvg-logo="https://gag-fondazionedeagostini.s3.amazonaws.com/wp-content/uploads/2023/03/logo-Onda-Novara-TV-Ufficiale-1.png" group-title="Altro",ONDA NOVARA TV
@@ -432,12 +430,12 @@ https://vavoo.to/vavoo-iptv/play/209862439074120bb15132
 https://vavoo.to/vavoo-iptv/play/3902650955a82543dc27a4
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN TOP FREE
 https://vavoo.to/vavoo-iptv/play/1572866962efea4ca22353
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN TV SHOWS
+https://vavoo.to/vavoo-iptv/play/860912269147f85ae7a8
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/260px-RDS-Logo.png" group-title="Musica",RDS SOCIAL
 https://vavoo.to/vavoo-iptv/play/4031388312f5ebcfc7dc6d
 #EXTINF:-1 tvg-id="rdssocialtv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/260px-RDS-Logo.png" group-title="Musica",RDS SOCIAL TV
 https://vavoo.to/vavoo-iptv/play/36560804080912cdf76cbf
-#EXTINF:-1 tvg-id="real.time.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" group-title="Altro",REAL TIME
-https://vavoo.to/vavoo-iptv/play/2251241999722578d55332
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Reggio_TV_logo.png/640px-Reggio_TV_logo.png" group-title="Altro",REGGIO TV
 https://vavoo.to/vavoo-iptv/play/216554978929adb39fe170
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/rei-tv-it.png?raw=true" group-title="Altro",REI TV
@@ -526,8 +524,6 @@ https://vavoo.to/vavoo-iptv/play/1078650168cbe5484d34ad
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/wind/premium866/mono.m3u8
-#EXTINF:-1 tvg-id="sky.cinema.family.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Film - Serie TV",SKY CINEMA FAMILY
-https://vavoo.to/vavoo-iptv/play/32165161175e13c1d3f56a
 #EXTINF:-1 tvg-id="sky.cinema.family.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Film - Serie TV",SKY CINEMA FAMILY (D)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
@@ -903,7 +899,7 @@ https://ava.karmakurama.com/wind/premium870/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/nfs/premium14/mono.m3u8
 
-#EXTINF:-1 tvg-id="italyseriecvirtuscasaranovsaudacecerignola" tvg-name="Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)
+#EXTINF:-1 tvg-id="italyseriecvirtuscasaranovsaudacecerignola" tvg-name="Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)" tvg-logo="https://res.cloudinary.com/inbet/image/upload/teams/italy-virtus-francavilla.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
@@ -969,7 +965,7 @@ https://ava.karmakurama.com/wind/premium59/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/nfs/premium7/mono.m3u8
 
-#EXTINF:-1 tvg-id="italyseriecpropatriavsunionbrescia" tvg-name="Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)
+#EXTINF:-1 tvg-id="italyseriecpropatriavsunionbrescia" tvg-name="Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)" tvg-logo="https://www.tifobrescia.it/wp-content/uploads/2025/07/Logo-Union-Brescia.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
@@ -993,13 +989,13 @@ https://ava.karmakurama.com/wind/premium870/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium461/mono.m3u8
 
-#EXTINF:-1 tvg-id="fifau20wcquarterfinal3unitedstatesu20vsmoroccou20" tvg-name="Soccer | FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20 (22:00)" tvg-logo="https://media.api-sports.io/football/teams/10306.png" group-title="Eventi Live DLHD",Soccer | FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20 (22:00)
+#EXTINF:-1 tvg-id="fifau20wcquarterfinal3unitedstatesu20vsmoroccou20" tvg-name="Soccer | FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20 (22:00)" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/usa-hockey-5-logo-png-transparent.png" group-title="Eventi Live DLHD",Soccer | FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20 (22:00)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium882/mono.m3u8
 
-#EXTINF:-1 tvg-id="2025shanghaiatpampwuhanwtafinals" tvg-name="Tennis | 2025 Shanghai-ATP &amp; Wuhan-WTA Finals (13:00)" tvg-logo="https://www.atptour.com/-/media/images/atp-tournaments/logos-white/shanghai.png" group-title="Eventi Live DLHD",Tennis | 2025 Shanghai-ATP &amp; Wuhan-WTA Finals (13:00)
+#EXTINF:-1 tvg-id="2025shanghaiatpampwuhanwtafinals" tvg-name="Tennis | 2025 Shanghai-ATP &amp; Wuhan-WTA Finals (13:00)" tvg-logo="https://www.tennis.com/assets/logos/wta_championships.png" group-title="Eventi Live DLHD",Tennis | 2025 Shanghai-ATP &amp; Wuhan-WTA Finals (13:00)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
@@ -1029,7 +1025,7 @@ https://ava.karmakurama.com/wind/premium878/mono.m3u8
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium882/mono.m3u8
 
-#EXTINF:-1 tvg-id="ucigravelworldchampionshipsmenelitesouthlimburg180km" tvg-name="Cycling | UCI Gravel World Championships Men Elite | South Limburg (180km) (14:15)" tvg-logo="https://images.squarespace-cdn.com/content/v1/5dc469f34412757d7ba57385/10ecb059-583c-432d-aafe-5b75c44b4336/Safari+Grave+Race+logo+Greens+(1).png?format=1500w" group-title="Eventi Live DLHD",Cycling | UCI Gravel World Championships Men Elite | South Limburg (180km) (14:15)
+#EXTINF:-1 tvg-id="ucigravelworldchampionshipsmenelitesouthlimburg180km" tvg-name="Cycling | UCI Gravel World Championships Men Elite | South Limburg (180km) (14:15)" tvg-logo="https://cdn.raceroster.com/event-logo/qzrqpy9at2pff35x._original.png" group-title="Eventi Live DLHD",Cycling | UCI Gravel World Championships Men Elite | South Limburg (180km) (14:15)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
