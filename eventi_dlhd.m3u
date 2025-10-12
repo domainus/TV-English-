@@ -2,21 +2,201 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="worldcupqualifyingspainvsgeorgia" tvg-name="All Soccer Events | World Cup Qualifying : Spain vs Georgia (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Spain_vs_Georgia.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Spain vs Georgia (20:45)
+#EXTINF:-1 tvg-id="italyserieawomenmilanvsroma" tvg-name="Soccer | Italy - Serie A (women) : Milan vs Roma (12:30)" tvg-logo="https://logodetimes.com/times/associazione-calcio-milan/associazione-calcio-milan-4096.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie A (women) : Milan vs Roma (12:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium877/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecmonopolivssalernitana" tvg-name="Soccer | Italy - Serie C : Monopoli vs Salernitana (12:30)" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/monopoly-logo-png-transparent.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Monopoli vs Salernitana (12:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium2/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecmonopolivssalernitana" tvg-name="Soccer | Italy - Serie C : Monopoli vs Salernitana (12:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Monopoli_vs_Salernitana.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Monopoli vs Salernitana (12:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/wind/premium870/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecvispesarovssassaritorres" tvg-name="Soccer | Italy - Serie C : Vis Pesaro vs Sassari Torres (12:30)" tvg-logo="https://www.vispesaro1898.it/vis/wp-content/uploads/2017/11/614871.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Vis Pesaro vs Sassari Torres (12:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium26/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyserieccittadellavstriestina" tvg-name="Soccer | Italy - Serie C : Cittadella vs Triestina (14:30)" tvg-logo="https://www.footballkitarchive.com/static/logos/UTL0Y6sfmbpQfSz/cittadella-2023-logo.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Cittadella vs Triestina (14:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium4/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyserieccavesevstrapani1905" tvg-name="Soccer | Italy - Serie C : Cavese vs Trapani 1905 (14:30)" tvg-logo="https://1.bp.blogspot.com/-RnDTpzIDCBs/YQbgKMIYh-I/AAAAAAABk80/8t5_EhzuuSA6gY-rxNlvw1O7LizjoQYZwCLcBGAsYHQ/s256/Trapani%2BCalcio256x.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Cavese vs Trapani 1905 (14:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium109/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyserieccosenzavsatalantaii" tvg-name="Soccer | Italy - Serie C : Cosenza vs Atalanta II (14:30)" tvg-logo="https://i.pinimg.com/originals/66/a9/27/66a927ed14521893859d4f476292beb3.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Cosenza vs Atalanta II (14:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium2/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyserieccosenzavsatalantaii" tvg-name="Soccer | Italy - Serie C : Cosenza vs Atalanta II (14:30)" tvg-logo="https://i.pinimg.com/originals/66/a9/27/66a927ed14521893859d4f476292beb3.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Cosenza vs Atalanta II (14:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/wind/premium870/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecsiracusavssorrento" tvg-name="Soccer | Italy - Serie C : Siracusa vs Sorrento (14:30)" tvg-logo="https://vectorseek.com/wp-content/uploads/2024/01/Siracusa-Calcio-Logo-Vector.svg-.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Siracusa vs Sorrento (14:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium14/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecvirtuscasaranovsaudacecerignola" tvg-name="Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium7/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecvirtuscasaranovsaudacecerignola" tvg-name="Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Virtus Casarano vs Audace Cerignola (14:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium462/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecpotenzacalciovslatina" tvg-name="Soccer | Italy - Serie C : Potenza Calcio vs Latina (14:30)" tvg-logo="https://www.fcsorrento.com/wp-content/uploads/2023/08/Logo-Potenza.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Potenza Calcio vs Latina (14:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium25/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyserieawomenternanavsnapoli" tvg-name="Soccer | Italy - Serie A (women) : Ternana vs Napoli (15:00)" tvg-logo="https://i.pinimg.com/originals/07/a7/ef/07a7ef3f6a8e15413ec8b6ef21ea563e.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie A (women) : Ternana vs Napoli (15:00)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium55/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecalbinoleffevslecco" tvg-name="Soccer | Italy - Serie C : AlbinoLeffe vs Lecco (17:30)" tvg-logo="https://iconape.com/wp-content/png_logo_vector/unione-calcio-albinoleffe-logo.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : AlbinoLeffe vs Lecco (17:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium4/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecospitalettovsunionarzignanochiampo" tvg-name="Soccer | Italy - Serie C : Ospitaletto vs Union ArzignanoChiampo (17:30)" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a0/Union_ArzignanoChiampo.png/revision/latest?cb=20161031220657" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Ospitaletto vs Union ArzignanoChiampo (17:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium109/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecascolivspontedera" tvg-name="Soccer | Italy - Serie C : Ascoli vs Pontedera (17:30)" tvg-logo="https://logoeps.com/wp-content/uploads/2013/10/ascoli-calcio-1898-vector-logo-200x200.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Ascoli vs Pontedera (17:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium7/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecbeneventovsteamaltamura" tvg-name="Soccer | Italy - Serie C : Benevento vs Team Altamura (17:30)" tvg-logo="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/e2549f68807889.5b6a14e3d8914.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Benevento vs Team Altamura (17:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium2/mono.m3u8
+
+#EXTINF:-1 tvg-id="worldcupqualifyingnetherlandsvsfinland" tvg-name="Soccer | World Cup Qualifying : Netherlands vs Finland (18:00)" tvg-logo="https://png.pngtree.com/png-clipart/20230802/original/pngtree-netherlands-flag-holland-ribbon-tape-picture-image_7831248.png" group-title="Eventi Live DLHD",Soccer | World Cup Qualifying : Netherlands vs Finland (18:00)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium461/mono.m3u8
 
-#EXTINF:-1 tvg-id="worldcupqualifyingestoniavsitaly" tvg-name="All Soccer Events | World Cup Qualifying : Estonia vs Italy (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Estonia_vs_Italy.png" group-title="Eventi Live DLHD",All Soccer Events | World Cup Qualifying : Estonia vs Italy (20:45)
+#EXTINF:-1 tvg-id="italyseriecsambenedettesevsravenna" tvg-name="Soccer | Italy - Serie C : Sambenedettese vs Ravenna (20:30)" tvg-logo="https://iconape.com/wp-content/png_logo_vector/u-s-sambenedettese-logo.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Sambenedettese vs Ravenna (20:30)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
-https://ava.karmakurama.com/ddy6/premium850/mono.m3u8
+https://ava.karmakurama.com/nfs/premium7/mono.m3u8
 
-#EXTINF:-1 tvg-id="italyseriea1womenpallavoloscandiccivsperugiavolley" tvg-name="Volleyball | Italy Serie A1 Women : Pallavolo Scandicci vs. Perugia Volley (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Pallavolo Scandicci_vs_Perugia Volley.png" group-title="Eventi Live DLHD",Volleyball | Italy Serie A1 Women : Pallavolo Scandicci vs. Perugia Volley (20:30)
+#EXTINF:-1 tvg-id="italyseriecpropatriavsunionbrescia" tvg-name="Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)" tvg-logo="https://www.tifobrescia.it/wp-content/uploads/2025/07/Logo-Union-Brescia.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/nfs/premium2/mono.m3u8
+
+#EXTINF:-1 tvg-id="italyseriecpropatriavsunionbrescia" tvg-name="Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)" tvg-logo="https://www.tifobrescia.it/wp-content/uploads/2025/07/Logo-Union-Brescia.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Pro Patria vs Union Brescia (20:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/dokko1/premium460/mono.m3u8
+
+#EXTINF:-1 tvg-id="worldcupqualifyingromaniavsaustria" tvg-name="Soccer | World Cup Qualifying : Romania vs Austria (20:45)" tvg-logo="https://static.wikia.nocookie.net/fifa_esports_gamepedia_en/images/d/d3/Romania_(National_Team)logo_square.png/revision/latest?cb=20210423111704" group-title="Eventi Live DLHD",Soccer | World Cup Qualifying : Romania vs Austria (20:45)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/wind/premium870/mono.m3u8
+
+#EXTINF:-1 tvg-id="worldcupqualifyingdenmarkvsgreece" tvg-name="Soccer | World Cup Qualifying : Denmark vs Greece (20:45)" tvg-logo="https://static.vecteezy.com/system/resources/previews/022/102/533/original/denmark-flag-round-shape-png.png" group-title="Eventi Live DLHD",Soccer | World Cup Qualifying : Denmark vs Greece (20:45)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium461/mono.m3u8
+
+#EXTINF:-1 tvg-id="fifau20wcquarterfinal3unitedstatesu20vsmoroccou20" tvg-name="Soccer | FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20 (22:00)" tvg-logo="https://media.api-sports.io/football/teams/10306.png" group-title="Eventi Live DLHD",Soccer | FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20 (22:00)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
 #EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
 #EXTVLCOPT:http-origin=https://ava.karmakurama.com
 https://ava.karmakurama.com/ddy6/premium882/mono.m3u8
+
+#EXTINF:-1 tvg-id="2025shanghaiatpampwuhanwtafinals" tvg-name="Tennis | 2025 Shanghai-ATP &amp; Wuhan-WTA Finals (13:00)" tvg-logo="https://www.atptour.com/-/media/images/atp-tournaments/logos-white/shanghai.png" group-title="Eventi Live DLHD",Tennis | 2025 Shanghai-ATP &amp; Wuhan-WTA Finals (13:00)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium576/mono.m3u8
+
+#EXTINF:-1 tvg-id="xiangrandprixsemifinal" tvg-name="Snooker | Xi'An Grand Prix | Semi-Final (08:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live DLHD",Snooker | Xi'An Grand Prix | Semi-Final (08:00)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/wind/premium878/mono.m3u8
+
+#EXTINF:-1 tvg-id="xiangrandprixsemifinal" tvg-name="Snooker | Xi'An Grand Prix | Semi-Final (13:30)" tvg-logo="https://images.gc.wstservices.co.uk/fit-in/600x600/055e6c40-5279-11f0-8f00-991a3abcf914.png" group-title="Eventi Live DLHD",Snooker | Xi'An Grand Prix | Semi-Final (13:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/wind/premium878/mono.m3u8
+
+#EXTINF:-1 tvg-id="goldentrailledroskytrentinoday2" tvg-name="Athletics | Golden Trail Ledro Sky Trentino | Day 2 (12:00)" tvg-logo="https://goldentrailseries.com/wp-content/uploads/2025/06/GG-20250623_LEDROSKY_LOGO_nero_RGB.png" group-title="Eventi Live DLHD",Athletics | Golden Trail Ledro Sky Trentino | Day 2 (12:00)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/wind/premium878/mono.m3u8
+
+#EXTINF:-1 tvg-id="seriea2avellinobasketvsbrindisi" tvg-name="Basketball | Serie A2 : Avellino Basket vs Brindisi (12:00)" tvg-logo="http://www.legnanobasket.it/foto/logo/logo_avellino.png" group-title="Eventi Live DLHD",Basketball | Serie A2 : Avellino Basket vs Brindisi (12:00)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium882/mono.m3u8
+
+#EXTINF:-1 tvg-id="ucigravelworldchampionshipsmenelitesouthlimburg180km" tvg-name="Cycling | UCI Gravel World Championships Men Elite | South Limburg (180km) (14:15)" tvg-logo="https://cdn.prod.website-files.com/642176300615c408cdf96d51/65bb9ccffe7493644b62bf0d_Web Logo (No Background)-p-3200.png" group-title="Eventi Live DLHD",Cycling | UCI Gravel World Championships Men Elite | South Limburg (180km) (14:15)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/wind/premium879/mono.m3u8
+
+#EXTINF:-1 tvg-id="ucicrosscountryolympicworldcupmenelitemontsainteanne" tvg-name="Cycling | UCI Cross-country Olympic World Cup | Men Elite | Mont-Sainte-Anne (21:15)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live DLHD",Cycling | UCI Cross-country Olympic World Cup | Men Elite | Mont-Sainte-Anne (21:15)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/wind/premium878/mono.m3u8
+
+#EXTINF:-1 tvg-id="capannelletrottingderbyrome2025" tvg-name="Horse Racing | Capannelle Trotting Derby Rome 2025 (17:30)" tvg-logo="https://assets.stickpng.com/thumbs/6286515cc871aa4d2feea1ea.png" group-title="Eventi Live DLHD",Horse Racing | Capannelle Trotting Derby Rome 2025 (17:30)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium882/mono.m3u8
+
+#EXTINF:-1 tvg-id="top14stadetoulousainvsbordeauxbegles" tvg-name="Rugby Union | Top 14 : Stade Toulousain vs Bordeaux Begles (21:00)" tvg-logo="https://cdn.freebiesupply.com/logos/large/2x/stade-toulousain-logo-png-transparent.png" group-title="Eventi Live DLHD",Rugby Union | Top 14 : Stade Toulousain vs Bordeaux Begles (21:00)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+#EXTVLCOPT:http-referrer=https://ava.karmakurama.com/
+#EXTVLCOPT:http-origin=https://ava.karmakurama.com
+https://ava.karmakurama.com/ddy6/premium462/mono.m3u8
 
