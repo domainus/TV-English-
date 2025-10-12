@@ -1,104 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tv>
-  <channel id="ItalySerieCSambenedettesevsRavenna">
-    <display-name>Italy - Serie C : Sambenedettese vs Ravenna</display-name>
+  <channel id="ItalySerieCTrentovsProVercelli">
+    <display-name>Italy - Serie C : Trento vs Pro Vercelli</display-name>
   </channel>
-  <programme start="20251012000000 +0200" stop="20251012203000 +0200" channel="ItalySerieCSambenedettesevsRavenna">
+  <programme start="20251013000000 +0200" stop="20251013203000 +0200" channel="ItalySerieCTrentovsProVercelli">
     <title lang="it">Inizia alle 20:30.</title>
-    <desc lang="it">Italy - Serie C : Sambenedettese vs Ravenna.</desc>
+    <desc lang="it">Italy - Serie C : Trento vs Pro Vercelli.</desc>
     <category lang="it">Annuncio</category>
   </programme>
-  <programme start="20251012203000 +0200" stop="20251012223000 +0200" channel="ItalySerieCSambenedettesevsRavenna">
+  <programme start="20251013203000 +0200" stop="20251013223000 +0200" channel="ItalySerieCTrentovsProVercelli">
     <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Italy - Serie C : Sambenedettese vs Ravenna</desc>
+    <desc lang="it">Italy - Serie C : Trento vs Pro Vercelli</desc>
     <category lang="it">Soccer</category>
   </programme>
-  <channel id="ItalySerieCProPatriavsUnionBrescia">
-    <display-name>Italy - Serie C : Pro Patria vs Union Brescia</display-name>
-  </channel>
-  <programme start="20251012000000 +0200" stop="20251012203000 +0200" channel="ItalySerieCProPatriavsUnionBrescia">
+  <programme start="20251013000000 +0200" stop="20251013203000 +0200" channel="ItalySerieCTrentovsProVercelli">
     <title lang="it">Inizia alle 20:30.</title>
-    <desc lang="it">Italy - Serie C : Pro Patria vs Union Brescia.</desc>
+    <desc lang="it">Italy - Serie C : Trento vs Pro Vercelli.</desc>
     <category lang="it">Annuncio</category>
   </programme>
-  <programme start="20251012203000 +0200" stop="20251012223000 +0200" channel="ItalySerieCProPatriavsUnionBrescia">
+  <programme start="20251013203000 +0200" stop="20251013223000 +0200" channel="ItalySerieCTrentovsProVercelli">
     <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Italy - Serie C : Pro Patria vs Union Brescia</desc>
+    <desc lang="it">Italy - Serie C : Trento vs Pro Vercelli</desc>
     <category lang="it">Soccer</category>
   </programme>
-  <programme start="20251012000000 +0200" stop="20251012203000 +0200" channel="ItalySerieCProPatriavsUnionBrescia">
+  <channel id="ItalySerieCDolomitiBellunesivsLumezzane">
+    <display-name>Italy - Serie C : Dolomiti Bellunesi vs Lumezzane</display-name>
+  </channel>
+  <programme start="20251013000000 +0200" stop="20251013203000 +0200" channel="ItalySerieCDolomitiBellunesivsLumezzane">
     <title lang="it">Inizia alle 20:30.</title>
-    <desc lang="it">Italy - Serie C : Pro Patria vs Union Brescia.</desc>
+    <desc lang="it">Italy - Serie C : Dolomiti Bellunesi vs Lumezzane.</desc>
     <category lang="it">Annuncio</category>
   </programme>
-  <programme start="20251012203000 +0200" stop="20251012223000 +0200" channel="ItalySerieCProPatriavsUnionBrescia">
+  <programme start="20251013203000 +0200" stop="20251013223000 +0200" channel="ItalySerieCDolomitiBellunesivsLumezzane">
     <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Italy - Serie C : Pro Patria vs Union Brescia</desc>
+    <desc lang="it">Italy - Serie C : Dolomiti Bellunesi vs Lumezzane</desc>
     <category lang="it">Soccer</category>
   </programme>
-  <channel id="WorldCupQualifyingRomaniavsAustria">
-    <display-name>World Cup Qualifying : Romania vs Austria</display-name>
-  </channel>
-  <programme start="20251012000000 +0200" stop="20251012204500 +0200" channel="WorldCupQualifyingRomaniavsAustria">
-    <title lang="it">Inizia alle 20:45.</title>
-    <desc lang="it">World Cup Qualifying : Romania vs Austria.</desc>
+  <programme start="20251013000000 +0200" stop="20251013203000 +0200" channel="ItalySerieCDolomitiBellunesivsLumezzane">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Italy - Serie C : Dolomiti Bellunesi vs Lumezzane.</desc>
     <category lang="it">Annuncio</category>
   </programme>
-  <programme start="20251012204500 +0200" stop="20251012224500 +0200" channel="WorldCupQualifyingRomaniavsAustria">
+  <programme start="20251013203000 +0200" stop="20251013223000 +0200" channel="ItalySerieCDolomitiBellunesivsLumezzane">
     <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">World Cup Qualifying : Romania vs Austria</desc>
+    <desc lang="it">Italy - Serie C : Dolomiti Bellunesi vs Lumezzane</desc>
     <category lang="it">Soccer</category>
   </programme>
-  <channel id="WorldCupQualifyingDenmarkvsGreece">
-    <display-name>World Cup Qualifying : Denmark vs Greece</display-name>
-  </channel>
-  <programme start="20251012000000 +0200" stop="20251012204500 +0200" channel="WorldCupQualifyingDenmarkvsGreece">
-    <title lang="it">Inizia alle 20:45.</title>
-    <desc lang="it">World Cup Qualifying : Denmark vs Greece.</desc>
+  <programme start="20251013000000 +0200" stop="20251013203000 +0200" channel="ItalySerieCDolomitiBellunesivsLumezzane">
+    <title lang="it">Inizia alle 20:30.</title>
+    <desc lang="it">Italy - Serie C : Dolomiti Bellunesi vs Lumezzane.</desc>
     <category lang="it">Annuncio</category>
   </programme>
-  <programme start="20251012204500 +0200" stop="20251012224500 +0200" channel="WorldCupQualifyingDenmarkvsGreece">
+  <programme start="20251013203000 +0200" stop="20251013223000 +0200" channel="ItalySerieCDolomitiBellunesivsLumezzane">
     <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">World Cup Qualifying : Denmark vs Greece</desc>
+    <desc lang="it">Italy - Serie C : Dolomiti Bellunesi vs Lumezzane</desc>
     <category lang="it">Soccer</category>
   </programme>
-  <channel id="FIFAU20WCQuarterFinal3UnitedStatesU20vsMoroccoU20">
-    <display-name>FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20</display-name>
+  <channel id="BrusselsATPStockholmATPAlmatyATPOsakaWTAampNingboWTAEarlyRounds">
+    <display-name>Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds</display-name>
   </channel>
-  <programme start="20251012000000 +0200" stop="20251012220000 +0200" channel="FIFAU20WCQuarterFinal3UnitedStatesU20vsMoroccoU20">
-    <title lang="it">Inizia alle 22:00.</title>
-    <desc lang="it">FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20.</desc>
+  <programme start="20251013000000 +0200" stop="20251013123000 +0200" channel="BrusselsATPStockholmATPAlmatyATPOsakaWTAampNingboWTAEarlyRounds">
+    <title lang="it">Inizia alle 12:30.</title>
+    <desc lang="it">Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds.</desc>
     <category lang="it">Annuncio</category>
   </programme>
-  <programme start="20251012220000 +0200" stop="20251013000000 +0200" channel="FIFAU20WCQuarterFinal3UnitedStatesU20vsMoroccoU20">
+  <programme start="20251013123000 +0200" stop="20251013143000 +0200" channel="BrusselsATPStockholmATPAlmatyATPOsakaWTAampNingboWTAEarlyRounds">
     <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">FIFA U20 WC Quarter Final 3 : United States U20 vs Morocco U20</desc>
-    <category lang="it">Soccer</category>
+    <desc lang="it">Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds</desc>
+    <category lang="it">Tennis</category>
   </programme>
-  <channel id="UCICrosscountryOlympicWorldCupMenEliteMontSainteAnne">
-    <display-name>UCI Cross-country Olympic World Cup | Men Elite | Mont-Sainte-Anne</display-name>
+  <channel id="XiAnGrandPrixFinalAfternoonSession">
+    <display-name>Xi'An Grand Prix | Final | Afternoon Session</display-name>
   </channel>
-  <programme start="20251012000000 +0200" stop="20251012211500 +0200" channel="UCICrosscountryOlympicWorldCupMenEliteMontSainteAnne">
-    <title lang="it">Inizia alle 21:15.</title>
-    <desc lang="it">UCI Cross-country Olympic World Cup | Men Elite | Mont-Sainte-Anne.</desc>
+  <programme start="20251013000000 +0200" stop="20251013080000 +0200" channel="XiAnGrandPrixFinalAfternoonSession">
+    <title lang="it">Inizia alle 08:00.</title>
+    <desc lang="it">Xi'An Grand Prix | Final | Afternoon Session.</desc>
     <category lang="it">Annuncio</category>
   </programme>
-  <programme start="20251012211500 +0200" stop="20251012231500 +0200" channel="UCICrosscountryOlympicWorldCupMenEliteMontSainteAnne">
+  <programme start="20251013080000 +0200" stop="20251013100000 +0200" channel="XiAnGrandPrixFinalAfternoonSession">
     <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">UCI Cross-country Olympic World Cup | Men Elite | Mont-Sainte-Anne</desc>
-    <category lang="it">Cycling</category>
+    <desc lang="it">Xi'An Grand Prix | Final | Afternoon Session</desc>
+    <category lang="it">Snooker</category>
   </programme>
-  <channel id="Top14StadeToulousainvsBordeauxBegles">
-    <display-name>Top 14 : Stade Toulousain vs Bordeaux Begles</display-name>
+  <channel id="XiAnGrandPrixFinalEveningSession">
+    <display-name>Xi'An Grand Prix | Final | Evening Session</display-name>
   </channel>
-  <programme start="20251012000000 +0200" stop="20251012210000 +0200" channel="Top14StadeToulousainvsBordeauxBegles">
-    <title lang="it">Inizia alle 21:00.</title>
-    <desc lang="it">Top 14 : Stade Toulousain vs Bordeaux Begles.</desc>
+  <programme start="20251013000000 +0200" stop="20251013140000 +0200" channel="XiAnGrandPrixFinalEveningSession">
+    <title lang="it">Inizia alle 14:00.</title>
+    <desc lang="it">Xi'An Grand Prix | Final | Evening Session.</desc>
     <category lang="it">Annuncio</category>
   </programme>
-  <programme start="20251012210000 +0200" stop="20251012230000 +0200" channel="Top14StadeToulousainvsBordeauxBegles">
+  <programme start="20251013140000 +0200" stop="20251013160000 +0200" channel="XiAnGrandPrixFinalEveningSession">
     <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Top 14 : Stade Toulousain vs Bordeaux Begles</desc>
-    <category lang="it">Rugby Union</category>
+    <desc lang="it">Xi'An Grand Prix | Final | Evening Session</desc>
+    <category lang="it">Snooker</category>
   </programme>
 </tv>
