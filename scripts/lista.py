@@ -3079,25 +3079,45 @@ def italy_channels():
         return raw_php_url
 
     def fetch_channels_from_daddy_json(json_url):
-        """Estrae i canali italiani dal file JSON ufficiale di Daddylive."""
-        print(f"Tentativo di fetch dei canali da: {json_url}")
+        """Estrae i canali italiani dalla pagina HTML di Daddylive (non più dal JSON)."""
+        from bs4 import BeautifulSoup
+        
+        print(f"Recupero canali da {LINK_DADDY}/24-7-channels.php")
         channels = []
         seen_daddy_channel_ids = set()
-        session = requests.Session() # Crea una sessione per riutilizzare le connessioni
-
-        try:            
-            response = requests.get(json_url, timeout=15, headers={
+        session = requests.Session()
+    
+        try:
+            # Scarica la pagina HTML invece del JSON
+            url = f"{LINK_DADDY}/24-7-channels.php"
+            headers = {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-            }, verify=False)
+            }
             
+            response = requests.get(url, headers=headers, timeout=15, verify=False)
             response.raise_for_status()
-            daddy_data = response.json()
-            print(f"Trovati {len(daddy_data)} canali nel JSON di Daddylive.")
-
-            for item in daddy_data:
-                channel_name_raw = item.get("channel_name")
-                channel_id = item.get("channel_id")
-
+            
+            # Parsa l'HTML
+            soup = BeautifulSoup(response.text, 'html.parser')
+            cards = soup.find_all('a', class_='card')
+            
+            print(f"Trovati {len(cards)} canali nella pagina HTML di Daddylive.")
+    
+            for card in cards:
+                # Estrae il nome del canale
+                title_div = card.find('div', class_='card__title')
+                if not title_div:
+                    continue
+                
+                channel_name_raw = title_div.text.strip()
+                
+                # Estrae l'ID del canale
+                href = card.get('href', '')
+                if not ('id=' in href):
+                    continue
+                
+                channel_id = href.split('id=')[1].split('&')[0]
+    
                 if not channel_name_raw or not channel_id:
                     continue
     
@@ -3105,14 +3125,15 @@ def italy_channels():
                 if channel_id == "853":
                     print(f"[CORREZIONE] Trovato ID 853. Il nome '{channel_name_raw}' sarà forzato a 'Canale 5 Italy'.")
                     channel_name_raw = "Canale 5 Italy"
-
+    
                 # Filtro: deve contenere "italy" (case-insensitive)
                 if "italy" in channel_name_raw.lower():
                     if channel_id in seen_daddy_channel_ids:
                         print(f"Skipping Daddylive channel '{channel_name_raw}' (ID: {channel_id}) perché l'ID è già stato processato.")
                         continue
                     seen_daddy_channel_ids.add(channel_id)
-                    print(f"Trovato canale ITALIANO (Daddylive JSON): {channel_name_raw}, ID: {channel_id}. Tentativo di risoluzione stream...")
+                    print(f"Trovato canale ITALIANO (Daddylive HTML): {channel_name_raw}, ID: {channel_id}. Tentativo di risoluzione stream...")
+                    
                     # Cerca prima lo stream .m3u8
                     stream_url = search_m3u8_in_sites(channel_id, is_tennis="tennis" in channel_name_raw.lower(), session=session)                    
                     if stream_url:
@@ -3123,12 +3144,12 @@ def italy_channels():
                         print(f"Impossibile risolvere lo stream per {channel_name_raw} (ID: {channel_id})")
             
             if not channels:
-                print(f"Nessun canale italiano estratto/risolto da {json_url}.")
-
+                print(f"Nessun canale italiano estratto/risolto dalla pagina HTML.")
+    
         except requests.RequestException as e:
-            print(f"Errore durante il download da {json_url}: {e}")
+            print(f"Errore durante il download dalla pagina HTML: {e}")
         except Exception as e:
-            print(f"Errore imprevisto durante il parsing di {json_url}: {e}")
+            print(f"Errore imprevisto durante il parsing della pagina HTML: {e}")
         
         return channels
 
