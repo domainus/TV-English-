@@ -525,7 +525,7 @@ def eventi_dlhd_m3u8_generator_world():
                                 logo2_url = None
                         
                         # Carica l'immagine VS (assicurati che esista nella directory corrente)
-                        vs_path = "vs.png"
+                        vs_path = os.path.join(script_dir, "vs.png")"
                         if exists(vs_path):
                             img_vs = Image.open(vs_path)
                             # Converti l'immagine VS in modalitÃÂ  RGBA se non lo ÃÂ¨ giÃÂ 
@@ -1112,7 +1112,7 @@ def eventi_dlhd_m3u8_generator():
                                 logo2_url = None
                         
                         # Carica l'immagine VS (assicurati che esista nella directory corrente)
-                        vs_path = "vs.png"
+                        vs_path = os.path.join(script_dir, "vs.png")
                         if exists(vs_path):
                             img_vs = Image.open(vs_path)
                             # Converti l'immagine VS in modalitÃÂ  RGBA se non lo ÃÂ¨ giÃÂ 
