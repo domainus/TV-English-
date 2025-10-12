@@ -329,17 +329,7 @@
   <channel id="XiAnGrandPrixSemiFinal">
     <display-name>Xi'An Grand Prix | Semi-Final</display-name>
   </channel>
-  <programme start="20251012000000 +0200" stop="20251012080000 +0200" channel="XiAnGrandPrixSemiFinal">
-    <title lang="it">Inizia alle 08:00.</title>
-    <desc lang="it">Xi'An Grand Prix | Semi-Final.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251012080000 +0200" stop="20251012100000 +0200" channel="XiAnGrandPrixSemiFinal">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Xi'An Grand Prix | Semi-Final</desc>
-    <category lang="it">Snooker</category>
-  </programme>
-  <programme start="20251012100000 +0200" stop="20251012133000 +0200" channel="XiAnGrandPrixSemiFinal">
+  <programme start="20251012000000 +0200" stop="20251012133000 +0200" channel="XiAnGrandPrixSemiFinal">
     <title lang="it">Inizia alle 13:30.</title>
     <desc lang="it">Xi'An Grand Prix | Semi-Final.</desc>
     <category lang="it">Annuncio</category>
