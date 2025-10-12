@@ -50808,5 +50808,209 @@
       18
     ],
     "cached_at": "2025-10-11T06:15:32.835360"
+  },
+  "138027": {
+    "id": 138027,
+    "name": "The Future Diary",
+    "original_name": "未来日記",
+    "first_air_date": "2021-12-14",
+    "vote_average": 5.6,
+    "poster_path": "/6fYIR9GmhVdiXXtmIvqATJ6hDZ4.jpg",
+    "genre_ids": [
+      10764,
+      18
+    ],
+    "cached_at": "2025-10-12T06:15:26.896622"
+  },
+  "119026": {
+    "id": 119026,
+    "name": "Foodtastic",
+    "original_name": "Foodtastic",
+    "first_air_date": "2021-12-15",
+    "vote_average": 3.8,
+    "poster_path": "/AuqOsO9XbCzMeIjz0GCoUi1aiA6.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-12T06:15:26.910584"
+  },
+  "137440": {
+    "id": 137440,
+    "name": "Stories of a Generation - Con Papa Francesco",
+    "original_name": "Stories of a Generation - with Pope Francis",
+    "first_air_date": "2021-12-25",
+    "vote_average": 7.0,
+    "poster_path": "/qtOOSDlTAcfGIDbLwHHoV0QtQqI.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-12T06:15:26.944205"
+  },
+  "152336": {
+    "id": 152336,
+    "name": "Tiger King: La storia di Doc Antle",
+    "original_name": "Tiger King: The Doc Antle Story",
+    "first_air_date": "2021-12-10",
+    "vote_average": 6.2,
+    "poster_path": "/sie5il1GPnCuSRyEHJkKQvr8ffT.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-12T06:15:26.969045"
+  },
+  "138600": {
+    "id": 138600,
+    "name": "Saturday Morning All Star Hits!",
+    "original_name": "Saturday Morning All Star Hits!",
+    "first_air_date": "2021-12-10",
+    "vote_average": 5.6,
+    "poster_path": "/vHB2sMGWVjknajaKYhRPutJyQDd.jpg",
+    "genre_ids": [
+      35,
+      16
+    ],
+    "cached_at": "2025-10-12T06:15:26.979745"
+  },
+  "154302": {
+    "id": 154302,
+    "name": "Word Party Presents: Math!",
+    "original_name": "Word Party Presents: Math!",
+    "first_air_date": "2021-12-28",
+    "vote_average": 3.5,
+    "poster_path": "/qm2wlGnagElEpEmE3FnXW6c7pou.jpg",
+    "genre_ids": [
+      10762,
+      16
+    ],
+    "cached_at": "2025-10-12T06:15:27.021913"
+  },
+  "134369": {
+    "id": 134369,
+    "name": "Twentysomethings: Austin",
+    "original_name": "Twentysomethings: Austin",
+    "first_air_date": "2021-12-10",
+    "vote_average": 5.3,
+    "poster_path": "/4QdMD2jNeDEwe5438Kt9ltYnAI3.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-12T06:15:27.043897"
+  },
+  "138328": {
+    "id": 138328,
+    "name": "Decoupled",
+    "original_name": "Decoupled",
+    "first_air_date": "2021-12-17",
+    "vote_average": 7.1,
+    "poster_path": "/pq3t5ds8JwHSAvXE3o42CeQ3ue.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "cached_at": "2025-10-12T06:15:27.097673"
+  },
+  "138995": {
+    "id": 138995,
+    "name": "É o Amor: Família Camargo",
+    "original_name": "É o Amor: Família Camargo",
+    "first_air_date": "2021-12-09",
+    "vote_average": 6.3,
+    "poster_path": "/ouT39abGsN27ocpWsz8y8ckERha.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-12T06:15:27.116720"
+  },
+  "134958": {
+    "id": 134958,
+    "name": "먹보와 털보",
+    "original_name": "먹보와 털보",
+    "first_air_date": "2021-12-11",
+    "vote_average": 7.1,
+    "poster_path": "/rwIcENIPYinLyDnmw3L5jX7RQDv.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-12T06:15:27.165894"
+  },
+  "89614": {
+    "id": 89614,
+    "name": "Sword Snow Stride",
+    "original_name": "雪中悍刀行",
+    "first_air_date": "2021-12-15",
+    "vote_average": 7.3,
+    "poster_path": "/zecTpdhk8iuQ7WtQiwbtwNdTpCn.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-12T06:15:27.188017"
+  },
+  "152445": {
+    "id": 152445,
+    "name": "La Azcárate de frente",
+    "original_name": "La Azcárate de frente",
+    "first_air_date": "2021-12-28",
+    "vote_average": 2.0,
+    "poster_path": "/8s07WEXocRLJDSwXq7TO6WjV6oh.jpg",
+    "genre_ids": [
+      10767,
+      35
+    ],
+    "cached_at": "2025-10-12T06:15:27.239409"
+  },
+  "154554": {
+    "id": 154554,
+    "name": "JFK: Destiny Betrayed",
+    "original_name": "JFK: Destiny Betrayed",
+    "first_air_date": "2021-11-22",
+    "vote_average": 7.7,
+    "poster_path": "/w080XVbvN6pwnPUuUzXGZPOa7Rp.jpg",
+    "genre_ids": [
+      99,
+      10768
+    ],
+    "cached_at": "2025-10-12T06:15:27.330123"
+  },
+  "153966": {
+    "id": 153966,
+    "name": "Seconda Guerra a colori: la strada per la vittoria",
+    "original_name": "WWII in Color: Road to Victory",
+    "first_air_date": "2021-12-22",
+    "vote_average": 7.8,
+    "poster_path": "/j0WOWEkCzFXjpzkOVZ9eaWhNGOj.jpg",
+    "genre_ids": [
+      99,
+      10768
+    ],
+    "cached_at": "2025-10-12T06:15:27.381098"
+  },
+  "139155": {
+    "id": 139155,
+    "name": "Gli ansiosi",
+    "original_name": "Folk med ångest",
+    "first_air_date": "2021-12-29",
+    "vote_average": 6.2,
+    "poster_path": "/dDkCP2LzJXm1woZNM8FBOLz80EI.jpg",
+    "genre_ids": [
+      35,
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-12T06:15:27.454378"
+  },
+  "153588": {
+    "id": 153588,
+    "name": "Sulla scena del delitto: Il killer di Times Square",
+    "original_name": "Crime Scene: The Times Square Killer",
+    "first_air_date": "2021-12-29",
+    "vote_average": 6.8,
+    "poster_path": "/4bdnLlYi9F89H1NZMGdfAgV34hP.jpg",
+    "genre_ids": [
+      99,
+      80,
+      9648
+    ],
+    "cached_at": "2025-10-12T06:15:27.475343"
   }
 }
