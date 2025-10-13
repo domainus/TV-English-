@@ -56,17 +56,4 @@
     <desc lang="it">Italy - Serie C : Dolomiti Bellunesi vs Lumezzane</desc>
     <category lang="it">All Soccer Events</category>
   </programme>
-  <channel id="XiAnGrandPrixFinalEveningSession">
-    <display-name>Xi'An Grand Prix | Final | Evening Session</display-name>
-  </channel>
-  <programme start="20251013000000 +0200" stop="20251013140000 +0200" channel="XiAnGrandPrixFinalEveningSession">
-    <title lang="it">Inizia alle 14:00.</title>
-    <desc lang="it">Xi'An Grand Prix | Final | Evening Session.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251013140000 +0200" stop="20251013160000 +0200" channel="XiAnGrandPrixFinalEveningSession">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Xi'An Grand Prix | Final | Evening Session</desc>
-    <category lang="it">Snooker</category>
-  </programme>
 </tv>
