@@ -11,7 +11,7 @@
   <programme start="20251013203000 +0200" stop="20251013223000 +0200" channel="ItalySerieCTrentovsProVercelli">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Trento vs Pro Vercelli</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <programme start="20251013000000 +0200" stop="20251013203000 +0200" channel="ItalySerieCTrentovsProVercelli">
     <title lang="it">Inizia alle 20:30.</title>
@@ -21,7 +21,7 @@
   <programme start="20251013203000 +0200" stop="20251013223000 +0200" channel="ItalySerieCTrentovsProVercelli">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Trento vs Pro Vercelli</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="ItalySerieCDolomitiBellunesivsLumezzane">
     <display-name>Italy - Serie C : Dolomiti Bellunesi vs Lumezzane</display-name>
@@ -34,7 +34,7 @@
   <programme start="20251013203000 +0200" stop="20251013223000 +0200" channel="ItalySerieCDolomitiBellunesivsLumezzane">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Dolomiti Bellunesi vs Lumezzane</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <programme start="20251013000000 +0200" stop="20251013203000 +0200" channel="ItalySerieCDolomitiBellunesivsLumezzane">
     <title lang="it">Inizia alle 20:30.</title>
@@ -44,7 +44,7 @@
   <programme start="20251013203000 +0200" stop="20251013223000 +0200" channel="ItalySerieCDolomitiBellunesivsLumezzane">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Dolomiti Bellunesi vs Lumezzane</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <programme start="20251013000000 +0200" stop="20251013203000 +0200" channel="ItalySerieCDolomitiBellunesivsLumezzane">
     <title lang="it">Inizia alle 20:30.</title>
@@ -54,7 +54,7 @@
   <programme start="20251013203000 +0200" stop="20251013223000 +0200" channel="ItalySerieCDolomitiBellunesivsLumezzane">
     <title lang="it">Trasmesso in diretta.</title>
     <desc lang="it">Italy - Serie C : Dolomiti Bellunesi vs Lumezzane</desc>
-    <category lang="it">Soccer</category>
+    <category lang="it">All Soccer Events</category>
   </programme>
   <channel id="BrusselsATPStockholmATPAlmatyATPOsakaWTAampNingboWTAEarlyRounds">
     <display-name>Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds</display-name>
