@@ -69,19 +69,6 @@
     <desc lang="it">Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds</desc>
     <category lang="it">Tennis</category>
   </programme>
-  <channel id="XiAnGrandPrixFinalAfternoonSession">
-    <display-name>Xi'An Grand Prix | Final | Afternoon Session</display-name>
-  </channel>
-  <programme start="20251013000000 +0200" stop="20251013080000 +0200" channel="XiAnGrandPrixFinalAfternoonSession">
-    <title lang="it">Inizia alle 08:00.</title>
-    <desc lang="it">Xi'An Grand Prix | Final | Afternoon Session.</desc>
-    <category lang="it">Annuncio</category>
-  </programme>
-  <programme start="20251013080000 +0200" stop="20251013100000 +0200" channel="XiAnGrandPrixFinalAfternoonSession">
-    <title lang="it">Trasmesso in diretta.</title>
-    <desc lang="it">Xi'An Grand Prix | Final | Afternoon Session</desc>
-    <category lang="it">Snooker</category>
-  </programme>
   <channel id="XiAnGrandPrixFinalEveningSession">
     <display-name>Xi'An Grand Prix | Final | Evening Session</display-name>
   </channel>
