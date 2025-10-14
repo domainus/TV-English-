@@ -1,25 +1,65 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)" group-title="Eventi Live STREAMED",Fight | UFC Events | UFC MMA | UFC PPV |  (Italiano)
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="UFC Events | UFC MMA | UFC PPV | LIVE 24/7 (Italiano HD)" group-title="Fight | LIVE",UFC Events | UFC MMA | UFC PPV | LIVE 24/7 (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/BJIAnSRLnHZqYLkoqDOwRbzGbAEiAcPo/alpha/stream/ufc-events-ufc-mma-ufc-ppv/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)" group-title="Eventi Live STREAMED",Motor-sports | MotoGP Qualifying | MotoGP Main Race |  (Italiano)
+https://lb1.strmd.top/secure/vgKGrhIAbxiDckvRecMUIcCDXYBKhXJd/alpha/stream/ufc-events-ufc-mma-ufc-ppv/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="UFC Events | UFC MMA | UFC PPV | LIVE 24/7 (Italiano SD)" group-title="Fight | LIVE",UFC Events | UFC MMA | UFC PPV | LIVE 24/7 (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/aWJHElMXlwOuFjjTIudDUXTjAuSnPfJR/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCEbUQteERQheILCGkgYOkCSshb1xfmBIKWEXMYowqlDy-ktcj6O9GBe4mIQQA.webp" tvg-name="Football | Estonia vs Moldova | 18:00 (Italiano)" group-title="Eventi Live STREAMED",Football | Estonia vs Moldova | 18:00 (Italiano)
+https://lb4.strmd.top/secure/KLJHQXyaqZzcHKtUTYbdlbZCbxPUTOCG/alpha/stream/ufc-events-ufc-mma-ufc-ppv/14/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Motor-sports | LIVE",MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/CBOOEbAgAUUtyrgQtHdsvJEqmPLSNVAB/alpha/stream/estonia-vs-moldova/5/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Other | Tour of Holland, Prologue | 19:00 (Italiano)" group-title="Eventi Live STREAMED",Other | Tour of Holland, Prologue | 19:00 (Italiano)
+https://lb1.strmd.top/secure/barzfNRDqCDqUnqUhfPvaNSOSVoaBdFt/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Motor-sports | LIVE",MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/vsaSaixTRSQeatxHpandJGsRBCcEVvCX/alpha/stream/tour-of-holland-prologue/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdmAqCZpELxBYQ0kDBDUQJCyBRXm+YEi0i5jFGFUoe78o2pzP9vSaYowhQA.webp" tvg-name="Football | Portugal vs Hungary | 20:45 (Italiano)" group-title="Eventi Live STREAMED",Football | Portugal vs Hungary | 20:45 (Italiano)
+https://lb4.strmd.top/secure/OTXxeYTkoyAWdgqehMUtzteURixHKJEm/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Motor-sports | LIVE",DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/KROFNTatJYLVdZtqMNnVzIUPoTEcHXVb/alpha/stream/portugal-vs-hungary/4/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCH6hGKAR00gsIaSBghqIEpZApr8FkgpYRcnWFW6O78o2pzd+KzAYO7iYhBAA.webp" tvg-name="Football | Italy vs Israel | 20:45 (Italiano)" group-title="Eventi Live STREAMED",Football | Italy vs Israel | 20:45 (Italiano)
+https://lb4.strmd.top/secure/RZJPJpKsvFKONMeNuNwRtpfIczOKfbRZ/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Motor-sports | LIVE",Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/RjEncSjfRpuFWUtWLJBzcGYxzzWxBroJ/alpha/stream/italy-vs-israel/5/playlist.m3u8
+https://lb3.strmd.top/secure/RJFYIZFWONlXiHomzfjDRmnIfdnOTueG/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCEbUQteERQheILCGkgYOkCSshb1xfmBIKWEXMYowqlDy-ktcj6O9GBe4mIQQA.webp" tvg-name="Estonia vs Moldova | 14/10/2025 18:00 (Italiano HD)" group-title="Football | 14/10/2025",Estonia vs Moldova | 14/10/2025 18:00 (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb3.strmd.top/secure/XsWkBndjwBzONJVMySrUtwuYGAszITKT/alpha/stream/estonia-vs-moldova/5/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCEbUQteERQheILCGkgYOkCSshb1xfmBIKWEXMYowqlDy-ktcj6O9GBe4mIQQA.webp" tvg-name="Estonia vs Moldova | 14/10/2025 18:00 (Italiano SD)" group-title="Football | 14/10/2025",Estonia vs Moldova | 14/10/2025 18:00 (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb4.strmd.top/secure/CzkiOAlwIYEkNDXcHhrYqdFxOCBWyTKr/alpha/stream/estonia-vs-moldova/10/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Tour of Holland, Prologue | 14/10/2025 19:00 (Italiano HD)" group-title="Other | 14/10/2025",Tour of Holland, Prologue | 14/10/2025 19:00 (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb3.strmd.top/secure/yiThJEMNWGljcqgQeSiNWurUwwkBdTlB/alpha/stream/tour-of-holland-prologue/3/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Tour of Holland, Prologue | 14/10/2025 19:00 (Italiano SD)" group-title="Other | 14/10/2025",Tour of Holland, Prologue | 14/10/2025 19:00 (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb4.strmd.top/secure/ySMiHczSHYQCFkXIuFFMjEPvGGcojZAi/alpha/stream/tour-of-holland-prologue/5/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCETUBYJCCi8QhrCBIgUIakfM2QllkgpYRcxijCqUPD+UbaxXviswGAe4mIQQA.webp" tvg-name="Bayern München Basketball vs Olimpia Milano | 14/10/2025 20:30 (English HD)" group-title="Basketball | 14/10/2025",Bayern München Basketball vs Olimpia Milano | 14/10/2025 20:30 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb7.strmd.top/secure/zYiLbcPGQEiwjHfIgjstyIxlXqdXqqoM/alpha/stream/bayern-vs-olimpia-milano/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="Euroleague: FC Bayern Munich vs EA7 Emporio Armani Milan | 14/10/2025 20:30 (English HD)" group-title="Basketball | 14/10/2025",Euroleague: FC Bayern Munich vs EA7 Emporio Armani Milan | 14/10/2025 20:30 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb4.strmd.top/secure/BepdVzTqTDCOagyWxuoJcNZFncPIFNMp/charlie/stream/fc-bayern-munich-vs-ea7-emporio-armani-milan-1629466283/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCH6hGKAR00gsIaSBghqIEpZApr8FkgpYRcnWFW6O78o2pzd+KzAYO7iYhBAA.webp" tvg-name="Italy vs Israel | 14/10/2025 20:45 (Italiano HD)" group-title="Football | 14/10/2025",Italy vs Israel | 14/10/2025 20:45 (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb8.strmd.top/secure/svAYQJNfuSMfyOfhyalTOCcYAMvXTtFQ/alpha/stream/italy-vs-israel/5/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCH6hGKAR00gsIaSBghqIEpZApr8FkgpYRcnWFW6O78o2pzd+KzAYO7iYhBAA.webp" tvg-name="Italy vs Israel | 14/10/2025 20:45 (Italiano SD)" group-title="Football | 14/10/2025",Italy vs Israel | 14/10/2025 20:45 (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/hvIMoOgJhUybAyYaPbJYKYoZaKBTLWVP/alpha/stream/italy-vs-israel/10/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdmAqCZpELxBYQ0kDBDUQJCyBRXm+YEi0i5jFGFUoe78o2pzP9vSaYowhQA.webp" tvg-name="Portugal vs Hungary | 14/10/2025 20:45 (Italiano HD)" group-title="Football | 14/10/2025",Portugal vs Hungary | 14/10/2025 20:45 (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb8.strmd.top/secure/JGxWFVDZlJcGCrvQpbRnSBFXDkkUeVzy/alpha/stream/portugal-vs-hungary/4/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdmAqCZpELxBYQ0kDBDUQJCyBRXm+YEi0i5jFGFUoe78o2pzP9vSaYowhQA.webp" tvg-name="Portugal vs Hungary | 14/10/2025 20:45 (Italiano SD)" group-title="Football | 14/10/2025",Portugal vs Hungary | 14/10/2025 20:45 (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/nDzbPtCwMEvyyCtEsAtirKeztJpKuHvG/alpha/stream/portugal-vs-hungary/8/playlist.m3u8
