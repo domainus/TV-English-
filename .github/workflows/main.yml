@@ -17,9 +17,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          # Fetch all history for all tags and branches
-          fetch-depth: 0
       
       - name: Set up Python
         uses: actions/setup-python@v4
