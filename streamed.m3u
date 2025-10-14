@@ -3,31 +3,23 @@
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://gg.poocloud.in/wc_italy/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdmAqCZpELxBYQ0kDBDUQJCyBRXm+YEi0i5jFGFUoe78o2pzP9vSaYowhQA.webp" tvg-name="FOOTBALL | 20:45 | Portugal vs Hungary (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 20:45 | Portugal vs Hungary (Italiano HD)
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 20:15 | Stockholm Center Court: Matteo Berrettini vs Giulio Zeppieri (English HD)" group-title="Eventi Live STREAMED",TENNIS | 20:15 | Stockholm Center Court: Matteo Berrettini vs Giulio Zeppieri (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/XVDKGqbuOwhccFLSkpMymJSjHjRzeJBr/alpha/stream/portugal-vs-hungary/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdmAqCZpELxBYQ0kDBDUQJCyBRXm+YEi0i5jFGFUoe78o2pzP9vSaYowhQA.webp" tvg-name="FOOTBALL | 20:45 | Portugal vs Hungary (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 20:45 | Portugal vs Hungary (Italiano SD)
+https://lb5.strmd.top/secure/GxovOwMSjfPbaAIBQKJHAYcfvuMcpmCb/alpha/stream/stockholm-center-court-matteo-berrettini-vs-giulio-zeppieri/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/YvYltCNmfZkPhnsspetEjdWdeqAOIWSN/alpha/stream/portugal-vs-hungary/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="BASKETBALL | 20:30 | Euroleague: FC Bayern Munich vs EA7 Emporio Armani Milan (English HD)" group-title="Eventi Live STREAMED",BASKETBALL | 20:30 | Euroleague: FC Bayern Munich vs EA7 Emporio Armani Milan (English HD)
+https://lb6.strmd.top/secure/nnYdYZmBLTbjQhFzhhoWBsYwMPDIVkJf/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/PUaMNAjcOHaKaLLQdEwJhEMMKFdYjnfG/charlie/stream/fc-bayern-munich-vs-ea7-emporio-armani-milan-1629466283/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzNCETUBYJCCi8QhrCBIgUIakfM2QllkgpYRcxijCqUPD+UbaxXviswGAe4mIQQA.webp" tvg-name="BASKETBALL | 20:30 | Bayern München Basketball vs Olimpia Milano ( HD)" group-title="Eventi Live STREAMED",BASKETBALL | 20:30 | Bayern München Basketball vs Olimpia Milano ( HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/llwNCfmAOfJPxGlKjaZoxrHJzDSSwaAQ/echo/stream/bayern-vs-olimpia-milano-basketball-454312/1/playlist.m3u8
+https://lb6.strmd.top/secure/nMNSYlMmQJIyVBnuAPoPKkIRLeJsbaJt/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/PPEEclevXfPIWPkzTJOPYOQsGZNAIzuU/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
+https://lb1.strmd.top/secure/ONJFATFTVqsYIUvFfMRdhxZbsdMRgBlk/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/qhsqFLOtTvRMaQqHmfGdcNjhDwtilmkR/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/HTePRhBbPBEUTTzBtgPRraLqXUyeVRkl/alpha/stream/motogp-qualifying-motogp-main-race/2/playlist.m3u8
+https://lb1.strmd.top/secure/HeauCyhckojrPNPzkYSarTdRbbrcSkbo/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
