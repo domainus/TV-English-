@@ -51294,5 +51294,385 @@
       18
     ],
     "cached_at": "2025-10-13T06:19:26.138283"
+  },
+  "114171": {
+    "id": 114171,
+    "name": "Paik's Spirit",
+    "original_name": "백스피릿",
+    "first_air_date": "2021-10-01",
+    "vote_average": 6.3,
+    "poster_path": "/hxKJFEprJcLLyhHNwG0rVrtHsZB.jpg",
+    "genre_ids": [
+      10767
+    ],
+    "cached_at": "2025-10-14T06:18:33.283523"
+  },
+  "133064": {
+    "id": 133064,
+    "name": "Gatte per magia",
+    "original_name": "Scaredy Cats",
+    "first_air_date": "2021-10-01",
+    "vote_average": 6.6,
+    "poster_path": "/vhgh0RZgN3h54Xlpvuz6Atruq7W.jpg",
+    "genre_ids": [
+      10751,
+      10765,
+      35,
+      10762
+    ],
+    "cached_at": "2025-10-14T06:18:33.293759"
+  },
+  "133090": {
+    "id": 133090,
+    "name": "Baking Impossible",
+    "original_name": "Baking Impossible",
+    "first_air_date": "2021-10-06",
+    "vote_average": 7.0,
+    "poster_path": "/hqvELiloDxYwAv1SF0Nkg7vmbfv.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-14T06:18:33.328057"
+  },
+  "133153": {
+    "id": 133153,
+    "name": "Cuccioli cercano casa",
+    "original_name": "Puppy Place",
+    "first_air_date": "2021-10-14",
+    "vote_average": 9.6,
+    "poster_path": "/3xhBQwvhecY7bfJO8SUSmxi9F4r.jpg",
+    "genre_ids": [
+      10762
+    ],
+    "cached_at": "2025-10-14T06:18:33.354693"
+  },
+  "134366": {
+    "id": 134366,
+    "name": "Life's a Glitch with Julien Bam",
+    "original_name": "Life's a Glitch with Julien Bam",
+    "first_air_date": "2021-10-21",
+    "vote_average": 5.3,
+    "poster_path": "/nZWl2sXnB0ozd1f3v6n79A1RKbQ.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-14T06:18:33.357303"
+  },
+  "124578": {
+    "id": 124578,
+    "name": "More than blue",
+    "original_name": "比悲傷更悲傷的故事：影集版",
+    "first_air_date": "2021-10-22",
+    "vote_average": 7.3,
+    "poster_path": "/wxRVfOEPSDikkBIugO76CSVDxc0.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-14T06:18:33.399059"
+  },
+  "133765": {
+    "id": 133765,
+    "name": "G.E.O. Más allá del límite",
+    "original_name": "G.E.O. Más allá del límite",
+    "first_air_date": "2021-10-15",
+    "vote_average": 7.6,
+    "poster_path": "/nyWRLBHO18qtBRsz9dCigsG0iFm.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-14T06:18:33.424058"
+  },
+  "133537": {
+    "id": 133537,
+    "name": "Pretty Smart",
+    "original_name": "Pretty Smart",
+    "first_air_date": "2021-10-08",
+    "vote_average": 6.2,
+    "poster_path": "/nR1UP7VoF9D7OZLcBWCWuPVqjjM.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-14T06:18:33.426609"
+  },
+  "133637": {
+    "id": 133637,
+    "name": "La Via per le Stelle",
+    "original_name": "Among the Stars",
+    "first_air_date": "2021-10-06",
+    "vote_average": 7.1,
+    "poster_path": "/uEDAJZtZpcxjMSyvPVMI1c9zvms.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-14T06:18:33.467805"
+  },
+  "133356": {
+    "id": 133356,
+    "name": "L'amore è cieco: Brasile",
+    "original_name": "Casamento às Cegas: Brasil",
+    "first_air_date": "2021-10-06",
+    "vote_average": 6.5,
+    "poster_path": "/718VDCzJKzfCSepnG7MeEoprZ5B.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-14T06:18:33.497694"
+  },
+  "134367": {
+    "id": 134367,
+    "name": "Sesso, amore e goop",
+    "original_name": "Sex, Love & Goop",
+    "first_air_date": "2021-10-21",
+    "vote_average": 6.7,
+    "poster_path": "/rYDiYyEeP1zRIa2tBqIF1VVIkFy.jpg",
+    "genre_ids": [
+      10764,
+      10767,
+      99
+    ],
+    "cached_at": "2025-10-14T06:18:33.500324"
+  },
+  "136063": {
+    "id": 136063,
+    "name": "Fall In Love With Him",
+    "original_name": "爱上萌面大人",
+    "first_air_date": "2021-10-10",
+    "vote_average": 3.0,
+    "poster_path": "/xKDIdhG9YFWEovF3dn3By4z1DMa.jpg",
+    "genre_ids": [
+      10765,
+      35
+    ],
+    "cached_at": "2025-10-14T06:18:33.541730"
+  },
+  "133620": {
+    "id": 133620,
+    "name": "Il mondo di Karma",
+    "original_name": "Karma’s World",
+    "first_air_date": "2021-10-15",
+    "vote_average": 7.2,
+    "poster_path": "/xWoTBTcWicfHnB7hRq1EDKdV1Mw.jpg",
+    "genre_ids": [
+      16,
+      35,
+      10751,
+      10762
+    ],
+    "cached_at": "2025-10-14T06:18:33.572209"
+  },
+  "135271": {
+    "id": 135271,
+    "name": "커피 한잔 할까요?",
+    "original_name": "커피 한잔 할까요?",
+    "first_air_date": "2021-10-24",
+    "vote_average": 6.1,
+    "poster_path": "/3wRTPDj1a6wGrrBqBeQsp74Pl22.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-14T06:18:33.574707"
+  },
+  "134364": {
+    "id": 134364,
+    "name": "Adventure Beast",
+    "original_name": "Adventure Beast",
+    "first_air_date": "2021-10-22",
+    "vote_average": 6.0,
+    "poster_path": "/drRzj5fCk5ndIhQmS2dH0R4OLKG.jpg",
+    "genre_ids": [
+      35,
+      16
+    ],
+    "cached_at": "2025-10-14T06:18:33.612785"
+  },
+  "134902": {
+    "id": 134902,
+    "name": "Caccia al killer dall'impermeabile giallo",
+    "original_name": "레인코트 킬러: 유영철을 추격하다",
+    "first_air_date": "2021-10-22",
+    "vote_average": 6.7,
+    "poster_path": "/h2YyMzF3tlCc2Fa6sXkIGU6K3mv.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-14T06:18:33.637438"
+  },
+  "132141": {
+    "id": 132141,
+    "name": "Maya e i tre guerrieri",
+    "original_name": "Maya and the Three",
+    "first_air_date": "2021-10-22",
+    "vote_average": 7.9,
+    "poster_path": "/rj9vGEFw7r13wagfmLCgdO4JrFb.jpg",
+    "genre_ids": [
+      16,
+      10751,
+      10759,
+      35,
+      10762
+    ],
+    "cached_at": "2025-10-14T06:18:33.643603"
+  },
+  "127426": {
+    "id": 127426,
+    "name": "Il tempo che ti do",
+    "original_name": "El tiempo que te doy",
+    "first_air_date": "2021-10-29",
+    "vote_average": 6.932,
+    "poster_path": "/loAhiXxBZj3TwZlNwNho1AA5AWL.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-14T06:18:33.685423"
+  },
+  "133089": {
+    "id": 133089,
+    "name": "Colonia Dignidad: una setta tedesca in Cile",
+    "original_name": "Colonia Dignidad: Una secta alemana en Chile",
+    "first_air_date": "2021-10-01",
+    "vote_average": 6.6,
+    "poster_path": "/bNELomN08aduocxuxcQtQ6JAS8i.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-14T06:18:33.708880"
+  },
+  "134601": {
+    "id": 134601,
+    "name": "FC Bayern Monaco - Dietro la leggenda",
+    "original_name": "FC Bayern - Behind the Legend",
+    "first_air_date": "2021-11-02",
+    "vote_average": 8.0,
+    "poster_path": "/3yV8xcBFfnKdrs07mcStKMzC5ir.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-14T06:18:33.713577"
+  },
+  "119881": {
+    "id": 119881,
+    "name": "Gloria",
+    "original_name": "Gloria",
+    "first_air_date": "2021-03-18",
+    "vote_average": 6.731,
+    "poster_path": "/ovCkDohKM4e0QqFtfp3LbRzYAtN.jpg",
+    "genre_ids": [
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-14T06:18:33.765527"
+  },
+  "152529": {
+    "id": 152529,
+    "name": "G.O.A.T.",
+    "original_name": "G.O.A.T.",
+    "first_air_date": "2021-11-06",
+    "vote_average": 7.0,
+    "poster_path": "/cm7KvK6idNq95w3nrsyYmFN4RIC.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-14T06:18:33.779627"
+  },
+  "132316": {
+    "id": 132316,
+    "name": "The Unlikely Murderer",
+    "original_name": "Den osannolika mördaren",
+    "first_air_date": "2021-11-05",
+    "vote_average": 6.656,
+    "poster_path": "/qgfEcJz4clFcDRqIzjsFtfGvsOa.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-14T06:18:33.784607"
+  },
+  "137899": {
+    "id": 137899,
+    "name": "¿Dónde está Marta?",
+    "original_name": "¿Dónde está Marta?",
+    "first_air_date": "2021-11-05",
+    "vote_average": 7.2,
+    "poster_path": "/dP82yeMMifaw1ZmaJjxOJAn8w0n.jpg",
+    "genre_ids": [
+      99,
+      80,
+      9648
+    ],
+    "cached_at": "2025-10-14T06:18:33.829576"
+  },
+  "29143": {
+    "id": 29143,
+    "name": "Swap Shop - Mercatino alla radio",
+    "original_name": "Swap Shop",
+    "first_air_date": "2021-11-09",
+    "vote_average": 6.8,
+    "poster_path": "/gw0lDuHkE96s3NbrpAmQJfq7zid.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-14T06:18:33.851165"
+  },
+  "137003": {
+    "id": 137003,
+    "name": "Caccia ai killer",
+    "original_name": "Catching Killers",
+    "first_air_date": "2021-11-04",
+    "vote_average": 6.8,
+    "poster_path": "/628U5ybT3fV0gGbT41Lk3R15Ya0.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-14T06:18:33.856351"
+  },
+  "137646": {
+    "id": 137646,
+    "name": "Animal: il meraviglioso regno animale",
+    "original_name": "Animal",
+    "first_air_date": "2021-11-10",
+    "vote_average": 8.1,
+    "poster_path": "/dTUzqX7Ude2JskIBQVgldRLEaaS.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-14T06:18:33.904745"
+  },
+  "103310": {
+    "id": 103310,
+    "name": "Novoland: Pearl Eclipse",
+    "original_name": "斛珠夫人",
+    "first_air_date": "2021-11-10",
+    "vote_average": 7.1,
+    "poster_path": "/gAEcYKogiPsy867RhrtFrTgGbB5.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-14T06:18:33.929528"
+  },
+  "137208": {
+    "id": 137208,
+    "name": "Always Jane",
+    "original_name": "Always Jane",
+    "first_air_date": "2021-11-11",
+    "vote_average": 5.9,
+    "poster_path": "/ifQrJYJUD6rhHs0tb8LIFgypu33.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-14T06:18:33.967965"
+  },
+  "138400": {
+    "id": 138400,
+    "name": "Love Never Lies - Ogni bugia ha un prezzo",
+    "original_name": "Amor con fianza",
+    "first_air_date": "2021-11-11",
+    "vote_average": 5.9,
+    "poster_path": "/uIcN8B7UZXLZayrt2DNEKyoVoFX.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-14T06:18:33.999410"
   }
 }
