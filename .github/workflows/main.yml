@@ -36,6 +36,11 @@ jobs:
         run: |
           python scripts/lista.py
       
+      - name: Pull latest changes
+        run: |
+          git config pull.rebase false
+          git pull origin main
+      
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
