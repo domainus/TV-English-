@@ -51674,5 +51674,278 @@
       10764
     ],
     "cached_at": "2025-10-14T06:18:33.999410"
+  },
+  "115466": {
+    "id": 115466,
+    "name": "मुंबई डायरीज",
+    "original_name": "मुंबई डायरीज",
+    "first_air_date": "2021-09-09",
+    "vote_average": 7.2,
+    "poster_path": "/jDZXjtO3i1WpePWmg7paVKNpdfz.jpg",
+    "genre_ids": [
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-15T06:18:20.267614"
+  },
+  "133815": {
+    "id": 133815,
+    "name": "今天不是最后一天",
+    "original_name": "今天不是最后一天",
+    "first_air_date": "2021-09-15",
+    "vote_average": 8.4,
+    "poster_path": "/cmBO8F07NnjwTYy7hd0dyVjMs1R.jpg",
+    "genre_ids": [
+      80,
+      35
+    ],
+    "cached_at": "2025-10-15T06:18:20.288432"
+  },
+  "8620": {
+    "id": 8620,
+    "name": "Do, Re & Mi",
+    "original_name": "Do, Re & Mi",
+    "first_air_date": "2021-09-16",
+    "vote_average": 6.0,
+    "poster_path": "/jYCbHUMifYMVxXPV2MokgycPLsw.jpg",
+    "genre_ids": [
+      16,
+      10762
+    ],
+    "cached_at": "2025-10-15T06:18:20.341135"
+  },
+  "133060": {
+    "id": 133060,
+    "name": "Programador lindo",
+    "original_name": "程序员那么可爱",
+    "first_air_date": "2021-09-10",
+    "vote_average": 7.3,
+    "poster_path": "/nzD2DWONUg80vQFyScOOyBMOgnU.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-15T06:18:20.377455"
+  },
+  "131478": {
+    "id": 131478,
+    "name": "Little Ellen",
+    "original_name": "Little Ellen",
+    "first_air_date": "2021-09-13",
+    "vote_average": 1.2,
+    "poster_path": "/avs0E7SmdKtmqdg4f5mILMnKIRY.jpg",
+    "genre_ids": [
+      16,
+      10762
+    ],
+    "cached_at": "2025-10-15T06:18:20.377470"
+  },
+  "133814": {
+    "id": 133814,
+    "name": "Il ritorno dei Rafter",
+    "original_name": "Back to the Rafters",
+    "first_air_date": "2021-09-17",
+    "vote_average": 6.7,
+    "poster_path": "/ohRxTCN0GBZKrp694vZxTr76UJl.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-15T06:18:20.395837"
+  },
+  "133473": {
+    "id": 133473,
+    "name": "亲爱的吾兄",
+    "original_name": "亲爱的吾兄",
+    "first_air_date": "2021-09-15",
+    "vote_average": 6.667,
+    "poster_path": "/yx1rozSB3ilTCKhsZ0kygxLeCNU.jpg",
+    "genre_ids": [
+      35,
+      18,
+      10765
+    ],
+    "cached_at": "2025-10-15T06:18:20.414284"
+  },
+  "130077": {
+    "id": 130077,
+    "name": "Chicago Party Aunt",
+    "original_name": "Chicago Party Aunt",
+    "first_air_date": "2021-09-17",
+    "vote_average": 6.2,
+    "poster_path": "/2iGvVnhvIpzyPLqK18LvgQ3PgPk.jpg",
+    "genre_ids": [
+      16,
+      35
+    ],
+    "cached_at": "2025-10-15T06:18:20.431220"
+  },
+  "135037": {
+    "id": 135037,
+    "name": "Lay Lay - Un'amica magica",
+    "original_name": "That Girl Lay Lay",
+    "first_air_date": "2021-09-23",
+    "vote_average": 6.6,
+    "poster_path": "/zqHF8bo8YjqMKZoHqXCAZRDiwoS.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-15T06:18:20.466115"
+  },
+  "126892": {
+    "id": 126892,
+    "name": "国子监来了个女弟子",
+    "original_name": "国子监来了个女弟子",
+    "first_air_date": "2021-09-22",
+    "vote_average": 6.3,
+    "poster_path": "/l6IRu903TWhvDwS7WjU0poxrBUN.jpg",
+    "genre_ids": [
+      18,
+      9648,
+      35
+    ],
+    "cached_at": "2025-10-15T06:18:20.493107"
+  },
+  "132158": {
+    "id": 132158,
+    "name": "Bangkok Breaking",
+    "original_name": "มหานครเมืองลวง",
+    "first_air_date": "2021-09-23",
+    "vote_average": 6.7,
+    "poster_path": "/qhdNHqEapVtr27Yzp886NFzryiG.jpg",
+    "genre_ids": [
+      80
+    ],
+    "cached_at": "2025-10-15T06:18:20.498030"
+  },
+  "129473": {
+    "id": 129473,
+    "name": "신사와 아가씨",
+    "original_name": "신사와 아가씨",
+    "first_air_date": "2021-09-25",
+    "vote_average": 6.967,
+    "poster_path": "/lM1WjvQcJkFMGLmfAqtDLlHIidT.jpg",
+    "genre_ids": [
+      35,
+      18,
+      10751
+    ],
+    "cached_at": "2025-10-15T06:18:20.546045"
+  },
+  "109369": {
+    "id": 109369,
+    "name": "Glória",
+    "original_name": "Glória",
+    "first_air_date": "2021-11-05",
+    "vote_average": 6.348,
+    "poster_path": "/3EAtpRKslBSiw9sDt32CmLFjprA.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-15T06:18:20.553210"
+  },
+  "132583": {
+    "id": 132583,
+    "name": "Crime Stories: India Detectives",
+    "original_name": "Crime Stories: India Detectives",
+    "first_air_date": "2021-09-22",
+    "vote_average": 6.5,
+    "poster_path": "/w8oUG8e72MeyGyXhGtOpau7O05q.jpg",
+    "genre_ids": [
+      80,
+      99,
+      9648
+    ],
+    "cached_at": "2025-10-15T06:18:20.584085"
+  },
+  "133106": {
+    "id": 133106,
+    "name": "Wolfboy e la Fabbrica del Tutto",
+    "original_name": "Wolfboy and the Everything Factory",
+    "first_air_date": "2021-09-23",
+    "vote_average": 8.5,
+    "poster_path": "/4jALkDRu045JOzH7wFYdeFJe03s.jpg",
+    "genre_ids": [
+      10762,
+      16
+    ],
+    "cached_at": "2025-10-15T06:18:20.606083"
+  },
+  "134678": {
+    "id": 134678,
+    "name": "Jailbirds New Orleans",
+    "original_name": "Jailbirds New Orleans",
+    "first_air_date": "2021-09-24",
+    "vote_average": 6.1,
+    "poster_path": "/pA7urHEBVDSJR7Cn7bANRbhwly7.jpg",
+    "genre_ids": [
+      99,
+      10764
+    ],
+    "cached_at": "2025-10-15T06:18:20.640274"
+  },
+  "280946": {
+    "id": 280946,
+    "name": "태풍상사",
+    "original_name": "태풍상사",
+    "first_air_date": "2025-10-11",
+    "vote_average": 6.667,
+    "poster_path": "/k60BloWxlWTpVumWR4cioC8OLi1.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-15T06:18:20.675141"
+  },
+  "130969": {
+    "id": 130969,
+    "name": "Metal Shop Masters: Sfide a ferro e fuoco",
+    "original_name": "Metal Shop Masters",
+    "first_air_date": "2021-09-10",
+    "vote_average": 5.8,
+    "poster_path": "/gZWZxoeTYWEweD2nzUHs75axdLO.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-15T06:18:20.710621"
+  },
+  "131295": {
+    "id": 131295,
+    "name": "LuLaRich",
+    "original_name": "LuLaRich",
+    "first_air_date": "2021-09-09",
+    "vote_average": 6.5,
+    "poster_path": "/nbhM0W05yLRVXu3wyhtPNwVfTyF.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-15T06:18:20.770752"
+  },
+  "129604": {
+    "id": 129604,
+    "name": "Ada la scienziata",
+    "original_name": "Ada Twist, Scientist",
+    "first_air_date": "2021-09-28",
+    "vote_average": 6.2,
+    "poster_path": "/556eVouBVPqYVvUl5POqswEfFnq.jpg",
+    "genre_ids": [
+      10762,
+      16,
+      35,
+      10751
+    ],
+    "cached_at": "2025-10-15T06:18:20.789192"
+  },
+  "127366": {
+    "id": 127366,
+    "name": "Splinter Cell: Deathwatch",
+    "original_name": "Splinter Cell: Deathwatch",
+    "first_air_date": "2025-10-14",
+    "vote_average": 6.6,
+    "poster_path": "/tgKYnJlze79IUKkPmtsW2nSUeeB.jpg",
+    "genre_ids": [
+      16,
+      10759
+    ],
+    "cached_at": "2025-10-15T06:18:20.818656"
   }
 }
