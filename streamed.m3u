@@ -1,41 +1,37 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano HD)" group-title="Eventi Live STREAMED",OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/MbVYVbnBteXcqWFuYvROAfckAHxogLMV/alpha/stream/firenze-w-vs-macerata-w/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano SD)" group-title="Eventi Live STREAMED",OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/eMhKrkUGNGFFDIvLCunlWitTJXlZkgCO/alpha/stream/firenze-w-vs-macerata-w/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/RJMFCkxwdlBKnvPOSNsIMpYAVwiTAVDq/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/VbgRHhFRdoVTNlqsaXUBReyheBIPzMCJ/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/qEleBfGPoqzTgGScHBdsQUcBVWxkOTsr/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/JXkHSMcjqBhEPxcrKGKmrkQMRarOydsW/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKijAoQ-QUhAwdILCBIhtJs4cOJz+YEgpYRcxptUoeYMvCLU5nvb0YN7iYhBAA.webp" tvg-name="FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/RNGCUdInorJDtthCqeaHJqRKQAQYaopU/alpha/stream/roma-w-vs-barcelona-w/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano HD)" group-title="Eventi Live STREAMED",OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/OZrVchNGDhebRTmRegrYTjYymgCwclKx/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano SD)" group-title="Eventi Live STREAMED",OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano SD)
+https://lb3.strmd.top/secure/qJjGAvfKnFRBLjXFRrmLndFoNQUhgzmh/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano HD)" group-title="Eventi Live STREAMED",OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/gAkmHzMXVoHraOilrULmcohZGDovyHNV/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/3/playlist.m3u8
+https://lb2.strmd.top/secure/wIimIRdetGOjSZiDilbncwAztBwFXpta/alpha/stream/firenze-w-vs-macerata-w/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano SD)" group-title="Eventi Live STREAMED",OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb8.strmd.top/secure/lTIbQmYlJwgIQuYyGuQOghIEKTXjtNYJ/alpha/stream/firenze-w-vs-macerata-w/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb9.strmd.top/secure/oCagmQmkttQVPoitFTfswHsZTGldaMOR/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb10.strmd.top/secure/DWeXSZLqgNhnUzjDGAmjfDktielrrTtO/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb10.strmd.top/secure/MfmgGTrPrtKbOcpyWQGtYodtzzihOHyf/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb10.strmd.top/secure/pDVizYALPkGIcVKtlzULQquMBlxNUnpi/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKijAoQ-QUhAwdILCBIhtJs4cOJz+YEgpYRcxptUoeYMvCLU5nvb0YN7iYhBAA.webp" tvg-name="FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb10.strmd.top/secure/jnviGQaFCcqEArWKTBbgYfhNxxgiIuHC/alpha/stream/roma-w-vs-barcelona-w/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzduDiN6ABhDUQvEFhAkQ5mPpARrISyBZIKWEXMYowqlD0-lG1OW98VmAwT3ExCCA.webp" tvg-name="BASKETBALL | 21:00 | Pallacanestro Trieste vs Galatasaray SK (English HD)" group-title="Eventi Live STREAMED",BASKETBALL | 21:00 | Pallacanestro Trieste vs Galatasaray SK (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/dTVzrhoHgfvWMkwKxrXWawVrBUiVekiV/alpha/stream/trieste-vs-galatasaray/2/playlist.m3u8
+https://lb9.strmd.top/secure/MApbehQKvIljDRgWYuGVTakFjbfCyyFU/alpha/stream/trieste-vs-galatasaray/1/playlist.m3u8
