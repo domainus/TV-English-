@@ -1,13 +1,29 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/xksILgzTbukBgXWGzglPftzwuytxSIHi/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/DDeDKQARUHsYPpRlnWpvcRVMJLXhWqCK/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKijAoQ-QUhAwdILCBIhtJs4cOJz+YEgpYRcxptUoeYMvCLU5nvb0YN7iYhBAA.webp" tvg-name="FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)
+https://lb1.strmd.top/secure/XWriJvioeiTJhhtxjIYPCHbNMIqOjRQY/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/AUrsQpzpbXpxhnMyBzQECojIrVPTqZEs/charlie/stream/roma-w-vs-barcelona-w-1472395/1/playlist.m3u8
+https://lb1.strmd.top/secure/ICfprERuWDezramynibkVlNxgtFBhxvo/alpha/stream/motogp-qualifying-motogp-main-race/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano HD)" group-title="Eventi Live STREAMED",OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb3.strmd.top/secure/JPWgXeiDuNUDPMXaPpKlggPLIxpRBdBV/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano SD)" group-title="Eventi Live STREAMED",OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb5.strmd.top/secure/FgFDSTGLXEZvxHaSqaDhQBxcZrIyXRuY/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzduDiN6ABhDUQvEFhAkQ5mPpARrISyBZIKWEXMYowqlD0-lG1OW98VmAwT3ExCCA.webp" tvg-name="BASKETBALL | 21:00 | Pallacanestro Trieste vs Galatasaray SK (English HD)" group-title="Eventi Live STREAMED",BASKETBALL | 21:00 | Pallacanestro Trieste vs Galatasaray SK (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/MDiBpwjeuulQgDlLJqHYfxucZJqPaFoB/charlie/stream/trieste-vs-galatasaray-1629466359/1/playlist.m3u8
+https://lb4.strmd.top/secure/MufhhMiBfoKzocVDSMsYzDsDDjkNmRaO/alpha/stream/trieste-vs-galatasaray/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKijAoQ-QUhAwdILCBIhtJs4cOJz+YEgpYRcxptUoeYMvCLU5nvb0YN7iYhBAA.webp" tvg-name="FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/PzWTBKigfcHswnekMFJyLyQfyqnIYkvY/charlie/stream/roma-w-vs-barcelona-w-1472395/1/playlist.m3u8
