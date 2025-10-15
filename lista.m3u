@@ -15,8 +15,6 @@ https://vavoo.to/vavoo-iptv/play/6087746837741766a74b3
 https://dlhd.dad/watch.php?id=868
 #EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSdt3E_MmezXRKr7QOUEr0leEcErbaNGqbog&s" group-title="Altro",ALTO ADIGE TV
 https://vavoo.to/vavoo-iptv/play/68845853044f9c95e43e
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/2560px-2018_Animal_Planet_logo.svg.png" group-title="Altro",ANIMAL PLANET
-https://vavoo.to/vavoo-iptv/play/190887752614ef25f5e1fd
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.omceo.bg.it/images/loghi/antenna-2.png" group-title="Altro",ANTENNA 2
 https://vavoo.to/vavoo-iptv/play/30140012609b4bf5e8d3b7
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",ANTENNA SICILIA
@@ -292,6 +290,8 @@ https://dlhd.dad/watch.php?id=851
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
 
+#EXTINF:-1 tvg-id="rai3.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-3-it.png" group-title="Rai",RAI 3
+https://vavoo.to/vavoo-iptv/play/869117599e36bb7de752c
 #EXTINF:-1 tvg-id="rai3.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-3-it.png" group-title="Rai",RAI 3 (D)
 https://dlhd.dad/watch.php?id=852
 #EXTINF:-1 tvg-id="rai3.it" tvg-name="RAI 3" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-3-it.png" group-title="Rai",RAI 3 (MPD)
@@ -380,6 +380,8 @@ http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&force
 https://vavoo.to/vavoo-iptv/play/30648111922089ed4a29cc
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN COMEDY MOVIES
 https://vavoo.to/vavoo-iptv/play/11093727783b90d83934c6
+#EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN DRAMA
+https://vavoo.to/vavoo-iptv/play/209862439074120bb15132
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN FAMILY
 https://vavoo.to/vavoo-iptv/play/3902650955a82543dc27a4
 #EXTINF:-1 tvg-id="" tvg-logo="https://img.utdstc.com/icon/7f6/a4a/7f6a4a47aa35e90d889cb8e71ed9a6930fe5832219371761736e87e880f85a5f:200" group-title="Film - Serie TV",RAKUTEN TOP FREE
@@ -390,12 +392,12 @@ https://vavoo.to/vavoo-iptv/play/860912269147f85ae7a8
 https://vavoo.to/vavoo-iptv/play/4031388312f5ebcfc7dc6d
 #EXTINF:-1 tvg-id="rdssocialtv.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/RDS-Logo.png/260px-RDS-Logo.png" group-title="Musica",RDS SOCIAL TV
 https://vavoo.to/vavoo-iptv/play/36560804080912cdf76cbf
-#EXTINF:-1 tvg-id="real.time.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/real-time-it.png" group-title="Altro",REAL TIME
-https://vavoo.to/vavoo-iptv/play/2251241999722578d55332
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Reggio_TV_logo.png/640px-Reggio_TV_logo.png" group-title="Altro",REGGIO TV
 https://vavoo.to/vavoo-iptv/play/216554978929adb39fe170
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/rei-tv-it.png?raw=true" group-title="Altro",REI TV
 https://vavoo.to/vavoo-iptv/play/3075118500c67364486aa6
+#EXTINF:-1 tvg-id="rete.4.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rete4-it.png" group-title="Mediaset",RETE 4
+https://vavoo.to/vavoo-iptv/play/22357320045f329c720096
 #EXTINF:-1 tvg-id="rete.4.it" tvg-name="RETE 4" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rete4-it.png" group-title="Mediaset",RETE 4 (MPD)
 https://live02-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/index.m3u8
 
@@ -443,6 +445,8 @@ https://vavoo.to/vavoo-iptv/play/1902695925283bcfc576b0
 https://vavoo.to/vavoo-iptv/play/1482866609814ff0b05ac7
 #EXTINF:-1 tvg-id="sky.cinema.action.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Film - Serie TV",SKY CINEMA ACTION
 https://vavoo.to/vavoo-iptv/play/11441287266db50fc09b62
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Film - Serie TV",SKY CINEMA ACTION (BACKUP)
+https://vavoo.to/vavoo-iptv/play/2242741766a460e21385e6
 #EXTINF:-1 tvg-id="sky.cinema.action.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-action-it.png" group-title="Film - Serie TV",SKY CINEMA ACTION (D)
 https://dlhd.dad/watch.php?id=861
 #EXTINF:-1 tvg-id="sky.cinema.collection.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-collection-it.png" group-title="Film - Serie TV",SKY CINEMA COLLECTION
@@ -727,7 +731,7 @@ https://example.com.m3u8
 #EXTINF:-1 tvg-id="fifau20wcmoroccou20vsfranceu20" tvg-name="Soccer | FIFA U20 WC : Morocco U20 vs France U20 (22:00)" tvg-logo="https://www.lerugbynistere.fr/imgs/teams/france.png" group-title="Eventi Live DLHD",Soccer | FIFA U20 WC : Morocco U20 vs France U20 (22:00)
 https://dlhd.dad/watch.php?id=882
 
-#EXTINF:-1 tvg-id="brusselsatpstockholmatpalmatyatposakawtaampningbowtaearlyrounds" tvg-name="Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (11:30)" tvg-logo="https://assets.stickpng.com/thumbs/6266993f2c88722059d58711.png" group-title="Eventi Live DLHD",Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (11:30)
+#EXTINF:-1 tvg-id="brusselsatpstockholmatpalmatyatposakawtaampningbowtaearlyrounds" tvg-name="Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (11:30)" tvg-logo="https://static.tildacdn.com/tild6165-3938-4138-a438-336339313333/logo.png" group-title="Eventi Live DLHD",Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (11:30)
 https://dlhd.dad/watch.php?id=576
 
 #EXTINF:-1 tvg-id="seriea1womenagilvolleynovaravsfenerachieri" tvg-name="Volleyball | Serie A1 Women : Agil Volley Novara vs. Fenera Chieri (19:15)" tvg-logo="https://www.chieri76.it/wp-content/uploads/2024/09/Logo-RMFC76.png" group-title="Eventi Live DLHD",Volleyball | Serie A1 Women : Agil Volley Novara vs. Fenera Chieri (19:15)
@@ -743,23 +747,59 @@ https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/bMzJMdDtMxpPwdhLEIGzPVezlfhSdhXO/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
+https://lb9.strmd.top/secure/hAMgJhhnpHWYuSFHatCKLwOMVsxSmjJE/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb9.strmd.top/secure/gQWwpFdZRMRanuoOstvjksHovjCjCfmk/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb6.strmd.top/secure/KsRsECecdDYGBouBxDueCDliyidjsERK/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb6.strmd.top/secure/EWOsanKHIagEtaNbSZLIpIpGIAqzwpxj/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 13:45 | Brussels Centre Court: Yannick Hanfmann vs Matteo Arnaldi (English HD)" group-title="Eventi Live STREAMED",TENNIS | 13:45 | Brussels Centre Court: Yannick Hanfmann vs Matteo Arnaldi (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb7.strmd.top/secure/qoCiOOjuaJWwBSwHbuOzSNQvxUtWuWpO/alpha/stream/brussels-centre-court-yannick-hanfmann-vs-matteo-arnaldi/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 14:00 | Stockholm Center Court: Arthur Fery vs Lorenzo Sonego (English HD)" group-title="Eventi Live STREAMED",TENNIS | 14:00 | Stockholm Center Court: Arthur Fery vs Lorenzo Sonego (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb7.strmd.top/secure/wQVmmoDSEzQhvhozxxNpEphLHYNoCeGf/alpha/stream/stockholm-center-court-arthur-fery-vs-lorenzo-sonego/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 15:00 | Stage 1 | Tour of Holland (Italiano HD)" group-title="Eventi Live STREAMED",OTHER | 15:00 | Stage 1 | Tour of Holland (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb6.strmd.top/secure/MKWjJndeZrVpNcjPWwKUIayBbUoKbGde/alpha/stream/stage-1-tour-of-holland/3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 15:00 | Stage 1 | Tour of Holland (Italiano SD)" group-title="Eventi Live STREAMED",OTHER | 15:00 | Stage 1 | Tour of Holland (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/OjhBOhcrIZBgbFtePKNsuPxocFhwkrXo/alpha/stream/stage-1-tour-of-holland/5/playlist.m3u8
+https://lb6.strmd.top/secure/NVhYpLbDEaotrJMajtxjIHMhZMBzJcNe/alpha/stream/stage-1-tour-of-holland/5/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano HD)" group-title="Eventi Live STREAMED",OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb6.strmd.top/secure/RqhhnIXALpzsAaBAkhfIqMdHQvbivFil/alpha/stream/firenze-w-vs-macerata-w/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano SD)" group-title="Eventi Live STREAMED",OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb9.strmd.top/secure/VuTNBXQdhzqibxyLbTsrcBdzaXRNewmV/alpha/stream/firenze-w-vs-macerata-w/3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano HD)" group-title="Eventi Live STREAMED",OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/CiMNJxDlkMIvwRPkivTxKIxzuOQhqnHi/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzduDiN6ABhDUQvEFhAkQ5mPpARrISyBZIKWEXMYowqlD0-lG1OW98VmAwT3ExCCA.webp" tvg-name="BASKETBALL | 21:00 | Pallacanestro Trieste vs Galatasaray SK (English HD)" group-title="Eventi Live STREAMED",BASKETBALL | 21:00 | Pallacanestro Trieste vs Galatasaray SK (English HD)
+https://lb9.strmd.top/secure/zswIMlsIOsZxrAolJefOcHBPgGUKhQbm/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano SD)" group-title="Eventi Live STREAMED",OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/ITOTBIMAXuKktYGRCtEZUgUxVMQJmRTp/charlie/stream/trieste-vs-galatasaray-1629466359/1/playlist.m3u8
+https://lb9.strmd.top/secure/apruBugjahCkAmezZoSTTZPWRvEsKCGD/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKijAoQ-QUhAwdILCBIhtJs4cOJz+YEgpYRcxptUoeYMvCLU5nvb0YN7iYhBAA.webp" tvg-name="FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/otFDqdbNmFVZrzAeXqRmREWiEhHlrFJI/charlie/stream/roma-w-vs-barcelona-w-1472395/1/playlist.m3u8
+https://lb9.strmd.top/secure/YNgieDITcHvPQsuUOfAoiivaPzDvaYMw/alpha/stream/roma-w-vs-barcelona-w/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzduDiN6ABhDUQvEFhAkQ5mPpARrISyBZIKWEXMYowqlD0-lG1OW98VmAwT3ExCCA.webp" tvg-name="BASKETBALL | 21:00 | Pallacanestro Trieste vs Galatasaray SK (English HD)" group-title="Eventi Live STREAMED",BASKETBALL | 21:00 | Pallacanestro Trieste vs Galatasaray SK (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb10.strmd.top/secure/zgjczMlcWSSoRVCpUzsCnUXwowwplaWe/alpha/stream/trieste-vs-galatasaray/2/playlist.m3u8
 #EXTINF:-1 tvg-chno="80" tvg-name="Pluto TV Christmas" tvg-logo="https://images.pluto.tv/channels/612e05b885183d0007958101/colorLogoPNG.png" tvg-id="612e05b885183d0007958101" group-title="Pluto TV Italia",Pluto TV Christmas
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/612e05b885183d0007958101/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 tvg-chno="85" tvg-name="Pluto TV Fireplace" tvg-logo="https://images.pluto.tv/channels/612ce23f51cce000078eeed5/colorLogoPNG.png" tvg-id="612ce23f51cce000078eeed5" group-title="Pluto TV Italia",Pluto TV Fireplace
