@@ -1,57 +1,49 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 14:00 | Stockholm Center Court: Arthur Fery vs Lorenzo Sonego (English HD)" group-title="Eventi Live STREAMED",TENNIS | 14:00 | Stockholm Center Court: Arthur Fery vs Lorenzo Sonego (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/QeFOHOPEyRYiMWaboDqMiaTprvCjyCum/alpha/stream/stockholm-center-court-arthur-fery-vs-lorenzo-sonego/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 15:00 | Stage 1 | Tour of Holland (Italiano HD)" group-title="Eventi Live STREAMED",OTHER | 15:00 | Stage 1 | Tour of Holland (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/OaFCCchPWoivTfZCnzxygfdrgMPDbgFb/alpha/stream/stage-1-tour-of-holland/1/playlist.m3u8
+https://lb6.strmd.top/secure/XclcyTPfjZDVbUkiFwiuWKZMYhPPdBcQ/alpha/stream/stage-1-tour-of-holland/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 15:00 | Stage 1 | Tour of Holland (Italiano SD)" group-title="Eventi Live STREAMED",OTHER | 15:00 | Stage 1 | Tour of Holland (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/ykNsjENbMtYYamSciHfzaFXmtFxaxIgT/alpha/stream/stage-1-tour-of-holland/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 13:45 | Brussels Centre Court: Yannick Hanfmann vs Matteo Arnaldi (English HD)" group-title="Eventi Live STREAMED",TENNIS | 13:45 | Brussels Centre Court: Yannick Hanfmann vs Matteo Arnaldi (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/gEtZNUApQLqMgcsKEOmIIfbFMrThHFhG/alpha/stream/brussels-centre-court-yannick-hanfmann-vs-matteo-arnaldi/1/playlist.m3u8
+https://lb4.strmd.top/secure/nLSYaWNnwgNAvlKnFbhpFDatxWHxyOvE/alpha/stream/stage-1-tour-of-holland/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/VIkchYzhpdsNdGNgFMJVcNFYXWOUXdjH/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
+https://lb10.strmd.top/secure/pFfTLTZlEhXWAMKWhRQSdKAEbmCdzjGC/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/kVhfErAjNNkUdmCePCrHoyappsAQvUNJ/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
+https://lb10.strmd.top/secure/JMrIWZsvAjKqjYfXtiUalRBAAYCptfYs/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/WBOVXfSQmSipXViUjepxVOONDYrynWlF/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
+https://lb2.strmd.top/secure/EAAZirgQfXcGpSkOfRTfcJJCxDBgeOoE/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/lScrUQurwpJmBjynksYKzeOEEWoGHmdE/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+https://lb2.strmd.top/secure/IfBisPvQJfmkRbnOfWfTelOJREBhbtEX/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano HD)" group-title="Eventi Live STREAMED",OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/qjixjSfNIjCsPWpNleHmvndnijgVsPOf/alpha/stream/firenze-w-vs-macerata-w/2/playlist.m3u8
+https://lb3.strmd.top/secure/GicRFMUwPNMgBJKUvuXNDwgEBpErMFdl/alpha/stream/firenze-w-vs-macerata-w/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano SD)" group-title="Eventi Live STREAMED",OTHER | 20:00 | Azzurra Volley Firenze Women vs Macerata Volley Women (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/VNdSQvKlerauXGXswKBnOlEDdeVLaQlu/alpha/stream/firenze-w-vs-macerata-w/3/playlist.m3u8
+https://lb8.strmd.top/secure/zGuTeCseAavcDFqAXAvhvGssDHcKmUlW/alpha/stream/firenze-w-vs-macerata-w/3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano HD)" group-title="Eventi Live STREAMED",OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/otQjysgdnMnDQIrncGqTBzVyAVuNjZMI/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/2/playlist.m3u8
+https://lb3.strmd.top/secure/npQqjqvcaYWaWyufzqpHaZDqhEmLnOMM/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano SD)" group-title="Eventi Live STREAMED",OTHER | 20:30 | UYBA Volley Busto Arsizio Women vs Volley Bergamo Women (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/GMiOAYVNCJaNUVNvmVUEusfVDiPOiZmy/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/3/playlist.m3u8
+https://lb8.strmd.top/secure/VQuWWuuaFYzdCoyvdaehjVzNuDMqQmVX/alpha/stream/uyba-busto-arsizio-w-vs-bergamo-w/3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzKijAoQ-QUhAwdILCBIhtJs4cOJz+YEgpYRcxptUoeYMvCLU5nvb0YN7iYhBAA.webp" tvg-name="FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 21:00 | Roma Women vs Barcelona Femení (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/zIiZRSFLLSlKeYXrBSlqIbmSRYSpiHLR/alpha/stream/roma-w-vs-barcelona-w/2/playlist.m3u8
+https://lb8.strmd.top/secure/CmmkEIeqSExiNRKhbYwZRNSyCycXguLW/alpha/stream/roma-w-vs-barcelona-w/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzduDiN6ABhDUQvEFhAkQ5mPpARrISyBZIKWEXMYowqlD0-lG1OW98VmAwT3ExCCA.webp" tvg-name="BASKETBALL | 21:00 | Pallacanestro Trieste vs Galatasaray SK (English HD)" group-title="Eventi Live STREAMED",BASKETBALL | 21:00 | Pallacanestro Trieste vs Galatasaray SK (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/knufcDPrWkgnYqYzyOBIrwxoesPrKKSb/alpha/stream/trieste-vs-galatasaray/2/playlist.m3u8
+https://lb8.strmd.top/secure/ZPZWnbuoDTPVBctvWKpUqapCocQyuHar/alpha/stream/trieste-vs-galatasaray/2/playlist.m3u8
