@@ -51947,5 +51947,366 @@
       10759
     ],
     "cached_at": "2025-10-15T06:18:20.818656"
+  },
+  "120395": {
+    "id": 120395,
+    "name": "Navarasa",
+    "original_name": "நவரசா",
+    "first_air_date": "2021-08-06",
+    "vote_average": 5.412,
+    "poster_path": "/xOZbqK6xR2JkRBPFgENUHb6r6Qd.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-16T06:18:16.533243"
+  },
+  "129675": {
+    "id": 129675,
+    "name": "Separati insieme",
+    "original_name": "Todo va a estar bien",
+    "first_air_date": "2021-08-20",
+    "vote_average": 6.9,
+    "poster_path": "/pfyJTDOXJ5uo8bCXH6OonphxhQ3.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-16T06:18:16.547200"
+  },
+  "132688": {
+    "id": 132688,
+    "name": "我的砍价女王",
+    "original_name": "我的砍价女王",
+    "first_air_date": "2021-09-03",
+    "vote_average": 7.5,
+    "poster_path": "/lwGeBd5EtobcZHgSqOFVWaPGFlC.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-16T06:18:16.600259"
+  },
+  "281555": {
+    "id": 281555,
+    "name": "To Cook a Bear",
+    "original_name": "Koka björn",
+    "first_air_date": "2025-10-15",
+    "vote_average": 10.0,
+    "poster_path": "/ovUPzm0pE4W7iXQIvI87VwOWJzG.jpg",
+    "genre_ids": [
+      80,
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-16T06:18:16.625382"
+  },
+  "131260": {
+    "id": 131260,
+    "name": "Remember You",
+    "original_name": "คือเธอ",
+    "first_air_date": "2021-08-16",
+    "vote_average": 5.9,
+    "poster_path": "/kf2zmkyEF5Lg32cSX77pRSjTwfS.jpg",
+    "genre_ids": [
+      18,
+      10759,
+      80
+    ],
+    "cached_at": "2025-10-16T06:18:16.633336"
+  },
+  "131594": {
+    "id": 131594,
+    "name": "Comedy Premium League",
+    "original_name": "Comedy Premium League",
+    "first_air_date": "2021-08-20",
+    "vote_average": 5.0,
+    "poster_path": "/tnRQIeZGWParKSNCkKi1tcncwnY.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-16T06:18:16.674579"
+  },
+  "132005": {
+    "id": 132005,
+    "name": "Hammer and Bolter",
+    "original_name": "Hammer and Bolter",
+    "first_air_date": "2021-08-25",
+    "vote_average": 7.5,
+    "poster_path": "/i3DCi6ZXo0ISp8cIUHBJGmZggmy.jpg",
+    "genre_ids": [
+      16
+    ],
+    "cached_at": "2025-10-16T06:18:16.674592"
+  },
+  "222165": {
+    "id": 222165,
+    "name": "The Kingdom",
+    "original_name": "The Kingdom",
+    "first_air_date": "2021-01-10",
+    "vote_average": 0.0,
+    "poster_path": "/rWmEmwQpZIaez1h7kysxzIIer02.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-16T06:18:16.692402"
+  },
+  "129024": {
+    "id": 129024,
+    "name": "In cucina con Paris",
+    "original_name": "Cooking with Paris",
+    "first_air_date": "2021-08-04",
+    "vote_average": 6.4,
+    "poster_path": "/lDIXKLKDCGDLum19WrkNwZT60a0.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-16T06:18:16.710347"
+  },
+  "131009": {
+    "id": 131009,
+    "name": "天龙八部",
+    "original_name": "天龙八部",
+    "first_air_date": "2021-08-14",
+    "vote_average": 8.6,
+    "poster_path": "/A0gvywTPbbHLcJDedoLdciaiB2t.jpg",
+    "genre_ids": [
+      10765,
+      18
+    ],
+    "cached_at": "2025-10-16T06:18:16.744866"
+  },
+  "129349": {
+    "id": 129349,
+    "name": "机智的上半场",
+    "original_name": "机智的上半场",
+    "first_air_date": "2021-08-18",
+    "vote_average": 6.667,
+    "poster_path": "/58SzX9opyIDOxor73d3nYpHd5pz.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-16T06:18:16.762612"
+  },
+  "130119": {
+    "id": 130119,
+    "name": "João de Deus: i poteri e il crimine",
+    "original_name": "João de Deus: Cura e Crime",
+    "first_air_date": "2021-08-25",
+    "vote_average": 6.4,
+    "poster_path": "/kQaj9ZMRLW7n6qLIpTiBk748MIU.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-16T06:18:16.776892"
+  },
+  "270734": {
+    "id": 270734,
+    "name": "Murdaugh: morte in famiglia",
+    "original_name": "Murdaugh: Death in the Family",
+    "first_air_date": "2025-10-15",
+    "vote_average": 8.0,
+    "poster_path": "/kEhY2kDxVjCPiNrbY8HeDz6iYXU.jpg",
+    "genre_ids": [
+      18,
+      80
+    ],
+    "cached_at": "2025-10-16T06:18:16.817373"
+  },
+  "123594": {
+    "id": 123594,
+    "name": "I Love Arlo",
+    "original_name": "I Heart Arlo",
+    "first_air_date": "2021-08-27",
+    "vote_average": 5.0,
+    "poster_path": "/ecaxpn3pIxM0PtKr6ltSblO2Gel.jpg",
+    "genre_ids": [
+      16,
+      35,
+      10762
+    ],
+    "cached_at": "2025-10-16T06:18:16.839079"
+  },
+  "131026": {
+    "id": 131026,
+    "name": "Dali and Cocky Prince",
+    "original_name": "달리와 감자탕",
+    "first_air_date": "2021-09-22",
+    "vote_average": 7.256,
+    "poster_path": "/2BuwNyTiMjlStKweY1VRIBsusRJ.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-16T06:18:16.847935"
+  },
+  "138523": {
+    "id": 138523,
+    "name": "Il trenino Thomas: Grandi avventure insieme",
+    "original_name": "Thomas & Friends: All Engines Go!",
+    "first_air_date": "2021-08-23",
+    "vote_average": 5.9,
+    "poster_path": "/7R8ssJqWA2P1wfH2776oxh81FNe.jpg",
+    "genre_ids": [
+      16,
+      10762,
+      10751
+    ],
+    "cached_at": "2025-10-16T06:18:16.885892"
+  },
+  "129496": {
+    "id": 129496,
+    "name": "上游",
+    "original_name": "上游",
+    "first_air_date": "2021-08-02",
+    "vote_average": 8.2,
+    "poster_path": "/hFJCcuxSBh8qpVMTkENHt8M6nmR.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "cached_at": "2025-10-16T06:18:16.902411"
+  },
+  "131673": {
+    "id": 131673,
+    "name": "You Raise Me Up",
+    "original_name": "유 레이즈 미 업",
+    "first_air_date": "2021-08-31",
+    "vote_average": 6.5,
+    "poster_path": "/kcsrapozsVyTtXjf0NhoJa2HW36.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-16T06:18:16.921284"
+  },
+  "132262": {
+    "id": 132262,
+    "name": "極工夫道",
+    "original_name": "極工夫道",
+    "first_air_date": "2021-08-29",
+    "vote_average": 6.5,
+    "poster_path": "/2zaNSV7og14X0TY1K76tEqhYjIn.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-16T06:18:16.957590"
+  },
+  "130044": {
+    "id": 130044,
+    "name": "Motel Makeover",
+    "original_name": "Motel Makeover",
+    "first_air_date": "2021-08-25",
+    "vote_average": 4.3,
+    "poster_path": "/vexpYRBziqzQQ9HI8f5kKrI6u3C.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-16T06:18:16.977844"
+  },
+  "128715": {
+    "id": 128715,
+    "name": "世界微尘里",
+    "original_name": "世界微尘里",
+    "first_air_date": "2021-08-16",
+    "vote_average": 8.2,
+    "poster_path": "/fzEhQysn3JC5Nbc41gCTTA1egeK.jpg",
+    "genre_ids": [
+      18,
+      35
+    ],
+    "cached_at": "2025-10-16T06:18:17.026794"
+  },
+  "130688": {
+    "id": 130688,
+    "name": "Sharkdog: Lo squalo-cane",
+    "original_name": "Sharkdog",
+    "first_air_date": "2021-09-03",
+    "vote_average": 8.4,
+    "poster_path": "/cdkeBd7XZ6CmSE1a36rGG4bjqbb.jpg",
+    "genre_ids": [
+      16,
+      35,
+      10751,
+      10762
+    ],
+    "cached_at": "2025-10-16T06:18:17.046843"
+  },
+  "131369": {
+    "id": 131369,
+    "name": "Forsvinningen på Lørenskog",
+    "original_name": "Forsvinningen på Lørenskog",
+    "first_air_date": "2021-08-29",
+    "vote_average": 5.2,
+    "poster_path": "/pVJS8vzqftPcShUlFzjsxO8kbYe.jpg",
+    "genre_ids": [
+      99,
+      80
+    ],
+    "cached_at": "2025-10-16T06:18:17.108860"
+  },
+  "130521": {
+    "id": 130521,
+    "name": "Countdown: Inspiration4 Mission to Space",
+    "original_name": "Countdown: Inspiration4 Mission to Space",
+    "first_air_date": "2021-09-06",
+    "vote_average": 6.905,
+    "poster_path": "/e4o6pOY136iDJN4IFvESltHa5to.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-16T06:18:17.128377"
+  },
+  "246027": {
+    "id": 246027,
+    "name": "Nessuno ci ha visti partire",
+    "original_name": "Nadie nos vio partir",
+    "first_air_date": "2025-10-15",
+    "vote_average": 9.0,
+    "poster_path": "/nOjhJqlWYDZHuskzGmZKdgoxlXN.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-16T06:18:17.169958"
+  },
+  "128036": {
+    "id": 128036,
+    "name": "Q-Force",
+    "original_name": "Q-Force",
+    "first_air_date": "2021-09-02",
+    "vote_average": 6.7,
+    "poster_path": "/30m8oSz46yESF57ihmWMIwneG7d.jpg",
+    "genre_ids": [
+      16,
+      35,
+      10759
+    ],
+    "cached_at": "2025-10-16T06:18:17.240601"
+  },
+  "132012": {
+    "id": 132012,
+    "name": "How to Be a Cowboy",
+    "original_name": "How to Be a Cowboy",
+    "first_air_date": "2021-09-01",
+    "vote_average": 6.0,
+    "poster_path": "/kJjlR9PPU4vIUI1rzqXlKSD3oaO.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-16T06:18:17.318601"
+  },
+  "132983": {
+    "id": 132983,
+    "name": "Gli Octonauti: In missione sulla Terra",
+    "original_name": "Octonauts: Above & Beyond",
+    "first_air_date": "2021-09-07",
+    "vote_average": 8.8,
+    "poster_path": "/1V7IYlTVyGmjwiEH9SvPZREzfom.jpg",
+    "genre_ids": [
+      16,
+      10762,
+      10751
+    ],
+    "cached_at": "2025-10-16T06:18:17.386935"
   }
 }
