@@ -1,57 +1,61 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/ZGPVFZDJtppMfthUVJXnBTrggCpCdzHS/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/EMxyFQdmcjOIRsBLqVfUZLxmKHXMuJZm/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/avYLwilcFlkxniUAUikVhuYyhwbZAipT/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
+https://lb2.strmd.top/secure/jKVWeVavdVooBZFJskKjuyovLCjvIBPa/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/OKhgcVEpNdVsHFeJiiPSZrfSKetKfVgi/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEAJxQkIeJBDcQUkBBMgUukCSMGjBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" tvg-name="FOOTBALL | 02:30 | Fluminense vs Juventude (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 02:30 | Fluminense vs Juventude (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/LdedTBzRaPWHVxaYJxGvHefgbzfSZPfa/alpha/stream/fluminense-vs-juventude/2/playlist.m3u8
+https://lb9.strmd.top/secure/skpnXUBSlVkLVnApuYbshsgYzckTWlka/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 00:00 | MotoGP Australia GP: Moto3 FP1 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 00:00 | MotoGP Australia GP: Moto3 FP1 (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/rYizeXcNiNEPXqHzAXanaXeEJgWPcHDo/alpha/stream/motogp-australia-gp-moto3-fp1/6/playlist.m3u8
+https://lb2.strmd.top/secure/LuWpODaYKHOxfGqqJitwXSVlHvoHvFKd/alpha/stream/motogp-australia-gp-moto3-fp1/6/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 00:00 | MotoGP Australia GP: Moto3 FP1 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 00:00 | MotoGP Australia GP: Moto3 FP1 (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/IycrpYWdLsdYUvFltXyHpIXevwnfYxpn/alpha/stream/motogp-australia-gp-moto3-fp1/13/playlist.m3u8
+https://lb9.strmd.top/secure/BYXYJfSpPDCfcjAKVtZgqUptRLtVfBzd/alpha/stream/motogp-australia-gp-moto3-fp1/13/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb2.strmd.top/secure/TitQDDvraXSinVxaWgdUYMnbCUbIDTkm/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb2.strmd.top/secure/lIGDswfcZvGpHpNqNqgBDPcQqvfiIEBM/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEAJxQkIeJBDcQUkBBMgUukCSMGjBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" tvg-name="FOOTBALL | 02:30 | Fluminense vs Juventude (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 02:30 | Fluminense vs Juventude (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb2.strmd.top/secure/vPgbQwBVqbjYTuouQboGGeaJQIAItPMv/alpha/stream/fluminense-vs-juventude/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 10:30 | World Superbikes: Practice 1 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 10:30 | World Superbikes: Practice 1 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/FoPGqKDRnqKmFCyZOHMZTeAmbPVbvnfq/alpha/stream/world-superbikes-practice-1/2/playlist.m3u8
+https://lb10.strmd.top/secure/VbZGvgfsLSadhBgvBUnXNYKSQzdVswuW/alpha/stream/world-superbikes-practice-1/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 13:20 | WSBK: Worldwcr Superpole (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 13:20 | WSBK: Worldwcr Superpole (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/qFnoWqXZrzvxpyLZYPTWhMrJXSwRLJNX/alpha/stream/wsbk-worldwcr-superpole/2/playlist.m3u8
+https://lb8.strmd.top/secure/CEDFbirIcLtIdxVLJeHoGyZJRPfOZpLO/alpha/stream/wsbk-worldwcr-superpole/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 05:05 | MotoGP Australia GP: Moto2 FP2 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 05:05 | MotoGP Australia GP: Moto2 FP2 (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/CZWRuAgwGaskoMxJUYHAgdoIXkXOMGFl/alpha/stream/motogp-australia-gp-moto2-fp2/6/playlist.m3u8
+https://lb10.strmd.top/secure/OxNPDdglivilurcfeXddFYTacsMlubAQ/alpha/stream/motogp-australia-gp-moto2-fp2/6/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 05:05 | MotoGP Australia GP: Moto2 FP2 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 05:05 | MotoGP Australia GP: Moto2 FP2 (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/ATwvwFUiiYEbTGjIVETreSgSzmUHDeTG/alpha/stream/motogp-australia-gp-moto2-fp2/14/playlist.m3u8
+https://lb8.strmd.top/secure/UCYogkGwZxPHrzWqhCturEsbZlSNXfmO/alpha/stream/motogp-australia-gp-moto2-fp2/14/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:30 | NASCAR Craftsman Truck Series: Love's RV Stop 225, Qualifying (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:30 | NASCAR Craftsman Truck Series: Love's RV Stop 225, Qualifying (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/ETtPANUSBnDEzwzKmAYPhYvymRPnNGrj/charlie/stream/loves-rv-stop-225-qualifying-1629466425/1/playlist.m3u8
+https://lb9.strmd.top/secure/pHZDfyrNVEiWXzURjRXFWZDdbisDMigK/charlie/stream/loves-rv-stop-225-qualifying-1629466425/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:30 | NASCAR Truck Series Qualifying Talladega Superspeedway (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:30 | NASCAR Truck Series Qualifying Talladega Superspeedway (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/hTjojEmEKvmdqrXALvSDpVnTBjCnKvLS/alpha/stream/nascar-truck-series-qualifying-talladega-superspeedway/2/playlist.m3u8
+https://lb9.strmd.top/secure/IXIbGoCMPbSNIygWRjUtOTznQkkaKcRt/alpha/stream/nascar-truck-series-qualifying-talladega-superspeedway/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rWqBAgpYMtxD6+ICCBjGQKbea2NgSCn2Gz6KXWxRdd5ellkemtGBu9KIQQA.webp" tvg-name="MOTOR-SPORTS | 19:30 | United States Grand Prix Free Practice 1 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:30 | United States Grand Prix Free Practice 1 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://gg.poocloud.in/f1/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 19:30 | FIA F1 World Championship: FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2025 | Friday practice (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:30 | FIA F1 World Championship: FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2025 | Friday practice (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb4.strmd.top/secure/DDsJgFUsCBwOwTXGMUQsYKgoayffKgjC/charlie/stream/formula-1-msc-cruises-united-states-grand-prix-2025-or-friday-practice-1629466441/2/playlist.m3u8
