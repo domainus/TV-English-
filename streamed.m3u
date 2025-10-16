@@ -1,41 +1,41 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 18:50 | Brussels Centre Court: Musetti Lorenzo vs Hanfmann Yannick (English HD)" group-title="Eventi Live STREAMED",TENNIS | 18:50 | Brussels Centre Court: Musetti Lorenzo vs Hanfmann Yannick (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb2.strmd.top/secure/ffltfWbgjbSUypNjnoWkgftZOoEUvGTz/alpha/stream/brussels-centre-court-musetti-lorenzo-vs-hanfmann-yannick/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:00 | WRC Central Europe: SS2 Golf und Therme 2 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:00 | WRC Central Europe: SS2 Golf und Therme 2 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/SJrCXhukyBlSaNYVCHJUnFmYEIswQeBg/charlie/stream/ss2-golf-und-therme-2-1629466388/1/playlist.m3u8
+https://lb2.strmd.top/secure/hpZuxiCXsGOgAgyixIYkURmoSjeXDxGk/charlie/stream/ss2-golf-und-therme-2-1629466388/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:00 | WRC Central Europe 2025 Stage2 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:00 | WRC Central Europe 2025 Stage2 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/SIhKFSKlYacfSeCmIeOSnPHjyqiqyYNL/alpha/stream/wrc-central-europe-2025-stage2/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 17:10 | Stockholm Center Court: Ugo Humbert vs Matteo Berrettini (English HD)" group-title="Eventi Live STREAMED",TENNIS | 17:10 | Stockholm Center Court: Ugo Humbert vs Matteo Berrettini (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/HMucJuyvXtnZJFtfByYvKiYASckZipuc/alpha/stream/stockholm-center-court-ugo-humbert-vs-matteo-berrettini/1/playlist.m3u8
+https://lb10.strmd.top/secure/wOkoGkZKJeIXwsOaWymqzkQkNHUOuaah/alpha/stream/wrc-central-europe-2025-stage2/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 13:45 | Tour of Holland | Stage 2 Men | Etten-Leur (ITT, 15km) (EuroSport 1 Italy HD)" group-title="Eventi Live STREAMED",OTHER | 13:45 | Tour of Holland | Stage 2 Men | Etten-Leur (ITT, 15km) (EuroSport 1 Italy HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/kDJgcHvwwtKZruaySvFiwGnKCHjsDGVz/hotel/stream/tour-of-holland-stage-2-men-etten-leur-itt-15km-/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/ZFJltLUCOCXJYlSoANJStrANWYcNeSpF/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/pEsvzyjUPJAWcarKeJILbivNHsJwXbGp/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
+https://lb7.strmd.top/secure/WXQVrAQfXvaJnCwjeaeCoRaVpDbtAjsa/hotel/stream/tour-of-holland-stage-2-men-etten-leur-itt-15km-/6/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/XucTaJopRMvZBOhWNkelZnrecqBVmBSv/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 18:30 | Brussels Centre Court: Musetti Lorenzo vs Hanfmann Yannick (English HD)" group-title="Eventi Live STREAMED",TENNIS | 18:30 | Brussels Centre Court: Musetti Lorenzo vs Hanfmann Yannick (English HD)
+https://lb1.strmd.top/secure/LQlaDLpGcQIScWFrJnplqVUXKqMbrBEl/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/BQmohSoPwSwJZujVUyxuEqkUlZKmaDAc/alpha/stream/brussels-centre-court-musetti-lorenzo-vs-hanfmann-yannick/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="BASKETBALL | 19:00 | Zalgiris Kaunas vs Olimpia Milano ( HD)" group-title="Eventi Live STREAMED",BASKETBALL | 19:00 | Zalgiris Kaunas vs Olimpia Milano ( HD)
+https://lb8.strmd.top/secure/lvMbrKaXUruiYYLSOECDrIYHmgMusUCO/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="BASKETBALL | 19:00 | Zalgiris Kaunas vs Olimpia Milano (English HD)" group-title="Eventi Live STREAMED",BASKETBALL | 19:00 | Zalgiris Kaunas vs Olimpia Milano (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/IaarhulCwEKwnwefijxcUhhHRFxyKGCg/echo/stream/zalgiris-kaunas-vs-olimpia-milano-basketball-454319/1/playlist.m3u8
+https://lb8.strmd.top/secure/pFhUlqHycGvldXlPxrNPZlmScUmDlHiJ/alpha/stream/zalgiris-kaunas-vs-olimpia-milano/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdkmDTIIasDCUQvEFhAkQKE2ZAwbICLpZIKWEXMYowqlDy-lGemI++Kz6XuJiEEA.webp" tvg-name="FOOTBALL | 21:00 | Bayern Munich Women vs Juventus Women (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 21:00 | Bayern Munich Women vs Juventus Women (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/jJDAlbBqvcYPgShihGPJhEOjMRmzqCIJ/charlie/stream/bayern-munich-w-vs-juventus-w-1472398/1/playlist.m3u8
+https://lb1.strmd.top/secure/VCFKETWmDFvzOKOZvoJSgnqLAApBMZAR/alpha/stream/bayern-munich-w-vs-juventus-w/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb10.strmd.top/secure/rFRjXggWVtRqrJDRJQIAPBVGDpARiRRe/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb4.strmd.top/secure/lstjWVbyjGmVKhcfHSIFcvWoIhRZfesU/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
