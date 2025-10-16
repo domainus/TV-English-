@@ -1,33 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VPiG5gZSECFCaQUkChMgYuMzj1SCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" tvg-name="MOTOR-SPORTS | 02:00 | WRC Central Europe Rally (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 02:00 | WRC Central Europe Rally (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/gsGpGnQIWTiGtGNLHmGGUWzLophnIpOu/alpha/stream/wrc-central-europe-2025/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/WggUNsVEyUQYESFXoAFVaBdLdjBZKeMf/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/ZiDsRJHMkdoesSotpTgBWHBrUjdVKPZv/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 13:30 | Stockholm Court 1: Lorenzo Sonego vs Aleksandar Kovacevic (English HD)" group-title="Eventi Live STREAMED",TENNIS | 13:30 | Stockholm Court 1: Lorenzo Sonego vs Aleksandar Kovacevic (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/phmxvyGDgzdlYNLuaunuQSboeIZVEphk/alpha/stream/stockholm-court-1-lorenzo-sonego-vs-aleksandar-kovacevic/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 15:30 | Stockholm Center Court: Ugo Humbert vs Matteo Berrettini (English HD)" group-title="Eventi Live STREAMED",TENNIS | 15:30 | Stockholm Center Court: Ugo Humbert vs Matteo Berrettini (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/kaROWGlVNpaCOWtuOUUaztXPodADHyCQ/alpha/stream/stockholm-center-court-ugo-humbert-vs-matteo-berrettini/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/fznAwOSAuiqIMjXgSSHJuCqGrobQVIZi/alpha/stream/dazn-formula-1-dazn-f1/2/playlist.m3u8
+https://lb2.strmd.top/secure/qQKmursvjTbHknEIuGLtOrqvaqviIkOH/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:00 | WRC Central Europe: SS2 Golf und Therme 2 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:00 | WRC Central Europe: SS2 Golf und Therme 2 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/vkDYLHGGBDpYjOGxeiHOgyLeyRHGqyRK/charlie/stream/ss2-golf-und-therme-2-1629466388/1/playlist.m3u8
+https://lb2.strmd.top/secure/lxIcUUowWZTGNfLLzYWZfbGpADsFKUMr/charlie/stream/ss2-golf-und-therme-2-1629466388/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="BASKETBALL | 19:00 | Zalgiris Kaunas vs Olimpia Milano ( HD)" group-title="Eventi Live STREAMED",BASKETBALL | 19:00 | Zalgiris Kaunas vs Olimpia Milano ( HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb8.strmd.top/secure/CkekGovYncddXWfALWvPEaipLmWCHrmw/echo/stream/zalgiris-kaunas-vs-olimpia-milano-basketball-454319/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdkmDTIIasDCUQvEFhAkQKE2ZAwbICLpZIKWEXMYowqlDy-lGemI++Kz6XuJiEEA.webp" tvg-name="FOOTBALL | 21:00 | Bayern Munich Women vs Juventus Women (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 21:00 | Bayern Munich Women vs Juventus Women (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/mlktqBRKrndfMOmRppoNQgbeQXRqVtxD/charlie/stream/bayern-munich-w-vs-juventus-w-1472398/1/playlist.m3u8
+https://lb7.strmd.top/secure/PsaFfSYRLToRjTBpxYXIjgwFHezJpiYp/charlie/stream/bayern-munich-w-vs-juventus-w-1472398/1/playlist.m3u8
