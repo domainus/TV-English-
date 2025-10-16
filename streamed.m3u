@@ -1,33 +1,57 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzdkmDTIIasDCUQvEFhAkQKE2ZAwbICLpZIKWEXMYowqlDy-lGemI++Kz6XuJiEEA.webp" tvg-name="FOOTBALL | 21:00 | Bayern Munich Women vs Juventus Women (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 21:00 | Bayern Munich Women vs Juventus Women (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/bTllWjmjMxgadjpWoETCxeEHaRnskfpu/alpha/stream/bayern-munich-w-vs-juventus-w/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:30 | Bundesliga: Union Berlin vs Borussia M'gladbach (Sky Sport 254 IT HD)" group-title="Eventi Live STREAMED",OTHER | 20:30 | Bundesliga: Union Berlin vs Borussia M'gladbach (Sky Sport 254 IT HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/JGsYWtnCCmLbFWZNOKmtJhXGdapusjuK/hotel/stream/bundesliga-union-berlin-vs-borussia-m-gladbach/9/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 20:30 | Italy - Serie C: Sassari Torres vs Forlì (SKY Go Italia HD)" group-title="Eventi Live STREAMED",OTHER | 20:30 | Italy - Serie C: Sassari Torres vs Forlì (SKY Go Italia HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/uDUldRVnTtbNQYWZDmLWpDzugZlHJpIm/hotel/stream/italy-serie-c-sassari-torres-vs-forl-/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:30 | NASCAR Craftsman Truck Series Love's RV Stop 225, Qualifying (Fox Sports 2 USA HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:30 | NASCAR Craftsman Truck Series Love's RV Stop 225, Qualifying (Fox Sports 2 USA HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/BNgpDIuAJfADBdVBUoJRDhNCCBIVElVW/hotel/stream/nascar-craftsman-truck-series-love-s-rv-stop-225-qualifying/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/zwcAlPlvIVSNBrQmjXecXYClrpgSfgrI/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/yiuzxOjjiepCfrnGDcjEdiGVYnZubkfc/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/dNpaQgEkDFmrXPUYdmduEHhwOeXrEtdH/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
+https://lb4.strmd.top/secure/ZGPVFZDJtppMfthUVJXnBTrggCpCdzHS/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/wdsKYIOhxDtehdpSuOwuFMvTZsHzjUqG/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+https://lb10.strmd.top/secure/EMxyFQdmcjOIRsBLqVfUZLxmKHXMuJZm/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb10.strmd.top/secure/avYLwilcFlkxniUAUikVhuYyhwbZAipT/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb3.strmd.top/secure/OKhgcVEpNdVsHFeJiiPSZrfSKetKfVgi/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEAJxQkIeJBDcQUkBBMgUukCSMGjBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" tvg-name="FOOTBALL | 02:30 | Fluminense vs Juventude (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 02:30 | Fluminense vs Juventude (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb10.strmd.top/secure/LdedTBzRaPWHVxaYJxGvHefgbzfSZPfa/alpha/stream/fluminense-vs-juventude/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 00:00 | MotoGP Australia GP: Moto3 FP1 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 00:00 | MotoGP Australia GP: Moto3 FP1 (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb7.strmd.top/secure/rYizeXcNiNEPXqHzAXanaXeEJgWPcHDo/alpha/stream/motogp-australia-gp-moto3-fp1/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 00:00 | MotoGP Australia GP: Moto3 FP1 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 00:00 | MotoGP Australia GP: Moto3 FP1 (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb7.strmd.top/secure/IycrpYWdLsdYUvFltXyHpIXevwnfYxpn/alpha/stream/motogp-australia-gp-moto3-fp1/13/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 10:30 | World Superbikes: Practice 1 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 10:30 | World Superbikes: Practice 1 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb10.strmd.top/secure/FoPGqKDRnqKmFCyZOHMZTeAmbPVbvnfq/alpha/stream/world-superbikes-practice-1/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 13:20 | WSBK: Worldwcr Superpole (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 13:20 | WSBK: Worldwcr Superpole (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/qFnoWqXZrzvxpyLZYPTWhMrJXSwRLJNX/alpha/stream/wsbk-worldwcr-superpole/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 05:05 | MotoGP Australia GP: Moto2 FP2 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 05:05 | MotoGP Australia GP: Moto2 FP2 (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/CZWRuAgwGaskoMxJUYHAgdoIXkXOMGFl/alpha/stream/motogp-australia-gp-moto2-fp2/6/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 05:05 | MotoGP Australia GP: Moto2 FP2 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 05:05 | MotoGP Australia GP: Moto2 FP2 (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb8.strmd.top/secure/ATwvwFUiiYEbTGjIVETreSgSzmUHDeTG/alpha/stream/motogp-australia-gp-moto2-fp2/14/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:30 | NASCAR Craftsman Truck Series: Love's RV Stop 225, Qualifying (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:30 | NASCAR Craftsman Truck Series: Love's RV Stop 225, Qualifying (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb8.strmd.top/secure/ETtPANUSBnDEzwzKmAYPhYvymRPnNGrj/charlie/stream/loves-rv-stop-225-qualifying-1629466425/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:30 | NASCAR Truck Series Qualifying Talladega Superspeedway (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:30 | NASCAR Truck Series Qualifying Talladega Superspeedway (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/hTjojEmEKvmdqrXALvSDpVnTBjCnKvLS/alpha/stream/nascar-truck-series-qualifying-talladega-superspeedway/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rWqBAgpYMtxD6+ICCBjGQKbea2NgSCn2Gz6KXWxRdd5ellkemtGBu9KIQQA.webp" tvg-name="MOTOR-SPORTS | 19:30 | United States Grand Prix Free Practice 1 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:30 | United States Grand Prix Free Practice 1 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://gg.poocloud.in/f1/index.m3u8
