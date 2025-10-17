@@ -2,6 +2,66 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="moto3australiangrandprixfreepractice1" tvg-name="Motorsport | Moto3 : Australian Grand Prix, Free Practice 1 (23:55)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/ksxcfb1568976756.png" group-title="Eventi Live DLHD",Motorsport | Moto3 : Australian Grand Prix, Free Practice 1 (23:55)
+#EXTINF:-1 tvg-id="bundesliga2hannover96vsschalke04" tvg-name="Soccer | Bundesliga 2 : Hannover 96 vs Schalke 04 (18:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Hannover 96_vs_Schalke 04.png" group-title="Eventi Live DLHD",Soccer | Bundesliga 2 : Hannover 96 vs Schalke 04 (18:30)
+https://dlhd.dad/watch.php?id=870
+
+#EXTINF:-1 tvg-id="italyseriebvirtusentellavssampdoria" tvg-name="Soccer | Italy - Serie B : Virtus Entella vs Sampdoria (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Virtus Entella_vs_Sampdoria.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie B : Virtus Entella vs Sampdoria (20:30)
+https://dlhd.dad/watch.php?id=151
+
+#EXTINF:-1 tvg-id="italyseriecnovaravsunionarzignanochiampo" tvg-name="Soccer | Italy - Serie C : Novara vs Union ArzignanoChiampo (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Novara_vs_Union ArzignanoChiampo.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Novara vs Union ArzignanoChiampo (20:30)
+https://dlhd.dad/watch.php?id=152
+
+#EXTINF:-1 tvg-id="italyseriecsassaritorresvsforlì" tvg-name="Soccer | Italy - Serie C : Sassari Torres vs Forlì (20:30)" tvg-logo="http://www.lega-pro.com/wp-content/themes/ascent/includes/images/squadre/2016/gironeB/forlì.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Sassari Torres vs Forlì (20:30)
+https://dlhd.dad/watch.php?id=153
+
+#EXTINF:-1 tvg-id="italyseriecalcionevsinterii" tvg-name="Soccer | Italy - Serie C : Alcione vs Inter II (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Alcione_vs_Inter II.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Alcione vs Inter II (20:30)
+https://dlhd.dad/watch.php?id=154
+
+#EXTINF:-1 tvg-id="italyseriecalcionevsinterii" tvg-name="Soccer | Italy - Serie C : Alcione vs Inter II (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Alcione_vs_Inter II.png" group-title="Eventi Live DLHD",Soccer | Italy - Serie C : Alcione vs Inter II (20:30)
+https://dlhd.dad/watch.php?id=870
+
+#EXTINF:-1 tvg-id="bundesligaunionberlinvsborussiamgladbach" tvg-name="Soccer | Bundesliga : Union Berlin vs Borussia M'gladbach (20:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Union Berlin_vs_Borussia M'gladbach.png" group-title="Eventi Live DLHD",Soccer | Bundesliga : Union Berlin vs Borussia M'gladbach (20:30)
+https://dlhd.dad/watch.php?id=108
+
+#EXTINF:-1 tvg-id="franceligue1psgvsstrasbourg" tvg-name="Soccer | France - Ligue 1 : PSG vs Strasbourg (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/PSG_vs_Strasbourg.png" group-title="Eventi Live DLHD",Soccer | France - Ligue 1 : PSG vs Strasbourg (20:45)
+https://dlhd.dad/watch.php?id=462
+
+#EXTINF:-1 tvg-id="brusselsatpstockholmatpalmatyatposakawtaampningbowtaearlyrounds" tvg-name="Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (12:30)" tvg-logo="https://assets.stickpng.com/thumbs/6266993f2c88722059d58711.png" group-title="Eventi Live DLHD",Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (12:30)
+https://dlhd.dad/watch.php?id=576
+
+#EXTINF:-1 tvg-id="motogpaustraliangrandprixpractice1" tvg-name="Motorsport | MotoGP : Australian Grand Prix, Practice 1 (07:00)" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/11/MotoGP-Logo-2024.png" group-title="Eventi Live DLHD",Motorsport | MotoGP : Australian Grand Prix, Practice 1 (07:00)
 https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgppractice1" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Practice 1 (19:30)" tvg-logo="https://images.seeklogo.com/logo-png/33/2/formula-1-logo-png_seeklogo-330361.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Practice 1 (19:30)
+https://dlhd.dad/watch.php?id=577
+
+#EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgpsprintqualifying" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Sprint Qualifying (23:30)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Sprint Qualifying (23:30)
+https://dlhd.dad/watch.php?id=577
+
+#EXTINF:-1 tvg-id="moto3australiangrandprixfreepractice2" tvg-name="Motorsport | Moto3 : Australian Grand Prix, Free Practice 2 (23:35)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/ksxcfb1568976756.png" group-title="Eventi Live DLHD",Motorsport | Moto3 : Australian Grand Prix, Free Practice 2 (23:35)
+https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="moto2australiangrandprixfreepractice2" tvg-name="Motorsport | Moto2 : Australian Grand Prix, Free Practice 2 (00:20)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/yqvtrq1432309315.png" group-title="Eventi Live DLHD",Motorsport | Moto2 : Australian Grand Prix, Free Practice 2 (00:20)
+https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="motogpaustraliangrandprixpractice2" tvg-name="Motorsport | MotoGP : Australian Grand Prix, Practice 2 (01:00)" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/11/MotoGP-Logo-2024.png" group-title="Eventi Live DLHD",Motorsport | MotoGP : Australian Grand Prix, Practice 2 (01:00)
+https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="moto3australiangrandprixqualifying" tvg-name="Motorsport | Moto3 : Australian Grand Prix, Qualifying (03:45)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/ksxcfb1568976756.png" group-title="Eventi Live DLHD",Motorsport | Moto3 : Australian Grand Prix, Qualifying (03:45)
+https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="moto2australiangrandprixqualifying" tvg-name="Motorsport | Moto2 : Australian Grand Prix, Qualifying (04:40)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/yqvtrq1432309315.png" group-title="Eventi Live DLHD",Motorsport | Moto2 : Australian Grand Prix, Qualifying (04:40)
+https://dlhd.dad/watch.php?id=575
+
+#EXTINF:-1 tvg-id="tourofhollandstage3mensittardwatersley154km" tvg-name="Cycling | Tour of Holland | Stage 3 Men | Sittard – Watersley (154km) (13:45)" tvg-logo="https://images.squarespace-cdn.com/content/v1/636299e135f7224a99b80664/44f49ea1-7e74-489d-883e-2647d3ecff6a/TOTM25_web.png" group-title="Eventi Live DLHD",Cycling | Tour of Holland | Stage 3 Men | Sittard – Watersley (154km) (13:45)
+https://dlhd.dad/watch.php?id=878
+
+#EXTINF:-1 tvg-id="grandprixfrancewomensindividualshortprogram" tvg-name="Ice Skating | Grand Prix France | Women's Individual Short Program (18:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live DLHD",Ice Skating | Grand Prix France | Women's Individual Short Program (18:00)
+https://dlhd.dad/watch.php?id=882
+
+#EXTINF:-1 tvg-id="grandprixfrancewomensindividualshortprogram" tvg-name="Ice Skating | Grand Prix France | Women's Individual Short Program (18:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live DLHD",Ice Skating | Grand Prix France | Women's Individual Short Program (18:00)
+https://dlhd.dad/watch.php?id=879
+
+#EXTINF:-1 tvg-id="figureskatingfrenchgrandprixpairsshortprogram" tvg-name="Ice Skating | Figure Skating: French Grand Prix Pairs Short Program (20:00)" tvg-logo="https://png.pngtree.com/png-clipart/20230811/original/pngtree-vector-illustration-of-a-speed-ice-skating-logo-featuring-text-space-for-your-slogan-or-tagline-vector-picture-image_10300771.png" group-title="Eventi Live DLHD",Ice Skating | Figure Skating: French Grand Prix Pairs Short Program (20:00)
+https://dlhd.dad/watch.php?id=879
 
