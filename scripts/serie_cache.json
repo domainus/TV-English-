@@ -52308,5 +52308,165 @@
       10751
     ],
     "cached_at": "2025-10-16T06:18:17.386935"
+  },
+  "98892": {
+    "id": 98892,
+    "name": "Schmigadoon!",
+    "original_name": "Schmigadoon!",
+    "first_air_date": "2021-07-16",
+    "vote_average": 6.908,
+    "poster_path": "/q9xTNBRqrclBaJrvlnCwHGWgTO8.jpg",
+    "genre_ids": [
+      35
+    ],
+    "cached_at": "2025-10-17T06:17:22.938134"
+  },
+  "128115": {
+    "id": 128115,
+    "name": "Feels Like Ishq",
+    "original_name": "Feels Like Ishq",
+    "first_air_date": "2021-07-23",
+    "vote_average": 5.6,
+    "poster_path": "/vdfvkaKqoMwOVlA0wHXFGmTwb7F.jpg",
+    "genre_ids": [
+      35,
+      18
+    ],
+    "cached_at": "2025-10-17T06:17:22.971618"
+  },
+  "128254": {
+    "id": 128254,
+    "name": "Tattoo Redo: nuova vita ai tatuaggi",
+    "original_name": "Tattoo Redo",
+    "first_air_date": "2021-07-28",
+    "vote_average": 5.5,
+    "poster_path": "/jvfF8KruDjNjb7KcdC9UeWJqqUN.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-17T06:17:22.985873"
+  },
+  "117874": {
+    "id": 117874,
+    "name": "心跳源计划",
+    "original_name": "心跳源计划",
+    "first_air_date": "2021-07-22",
+    "vote_average": 6.2,
+    "poster_path": "/ekcT8R467syFVIgT3PynDSeohKT.jpg",
+    "genre_ids": [
+      10759
+    ],
+    "cached_at": "2025-10-17T06:17:22.987232"
+  },
+  "128250": {
+    "id": 128250,
+    "name": "Sexy Beasts",
+    "original_name": "Sexy Beasts",
+    "first_air_date": "2021-07-21",
+    "vote_average": 5.6,
+    "poster_path": "/d6PnWnOAh5279AWu1cQjlVleVwi.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-17T06:17:23.040593"
+  },
+  "128586": {
+    "id": 128586,
+    "name": "블루버스데이",
+    "original_name": "블루버스데이",
+    "first_air_date": "2021-07-23",
+    "vote_average": 5.72,
+    "poster_path": "/uak5mmFJNumfc8uQm1SktvluEAD.jpg",
+    "genre_ids": [
+      10765,
+      18,
+      9648
+    ],
+    "cached_at": "2025-10-17T06:17:23.047662"
+  },
+  "118512": {
+    "id": 118512,
+    "name": "Cesar Millan: Better Human, Better Dog",
+    "original_name": "Cesar Millan: Better Human, Better Dog",
+    "first_air_date": "2021-07-30",
+    "vote_average": 8.6,
+    "poster_path": "/m0iHbs518Y9OsvbJ8nP0QqFl6Y4.jpg",
+    "genre_ids": [
+      10764
+    ],
+    "cached_at": "2025-10-17T06:17:23.054419"
+  },
+  "130001": {
+    "id": 130001,
+    "name": "Plastic Cup Boyz: Laughing My Mask Off!",
+    "original_name": "Plastic Cup Boyz: Laughing My Mask Off!",
+    "first_air_date": "2021-07-27",
+    "vote_average": 2.0,
+    "poster_path": "/m40DQtSlnHXw4UNnKjGLbOPtK2v.jpg",
+    "genre_ids": [
+      35,
+      10767
+    ],
+    "cached_at": "2025-10-17T06:17:23.107810"
+  },
+  "128500": {
+    "id": 128500,
+    "name": "John DeLorean: mito e magnate",
+    "original_name": "Myth & Mogul: John DeLorean",
+    "first_air_date": "2021-07-30",
+    "vote_average": 6.439,
+    "poster_path": "/zlECyoV9XINpkunjOOoJDtOD8ew.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-17T06:17:23.179713"
+  },
+  "126397": {
+    "id": 126397,
+    "name": "Watch the Sound with Mark Ronson",
+    "original_name": "Watch the Sound with Mark Ronson",
+    "first_air_date": "2021-07-30",
+    "vote_average": 7.4,
+    "poster_path": "/3N0t8A2iaMqVpJI0RDWyv2MTRER.jpg",
+    "genre_ids": [
+      99
+    ],
+    "cached_at": "2025-10-17T06:17:23.186089"
+  },
+  "124965": {
+    "id": 124965,
+    "name": "Punti di svolta con Robin Roberts",
+    "original_name": "Turning the Tables with Robin Roberts",
+    "first_air_date": "2021-07-28",
+    "vote_average": 3.2,
+    "poster_path": "/gDrBxizEijMYoVo08GLfsaMWVZy.jpg",
+    "genre_ids": [
+      10767
+    ],
+    "cached_at": "2025-10-17T06:17:23.250427"
+  },
+  "253368": {
+    "id": 253368,
+    "name": "The Iris Affair: Missione ad alto rischio",
+    "original_name": "The Iris Affair",
+    "first_air_date": "2025-10-16",
+    "vote_average": 4.0,
+    "poster_path": "/dsoSmmAcAXmK338SVLe1SM6cGZl.jpg",
+    "genre_ids": [
+      80
+    ],
+    "cached_at": "2025-10-17T06:17:23.256900"
+  },
+  "129231": {
+    "id": 129231,
+    "name": "与君歌",
+    "original_name": "与君歌",
+    "first_air_date": "2021-08-08",
+    "vote_average": 7.9,
+    "poster_path": "/sJVRKqOlgDtKDq9zkHoZ0MgzVj8.jpg",
+    "genre_ids": [
+      18
+    ],
+    "cached_at": "2025-10-17T06:17:23.322801"
   }
 }
