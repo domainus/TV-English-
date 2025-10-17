@@ -19,8 +19,6 @@ https://vavoo.to/vavoo-iptv/play/68845853044f9c95e43e
 https://vavoo.to/vavoo-iptv/play/190887752614ef25f5e1fd
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.omceo.bg.it/images/loghi/antenna-2.png" group-title="Altro",ANTENNA 2
 https://vavoo.to/vavoo-iptv/play/30140012609b4bf5e8d3b7
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",ANTENNA SICILIA
-https://vavoo.to/vavoo-iptv/play/3309975829c0cd274e96f4
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.antennasud.com/media/2022/08/cropped-LOGO_ANTENNA_SUD_ROSSO_FORATO.png" group-title="Altro",ANTENNA SUD
 https://vavoo.to/vavoo-iptv/play/4084059868fd82d62442e9
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/img/arte_logo.png" group-title="Documentari",ARTE NETWORK
@@ -164,6 +162,8 @@ https://vavoo.to/vavoo-iptv/play/40604994550f228d5b9b59
 https://vavoo.to/vavoo-iptv/play/2116902817eb437d88bab6
 #EXTINF:-1 tvg-id="hgtv.it" tvg-logo="https://d204lf4nuskf6u.cloudfront.net/italy-images/c2cbeaabb81be73e81c7f4291cf798e3.png?k=2nWZhtOSUQdq2s2ItEDH5%2BQEPdq1khUY8YJSK0%2BNV90dhkyaUQQ82V1zGPD7O5%2BS" group-title="Altro",HGTV
 https://vavoo.to/vavoo-iptv/play/42489970292d2930202d0e
+#EXTINF:-1 tvg-id="history.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/history-channel-it.png" group-title="Documentari",HISTORY
+https://vavoo.to/vavoo-iptv/play/2134724757fd92e3286ea6
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.gruppoicaro.it/wp-content/uploads/2020/05/icarotv.png" group-title="Altro",ICARO TV
 https://vavoo.to/vavoo-iptv/play/2392139008947764078821
 #EXTINF:-1 tvg-id="iris.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" group-title="Mediaset",IRIS
@@ -188,6 +188,10 @@ https://vavoo.to/vavoo-iptv/play/1200985239ceccd12c8a54
 https://vavoo.to/vavoo-iptv/play/477083716dc642d622f68
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Iunior_tv.png" group-title="Altro",IUNIOR TV
 https://vavoo.to/vavoo-iptv/play/803540254d5a6317673b3
+#EXTINF:-1 tvg-id="k2.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/k2-it.png" group-title="Bambini",K2
+https://vavoo.to/vavoo-iptv/play/11090349bae706bd9ec4
+
+# SPORT
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/radio-kiss-kiss-tv-it.png?raw=true" group-title="Musica",KISS KISS
 https://vavoo.to/vavoo-iptv/play/38157267494d3060cf955b
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/radio-kiss-kiss-italia-it.png?raw=true" group-title="Musica",KISS KISS ITALIA
@@ -314,6 +318,8 @@ https://vavoo.to/vavoo-iptv/play/1803677691b051ba6d360f
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Rai_Italia_-_Logo_2017.svg/1024px-Rai_Italia_-_Logo_2017.svg.png" group-title="Rai",RAI ITALIA
+https://vavoo.to/vavoo-iptv/play/2944572451ecdb3159250
 #EXTINF:-1 tvg-id="raimovie.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" group-title="Rai",RAI MOVIE
 https://vavoo.to/vavoo-iptv/play/1925964148b9cb23cc2bce
 #EXTINF:-1 tvg-id="raimovie.it" tvg-name="RAI MOVIE" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/rai-movie-it.png" group-title="Rai",RAI MOVIE (MPD)
@@ -409,6 +415,8 @@ https://vavoo.to/vavoo-iptv/play/10944791346b08a647fce
 https://vavoo.to/vavoo-iptv/play/1971490284ce4effc4ca8e
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/1200px-RSI_La_1_2012.svg.png" group-title="Altro",RSI LA 1
 https://vavoo.to/vavoo-iptv/play/22903950460d6b257bf610
+#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1200px-RSI_La_2_2012.svg.png" group-title="Altro",RSI LA 2
+https://vavoo.to/vavoo-iptv/play/3475299702c52e31a7073f
 #EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/7PzluYVAEVOCNzGYGkewkKI3PA0PkCKAc9KUZGfYzAbZnQLnlPAE5iQBMZEUi7ZKwJc" group-title="Altro",RTC TELECALABRIA
 https://vavoo.to/vavoo-iptv/play/639406775e0288e6772cc
 #EXTINF:-1 tvg-id="rtl.102.5.hd.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/rtl-1025-it.png" group-title="Musica",RTL 102.5
@@ -566,10 +574,6 @@ https://vavoo.to/vavoo-iptv/play/300937751365646200d097
 https://vavoo.to/vavoo-iptv/play/11653719d8ef305a8c92
 #EXTINF:-1 tvg-id="" tvg-logo="https://bresciasat.it/assets/front/img/logo3.png" group-title="Altro",SUPER TV BRESCIA
 https://vavoo.to/vavoo-iptv/play/2061826034c5ac3b5d7306
-#EXTINF:-1 tvg-id="super!.it" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Super%21_logo_2021.svg/1024px-Super%21_logo_2021.svg.png" group-title="Bambini",SUPER!
-https://vavoo.to/vavoo-iptv/play/2900362153b8a056cb86c0
-
-# SPORT
 #EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ebhZMV4eYibx6UpVDOt1KOlmhOPYBh0gKw&s" group-title="Altro",SUPERSIX LOMBARDIA
 https://vavoo.to/vavoo-iptv/play/8491244640295fc9ea282
 #EXTINF:-1 tvg-id="" tvg-logo="https://www.abruzzi.tv/logo-abruzzi.png" group-title="Altro",TELE ABRUZZO
@@ -736,25 +740,22 @@ https://dlhd.dad/watch.php?id=108
 #EXTINF:-1 tvg-id="franceligue1psgvsstrasbourg" tvg-name="All Soccer Events | France - Ligue 1 : PSG vs Strasbourg (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/PSG_vs_Strasbourg.png" group-title="Eventi Live DLHD",All Soccer Events | France - Ligue 1 : PSG vs Strasbourg (20:45)
 https://dlhd.dad/watch.php?id=462
 
-#EXTINF:-1 tvg-id="brusselsatpstockholmatpalmatyatposakawtaampningbowtaearlyrounds" tvg-name="Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (12:30)" tvg-logo="https://assets.stickpng.com/thumbs/6266993f2c88722059d58711.png" group-title="Eventi Live DLHD",Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (12:30)
+#EXTINF:-1 tvg-id="brusselsatpstockholmatpalmatyatposakawtaampningbowtaearlyrounds" tvg-name="Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (12:30)" tvg-logo="https://photoresources.wtatennis.com/photo-resources/2024/04/26/c0aafbd2-cead-4109-9bc5-f6c30984c189/Osaka-Torso_319998.png?width=950" group-title="Eventi Live DLHD",Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (12:30)
 https://dlhd.dad/watch.php?id=576
 
 #EXTINF:-1 tvg-id="motogpaustraliangrandprixpractice1" tvg-name="Motorsport | MotoGP : Australian Grand Prix, Practice 1 (07:00)" tvg-logo="https://brandlogo.org/wp-content/uploads/2024/11/MotoGP-Logo-2024.png" group-title="Eventi Live DLHD",Motorsport | MotoGP : Australian Grand Prix, Practice 1 (07:00)
 https://dlhd.dad/watch.php?id=575
 
-#EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgppractice1" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Practice 1 (19:30)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Practice 1 (19:30)
+#EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgppractice1" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Practice 1 (19:30)" tvg-logo="https://assets.stickpng.com/thumbs/5842fc7aa6515b1e0ad75b39.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Practice 1 (19:30)
 https://dlhd.dad/watch.php?id=577
 
-#EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgpsprintqualifying" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Sprint Qualifying (23:30)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Sprint Qualifying (23:30)
+#EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgpsprintqualifying" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Sprint Qualifying (23:30)" tvg-logo="https://images.seeklogo.com/logo-png/33/2/formula-1-logo-png_seeklogo-330361.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Sprint Qualifying (23:30)
 https://dlhd.dad/watch.php?id=577
 
 #EXTINF:-1 tvg-id="moto3australiangrandprixfreepractice2" tvg-name="Motorsport | Moto3 : Australian Grand Prix, Free Practice 2 (23:35)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/ksxcfb1568976756.png" group-title="Eventi Live DLHD",Motorsport | Moto3 : Australian Grand Prix, Free Practice 2 (23:35)
 https://dlhd.dad/watch.php?id=575
 
-#EXTINF:-1 tvg-id="moto2australiangrandprixqualifying" tvg-name="Motorsport | Moto2 : Australian Grand Prix, Qualifying (04:40)" tvg-logo="https://www.thesportsdb.com/images/media/league/badge/yqvtrq1432309315.png" group-title="Eventi Live DLHD",Motorsport | Moto2 : Australian Grand Prix, Qualifying (04:40)
-https://dlhd.dad/watch.php?id=575
-
-#EXTINF:-1 tvg-id="tourofhollandstage3mensittardwatersley154km" tvg-name="Cycling | Tour of Holland | Stage 3 Men | Sittard – Watersley (154km) (13:45)" tvg-logo="https://png.pngtree.com/png-clipart/20230805/original/pngtree-amsterdam-the-capital-of-holland-sign-tour-pictogram-vector-picture-image_9725402.png" group-title="Eventi Live DLHD",Cycling | Tour of Holland | Stage 3 Men | Sittard – Watersley (154km) (13:45)
+#EXTINF:-1 tvg-id="tourofhollandstage3mensittardwatersley154km" tvg-name="Cycling | Tour of Holland | Stage 3 Men | Sittard – Watersley (154km) (13:45)" tvg-logo="https://www.procyclingstats.com/images/shirts/bx/eb/volkerwessels-cyclingteam-2025.png" group-title="Eventi Live DLHD",Cycling | Tour of Holland | Stage 3 Men | Sittard – Watersley (154km) (13:45)
 https://dlhd.dad/watch.php?id=878
 
 #EXTINF:-1 tvg-id="grandprixfrancewomensindividualshortprogram" tvg-name="Ice Skating | Grand Prix France | Women's Individual Short Program (18:00)" tvg-logo="http://www.bing.com/sa/simg/facebook_sharing_5.png" group-title="Eventi Live DLHD",Ice Skating | Grand Prix France | Women's Individual Short Program (18:00)
@@ -774,82 +775,82 @@ https://sportzonline.st/channels/hd/hd7.php
 #EXTINF:-1 group-title="Eventi Live SPORTSONLINE",Formula 1: US Grand Prix - Sprint Qualifying 23:00
 https://sportzonline.st/channels/hd/hd8.php
 
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 06:00 | MotoGP Australia GP: MotoGP FP2 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 06:00 | MotoGP Australia GP: MotoGP FP2 (Italiano HD)
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 08:00 | WRC Rally Central European Rally: Shakedown Tocna (Rally Tv HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 08:00 | WRC Rally Central European Rally: Shakedown Tocna (Rally Tv HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/WOdPmprQIICrkTaAVASItkbJnnjhAlOf/alpha/stream/motogp-australia-gp-motogp-fp2/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 06:00 | MotoGP Australia GP: MotoGP FP2 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 06:00 | MotoGP Australia GP: MotoGP FP2 (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/LptaNLdCIpjvCwkzyaGdChIMAYlnwNMK/alpha/stream/motogp-australia-gp-motogp-fp2/14/playlist.m3u8
+https://lb9.strmd.top/secure/OIEVIFvUWDEWGhZVNBxalCyLkoizqtmJ/hotel/stream/wrc-rally-central-european-rally-shakedown-tocna/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 04:10 | Moto2: Australian Grand Prix, Training (Sky Sport MotoGP Italy HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 04:10 | Moto2: Australian Grand Prix, Training (Sky Sport MotoGP Italy HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/xxrHFjYmFIGLAJduJoRaJNhRhZtmFjAx/hotel/stream/moto2-australian-grand-prix-training/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEAJxQkIeJBDcQUkBBMgUukCSMGjBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" tvg-name="FOOTBALL | 02:30 | Fluminense vs Juventude (Premiere BR HD)" group-title="Eventi Live STREAMED",FOOTBALL | 02:30 | Fluminense vs Juventude (Premiere BR HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/uZSrSkIDWvJwjnWrhhTsiqGwifsgQbsr/hotel/stream/brazil-brasileir-o-fluminense-vs-juventude/1/playlist.m3u8
+https://lb8.strmd.top/secure/RwHmxzWQTRmuzmcQEjcvDFjhwdFqLyOy/hotel/stream/moto2-australian-grand-prix-training/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 03:45 | Moto3: Australian Grand Prix, Qualifying (Sky Sport MotoGP Italy HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 03:45 | Moto3: Australian Grand Prix, Qualifying (Sky Sport MotoGP Italy HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/HDtajoEWTCYWNmabNrNBnMikcbehsyKg/hotel/stream/moto3-australian-grand-prix-qualifying/2/playlist.m3u8
+https://lb9.strmd.top/secure/QVzPCGgwDsqrVVdBKOSlfSCYOWVvJWMm/hotel/stream/moto3-australian-grand-prix-qualifying/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 07:00 | MotoGP: Australian Grand Prix, Practice 1 (TNT Sports 2 UK HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 07:00 | MotoGP: Australian Grand Prix, Practice 1 (TNT Sports 2 UK HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb4.strmd.top/secure/ZZQYCUtIDiJHvotPpwhopJJlRTWHdapS/hotel/stream/motogp-australian-grand-prix-practice-1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEAJxQkIeJBDcQUkBBMgUukCSMGjBYEgp9hs+ijAqUXD+XpZZXky0YB5iohBAA.webp" tvg-name="FOOTBALL | 02:30 | Fluminense vs Juventude (Premiere BR HD)" group-title="Eventi Live STREAMED",FOOTBALL | 02:30 | Fluminense vs Juventude (Premiere BR HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb3.strmd.top/secure/bQnxYyyoVzUMNnkqPvCfhbnguSJYVmor/hotel/stream/brazil-brasileir-o-fluminense-vs-juventude/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/ytmQJEPjbmbYrDJZYLghMxxfFYFqoAMP/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
+https://lb9.strmd.top/secure/HSdCRUYGwHMHrfHrBqISoTvISdHxKQwC/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/MSBhBdNKrHHlGYoJrYwvojNsuFgRogCe/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+https://lb4.strmd.top/secure/MaeYNPZNYYCGbByrPWXvUkaHEmiHXZJu/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 10:30 | World Superbikes: Practice 1 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 10:30 | World Superbikes: Practice 1 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/vDuZEnKEqGbjTePWnrOXhtkFLPRApNhi/alpha/stream/world-superbikes-practice-1/2/playlist.m3u8
+https://lb4.strmd.top/secure/lcVeZmZjtcjQNYjwTPdacgwAkQOvrAlN/alpha/stream/world-superbikes-practice-1/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 12:00 | Stockholm Centre Court: Ugo Humbert vs Lorenzo Sonego (English HD)" group-title="Eventi Live STREAMED",TENNIS | 12:00 | Stockholm Centre Court: Ugo Humbert vs Lorenzo Sonego (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/FpVVLDlUhsYUXMUOgEizQpbEwNtsoAXU/alpha/stream/stockholm-centre-court-ugo-humbert-vs-lorenzo-sonego/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/fLBGxAFkSrwlZBZRdbMuNMZAYQFJtMBU/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/zCatGZkVtujLxraLjLXhKldrZuDQouQN/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
+https://lb3.strmd.top/secure/fpWlkCZZFypVhrGBMyjoaTsvemkrNWcA/alpha/stream/stockholm-centre-court-ugo-humbert-vs-lorenzo-sonego/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 13:20 | WSBK: Worldwcr Superpole (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 13:20 | WSBK: Worldwcr Superpole (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/zKeSWmoDtYNPREgxqhEtOSoupSnEClVo/alpha/stream/wsbk-worldwcr-superpole/2/playlist.m3u8
+https://lb4.strmd.top/secure/RfEggdtSYxvQtsBzsxoyerruZnFjqNPx/alpha/stream/wsbk-worldwcr-superpole/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 14:00 | Tour of Holland, Stage 3 (Italiano HD)" group-title="Eventi Live STREAMED",OTHER | 14:00 | Tour of Holland, Stage 3 (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/tdVFTDwjQvsoFGpJyxCmwjBXZmeUFGrM/alpha/stream/tour-of-holland-stage-3/2/playlist.m3u8
+https://lb4.strmd.top/secure/SPTTdqXEDeeYyyOSQYOmJinlHZYKbPwk/alpha/stream/tour-of-holland-stage-3/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 14:00 | Tour of Holland, Stage 3 (Italiano SD)" group-title="Eventi Live STREAMED",OTHER | 14:00 | Tour of Holland, Stage 3 (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/EcQuShhblAfSuILmPikOCiaQxmiYoHiM/alpha/stream/tour-of-holland-stage-3/3/playlist.m3u8
+https://lb1.strmd.top/secure/QmwIQYnrvUVzugAZIRgaLfeprfgCdlKm/alpha/stream/tour-of-holland-stage-3/3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 16:00 | Brussels Centre Court: Musetti Lorenzo vs Mpetshi Perricard Giovanni (English HD)" group-title="Eventi Live STREAMED",TENNIS | 16:00 | Brussels Centre Court: Musetti Lorenzo vs Mpetshi Perricard Giovanni (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/LGTbJWaAZbfoOGmyHWqTHldgsBNmfmIw/alpha/stream/brussels-centre-court-musetti-lorenzo-vs-mpetshi-perricard-giovanni/2/playlist.m3u8
+https://lb6.strmd.top/secure/SJPgQzuBOKWWTMtIsaMTzqICNrlAFmrV/alpha/stream/brussels-centre-court-musetti-lorenzo-vs-mpetshi-perricard-giovanni/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb6.strmd.top/secure/zLFHdyhuHBiMSXJTjNmOERRBXXSHDqtz/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:30 | NASCAR Craftsman Truck Series: Love's RV Stop 225, Qualifying (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:30 | NASCAR Craftsman Truck Series: Love's RV Stop 225, Qualifying (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/cXcDNVAwzmaAsFwUCtXxGuNQuJJsXegR/charlie/stream/loves-rv-stop-225-qualifying-1629466425/1/playlist.m3u8
+https://lb4.strmd.top/secure/ygdaGDQXdaxFUhQsKIlbHrgYmLJiLnjV/charlie/stream/loves-rv-stop-225-qualifying-1629466425/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:30 | NASCAR Truck Series Qualifying Talladega Superspeedway (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:30 | NASCAR Truck Series Qualifying Talladega Superspeedway (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb5.strmd.top/secure/trnsyzJkeiiFvtzrGQQXvSPkZIjXUVRe/alpha/stream/nascar-truck-series-qualifying-talladega-superspeedway/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 19:30 | FIA Formula 1 2025: United State F1GP Practice 1 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:30 | FIA Formula 1 2025: United State F1GP Practice 1 (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/OVJFxaLYRKZaqQwwoFQPQBMGeBDrPcbL/alpha/stream/fia-formula-1-2025-united-state-f1gp-practice-1/9/playlist.m3u8
+https://lb2.strmd.top/secure/gjYiurioUwIkQosMdErXkCRChaivZCRp/alpha/stream/fia-formula-1-2025-united-state-f1gp-practice-1/9/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 19:30 | FIA Formula 1 2025: United State F1GP Practice 1 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:30 | FIA Formula 1 2025: United State F1GP Practice 1 (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/sLvVrRYwAsUopfphzoYGIiqioJDfQFjB/alpha/stream/fia-formula-1-2025-united-state-f1gp-practice-1/21/playlist.m3u8
+https://lb9.strmd.top/secure/LqPDvzAzUqgNYcGYcifNZAlIiwGBHmWJ/alpha/stream/fia-formula-1-2025-united-state-f1gp-practice-1/21/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 19:30 | FIA F1 World Championship: FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2025 | Friday practice (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:30 | FIA F1 World Championship: FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2025 | Friday practice (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/cQcHyZYYuwLzjIjFBmkxdbYqyyNgPRdM/charlie/stream/formula-1-msc-cruises-united-states-grand-prix-2025-or-friday-practice-1629466441/2/playlist.m3u8
+https://lb9.strmd.top/secure/SWFEEPvBmPXPCSmtiVdxVBXOtPFZdMNr/charlie/stream/formula-1-msc-cruises-united-states-grand-prix-2025-or-friday-practice-1629466441/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rWqBAgpYMtxD6+ICCBjGQKbea2NgSCn2Gz6KXWxRdd5ellkemtGBu9KIQQA.webp" tvg-name="MOTOR-SPORTS | 19:30 | United States Grand Prix Free Practice 1 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:30 | United States Grand Prix Free Practice 1 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
@@ -857,19 +858,15 @@ https://gg.poocloud.in/f1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rMijCiUwAAxgUIbiD4gSIKSBi4QEEPdMKmSCn2Gz6mlTrZby9LFkdJlowLTFRCCA.webp" tvg-name="FOOTBALL | 20:30 | Virtus Entella vs Sampdoria (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 20:30 | Virtus Entella vs Sampdoria (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb4.strmd.top/secure/oajoZylbkCfBInNFICvlsHtxndwXcouj/alpha/stream/virtus-entella-vs-sampdoria/2/playlist.m3u8
+https://lb3.strmd.top/secure/CnoYzGJQSLPyUdDFLsqknjSxrksxjwpz/alpha/stream/virtus-entella-vs-sampdoria/2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rMijCiUwAAxgUIbiD4gSIKSBi4QEEPdMKmSCn2Gz6mlTrZby9LFkdJlowLTFRCCA.webp" tvg-name="FOOTBALL | 20:30 | Virtus Entella vs Sampdoria (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 20:30 | Virtus Entella vs Sampdoria (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/lvYKTzwUtIMLzPdYFFRpcDqensAkwFUh/alpha/stream/virtus-entella-vs-sampdoria/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 23:40 | MotoGP Australia GP: Moto3 FP3 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 23:40 | MotoGP Australia GP: Moto3 FP3 (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/TZXoUAZXNbnNJebQWUotmNtNhtXJlEVy/alpha/stream/motogp-australia-gp-moto3-fp3/7/playlist.m3u8
+https://lb1.strmd.top/secure/aSefLEtUZgtFgkiVaUNqtbNnbISpgQUr/alpha/stream/virtus-entella-vs-sampdoria/3/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 23:40 | MotoGP Australia GP: Moto3 FP3 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 23:40 | MotoGP Australia GP: Moto3 FP3 (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/lASlPtJQnZncgcjoXIOLSSdylzLsqaHv/alpha/stream/motogp-australia-gp-moto3-fp3/15/playlist.m3u8
+https://lb2.strmd.top/secure/MFsjTWlbTekigXFLkBkepsnskGBSsbOq/alpha/stream/motogp-australia-gp-moto3-fp3/15/playlist.m3u8
 #EXTINF:-1 tvg-chno="80" tvg-name="Pluto TV Christmas" tvg-logo="https://images.pluto.tv/channels/612e05b885183d0007958101/colorLogoPNG.png" tvg-id="612e05b885183d0007958101" group-title="Pluto TV Italia",Pluto TV Christmas
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/612e05b885183d0007958101/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 tvg-chno="85" tvg-name="Pluto TV Fireplace" tvg-logo="https://images.pluto.tv/channels/612ce23f51cce000078eeed5/colorLogoPNG.png" tvg-id="612ce23f51cce000078eeed5" group-title="Pluto TV Italia",Pluto TV Fireplace
