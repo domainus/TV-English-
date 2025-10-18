@@ -2,12 +2,6 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="bundesligabayernmünchenvsborussiadortmund" tvg-name="All Soccer Events | Bundesliga : Bayern München vs Borussia Dortmund (18:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Bayern München_vs_Borussia Dortmund.png" group-title="Eventi Live DLHD",All Soccer Events | Bundesliga : Bayern München vs Borussia Dortmund (18:30)
-https://dlhd.dad/watch.php?id=870
-
-#EXTINF:-1 tvg-id="italyseriebspeziavscesena" tvg-name="All Soccer Events | Italy - Serie B : Spezia vs Cesena (19:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Spezia_vs_Cesena.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie B : Spezia vs Cesena (19:30)
-https://dlhd.dad/watch.php?id=77
-
 #EXTINF:-1 tvg-id="italyseriearomavsinternazionale" tvg-name="All Soccer Events | Italy - Serie A : Roma vs Internazionale (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Roma_vs_Internazionale.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A : Roma vs Internazionale (20:45)
 https://dlhd.dad/watch.php?id=163
 
@@ -16,9 +10,6 @@ https://dlhd.dad/watch.php?id=870
 
 #EXTINF:-1 tvg-id="franceligue1olympiquemarseillevslehavre" tvg-name="All Soccer Events | France - Ligue 1 : Olympique Marseille vs Le Havre (21:05)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Olympique Marseille_vs_Le Havre.png" group-title="Eventi Live DLHD",All Soccer Events | France - Ligue 1 : Olympique Marseille vs Le Havre (21:05)
 https://dlhd.dad/watch.php?id=164
-
-#EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgpsprint" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Sprint (19:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Sprint (19:00)
-https://dlhd.dad/watch.php?id=577
 
 #EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgpqualifying" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Qualifying (23:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Qualifying (23:00)
 https://dlhd.dad/watch.php?id=577

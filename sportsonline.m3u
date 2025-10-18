@@ -1,5 +1,3 @@
 #EXTM3U
-#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",Roma x Internazionale 20:45
-https://sportzonline.st/channels/hd/hd7.php
-#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",Formula 1: US Grand Prix: Qualifying 22:00
-https://sportzonline.st/channels/hd/hd8.php
+#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",NESSUN EVENTO
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
