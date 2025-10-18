@@ -2,24 +2,6 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="italyseriebjuvestabiavsavellino" tvg-name="All Soccer Events | Italy - Serie B : Juve Stabia vs Avellino (17:15)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Juve Stabia_vs_Avellino.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie B : Juve Stabia vs Avellino (17:15)
-https://dlhd.dad/watch.php?id=160
-
-#EXTINF:-1 tvg-id="italyseriecospitalettovscittadella" tvg-name="All Soccer Events | Italy - Serie C : Ospitaletto vs Cittadella (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Ospitaletto_vs_Cittadella.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Ospitaletto vs Cittadella (17:30)
-https://dlhd.dad/watch.php?id=164
-
-#EXTINF:-1 tvg-id="italyseriecgubbiovsnuovamonterosi" tvg-name="All Soccer Events | Italy - Serie C : Gubbio vs Nuova Monterosi (17:30)" tvg-logo="http://www.alkimiagubbio.com/wp-content/uploads/2021/11/logo_comune_gubbio.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Gubbio vs Nuova Monterosi (17:30)
-https://dlhd.dad/watch.php?id=213
-
-#EXTINF:-1 tvg-id="italyseriecpianesevsbra" tvg-name="All Soccer Events | Italy - Serie C : Pianese vs Bra (17:30)" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Pianese vs Bra (17:30)
-https://dlhd.dad/watch.php?id=161
-
-#EXTINF:-1 tvg-id="italyserieclatinavsgiugliano" tvg-name="All Soccer Events | Italy - Serie C : Latina vs Giugliano (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Latina_vs_Giugliano.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Latina vs Giugliano (17:30)
-https://dlhd.dad/watch.php?id=162
-
-#EXTINF:-1 tvg-id="italyserieatorinovsnapoli" tvg-name="All Soccer Events | Italy - Serie A : Torino vs Napoli (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Torino_vs_Napoli.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A : Torino vs Napoli (18:00)
-https://dlhd.dad/watch.php?id=877
-
 #EXTINF:-1 tvg-id="bundesligabayernmünchenvsborussiadortmund" tvg-name="All Soccer Events | Bundesliga : Bayern München vs Borussia Dortmund (18:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Bayern München_vs_Borussia Dortmund.png" group-title="Eventi Live DLHD",All Soccer Events | Bundesliga : Bayern München vs Borussia Dortmund (18:30)
 https://dlhd.dad/watch.php?id=870
 
@@ -43,7 +25,4 @@ https://dlhd.dad/watch.php?id=577
 
 #EXTINF:-1 tvg-id="unitedrugbychampionshipzebrevsstormers" tvg-name="Rugby Union | United Rugby Championship : Zebre vs Stormers (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Zebre_vs_Stormers.png" group-title="Eventi Live DLHD",Rugby Union | United Rugby Championship : Zebre vs Stormers (20:45)
 https://dlhd.dad/watch.php?id=462
-
-#EXTINF:-1 tvg-id="italysupercoppawomenvolleyconeglianovsvolleymonza" tvg-name="Volleyball | Italy Supercoppa, Women : Volley Conegliano vs. Volley Monza (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Volley Conegliano_vs_Volley Monza.png" group-title="Eventi Live DLHD",Volleyball | Italy Supercoppa, Women : Volley Conegliano vs. Volley Monza (17:30)
-https://dlhd.dad/watch.php?id=851
 
