@@ -2,58 +2,16 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="italyseriecrenatevsdolomitibellunesi" tvg-name="All Soccer Events | Italy - Serie C : Renate vs Dolomiti Bellunesi (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Renate_vs_Dolomiti Bellunesi.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Renate vs Dolomiti Bellunesi (14:30)
-https://dlhd.dad/watch.php?id=207
-
-#EXTINF:-1 tvg-id="italyseriectriestinavspergolettese" tvg-name="All Soccer Events | Italy - Serie C : Triestina vs Pergolettese (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Triestina_vs_Pergolettese.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Triestina vs Pergolettese (14:30)
-https://dlhd.dad/watch.php?id=161
-
-#EXTINF:-1 tvg-id="italyserieclivornovssambenedettese" tvg-name="All Soccer Events | Italy - Serie C : Livorno vs Sambenedettese (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Livorno_vs_Sambenedettese.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Livorno vs Sambenedettese (14:30)
-https://dlhd.dad/watch.php?id=163
-
-#EXTINF:-1 tvg-id="italyseriecsorrentovscosenza" tvg-name="All Soccer Events | Italy - Serie C : Sorrento vs Cosenza (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Sorrento_vs_Cosenza.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Sorrento vs Cosenza (14:30)
-https://dlhd.dad/watch.php?id=162
-
-#EXTINF:-1 tvg-id="italyseriecvirtuscasaranovsfoggia" tvg-name="All Soccer Events | Italy - Serie C : Virtus Casarano vs Foggia (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Virtus Casarano_vs_Foggia.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Virtus Casarano vs Foggia (14:30)
-https://dlhd.dad/watch.php?id=213
-
-#EXTINF:-1 tvg-id="italyserieccrotonevsmonopoli" tvg-name="All Soccer Events | Italy - Serie C : Crotone vs Monopoli (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Crotone_vs_Monopoli.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Crotone vs Monopoli (14:30)
-https://dlhd.dad/watch.php?id=164
-
-#EXTINF:-1 tvg-id="italyserieawomenfiorentinavsmilan" tvg-name="All Soccer Events | Italy - Serie A (women) : Fiorentina vs Milan (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Fiorentina_vs_Milan.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A (women) : Fiorentina vs Milan (15:00)
-https://dlhd.dad/watch.php?id=69
-
-#EXTINF:-1 tvg-id="italyseriealeccevssassuolo" tvg-name="All Soccer Events | Italy - Serie A : Lecce vs Sassuolo (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Lecce_vs_Sassuolo.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A : Lecce vs Sassuolo (15:00)
-https://dlhd.dad/watch.php?id=877
-
-#EXTINF:-1 tvg-id="italyserieapisavshellasverona" tvg-name="All Soccer Events | Italy - Serie A : Pisa vs Hellas Verona (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Pisa_vs_Hellas Verona.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A : Pisa vs Hellas Verona (15:00)
-https://dlhd.dad/watch.php?id=76
-
-#EXTINF:-1 tvg-id="italyseriebfrosinonevsmonza" tvg-name="All Soccer Events | Italy - Serie B : Frosinone vs Monza (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Frosinone_vs_Monza.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie B : Frosinone vs Monza (15:00)
-https://dlhd.dad/watch.php?id=105
-
-#EXTINF:-1 tvg-id="italyseriebreggianavsbari1908" tvg-name="All Soccer Events | Italy - Serie B : Reggiana vs Bari 1908 (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Reggiana_vs_Bari 1908.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie B : Reggiana vs Bari 1908 (15:00)
-https://dlhd.dad/watch.php?id=106
-
-#EXTINF:-1 tvg-id="italyseriebmantovavssüdtirol" tvg-name="All Soccer Events | Italy - Serie B : Mantova vs Südtirol (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Mantova_vs_Südtirol.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie B : Mantova vs Südtirol (15:00)
-https://dlhd.dad/watch.php?id=107
-
-#EXTINF:-1 tvg-id="italyseriebpescaravscarrarese" tvg-name="All Soccer Events | Italy - Serie B : Pescara vs Carrarese (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Pescara_vs_Carrarese.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie B : Pescara vs Carrarese (15:00)
-https://dlhd.dad/watch.php?id=108
-
-#EXTINF:-1 tvg-id="englandpremierleaguebrightonamphovealbionvsnewcastleunited" tvg-name="All Soccer Events | England - Premier League : Brighton &amp; Hove Albion vs Newcastle United (16:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Brighton &amp; Hove Albion_vs_Newcastle United.png" group-title="Eventi Live DLHD",All Soccer Events | England - Premier League : Brighton &amp; Hove Albion vs Newcastle United (16:00)
-https://dlhd.dad/watch.php?id=870
-
 #EXTINF:-1 tvg-id="italyseriebjuvestabiavsavellino" tvg-name="All Soccer Events | Italy - Serie B : Juve Stabia vs Avellino (17:15)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Juve Stabia_vs_Avellino.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie B : Juve Stabia vs Avellino (17:15)
 https://dlhd.dad/watch.php?id=160
 
 #EXTINF:-1 tvg-id="italyseriecospitalettovscittadella" tvg-name="All Soccer Events | Italy - Serie C : Ospitaletto vs Cittadella (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Ospitaletto_vs_Cittadella.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Ospitaletto vs Cittadella (17:30)
 https://dlhd.dad/watch.php?id=164
 
-#EXTINF:-1 tvg-id="italyseriecgubbiovsnuovamonterosi" tvg-name="All Soccer Events | Italy - Serie C : Gubbio vs Nuova Monterosi (17:30)" tvg-logo="https://content.tuttocampo.it/Web/Images/Teams/Original/1100813.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Gubbio vs Nuova Monterosi (17:30)
+#EXTINF:-1 tvg-id="italyseriecgubbiovsnuovamonterosi" tvg-name="All Soccer Events | Italy - Serie C : Gubbio vs Nuova Monterosi (17:30)" tvg-logo="http://www.alkimiagubbio.com/wp-content/uploads/2021/11/logo_comune_gubbio.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Gubbio vs Nuova Monterosi (17:30)
 https://dlhd.dad/watch.php?id=213
 
-#EXTINF:-1 tvg-id="italyseriecpianesevsbra" tvg-name="All Soccer Events | Italy - Serie C : Pianese vs Bra (17:30)" tvg-logo="https://www.tradestockltd.co.uk/wp-content/uploads/2025/01/BRA-LOGO.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Pianese vs Bra (17:30)
+#EXTINF:-1 tvg-id="italyseriecpianesevsbra" tvg-name="All Soccer Events | Italy - Serie C : Pianese vs Bra (17:30)" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Pianese vs Bra (17:30)
 https://dlhd.dad/watch.php?id=161
 
 #EXTINF:-1 tvg-id="italyserieclatinavsgiugliano" tvg-name="All Soccer Events | Italy - Serie C : Latina vs Giugliano (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Latina_vs_Giugliano.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Latina vs Giugliano (17:30)
@@ -85,9 +43,6 @@ https://dlhd.dad/watch.php?id=577
 
 #EXTINF:-1 tvg-id="unitedrugbychampionshipzebrevsstormers" tvg-name="Rugby Union | United Rugby Championship : Zebre vs Stormers (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Zebre_vs_Stormers.png" group-title="Eventi Live DLHD",Rugby Union | United Rugby Championship : Zebre vs Stormers (20:45)
 https://dlhd.dad/watch.php?id=462
-
-#EXTINF:-1 tvg-id="serieaelitemoglianovsrovigo" tvg-name="Rugby Union | Serie A Elite : Mogliano vs Rovigo (15:30)" tvg-logo="https://images.seeklogo.com/logo-png/61/2/provincia-di-rovigo-logo-png_seeklogo-610266.png" group-title="Eventi Live DLHD",Rugby Union | Serie A Elite : Mogliano vs Rovigo (15:30)
-https://dlhd.dad/watch.php?id=882
 
 #EXTINF:-1 tvg-id="italysupercoppawomenvolleyconeglianovsvolleymonza" tvg-name="Volleyball | Italy Supercoppa, Women : Volley Conegliano vs. Volley Monza (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Volley Conegliano_vs_Volley Monza.png" group-title="Eventi Live DLHD",Volleyball | Italy Supercoppa, Women : Volley Conegliano vs. Volley Monza (17:30)
 https://dlhd.dad/watch.php?id=851
