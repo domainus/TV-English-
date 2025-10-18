@@ -170,8 +170,6 @@ https://vavoo.to/vavoo-iptv/play/42489970292d2930202d0e
 https://vavoo.to/vavoo-iptv/play/2392139008947764078821
 #EXTINF:-1 tvg-id="iris.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/iris-it.png" group-title="Mediaset",IRIS
 https://vavoo.to/vavoo-iptv/play/23919988fc371eea2329
-#EXTINF:-1 tvg-id="italia.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1
-https://vavoo.to/vavoo-iptv/play/633342961994dc5083ad5
 #EXTINF:-1 tvg-id="italia.1.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/italia1-it.png" group-title="Mediaset",ITALIA 1 (D)
 https://dlhd.dad/watch.php?id=854
 
@@ -247,8 +245,6 @@ https://vavoo.to/vavoo-iptv/play/1641481816a8a66ad9baf6
 https://vavoo.to/vavoo-iptv/play/3471319012d308ec0dc636
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Altro",PEOPLE ARE AWESOME
 https://vavoo.to/vavoo-iptv/play/1087345241c8751e395263
-#EXTINF:-1 tvg-id="pescaecaccia.it" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/italy/caccia-pesca-it.png?raw=true" group-title="Altro",PESCA E CACCIA
-https://vavoo.to/vavoo-iptv/play/312451299385241b4e7078
 #EXTINF:-1 tvg-id="premiumcrime.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/premium-crime-it.png" group-title="Film - Serie TV",PREMIUM CRIME
 https://vavoo.to/vavoo-iptv/play/444768053e397c96fc6df
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Prima_TV_Logo_2022.svg/800px-Prima_TV_Logo_2022.svg.png" group-title="Altro",PRIMA TV (1)
@@ -415,8 +411,6 @@ https://vavoo.to/vavoo-iptv/play/10944791346b08a647fce
 https://vavoo.to/vavoo-iptv/play/1971490284ce4effc4ca8e
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/RSI_La_1_2012.svg/1200px-RSI_La_1_2012.svg.png" group-title="Altro",RSI LA 1
 https://vavoo.to/vavoo-iptv/play/22903950460d6b257bf610
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/1200px-RSI_La_2_2012.svg.png" group-title="Altro",RSI LA 2
-https://vavoo.to/vavoo-iptv/play/3475299702c52e31a7073f
 #EXTINF:-1 tvg-id="" tvg-logo="https://play-lh.googleusercontent.com/7PzluYVAEVOCNzGYGkewkKI3PA0PkCKAc9KUZGfYzAbZnQLnlPAE5iQBMZEUi7ZKwJc" group-title="Altro",RTC TELECALABRIA
 https://vavoo.to/vavoo-iptv/play/639406775e0288e6772cc
 #EXTINF:-1 tvg-id="rtl.102.5.hd.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/rtl-1025-it.png" group-title="Musica",RTL 102.5
@@ -465,8 +459,6 @@ https://dlhd.dad/watch.php?id=866
 https://vavoo.to/vavoo-iptv/play/32165161175e13c1d3f56a
 #EXTINF:-1 tvg-id="sky.cinema.family.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-family-it.png" group-title="Film - Serie TV",SKY CINEMA FAMILY (D)
 https://dlhd.dad/watch.php?id=865
-#EXTINF:-1 tvg-id="sky.cinema.romance.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Film - Serie TV",SKY CINEMA ROMANCE
-https://vavoo.to/vavoo-iptv/play/128126488561be9a87267f
 #EXTINF:-1 tvg-id="sky.cinema.romance.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-romance-it.png" group-title="Film - Serie TV",SKY CINEMA ROMANCE (D)
 https://dlhd.dad/watch.php?id=864
 #EXTINF:-1 tvg-id="sky.cinema.suspense.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-cinema-suspense-it.png" group-title="Film - Serie TV",SKY CINEMA SUSPENSE
@@ -527,6 +519,8 @@ https://dlhd.dad/watch.php?id=870
 https://dlhd.dad/watch.php?id=577
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-football-it.png" group-title="Sport",SKY SPORT FOOTBALL [LIVE DURING EVENTS ONLY]
 https://vavoo.to/vavoo-iptv/play/198930923100c09085a1ae
+#EXTINF:-1 tvg-id="sky.sport.golf.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-golf-it.png" group-title="Sport",SKY SPORT GOLF
+https://vavoo.to/vavoo-iptv/play/3897711086f5655aa4d5fb
 #EXTINF:-1 tvg-id="sky.sport.max.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/italy/sky-sport-max-it.png" group-title="Sport",SKY SPORT MAX (D)
 https://dlhd.dad/watch.php?id=460
 #EXTINF:-1 tvg-id="sky.sport.motogp.it" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/italy/hd/sky-sport-motogp-hd-it.png" group-title="Sport",SKY SPORT MOTOGP
@@ -777,7 +771,7 @@ https://dlhd.dad/watch.php?id=160
 #EXTINF:-1 tvg-id="italyseriecospitalettovscittadella" tvg-name="All Soccer Events | Italy - Serie C : Ospitaletto vs Cittadella (17:30)" tvg-logo="https://www.footballkitarchive.com/static/logos/UTL0Y6sfmbpQfSz/cittadella-2023-logo.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Ospitaletto vs Cittadella (17:30)
 https://dlhd.dad/watch.php?id=164
 
-#EXTINF:-1 tvg-id="italyseriecgubbiovsnuovamonterosi" tvg-name="All Soccer Events | Italy - Serie C : Gubbio vs Nuova Monterosi (17:30)" tvg-logo="https://content.tuttocampo.it/Web/Images/Teams/Original/1100813.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Gubbio vs Nuova Monterosi (17:30)
+#EXTINF:-1 tvg-id="italyseriecgubbiovsnuovamonterosi" tvg-name="All Soccer Events | Italy - Serie C : Gubbio vs Nuova Monterosi (17:30)" tvg-logo="http://www.alkimiagubbio.com/wp-content/uploads/2021/11/logo_comune_gubbio.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Gubbio vs Nuova Monterosi (17:30)
 https://dlhd.dad/watch.php?id=213
 
 #EXTINF:-1 tvg-id="italyseriecpianesevsbra" tvg-name="All Soccer Events | Italy - Serie C : Pianese vs Bra (17:30)" tvg-logo="https://www.tradestockltd.co.uk/wp-content/uploads/2025/01/BRA-LOGO.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Pianese vs Bra (17:30)
@@ -804,7 +798,7 @@ https://dlhd.dad/watch.php?id=870
 #EXTINF:-1 tvg-id="franceligue1olympiquemarseillevslehavre" tvg-name="All Soccer Events | France - Ligue 1 : Olympique Marseille vs Le Havre (21:05)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Olympique Marseille_vs_Le Havre.png" group-title="Eventi Live DLHD",All Soccer Events | France - Ligue 1 : Olympique Marseille vs Le Havre (21:05)
 https://dlhd.dad/watch.php?id=164
 
-#EXTINF:-1 tvg-id="brusselsatpstockholmatpalmatyatposakawtaampningbowtaearlyrounds" tvg-name="Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (12:30)" tvg-logo="https://logodix.com/logo/760985.png" group-title="Eventi Live DLHD",Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (12:30)
+#EXTINF:-1 tvg-id="brusselsatpstockholmatpalmatyatposakawtaampningbowtaearlyrounds" tvg-name="Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (12:30)" tvg-logo="https://assets.stickpng.com/thumbs/62669d1e2c88722059d58717.png" group-title="Eventi Live DLHD",Tennis | Brussels-ATP, Stockholm-ATP, Almaty-ATP, Osaka-WTA &amp; Ningbo-WTA Early Rounds (12:30)
 https://dlhd.dad/watch.php?id=576
 
 #EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgpsprint" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Sprint (19:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Sprint (19:00)
@@ -813,7 +807,7 @@ https://dlhd.dad/watch.php?id=577
 #EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgpqualifying" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Qualifying (23:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Qualifying (23:00)
 https://dlhd.dad/watch.php?id=577
 
-#EXTINF:-1 tvg-id="tourofhollandstage4menemmenvamberg159km" tvg-name="Cycling | Tour of Holland | Stage 4 Men | Emmen – Vam Berg (159km) (14:00)" tvg-logo="https://png.pngtree.com/png-clipart/20230805/original/pngtree-amsterdam-the-capital-of-holland-sign-tour-pictogram-vector-picture-image_9725402.png" group-title="Eventi Live DLHD",Cycling | Tour of Holland | Stage 4 Men | Emmen – Vam Berg (159km) (14:00)
+#EXTINF:-1 tvg-id="tourofhollandstage4menemmenvamberg159km" tvg-name="Cycling | Tour of Holland | Stage 4 Men | Emmen – Vam Berg (159km) (14:00)" tvg-logo="https://static.vecteezy.com/system/resources/previews/033/235/273/non_2x/netherlands-map-map-of-holland-in-administrative-regions-png.png" group-title="Eventi Live DLHD",Cycling | Tour of Holland | Stage 4 Men | Emmen – Vam Berg (159km) (14:00)
 https://dlhd.dad/watch.php?id=878
 
 #EXTINF:-1 tvg-id="unitedrugbychampionshipzebrevsstormers" tvg-name="Rugby Union | United Rugby Championship : Zebre vs Stormers (20:45)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Zebre_vs_Stormers.png" group-title="Eventi Live DLHD",Rugby Union | United Rugby Championship : Zebre vs Stormers (20:45)
@@ -821,9 +815,6 @@ https://dlhd.dad/watch.php?id=462
 
 #EXTINF:-1 tvg-id="serieaelitemoglianovsrovigo" tvg-name="Rugby Union | Serie A Elite : Mogliano vs Rovigo (15:30)" tvg-logo="https://images.seeklogo.com/logo-png/61/2/provincia-di-rovigo-logo-png_seeklogo-610266.png" group-title="Eventi Live DLHD",Rugby Union | Serie A Elite : Mogliano vs Rovigo (15:30)
 https://dlhd.dad/watch.php?id=882
-
-#EXTINF:-1 tvg-id="t100triathlonworldtourwollongongmenandwomen" tvg-name="Triathlon | T100 Triathlon World Tour | Wollongong Men and Women (07:00)" tvg-logo="https://content.protriathletes.org/content/images/2024/09/b338e080-8dcf-4b6c-b649-d41bcae3d29c.png" group-title="Eventi Live DLHD",Triathlon | T100 Triathlon World Tour | Wollongong Men and Women (07:00)
-https://dlhd.dad/watch.php?id=878
 
 #EXTINF:-1 tvg-id="skijumpingsummergrandprixinhinzenbach" tvg-name="Ski Jumping | Ski Jumping: Summer Grand Prix in Hinzenbach (14:00)" tvg-logo="https://usaskijumping.com/wp-content/uploads/2024/11/USASJlogo.png" group-title="Eventi Live DLHD",Ski Jumping | Ski Jumping: Summer Grand Prix in Hinzenbach (14:00)
 https://dlhd.dad/watch.php?id=878
@@ -845,242 +836,78 @@ https://sportzonline.st/channels/hd/hd7.php
 #EXTINF:-1 group-title="Eventi Live SPORTSONLINE",Formula 1: US Grand Prix: Qualifying 22:00
 https://sportzonline.st/channels/hd/hd8.php
 
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 09:00 | World Superbikes: Practice 3 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 09:00 | World Superbikes: Practice 3 (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/HTxflsKcLOYhmIkKqzvxJcnDQCcSGlZZ/alpha/stream/world-superbikes-practice-3/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 08:55 | WorldSBK | Round 12 | Spain Free Practice 3 (TNT Sports 2 UK HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 08:55 | WorldSBK | Round 12 | Spain Free Practice 3 (TNT Sports 2 UK HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/PlRVymShcWgVPQHwiWMrrHbuvATxmRjB/hotel/stream/worldsbk-round-12-spain-free-practice-3/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 08:15 | WRC Rally Central European Rally: Stage 9 (Rally Tv HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 08:15 | WRC Rally Central European Rally: Stage 9 (Rally Tv HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/EmHLPnDFZgZfooaVFfwpcOeEKHiAJSOB/hotel/stream/wrc-rally-central-european-rally-stage-9/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 05:00 | Center Court Live Osaka-WTA Singles Final (Sky Sport Tennis Italy HD)" group-title="Eventi Live STREAMED",TENNIS | 05:00 | Center Court Live Osaka-WTA Singles Final (Sky Sport Tennis Italy HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/BnbylXCEGsxzJOPDNMjQqGHwtzMgsGhF/hotel/stream/center-court-live-osaka-wta-singles-final/4/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 03:00 | Moto2: Australian Grand Prix, Race (Sky Sport MotoGP Italy HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 03:00 | Moto2: Australian Grand Prix, Race (Sky Sport MotoGP Italy HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/KTQplTjFdAmYDZaPelmWvLvXJZLJrRbC/hotel/stream/moto2-australian-grand-prix-race/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/hCDGGXfPtopvIdGLMOkyoTwPifZxXems/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/soIAZQDaOkJpPfCZPGGWJDhGaswJGWcO/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 10:30 | WRC Central Europe: SS10 Keply 1 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 10:30 | WRC Central Europe: SS10 Keply 1 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/uxlWztvjOpUlrgUmRMeevIHiRYxXTczy/charlie/stream/ss10-keply-1-1629466477/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/hAVYKUpblQyjeTMRDwttbHUizkRiwSnA/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/BHQRvOivBSkkNRVxfdpBqdLiaRGrgwpI/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
+https://lb6.strmd.top/secure/SPnLlFAjbXcFYViTHtonkQpMLPEZbpYo/charlie/stream/ss10-keply-1-1629466477/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 10:30 | WRC Central Europe 2025 Stage 10&11 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 10:30 | WRC Central Europe 2025 Stage 10&11 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/rUOqIVxWDvPvVJPQbqrbYSBaADKMjfHx/alpha/stream/wrc-central-europe-2025-stage-10-11/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzduCQgYTUNpC8QWECRAoTIaiGvXD0lkgpYRcxijCqUPD+UbU5XviswGAe4mIQQA.webp" tvg-name="FOOTBALL | 12:30 | Genoa Women vs Ternana Women (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 12:30 | Genoa Women vs Ternana Women (Italiano HD)
+https://lb6.strmd.top/secure/ljCIpOuTDczUZHpSYsCemzLFKJbGSfCF/alpha/stream/wrc-central-europe-2025-stage-10-11/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 09:00 | World Superbikes: Practice 3 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 09:00 | World Superbikes: Practice 3 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/PAIXhrQdwmEsUZFAOIQwIbMqfwkAuEEq/alpha/stream/genoa-w-vs-ternana-w/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzduCQgYTUNpC8QWECRAoTIaiGvXD0lkgpYRcxijCqUPD+UbU5XviswGAe4mIQQA.webp" tvg-name="FOOTBALL | 12:30 | Genoa Women vs Ternana Women (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 12:30 | Genoa Women vs Ternana Women (Italiano SD)
+https://lb10.strmd.top/secure/FADsimCwqKYfcLSyfVZdTIZJttbQxNeU/alpha/stream/world-superbikes-practice-3/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 08:55 | WorldSBK | Round 12 | Spain Free Practice 3 (TNT Sports 2 UK HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 08:55 | WorldSBK | Round 12 | Spain Free Practice 3 (TNT Sports 2 UK HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/LskidoNOfKbgiWsQIDufUwTOrtCstmdP/alpha/stream/genoa-w-vs-ternana-w/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VMlFokQo7dxB8dIGCEQ4TiEzALAkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" tvg-name="FOOTBALL | 13:30 | Nottingham Forest vs Chelsea (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 13:30 | Nottingham Forest vs Chelsea (Italiano HD)
+https://lb5.strmd.top/secure/qzyxFMbIoJUwkJdMWVmeUvIXPSwldhsH/hotel/stream/worldsbk-round-12-spain-free-practice-3/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 08:15 | WRC Rally Central European Rally: Stage 9 (Rally Tv HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 08:15 | WRC Rally Central European Rally: Stage 9 (Rally Tv HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/XYyAhJedLsywagIXvfoseAzkozVovtYS/alpha/stream/nottingham-forest-vs-chelsea/7/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VMlFokQo7dxB8dIGCEQ4TiEzALAkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" tvg-name="FOOTBALL | 13:30 | Nottingham Forest vs Chelsea (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 13:30 | Nottingham Forest vs Chelsea (Italiano SD)
+https://lb5.strmd.top/secure/RbTgisdpOcQnlgVQvDzMjbpVSUBYIGEO/hotel/stream/wrc-rally-central-european-rally-stage-9/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 10:10 | Le Mans Cup | Round 6 | Portimao Race (BandSports Brasil HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 10:10 | Le Mans Cup | Round 6 | Portimao Race (BandSports Brasil HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/JDhLWdWTDIAfYekzzMAUkGMxCGOhTRfH/alpha/stream/nottingham-forest-vs-chelsea/14/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="FOOTBALL | 15:00 | Italy U17 W vs Costa Rica U17 W (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Italy U17 W vs Costa Rica U17 W (English HD)
+https://lb10.strmd.top/secure/KyFQhQVsXuHGdIPRYPuKskNBkWbSfcxu/hotel/stream/le-mans-cup-round-6-portimao-race/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 03:00 | Moto2: Australian Grand Prix, Race (Sky Sport MotoGP Italy HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 03:00 | Moto2: Australian Grand Prix, Race (Sky Sport MotoGP Italy HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/idBUcrzmyFFrRfWQhdmThDtmdCOUOwSK/alpha/stream/italy-u17-w-vs-costa-rica-u17-w/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="FOOTBALL | 15:00 | Mantova vs Suditrol (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Mantova vs Suditrol (Italiano HD)
+https://lb1.strmd.top/secure/JsyOlosPnuYkGgiyOJNInDWxSScjBRRl/hotel/stream/moto2-australian-grand-prix-race/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="TENNIS | 05:00 | Center Court Live Osaka-WTA Singles Final (Sky Sport Tennis Italy HD)" group-title="Eventi Live STREAMED",TENNIS | 05:00 | Center Court Live Osaka-WTA Singles Final (Sky Sport Tennis Italy HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/krYFhbuxtffsWqXqkvdzTtnvkNVUkLZj/alpha/stream/mantova-vs-suditrol/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="FOOTBALL | 15:00 | Mantova vs Suditrol (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Mantova vs Suditrol (Italiano SD)
+https://lb1.strmd.top/secure/BSSCfocSkleEfnIdIZhkmIqMhCVRrAZh/hotel/stream/center-court-live-osaka-wta-singles-final/4/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/plKvMOvVCbBCukjDScejGDgAbQuxQwBR/alpha/stream/mantova-vs-suditrol/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzduwAMrcfxIheILCH0oTIaiCtXDIFkgpYRcxijCqUPd+UbU5n-B0wd3ExCCA.webp" tvg-name="FOOTBALL | 15:00 | Fiorentina Women vs AC Milan Women (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Fiorentina Women vs AC Milan Women (Italiano HD)
+https://lb1.strmd.top/secure/hQaOirVZlnLIYrManhVqvFzFvTNHcrsp/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzduwAMrcfxIheILCH0oTIaiCtXDIFkgpYRcxijCqUPd+UbU5n-B0wd3ExCCA.webp" tvg-name="FOOTBALL | 15:00 | Fiorentina Women vs AC Milan Women (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Fiorentina Women vs AC Milan Women (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/AsYTxEpWZaAvovdiLowzvzXxXsXkCVsX/alpha/stream/fiorentina-w-vs-ac-milan-w/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAY29lBWSUYAUwVmDTAE5p5gJhqDh61hh1OPgBDYLKQRcOJBt15cyAE1LBCETI3BiOzduwAMrcfxIheILCH0oTIaiCtXDIFkgpYRcxijCqUPd+UbU5n-B0wd3ExCCA.webp" tvg-name="FOOTBALL | 15:00 | Fiorentina Women vs AC Milan Women (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Fiorentina Women vs AC Milan Women (Italiano SD)
+https://lb8.strmd.top/secure/yyHqFSKOgWNlDeeLNIVAZfSGtmDcIQzX/charlie/stream/fiorentina-w-vs-ac-milan-w-1479665/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VJCBIhaoKWA3cQfTSZTbzZ4-ALAkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" tvg-name="FOOTBALL | 15:00 | Lecce vs Sassuolo (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Lecce vs Sassuolo (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/MqPmOoSZQxEazoQxbhDBkRqMvSHrMVnN/alpha/stream/fiorentina-w-vs-ac-milan-w/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VXmGAAGbSD5g+IbnpAlTIFCESJLIIwWBIKfYbPoowKlF0-l6WWW8mWjBPMVEIIA.webp" tvg-name="FOOTBALL | 15:00 | Pisa vs Hellas Verona (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Pisa vs Hellas Verona (Italiano HD)
+https://gg.poocloud.in/seriea_lecce/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VXmGAAGbSD5g+IbnpAlTIFCESJLIIwWBIKfYbPoowKlF0-l6WWW8mWjBPMVEIIA.webp" tvg-name="FOOTBALL | 15:00 | Pisa vs Hellas Verona (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Pisa vs Hellas Verona (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/GzpemWsGPbloeZiRJsJfAkVUvFNbxMOv/alpha/stream/pisa-vs-hellas-verona/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VXmGAAGbSD5g+IbnpAlTIFCESJLIIwWBIKfYbPoowKlF0-l6WWW8mWjBPMVEIIA.webp" tvg-name="FOOTBALL | 15:00 | Pisa vs Hellas Verona (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Pisa vs Hellas Verona (Italiano HD)
+https://gg.poocloud.in/seriea_pisa/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VbmBUVa+ENxB8QJEFJAxcICCGuGYBYEgp9hs+ik1sUXTeXpZZXky0YB70ohBAA.webp" tvg-name="FOOTBALL | 15:00 | Frosinone vs Monza (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Frosinone vs Monza (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/dhMcgwiFVAUoqglGjpqlewXoJDzqsegh/alpha/stream/pisa-vs-hellas-verona/4/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VXmGAAGbSD5g+IbnpAlTIFCESJLIIwWBIKfYbPoowKlF0-l6WWW8mWjBPMVEIIA.webp" tvg-name="FOOTBALL | 15:00 | Pisa vs Hellas Verona (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Pisa vs Hellas Verona (Italiano SD)
+https://lb1.strmd.top/secure/vQxodsWkjmAXdkFbpfiUMrDPjchqZYOA/charlie/stream/frosinone-vs-monza-1419661/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 19:00 | FIA F1 World Championship: FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2025 | Sprint Race (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:00 | FIA F1 World Championship: FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2025 | Sprint Race (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/bsiXftLnyryITZwbHThcKLBciVxwgxRt/alpha/stream/pisa-vs-hellas-verona/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VXmGAAGbSD5g+IbnpAlTIFCESJLIIwWBIKfYbPoowKlF0-l6WWW8mWjBPMVEIIA.webp" tvg-name="FOOTBALL | 15:00 | Pisa vs Hellas Verona (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Pisa vs Hellas Verona (Italiano SD)
+https://lb5.strmd.top/secure/SUOpnEgTdATIcgSuOoqOKkPAOzUgfgHQ/charlie/stream/formula-1-msc-cruises-united-states-grand-prix-2025-or-sprint-race-1629466504/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 19:00 | FIA Formula 1 2025: United State F1GP Sprint (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:00 | FIA Formula 1 2025: United State F1GP Sprint (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/BPlmKOrRLMYLdwQtEtDRkYFVakQPMVHx/alpha/stream/pisa-vs-hellas-verona/7/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VJCBIhaoKWA3cQfTSZTbzZ4-ALAkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" tvg-name="FOOTBALL | 15:00 | Lecce vs Sassuolo (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Lecce vs Sassuolo (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb8.strmd.top/secure/nEvdpPUrdkYxauqgSHDNEeypfasTtSRR/alpha/stream/sassuolo-w-vs-como-w/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VJCBIhaoKWA3cQfTSZTbzZ4-ALAkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" tvg-name="FOOTBALL | 15:00 | Lecce vs Sassuolo (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Lecce vs Sassuolo (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/yhHWXMbwHzIdHvbqqiAbdULJUCVFGpzj/alpha/stream/sassuolo-w-vs-como-w/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEHBiUwKEAKkhuekCRAGYuEBBC6LMAsCQU+w2fRRgVKLp-L0sst5MtGCeYqIQQA.webp" tvg-name="FOOTBALL | 15:00 | Pescara vs Carrarese (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Pescara vs Carrarese (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/nZHigAVCTGhYRKwocJyjHLVNrkORMWmh/alpha/stream/pescara-vs-carrarese/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEHBiUwKEAKkhuekCRAGYuEBBC6LMAsCQU+w2fRRgVKLp-L0sst5MtGCeYqIQQA.webp" tvg-name="FOOTBALL | 15:00 | Pescara vs Carrarese (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Pescara vs Carrarese (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/loVBOBOsbGVYQXrqTDdsOweRoRZDmLqG/alpha/stream/pescara-vs-carrarese/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rLGxC1RvFCG4g+IEiCkgYuEBBA2bJAsCQU+w2fRRgVKLp-L0Not5MtGCeYqIQQA.webp" tvg-name="FOOTBALL | 15:00 | Reggiana vs Bari (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Reggiana vs Bari (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/wqpUiekGhWfoXSDglVkrvDlMQwWNIkbw/alpha/stream/reggiana-vs-bari/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rLGxC1RvFCG4g+IEiCkgYuEBBA2bJAsCQU+w2fRRgVKLp-L0Not5MtGCeYqIQQA.webp" tvg-name="FOOTBALL | 15:00 | Reggiana vs Bari (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Reggiana vs Bari (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/pSUxwcssAqpUKzdfCcrIzdPGJllESuDo/alpha/stream/reggiana-vs-bari/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 15:15 | Monza - Race 1 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 15:15 | Monza - Race 1 (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/lFwVyFlIIhMUkzmXVFSbYJybiDpYzWix/alpha/stream/monza-race-1/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rKOAFUskENxB8QJEDBCIcpxJYLAkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" tvg-name="FOOTBALL | 16:00 | Sunderland vs Wolverhampton Wanderers (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 16:00 | Sunderland vs Wolverhampton Wanderers (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/HwsRqbCKByYmYrFJQnkNEcgLVXFcKYVu/alpha/stream/sunderland-vs-wolverhampton-wanderers/5/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rKOAFUskENxB8QJEDBCIcpxJYLAkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" tvg-name="FOOTBALL | 16:00 | Sunderland vs Wolverhampton Wanderers (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 16:00 | Sunderland vs Wolverhampton Wanderers (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/sgriMgRxfbXOVuJsSciDKayAxTRStKLH/alpha/stream/sunderland-vs-wolverhampton-wanderers/10/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VbmBUVa+ENxB8QJEFJAxcICCGuGYBYEgp9hs+ik1sUXTeXpZZXky0YB70ohBAA.webp" tvg-name="FOOTBALL | 15:00 | Frosinone vs Monza (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Frosinone vs Monza (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/tRuNsKaXGJFQRoIVPKcRhazvwLZmmpOI/alpha/stream/frosinone-vs-monza/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VbmBUVa+ENxB8QJEFJAxcICCGuGYBYEgp9hs+ik1sUXTeXpZZXky0YB70ohBAA.webp" tvg-name="FOOTBALL | 15:00 | Frosinone vs Monza (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Frosinone vs Monza (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/NkWQlrvjhsFdNDiZAcQLVqQICEhNxnfX/alpha/stream/frosinone-vs-monza/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rfCBghuYcLxLaQfEAa2IcWnCk0FgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" tvg-name="FOOTBALL | 16:00 | Crystal Palace vs Bournemouth (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 16:00 | Crystal Palace vs Bournemouth (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/SdBntcsbiqIQlEiShdDYZnsGzmSGGJvh/alpha/stream/crystal-palace-vs-afc-bournemouth/5/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rfCBghuYcLxLaQfEAa2IcWnCk0FgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" tvg-name="FOOTBALL | 16:00 | Crystal Palace vs Bournemouth (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 16:00 | Crystal Palace vs Bournemouth (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/DrjujMHgWDICYJthhqjtCAAvMiDkkYqd/alpha/stream/crystal-palace-vs-afc-bournemouth/10/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rGUmBSwJEDGAAGENxB8QumCEQ5LOEKYLAkFPsNn0UOtii47y9LFkfJlowL3pRCCA.webp" tvg-name="FOOTBALL | 16:00 | Burnley vs Leeds United (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 16:00 | Burnley vs Leeds United (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/CgiCPCoTKtnOxWFrYfaKmzyesYmwZyRZ/alpha/stream/burnley-vs-leeds-united/5/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rGUmBSwJEDGAAGENxB8QumCEQ5LOEKYLAkFPsNn0UOtii47y9LFkfJlowL3pRCCA.webp" tvg-name="FOOTBALL | 16:00 | Burnley vs Leeds United (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 16:00 | Burnley vs Leeds United (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/xoINQXiemARxWnjFdVicpzRghEKYiKKN/alpha/stream/burnley-vs-leeds-united/10/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 16:15 | British Superbikes (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 16:15 | British Superbikes (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/gFUNUZosXGzswRTnXaGFVHIHkUKBVFwP/alpha/stream/british-superbikes/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rXnwpSwM-CG4g+IEiBghEOMzhAgFTJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" tvg-name="FOOTBALL | 16:00 | Brighton and Hove Albion vs Newcastle United (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 16:00 | Brighton and Hove Albion vs Newcastle United (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/PHMyeILTpoKyyqSfqvSpVfUxishnqRuD/alpha/stream/brighton-hove-albion-vs-newcastle-united/5/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rXnwpSwM-CG4g+IEiBghEOMzhAgFTJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" tvg-name="FOOTBALL | 16:00 | Brighton and Hove Albion vs Newcastle United (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 16:00 | Brighton and Hove Albion vs Newcastle United (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/SrQAEurSSZfsPnWdtbnpXCIwAgwYbaUA/alpha/stream/brighton-hove-albion-vs-newcastle-united/10/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEFBSUQvJLB0g+IEgYjGQMC1YlM9MfsNn0UYFVravy9LLK1NaYK5iohBAA.webp" tvg-name="FOOTBALL | 16:15 | Barcelona vs Girona (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 16:15 | Barcelona vs Girona (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/TTNdMLZWoVaukvmPwIpKgSUwJoonRXXQ/alpha/stream/barcelona-vs-girona/7/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEFBSUQvJLB0g+IEgYjGQMC1YlM9MfsNn0UYFVravy9LLK1NaYK5iohBAA.webp" tvg-name="FOOTBALL | 16:15 | Barcelona vs Girona (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 16:15 | Barcelona vs Girona (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/LXhgDslySqCRiIkhAoNLLeuMcFLCjhyh/alpha/stream/barcelona-vs-girona/14/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VECBgh6YZqBDcQfECRBTNubRqMaCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" tvg-name="FOOTBALL | 17:15 | Juve Stabia vs Avellino (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 17:15 | Juve Stabia vs Avellino (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/uhsUlFcjLNbjRocdAGroslfsIHFlKwxn/alpha/stream/juve-stabia-vs-us-avellino/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VECBgh6YZqBDcQfECRBTNubRqMaCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" tvg-name="FOOTBALL | 17:15 | Juve Stabia vs Avellino (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 17:15 | Juve Stabia vs Avellino (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/sSqmdtRfgnlspCnaZCziERgwKsELAAvS/alpha/stream/juve-stabia-vs-us-avellino/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VJMBkC0IFKBDcQfECRAwjICCEQhdRgsCQU+w2fRRgVetp-L0ssnpMtGCeYqIQQA.webp" tvg-name="FOOTBALL | 18:00 | Basel vs Winterthur (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 18:00 | Basel vs Winterthur (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/RMPvVbVWylRKLahZsbCxeOBumfMMEZhx/alpha/stream/basel-vs-winterthur/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aECRBayiehBDcQfDSZQhEiM1pAFgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" tvg-name="FOOTBALL | 18:00 | Torino vs Napoli (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 18:00 | Torino vs Napoli (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb3.strmd.top/secure/WXFPdVDxoGdOSblHhXyNQSOQUgePKJzs/alpha/stream/torino-vs-napoli/3/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aECRBayiehBDcQfDSZQhEiM1pAFgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" tvg-name="FOOTBALL | 18:00 | Torino vs Napoli (Italiano HD)" group-title="Eventi Live STREAMED",FOOTBALL | 18:00 | Torino vs Napoli (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/tgbunPocEryeJwUVpJhrUxBPtuVmhJKI/alpha/stream/torino-vs-napoli/4/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aECRBayiehBDcQfDSZQhEiM1pAFgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" tvg-name="FOOTBALL | 18:00 | Torino vs Napoli (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 18:00 | Torino vs Napoli (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/zFMQXnufzcoxeLddBRhktvkVhZpIiIsJ/alpha/stream/torino-vs-napoli/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aECRBayiehBDcQfDSZQhEiM1pAFgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" tvg-name="FOOTBALL | 18:00 | Torino vs Napoli (Italiano SD)" group-title="Eventi Live STREAMED",FOOTBALL | 18:00 | Torino vs Napoli (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/OddQWRTMpCAwleGzjnpIojrRNqaExtnH/alpha/stream/torino-vs-napoli/7/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 19:00 | FIA Formula 1 2025: United State F1GP Sprint (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:00 | FIA Formula 1 2025: United State F1GP Sprint (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb7.strmd.top/secure/smzYLfobCeCQnoIMYKpEAohhsZwBHniP/alpha/stream/fia-formula-1-2025-united-state-f1gp-sprint/9/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 19:00 | FIA Formula 1 2025: United State F1GP Sprint (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:00 | FIA Formula 1 2025: United State F1GP Sprint (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/gxeZzuZAXzolTqOeMARJqCOQhhEPnnTe/alpha/stream/fia-formula-1-2025-united-state-f1gp-sprint/21/playlist.m3u8
+https://lb1.strmd.top/secure/LMvmRpKJgFVkslojoRFObasrQoXOaEHI/alpha/stream/fia-formula-1-2025-united-state-f1gp-sprint/1/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rHKMR8QKEBBDcQ2-TD06QUsyBDwCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" tvg-name="MOTOR-SPORTS | 19:00 | United States Grand Prix Sprint (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:00 | United States Grand Prix Sprint (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://gg.poocloud.in/f1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 20:30 | F1: Ted's Sprint Notebook (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 20:30 | F1: Ted's Sprint Notebook (English HD)
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aECRBayiehBDcQfDSZQhEiM1pAFgSCn2Gz6KMCpRc35ellkemtGBuYqIQQA.webp" tvg-name="FOOTBALL | 18:00 | Torino vs Napoli (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 18:00 | Torino vs Napoli (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/CfvNPeEcunfnXUciXbQCaLldIqNxXshq/alpha/stream/f1-ted-s-sprint-notebook/2/playlist.m3u8
+https://gg.poocloud.in/seriea_torino/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aECmBSQ8ML1B8Q3EIZIgzKHVcsgQCpkgp9hs+ijArNbD+XpZZmky0YB5iohBAA.webp" tvg-name="FOOTBALL | 20:45 | Roma vs Inter Milan (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 20:45 | Roma vs Inter Milan (English HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
 https://gg.poocloud.in/seriea_roma/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 21:35 | Carrera Cup: COTA 1 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 21:35 | Carrera Cup: COTA 1 (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb2.strmd.top/secure/YXoRcPLAUesepDUOoRzRCvIRLfOwNhWF/alpha/stream/carrera-cup-cota-1/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 22:00 | F1: Qualifying Pre-Show (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 22:00 | F1: Qualifying Pre-Show (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/cYnaXbGuOuJYefowwSOdeXtOxrBcesnM/alpha/stream/f1-qualifying-pre-show/2/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 22:00 | NASCAR Xfinity Series United Rentals 250 Talladega Superspeedway (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 22:00 | NASCAR Xfinity Series United Rentals 250 Talladega Superspeedway (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/yyZZVaWAvCqzZJmMFXZgEjvqNvbhAVIO/alpha/stream/nascar-xfinity-series-united-rentals-250-talladega-superspeedway/2/playlist.m3u8
 #EXTINF:-1 tvg-chno="80" tvg-name="Pluto TV Christmas" tvg-logo="https://images.pluto.tv/channels/612e05b885183d0007958101/colorLogoPNG.png" tvg-id="612e05b885183d0007958101" group-title="Pluto TV Italia",Pluto TV Christmas
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/612e05b885183d0007958101/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
 #EXTINF:-1 tvg-chno="85" tvg-name="Pluto TV Fireplace" tvg-logo="https://images.pluto.tv/channels/612ce23f51cce000078eeed5/colorLogoPNG.png" tvg-id="612ce23f51cce000078eeed5" group-title="Pluto TV Italia",Pluto TV Fireplace
