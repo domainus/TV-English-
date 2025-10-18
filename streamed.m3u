@@ -1,69 +1,81 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 23:00 | FIA F1 World Championship: FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2025 | 1st Qualification (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 23:00 | FIA F1 World Championship: FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2025 | 1st Qualification (English HD)
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano HD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/AVENCYWdtjlnUQCOCJSEjHrPFTKaMetT/charlie/stream/formula-1-msc-cruises-united-states-grand-prix-2025-or-1st-qualification-1629466510/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 22:00 | NASCAR Xfinity Series United Rentals 250 Talladega Superspeedway (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 22:00 | NASCAR Xfinity Series United Rentals 250 Talladega Superspeedway (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/yvPVIEmhkUUsPAOhEguHBEHCWnaQzPYl/alpha/stream/nascar-xfinity-series-united-rentals-250-talladega-superspeedway/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 23:00 | FIA Formula 1 2025: United State F1GP Qualifying (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 23:00 | FIA Formula 1 2025: United State F1GP Qualifying (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/PpTrzmmOuqvqSvOaHiZhDjSpeuyoeocJ/alpha/stream/fia-formula-1-2025-united-state-f1gp-qualifying/8/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 23:00 | FIA Formula 1 2025: United State F1GP Qualifying (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 23:00 | FIA Formula 1 2025: United State F1GP Qualifying (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/bquXEUNEyvJgZxWMdFoneldrkbkhdExt/alpha/stream/fia-formula-1-2025-united-state-f1gp-qualifying/19/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aECmBSQ8ML1B8Q3EIZIgzKHVcsgQCpkgp9hs+ijArNbD+XpZZmky0YB5iohBAA.webp" tvg-name="FOOTBALL | 20:45 | Roma vs Inter Milan (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 20:45 | Roma vs Inter Milan (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://gg.poocloud.in/seriea_roma/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="BASKETBALL | 20:00 | Lega A: Reyer Venezia vs Trieste 2004 (Arena Sport 4 Serbia HD)" group-title="Eventi Live STREAMED",BASKETBALL | 20:00 | Lega A: Reyer Venezia vs Trieste 2004 (Arena Sport 4 Serbia HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/DAHZfuwoLWQvopQbKwLZMfgvnyMulchk/hotel/stream/lega-a-reyer-venezia-vs-trieste-2004/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 19:30 | NASCAR Cup Series Qualifying Talladega Superspeedway, Talladega (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:30 | NASCAR Cup Series Qualifying Talladega Superspeedway, Talladega (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/ZeRiTHUGNHDVMQgfUCbtvYuLVWSygsev/alpha/stream/nascar-cup-series-qualifying-talladega-superspeedway-talladega/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rHKMR8QKEBBDcQ2-TD06QUsyBDwCwJBT7DZ9FGBUou78vSyzPTLRg7mKiEEA.webp" tvg-name="MOTOR-SPORTS | 19:00 | United States Grand Prix Sprint (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 19:00 | United States Grand Prix Sprint (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://gg.poocloud.in/f1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:30 | WRC Rally Central European Rally: Stage 12 (Rally Tv HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:30 | WRC Rally Central European Rally: Stage 12 (Rally Tv HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb9.strmd.top/secure/jDBMnJkYxbSsuMQIFLkrHbybIhyKngVn/hotel/stream/wrc-rally-central-european-rally-stage-12/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 18:00 | Formula 1: MSC Cruises United States GP - Sprint Grid (Sky Sports F1 UK HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 18:00 | Formula 1: MSC Cruises United States GP - Sprint Grid (Sky Sports F1 UK HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb6.strmd.top/secure/qhnDkrDuUtIYcyYAnLrnGWcQpbCzaWRk/hotel/stream/formula-1-msc-cruises-united-states-gp-sprint-grid/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="OTHER | 17:30 | Italy Supercoppa, Women: Volley Conegliano vs Volley Monza (Rai 2 IT HD)" group-title="Eventi Live STREAMED",OTHER | 17:30 | Italy Supercoppa, Women: Volley Conegliano vs Volley Monza (Rai 2 IT HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/BhmKQcwVOjPezFtHztJIoTyAQpcXyVDT/hotel/stream/italy-supercoppa-women-volley-conegliano-vs-volley-monza/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 16:15 | BSB | Round 11 | Brands Hatch Day 1 | Showdown Finale (TNT Sports 4 UK HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 16:15 | BSB | Round 11 | Brands Hatch Day 1 | Showdown Finale (TNT Sports 4 UK HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/tJluZEbyDeDlxOuVkUJSuoVYPizOBdnv/hotel/stream/bsb-round-11-brands-hatch-day-1-showdown-finale/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="FIGHT | UFC Events | UFC MMA | UFC PPV | LIVE 24/7 (Italiano HD)" group-title="Eventi Live STREAMED",FIGHT | UFC Events | UFC MMA | UFC PPV | LIVE 24/7 (Italiano HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb10.strmd.top/secure/pfsduHHMTkhnDLyhzccAFQTVqsjQYeQL/alpha/stream/ufc-events-ufc-mma-ufc-ppv/6/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="FIGHT | UFC Events | UFC MMA | UFC PPV | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",FIGHT | UFC Events | UFC MMA | UFC PPV | LIVE 24/7 (Italiano SD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb5.strmd.top/secure/oluiqypxkecXGVQVpauVcsOEUDLMgsQK/alpha/stream/ufc-events-ufc-mma-ufc-ppv/14/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/zgDJmblwGhaGSvaxwRYArTiYRcoirekR/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
-#EXTVLCOPT:http-referrer=https://embedsports.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/dBnjpzaywKkSxFrrlHntkIrcjROZprJS/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+https://lb4.strmd.top/secure/wShLzAoFpatflGoUrHxLHkFPiHkODbXF/alpha/stream/motogp-qualifying-motogp-main-race/6/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | MotoGP Qualifying | MotoGP Main Race | LIVE 24/7 (Italiano SD)
 #EXTVLCOPT:http-referrer=https://embedsports.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-https://lb1.strmd.top/secure/fVvtmUCifDqNvPjQqHXKKalwAMMhswti/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
+https://lb7.strmd.top/secure/aarrpCnXGUzpMsiiAVNFVTrTJGWZfTXm/alpha/stream/motogp-qualifying-motogp-main-race/14/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | DAZN Formula 1 | DAZN F1 | LIVE 24/7 (Español HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb3.strmd.top/secure/JtuaZFPZmzKQFfJTQRBEcTNwttltCyWG/alpha/stream/dazn-formula-1-dazn-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | Sky Sports F1 | Sky F1 | LIVE 24/7 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/hLSIqedbjSEBhfRRaLcqDdjOJxlooigQ/alpha/stream/sky-sports-f1-sky-f1/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEAL4gU7ECRAHuGkIinGzBmHtwFgSCn2Gz6KMCp1s35ellk6mtGBuYqIQQA.webp" tvg-name="FOOTBALL | 00:00 | Nashville SC vs Inter Miami (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 00:00 | Nashville SC vs Inter Miami (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb1.strmd.top/secure/NVyjmVFeCkzohsuXHDvFQdcbSaMpIACv/alpha/stream/nashville-sc-vs-inter-miami-cf/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 02:00 | MotoGP Australia GP: Moto3 Race (Italiano HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 02:00 | MotoGP Australia GP: Moto3 Race (Italiano HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb7.strmd.top/secure/jAhWUfMlpPOOfSWtiDtVVVnrCQwbuGYt/alpha/stream/motogp-australia-gp-moto3-race/7/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 02:00 | MotoGP Australia GP: Moto3 Race (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 02:00 | MotoGP Australia GP: Moto3 Race (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb7.strmd.top/secure/xlysVzQmrkYbJoVIIerVwAqYpOryRueV/alpha/stream/motogp-australia-gp-moto3-race/15/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 00:40 | MotoGP Australia GP: MotoGP Warm Up (Italiano SD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 00:40 | MotoGP Australia GP: MotoGP Warm Up (Italiano SD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb10.strmd.top/secure/FwvCxNpXsaMGaHMxkIBodamVQugAUnat/alpha/stream/motogp-australia-gp-motogp-warm-up/12/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rMERS4QMUCG4g+IRFqM5EBmCCkFgSCn2Gz6KMCpRc35ellkemtBqi9MFAA.webp" tvg-name="MOTOR-SPORTS | 02:00 | Australian Motorcycle Grand Prix Moto3 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 02:00 | Australian Motorcycle Grand Prix Moto3 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb7.strmd.top/secure/eyUyBxnpjBGszQSeUgESwVpEFIHDLMZJ/charlie/stream/australian-motorcycle-grand-prix-1629466525/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 10:00 | WRC Central Europe: SS16 Muhtal 1 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 10:00 | WRC Central Europe: SS16 Muhtal 1 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb8.strmd.top/secure/UveCHUmPzJuPZeABkCowtypQEVbkyLly/charlie/stream/ss16-muhtal-1-1629466533/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VFLkog4cHNxB8QJIyA2JEGiEYLAkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" tvg-name="FOOTBALL | 12:30 | Como vs Juventus (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 12:30 | Como vs Juventus (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://gg.poocloud.in/seriea_como/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aEPGxyKonNxB8QJIyBQbzZiCAlMkFPsNn0UYFSi6vy9LLPdNaYK5iohBAA.webp" tvg-name="FOOTBALL | 15:00 | Cagliari vs Bologna (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Cagliari vs Bologna (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://gg.poocloud.in/seriea_cagliari/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 16:30 | Trans Am Series vs Barber Motorsports Park (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 16:30 | Trans Am Series vs Barber Motorsports Park (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb2.strmd.top/secure/isZSVPdqyzxTTtpXuxaaYJRVVrlxSYLp/alpha/stream/trans-am-series-vs-barber-motorsports-park/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 17:55 | Carrera Cup: COTA 2 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 17:55 | Carrera Cup: COTA 2 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb5.strmd.top/secure/KmFMICXHCiyXbhmuSQbtwqGukbaNnYFk/alpha/stream/carrera-cup-cota-2/2/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8VKLVp8QKHSG4htJEMd2JEZwwWBIKfYbPoowKlFxfl6WWW6a0wLmKiEEA.webp" tvg-name="FOOTBALL | 18:00 | Atalanta vs Lazio (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 18:00 | Atalanta vs Lazio (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://gg.poocloud.in/seriea_atalanta/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 20:00 | NASCAR Cup Series: YellaWood 500 (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 20:00 | NASCAR Cup Series: YellaWood 500 (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb4.strmd.top/secure/nwnaoLBkHRDALNfHZJYPJFIDilfwtOYR/charlie/stream/yellawood-500-1629466849/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rAAzBN4XvAQhuIPiBImQKEIkQXjfAsCQU7rEWJRgVKLh-L0ssryZaMA8xUQggA.webp" tvg-name="FOOTBALL | 20:45 | AC Milan vs Fiorentina (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 20:45 | AC Milan vs Fiorentina (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://gg.poocloud.in/seriea_milan/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" tvg-name="MOTOR-SPORTS | 21:00 | FIA F1 World Championship: MSC Cruises United States Grand Prix | Race (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 21:00 | FIA F1 World Championship: MSC Cruises United States Grand Prix | Race (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://lb6.strmd.top/secure/OHnILGYqYOhNybykIjJsRqkhfOFqhubO/charlie/stream/msc-cruises-united-states-grand-prix-or-race-1629466851/1/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8aECGAAGEDNBRE3EHxAQQMUyBS7LRvgWBIK91iLEowKlF0-l6WWW8mWjBPMVEIIA.webp" tvg-name="MOTOR-SPORTS | 21:00 | United States Grand Prix (English HD)" group-title="Eventi Live STREAMED",MOTOR-SPORTS | 21:00 | United States Grand Prix (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://gg.poocloud.in/f1/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://streamed.pk/api/images/proxy/GwZg7AZpYEZgHCAjAJgCzrAThFlBWSUYAUwVmDW2nmAmD32FrWGHXbeAENgBjUgg5sSdTtw5kAJqWCEImeuFFs8rMGAFNeIEBBDcQfECRMgUIRIgvGYBYEgp9hs+ijAqUXD+XpZZXky0GqL0oUA.webp" tvg-name="FOOTBALL | 15:00 | Genoa vs Parma (English HD)" group-title="Eventi Live STREAMED",FOOTBALL | 15:00 | Genoa vs Parma (English HD)
+#EXTVLCOPT:http-referrer=https://embedsports.top/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+https://gg.poocloud.in/seriea_genoa/index.m3u8
