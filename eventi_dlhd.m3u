@@ -68,7 +68,7 @@ https://dlhd.dad/watch.php?id=159
 #EXTINF:-1 tvg-id="italyserieclumezzanevstrento" tvg-name="All Soccer Events | Italy - Serie C : Lumezzane vs Trento (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Lumezzane_vs_Trento.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Lumezzane vs Trento (17:30)
 https://dlhd.dad/watch.php?id=160
 
-#EXTINF:-1 tvg-id="italyseriecvirtusveronavspropatria" tvg-name="All Soccer Events | Italy - Serie C : Virtus Verona vs Pro Patria (17:30)" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Virtus Verona vs Pro Patria (17:30)
+#EXTINF:-1 tvg-id="italyseriecvirtusveronavspropatria" tvg-name="All Soccer Events | Italy - Serie C : Virtus Verona vs Pro Patria (17:30)" tvg-logo="https://www.tuttocampo.it/Web/Images/Teams/Original/780354.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Virtus Verona vs Pro Patria (17:30)
 https://dlhd.dad/watch.php?id=161
 
 #EXTINF:-1 tvg-id="italyseriecprovercellivsgianaerminio" tvg-name="All Soccer Events | Italy - Serie C : Pro Vercelli vs Giana Erminio (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Pro Vercelli_vs_Giana Erminio.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Pro Vercelli vs Giana Erminio (17:30)
@@ -77,7 +77,7 @@ https://dlhd.dad/watch.php?id=27
 #EXTINF:-1 tvg-id="italyseriecpinetovsperugia" tvg-name="All Soccer Events | Italy - Serie C : Pineto vs Perugia (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Pineto_vs_Perugia.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Pineto vs Perugia (17:30)
 https://dlhd.dad/watch.php?id=28
 
-#EXTINF:-1 tvg-id="italyseriecaudacecerignolavscavese" tvg-name="All Soccer Events | Italy - Serie C : Audace Cerignola vs Cavese (17:30)" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Audace Cerignola vs Cavese (17:30)
+#EXTINF:-1 tvg-id="italyseriecaudacecerignolavscavese" tvg-name="All Soccer Events | Italy - Serie C : Audace Cerignola vs Cavese (17:30)" tvg-logo="https://www.tuttocampo.it/Web/Images/Teams/Original/720350.png?v=1" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Audace Cerignola vs Cavese (17:30)
 https://dlhd.dad/watch.php?id=162
 
 #EXTINF:-1 tvg-id="englandpremierleagueliverpoolvsmanchesterunited" tvg-name="All Soccer Events | England - Premier League : Liverpool vs Manchester United (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Liverpool_vs_Manchester United.png" group-title="Eventi Live DLHD",All Soccer Events | England - Premier League : Liverpool vs Manchester United (17:30)
@@ -116,9 +116,6 @@ https://dlhd.dad/watch.php?id=870
 #EXTINF:-1 tvg-id="fifau20worldcupfinalargentinau20vsmoroccou20" tvg-name="All Soccer Events | FIFA U-20 World Cup Final : Argentina U20 vs Morocco U20 (21:00)" group-title="Eventi Live DLHD",All Soccer Events | FIFA U-20 World Cup Final : Argentina U20 vs Morocco U20 (21:00)
 https://dlhd.dad/watch.php?id=882
 
-#EXTINF:-1 tvg-id="almatyatpsinglesfinal" tvg-name="Tennis | Almaty-ATP Singles Final (11:30)" tvg-logo="https://static.flashscore.com/res/image/data/trg9tNDO-SlbNac1U.png" group-title="Eventi Live DLHD",Tennis | Almaty-ATP Singles Final (11:30)
-https://dlhd.dad/watch.php?id=576
-
 #EXTINF:-1 tvg-id="stockholmatpampbrusselsatpfinals" tvg-name="Tennis | Stockholm-ATP &amp; Brussels-ATP Finals (15:00)" tvg-logo="https://assets.stickpng.com/thumbs/626656521e92f9aac65b5ba6.png" group-title="Eventi Live DLHD",Tennis | Stockholm-ATP &amp; Brussels-ATP Finals (15:00)
 https://dlhd.dad/watch.php?id=576
 
@@ -128,14 +125,11 @@ https://dlhd.dad/watch.php?id=577
 #EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgprace" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Race (21:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Race (21:00)
 https://dlhd.dad/watch.php?id=577
 
-#EXTINF:-1 tvg-id="tourofhollandstage5menarnhem155km" tvg-name="Cycling | Tour of Holland | Stage 5 Men | Arnhem (155km) (13:35)" tvg-logo="https://www.wielerflits.nl/wp-content/themes/WF2023/img/icon-fietstoerisme.png" group-title="Eventi Live DLHD",Cycling | Tour of Holland | Stage 5 Men | Arnhem (155km) (13:35)
+#EXTINF:-1 tvg-id="tourofhollandstage5menarnhem155km" tvg-name="Cycling | Tour of Holland | Stage 5 Men | Arnhem (155km) (13:35)" tvg-logo="https://png.pngtree.com/png-clipart/20230805/original/pngtree-amsterdam-the-capital-of-holland-sign-tour-pictogram-vector-picture-image_9725402.png" group-title="Eventi Live DLHD",Cycling | Tour of Holland | Stage 5 Men | Arnhem (155km) (13:35)
 https://dlhd.dad/watch.php?id=878
 
 #EXTINF:-1 tvg-id="ehfeurowomenqualificationitalyvsswitzerland" tvg-name="Handball | EHF Euro Women Qualification : Italy vs. Switzerland (18:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Italy_vs_Switzerland.png" group-title="Eventi Live DLHD",Handball | EHF Euro Women Qualification : Italy vs. Switzerland (18:00)
 https://dlhd.dad/watch.php?id=462
-
-#EXTINF:-1 tvg-id="grandprixfrancemixedicedancefreeroutine" tvg-name="Ice Skating | Grand Prix | France Mixed Ice Dance | Free Routine (11:30)" tvg-logo="https://www.pngall.com/wp-content/uploads/10/Grand-Prix-Logo.png" group-title="Eventi Live DLHD",Ice Skating | Grand Prix | France Mixed Ice Dance | Free Routine (11:30)
-https://dlhd.dad/watch.php?id=879
 
 #EXTINF:-1 tvg-id="top14toulonvsracing92" tvg-name="Rugby Union | Top 14 : Toulon vs Racing 92 (21:05)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Toulon_vs_Racing 92.png" group-title="Eventi Live DLHD",Rugby Union | Top 14 : Toulon vs Racing 92 (21:05)
 https://dlhd.dad/watch.php?id=462
