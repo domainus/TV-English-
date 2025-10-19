@@ -2,58 +2,13 @@
 #EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE
 https://example.com.m3u8
 
-#EXTINF:-1 tvg-id="italyseriecvicenzavsalbinoleffe" tvg-name="All Soccer Events | Italy - Serie C : Vicenza vs AlbinoLeffe (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Vicenza_vs_AlbinoLeffe.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Vicenza vs AlbinoLeffe (14:30)
-https://dlhd.dad/watch.php?id=161
-
-#EXTINF:-1 tvg-id="italyseriecravennavsarezzo" tvg-name="All Soccer Events | Italy - Serie C : Ravenna vs Arezzo (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Ravenna_vs_Arezzo.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Ravenna vs Arezzo (14:30)
-https://dlhd.dad/watch.php?id=27
-
-#EXTINF:-1 tvg-id="italyseriecriminivsjuventusii" tvg-name="All Soccer Events | Italy - Serie C : Rimini vs Juventus II (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Rimini_vs_Juventus II.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Rimini vs Juventus II (14:30)
-https://dlhd.dad/watch.php?id=162
-
-#EXTINF:-1 tvg-id="italyserieccataniavssalernitana" tvg-name="All Soccer Events | Italy - Serie C : Catania vs Salernitana (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Catania_vs_Salernitana.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Catania vs Salernitana (14:30)
-https://dlhd.dad/watch.php?id=6
-
-#EXTINF:-1 tvg-id="italyserieccataniavssalernitana" tvg-name="All Soccer Events | Italy - Serie C : Catania vs Salernitana (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Catania_vs_Salernitana.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Catania vs Salernitana (14:30)
-https://dlhd.dad/watch.php?id=870
-
-#EXTINF:-1 tvg-id="italyseriecbeneventovspotenzacalcio" tvg-name="All Soccer Events | Italy - Serie C : Benevento vs Potenza Calcio (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Benevento_vs_Potenza Calcio.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Benevento vs Potenza Calcio (14:30)
-https://dlhd.dad/watch.php?id=28
-
-#EXTINF:-1 tvg-id="italyseriecbeneventovspotenzacalcio" tvg-name="All Soccer Events | Italy - Serie C : Benevento vs Potenza Calcio (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Benevento_vs_Potenza Calcio.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Benevento vs Potenza Calcio (14:30)
-https://dlhd.dad/watch.php?id=460
-
-#EXTINF:-1 tvg-id="italyseriecatalantaiivstrapani1905" tvg-name="All Soccer Events | Italy - Serie C : Atalanta II vs Trapani 1905 (14:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Atalanta II_vs_Trapani 1905.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Atalanta II vs Trapani 1905 (14:30)
-https://dlhd.dad/watch.php?id=160
-
-#EXTINF:-1 tvg-id="englandpremierleaguetottenhamhotspurvsastonvilla" tvg-name="All Soccer Events | England - Premier League : Tottenham Hotspur vs Aston Villa (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Tottenham Hotspur_vs_Aston Villa.png" group-title="Eventi Live DLHD",All Soccer Events | England - Premier League : Tottenham Hotspur vs Aston Villa (15:00)
-https://dlhd.dad/watch.php?id=461
-
-#EXTINF:-1 tvg-id="italyserieacagliarivsbologna" tvg-name="All Soccer Events | Italy - Serie A : Cagliari vs Bologna (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Cagliari_vs_Bologna.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A : Cagliari vs Bologna (15:00)
-https://dlhd.dad/watch.php?id=877
-
-#EXTINF:-1 tvg-id="italyserieagenoavsparma" tvg-name="All Soccer Events | Italy - Serie A : Genoa vs Parma (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Genoa_vs_Parma.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A : Genoa vs Parma (15:00)
-https://dlhd.dad/watch.php?id=110
-
-#EXTINF:-1 tvg-id="italyseriebpalermovsmodena" tvg-name="All Soccer Events | Italy - Serie B : Palermo vs Modena (15:00)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Palermo_vs_Modena.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie B : Palermo vs Modena (15:00)
-https://dlhd.dad/watch.php?id=151
-
-#EXTINF:-1 tvg-id="germanybundesligafreiburgvseintrachtfrankfurt" tvg-name="All Soccer Events | Germany - Bundesliga : Freiburg vs Eintracht Frankfurt (15:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Freiburg_vs_Eintracht Frankfurt.png" group-title="Eventi Live DLHD",All Soccer Events | Germany - Bundesliga : Freiburg vs Eintracht Frankfurt (15:30)
-https://dlhd.dad/watch.php?id=462
-
-#EXTINF:-1 tvg-id="italyserieawomenlaziovsjuventus" tvg-name="All Soccer Events | Italy - Serie A (women) : Lazio vs Juventus (15:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Lazio_vs_Juventus.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A (women) : Lazio vs Juventus (15:30)
-https://dlhd.dad/watch.php?id=152
-
-#EXTINF:-1 tvg-id="italyserieawomenlaziovsjuventus" tvg-name="All Soccer Events | Italy - Serie A (women) : Lazio vs Juventus (15:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Lazio_vs_Juventus.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie A (women) : Lazio vs Juventus (15:30)
-https://dlhd.dad/watch.php?id=882
-
 #EXTINF:-1 tvg-id="italyseriebempolivsvenezia" tvg-name="All Soccer Events | Italy - Serie B : Empoli vs Venezia (17:15)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Empoli_vs_Venezia.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie B : Empoli vs Venezia (17:15)
 https://dlhd.dad/watch.php?id=159
 
 #EXTINF:-1 tvg-id="italyserieclumezzanevstrento" tvg-name="All Soccer Events | Italy - Serie C : Lumezzane vs Trento (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Lumezzane_vs_Trento.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Lumezzane vs Trento (17:30)
 https://dlhd.dad/watch.php?id=160
 
-#EXTINF:-1 tvg-id="italyseriecvirtusveronavspropatria" tvg-name="All Soccer Events | Italy - Serie C : Virtus Verona vs Pro Patria (17:30)" tvg-logo="https://www.tuttocampo.it/Web/Images/Teams/Original/780354.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Virtus Verona vs Pro Patria (17:30)
+#EXTINF:-1 tvg-id="italyseriecvirtusveronavspropatria" tvg-name="All Soccer Events | Italy - Serie C : Virtus Verona vs Pro Patria (17:30)" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Virtus Verona vs Pro Patria (17:30)
 https://dlhd.dad/watch.php?id=161
 
 #EXTINF:-1 tvg-id="italyseriecprovercellivsgianaerminio" tvg-name="All Soccer Events | Italy - Serie C : Pro Vercelli vs Giana Erminio (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Pro Vercelli_vs_Giana Erminio.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Pro Vercelli vs Giana Erminio (17:30)
@@ -62,7 +17,7 @@ https://dlhd.dad/watch.php?id=27
 #EXTINF:-1 tvg-id="italyseriecpinetovsperugia" tvg-name="All Soccer Events | Italy - Serie C : Pineto vs Perugia (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Pineto_vs_Perugia.png" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Pineto vs Perugia (17:30)
 https://dlhd.dad/watch.php?id=28
 
-#EXTINF:-1 tvg-id="italyseriecaudacecerignolavscavese" tvg-name="All Soccer Events | Italy - Serie C : Audace Cerignola vs Cavese (17:30)" tvg-logo="https://www.tuttocampo.it/Web/Images/Teams/Original/720350.png?v=1" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Audace Cerignola vs Cavese (17:30)
+#EXTINF:-1 tvg-id="italyseriecaudacecerignolavscavese" tvg-name="All Soccer Events | Italy - Serie C : Audace Cerignola vs Cavese (17:30)" group-title="Eventi Live DLHD",All Soccer Events | Italy - Serie C : Audace Cerignola vs Cavese (17:30)
 https://dlhd.dad/watch.php?id=162
 
 #EXTINF:-1 tvg-id="englandpremierleagueliverpoolvsmanchesterunited" tvg-name="All Soccer Events | England - Premier League : Liverpool vs Manchester United (17:30)" tvg-logo="https://raw.githubusercontent.com/nzo66/TV/main/logos/Liverpool_vs_Manchester United.png" group-title="Eventi Live DLHD",All Soccer Events | England - Premier League : Liverpool vs Manchester United (17:30)
@@ -101,10 +56,7 @@ https://dlhd.dad/watch.php?id=870
 #EXTINF:-1 tvg-id="fifau20worldcupfinalargentinau20vsmoroccou20" tvg-name="All Soccer Events | FIFA U-20 World Cup Final : Argentina U20 vs Morocco U20 (21:00)" group-title="Eventi Live DLHD",All Soccer Events | FIFA U-20 World Cup Final : Argentina U20 vs Morocco U20 (21:00)
 https://dlhd.dad/watch.php?id=882
 
-#EXTINF:-1 tvg-id="stockholmatpampbrusselsatpfinals" tvg-name="Tennis | Stockholm-ATP &amp; Brussels-ATP Finals (15:00)" tvg-logo="https://assets.stickpng.com/thumbs/626656521e92f9aac65b5ba6.png" group-title="Eventi Live DLHD",Tennis | Stockholm-ATP &amp; Brussels-ATP Finals (15:00)
-https://dlhd.dad/watch.php?id=576
-
-#EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgpgrandprixsunday" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Grand Prix Sunday (20:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Grand Prix Sunday (20:00)
+#EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgpgrandprixsunday" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Grand Prix Sunday (20:00)" tvg-logo="https://images.seeklogo.com/logo-png/33/2/formula-1-logo-png_seeklogo-330361.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Grand Prix Sunday (20:00)
 https://dlhd.dad/watch.php?id=577
 
 #EXTINF:-1 tvg-id="formula1msccruisesunitedstatesgprace" tvg-name="Motorsport | Formula 1 : MSC Cruises United States GP - Race (21:00)" tvg-logo="https://logospng.org/download/formula-1/formula-1-4096.png" group-title="Eventi Live DLHD",Motorsport | Formula 1 : MSC Cruises United States GP - Race (21:00)
