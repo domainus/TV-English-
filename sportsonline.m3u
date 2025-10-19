@@ -1,3 +1,13 @@
 #EXTM3U
-#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",NESSUN EVENTO
-https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",Como x Juventus 12:30
+https://sportzonline.st/channels/hd/hd7.php
+#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",Cagliari x Bologna 15:00
+https://sportzonline.st/channels/hd/hd7.php
+#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",Genoa x Parma 15:00
+https://sportzonline.st/channels/hd/hd8.php
+#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",Atalanta x Lazio 18:00
+https://sportzonline.st/channels/hd/hd8.php
+#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",Milan x Fiorentina 20:45
+https://sportzonline.st/channels/hd/hd7.php
+#EXTINF:-1 group-title="Eventi Live SPORTSONLINE",Formula 1: US Grand Prix 21:00
+https://sportzonline.st/channels/hd/hd8.php
