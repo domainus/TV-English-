@@ -10,12 +10,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Definisce il percorso della cartella dello script e della cartella principale
+# Defines the path of the script folder and the main folder
 script_dir = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.dirname(script_dir)
 
 def headers_to_extvlcopt(headers):
-    """Converte un dizionario di header in una lista di stringhe #EXTVLCOPT per VLC."""
+    """Converts a dictionary of headers into a list of #EXTVLCOPT strings for VLC."""
     vlc_opts = []
     for key, value in headers.items():
         # VLC usa nomi di header in minuscolo
@@ -23,20 +23,20 @@ def headers_to_extvlcopt(headers):
     return vlc_opts
 
 def merger_playlist():
-    # Codice del primo script qui
-    # Aggiungi il codice del tuo script "merger_playlist.py" in questa funzione.
-    # Ad esempio:
-    print("Eseguendo il merger_playlist.py...")
+    # Code from the first script here
+    # Add your "merger_playlist.py" script code into this function.
+    # For example:
+    print("Running merger_playlist.py...")
     import requests
     import os
     from dotenv import load_dotenv
     import re
 
     def parse_m3u_for_sorting(file_path):
-        """Legge un file M3U e restituisce una lista di tuple (nome_canale, righe_canale)"""
+        """Reads an M3U file and returns a list of tuples (channel_name, channel_lines)"""
         channels = []
         if not os.path.exists(file_path):
-            print(f"[AVVISO] File non trovato, impossibile ordinarlo: {file_path}")
+            print(f"[WARNING] File not found, cannot sort: {file_path}")
             return channels
         
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -47,9 +47,9 @@ def merger_playlist():
             line = lines[i].strip()
             if line.startswith('#EXTINF:'):
                 channel_name_match = re.search(r',(.+)', line)
-                channel_name = channel_name_match.group(1).strip() if channel_name_match else "SenzaNome"
+                channel_name = channel_name_match.group(1).strip() if channel_name_match else "NoName"
                 
-                # Un canale può avere più righe (es. #EXTVLCOPT)
+                # A channel can have multiple lines (e.g. #EXTVLCOPT)
                 channel_block = [line]
                 i += 1
                 while i < len(lines) and not lines[i].strip().startswith('#EXTINF:'):
@@ -60,13 +60,13 @@ def merger_playlist():
                 i += 1
         return channels
         
-    # Carica le variabili d'ambiente dal file .env
+    # Load environment variables from .env file
     load_dotenv()
 
     NOMEREPO = os.getenv("NOMEREPO", "").strip()
     NOMEGITHUB = os.getenv("NOMEGITHUB", "").strip()
     
-    # Percorsi o URL delle playlist M3U8
+    # Paths or URLs for the M3U8 playlists
     url_vavoo = os.path.join(output_dir, "vavoo.m3u")
     url_dlhd = os.path.join(output_dir, "dlhd.m3u")
     url_mpd = os.path.join(output_dir, "mpd.m3u")
@@ -75,7 +75,7 @@ def merger_playlist():
     url_streamed = os.path.join(output_dir, "streamed.m3u")
     url6 = "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/main/PlutoItaly.m3u"
     
-    # Funzione per scaricare o leggere una playlist
+    # Function to download or read a playlist
     def download_playlist(source, append_params=False, exclude_group_title=None):
         if source.startswith("http"):
             response = requests.get(source, timeout=30)
@@ -85,29 +85,29 @@ def merger_playlist():
             with open(source, 'r', encoding='utf-8') as f:
                 playlist = f.read()
         
-        # Rimuovi intestazione iniziale
+        # Remove initial header
         playlist = '\n'.join(line for line in playlist.split('\n') if not line.startswith('#EXTM3U'))
     
         if exclude_group_title:
             playlist = '\n'.join(line for line in playlist.split('\n') if exclude_group_title not in line)
-    
+
         return playlist
     
-    # 1. Unisci e ordina i canali italiani (Vavoo e Daddylive)
-    print("Unione e ordinamento dei canali italiani (Vavoo, Daddylive & MPD)...")
+    # 1. Merge and sort Italian channels (Vavoo, Daddylive & MPD)
+    print("Merging and sorting Italian channels (Vavoo, Daddylive & MPD)...")
     vavoo_channels = parse_m3u_for_sorting(url_vavoo)
     dlhd_channels = parse_m3u_for_sorting(url_dlhd)
     mpd_channels = parse_m3u_for_sorting(url_mpd)
     
     all_italian_channels = vavoo_channels + dlhd_channels + mpd_channels
-    all_italian_channels.sort(key=lambda x: x[0].lower()) # Ordina per nome canale
+    all_italian_channels.sort(key=lambda x: x[0].lower()) # Sort by channel name
     
     sorted_italian_playlist = ""
     for _, channel_block in all_italian_channels:
         sorted_italian_playlist += "\n".join(channel_block) + "\n"
 
-    # 2. Scarica le altre playlist
-    print("Download delle altre playlist...")
+    # 2. Download the other playlists
+    print("Downloading the other playlists...")
     
     canali_daddy_flag = os.getenv("CANALI_DADDY", "no").strip().lower()
     if canali_daddy_flag == "si":
@@ -120,35 +120,35 @@ def merger_playlist():
     playlist_streamed = download_playlist(url_streamed)
     playlist_pluto = download_playlist(url6)
     
-    # 3. Unisci tutte le playlist (con i canali italiani ordinati all'inizio)
+    # 3. Merge all playlists (with sorted Italian channels at the beginning)
     lista = sorted_italian_playlist + "\n" + playlist_eventi + "\n" + playlist_sportsonline + "\n" + playlist_streamed + "\n" + playlist_pluto
     
-    # Aggiungi intestazione EPG
+    # Add EPG header
     lista = f'#EXTM3U url-tvg="https://raw.githubusercontent.com/{NOMEGITHUB}/{NOMEREPO}/refs/heads/main/epg.xml"\n' + lista
     
-    # Salva la playlist
+    # Save the playlist
     output_filename = os.path.join(output_dir, "lista.m3u")
     with open(output_filename, 'w', encoding='utf-8') as file:
         file.write(lista)
     
-    print(f"Playlist combinata salvata in: {output_filename}")
+    print(f"Combined playlist saved in: {output_filename}")
     
-# Funzione per il primo script (merger_playlist.py)
+# Function for the first script (merger_playlist.py)
 def merger_playlistworld():
-    # Codice del primo script qui
-    # Aggiungi il codice del tuo script "merger_playlist.py" in questa funzione.
-    # Ad esempio:
-    print("Eseguendo il merger_playlistworld.py...")
+    # Code from the first script here
+    # Add your "merger_playlist.py" script code into this function.
+    # For example:
+    print("Running merger_playlistworld.py...")
     import requests
     import os
     from dotenv import load_dotenv
     import re
 
     def parse_m3u_for_sorting(file_path):
-        """Legge un file M3U e restituisce una lista di tuple (nome_canale, righe_canale)"""
+        """Reads an M3U file and returns a list of tuples (channel_name, channel_lines)"""
         channels = []
         if not os.path.exists(file_path):
-            print(f"[AVVISO] File non trovato, impossibile ordinarlo: {file_path}")
+            print(f"[WARNING] File not found, cannot sort: {file_path}")
             return channels
         
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -159,7 +159,7 @@ def merger_playlistworld():
             line = lines[i].strip()
             if line.startswith('#EXTINF:'):
                 channel_name_match = re.search(r',(.+)', line)
-                channel_name = channel_name_match.group(1).strip() if channel_name_match else "SenzaNome"
+                channel_name = channel_name_match.group(1).strip() if channel_name_match else "NoName"
                 
                 channel_block = [line]
                 i += 1
@@ -171,13 +171,13 @@ def merger_playlistworld():
                 i += 1
         return channels
         
-    # Carica le variabili d'ambiente dal file .env
+    # Load environment variables from .env file
     load_dotenv()
 
     NOMEREPO = os.getenv("NOMEREPO", "").strip()
     NOMEGITHUB = os.getenv("NOMEGITHUB", "").strip()
     
-    # Percorsi o URL delle playlist M3U8
+    # Paths or URLs for the M3U8 playlists
     url_vavoo = os.path.join(output_dir, "vavoo.m3u")
     url_dlhd = os.path.join(output_dir, "dlhd.m3u")
     url_mpd = os.path.join(output_dir, "mpd.m3u")
@@ -187,7 +187,7 @@ def merger_playlistworld():
     url5 = "https://raw.githubusercontent.com/Brenders/Pluto-TV-Italia-M3U/main/PlutoItaly.m3u"
     url_world = os.path.join(output_dir, "world.m3u")
     
-    # Funzione per scaricare o leggere una playlist
+    # Function to download or read a playlist
     def download_playlist(source, append_params=False, exclude_group_title=None):
         if source.startswith("http"):
             response = requests.get(source, timeout=30)
@@ -197,29 +197,29 @@ def merger_playlistworld():
             with open(source, 'r', encoding='utf-8') as f:
                 playlist = f.read()
         
-        # Rimuovi intestazione iniziale
+        # Remove initial header
         playlist = '\n'.join(line for line in playlist.split('\n') if not line.startswith('#EXTM3U'))
     
         if exclude_group_title:
             playlist = '\n'.join(line for line in playlist.split('\n') if exclude_group_title not in line)
-    
+
         return playlist
     
-    # 1. Unisci e ordina i canali italiani (Vavoo e Daddylive)
-    print("Unione e ordinamento dei canali italiani (Vavoo, Daddylive & MPD)...")
+    # 1. Merge and sort Italian channels (Vavoo, Daddylive & MPD)
+    print("Merging and sorting Italian channels (Vavoo, Daddylive & MPD)...")
     vavoo_channels = parse_m3u_for_sorting(url_vavoo)
     dlhd_channels = parse_m3u_for_sorting(url_dlhd)
     mpd_channels = parse_m3u_for_sorting(url_mpd)
     
     all_italian_channels = vavoo_channels + dlhd_channels + mpd_channels
-    all_italian_channels.sort(key=lambda x: x[0].lower()) # Ordina per nome canale
+    all_italian_channels.sort(key=lambda x: x[0].lower()) # Sort by channel name
     
     sorted_italian_playlist = ""
     for _, channel_block in all_italian_channels:
         sorted_italian_playlist += "\n".join(channel_block) + "\n"
 
-    # 2. Scarica le altre playlist
-    print("Download delle altre playlist...")
+    # 2. Download the other playlists
+    print("Downloading the other playlists...")
     
     canali_daddy_flag = os.getenv("CANALI_DADDY", "no").strip().lower()
     if canali_daddy_flag == "si":
@@ -232,33 +232,33 @@ def merger_playlistworld():
     playlist_streamed = download_playlist(url_streamed)
     playlist_pluto = download_playlist(url5)
     playlist_world = download_playlist(url_world, exclude_group_title="Italy")
-    # 3. Unisci tutte le playlist
+    # 3. Merge all playlists
     lista = sorted_italian_playlist + "\n" + playlist_eventi + "\n" + playlist_sportsonline + "\n" + playlist_streamed + "\n" + playlist_pluto + "\n" + playlist_world
     
-    # Aggiungi intestazione EPG
+    # Add EPG header
     lista = f'#EXTM3U url-tvg="https://raw.githubusercontent.com/{NOMEGITHUB}/{NOMEREPO}/refs/heads/main/epg.xml"\n' + lista
     
-    # Salva la playlist
+    # Save the playlist
     output_filename = os.path.join(output_dir, "lista.m3u")
     with open(output_filename, 'w', encoding='utf-8') as file:
         file.write(lista)
     
-    print(f"Playlist combinata salvata in: {output_filename}")
+    print(f"Combined playlist saved in: {output_filename}")
 
-# Funzione per il secondo script (epg_merger.py)
+# Function for the second script (epg_merger.py)
 def epg_merger():
-    # Codice del secondo script qui
-    # Aggiungi il codice del tuo script "epg_merger.py" in questa funzione.
-    # Ad esempio:
-    print("Eseguendo l'epg_merger.py...")
-    # Il codice che avevi nello script "epg_merger.py" va qui, senza modifiche.
+    # Code from the second script here
+    # Add your "epg_merger.py" script code into this function.
+    # For example:
+    print("Running epg_merger.py...")
+    # The code you had in "epg_merger.py" goes here, unchanged.
     import requests
     import gzip
     import os
     import xml.etree.ElementTree as ET
     import io
 
-    # URL dei file GZIP o XML da elaborare
+    # URLs of the GZIP or XML files to process
     urls_gzip = [
         'https://www.open-epg.com/files/italy1.xml',
         'https://www.open-epg.com/files/italy2.xml',
@@ -267,45 +267,45 @@ def epg_merger():
         'https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz'
     ]
 
-    # File di output
+    # Output file
     output_xml = os.path.join(output_dir, 'epg.xml')
 
-    # URL remoto di it.xml
+    # Remote URL for it.xml
     url_it = 'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/it.xml'
 
-    # Disabilita gli avvisi per le richieste non verificate
+    # Disable warnings for unverified requests
     requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
 
-    # File eventi_dlhd locale
+    # Local eventi_dlhd file
     path_eventi_dlhd = os.path.join(output_dir, 'eventi_dlhd.xml')
 
     def download_and_parse_xml(url):
-        """Scarica un file .xml o .gzip e restituisce l'ElementTree."""
+        """Downloads a .xml or .gzip file and returns the ElementTree."""
         try:
-            # Aggiunto verify=False per ignorare gli errori SSL
+            # Added verify=False to ignore SSL errors
             response = requests.get(url, timeout=30, verify=False)
             response.raise_for_status()
 
-            # Prova a decomprimere come GZIP
+            # Try to decompress as GZIP
             try:
                 with gzip.open(io.BytesIO(response.content), 'rb') as f_in:
                     xml_content = f_in.read()
             except (gzip.BadGzipFile, OSError):
-                # Non Ã¨ un file gzip, usa direttamente il contenuto
+                # Not a gzip file, use content directly
                 xml_content = response.content
 
             return ET.ElementTree(ET.fromstring(xml_content))
         except requests.exceptions.RequestException as e:
-            print(f"Errore durante il download da {url} (verifica SSL disabilitata): {e}")
+            print(f"Error while downloading from {url} (SSL verification disabled): {e}")
         except ET.ParseError as e:
-            print(f"Errore nel parsing del file XML da {url}: {e}")
+            print(f"Error parsing XML file from {url}: {e}")
         return None
 
-    # Creare un unico XML vuoto
+    # Create a single empty XML
     root_finale = ET.Element('tv')
     tree_finale = ET.ElementTree(root_finale)
 
-    # Processare ogni URL
+    # Process each URL
     for url in urls_gzip:
         tree = download_and_parse_xml(url)
         if tree is not None:
@@ -316,7 +316,7 @@ def epg_merger():
     # Check CANALI_DADDY flag before processing eventi_dlhd.xml
     canali_daddy_flag = os.getenv("CANALI_DADDY", "no").strip().lower()
     if canali_daddy_flag == "si":
-        # Aggiungere eventi_dlhd.xml da file locale
+        # Add eventi_dlhd.xml from local file
         if os.path.exists(path_eventi_dlhd):
             try:
                 tree_eventi_dlhd = ET.parse(path_eventi_dlhd)
@@ -324,20 +324,20 @@ def epg_merger():
                 for programme in root_eventi_dlhd.findall(".//programme"):
                     root_finale.append(programme)
             except ET.ParseError as e:
-                print(f"Errore nel parsing del file eventi_dlhd.xml: {e}")
+                print(f"Error parsing eventi_dlhd.xml: {e}")
         else:
-            print(f"File non trovato: {path_eventi_dlhd}")
+            print(f"File not found: {path_eventi_dlhd}")
     else:
         print("[INFO] Skipping eventi_dlhd.xml in epg_merger as CANALI_DADDY is not 'si'.")
 
-    # Aggiungere it.xml da URL remoto
+    # Add it.xml from remote URL
     tree_it = download_and_parse_xml(url_it)
     if tree_it is not None:
         root_it = tree_it.getroot()
         for programme in root_it.findall(".//programme"):
             root_finale.append(programme)
     else:
-        print(f"Impossibile scaricare o analizzare il file it.xml da {url_it}")
+        print(f"Unable to download or parse it.xml from {url_it}")
 
     # Funzione per pulire attributi
     def clean_attribute(element, attr_name):
@@ -346,31 +346,31 @@ def epg_merger():
             new_value = old_value.replace(" ", "").lower()
             element.attrib[attr_name] = new_value
 
-    # Pulire gli ID dei canali
+    # Clean channel IDs
     for channel in root_finale.findall(".//channel"):
         clean_attribute(channel, 'id')
 
-    # Pulire gli attributi 'channel' nei programmi
+    # Clean 'channel' attributes in programmes
     for programme in root_finale.findall(".//programme"):
         clean_attribute(programme, 'channel')
 
-    # Salvare il file XML finale
+    # Save the final XML file
     with open(output_xml, 'wb') as f_out:
         tree_finale.write(f_out, encoding='utf-8', xml_declaration=True)
-    print(f"File XML salvato: {output_xml}")
+    print(f"XML file saved: {output_xml}")
 
-    # Salvare anche il file GZIP
+    # Also save the GZIP file
     output_gz = os.path.join(output_dir, 'epg.xml.gz')
     with gzip.open(output_gz, 'wb') as f_gz:
         tree_finale.write(f_gz, encoding='utf-8', xml_declaration=True)
-    print(f"File GZIP salvato: {output_gz}")
+    print(f"GZIP file saved: {output_gz}")
              
-# Funzione per il terzo script (eventi_dlhd_m3u8_generator.py)
+# Function for the third script (eventi_dlhd_m3u8_generator.py)
 def eventi_dlhd_m3u8_generator_world():
-    # Codice del terzo script qui
-    # Aggiungi il codice del tuo script "eventi_dlhd_m3u8_generator.py" in questa funzione.
-    print("Eseguendo l'eventi_dlhd_m3u8_generator.py...")
-    # Il codice che avevi nello script "eventi_dlhd_m3u8_generator.py" va qui, senza modifiche.
+    # Code from the third script here
+    # Add your "eventi_dlhd_m3u8_generator.py" script code into this function.
+    print("Running eventi_dlhd_m3u8_generator.py...")
+    # The code you had in "eventi_dlhd_m3u8_generator.py" goes here, unchanged.
     import json
     import re
     import requests
@@ -401,12 +401,12 @@ def eventi_dlhd_m3u8_generator_world():
     three_hours_in_seconds = 3 * 60 * 60
     
     def clean_category_name(name): 
-        # Rimuove tag html come </span> o simili 
+        # Removes HTML tags like </span> or similar
         return re.sub(r'<[^>]+>', '', name).strip()
         
     def clean_tvg_id(tvg_id):
         """
-        Pulisce il tvg-id rimuovendo caratteri speciali, spazi e convertendo tutto in minuscolo
+        Cleans the tvg-id by removing special characters, spaces, and converting everything to lowercase
         """
         # import re # 're' Ã¨ giÃ  importato a livello di funzione
         # Rimuove caratteri speciali comuni mantenendo solo lettere e numeri
@@ -415,18 +415,18 @@ def eventi_dlhd_m3u8_generator_world():
      
     def search_logo_for_event(event_name): 
         """ 
-        Cerca un logo per l'evento specificato utilizzando un motore di ricerca 
-        Restituisce l'URL dell'immagine trovata o None se non trovata 
+        Searches for a logo for the specified event using a search engine 
+        Returns the found image URL or None if not found 
         """ 
         try: 
-            # Rimuovi eventuali riferimenti all'orario dal nome dell'evento
-            # Cerca pattern come "Team A vs Team B (20:00)" e rimuovi la parte dell'orario
+            # Remove any time references from the event name
+            # Look for patterns like "Team A vs Team B (20:00)" and remove the time part
             clean_event_name = re.sub(r'\s*\(\d{1,2}:\d{2}\)\s*$', '', event_name)
-            # Se c'ÃÂ¨ un ':', prendi solo la parte dopo
+            # If there is a ':', take only the part after
             if ':' in clean_event_name:
                 clean_event_name = clean_event_name.split(':', 1)[1].strip()
             
-            # Verifica se l'evento contiene "vs" o "-" per identificare le due squadre
+            # Check if the event contains "vs" or "-" to identify the two teams
             teams = None
             if " vs " in clean_event_name:
                 teams = clean_event_name.split(" vs ")
@@ -437,102 +437,102 @@ def eventi_dlhd_m3u8_generator_world():
             elif " vs. " in clean_event_name:
                 teams = clean_event_name.split(" vs. ")
             
-            # Se abbiamo identificato due squadre, cerchiamo i loghi separatamente
+            # If we have identified two teams, search for their logos separately
             if teams and len(teams) == 2:
                 team1 = teams[0].strip()
                 team2 = teams[1].strip()
                 
-                print(f"[🔍] Ricerca logo per Team 1: {team1}")
+                print(f"[🔍] Searching logo for Team 1: {team1}")
                 logo1_url = search_team_logo(team1)
                 
-                print(f"[🔍] Ricerca logo per Team 2: {team2}")
+                print(f"[🔍] Searching logo for Team 2: {team2}")
                 logo2_url = search_team_logo(team2)
                 
-                # Se abbiamo trovato entrambi i loghi, creiamo un'immagine combinata
+                # If we found both logos, create a combined image
                 if logo1_url and logo2_url:
                     # Scarica i loghi e l'immagine VS
                     try:
                         from os.path import exists, getmtime
                         
-                        # Crea la cartella logos se non esiste
+                        # Create the logos folder if it does not exist
                         logos_dir = os.path.join(output_dir, "logos")
                         os.makedirs(logos_dir, exist_ok=True)
                         
-                        # Verifica se l'immagine combinata esiste giÃÂ  e non ÃÂ¨ obsoleta
+                        # Check if the combined image already exists and is not outdated
                         relative_logo_path = os.path.join("logos", f"{team1}_vs_{team2}.png")
                         absolute_output_filename = os.path.join(output_dir, relative_logo_path)
                         if exists(absolute_output_filename):
                             file_age = current_time - os.path.getmtime(absolute_output_filename)
                             if file_age <= three_hours_in_seconds:
-                                print(f"[✓] Utilizzo immagine combinata esistente: {absolute_output_filename}")
+                                print(f"[✓] Using existing combined image: {absolute_output_filename}")
                                 
-                                # Carica le variabili d'ambiente per GitHub
+                                # Load environment variables for GitHub
                                 NOMEREPO = os.getenv("NOMEREPO", "").strip()
                                 NOMEGITHUB = os.getenv("NOMEGITHUB", "").strip()
                                 
-                                # Se le variabili GitHub sono disponibili, restituisci l'URL raw di GitHub
+                                # If GitHub variables are available, return the raw GitHub URL
                                 if NOMEGITHUB and NOMEREPO:
                                     github_raw_url = f"https://raw.githubusercontent.com/{NOMEGITHUB}/{NOMEREPO}/main/{relative_logo_path}"
-                                    print(f"[✓] URL GitHub generato per logo esistente: {github_raw_url}")
+                                    print(f"[✓] GitHub URL generated for existing logo: {github_raw_url}")
                                     return github_raw_url
                                 else:
-                                    # Altrimenti restituisci il percorso locale
+                                    # Otherwise return the local path
                                     return absolute_output_filename
                         
-                        # Scarica i loghi
+                        # Download the logos
                         img1, img2 = None, None
                         
                         if logo1_url:
                             try:
-                                # Aggiungi un User-Agent simile a un browser
+                                # Add a browser-like User-Agent
                                 logo_headers = {
                                     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
                                 }
                                 response1 = requests.get(logo1_url, headers=logo_headers, timeout=10)
-                                response1.raise_for_status() # Controlla errori HTTP
+                                response1.raise_for_status() # Check HTTP errors
                                 if 'image' in response1.headers.get('Content-Type', '').lower():
                                     img1 = Image.open(io.BytesIO(response1.content))
-                                    print(f"[✓] Logo1 scaricato con successo da: {logo1_url}")
+                                    print(f"[✓] Logo1 successfully downloaded from: {logo1_url}")
                                 else:
-                                    print(f"[!] URL logo1 ({logo1_url}) non è un'immagine (Content-Type: {response1.headers.get('Content-Type')}).")
-                                    logo1_url = None # Invalida URL se non è un'immagine
+                                    print(f"[!] Logo1 URL ({logo1_url}) is not an image (Content-Type: {response1.headers.get('Content-Type')}).")
+                                    logo1_url = None # Invalidate URL if not an image
                             except requests.exceptions.RequestException as e_req:
-                                print(f"[!] Errore scaricando logo1 ({logo1_url}): {e_req}")
+                                print(f"[!] Error downloading logo1 ({logo1_url}): {e_req}")
                                 logo1_url = None
-                            except Exception as e_pil: # Errore specifico da PIL durante Image.open
-                                print(f"[!] Errore PIL aprendo logo1 ({logo1_url}): {e_pil}")
+                            except Exception as e_pil: # PIL-specific error during Image.open
+                                print(f"[!] PIL error opening logo1 ({logo1_url}): {e_pil}")
                                 logo1_url = None
                         
                         if logo2_url:
                             try:
-                                # Aggiungi un User-Agent simile a un browser
+                                # Add a browser-like User-Agent
                                 logo_headers = {
                                     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
                                 }
                                 response2 = requests.get(logo2_url, headers=logo_headers, timeout=10)
-                                response2.raise_for_status() # Controlla errori HTTP
+                                response2.raise_for_status() # Check HTTP errors
                                 if 'image' in response2.headers.get('Content-Type', '').lower():
                                     img2 = Image.open(io.BytesIO(response2.content))
-                                    print(f"[✓] Logo2 scaricato con successo da: {logo2_url}")
+                                    print(f"[✓] Logo2 successfully downloaded from: {logo2_url}")
                                 else:
-                                    print(f"[!] URL logo2 ({logo2_url}) non è un'immagine (Content-Type: {response2.headers.get('Content-Type')}).")
-                                    logo2_url = None # Invalida URL se non è un'immagine
+                                    print(f"[!] Logo2 URL ({logo2_url}) is not an image (Content-Type: {response2.headers.get('Content-Type')}).")
+                                    logo2_url = None # Invalidate URL if not an image
                             except requests.exceptions.RequestException as e_req:
-                                print(f"[!] Errore scaricando logo2 ({logo2_url}): {e_req}")
+                                print(f"[!] Error downloading logo2 ({logo2_url}): {e_req}")
                                 logo2_url = None
-                            except Exception as e_pil: # Errore specifico da PIL durante Image.open
-                                print(f"[!] Errore PIL aprendo logo2 ({logo2_url}): {e_pil}")
+                            except Exception as e_pil: # PIL-specific error during Image.open
+                                print(f"[!] PIL error opening logo2 ({logo2_url}): {e_pil}")
                                 logo2_url = None
                         
-                        # Carica l'immagine VS (assicurati che esista nella directory corrente)
+                        # Load the VS image (make sure it exists in the current directory)
                         vs_path = os.path.join(script_dir, "vs.png")
                         if exists(vs_path):
                             img_vs = Image.open(vs_path)
-                            # Converti l'immagine VS in modalitÃÂ  RGBA se non lo ÃÂ¨ giÃÂ 
+                            # Convert the VS image to RGBA mode if not already
                             if img_vs.mode != 'RGBA':
                                 img_vs = img_vs.convert('RGBA')
                         else:
-                            # Crea un'immagine di testo "VS" se il file non esiste
+                            # Create a "VS" text image if the file doesn't exist
                             img_vs = Image.new('RGBA', (100, 100), (255, 255, 255, 0))
                             from PIL import ImageDraw, ImageFont
                             draw = ImageDraw.Draw(img_vs)
@@ -542,75 +542,75 @@ def eventi_dlhd_m3u8_generator_world():
                                 font = ImageFont.load_default()
                             draw.text((30, 30), "VS", fill=(255, 0, 0), font=font)
                         
-                        # Procedi con la combinazione solo se entrambi i loghi sono stati caricati con successo
+                        # Proceed with combination only if both logos were loaded successfully
                         if not (img1 and img2):
-                            print(f"[!] Impossibile caricare entrambi i loghi come immagini valide per la combinazione. Logo1 caricato: {bool(img1)}, Logo2 caricato: {bool(img2)}.")
-                            raise ValueError("Uno o entrambi i loghi non sono stati caricati correttamente.") # Questo forzerÃ  l'except sottostante
+                            print(f"[!] Could not load both logos as valid images for combination. Logo1 loaded: {bool(img1)}, Logo2 loaded: {bool(img2)}.")
+                            raise ValueError("One or both logos were not loaded correctly.") # This will force the except below
                         
-                        # Ridimensiona le immagini a dimensioni uniformi
+                        # Resize images to uniform size
                         size = (150, 150)
                         img1 = img1.resize(size)
                         img2 = img2.resize(size)
                         img_vs = img_vs.resize((100, 100))
                         
-                        # Assicurati che tutte le immagini siano in modalitÃÂ  RGBA per supportare la trasparenza
+                        # Make sure all images are in RGBA mode to support transparency
                         if img1.mode != 'RGBA':
                             img1 = img1.convert('RGBA')
                         if img2.mode != 'RGBA':
                             img2 = img2.convert('RGBA')
                         
-                        # Crea una nuova immagine con spazio per entrambi i loghi e il VS
+                        # Create a new image with space for both logos and the VS
                         combined_width = 300
                         combined = Image.new('RGBA', (combined_width, 150), (255, 255, 255, 0))
                         
-                        # Posiziona le immagini con il VS sovrapposto al centro
-                        # Posiziona il primo logo a sinistra
+                        # Position the images with the VS overlay in the center
+                        # Place the first logo on the left
                         combined.paste(img1, (0, 0), img1)
-                        # Posiziona il secondo logo a destra
+                        # Place the second logo on the right
                         combined.paste(img2, (combined_width - 150, 0), img2)
                         
-                        # Posiziona il VS al centro, sovrapposto ai due loghi
+                        # Place the VS in the center, overlaying both logos
                         vs_x = (combined_width - 100) // 2
                         
-                        # Crea una copia dell'immagine combinata prima di sovrapporre il VS
-                        # Questo passaggio ÃÂ¨ importante per preservare i dettagli dei loghi sottostanti
+                        # Create a copy of the combined image before overlaying the VS
+                        # This step is important to preserve logo details underneath
                         combined_with_vs = combined.copy()
                         combined_with_vs.paste(img_vs, (vs_x, 25), img_vs)
                         
-                        # Usa l'immagine con VS sovrapposto
+                        # Use the image with the VS overlay
                         combined = combined_with_vs
                         
-                        # Salva l'immagine combinata
+                        # Save the combined image
                         combined.save(absolute_output_filename)
                         
-                        print(f"[✓] Immagine combinata creata: {absolute_output_filename}")
+                        print(f"[✓] Combined image created: {absolute_output_filename}")
                         
-                        # Carica le variabili d'ambiente per GitHub
+                        # Load environment variables for GitHub
                         NOMEREPO = os.getenv("NOMEREPO", "").strip()
                         NOMEGITHUB = os.getenv("NOMEGITHUB", "").strip()
                         
-                        # Se le variabili GitHub sono disponibili, restituisci l'URL raw di GitHub
+                        # If GitHub variables are available, return the raw GitHub URL
                         if NOMEGITHUB and NOMEREPO:
                             github_raw_url = f"https://raw.githubusercontent.com/{NOMEGITHUB}/{NOMEREPO}/main/{relative_logo_path}"
-                            print(f"[✓] URL GitHub generato: {github_raw_url}")
+                            print(f"[✓] GitHub URL generated: {github_raw_url}")
                             return github_raw_url
                         else:
-                            # Altrimenti restituisci il percorso assoluto
+                            # Otherwise return the absolute path
                             return absolute_output_filename
                         
                     except Exception as e:
-                        print(f"[!] Errore nella creazione dell'immagine combinata: {e}")
-                        # Se fallisce, restituisci solo il primo logo trovato
+                        print(f"[!] Error creating the combined image: {e}")
+                        # If it fails, return only the first found logo
                         return logo1_url or logo2_url
                 
-                # Se non abbiamo trovato entrambi i loghi, restituisci quello che abbiamo
+                # If we didn't find both logos, return what we have
                 return logo1_url or logo2_url
             if ':' in event_name:
-                # Usa la parte prima dei ":" per la ricerca
+                # Use the part before ":" for the search
                 prefix_name = event_name.split(':', 1)[0].strip()
-                print(f"[🔍] Tentativo ricerca logo con prefisso: {prefix_name}")
+                print(f"[🔍] Trying logo search with prefix: {prefix_name}")
                 
-                # Prepara la query di ricerca con il prefisso
+                # Prepare the search query with the prefix
                 search_query = urllib.parse.quote(f"{prefix_name} logo")
                 
                 # Utilizziamo l'API di Bing Image Search con parametri migliorati
@@ -642,18 +642,18 @@ def eventi_dlhd_m3u8_generator_world():
                             # Prendi il primo risultato che sembra un logo (preferibilmente PNG o SVG)
                             for match in matches:
                                 if '.png' in match.lower() or '.svg' in match.lower():
-                                    print(f"[✓] Logo trovato con prefisso: {match}")
+                                    print(f"[✓] Logo found with prefix: {match}")
                                     return match
                             # Se non troviamo PNG o SVG, prendi il primo risultato
-                            print(f"[✓] Logo trovato con prefisso: {matches[0]}")
+                            print(f"[✓] Logo found with prefix: {matches[0]}")
                             return matches[0]
             
-            # Se non riusciamo a identificare le squadre e il prefisso non ha dato risultati, procedi con la ricerca normale
-            print(f"[🔍] Ricerca standard per: {clean_event_name}")
+            # If we can't identify teams and the prefix didn't give results, proceed with normal search
+            print(f"[🔍] Standard search for: {clean_event_name}")
             
             
-            # Se non riusciamo a identificare le squadre, procedi con la ricerca normale
-            # Prepara la query di ricerca piÃÂ¹ specifica
+            # If we can't identify teams, proceed with a standard search
+            # Prepare a more specific search query
             search_query = urllib.parse.quote(f"{clean_event_name} logo")
             
             # Utilizziamo l'API di Bing Image Search con parametri migliorati
@@ -705,24 +705,24 @@ def eventi_dlhd_m3u8_generator_world():
                                 if 'murl' in img:
                                     return img['murl']
                     except Exception as e:
-                        print(f"[!] Errore nell'analisi JSON: {e}")
+                        print(f"[!] Error analyzing JSON: {e}")
                 
-                print(f"[!] Nessun logo trovato per '{clean_event_name}' con i pattern standard")
+                print(f"[!] No logo found for '{clean_event_name}' with standard patterns")
                 
-                # Ultimo tentativo: cerca qualsiasi URL di immagine nella pagina
+                # Last attempt: find any image URL in the page
                 any_img = re.search(r'(https?://[^"\']+\.(?:png|jpg|jpeg|svg|webp))', response.text)
                 if any_img:
                     return any_img.group(1)
                     
         except Exception as e: 
-            print(f"[!] Errore nella ricerca del logo per '{event_name}': {e}") 
+            print(f"[!] Error searching for logo for '{event_name}': {e}") 
         
-        # Se non troviamo nulla, restituiamo None 
+        # If nothing found, return None 
         return None
 
     def search_team_logo(team_name):
         """
-        Funzione dedicata alla ricerca del logo di una singola squadra
+        Dedicated function to search for the logo of a single team
         """
         try:
             # Prepara la query di ricerca specifica per la squadra
@@ -777,25 +777,25 @@ def eventi_dlhd_m3u8_generator_world():
                                 if 'murl' in img:
                                     return img['murl']
                     except Exception as e:
-                        print(f"[!] Errore nell'analisi JSON: {e}")
+                        print(f"[!] Error analyzing JSON: {e}")
                 
-                print(f"[!] Nessun logo trovato per '{team_name}' con i pattern standard")
+                print(f"[!] No logo found for '{team_name}' with standard patterns")
                 
-                # Ultimo tentativo: cerca qualsiasi URL di immagine nella pagina
+                # Last attempt: find any image URL in the page
                 any_img = re.search(r'(https?://[^"\']+\.(?:png|jpg|jpeg|svg|webp))', response.text)
                 if any_img:
                     return any_img.group(1)
                     
         except Exception as e: 
-            print(f"[!] Errore nella ricerca del logo per '{team_name}': {e}") 
+            print(f"[!] Error searching for logo for '{team_name}': {e}") 
         
-        # Se non troviamo nulla, restituiamo None 
+        # If nothing found, return None 
         return None
      
     def get_stream_from_channel_id(channel_id): 
-        # Restituisce direttamente l'URL .php
+        # Directly returns the .php URL
         embed_url = f"{LINK_DADDY}/watch.php?id={channel_id}" 
-        print(f"URL .php per il canale Daddylive {channel_id}.")
+        print(f".php URL for Daddylive channel {channel_id}.")
         return embed_url
      
     # def clean_category_name(name): # Rimossa definizione duplicata
@@ -804,8 +804,8 @@ def eventi_dlhd_m3u8_generator_world():
      
     def extract_channels_from_json(path): 
         keywords = {"italy", "rai", "italia", "it", "uk", "tnt", "usa", "tennis channel", "tennis stream", "la"} 
-        now = datetime.now()  # ora attuale completa (data+ora) 
-        yesterday_date = (now - timedelta(days=1)).date() # Data di ieri
+        now = datetime.now()  # current time (date+time) 
+        yesterday_date = (now - timedelta(days=1)).date() # Yesterday's date
      
         with open(path, "r", encoding="utf-8") as f: 
             data = json.load(f) 
@@ -820,7 +820,7 @@ def eventi_dlhd_m3u8_generator_world():
                 print(f"[!] Errore parsing data '{date_part}': {e}") 
                 continue 
             
-            # Determina se processare questa data
+            # Determine whether to process this date
             process_this_date = False
             is_yesterday_early_morning_event_check = False
 
@@ -828,9 +828,9 @@ def eventi_dlhd_m3u8_generator_world():
                 process_this_date = True
             elif date_obj == yesterday_date:
                 process_this_date = True
-                is_yesterday_early_morning_event_check = True # Flag per eventi_dlhd di ieri mattina presto
+                is_yesterday_early_morning_event_check = True # Flag for yesterday early morning eventi_dlhd
             else:
-                # Salta date che non sono nÃ© oggi nÃ© ieri
+                # Skip dates that are not today or yesterday
                 continue
 
             if not process_this_date:
@@ -849,33 +849,31 @@ def eventi_dlhd_m3u8_generator_world():
                     event_title = item.get("event", "Evento") 
      
                     try: 
-                        # Parse orario evento originale (dal JSON)
+                        # Parse the original event time (from JSON)
                         original_event_time_obj = datetime.strptime(time_str, "%H:%M").time()
 
-                        # Costruisci datetime completo dell'evento con la sua data originale
-                        # e l'orario originale, poi applica il timedelta(hours=2) (per "correzione timezone?")
-                        # Questo event_datetime_adjusted Ã¨ quello che viene usato per il filtro "meno di 2 ore fa" per oggi
-                        # e per il nome del canale.
+                        # Build the event's full datetime with its original date and time, then apply timedelta(hours=2) (for "timezone correction?")
+                        # This event_datetime_adjusted is used for the "less than 2 hours ago" filter for today and for the channel name.
                         event_datetime_adjusted_for_display_and_filter = datetime.combine(date_obj, original_event_time_obj) + timedelta(hours=2)
 
                         if is_yesterday_early_morning_event_check:
-                            # Filtro per eventi_dlhd di ieri mattina presto (00:00 - 04:00, ora JSON)
+                            # Filter for yesterday early morning eventi_dlhd (00:00 - 04:00, JSON time)
                             start_filter_time = datetime.strptime("00:00", "%H:%M").time()
                             end_filter_time = datetime.strptime("04:00", "%H:%M").time()
-                            # Confronta l'orario originale dell'evento
+                            # Compare the original event time
                             if not (start_filter_time <= original_event_time_obj <= end_filter_time):
-                                # Evento di ieri, ma non nell'intervallo 00:00-04:00 -> salto
+                                # Event from yesterday, but not in the 00:00-04:00 interval -> skip
                                 continue
-                        else: # eventi_dlhd di oggi
-                            # Controllo: includi solo se l'evento Ã¨ iniziato da meno di 2 ore
-                            # Usa event_datetime_adjusted_for_display_and_filter che ha giÃ  il +2h
+                        else: # today's eventi_dlhd
+                            # Check: include only if the event started less than 2 hours ago
+                            # Uses event_datetime_adjusted_for_display_and_filter which already has +2h
                             if now - event_datetime_adjusted_for_display_and_filter > timedelta(hours=2):
-                                # Evento di oggi iniziato da piÃ¹ di 2 ore -> salto
+                                # Today's event started more than 2 hours ago -> skip
                                 continue
                         
                         time_formatted = event_datetime_adjusted_for_display_and_filter.strftime("%H:%M")
                     except Exception as e_time:
-                        print(f"[!] Errore parsing orario '{time_str}' per evento '{event_title}' in data '{date_key}': {e_time}")
+                        print(f"[!] Error parsing time '{time_str}' for event '{event_title}' on date '{date_key}': {e_time}")
                         time_formatted = time_str # Fallback
      
                     for ch in item.get("channels", []): 
@@ -889,7 +887,7 @@ def eventi_dlhd_m3u8_generator_world():
                                 "tvg_name": tvg_name, 
                                 "channel_name": channel_name, 
                                 "channel_id": channel_id,
-                                "event_title": event_title  # Aggiungiamo il titolo dell'evento per la ricerca del logo
+                                "event_title": event_title  # Add the event title for logo search
                             }) 
      
         return categorized_channels 
@@ -900,15 +898,15 @@ def eventi_dlhd_m3u8_generator_world():
         with open(output_file, "w", encoding="utf-8") as f: 
             f.write("#EXTM3U\n") 
 
-            # Controlla se ci sono eventi_dlhd prima di aggiungere il canale DADDYLIVE
+            # Check if there are eventi_dlhd before adding the DADDYLIVE channel
             has_events = any(channels for channels in categorized_channels.values())
             
             if has_events:
-                # Aggiungi il canale iniziale/informativo solo se ci sono eventi_dlhd
+                # Add the initial/informational channel only if there are eventi_dlhd
                 f.write(f'#EXTINF:-1 tvg-name="DADDYLIVE" group-title="Eventi Live DLHD",DADDYLIVE\n')
                 f.write("https://example.com.m3u8\n\n")
             else:
-                print("[ℹ️] Nessun evento trovato, canale DADDYLIVE non aggiunto.")
+                print("[ℹ️] No events found, DADDYLIVE channel not added.")
 
             for category, channels in categorized_channels.items(): 
                 if not channels: 
@@ -920,42 +918,42 @@ def eventi_dlhd_m3u8_generator_world():
                     event_title = ch["event_title"]  # Otteniamo il titolo dell'evento
                     channel_name = ch["channel_name"]
                     
-                    # Cerca un logo per questo evento
-                    # Rimuovi l'orario dal titolo dell'evento prima di cercare il logo
+                    # Search for a logo for this event
+                    # Remove the time from the event title before searching for the logo
                     clean_event_title = re.sub(r'\s*\(\d{1,2}:\d{2}\)\s*$', '', event_title)
-                    print(f"[🔍] Ricerca logo per: {clean_event_title}") 
+                    print(f"[🔍] Searching logo for: {clean_event_title}") 
                     logo_url = search_logo_for_event(clean_event_title)
                     logo_attribute = f' tvg-logo="{logo_url}"' if logo_url else ''
      
                     try: 
-                        # Cerca lo stream .m3u8 nei siti specificati
+                        # Search for the .m3u8 stream in the specified sites
                         stream = get_stream_from_channel_id(channel_id)
                                                     
                         if stream: 
-                            cleaned_event_id = clean_tvg_id(event_title) # Usa event_title per tvg-id
+                            cleaned_event_id = clean_tvg_id(event_title) # Use event_title for tvg-id
                             f.write(f'#EXTINF:-1 tvg-id="{cleaned_event_id}" tvg-name="{category} | {tvg_name}"{logo_attribute} group-title="Eventi Live DLHD",{category} | {tvg_name}\n')
-                            # Aggiungi EXTHTTP headers per canali daddy (esclusi .php)
+                            # Add EXTHTTP headers for daddy channels (excluding .php)
                             if "ava.karmakurama.com" in stream and not stream.endswith('.php'):
                                 daddy_headers = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1", "Referrer": "https://ava.karmakurama.com/", "Origin": "https://ava.karmakurama.com"}
                                 vlc_opt_lines = headers_to_extvlcopt(daddy_headers)
                                 for line in vlc_opt_lines:
                                     f.write(f'{line}\n')
                             f.write(f'{stream}\n\n')
-                            print(f"[✓] {tvg_name}" + (f" (logo trovato)" if logo_url else " (nessun logo trovato)")) 
+                            print(f"[✓] {tvg_name}" + (f" (logo found)" if logo_url else " (no logo found)")) 
                         else: 
-                            print(f"[✗] {tvg_name} - Nessuno stream trovato") 
+                            print(f"[✗] {tvg_name} - No stream found") 
                     except Exception as e: 
-                        print(f"[!] Errore su {tvg_name}: {e}") 
+                        print(f"[!] Error on {tvg_name}: {e}") 
      
     # Esegui la generazione quando la funzione viene chiamata
     generate_m3u_from_schedule(JSON_FILE, OUTPUT_FILE)
 
-# Funzione per il terzo script (eventi_dlhd_m3u8_generator.py)
+# Function for the third script (eventi_dlhd_m3u8_generator.py)
 def eventi_dlhd_m3u8_generator():
-    # Codice del terzo script qui
-    # Aggiungi il codice del tuo script "eventi_dlhd_m3u8_generator.py" in questa funzione.
-    print("Eseguendo l'eventi_dlhd_m3u8_generator.py...")
-    # Il codice che avevi nello script "eventi_dlhd_m3u8_generator.py" va qui, senza modifiche.
+    # Code from the third script here
+    # Add your "eventi_dlhd_m3u8_generator.py" script code into this function.
+    print("Running eventi_dlhd_m3u8_generator.py...")
+    # The code you had in "eventi_dlhd_m3u8_generator.py" goes here, unchanged.
     import json 
     import re 
     import requests 
