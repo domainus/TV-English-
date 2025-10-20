@@ -18,7 +18,7 @@ def headers_to_extvlcopt(headers):
     """Converts a dictionary of headers into a list of #EXTVLCOPT strings for VLC."""
     vlc_opts = []
     for key, value in headers.items():
-        # VLC usa nomi di header in minuscolo
+        # VLC uses lowercase header names
         vlc_opts.append(f'#EXTVLCOPT:http-{key.lower()}={value}')
     return vlc_opts
 
@@ -374,16 +374,16 @@ def eventi_dlhd_m3u8_generator_world():
     import json
     import re
     import requests
-    import urllib.parse # Consolidato
+    import urllib.parse # Consolidated
     from datetime import datetime, timedelta
     from dateutil import parser
     import os
     from dotenv import load_dotenv
     from PIL import Image, ImageDraw, ImageFont
-    import io # Aggiunto per encoding URL
+    import io # Added for URL encoding
     import time
     
-    # Carica le variabili d'ambiente dal file .env
+    # Load environment variables from the .env file
     load_dotenv()
 
     LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlhd.dad"
@@ -396,7 +396,7 @@ def eventi_dlhd_m3u8_generator_world():
     HTTP_TIMEOUT = 10 
     session = requests.Session() 
     session.headers.update(HEADERS) 
-    # Definisci current_time e three_hours_in_seconds per la logica di caching
+    # Define current_time and three_hours_in_seconds for caching logic
     current_time = time.time()
     three_hours_in_seconds = 3 * 60 * 60
     
@@ -613,7 +613,7 @@ def eventi_dlhd_m3u8_generator_world():
                 # Prepare the search query with the prefix
                 search_query = urllib.parse.quote(f"{prefix_name} logo")
                 
-                # Utilizziamo l'API di Bing Image Search con parametri migliorati
+                # Use Bing Image Search with enhanced parameters
                 search_url = f"https://www.bing.com/images/search?q={search_query}&qft=+filterui:photo-transparent+filterui:aspect-square&form=IRFLTR"
                 
                 headers = { 
@@ -627,7 +627,7 @@ def eventi_dlhd_m3u8_generator_world():
                 response = requests.get(search_url, headers=headers, timeout=10)
                 
                 if response.status_code == 200: 
-                    # Metodo 1: Cerca pattern per murl (URL dell'immagine media)
+                    # Method 1: Look for murl pattern (URL dell'immagine media)
                     patterns = [
                         r'murl&quot;:&quot;(https?://[^&]+)&quot;',
                         r'"murl":"(https?://[^"]+)"',
@@ -656,7 +656,7 @@ def eventi_dlhd_m3u8_generator_world():
             # Prepare a more specific search query
             search_query = urllib.parse.quote(f"{clean_event_name} logo")
             
-            # Utilizziamo l'API di Bing Image Search con parametri migliorati
+            # Use Bing Image Search with enhanced parameters
             search_url = f"https://www.bing.com/images/search?q={search_query}&qft=+filterui:photo-transparent+filterui:aspect-square&form=IRFLTR"
             
             headers = { 
@@ -670,7 +670,7 @@ def eventi_dlhd_m3u8_generator_world():
             response = requests.get(search_url, headers=headers, timeout=10)
             
             if response.status_code == 200: 
-                # Metodo 1: Cerca pattern per murl (URL dell'immagine media)
+                # Method 1: Look for murl pattern (URL dell'immagine media)
                 patterns = [
                     r'murl&quot;:&quot;(https?://[^&]+)&quot;',
                     r'"murl":"(https?://[^"]+)"',
@@ -689,7 +689,7 @@ def eventi_dlhd_m3u8_generator_world():
                         # Se non troviamo PNG o SVG, prendi il primo risultato
                         return matches[0]
                 
-                # Metodo alternativo: cerca JSON incorporato nella pagina
+                # Alternative method: search for embedded JSON in the page
                 json_match = re.search(r'var\s+IG\s*=\s*(\{.+?\});\s*', response.text)
                 if json_match:
                     try:
@@ -725,10 +725,10 @@ def eventi_dlhd_m3u8_generator_world():
         Dedicated function to search for the logo of a single team
         """
         try:
-            # Prepara la query di ricerca specifica per la squadra
+            # Prepare the search query specifica per la squadra
             search_query = urllib.parse.quote(f"{team_name} logo")
             
-            # Utilizziamo l'API di Bing Image Search con parametri migliorati
+            # Use Bing Image Search with enhanced parameters
             search_url = f"https://www.bing.com/images/search?q={search_query}&qft=+filterui:photo-transparent+filterui:aspect-square&form=IRFLTR"
             
             headers = { 
@@ -742,7 +742,7 @@ def eventi_dlhd_m3u8_generator_world():
             response = requests.get(search_url, headers=headers, timeout=10)
             
             if response.status_code == 200: 
-                # Metodo 1: Cerca pattern per murl (URL dell'immagine media)
+                # Method 1: Look for murl pattern (URL dell'immagine media)
                 patterns = [
                     r'murl&quot;:&quot;(https?://[^&]+)&quot;',
                     r'"murl":"(https?://[^"]+)"',
@@ -761,7 +761,7 @@ def eventi_dlhd_m3u8_generator_world():
                         # Se non troviamo PNG o SVG, prendi il primo risultato
                         return matches[0]
                 
-                # Metodo alternativo: cerca JSON incorporato nella pagina
+                # Alternative method: search for embedded JSON in the page
                 json_match = re.search(r'var\s+IG\s*=\s*(\{.+?\});\s*', response.text)
                 if json_match:
                     try:
@@ -799,7 +799,7 @@ def eventi_dlhd_m3u8_generator_world():
         return embed_url
      
     # def clean_category_name(name): # Rimossa definizione duplicata
-    #     # Rimuove tag html come </span> o simili
+    #     # Removes HTML tags like </span> or similar
     #     return re.sub(r'<[^>]+>', '', name).strip()
      
     def extract_channels_from_json(path): 
@@ -817,7 +817,7 @@ def eventi_dlhd_m3u8_generator_world():
             try: 
                 date_obj = parser.parse(date_part, fuzzy=True).date() 
             except Exception as e: 
-                print(f"[!] Errore parsing data '{date_part}': {e}") 
+                print(f"[!] Error parsing data '{date_part}': {e}") 
                 continue 
             
             # Determine whether to process this date
@@ -915,7 +915,7 @@ def eventi_dlhd_m3u8_generator_world():
                 for ch in channels: 
                     tvg_name = ch["tvg_name"] 
                     channel_id = ch["channel_id"] 
-                    event_title = ch["event_title"]  # Otteniamo il titolo dell'evento
+                    event_title = ch["event_title"]  # Get the event title
                     channel_name = ch["channel_name"]
                     
                     # Search for a logo for this event
@@ -945,7 +945,7 @@ def eventi_dlhd_m3u8_generator_world():
                     except Exception as e: 
                         print(f"[!] Error on {tvg_name}: {e}") 
      
-    # Esegui la generazione quando la funzione viene chiamata
+    # Run the generation when the function is called
     generate_m3u_from_schedule(JSON_FILE, OUTPUT_FILE)
 
 # Function for the third script (eventi_dlhd_m3u8_generator.py)
@@ -965,10 +965,10 @@ def eventi_dlhd_m3u8_generator():
     from dotenv import load_dotenv
     from PIL import Image, ImageDraw, ImageFont
     import io
-    import urllib.parse # Aggiunto per encoding URL
+    import urllib.parse # Added for URL encoding
     import time
 
-    # Carica le variabili d'ambiente dal file .env
+    # Load environment variables from the .env file
     load_dotenv()
     LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlhd.dad"
     JSON_FILE = os.path.join(script_dir, "daddyliveSchedule.json") # Cache in scripts
@@ -981,12 +981,12 @@ def eventi_dlhd_m3u8_generator():
     HTTP_TIMEOUT = 10 
     session = requests.Session() 
     session.headers.update(HEADERS) 
-    # Definisci current_time e three_hours_in_seconds per la logica di caching
+    # Define current_time and three_hours_in_seconds for caching logic
     current_time = time.time()
     three_hours_in_seconds = 3 * 60 * 60
     
     def clean_category_name(name): 
-        # Rimuove tag html come </span> o simili 
+        # Removes HTML tags like </span> or similar 
         return re.sub(r'<[^>]+>', '', name).strip()
         
     def clean_tvg_id(tvg_id):
@@ -1027,10 +1027,10 @@ def eventi_dlhd_m3u8_generator():
                 team1 = teams[0].strip()
                 team2 = teams[1].strip()
                 
-                print(f"[🔍] Ricerca logo per Team 1: {team1}")
+                print(f"[🔍] Searching logo for Team 1: {team1}")
                 logo1_url = search_team_logo(team1)
                 
-                print(f"[🔍] Ricerca logo per Team 2: {team2}")
+                print(f"[🔍] Searching logo for Team 2: {team2}")
                 logo2_url = search_team_logo(team2)
                 
                 # Se abbiamo trovato entrambi i loghi, creiamo un'immagine combinata
@@ -1082,10 +1082,10 @@ def eventi_dlhd_m3u8_generator():
                                     print(f"[!] URL logo1 ({logo1_url}) non è un'immagine (Content-Type: {response1.headers.get('Content-Type')}).")
                                     logo1_url = None # Invalida URL se non è un'immagine
                             except requests.exceptions.RequestException as e_req:
-                                print(f"[!] Errore scaricando logo1 ({logo1_url}): {e_req}")
+                                print(f"[!] Error scaricando logo1 ({logo1_url}): {e_req}")
                                 logo1_url = None
                             except Exception as e_pil: # Errore specifico da PIL durante Image.open
-                                print(f"[!] Errore PIL aprendo logo1 ({logo1_url}): {e_pil}")
+                                print(f"[!] Error PIL aprendo logo1 ({logo1_url}): {e_pil}")
                                 logo1_url = None
                         
                         if logo2_url:
@@ -1103,10 +1103,10 @@ def eventi_dlhd_m3u8_generator():
                                     print(f"[!] URL logo2 ({logo2_url}) non è un'immagine (Content-Type: {response2.headers.get('Content-Type')}).")
                                     logo2_url = None # Invalida URL se non è un'immagine
                             except requests.exceptions.RequestException as e_req:
-                                print(f"[!] Errore scaricando logo2 ({logo2_url}): {e_req}")
+                                print(f"[!] Error scaricando logo2 ({logo2_url}): {e_req}")
                                 logo2_url = None
                             except Exception as e_pil: # Errore specifico da PIL durante Image.open
-                                print(f"[!] Errore PIL aprendo logo2 ({logo2_url}): {e_pil}")
+                                print(f"[!] Error PIL aprendo logo2 ({logo2_url}): {e_pil}")
                                 logo2_url = None
                         
                         # Carica l'immagine VS (assicurati che esista nella directory corrente)
@@ -1165,10 +1165,10 @@ def eventi_dlhd_m3u8_generator():
                         # Usa l'immagine con VS sovrapposto
                         combined = combined_with_vs
                         
-                        # Salva l'immagine combinata
+                        # Save the combined image
                         combined.save(absolute_output_filename)
                         
-                        print(f"[✓] Immagine combinata creata: {absolute_output_filename}")
+                        print(f"[✓] Combined image created: {absolute_output_filename}")
                         
                         # Carica le variabili d'ambiente per GitHub
                         NOMEREPO = os.getenv("NOMEREPO", "").strip()
@@ -1184,7 +1184,7 @@ def eventi_dlhd_m3u8_generator():
                             return absolute_output_filename
                         
                     except Exception as e:
-                        print(f"[!] Errore nella creazione dell'immagine combinata: {e}")
+                        print(f"[!] Error nella creazione dell'immagine combinata: {e}")
                         # Se fallisce, restituisci solo il primo logo trovato
                         return logo1_url or logo2_url
                 
@@ -1195,10 +1195,10 @@ def eventi_dlhd_m3u8_generator():
                 prefix_name = event_name.split(':', 1)[0].strip()
                 print(f"[🔍] Tentativo ricerca logo con prefisso: {prefix_name}")
                 
-                # Prepara la query di ricerca con il prefisso
+                # Prepare the search query con il prefisso
                 search_query = urllib.parse.quote(f"{prefix_name} logo")
                 
-                # Utilizziamo l'API di Bing Image Search con parametri migliorati
+                # Use Bing Image Search with enhanced parameters
                 search_url = f"https://www.bing.com/images/search?q={search_query}&qft=+filterui:photo-transparent+filterui:aspect-square&form=IRFLTR"
                 
                 headers = { 
@@ -1212,7 +1212,7 @@ def eventi_dlhd_m3u8_generator():
                 response = requests.get(search_url, headers=headers, timeout=10)
                 
                 if response.status_code == 200: 
-                    # Metodo 1: Cerca pattern per murl (URL dell'immagine media)
+                    # Method 1: Look for murl pattern (URL dell'immagine media)
                     patterns = [
                         r'murl&quot;:&quot;(https?://[^&]+)&quot;',
                         r'"murl":"(https?://[^"]+)"',
@@ -1227,10 +1227,10 @@ def eventi_dlhd_m3u8_generator():
                             # Prendi il primo risultato che sembra un logo (preferibilmente PNG o SVG)
                             for match in matches:
                                 if '.png' in match.lower() or '.svg' in match.lower():
-                                    print(f"[✓] Logo trovato con prefisso: {match}")
+                                    print(f"[✓] Logo found con prefisso: {match}")
                                     return match
                             # Se non troviamo PNG o SVG, prendi il primo risultato
-                            print(f"[✓] Logo trovato con prefisso: {matches[0]}")
+                            print(f"[✓] Logo found con prefisso: {matches[0]}")
                             return matches[0]
             
             # Se non riusciamo a identificare le squadre e il prefisso non ha dato risultati, procedi con la ricerca normale
@@ -1238,10 +1238,10 @@ def eventi_dlhd_m3u8_generator():
             
             
             # Se non riusciamo a identificare le squadre, procedi con la ricerca normale
-            # Prepara la query di ricerca piÃÂ¹ specifica
+            # Prepare the search query piÃÂ¹ specifica
             search_query = urllib.parse.quote(f"{clean_event_name} logo")
             
-            # Utilizziamo l'API di Bing Image Search con parametri migliorati
+            # Use Bing Image Search with enhanced parameters
             search_url = f"https://www.bing.com/images/search?q={search_query}&qft=+filterui:photo-transparent+filterui:aspect-square&form=IRFLTR"
             
             headers = { 
@@ -1255,7 +1255,7 @@ def eventi_dlhd_m3u8_generator():
             response = requests.get(search_url, headers=headers, timeout=10)
             
             if response.status_code == 200: 
-                # Metodo 1: Cerca pattern per murl (URL dell'immagine media)
+                # Method 1: Look for murl pattern (URL dell'immagine media)
                 patterns = [
                     r'murl&quot;:&quot;(https?://[^&]+)&quot;',
                     r'"murl":"(https?://[^"]+)"',
@@ -1274,7 +1274,7 @@ def eventi_dlhd_m3u8_generator():
                         # Se non troviamo PNG o SVG, prendi il primo risultato
                         return matches[0]
                 
-                # Metodo alternativo: cerca JSON incorporato nella pagina
+                # Alternative method: search for embedded JSON in the page
                 json_match = re.search(r'var\s+IG\s*=\s*(\{.+?\});\s*', response.text)
                 if json_match:
                     try:
@@ -1290,17 +1290,17 @@ def eventi_dlhd_m3u8_generator():
                                 if 'murl' in img:
                                     return img['murl']
                     except Exception as e:
-                        print(f"[!] Errore nell'analisi JSON: {e}")
+                        print(f"[!] Error nell'analisi JSON: {e}")
                 
-                print(f"[!] Nessun logo trovato per '{clean_event_name}' con i pattern standard")
+                print(f"[!] No logo found per '{clean_event_name}' con i pattern standard")
                 
-                # Ultimo tentativo: cerca qualsiasi URL di immagine nella pagina
+                # Last attempt: search for any image URL in the page
                 any_img = re.search(r'(https?://[^"\']+\.(?:png|jpg|jpeg|svg|webp))', response.text)
                 if any_img:
                     return any_img.group(1)
                     
         except Exception as e: 
-            print(f"[!] Errore nella ricerca del logo per '{event_name}': {e}") 
+            print(f"[!] Error nella ricerca del logo per '{event_name}': {e}") 
         
         # Se non troviamo nulla, restituiamo None 
         return None
@@ -1310,10 +1310,10 @@ def eventi_dlhd_m3u8_generator():
         Funzione dedicata alla ricerca del logo di una singola squadra
         """
         try:
-            # Prepara la query di ricerca specifica per la squadra
+            # Prepare the search query specifica per la squadra
             search_query = urllib.parse.quote(f"{team_name} logo")
             
-            # Utilizziamo l'API di Bing Image Search con parametri migliorati
+            # Use Bing Image Search with enhanced parameters
             search_url = f"https://www.bing.com/images/search?q={search_query}&qft=+filterui:photo-transparent+filterui:aspect-square&form=IRFLTR"
             
             headers = { 
@@ -1327,7 +1327,7 @@ def eventi_dlhd_m3u8_generator():
             response = requests.get(search_url, headers=headers, timeout=10)
             
             if response.status_code == 200: 
-                # Metodo 1: Cerca pattern per murl (URL dell'immagine media)
+                # Method 1: Look for murl pattern (URL dell'immagine media)
                 patterns = [
                     r'murl&quot;:&quot;(https?://[^&]+)&quot;',
                     r'"murl":"(https?://[^"]+)"',
@@ -1346,7 +1346,7 @@ def eventi_dlhd_m3u8_generator():
                         # Se non troviamo PNG o SVG, prendi il primo risultato
                         return matches[0]
                 
-                # Metodo alternativo: cerca JSON incorporato nella pagina
+                # Alternative method: search for embedded JSON in the page
                 json_match = re.search(r'var\s+IG\s*=\s*(\{.+?\});\s*', response.text)
                 if json_match:
                     try:
@@ -1362,35 +1362,35 @@ def eventi_dlhd_m3u8_generator():
                                 if 'murl' in img:
                                     return img['murl']
                     except Exception as e:
-                        print(f"[!] Errore nell'analisi JSON: {e}")
+                        print(f"[!] Error nell'analisi JSON: {e}")
                 
-                print(f"[!] Nessun logo trovato per '{team_name}' con i pattern standard")
+                print(f"[!] No logo found per '{team_name}' con i pattern standard")
                 
-                # Ultimo tentativo: cerca qualsiasi URL di immagine nella pagina
+                # Last attempt: search for any image URL in the page
                 any_img = re.search(r'(https?://[^"\']+\.(?:png|jpg|jpeg|svg|webp))', response.text)
                 if any_img:
                     return any_img.group(1)
                     
         except Exception as e: 
-            print(f"[!] Errore nella ricerca del logo per '{team_name}': {e}") 
+            print(f"[!] Error nella ricerca del logo per '{team_name}': {e}") 
         
         # Se non troviamo nulla, restituiamo None 
         return None
      
     def get_stream_from_channel_id(channel_id): 
-        # Restituisce direttamente l'URL .php
+        # Directly returns the .php URL
         embed_url = f"{LINK_DADDY}/watch.php?id={channel_id}" 
         print(f"URL .php per il canale Daddylive {channel_id}.")
         return embed_url
      
     def clean_category_name(name): 
-        # Rimuove tag html come </span> o simili 
+        # Removes HTML tags like </span> or similar 
         return re.sub(r'<[^>]+>', '', name).strip() 
      
     def extract_channels_from_json(path): 
         keywords = {"italy", "rai", "italia", "it"} 
-        now = datetime.now()  # ora attuale completa (data+ora) 
-        yesterday_date = (now - timedelta(days=1)).date() # Data di ieri
+        now = datetime.now()  # current time (date+time) (data+ora) 
+        yesterday_date = (now - timedelta(days=1)).date() # yesterday's date
      
         with open(path, "r", encoding="utf-8") as f: 
             data = json.load(f) 
@@ -1402,10 +1402,10 @@ def eventi_dlhd_m3u8_generator():
             try: 
                 date_obj = parser.parse(date_part, fuzzy=True).date() 
             except Exception as e: 
-                print(f"[!] Errore parsing data '{date_part}': {e}") 
+                print(f"[!] Error parsing data '{date_part}': {e}") 
                 continue 
      
-            # filtro solo per eventi_dlhd del giorno corrente 
+            # filter only for today's eventi_dlhd 
             if date_obj != now.date(): 
                 continue 
      
@@ -1422,10 +1422,10 @@ def eventi_dlhd_m3u8_generator():
                 for item in event_items: 
                     time_str = item.get("time", "00:00") 
                     try: 
-                        # Parse orario evento 
-                        time_obj = datetime.strptime(time_str, "%H:%M") + timedelta(hours=2)  # correzione timezone? 
+                        # Parse event time 
+                        time_obj = datetime.strptime(time_str, "%H:%M") + timedelta(hours=2)  # timezone correction? 
      
-                        # crea datetime completo con data evento e orario evento 
+                        # create full datetime with event date and time con data evento e orario evento 
                         event_datetime = datetime.combine(date_obj, time_obj.time()) 
      
                         # Controllo: includi solo se l'evento Ã¨ iniziato da meno di 2 ore 
@@ -1478,13 +1478,13 @@ def eventi_dlhd_m3u8_generator():
                 for ch in channels: 
                     tvg_name = ch["tvg_name"] 
                     channel_id = ch["channel_id"] 
-                    event_title = ch["event_title"]  # Otteniamo il titolo dell'evento
+                    event_title = ch["event_title"]  # Get the event title
                     channel_name = ch["channel_name"]
                     
                     # Cerca un logo per questo evento
-                    # Rimuovi l'orario dal titolo dell'evento prima di cercare il logo
+                    # Remove the time from the event title before searching for the logo
                     clean_event_title = re.sub(r'\s*\(\d{1,2}:\d{2}\)\s*$', '', event_title)
-                    print(f"[🔍] Ricerca logo per: {clean_event_title}") 
+                    print(f"[🔍] Searching logo for: {clean_event_title}") 
                     logo_url = search_logo_for_event(clean_event_title)
                     logo_attribute = f' tvg-logo="{logo_url}"' if logo_url else ''
      
@@ -1502,18 +1502,18 @@ def eventi_dlhd_m3u8_generator():
                                 for line in vlc_opt_lines:
                                     f.write(f'{line}\n')
                             f.write(f'{stream}\n\n')
-                            print(f"[✓] {tvg_name}" + (f" (logo trovato)" if logo_url else " (nessun logo trovato)")) 
+                            print(f"[✓] ... (logo found))")) 
                         else: 
-                            print(f"[✗] {tvg_name} - Nessuno stream trovato") 
+                            print(f"[✗] No stream found") 
                     except Exception as e: 
-                        print(f"[!] Errore su {tvg_name}: {e}") 
+                        print(f"[!] Error su {tvg_name}: {e}") 
      
     if __name__ == "__main__": 
         generate_m3u_from_schedule(JSON_FILE, OUTPUT_FILE)
 
-# Funzione per il quarto script (schedule_extractor.py)
+# Function for the fourth script (schedule_extractor.py)
 def schedule_extractor():
-    # Codice del quarto script qui
+    # Code from the fourth script here
     # Aggiungi il codice del tuo script "schedule_extractor.py" in questa funzione.
     print("Eseguendo lo schedule_extractor.py...")
     # Il codice che avevi nello script "schedule_extractor.py" va qui, senza modifiche.
@@ -1525,7 +1525,7 @@ def schedule_extractor():
     from bs4 import BeautifulSoup
     from dotenv import load_dotenv
     
-    # Carica le variabili d'ambiente dal file .env
+    # Load environment variables from the .env file
     load_dotenv()
     
     LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlhd.dad"
@@ -1940,10 +1940,10 @@ def epg_eventi_dlhd_generator_world(json_file_path, output_file_path="eventi_dlh
             with open(json_file_path, "r", encoding="utf-8") as file:
                 json_data = json.load(file)
         except json.JSONDecodeError as e:
-            print(f"[!] Errore nel parsing del file JSON: {e}")
+            print(f"[!] Error nel parsing del file JSON: {e}")
             return {}
         except Exception as e:
-            print(f"[!] Errore nell'apertura del file JSON: {e}")
+            print(f"[!] Error nell'apertura del file JSON: {e}")
             return {}
             
         # Lista delle parole chiave per canali italiani
@@ -2020,7 +2020,7 @@ def epg_eventi_dlhd_generator_world(json_file_path, output_file_path="eventi_dlh
                 date_str_cleaned = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', date_str_from_key)
                 event_date_part = datetime.strptime(date_str_cleaned, "%A %d %b %Y").date()
             except ValueError as e:
-                print(f"[!] Errore nel parsing della data EPG: '{date_str_from_key}'. Errore: {e}")
+                print(f"[!] Error nel parsing della data EPG: '{date_str_from_key}'. Errore: {e}")
                 continue
             except IndexError as e:
                 print(f"[!] Formato data non valido: '{date_key}'. Errore: {e}")
@@ -2054,7 +2054,7 @@ def epg_eventi_dlhd_generator_world(json_file_path, output_file_path="eventi_dlh
                         event_datetime_utc = datetime.combine(event_date_part, event_time_utc_obj).replace(tzinfo=timezone.utc)
                         event_datetime_local = event_datetime_utc + italian_offset
                     except ValueError as e:
-                        print(f"[!] Errore parsing orario UTC '{time_str_utc}' per EPG evento '{event_name}'. Errore: {e}") 
+                        print(f"[!] Error parsing orario UTC '{time_str_utc}' per EPG evento '{event_name}'. Errore: {e}") 
                         continue
                     
                     if event_datetime_local < (current_datetime_local - timedelta(hours=2)):
@@ -2138,7 +2138,7 @@ def epg_eventi_dlhd_generator_world(json_file_path, output_file_path="eventi_dlh
             print(f"[✓] File EPG XML salvato con successo: {output_file_path}")
             return True
         except Exception as e:
-            print(f"[!] Errore nel salvataggio del file EPG XML: {e}")
+            print(f"[!] Error nel salvataggio del file EPG XML: {e}")
             return False
     
     def main_epg_generator(json_file_path, output_file_path="eventi_dlhd.xml"):
@@ -2164,7 +2164,7 @@ def epg_eventi_dlhd_generator_world(json_file_path, output_file_path="eventi_dlh
             print(f"[✓] Generazione EPG XML completata con successo!")
             return True
         else:
-            print(f"[!] Errore durante la generazione EPG XML.")
+            print(f"[!] Error durante la generazione EPG XML.")
             return False
     
     # Esegui la generazione EPG con i percorsi forniti
@@ -2210,10 +2210,10 @@ def epg_eventi_dlhd_generator(json_file_path, output_file_path="eventi_dlhd.xml"
             with open(json_file_path, "r", encoding="utf-8") as file:
                 json_data = json.load(file)
         except json.JSONDecodeError as e:
-            print(f"[!] Errore nel parsing del file JSON: {e}")
+            print(f"[!] Error nel parsing del file JSON: {e}")
             return {}
         except Exception as e:
-            print(f"[!] Errore nell'apertura del file JSON: {e}")
+            print(f"[!] Error nell'apertura del file JSON: {e}")
             return {}
             
         # Lista delle parole chiave per canali italiani
@@ -2274,7 +2274,7 @@ def epg_eventi_dlhd_generator(json_file_path, output_file_path="eventi_dlhd.xml"
                 date_str_cleaned = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', date_str_from_key)
                 event_date_part = datetime.strptime(date_str_cleaned, "%A %d %b %Y").date()
             except ValueError as e:
-                print(f"[!] Errore nel parsing della data EPG: '{date_str_from_key}'. Errore: {e}")
+                print(f"[!] Error nel parsing della data EPG: '{date_str_from_key}'. Errore: {e}")
                 continue
             except IndexError as e:
                 print(f"[!] Formato data non valido: '{date_key}'. Errore: {e}")
@@ -2307,7 +2307,7 @@ def epg_eventi_dlhd_generator(json_file_path, output_file_path="eventi_dlhd.xml"
                         event_datetime_utc = datetime.combine(event_date_part, event_time_utc_obj).replace(tzinfo=timezone.utc)
                         event_datetime_local = event_datetime_utc + italian_offset
                     except ValueError as e:
-                        print(f"[!] Errore parsing orario UTC '{time_str_utc}' per EPG evento '{event_name}'. Errore: {e}") 
+                        print(f"[!] Error parsing orario UTC '{time_str_utc}' per EPG evento '{event_name}'. Errore: {e}") 
                         continue
                     
                     if event_datetime_local < (current_datetime_local - timedelta(hours=2)):
@@ -2391,7 +2391,7 @@ def epg_eventi_dlhd_generator(json_file_path, output_file_path="eventi_dlhd.xml"
             print(f"[✓] File EPG XML salvato con successo: {output_file_path}")
             return True
         except Exception as e:
-            print(f"[!] Errore nel salvataggio del file EPG XML: {e}")
+            print(f"[!] Error nel salvataggio del file EPG XML: {e}")
             return False
     
     def main_epg_generator(json_file_path, output_file_path="eventi_dlhd.xml"):
@@ -2417,7 +2417,7 @@ def epg_eventi_dlhd_generator(json_file_path, output_file_path="eventi_dlhd.xml"
             print(f"[✓] Generazione EPG XML completata con successo!")
             return True
         else:
-            print(f"[!] Errore durante la generazione EPG XML.")
+            print(f"[!] Error durante la generazione EPG XML.")
             return False
     
     # Esegui la generazione EPG con i percorsi forniti
@@ -3460,7 +3460,7 @@ def search_m3u8_in_sites(channel_id, is_tennis=False, session=None):
     """
     # Carica la variabile d'ambiente LINK_DADDY
     LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlhd.dad"
-    # Restituisce direttamente l'URL .php come richiesto
+    # Directly returns the .php URL come richiesto
     embed_url = f"{LINK_DADDY}/watch.php?id={channel_id}"
     print(f"URL .php per il canale Daddylive {channel_id}: {embed_url}")
     return embed_url
