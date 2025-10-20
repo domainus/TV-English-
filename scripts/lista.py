@@ -450,7 +450,7 @@ def eventi_dlhd_m3u8_generator_world():
                 
                 # If we found both logos, create a combined image
                 if logo1_url and logo2_url:
-                    # Scarica i loghi e l'immagine VS
+                    # Download the logos and the VS image
                     try:
                         from os.path import exists, getmtime
                         
@@ -1031,7 +1031,7 @@ Returns the image URL if found, else None."""
                 
                 # Se abbiamo trovato entrambi i loghi, creiamo un'immagine combinata
                 if logo1_url and logo2_url:
-                    # Scarica i loghi e l'immagine VS
+                    # Download the logos and the VS image
                     try:
                         from os.path import exists, getmtime
                         
@@ -1060,7 +1060,7 @@ Returns the image URL if found, else None."""
                                     # Otherwise return the local path
                                     return absolute_output_filename
                         
-                        # Scarica i loghi
+                        # Download the logos
                         img1, img2 = None, None
                         
                         if logo1_url:
@@ -1153,7 +1153,7 @@ Returns the image URL if found, else None."""
                         # Place the VS in the center, overlaying both logos
                         vs_x = (combined_width - 100) // 2
                         
-                        # Crea una copia dell'immagine combinata prima di sovrapporre il VS
+                        # Create a copy of the combined image before overlaying the VS
                         # Questo passaggio ÃÂ¨ importante per preservare i dettagli dei loghi sottostanti
                         combined_with_vs = combined.copy()
                         combined_with_vs.paste(img_vs, (vs_x, 25), img_vs)
@@ -1176,22 +1176,22 @@ Returns the image URL if found, else None."""
                             print(f"[✓] GitHub URL generated: {github_raw_url}")
                             return github_raw_url
                         else:
-                            # Altrimenti restituisci il percorso assoluto
+                            # Otherwise return the absolute path
                             return absolute_output_filename
                         
                     except Exception as e:
                         print(f"[!] Error creating the combined image: {e}")
-                        # Se fallisce, restituisci solo il primo logo trovato
+                        # If it fails, return only the first found logo
                         return logo1_url or logo2_url
                 
-                # Se non abbiamo trovato entrambi i loghi, restituisci quello che abbiamo
+                # If we didn't find both logos, return what we have
                 return logo1_url or logo2_url
             if ':' in event_name:
-                # Usa la parte prima dei ":" per la ricerca
+                # Use the part before ":" for the search
                 prefix_name = event_name.split(':', 1)[0].strip()
                 print(f"[🔍] Trying logo search with prefix: {prefix_name}")
                 
-                # Prepare the search query con il prefisso
+                # Prepare the search query with the prefix
                 search_query = urllib.parse.quote(f"{prefix_name} logo")
                 
                 # Use Bing Image Search with enhanced parameters
@@ -1229,11 +1229,11 @@ Returns the image URL if found, else None."""
                             print(f"[✓] Logo found with prefix: {matches[0]}")
                             return matches[0]
             
-            # Se non riusciamo a identificare le squadre e il prefisso non ha dato risultati, procedi con la ricerca normale
+            # If we can't identify teams and the prefix didn't give results, proceed with a normal search
             print(f"[🔍] Standard search for: {clean_event_name}")
             
             
-            # Se non riusciamo a identificare le squadre, procedi con la ricerca normale
+            # If we can't identify teams, proceed with a normal search
             # Prepare the search query piÃÂ¹ specifica
             search_query = urllib.parse.quote(f"{clean_event_name} logo")
             
@@ -1358,7 +1358,7 @@ Returns the image URL if found, else None."""
                     except Exception as e:
                         print(f"[!] Error analyzing JSON: {e}")
                 
-                print(f"[!] No logo found per '{team_name}' con i pattern standard")
+                print(f"[!] No logo found for '{team_name}' with standard patterns")
                 
                 # Last attempt: search for any image URL in the page
                 any_img = re.search(r'(https?://[^"\']+\.(?:png|jpg|jpeg|svg|webp))', response.text)
@@ -1366,7 +1366,7 @@ Returns the image URL if found, else None."""
                     return any_img.group(1)
                     
         except Exception as e: 
-            print(f"[!] Error nella ricerca del logo per '{team_name}': {e}") 
+            print(f"[!] Error searching for logo for '{team_name}': {e}") 
         
         # Se non troviamo nulla, restituiamo None 
         return None
@@ -1444,7 +1444,7 @@ Returns the image URL if found, else None."""
                                 "tvg_name": tvg_name, 
                                 "channel_name": channel_name, 
                                 "channel_id": channel_id,
-                                "event_title": event_title  # Aggiungiamo il titolo dell'evento per la ricerca del logo
+                                "event_title": event_title  # Add the event title for logo search
                             }) 
      
         return categorized_channels 
@@ -2938,7 +2938,7 @@ def italy_channels():
                     channels_by_category[category].append({
                         "name": display_name,      # Nome modificato per display
                         "url": url,
-                        "logo": logo,             # Logo trovato con nome modificato
+                        "logo": logo,             # Logo found con nome modificato
                         "tvg_id": tvg_id         # TVG-ID trovato con nome modificato
                     })
 
@@ -3067,7 +3067,7 @@ def italy_channels():
         """Risolve lo stream URL per un canale Daddylive dato il suo ID."""
         # Usa direttamente il metodo .php
         raw_php_url = f"{LINK_DADDY.rstrip('/')}/watch.php?id={channel_id}"
-        print(f"URL .php per il canale Daddylive {channel_id}: {raw_php_url}")
+        print(f".php URL for Daddylive channel {channel_id}: {raw_php_url}")
         return raw_php_url
 
     def fetch_channels_from_daddy_json(json_url):
@@ -3456,7 +3456,7 @@ def search_m3u8_in_sites(channel_id, is_tennis=False, session=None):
     LINK_DADDY = os.getenv("LINK_DADDY", "").strip() or "https://dlhd.dad"
     # Directly returns the .php URL come richiesto
     embed_url = f"{LINK_DADDY}/watch.php?id={channel_id}"
-    print(f"URL .php per il canale Daddylive {channel_id}: {embed_url}")
+    print(f".php URL for Daddylive channel {channel_id}: {embed_url}")
     return embed_url
 
 def remover_cache():
